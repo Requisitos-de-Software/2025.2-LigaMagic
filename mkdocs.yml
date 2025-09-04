@@ -1,0 +1,25 @@
+repo_url: https://github.com/Requisitos-de-Software/2025.2-Grupo02
+repo_name: 2025.2-Grupo02
+
+site_name: My Docs
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Apresentação:
+      - Apresentação 1: apresentacao/apresentacao1.md 
+  - Atas: 
+      - Ata 1: atas/ata1.md
+  - Planejamento:
+      - Planejamento 1: planejamento/planejamento1.md
+  - Verificação:
+    - Grupos + 1:
+        - Entrega 1:
+          - Planejamento da verificação 1 do grupo 3: verificacao/grupos/grupo3/entrega1/planejamento.md
+          - Rich Picture: verificacao/grupos/grupo3/entrega1/richpicture.md
+  - Grupo:
+    - Entrega 1:
+      - Planejamento da verificação da entrega 1: grupo/entrega1/planejamento.md
+      - Rich Picture: grupo/entrega1/richpicture.md
