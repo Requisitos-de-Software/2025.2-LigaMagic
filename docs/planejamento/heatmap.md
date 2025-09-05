@@ -18,3 +18,7 @@ O Heatmap tem como objetivo:
 
 [Visualizar a palinlha no navegador](https://docs.google.com/spreadsheets/d/1rmNnHs-xx25Fk_oEFq5nTZbEbZDdWs5HknRXCMq0qLM/edit?usp=sharing)
 
+## Histórico de versão
+| Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
+|:--:|:------------:|:-----------:|:----:| :----:|
+|  1.0  |       05/09/2025       |       Criação da Documentação	      |   Angélica   |      |
