@@ -76,3 +76,8 @@ Presente: Marcar somente as pessoas que participaram da reunião
 | Nº | Compromissos | Responsável | Data |
 |:--:|:------------:|:-----------:|:----:|
 |    |              |             |      |
+
+## Histórico de versão
+| Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
+|:--:|:------------:|:-----------:|:----:| :----:|
+|  1.0  |       04/09/2025       |       Criação da Documentação	      |   Angélica   |      |
