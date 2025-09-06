@@ -1,13 +1,16 @@
-# Welcome to MkDocs
+# Grupo 2 - LigaMagic
+Este espaço reúne toda a documentação referente ao processo de levantamento do grupo 2 na disciplina de Requisitos de Software da Faculdade de Ciências e Tecnologias em Engenharia - Campus UnB Gama durante o 2º semestre de 2025, análise e especificação de requisitos da comunidade escolhida:
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Figura 1: Logo da LigaMagic
 
-## Commands
+[![Logo da LigaMagic](imagemLogo.png)](https://www.ligamagic.com.br/?view=home)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Fonte: [LigaMagic](https://www.ligamagic.com.br/?view=home)
+
+LigaMagic é a maior comunidade brasileira dedicada ao jogo Magic: The Gathering, oferecendo ferramentas de gerenciamento de coleções, compra e venda de cartas, além de conteúdos e interações entre jogadores.
+
+## Objetivo do Projeto
+O objetivo é aplicar os conceitos de Engenharia de Requisitos usando a comunidade LigaMagic.
 
 ## Grupo
 
@@ -24,3 +27,9 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     <td align="center"><a href="https://github.com/verabelucia"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/78658486?v=4" width="100px;" alt=""/><br /><sub><b>VERA LUCIA BEZERRA DA SILVA</b></sub></a><br />
   </tr>
 </table>
+
+## Histórico de versão
+| Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
+|:--:|:------------:|:-----------:|:----:| :----:|
+|  1.0  |       04/09/2025       |       Criação da git page	      |   Samuel   |   Angélica   |
+|  1.1  |       06/09/2025       |       Adição da intro, Objetivo e logo da LigaMagic	      |   Angélica   |      |
