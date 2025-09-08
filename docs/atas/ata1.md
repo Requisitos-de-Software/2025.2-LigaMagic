@@ -45,12 +45,10 @@
 | 5 | Criação do Rich Picture do app escolhido | Definição |
 | 6 | Heatmap – já em criação, precisa apenas ser preenchido | Pendência |
 
-
 ## Próxima Reunião
-09/09/205 ás 19h
+08/09/205 ás 19h
 
 ## Compromissos
-
 | Nº | Compromissos | Responsável | Data |
 |:--:|:------------:|:-----------:|:----:|
 | 1 | Criar GitPages | Samuel | - |
@@ -62,4 +60,4 @@
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|
-|  1.0  |       05/09/2025       |       Criação da Documentação	      |   Angélica   |      |
+|  1.0  |       05/09/2025       |       Criação da Documentação	      |   Angélica   |   Raissa   |

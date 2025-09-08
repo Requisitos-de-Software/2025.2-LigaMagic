@@ -1,5 +1,8 @@
 # Ata Padrão
 
+## Introdução 
+Nesta seção são mantidos os registros oficiais de todas as reuniões realizadas. As atas servem como documento oficial para acompanhamento do progresso e transparência dos processos de tomada de decisão.
+
 ## Identificação
 
 [ Data: Data de realização da reunião
@@ -21,8 +24,8 @@ Presente: Marcar somente as pessoas que participaram da reunião
 
 | Convocados | Presente (Sim/Não) | E-mail |
 |:----------:|:------------------:|:------:|
-| ANGELICA DA COSTA CAMPOS | Não |  |
-| GUILHERME OLIVEIRA | Sim |  |
+| ANGELICA DA COSTA CAMPOS | Sim | angelicadacostacampos@gmail.com |
+| GUILHERME OLIVEIRA | Sim | raissaandrade8@gmail.com |
 | MARCELO DE ARAUJO LOPES | Sim |  |
 | RAISSA ANDRADE SILVEIRA | Sim |  |
 | SAMUEL NOGUEIRA CAETANO | Sim |  |
@@ -72,12 +75,16 @@ Presente: Marcar somente as pessoas que participaram da reunião
 ## Compromissos
 
 [Registrar os compromissos acordados durante a reunião (identificados como pendências nos assuntos tratados), identificando o responsável e a data acordada para a conclusão da atividade.]
-
 | Nº | Compromissos | Responsável | Data |
 |:--:|:------------:|:-----------:|:----:|
 |    |              |             |      |
 
+## Fonte 
+Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](https://aprender3.unb.br/pluginfile.php/3259329/mod_resource/content/2/SiglaProjeto_AtaReuniao_AAAAMMDD_XX.pdf).
+
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|
-|  1.0  |       04/09/2025       |       Criação da Documentação	      |   Angélica   |      |
+|  1.0  |       04/09/2025       |       Criação da Documentação	      |   Angélica   |   Raissa   |
+|  1.1  |       08/09/2025       |       Adiciona a fonte da ata padrão em PDF, introdução da pagina	      |   Angélica   |   Raissa   |
+
