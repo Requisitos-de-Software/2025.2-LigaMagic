@@ -17,10 +17,10 @@ Os critérios considerados foram: o aplicativo ou comunidade não ter sido explo
 
 
 ## Termos de uso
-O conteúdo aqui apresentado é uma cópia fiel do documento original, mantido integralmente para preservar a autenticidade das informações e assegurar a transparência da análise. Este termo foi retirado da pagina oficial da [ligamagic](https://www.ligamagic.com.br/?view=contrato). Termo em PDF [Documento PDF](/planejamento/TermoseCondiçõesGeraisdeUso.pdf).
+O conteúdo aqui apresentado é uma cópia fiel do documento original, mantido integralmente para preservar a autenticidade das informações e assegurar a transparência da análise. Este termo foi retirado da pagina oficial da [ligamagic](https://www.ligamagic.com.br/?view=contrato). Termo em PDF [Documento PDF](TermoseCondicoesGeraisdeUso.pdf).
 
 
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|
-|  1.0  |       06/09/2025       |       Criação da Documentação	      |   Angélica   |      |
+|  1.0  |       06/09/2025       |       Criação da Documentação	      |   Angélica   |   Vera   |
