@@ -1,5 +1,7 @@
 # Apresentação 1
 
+## Introdução
+Esta seção documenta a primeira apresentação do projeto da disciplina de Requisitos de Software, correspondente à entrega 1. A apresentação contempla desde a formação da equipe e seleção do aplicativo até o detalhamento do cronograma e ferramentas que serão utilizadas ao longo do semestre, seguindo rigorosamente os critérios definidos no plano de ensino da disciplina.
 
 ## Video da apresentação 1
 
@@ -27,4 +29,4 @@ A **Entrega 1** consiste na apresentação inicial do projeto e deve contemplar 
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|
-|  1.0  |       05/09/2025       |       Documentação da apresentação		      |   Angélica   |      |
+|  1.0  |       05/09/2025       |       Documentação da apresentação		      |   Angélica   |   Marcelo   |
