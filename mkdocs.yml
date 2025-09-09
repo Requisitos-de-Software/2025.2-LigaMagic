@@ -49,6 +49,10 @@ nav:
       - Ferramentas: planejamento/ferramentas.md
       - Heatmap: planejamento/heatmap.md
       - Aplicativo Escolhido: planejamento/aplicativoescolhido.md
+  - Pré-rastreabilidade:
+    - Rich Picture: Pré-rastreabilidade\richpicture.md
+
+
       
 
   - Verificação:
@@ -60,4 +64,3 @@ nav:
     - Entrega 1:
       - Planejamento da verificação da entrega 1: grupo/entrega1/planejamento.md
       - Rich Picture: grupo/entrega1/richpicture.md
-
