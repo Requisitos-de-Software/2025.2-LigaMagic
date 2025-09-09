@@ -1,4 +1,4 @@
-# Ata Padrão
+# Ata 2 - 08/09/2025
 
 ## Introdução 
 Nesta seção são mantidos os registros oficiais de todas as reuniões realizadas. As atas servem como documento oficial para acompanhamento do progresso e transparência dos processos de tomada de decisão.
@@ -16,7 +16,7 @@ Presente: Marcar somente as pessoas que participaram da reunião
 
 | Data | Horário de Início | Horário de Término | Local | Projeto | Redator |
 |:----:|:-----------------:|:------------------:|:-----:|:-------:|:-------:|
-|      |                   |                    |       |         |         |
+|   08/09/2025   |         19:00          |         20:30           |   Online na plataforma Teams    |     ligamagic    |     Angélica e Guilherme    |
 
 ## Participantes da reunião
 
@@ -38,7 +38,10 @@ Presente: Marcar somente as pessoas que participaram da reunião
 
 | Nº | Descrição |
 |:--:|:---------:|
-|    |           |
+|  1  |     Revisar o projeto com a lista de verificação      |
+|  2  |     Planejar a apresentação       |
+|  3  |     Marcar a proxima reunião de apresentação       |
+
 
 ## Pendências Anteriores
 
@@ -46,7 +49,8 @@ Presente: Marcar somente as pessoas que participaram da reunião
 
 | Nº | Pendência | Responsável | Data |
 |:--:|:---------:|:-----------:|:----:|
-|    |           |             |      |
+|    |         |             |      |
+
 
 ## Assuntos Tratados
 
@@ -54,7 +58,10 @@ Presente: Marcar somente as pessoas que participaram da reunião
 
 | Nº | Descrição | Tipo¹ |
 |:--:|:---------:|:-----:|
-|    |           |       |
+|  1  |    Revisar o projeto com a lista de verificação     |    Solicitação   |
+|  2  |    Planejar a apresentação       |    Decisão   |
+|  3  |      Marcar a proxima reunião de apresentação     |    Definição   |
+
 
 **Tipos¹:**
 
@@ -70,14 +77,14 @@ Presente: Marcar somente as pessoas que participaram da reunião
 
 ## Próxima Reunião
 
-[Registrar quando será realizada a próxima reunião de mesma natureza.]
+09/09/2025 ás 19 horas
 
 ## Compromissos
 [Registrar os compromissos acordados durante a reunião (identificados como pendências nos assuntos tratados), identificando o responsável e a data acordada para a conclusão da atividade.]
 
 | Nº | Compromissos | Responsável | Data |
 |:--:|:------------:|:-----------:|:----:|
-|    |              |             |      |
+|  1  |      Corrigir a opção de contraste de cores   |       Samuel      |   09/09/2025   |
 
 ## Fonte 
 Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](https://aprender3.unb.br/pluginfile.php/3259329/mod_resource/content/2/SiglaProjeto_AtaReuniao_AAAAMMDD_XX.pdf).
@@ -85,6 +92,5 @@ Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGI
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|
-|  1.0  |       04/09/2025       |       Criação da Documentação	      |   Angélica   |   Raissa   |
-|  1.1  |       08/09/2025       |       Adiciona a fonte da ata padrão em PDF, introdução da pagina	      |   Angélica   |   Raissa   |
+|  1.0  |       08/09/2025       |       Criação da Documentação	      |   Angélica   |   Guilherme   |
 
