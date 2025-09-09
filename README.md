@@ -1,7 +1,7 @@
 # Projeto 2025.2 – Grupo 02 (Requisitos de Software)
 
 Bem-vindo ao repositório do **Grupo 02**, da disciplina **Requisitos de Software (2025.2)**, da Universidade de Brasília (FCTE-UnB). Nosso ambiente de documentação está hospedado usando **MkDocs**, e está disponível online em:  
-[https://requisitos-de-software.github.io/2025.2-Grupo02](https://requisitos-de-software.github.io/2025.2-Grupo02/)
+[https://requisitos-de-software.github.io/2025.2-Grupo02](https://requisitos-de-software.github.io/2025.2-LigaMagic/)
 
 ##  Como Executar o Projeto Localmente
 Caso queira ver ou editar a documentação localmente:
