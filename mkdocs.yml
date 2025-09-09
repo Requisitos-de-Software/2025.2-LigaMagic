@@ -12,17 +12,20 @@ theme:
     - search.suggest
     - search.highlight
   palette:
+    # Paleta para o modo claro
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: orange
+      accent: orange
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-7
         name: Mudar para modo escuro
+
+    # Paleta para o modo escuro
     - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-4
         name: Mudar para modo claro
 
 markdown_extensions:
