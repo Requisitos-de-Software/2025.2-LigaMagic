@@ -25,12 +25,12 @@ Presente: Marcar somente as pessoas que participaram da reunião
 | Convocados | Presente (Sim/Não) | E-mail |
 |:----------:|:------------------:|:------:|
 | ANGELICA DA COSTA CAMPOS | Sim | angelicadacostacampos@gmail.com |
-| GUILHERME OLIVEIRA | Sim | raissaandrade8@gmail.com |
+| GUILHERME OLIVEIRA | Sim | guilhermeoliveira.carreira@hotmail.com |
 | MARCELO DE ARAUJO LOPES | Sim |  |
-| RAISSA ANDRADE SILVEIRA | Sim |  |
-| SAMUEL NOGUEIRA CAETANO | Sim |  |
-| THIAGO VIRIATO ACCIOLY | Sim |  |
-| VERA LUCIA BEZERRA DA SILVA | Sim |  |
+| RAISSA ANDRADE SILVEIRA | Sim | raissaandrade8@gmail.com |
+| SAMUEL NOGUEIRA CAETANO | Sim | samueln.caetano42@gmail.com |
+| THIAGO VIRIATO ACCIOLY | Sim | thiagoacciolyv@gmail.com |
+| VERA LUCIA BEZERRA DA SILVA | Sim | verabelucia@gmail.com |
 
 ## Pauta
 

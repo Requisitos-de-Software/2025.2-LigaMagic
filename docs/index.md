@@ -3,7 +3,7 @@ Este espaço reúne toda a documentação referente ao processo de levantamento 
 
 Figura 1: Logo da LigaMagic
 
-[![Logo da LigaMagic](imagemLogo.png)](https://www.ligamagic.com.br/?view=home)
+[![Logo da LigaMagic](LigaMagic_Logo.png)](https://www.ligamagic.com.br/?view=home)
 
 Fonte: [LigaMagic](https://www.ligamagic.com.br/?view=home)
 
@@ -12,7 +12,7 @@ LigaMagic é a maior comunidade brasileira dedicada ao jogo Magic: The Gathering
 ## Objetivo do Projeto
 O objetivo é aplicar os conceitos de Engenharia de Requisitos usando a comunidade LigaMagic.
 
-## Grupo
+## Grupo 02
 
 ### Integrantes
 

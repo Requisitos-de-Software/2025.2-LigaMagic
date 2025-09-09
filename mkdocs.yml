@@ -1,10 +1,29 @@
 repo_url: https://github.com/Requisitos-de-Software/2025.2-Grupo02
 repo_name: 2025.2-Grupo02
 
-site_name: My Docs
+site_name: Projeto Grupo 02
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
 
 nav:
   - Home: index.md
@@ -17,8 +36,8 @@ nav:
 
   - Planejamento:
       - Guias:
-        - Contribuição: planejamento\guias\contribuicao.md
-        - Ata Padão: planejamento\guias/atapadrao.md
+        - Contribuição: planejamento/guias/contribuicao.md
+        - Ata Padão: planejamento/guias/atapadrao.md
 
       - Ferramentas: planejamento/ferramentas.md
       - Heatmap: planejamento/heatmap.md
@@ -34,3 +53,4 @@ nav:
     - Entrega 1:
       - Planejamento da verificação da entrega 1: grupo/entrega1/planejamento.md
       - Rich Picture: grupo/entrega1/richpicture.md
+
