@@ -3,7 +3,6 @@
 ## Introdução
 Este documento apresenta o **Heatmap de disponibilidade da equipe**, utilizado para planejar as atividades do projeto e a alocação de tarefas do grupo 2 da disciplina de Requisitos de Software. Este heatmap foi adaptado a partir de materiais de outra matéria, sem referência oficial disponível.
 
-
 ## Objetivo
 
 O Heatmap tem como objetivo:  
