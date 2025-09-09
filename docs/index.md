@@ -3,7 +3,11 @@ Este espaço reúne toda a documentação referente ao processo de levantamento 
 
 Figura 1: Logo da LigaMagic
 
-[![Logo da LigaMagic](LigaMagic_Logo.png)](https://www.ligamagic.com.br/?view=home)
+<div style="text-align: center;">
+  <a href="https://www.ligamagic.com.br/?view=home">
+    <img src="LigaMagic_Logo.png" alt="Logo da LigaMagic">
+  </a>
+</div>
 
 Fonte: [LigaMagic](https://www.ligamagic.com.br/?view=home)
 
@@ -21,7 +25,7 @@ O objetivo é aplicar os conceitos de Engenharia de Requisitos usando a comunida
     <td align="center"><a href="https://github.com/angelicaccampos"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/82877749?v=4" width="100px;" alt=""/><br /><sub><b>ANGELICA DA COSTA CAMPOS</b></sub></a><br />
     <td align="center"><a href="https://github.com/GuilhermeOliveira1327"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/185217197?v=4" width="100px;" alt=""/><br /><sub><b>GUILHERME OLIVEIRA</b></sub></a><br />
     <td align="center"><a href="https://github.com/MatielloAL"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/120605445?v=4" width="100px;" alt=""/><br /><sub><b>MARCELO DE ARAUJO LOPES</b></sub></a><br />
-    <td align="center"><a href=""><img style="border-radius: 50%;" src="" width="100px;" alt=""/><br /><sub><b>RAISSA ANDRADE SILVEIRA</b></sub></a><br />
+    <td align="center"><a href="https://github.com/RaissaAndradeS"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/100162150?v=4" width="100px;" alt=""/><br /><sub><b>RAISSA ANDRADE SILVEIRA</b></sub></a><br />
     <td align="center"><a href="https://github.com/samuelncaetano"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/157507873?v=4" width="100px;" alt=""/><br /><sub><b>SAMUEL NOGUEIRA CAETANO</b></sub></a><br />
     <td align="center"><a href="https://github.com/Acciolyy"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/163480434?v=4" width="100px;" alt=""/><br /><sub><b>THIAGO VIRIATO ACCIOLY</b></sub></a><br />
     <td align="center"><a href="https://github.com/verabelucia"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/78658486?v=4" width="100px;" alt=""/><br /><sub><b>VERA LUCIA BEZERRA DA SILVA</b></sub></a><br />
@@ -29,7 +33,9 @@ O objetivo é aplicar os conceitos de Engenharia de Requisitos usando a comunida
 </table>
 
 ## Histórico de versão
-| Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
-|:--:|:------------:|:-----------:|:----:| :----:|
-|  1.0  |       04/09/2025       |       Criação da git page	      |   Samuel   |   Angélica   |
-|  1.1  |       06/09/2025       |       Adição da intro, Objetivo e logo da LigaMagic	      |   Angélica   |      |
+
+| Versão |    Data    |                   Descrição                   | Autor(es) | Revisor(es) |
+|:------:|:----------:|:---------------------------------------------:|:---------:|:-----------:|
+|  1.0   | 04/09/2025 |              Criação da git page              |  Samuel   |  Angélica   |
+|  1.1   | 06/09/2025 | Adição da intro, Objetivo e logo da LigaMagic | Angélica  |             |
+|  1.2   | 09/09/2025 |    Adicionar a opção de contraste de cores    |  Samuel, Guilherme   |             |
