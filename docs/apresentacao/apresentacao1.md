@@ -1,8 +1,8 @@
 # Apresentação 1
 
 ## Introdução
-
 Esta seção reúne as informações referentes à primeira entrega do projeto, que corresponde à apresentação inicial. O objetivo é consolidar os principais elementos que dão base ao desenvolvimento, incluindo o planejamento do projeto, a definição da equipe, a seleção do aplicativo e demais artefatos exigidos nesta etapa. Dessa forma, estabelece-se uma visão geral organizada e alinhada com os critérios previstos no plano de ensino da disciplina.
+
 
 ## Video da apresentação 1
 
@@ -30,4 +30,4 @@ A **Entrega 1** consiste na apresentação inicial do projeto e deve contemplar 
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|
-|  1.0  |       05/09/2025       |       Documentação da apresentação		      |   Angélica   |      |
+|  1.0  |       05/09/2025       |       Documentação da apresentação		      |   Angélica   |   Marcelo   |

@@ -1,6 +1,9 @@
+# Guia de contribuição
+
+
 ## Introdução
 
-Este documento tem o objetivo de consolidar padrões de uso do Git no desenvolvimento doa projeto. Neste projeto usaremos uma adaptação do padrão git flow. Este conceito tem seu fundamento na organização de repositórios, atribuindo políticas de uso e restrições de segurança, sempre com o objetivo de cumprir com as práticas mais adequadas, observadas e aperfeiçoadas ao longo do tempo. Nota-se que o idioma que se seguirá na política de constribuição é o português.
+Este documento tem o objetivo de consolidar padrões de uso do Git no desenvolvimento doa projeto. Neste projeto usaremos uma adaptação do padrão git flow. Este conceito tem seu fundamento na organização de repositórios, atribuindo políticas de uso e restrições de segurança, sempre com o objetivo de cumprir com as práticas mais adequadas, observadas e aperfeiçoadas ao longo do tempo. Nota-se que o idioma que se seguirá na política de constribuição é o português. Este guia foi adaptado a partir de materiais de outra matéria, sem referência oficial disponível.
 
 ## Fluxo de Branches
 
@@ -55,7 +58,33 @@ Exemplo de commit:
 
 Por meio do processo de pull request, realizado no GitHub, toda nova funcionalidade deve ser integrada à branch ```Main```. Mas isso semente será feito após todos os critérios de sucesso para a feature estarem atendidos.
 
+## Testes Locais
+Antes de enviar um PR com alterações na documentação:
+```
+# Construir localmente
+mkdocs build
+
+# Testar em servidor local
+mkdocs serve
+
+```
+
+## Deploy
+O deploy para GitHub Pages é automatizado via:
+
+```mkdocs gh-deploy
+```
+
+## Deploy
+Sempre inclua fontes quando utilizar materiais externos:
+
+- **Fonte:** MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. 
+
+- *Documento de Referência*. Disponível em: [link]
+
+
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|
-|  1.0  |       06/09/2025       |       Versão inicial da pagina	      |   Angélica   |      |
+|  1.0  |       06/09/2025       |       Versão inicial da pagina	      |   Angélica   |   Samuel   |
+|  1.1  |       09/09/2025       |       Adiciona guia de contribuição com MkDocs	      |   Angélica   |   Samuel   |
