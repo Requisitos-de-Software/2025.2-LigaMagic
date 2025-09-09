@@ -1,6 +1,7 @@
 # Heatmap de Disponibilidade dos Integrantes
 
-Este documento apresenta o **Heatmap de disponibilidade da equipe**, utilizado para planejar as atividades do projeto e a alocação de tarefas durante a **Entrega 1** da disciplina de Requisitos de Software.
+## Introdução
+Este documento apresenta o **Heatmap de disponibilidade da equipe**, utilizado para planejar as atividades do projeto e a alocação de tarefas do grupo 2 da disciplina de Requisitos de Software.
 
 
 ## Objetivo
@@ -14,9 +15,6 @@ O Heatmap tem como objetivo:
 
 ## Estrutura do Heatmap
 [Visualizar PDF dos Horários Gerais](horarios_gerais.pdf)
-
-
-[Visualizar a palinlha no navegador](https://docs.google.com/spreadsheets/d/1rmNnHs-xx25Fk_oEFq5nTZbEbZDdWs5HknRXCMq0qLM/edit?usp=sharing)
 
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
