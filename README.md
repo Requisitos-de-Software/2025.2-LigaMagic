@@ -1,5 +1,11 @@
 # Projeto 2025.2 – Grupo 02 (Requisitos de Software)
 
+<div style="text-align: center">
+    <img src=https://www.lmcorp.com.br/arquivos/img/assets/logo_tcg_1.png alt="Logo da LigaMagic">
+</div>
+
+Fonte: [LigaMagic](https://www.ligamagic.com.br/?view=home)
+
 Bem-vindo ao repositório do **Grupo 02**, da disciplina **Requisitos de Software (2025.2)**, da Universidade de Brasília (FCTE-UnB). Nosso ambiente de documentação está hospedado usando **MkDocs**, e está disponível online em:  
 [https://requisitos-de-software.github.io/2025.2-Grupo02](https://requisitos-de-software.github.io/2025.2-LigaMagic/)
 
