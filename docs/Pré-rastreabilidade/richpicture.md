@@ -19,10 +19,8 @@ Ao criar um Rich Picture, o objetivo é representar visualmente todos os element
   <strong>Figura 2: Rich Picture ligamagic (Fonte: Autor, 2025)</strong>
 </p>
 
-**Autor:** Marcelo de Araújo Lopes
+## Histórico de versão
 
-**Descrição:** Rich Picture ligamagic
-
-**Data:** 9 de setembro de 2025
-
-**Versão:** 1.0
+| Versão |    Data    |                   Descrição                   | Autor(es) | Revisor(es) |
+|:------:|:----------:|:---------------------------------------------:|:---------:|:-----------:|
+|  1.0   | 09/09/2025 |              Rich Picture ligamagic           |  Marcelo  |  Guilherme  |
