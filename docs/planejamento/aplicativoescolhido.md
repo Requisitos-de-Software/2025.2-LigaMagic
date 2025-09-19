@@ -19,9 +19,14 @@ A escolha pelo **LigaMagic** se deu por ser uma comunidade já consolidada e de 
 ## Termos de uso
 O conteúdo aqui apresentado é uma cópia fiel do documento original, mantido integralmente para preservar a autenticidade das informações e assegurar a transparência da análise. Este termo foi retirado da pagina oficial da [ligamagic](https://www.ligamagic.com.br/?view=contrato). Termo em PDF [Termo em PDF](TermoseCondicoesGeraisdeUso.pdf).
 
+## Autorização de uso acadêmico
+A utilização do aplicativo LigaMagic para fins acadêmicos no contexto deste projeto foi autorizada pela equipe de suporte do aplicativo, por meio de comunicação formal realizada via e-mail.
+O e-mail de autorização está disponível para consulta e download, garantindo transparência e registro da permissão concedida:
+[Autorização em PDF](Gmail-PedidodeautorizacaoparausodoaplicativoLigamagicemprojetoacademico.pdf).
 
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|
 |  1.0  |       06/09/2025       |       Criação da Documentação	      |   Angélica   |   Vera   |
 |  1.1  |       09/09/2025       |       Adição da motivações de escolha e introdução	      |   Angélica   |   Vera   |
+|  1.2  |       19/09/2025       |       Adição da autorização de uso acadêmico	      |   Angélica   |   Vera   |
