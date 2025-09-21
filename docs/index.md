@@ -32,6 +32,14 @@ O objetivo é aplicar os conceitos de Engenharia de Requisitos usando a comunida
   </tr>
 </table>
 
+
+## Nível de Contribuição dos Integrantes
+
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+| Angélica  | 50%               |
+|  Samuel | 50%               |
+
 ## Histórico de versão
 
 | Versão |    Data    |                   Descrição                   | Autor(es) | Revisor(es) |

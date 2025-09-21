@@ -16,6 +16,13 @@ O Heatmap tem como objetivo:
 ![Heatmap](horarios_geraisimagem.jpg)
 [Visualizar PDF dos Horários Gerais](horarios_gerais.pdf)
 
+## Nível de Contribuição dos Integrantes
+
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+| Angélica  | 100%               |
+
+
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|

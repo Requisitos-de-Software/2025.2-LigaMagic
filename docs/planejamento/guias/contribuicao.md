@@ -82,6 +82,12 @@ Sempre inclua fontes quando utilizar materiais externos:
 
 - *Documento de Referência*. Disponível em: [link]
 
+## Nível de Contribuição dos Integrantes
+
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+| Angélica  | 100%               |
+
 
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |

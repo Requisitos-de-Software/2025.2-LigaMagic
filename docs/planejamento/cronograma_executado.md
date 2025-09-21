@@ -52,7 +52,12 @@ Este artefato tem como objetivo apresentar o cronograma executado do projeto, re
 
 > 1.Plano de ensino Disponível em: [Aprender 3 Unb](https://aprender3.unb.br/pluginfile.php/3210494/mod_resource/content/66/FGA0313%20-%20T03%20Assinado.pdf). Acesso em: 09 set 2025
 
+## Nível de Contribuição dos Integrantes
 
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+| Raissa  | 50%               |
+|  Vera  | 50%               |
 
 
 ## Histórico de versão

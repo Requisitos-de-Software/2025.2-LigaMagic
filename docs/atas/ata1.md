@@ -65,6 +65,13 @@ Nesta seção são mantidos os registros oficiais de todas as reuniões realizad
 ## Fonte 
 Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](https://aprender3.unb.br/pluginfile.php/3259329/mod_resource/content/2/SiglaProjeto_AtaReuniao_AAAAMMDD_XX.pdf).
 
+
+## Nível de Contribuição dos Integrantes
+
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+| Angélica  | 100%               |
+
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|

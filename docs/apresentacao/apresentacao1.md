@@ -27,6 +27,13 @@ A **Entrega 1** consiste na apresentação inicial do projeto e deve contemplar 
 ### Fonte: Plano de Ensino da disciplina de Requisitos de Software
 
 
+## Nível de Contribuição dos Integrantes
+
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+| Angélica  | 50%               |
+|   | 50%               |
+
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|

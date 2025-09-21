@@ -19,6 +19,12 @@ A escolha pelo **LigaMagic** se deu por ser uma comunidade já consolidada e de 
 ## Termos de uso
 O conteúdo aqui apresentado é uma cópia fiel do documento original, mantido integralmente para preservar a autenticidade das informações e assegurar a transparência da análise. Este termo foi retirado da pagina oficial da [ligamagic](https://www.ligamagic.com.br/?view=contrato). Termo em PDF [Termo em PDF](TermoseCondicoesGeraisdeUso.pdf).
 
+## Nível de Contribuição dos Integrantes
+
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+| Angélica  | 100%               |
+
 
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |

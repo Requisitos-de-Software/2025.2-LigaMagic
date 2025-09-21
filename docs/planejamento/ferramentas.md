@@ -40,6 +40,13 @@ Com objetivo de desenvolver o projeto, foram utilizadas ferramentas específicas
 - [Lucidchart](https://www.lucidchart.com/pages/pt/landing?utm_source=google&utm_medium=cpc&utm_campaign=_chart_pt_allcountries_mixed_search_brand_phrase_&km_CPC_CampaignId=1500131479&km_CPC_AdGroupID=57888677956&km_CPC_Keyword=%2Blucidcharts&km_CPC_MatchType=b&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_AdPosition=&km_CPC_Creative=286634000599&km_CPC_TargetID=kwd-334618660008&km_CPC_Country=9198361&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&gad_source=1&gad_campaignid=1500131479&gbraid=0AAAAADLdSjA18ykxm14mE7lUqLs6ashw3&gclid=CjwKCAjw_fnFBhB0EiwAH_MfZlCmYLJP2kdqgcFU59669Ykc02AZTsR8oOI764h1ExXfYqPf8itx1hoCGQ4QAvD_BwE) Acesso em: 8 de set. de 2025.  
 - [ThisPersonDoesNotExist](https://thispersondoesnotexist.tools/) Acesso em: 8 de set. de 2025.  
 
+## Nível de Contribuição dos Integrantes
+
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+| Thiago | 100%               |
+
+
 ## Histórico de Versões
 
 | **Versão** | **Data** | **Descrição** | **Autor(es)** | **Revisor(es)** |
