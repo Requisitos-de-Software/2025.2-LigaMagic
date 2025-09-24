@@ -20,6 +20,7 @@ Para orientar a análise do documento, foram elaboradas questões para ajudar e 
 |  08  | O sistema permite diferentes formas de pagamento (cartão, boleto, transferência)?                          |
 |  09  | Existe diferenciação entre tipos de usuários (ex.: gratuito e premium)?                                    |
 
+Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
 ---
 ## Requisitos Funcionais 
@@ -37,4 +38,18 @@ Para orientar a análise do documento, foram elaboradas questões para ajudar e 
 | RF9  | Deve permitir troca de mensagens privadas                        |         Comunicação         | O sistema deve permitir que usuários troquem mensagens privadas de forma segura                      |
 | RF10 | Deve permitir criação de páginas pessoais                        |  Gerenciamento de Usuários  | O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional      |
 | RF11 | Deve permitir envio e respostas a mensagens no fórum             |   Comunicação Comunitária   | O sistema deve possibilitar a participação dos usuários em fóruns de discussão (postagem e resposta) |
- 
+
+ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
+
+---
+
+## Bibliografia
+
+> 1. Site LigaMagic. Disponível em: https://www.ligamagic.com.br/?view=contrato. Acesso em: 24/09/2025.
+
+## Histórico de versão
+
+| Versão |    Data     |                        Descrição                        |                     Autor                     |                     Revisor                     |
+|:------:|:-----------:|:-------------------------------------------------------:|:---------------------------------------------:|:-----------------------------------------------:|
+|  1.0   | 24/09/2025  | Criação da estrutura da página de Analise de Documentos | [Vera Lucia](https://github.com/verabelucia)  | [Angélica](https://github.com/angelicaccampos)  |
+|  1.1   | 24/09/2024  |           Criação dos Requisitos Funcionais             | [Vera Lucia](https://github.com/verabelucia)  | [Angélica](https://github.com/angelicaccampos)  |
