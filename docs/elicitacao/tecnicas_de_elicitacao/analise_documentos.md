@@ -24,24 +24,24 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
 ---
 
-## Questões que orientaram a Análise do Documento Política de Proteção de Dados Pessoais
+## Questões que orientaram a análise do documento de Política de Proteção de Dados Pessoais
 Para orientar a análise do documento, foram elaboradas questões para ajudar e direcionar a leitura e a identificação de requisitos funcionais e não funcionais, feita com foco nos objetivos do sistema.
 
-| N°   | Questões                                                                                                   |
-|:----:|:-----------------------------------------------------------------------------------------------------------|
-|  01  | O documento informa quais dados pessoais são coletados?  |
-|  02  | São descritas as finalidades do uso de cada dado coletado?                    |
-|  03  | O documento explica a base legal para o tratamento de dados ?                             |
-|  04  | Há informações sobre armazenamento e tempo de retenção dos dados pessoais?   |
-|  05  | O documento detalha com quem os dados podem ser compartilhados?                                           |
-|  06  | O usuário é informado sobre seus direitos garantidos pela LGPD?                 |
-|  07  | Existe um canal de contato para o usuário exercer seus direitos de titular de dados?                   |
-|  08  | O documento menciona medidas de segurança adotadas para proteger os dados pessoais?                           |
+| N°   | Questões                                                                                                                   |
+|:----:|:---------------------------------------------------------------------------------------------------------------------------|
+|  01  | O documento informa quais dados pessoais são coletados?                                                                    |
+|  02  | São descritas as finalidades do uso de cada dado coletado?                                                                 |
+|  03  | O documento explica a base legal para o tratamento de dados ?                                                              |
+|  04  | Há informações sobre armazenamento e tempo de retenção dos dados pessoais?                                                 |
+|  05  | O documento detalha com quem os dados podem ser compartilhados?                                                            |
+|  06  | O usuário é informado sobre seus direitos garantidos pela LGPD?                                                            |
+|  07  | Existe um canal de contato para o usuário exercer seus direitos de titular de dados?                                       |
+|  08  | O documento menciona medidas de segurança adotadas para proteger os dados pessoais?                                        |
 |  09  | Estão previstos procedimentos em caso de incidente de segurança ou vazamento de dados?                                     |
-|  10  | O documento explica como os usuários serão avisados sobre alterações na política de dados?                                      |
-|  11  | O uso de cookies está descrito, com explicação sobre finalidade?                                      |
-|  12  | O usuário é informado que pode configurar seu navegador para controlar ou bloquear cookies?                                       |
-|  13  | O documento esclarece que o usuário deve manter seus dados atualizados e corretos, assumindo essa responsabilidade?                                    |
+|  10  | O documento explica como os usuários serão avisados sobre alterações na política de dados?                                 |
+|  11  | O uso de cookies está descrito, com explicação sobre finalidade?                                                           |
+|  12  | O usuário é informado que pode configurar seu navegador para controlar ou bloquear cookies?                                |
+|  13  | O documento esclarece que o usuário deve manter seus dados atualizados e corretos, assumindo essa responsabilidade?        |
 |  14  | O usuário declara ciência e concordância explícita com a política ao utilizar o portal?                                    |                                   
 
 Fonte: [Angélica](https://github.com/angelicaccampos), 2025
@@ -63,8 +63,41 @@ Fonte: [Angélica](https://github.com/angelicaccampos), 2025
 | RF9  | Deve permitir troca de mensagens privadas                        |         Comunicação         | O sistema deve permitir que usuários troquem mensagens privadas de forma segura                      |
 | RF10 | Deve permitir criação de páginas pessoais                        |  Gerenciamento de Usuários  | O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional      |
 | RF11 | Deve permitir envio e respostas a mensagens no fórum             |   Comunicação Comunitária   | O sistema deve possibilitar a participação dos usuários em fóruns de discussão (postagem e resposta) |
+| RF12 | Registrar dados pessoais do usuário                              |   Gerenciamento de Usuários | O sistema deve permitir o registro de dados como Nome, RG, CPF, Telefone, E-mail, Data de Nascimento e Endereço. |
+| RF13 | Utilizar dados para finalidades específicas                      |   Gestão de Serviços        | O sistema deve usar os dados pessoais para identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações. |
+| RF14 | Compartilhar dados com parceiros                                 |   Gestão de Serviços        | O sistema deve possibilitar o compartilhamento de dados pessoais com parceiros, respeitando finalidades declaradas. |
+| RF15 | Garantir direitos de titulares                                   |   Gerenciamento de Usuários | O sistema deve permitir que o usuário solicite acesso, correção, exclusão ou anonimização de seus dados pessoais. |
+| RF16 | Oferecer canal de contato para solicitações                      |   Suporte e Atendimento     | O sistema deve disponibilizar canal (e-mail ou link) para o exercício dos direitos do titular.        |
+| RF17 | Utilizar cookies para personalização                             |   Personalização            | O sistema deve utilizar cookies para facilitar login e personalizar a experiência de navegação.       |
+| RF18 | Permitir controle de cookies                                     |   Personalização            | O sistema deve permitir que o usuário configure seu navegador para aceitar ou bloquear cookies.       |
+| RF19 | Solicitar atualização de dados pessoais                          |   Gerenciamento de Usuários | O sistema deve permitir que o usuário atualize seus dados pessoais e comunicar alterações.            |
 
- Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
+ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github.com/angelicaccampos), 2025
+
+---
+
+## Requisitos Não Funcionais 
+| ID   | Requisitos                                                       |         Categoria           | Descrição                                                                                            |
+|:----:|:-----------------------------------------------------------------|:---------------------------:|:-----------------------------------------------------------------------------------------------------|
+| RNF1 | Cumprir legislações aplicáveis                                   |   Legal e Regulatório       | O sistema deve cumprir a LGPD (Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis. |
+| RNF3 | Adotar medidas de segurança                                      |   Segurança da Informação   | O sistema deve implementar padrões de segurança e privacidade alinhados às diretrizes do Banco Central do Brasil.|
+| RNF4 | Definir procedimentos para incidentes de segurança               |   Segurança da Informação   | O sistema deve prever ações em caso de incidente ou vazamento de dados pessoais.                      |
+| RNF5 | Notificar alterações de política                                 |   Transparência             | O sistema deve informar os usuários sobre mudanças relevantes na política com antecedência razoável.  |
+| RNF6 | Exigir consentimento e concordância explícita                    |   Legal e Regulatório       | O sistema deve garantir que o usuário declare ciência e concordância com a política ao usar o portal. |
+
+ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github.com/angelicaccampos), 2025
+
+---
+
+## Itens Não Implementados (NI)
+
+| ID   | Requisitos                   |         Categoria           | Descrição                                                                                            |
+|:----:|:-----------------------------|:---------------------------:|:-----------------------------------------------------------------------------------------------------|
+| NI01 | Armazenamento e Retenção	  |   Base Legal Específica	      | O documento não informa por quanto tempo os dados pessoais serão armazenados nem os critérios para definição desse prazo.  |
+| NI02 | Procedimento para Incidentes |   Procedimento para Incidentes| O documento não prevê ou detalha os procedimentos a serem adotados em caso de incidente de segurança ou vazamento de dados.|
+| NI03 | Base Legal Específica        |   Parcialmente Implementado   | O documento afirma o cumprimento da LGPD, mas não explica claramente a base legal específica (ex: consentimento, contrato, legítimo interesse) para cada finalidade de tratamento declarada.|
+
+ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github.com/angelicaccampos), 2025
 
 ---
 
