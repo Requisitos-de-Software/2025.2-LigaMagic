@@ -58,6 +58,10 @@ nav:
   - Verificacao:
     - Entrega 1:
       - Lista de verificação do Rich Picture: verificacao/entrega1/verificacao_richpicture.md
+    - Entrega 2:
+      - Lista de verificação:
+        - Técnica de elicitação: 
+          - Glossário: verificacao/entrega2/verificacao_glossario.md
 
   - Inspeção:
     - Grupos + 1:
@@ -69,3 +73,6 @@ nav:
     - Entrega 1:
       - Planejamento da verificação da entrega 1: grupo/entrega1/planejamento.md
       - Rich Picture: grupo/entrega1/richpicture.md
+    - Entrega 2:
+      - Técnica de elicitação:
+        - Glossário: grupo/entrega2/glossario.md
