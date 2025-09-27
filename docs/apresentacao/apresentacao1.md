@@ -5,7 +5,9 @@ Esta seção reúne as informações referentes à primeira entrega do projeto, 
 
 
 ## Video da apresentação 1
-
+Este vídeo foi gravado para registrar a apresentação da Etapa 1 do Grupo 2.  
+Nele, apresentamos os objetivos, a metodologia e as primeiras entregas do projeto, servindo como parte da documentação do processo.  
+[Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=mAeFDw2IV84)
 
 ##  Tabela 1 – Critérios para a Entrega 1
 

@@ -14,6 +14,13 @@ O Heatmap tem como objetivo:
 
 ## Estrutura do Heatmap
 ![Heatmap](horarios_geraisimagem.jpg)
+
+### Legenda do Heatmap
+
+- Verde: 100% de disponibilidade (todos os membros)
+- Amarelo: Disponibilidade majoritária (6 membros)
+- Vermelho: Disponibilidade limitada (5 ou menos membros)
+
 [Visualizar PDF dos Horários Gerais](horarios_gerais.pdf)
 
 ## Histórico de versão

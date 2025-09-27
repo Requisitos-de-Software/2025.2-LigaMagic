@@ -19,6 +19,7 @@ Ao criar um Rich Picture, o objetivo é representar visualmente todos os element
   <strong>Figura 1: Rich Picture ligamagic (Fonte: Autor, 2025)</strong>
 </p>
 
+
 ##Legenda
 Componentes do Rich Picture.
 
@@ -36,3 +37,5 @@ Componentes do Rich Picture.
 | Versão |    Data    |                   Descrição                   | Autor(es) | Revisor(es) |
 |:------:|:----------:|:---------------------------------------------:|:---------:|:-----------:|
 |  1.0   | 09/09/2025 |              Rich Picture ligamagic           |  Marcelo  |  Guilherme  |
+
+
