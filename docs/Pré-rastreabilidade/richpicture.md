@@ -23,7 +23,7 @@ Ao criar um Rich Picture, o objetivo é representar visualmente todos os element
 ##Legenda
 Componentes do Rich Picture.
 
-![Legenda](../../assets/logos/legenda.png)
+![Legenda](../../assets/logos/Legenda.png)
 
 <p align="center">
   <strong>Figura 2:  Legenda do Rich Picture ligamagic (Fonte: Autor, 2025)</strong>
