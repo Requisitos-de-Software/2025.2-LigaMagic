@@ -16,13 +16,23 @@ Ao criar um Rich Picture, o objetivo é representar visualmente todos os element
 ![Rich Picture do sistema Licamagic](../../assets/logos/RichPicture.png)
 
 <p align="center">
-  <strong>Figura 2: Rich Picture ligamagic (Fonte: Autor, 2025)</strong>
+  <strong>Figura 1: Rich Picture ligamagic (Fonte: Autor, 2025)</strong>
 </p>
 
-**Autor:** Marcelo de Araújo Lopes
+##Legenda
+Componentes do Rich Picture.
 
-**Descrição:** Rich Picture ligamagic
+![](../../assets/logos/legenda.png)
 
-**Data:** 9 de setembro de 2025
+<p align="center">
+  <strong>Figura 2:  Legenda do Rich Picture ligamagic (Fonte: Autor, 2025)</strong>
+</p>
 
-**Versão:** 1.0
+## Referências
+
+* Introducing Rich Pictures - Rich Picture Drawing Guidelines (Diretrizes para desenhar Rich Pictures). Aprender3. Disponível em: <https://aprender3.unb.br/pluginfile.php/3210571/mod_resource/content/2/1_5145791542719414573.pdf>. Acesso em: 27 set. 2025.
+## Histórico de versão
+
+| Versão |    Data    |                   Descrição                   | Autor(es) | Revisor(es) |
+|:------:|:----------:|:---------------------------------------------:|:---------:|:-----------:|
+|  1.0   | 09/09/2025 |              Rich Picture ligamagic           |  Marcelo  |  Guilherme  |
