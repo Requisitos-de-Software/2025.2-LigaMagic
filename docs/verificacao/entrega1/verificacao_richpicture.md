@@ -26,7 +26,6 @@ Esta etapa apresenta uma lista de verificação estruturada e detalhada para ava
 | 20  | **Utilizar o rich picture como desenho à mão livre** | Samuel   |
 | 21  | **Evitar ambiguidades visuais**                      | Angélica |
 
-
 ## Histórico de versão
 
 | Versão |    Data    |             Descrição              | Autor(es) | Revisor(es) |
