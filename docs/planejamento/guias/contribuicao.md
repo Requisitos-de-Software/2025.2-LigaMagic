@@ -75,7 +75,7 @@ O deploy para GitHub Pages é automatizado via:
 ```mkdocs gh-deploy
 ```
 
-## Deploy
+## Citação
 Sempre inclua fontes quando utilizar materiais externos:
 
 - **Fonte:** MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. 
