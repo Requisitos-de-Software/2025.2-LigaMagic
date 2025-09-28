@@ -36,19 +36,29 @@ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://githu
 ## Requisitos Funcionais 
 
 
-| Código | Requisito Funcional                                                                                                                                    | Nível de Prioridade |
-|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
-| RF01   | Permitir que o usuário pesquise cartas pelo nome                                                                                                       | Alta                |
-| RF02   | Permitir que o usuário filtre cartas por preço                                                                                                         | Alta                |
-| RF03   | Exibir os resultados da pesquisa de uma carta, mostrando preço, condição, idioma e reputação do vendedor, permitindo que o usuário compare os anúncios | Alta                |
-| RF04   | Permitir que o usuário realize a compra de cartas cadastradas, incluindo dados pessoais e endereço de entrega                                          | Alta                |
-| RF05   | Permitir que o usuário acesse seu histórico de compras e vendas com informações detalhadas                                                             | Alta                |
-| RF06   | Permitir que o usuário visualize decks publicados, com lista de cartas e explicação da estratégia                                                      | Média               |
-| RF07   | Permitir que o usuário busque tópicos, leia, responda e crie postagens no fórum                                                                        | Média               |
-| RF08   | Permitir que o usuário visualize detalhes de uma carta ao clicar no resultado da pesquisa                                                              | Alta                |
-| RF09   | Permitir que o usuário adicione cartas a uma lista de desejos ou carrinho                                                                              | Média               |
-| RF10   | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                                                                 | Média               |
- 
+## Requisitos Funcionais – Usuário Comprador
+
+| ID   | Requisitos                      | Categoria                | Descrição                                                                                                     |
+|------|---------------------------------|--------------------------|---------------------------------------------------------------------------------------------------------------|
+| RF01 | Pesquisa de cartas pelo nome    | Pesquisa e Filtragem     | Permitir que o usuário pesquise cartas pelo                                                                   |
+| RF02 | Filtrar cartas                  | Pesquisa e Filtragem     | Permitir que o usuário filtre cartas por preço, condição e idioma                                             |
+| RF03 | Exibir resultados da pesquisa   | Pesquisa e Filtragem     | Mostrar preço, condição, idioma e reputação do vendedor ao pesquisar uma carta                                |
+| RF04 | Realizar compra                 | Compra de Cartas         | Permitir que o usuário compre cartas cadastradas, incluindo dados pessoais e endereço de entrega              |
+| RF05 | Histórico de compras            | Gerenciamento de Usuário | Permitir que o usuário acesse seu histórico de compras com informações detalhadas                             |
+| RF06 | Visualizar decks                | Interação com Cartas     | Permitir que o usuário visualize decks publicados, com lista de cartas                                        |
+| RF07 | Fórum                           | Interação com Usuários   | Permitir que o usuário busque tópicos, leia, responda e crie postagens no fórum                               |
+| RF08 | Detalhes da carta               | Interação com Cartas     | Permitir que o usuário visualize detalhes de uma carta ao clicar no resultado da pesquisa                     |
+| RF09 | Adicionar a listas              | Gerenciamento de Usuário | Permitir que o usuário adicione cartas à lista de desejos, carrinho ou coleção                                |
+| RF10 | Avaliar ou dar feedback         | Interação com Usuários   | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                        |
+| RF11 | Informações detalhadas da carta | Interação com Cartas     | Mostrar edição, idioma, condição e preço médio de cada carta                                                  |
+| RF12 | Alerta de preço                 | Relatórios e Alertas     | Permitir que o usuário defina um alerta de preço para a carta selecionada                                     |
+| RF13 | Buscar decks relacionados       | Interação com Cartas     | Permitir que o usuário busque decks que utilizam a carta selecionada                                          |
+| RF14 | Preço médio por edição          | Relatórios e Alertas     | Permitir que o usuário visualize o preço médio da carta em diferentes edições e condições                     |
+| RF15 | Histórico de preços             | Relatórios e Alertas     | Permitir que o usuário acesse o histórico de preços da carta em formato gráfico                               |
+| RF16 | Adicionar a diferentes listas   | Gerenciamento de Usuário | Permitir que o usuário adicione a carta a diferentes listas (coleção, deck, lista de desejos, carrinho)       |
+| RF17 | Compartilhar carta              | Interação com Usuários   | Permitir que o usuário compartilhe informações da carta em redes sociais ou por link direto                   |
+| RF18 | Reportar problemas              | Interação com Usuários   | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) |
+                                                                               
 Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025
 
 ---
@@ -57,17 +67,19 @@ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://githu
 
 
 
-| Código   | Requisito Funcional                                                                                              | Nível de Prioridade |
-|----------|------------------------------------------------------------------------------------------------------------------|---------------------|
-| RNF01    | O site deve ser totalmente responsivo, garantindo boa visualização em computador, tablet e smartphone            | Alta                |
-| RNF02    | O site deve apresentar informações de cartas, anúncios e decks de forma organizada e legível                     | Alta                |
-| RNF03    | O sistema deve garantir a transmissão segura de dados pessoais e informações de pagamento                        | Alta                |
-| RNF04    | O sistema deve fornecer mensagens claras de sucesso ou erro ao realizar ações como cadastro, compra ou inscrição | Alta                |
-| RNF05    | O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge, Safari)                      | Alta                |
-| RNF06    | O sistema deve garantir backup automático dos dados de usuários e transações                                     | Média               |
-| RNF07    | Mensagens de alerta, erro ou confirmação devem ser exibidas de forma clara e consistente                         | Alta                |
-| RNF08    | O site deve criptografar dados sensíveis do usuário, como senhas e informações de pagamento                      | Alta                |
-| RNF09    | O site deve carregar corretamente em dispositivos móveis com telas menores que 6 polegadas                       | Alta                |
+## Requisitos Não Funcionais – Usuário Comprador
+
+| ID     | Requisitos                      | Categoria       | Descrição                                                                                                        |
+|--------|---------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------|
+| RNF01  | Site responsivo                 | Usabilidade     | O site deve ser totalmente responsivo, garantindo boa visualização em computador, tablet e smartphone            |
+| RNF02  | Organização da informação       | Usabilidade     | O site deve apresentar informações de cartas, anúncios e decks de forma organizada e legível                     |
+| RNF03  | Transmissão segura de dados     | Segurança       | O sistema deve garantir a transmissão segura de dados pessoais e informações de pagamento                        |
+| RNF04  | Mensagens de sucesso/erro       | Usabilidade     | O sistema deve fornecer mensagens claras de sucesso ou erro ao realizar ações como cadastro, compra ou inscrição |
+| RNF05  | Compatibilidade com navegadores | Compatibilidade | O site deve ser compatível com os principais navegadores (Chrome, Firefox, Edge, Safari)                         |
+| RNF06  | Backup automático               | Backup          | O sistema deve garantir backup automático dos dados de usuários e transações                                     |
+| RNF07  | Alertas e confirmações          | Usabilidade     | Mensagens de alerta, erro ou confirmação devem ser exibidas de forma clara e consistente                         |
+| RNF08  | Criptografia de dados sensíveis | Segurança       | O site deve criptografar dados sensíveis do usuário, como senhas e informações de pagamento                      |
+| RNF09  | Suporte a telas pequenas        | Usabilidade     | O site deve carregar corretamente em dispositivos móveis com telas menores que 6 polegadas                       |
 
 Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025
 
