@@ -35,8 +35,8 @@ nav:
   - Home: index.md
 
   - Apresentação:
-      - Apresentação 1: apresentacao/apresentacao1.md 
-      - Apresentação 2: apresentacao/apresentacao2.md 
+      - Apresentação 1: apresentacao/apresentacao1.md
+      - Apresentação 2: apresentacao/apresentacao2.md
 
   - Atas: 
       - Ata 1: atas/ata1.md
@@ -58,6 +58,7 @@ nav:
   - Verificacao:
     - Entrega 1:
       - Lista de verificação do Rich Picture: verificacao/entrega1/verificacao_richpicture.md
+
     - Entrega 2:
       - Lista de verificação:
         - Técnica de elicitação: 
@@ -68,11 +69,16 @@ nav:
         - Entrega 1:
           - Inspeção 1 do grupo 3: inspecao/grupos/grupo3/entrega1/inspecao_grupo_mais_um.md
           - Inspeção do rich picture: inspecao/grupos/grupo3/entrega1/inspecao_richpicture.md
+  - Elicitação:
+      - Tecnicas de Elicitação:
+          - Análise de Documentos: elicitacao/tecnicas_de_elicitacao/analise_documentos.md
+
 
   - Grupo:
     - Entrega 1:
       - Planejamento da verificação da entrega 1: grupo/entrega1/planejamento.md
       - Rich Picture: grupo/entrega1/richpicture.md
+      
     - Entrega 2:
       - Técnica de elicitação:
         - Glossário: grupo/entrega2/glossario.md

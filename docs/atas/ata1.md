@@ -56,11 +56,11 @@ Nesta seção são mantidos os registros oficiais de todas as reuniões realizad
 ## Compromissos
 | Nº | Compromissos | Responsável | Data |
 |:--:|:------------:|:-----------:|:----:|
-| 1 | Criar GitPages | Samuel | - |
-| 2 | Criar páginas (Participantes, Cronograma, Apps analisados, App escolhido, Gravações) | Samuel + Equipe | - |
-| 3 | Elaborar cronograma | Equipe | - |
-| 4 | Criar Rich Picture do app escolhido | Equipe | - |
-| 5 | Preencher Heatmap | Equipe | - |
+| 1 | Criar GitPages | Samuel | 06/09 |
+| 2 | Criar páginas (Participantes, Cronograma, Apps analisados, App escolhido, Gravações) | Samuel + Equipe | 09/09 |
+| 3 | Elaborar cronograma | Equipe | 09/09 |
+| 4 | Criar Rich Picture do app escolhido | Equipe | 09/09 |
+| 5 | Preencher Heatmap | Equipe | 08/09 |
 
 ## Fonte 
 Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](https://aprender3.unb.br/pluginfile.php/3259329/mod_resource/content/2/SiglaProjeto_AtaReuniao_AAAAMMDD_XX.pdf).
@@ -69,3 +69,4 @@ Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGI
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
 |:--:|:------------:|:-----------:|:----:| :----:|
 |  1.0  |       05/09/2025       |       Criação da Documentação	      |   Angélica   |   Raissa   |
+|  1.1  |       10/09/2025       |       Preenchimento das datas	      |  [Raissa](https://github.com/RaissaAndradeS)    |      |
