@@ -19,7 +19,7 @@ A Comparação em Pares (Pairwise Comparison) é uma técnica sistemática de pr
 |09|Foi verificado se alguns requisitos precisam ser implementados juntos obrigatoriamente?|Angélica|
 |10|Os resultados da comparação em pares e da priorização final foram registrados?|Angélica|
 
-[Lista de Verificação Completa (PDF)](./verificacao/entrega2/Grupo2AngelicadaCostaCmposVerifacacaoListaPairwiseComparison.pdf)
+[Lista de Verificação Completa (PDF)](./Grupo2AngelicadaCostaCmposVerifacacaoListaPairwiseComparison.pdf)
 
 [Template da Planilha de Comparação](./templates/pairwise_template.pdf)
 
