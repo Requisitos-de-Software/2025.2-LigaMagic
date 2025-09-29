@@ -11,6 +11,7 @@ Para priorização dos requisitos neste projeto foi aplicada a técnica Pairwise
 3. **Negócio**: Funcionalidades essenciais do marketplace  
 4. **Impacto no Usuário**: Valor percebido e experiência  
 
+Fonte: [Angélica](https://github.com/angelicaccampos), 2025
 
 ---
 
@@ -33,7 +34,7 @@ A matriz completa com 325 comparações está disponível para visualização em
 | BAIXO     | 3-7               | RF10, RF7, RF3, RF1                          |
 | MÍNIMO    | 0-2               | RF9, RF2                                     |
 
-
+Fonte: [Angélica](https://github.com/angelicaccampos), 2025
 
 ---
 
@@ -41,7 +42,7 @@ A matriz completa com 325 comparações está disponível para visualização em
 
 ## Referências
 
-> 1. LIGAMAGIC. *Termos e condições gerais de uso*. Disponível em: [https://www.ligamagic.com.br/?view=contrato](https://www.ligamagic.com.br/?view=contrato). Acesso em: 24/09/2025.
+> 1. LIGAMAGIC. *Termos e condições gerais de uso*. Disponível em: [https://www.ligamagic.com.br/?view=contrato](https://www.ligamagic.com.br/?view=contrato). Acesso em: 24 set. 25.
 2. LIGAMAGIC. *Política de proteção de dados pessoais*. Disponível em: [https://www.ligamagic.com.br/?view=privacidade](https://www.ligamagic.com.br/?view=privacidade). Acesso em: 25 set. 2025.
 ---
 
