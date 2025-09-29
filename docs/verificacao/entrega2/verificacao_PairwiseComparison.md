@@ -21,7 +21,6 @@ A Comparação em Pares (Pairwise Comparison) é uma técnica sistemática de pr
 
 [Lista de Verificação Completa (PDF)](./Grupo2AngelicadaCostaCmposVerifacacaoListaPairwiseComparison.pdf)
 
-[Template da Planilha de Comparação](./templates/pairwise_template.pdf)
 
 ## Referências
 > **WIEGERS, Karl; BEATTY, Joy.** *Software Requirements. *3. ed. Redmond: Microsoft Press, 2013. 638 p.
