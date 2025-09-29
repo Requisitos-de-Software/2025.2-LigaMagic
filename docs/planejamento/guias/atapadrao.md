@@ -75,7 +75,11 @@ Presente: Marcar somente as pessoas que participaram da reunião
 ## Compromissos
 [Registrar os compromissos acordados durante a reunião (identificados como pendências nos assuntos tratados), identificando o responsável e a data acordada para a conclusão da atividade.]
 
-## Artefato Padrão 
+## Fonte 
+Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](SiglaProjeto_AtaReuniao_AAAAMMDD_XX(1).pdf).
+
+
+# Artefato Padrão 
 
 # Nome 
 
@@ -123,9 +127,6 @@ Ex: Fulano de tal, 2025.
 | Nº | Compromissos | Responsável | Data |
 |:--:|:------------:|:-----------:|:----:|
 |    |              |             |      |
-
-## Fonte 
-Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](SiglaProjeto_AtaReuniao_AAAAMMDD_XX(1).pdf).
 
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
