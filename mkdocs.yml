@@ -69,10 +69,14 @@ nav:
         - Entrega 1:
           - Inspeção 1 do grupo 3: inspecao/grupos/grupo3/entrega1/inspecao_grupo_mais_um.md
           - Inspeção do rich picture: inspecao/grupos/grupo3/entrega1/inspecao_richpicture.md
+
   - Elicitação:
       - Tecnicas de Elicitação:
           - Análise de Documentos: elicitacao/tecnicas_de_elicitacao/analise_documentos.md
 
+  - Priorização:
+      - Tecnicas de Priorização:
+         - Pairwise Comparison: priorizacao/tecnicas_de_priorizacao/pairwise_comparison.md
 
   - Grupo:
     - Entrega 1:
