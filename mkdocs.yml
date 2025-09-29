@@ -64,12 +64,14 @@ nav:
       - Lista de verificação:
         - Técnica de elicitação: 
           - Glossário: verificacao/entrega2/verificacao_glossario.md
+          - Pairwise Comparison: verificacao/entrega2/verificacao_PairwiseComparison.md
 
   - Inspeção:
     - Grupos + 1:
         - Entrega 1:
           - Inspeção 1 do grupo 3: inspecao/grupos/grupo3/entrega1/inspecao_grupo_mais_um.md
           - Inspeção do rich picture: inspecao/grupos/grupo3/entrega1/inspecao_richpicture.md
+
   - Elicitação:
       - Tecnicas de Elicitação:
           - Análise de Documentos: elicitacao/tecnicas_de_elicitacao/analise_documentos.md
