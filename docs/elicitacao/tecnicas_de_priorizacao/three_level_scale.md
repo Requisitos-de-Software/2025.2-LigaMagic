@@ -57,7 +57,14 @@ A decisão sobre o nível de prioridade de cada requisito considerou o contexto 
 
 
 ## Validação com Usuário
-No video abaixo é feito a validação com o integrante [Guilherme]( https://github.com/GuilhermeOliveira1327), com a usuária....
+Este vídeo apresenta a aplicação da técnica Three Level Scale para priorização de requisitos, demonstrando como os usuários avaliam a importância de cada funcionalidade. A entrevista foi conduzida por [Guilherme]( https://github.com/GuilhermeOliveira1327)
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/sm1UiPzmCZk" 
+    title="Validação com Usuário - Three Level Scale" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
 
 ## Bibliografia
 

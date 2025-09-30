@@ -84,14 +84,22 @@ Foram criadas algumas ações para que o usuário pudesse seguir durante a obser
 <sub>Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025</sub>
 
 ## Validação com Usuário
-No video abaixo é feito a validação com o integrante [Guilherme]( https://github.com/GuilhermeOliveira1327), com a usuária....
+Este vídeo apresenta a aplicação da técnica de Observação para elicitação de requisitos, registrando como os usuários interagem com o sistema em situações reais de uso. A atividade foi conduzida por [Guilherme]( https://github.com/GuilhermeOliveira1327), que acompanhou as ações dos usuários
+
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/YeQpnw3gJto" 
+    title="Validação com Usuário - Observação" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
 
 
 ## Bibliografia
 
 > 1. Site LigaMagic. Disponível em: https://www.ligamagic.com.br/ Acesso em: 26/09/2025.
 > 2. VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de requisitos: software orientado ao negócio. Disponível em: [Aprender3](https://aprender3.unb.br/pluginfile.php/3210603/mod_resource/content/4/Elicitacao%20de%20Req%202.pdf)
-
+> 
 
 ## Histórico de versão 
 
