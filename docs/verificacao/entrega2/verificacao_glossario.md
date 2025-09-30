@@ -36,9 +36,21 @@ A verificação abrange desde a identificação e definição dos termos até a 
 | 28  | O glossário utiliza remissivas (como "ver" e "ver também") para correlacionar termos relacionados e facilitar a consulta?                                    | Thiago |
 | 29  | O glossário do projeto está sendo considerado como um ativo que poderá, futuramente, ser incorporado a um glossário de negócios mais amplo da organização?   | Thiago |
 
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/samuelncaetano">Samuel Nogueira Caetano</a></strong>
+</div>
+
+---
+
+[Lista de Verificação Completa (PDF)](./pdf/Lista%20de%20verificação%20–%20Glossario.pdf)
+
+## Referências
+> **Vazquez, C. E.; Simões, G. S.** *Engenharia de Requisitos: software orientado ao negócio*.
+
 ## Histórico de versão
 
-| Versão |    Data    |             Descrição              |   Autor(es)    | Revisor(es) |
-|:------:|:----------:|:----------------------------------:|:--------------:|:-----------:|
-|  1.0   | 22/09/2025 | Elaboração da lista de verificação | Samuel, Thiago |  Angélica   |
-|  1.0   | 27/09/2025 | Criação da página de documentação  |     Samuel     |  Angélica   |
+| Versão |    Data    |                  Descrição                   |   Autor(es)    | Revisor(es) |
+|:------:|:----------:|:--------------------------------------------:|:--------------:|:-----------:|
+|  1.0   | 22/09/2025 |      Elaboração da lista de verificação      | Samuel, Thiago |  Angélica   |
+|  1.0   | 27/09/2025 |      Criação da página de documentação       |     Samuel     |  Angélica   |
+|  1.1   | 30/09/2025 | Correção de formatação e revisão do conteúdo |     Samuel     |   Thiago    |

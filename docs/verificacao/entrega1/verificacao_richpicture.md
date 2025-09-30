@@ -26,9 +26,18 @@ Esta etapa apresenta uma lista de verificação estruturada e detalhada para ava
 | 20  | **Utilizar o rich picture como desenho à mão livre** | Samuel   |
 | 21  | **Evitar ambiguidades visuais**                      | Angélica |
 
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/samuelncaetano">Samuel Nogueira Caetano</a></strong>
+</div>
+
+---
+
+[Lista de Verificação Completa (PDF)](./pdf/Lista%20de%20verificação%20—%20Rich%20Picture.pdf)
+
 ## Histórico de versão
 
-| Versão |    Data    |             Descrição              | Autor(es) | Revisor(es) |
-|:------:|:----------:|:----------------------------------:|:---------:|:-----------:|
-|  1.0   | 23/09/2025 | Elaboração da lista de verificação |  Samuel   |   Thiago    |
-|  1.0   | 23/09/2025 | Criação da página de documentação  |  Samuel   |   Thiago    |
+| Versão |    Data    |                          Descrição                           | Autor(es) | Revisor(es) |
+|:------:|:----------:|:------------------------------------------------------------:|:---------:|:-----------:|
+|  1.0   | 23/09/2025 |              Elaboração da lista de verificação              |  Samuel   |   Thiago    |
+|  1.0   | 23/09/2025 |              Criação da página de documentação               |  Samuel   |   Thiago    |
+|  1.1   | 30/09/2025 | Adicionado PDF do documento original da lista de verificação |  Samuel   |   Thiago    |

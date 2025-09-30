@@ -21,6 +21,10 @@ Este documento apresenta um glossário detalhado dos principais termos e funcion
 | 13  | **Feitiço (Sorcery):** Tipo de carta de feitiço que, em geral, só pode ser jogada durante a fase principal do turno do próprio jogador.                                                                                                            | Thiago |
 | 14  | **Habilidade (Ability):** Texto em uma carta que descreve um efeito que ela pode gerar no jogo. Pode ser uma habilidade ativada (com um custo para usar), desencadeada (que acontece em resposta a um evento) ou estática (que está sempre ativa). | Thiago |
 
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/samuelncaetano">Samuel Nogueira Caetano</a> e de <a href="https://github.com/Acciolyy">Thiago Accioly</a></strong>
+</div>
+
 ## Funcionalidades do Site
 
 | ID  | Funcionalidades                                                                                                                                                                                                                   | URL                                                                                                                                               | Autor  |
@@ -33,8 +37,17 @@ Este documento apresenta um glossário detalhado dos principais termos e funcion
 |  6  | **Fórum (Forum):** Espaço de discussão para a comunidade, onde usuários podem criar tópicos, fazer perguntas, debater estratégias e interagir com outros jogadores sobre diversos temas do universo Magic.                        | URL: [https://www.ligamagic.com.br/?view=forum/forum](https://www.ligamagic.com.br/?view=forum/forum)                                             | Thiago |
 |  7  | **Meu Carrinho (Carrinho de Compras):** Uma lista de compras selecionadas a partir de navegação do site, para no fim, comprar todos os produtos selecionados ou retirar alguns da própria lista.                                  | URL: [https://www.ligamagic.com.br/?view=mp/carrinho&open=1](https://www.ligamagic.com.br/?view=mp/carrinho&open=1)                               | Thiago |
 
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/samuelncaetano">Samuel Nogueira Caetano</a> e de <a href="https://github.com/Acciolyy">Thiago Accioly</a></strong>
+</div>
+
+---
+
+[Técnica de elicitação – Glossário (PDF)](./pdf/Técnica%20de%20elicitação%20–%20Glossário.pdf)
+
 ## Histórico de versão
 
-| Versão |    Data    |             Descrição              | Autor(es) | Revisor(es) |
-|:------:|:----------:|:----------------------------------:|:---------:|:-----------:|
-|  1.0   | 23/09/2025 | Elaboração da lista de verificação |  Samuel   |   Thiago    |
+| Versão |    Data    |                     Descrição                     | Autor(es) | Revisor(es) |
+|:------:|:----------:|:-------------------------------------------------:|:---------:|:-----------:|
+|  1.0   | 23/09/2025 |        Elaboração da lista de verificação         |  Samuel   |   Thiago    |
+|  1.1   | 30/09/2025 | Adicionado PDF do documento original do glossário |  Samuel   |   Thiago    |
