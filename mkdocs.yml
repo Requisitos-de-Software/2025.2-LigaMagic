@@ -82,6 +82,9 @@ nav:
           - In or Out: elicitacao/tecnicas_de_elicitacao/inorout.md
           - Perfil do Usuário: elicitacao/tecnicas_de_elicitacao/perfildousuario.md
 
+  - Priorização:
+      - Tecnicas de Priorização:
+         - Pairwise Comparison: priorizacao/tecnicas_de_priorizacao/pairwise_comparison.md
 
   - Grupo:
     - Entrega 1:
