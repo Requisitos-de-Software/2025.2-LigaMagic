@@ -79,7 +79,7 @@ Presente: Marcar somente as pessoas que participaram da reunião
 Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](SiglaProjeto_AtaReuniao_AAAAMMDD_XX(1).pdf).
 
 
-# Artefato Padrão 
+## Artefato Padrão 
 
 # Nome 
 
@@ -96,7 +96,7 @@ Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGI
 
 ## Conteúdo
 
-Se tiver tabela, colocar fonte ta tabela 
+Se tiver tabela, colocar fonte da tabela 
 
 
 Ex: Fulano de tal, 2025.
