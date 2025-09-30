@@ -64,6 +64,8 @@ nav:
       - Lista de verificação:
         - Técnica de elicitação: 
           - Glossário: verificacao/entrega2/verificacao_glossario.md
+
+        - Técnica de priorização: 
           - Pairwise Comparison: verificacao/entrega2/verificacao_PairwiseComparison.md
 
   - Inspeção:
