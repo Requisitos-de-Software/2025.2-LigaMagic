@@ -33,67 +33,73 @@ A técnica foi aplicada seguindo os seguintes passos:
 ### Matriz de Comparação dentro da categoria: Gerenciamento de Usuários (implementar juntos obrigatoriamente)
 |ID  | RF1 | RF2|RF12|Vitórias|
 | ---|-----|----|----|-----------|
-|RF1 |-----|RF1 |RF1 |-----------|
-|RF2 |RF2  |----|RF2 |-----------|
-|RF12|RF12 |RF12|----|-----------|
-
-Os RF1, RF2 e RF12 só fazem sentido juntos (cadastro de usuário + duplicação + dados pessoais), então foram avaliados juntos e o RF10 foi avaliado entre os resultados das comparações por categorias.
-
+|**RF1** |-----|🔵  |🔴 | 1 |
+|**RF2** |🔴   |----|🔴 | 0 |
+|**RF12**|🔵   |🔵 |---| 2 |
 
 ### Matriz de Comparação dentro da categoria: Autenticação e Segurança (implementar juntos obrigatoriamente)
 |ID  | RF3| RF5|Vitórias|
-| ---|----|----|-----------|
-|RF3 |----|RF3 |-----------|
-|RF5 |RF5 |----|-----------|
+| ---|----|----|--------|
+|**RF3** |----|🔵 |1|
+|**RF5** |🔴 |----|0|
 
 ### Matriz de Comparação dentro da categoria: Comunicação
 |ID  | RF9 |RF7 |RF11|Vitórias|
 | ---|-----|----|----|-----------|
-|RF9 |-----|RF9 |RF9 |-----------|
-|RF7 |RF7  |----|RF7 |-----------|
-|RF11|RF11 |RF11|----|-----------|
+|**RF9** |-----|🔴 |🔵 | 1 |
+|**RF7** |🔵  |----|🔵 | 2 |
+|**RF11**|🔴  |🔴  |----| 0 |				
+
+## Comparações entre os resultados das comparações por categorias
+|Categorias                    |ID  |RF12|RF3 |RF7 |RF6 |RF8 |RF4 |RF10|Vitórias   |
+| -----                        |--- |----|-   |----|----|----|----|----|-------    |
+|Gerenciamento de Usuários     |**RF12** |----|🔵 |🔴 |🔴 |🔵 |🔴 |🔵|3  |
+|Autenticação e Segurança      |**RF3**|🔴 |----|🔴 |🔴 |🔴 |🔴 |🔴 |0  |
+|Comunicação                   |**RF7** |🔴 |🔵 |----|🔵 |🔵 |🔵 |🔵 |5    |
+|Gestão de Anúncios            |**RF6**|🔵 |🔵 |🔴 |----|🔵 |🔴 |🔵 |4|
+|Gestão Financeira             |**RF8**|🔴 |🔵 |🔴 |🔴 |----|🔴 |🔵 |2|
+|Gestão de Produtos/Serviços   |**RF4** |🔵 |🔵 |🔴 |🔵 |🔵 |----|🔵 |5|
+|Gerenciamento de Usuários     |**RF10**|🔴|🔵|🔴|🔴|🔴|🔴|----|1   |
 
 #### Legenda:  
  🔵 Requisito da LINHA vence					
- 🔴 Requisito da COLUNA vence					
-
-## Comparações entre os resultados das comparações por categorias
-|Categorias                    |ID  | RF0|RF0 |RF0 |RF6 |RF8 |RF4 |RF10|Vitórias   |
-| -----                        |--- |----|-   |----|----|----|----|----|-------    |
-|Gerenciamento de Usuários     |RF0 |----|RF0 |RF0 |RF0 |RF0 |RF0 |----|-------    |
-|Autenticação e Segurançagorias|RF0 |RF0 |----|RF0 |RF0 |RF0 |RF0 |RF0 |-------    |
-|Comunicação                   |RF0 |RF0 |RF0 |----|RF0 |RF0 |RF0 |RF0 |-------    |
-|Gestão de Anúncios            |RF6 |RF6 |RF6 |RF6 |----|RF6 |RF6 |RF6 |-----------|
-|Gestão Financeira             |RF8 |RF8 |RF8 |RF8 |RF8 |----|RF8 |RF8 |-----------|
-|Gestão de Produtos/Serviços   |RF4 |RF4 |RF4 |RF4 |RF4 |RF4 |----|RF4 |-----------|
-|Gerenciamento de Usuários     |RF10|RF10|RF10|RF10|RF10|RF10|RF10|----|-------    |
+ 🔴 Requisito da COLUNA vence	
 
 ## Posição		
 |Posição|ID  |Vitórias   |
 |------ |----|-----------|
-|----  -|RF1 |----|
-|----  -|RF2 |----|
-|----  -|RF3 |----|
-|----  -|RF4 |----|
-|----  -|RF5 |----|
-|----  -|RF6 |----|
-|----  -|RF7 |----|
-|----  -|RF8 |----|
-|----  -|RF9 |----|
-|----  -|RF10|----|
-|----  -|RF11|----|
-|----  -|RF12|----|
+|1|**RF7** |5|
+|1|**RF4** |5|
+|2|**RF6** |4|
+|3|**RF12***|3|
+|4|**RF8** |2|
+|5|**RF10**|1|
+|5|**RF9** |1|
+|6|**RF3*** |0|
+|6|**RF11**|0|
 
+* O RF12 por estar em uma categoria que deve ser implementados junto com outros requisitos obrigatoriamente representa o bloco e Gerenciamento de Usuários (RF1, RF2, RF12), com 3 vitorias e na posição 3 (Média prioridade).
+* O RF3 por estar em uma categoria que deve ser implementados junto com outros requisitos obrigatoriamente representa o bloco de Autenticação e Segurança (RF5), com 0 vitorias e na posição 6 (Baixa prioridade).
 
 ##  Ranking	Final dos Requisitos	
 |Categoria         | Posição | Requisitos Incluídos|
 |----              |-------  |-----------          |
-| Alta prioridade  | 1 - 5   |                     |
-| Média prioridade | 6 - 9   |                     |
-| Baixa prioridade | 10 - 12 |                     |
+| Alta prioridade  | 1 - 2   | RF7, RF4, RF6       |
+| Média prioridade | 3 - 4   | RF12 (Bloco de Gerenciamento de Usuários (RF1, RF2, RF12)), RF8  |
+| Baixa prioridade | 5 - 5   | RF9, RF3(Bloco de Autenticação e Segurança (RF5)), RF11           |
+ 
+O RF7 e o RF4 se mostraram as funcionalidades mais prioritárias para o sistema, seguidas pelo RF6. Já o Gerenciamento de Usuários, embora essencial, ficou em prioridade média por comparação, e os requisitos RF9, RF3, RF5, RF11 empataram com vitórias mínimas, por isso foram classificados na mesma faixa de prioridade, baixa.
+
+## Vídeo da priorização feita com um usuario 
+Para realizar a priorização dos requisitos fizemos uma consulta com um usuario do app, disponivel aqui:
+
+[Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=mAeFDw2IV84)
+
+[Tabelas usadas com o usuario](./pairwisecomparetion.pdf)
 
 ## Histórico de versão
 
 | Versão |    Data     |                        Descrição                        |                     Autor                     |                     Revisor                     |
 |:------:|:-----------:|:-------------------------------------------------------:|:---------------------------------------------:|:-----------------------------------------------:|
-|  1.0   | 28/9/2025  | Criação da estrutura da página| Angélica|Marcelo|
+|  1.0   | 28/09/2025  | Criação da estrutura da página        | Angélica|Marcelo|
+|  1.1   | 30/09/2025  | Adição do ranking | Angélica|Marcelo|
