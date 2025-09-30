@@ -3,10 +3,15 @@
 ## Introdução  
 Priorização é fundamental para organizar projetos e facilitar decisões em desenvolvimento de software. No processo de elicitação de requisitos, a técnica **Tree Level** permite organizar os requisitos em níveis de importância. 
 
-## Execução da Priorização  
-A entrevista foi conduzida pelo integrante [Guilherme]( https://github.com/GuilhermeOliveira1327), na data 28/09/2025, com o usuário ........ O participante foi orientado sobre o funcionamento do site LigaMagic e solicitado a interagir com funcionalidades do marketplace, incluindo pesquisa de cartas, visualização de detalhes e compra. Durante o teste, o entrevistador registrou observações e avaliou se os requisitos previamente elicitados estavam de acordo com a experiência do usuário.  
+## Metodologia
 
+Para realizar a priorização dos requisitos, utilizou-se como base os requisitos funcionais e não funcionais previamente elicitados.  A classificação foi feita utilizando a técnica Three-Level Scale, que permite categorizar cada requisito em três níveis de prioridade:
 
+1. Alta: requisitos essenciais que devem ser implementados obrigatoriamente no produto final
+2. Média: requisitos importantes, mas cuja implementação pode ser adiada sem comprometer a funcionalidade principal
+3. Baixa: requisitos desejáveis, que agregam valor ao produto, mas não são críticos para o seu funcionamento inicial
+
+A decisão sobre o nível de prioridade de cada requisito considerou o contexto as necessidades identificadas durante a observação de usuários. Essa abordagem possibilitou uma priorização consistente.
 
 ## Requisitos Funcionais  
 
@@ -31,7 +36,7 @@ A entrevista foi conduzida pelo integrante [Guilherme]( https://github.com/Guilh
 | RF17 | Permitir que o usuário compartilhe informações da carta em redes sociais ou por link direto                        | Baixa       | Conveniência extra, não essencial.                                                           |
 | RF18 | Permitir que o usuário reporte problemas relacionados à carta                                                      | Baixa       | Informar erros ou anúncios suspeitos para manutenção do sistema.                             |
 
-Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025
+<sub>Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025</sub>
 
 
 
@@ -39,24 +44,30 @@ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://githu
 
 | ID    | Requisito                                                                                    | Prioridade   | Descrição                                                         |
 |-------|----------------------------------------------------------------------------------------------|--------------|-------------------------------------------------------------------|
-| RNF01 | O site deve ser totalmente responsivo                                                        | Alta         | Garantir boa visualização em computadores, tablets e smartphones. |
-| RNF02 | O site deve apresentar informações de cartas, anúncios e decks de forma organizada e legível | Alta         | Facilitar leitura e compreensão das informações pelo usuário.     |
-| RNF03 | O sistema deve garantir a transmissão segura de dados pessoais e informações de pagamento    | Alta         | Proteção de dados sensíveis durante transações e armazenamento.   |
-| RNF04 | O sistema deve fornecer mensagens claras de sucesso ou erro                                  | Alta         | Informar corretamente o usuário sobre o resultado de suas ações.  |
-| RNF05 | O sistema deve ser compatível com os principais navegadores                                  | Alta         | Permitir acesso consistente em Chrome, Firefox, Edge e Safari.    |
-| RNF06 | O sistema deve garantir backup automático dos dados de usuários e transações                 | Média        | Evitar perda de informações em caso de falha do sistema.          |
-| RNF07 | Mensagens de alerta, erro ou confirmação devem ser exibidas de forma clara e consistente     | Alta         | Facilitar compreensão e consistência na interação do usuário.     |
-| RNF08 | O site deve criptografar dados sensíveis do usuário                                          | Alta         | Proteger senhas e informações de pagamento.                       |
-| RNF09 | O site deve carregar corretamente em dispositivos móveis com telas menores que 6 polegadas   | Alta         | Garantir que o site funcione em smartphones pequenos.             |
+| RNF01 | O site deve apresentar informações de cartas, anúncios e decks de forma organizada e legível | Alta         | Facilitar leitura e compreensão das informações pelo usuário.     |
+| RNF02 | O sistema deve garantir a transmissão segura de dados pessoais e informações de pagamento    | Alta         | Proteção de dados sensíveis durante transações e armazenamento.   |
+| RNF03 | O sistema deve fornecer mensagens claras de sucesso ou erro                                  | Alta         | Informar corretamente o usuário sobre o resultado de suas ações.  |
+| RNF04 | O sistema deve ser compatível com os principais navegadores                                  | Alta         | Permitir acesso consistente em Chrome, Firefox, Edge e Safari.    |
+| RNF05 | O sistema deve garantir backup automático dos dados de usuários e transações                 | Média        | Evitar perda de informações em caso de falha do sistema.          |
+| RNF06 | Mensagens de alerta, erro ou confirmação devem ser exibidas de forma clara e consistente     | Alta         | Facilitar compreensão e consistência na interação do usuário.     |
+| RNF07 | O site deve criptografar dados sensíveis do usuário                                          | Alta         | Proteger senhas e informações de pagamento.                       |
+| RNF08 | O site deve carregar corretamente em dispositivos móveis com telas menores que 6 polegadas   | Alta         | Garantir que o site funcione em smartphones pequenos.             |
 
-Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025
+<sub>Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025</sub>
 
+
+## Validação com Usuário
+No video abaixo é feito a validação com o integrante [Guilherme]( https://github.com/GuilhermeOliveira1327), com a usuária....
+
+## Bibliografia
+
+> 1. VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de requisitos: software orientado ao negócio. Disponível em: [Aprender3](https://aprender3.unb.br/pluginfile.php/3210603/mod_resource/content/4/Elicitacao%20de%20Req%202.pdf)
 
 
 ## Histórico de versão
 
-
-| Versão |    Data    |                  Descrição                   |                     Autor                     |                        Revisor                         |
-|:------:|:----------:|:--------------------------------------------:|:---------------------------------------------:|:------------------------------------------------------:|
-|  1.0   | 24/09/2025 |        Criação da estrutura da página        | [Vera Lucia](https://github.com/verabelucia)  | [Guilherme]( https://github.com/GuilhermeOliveira1327) |
-|  1.1   | 28/09/2024 | Colocado nivél de priorização nos requisitos | [Vera Lucia](https://github.com/verabelucia)  | [Guilherme]( https://github.com/GuilhermeOliveira1327) |
+| Versão |    Data    |                  Descrição                   |                          Autor                          |                        Revisor                         |
+|:------:|:----------:|:--------------------------------------------:|:-------------------------------------------------------:|:------------------------------------------------------:|
+|  1.0   | 24/09/2025 |        Criação da estrutura da página        |      [Vera Lucia](https://github.com/verabelucia)       | [Guilherme]( https://github.com/GuilhermeOliveira1327) |
+|  1.1   | 28/09/2025 | Colocado nivél de priorização nos requisitos |      [Vera Lucia](https://github.com/verabelucia)       | [Guilherme]( https://github.com/GuilhermeOliveira1327) |
+|  1.2   | 29/09/2025 |           Adicionando Bibliografia           | [Guilherme]( https://github.com/GuilhermeOliveira1327)  |   [Vera Lucia](https://github.com/verabelucia)         |
