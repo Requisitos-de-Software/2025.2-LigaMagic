@@ -2,7 +2,7 @@
 
 ## Introdução 
 A análise de documento é uma técnica de elicitação de requisitos que consiste em examinar materiais já existentes, como contratos, políticas de uso, manuais ou regulamentos, para identificar regras, restrições, requisitos funcionais e não funcionais que impactam o sistema.
-Documentos analisados: [Termos e Condições Gerais de Uso](https://www.ligamagic.com.br/?view=contrato) e [Política de Proteção de Dados Pessoais](https://www.ligamagic.com.br/?view=privacidade)
+Documentos analisados: [Termos e Condições Gerais de Uso](https://www.ligamagic.com.br/?view=contrato) e [Política de Proteção de Dados Pessoais](https://www.ligamagic.com.br/?view=privacidade).
 
 ---
 ## Questões que orientaram a Análise dos Documentos
@@ -28,7 +28,7 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 ---
 
 ## Questões que orientaram a análise do documento de Política de Proteção de Dados Pessoais
-Para orientar a análise do documento, foram elaboradas questões para ajudar e direcionar a leitura e a identificação de requisitos funcionais e não funcionais, feita com foco nos objetivos do sistema.
+Para orientar a análise do documento, as questões foram formuladas para examinar criticamente os elementos essenciais que uma política de privacidade deve conter, garantindo a transparência perante os usuários e o tratamento adequado de seus dados pessoais. O roteiro de análise abrange desde a coleta e finalidade do uso dos dados até aspectos específicos como segurança, direitos dos titulares e mecanismos de controle.
 
 | N°   | Questões                                                                                                                   |
 |:----:|:---------------------------------------------------------------------------------------------------------------------------|
@@ -51,17 +51,17 @@ Fonte: [Angélica](https://github.com/angelicaccampos), 2025
 
 ---
 
-## Requisitos Funcionais 
+## Requisitos Funcionais (RF)
+Os requisitos funcionais representam as funcionalidades específicas que o sistema deve executar para atender às necessidades dos usuários e aos objetivos do negócio. Esta tabela consolida os requisitos identificados através da análise documental, descrevendo as capacidades essenciais que a plataforma deve possuir para operar eficientemente no contexto de comercialização de produtos relacionados ao app LigaMagic.
+Os requisitos foram organizados em categorias temáticas que refletem os principais módulos do sistema, abrangendo desde o gerenciamento de usuários e autenticação até a gestão de anúncios, comunicação entre usuários e aspectos de conformidade com a legislação de proteção de dados. Cada requisito foi formulando para garantir que todas as funcionalidades críticas para a operação da plataforma estejam devidamente especificadas e rastreáveis.
+
 
 | ID   | Requisitos                                                       |         Categoria           | Descrição                                                                                                                           |
 |:----:|:-----------------------------------------------------------------|:---------------------------:|:------------------------------------------------------------------------------------------------------------------------------------|
 | RF1  | Permitir Cadastro de usuário                                     |  Gerenciamento de Usuários  | O sistema deve permitir que um novo usuário crie uma nova conta                                                                     |
-| RF2  | Deve verificar duplicação de cadastros                           |  Gerenciamento de Usuário   | O sistema deve verificar se já existe um cadastro para o usuaria que está tentando fazer cadadtro                                   |
+| RF2  | Deve verificar duplicação de cadastros                           |  Gerenciamento de Usuário   | O sistema deve verificar se já existe um cadastro para o usuario que está tentando fazer cadadtro                                   |
 | RF3  | Deve permitir acesso via login e senha                           |  Autenticação e Segurança   | O sistema deve permitir que o usuário acesse sua conta utilizando login e senha cadastrados                                         | | 
 | RF4  | Deve permitir apenas produtos relacionados a Magic               | Gestão de Produtos/Serviços | O sistema deve restringir anúncios a produtos e serviços relacionados ao jogo Magic: The Gathering                                  | |
-| RF5  | Deve verificar veracidade de dados cadastrados                   |  Autenticação e Segurança   | O sistema deve implementar mecanismos de validação de informações fornecidas pelos usuários                                         | 
-| RF3  | Deve permitir acesso via login e senha                           |  Autenticação e Segurança   | O sistema deve permitir que o usuário acesse sua conta utilizando login e senha cadastrados                                         | |
-| Rf4  | Deve permitir apenas produtos relacionados a Magic               | Gestão de Produtos/Serviços | O sistema deve restringir anúncios a produtos e serviços relacionados ao jogo Magic: The Gathering                                  | |
 | RF5  | Deve verificar veracidade de dados cadastrados                   |  Autenticação e Segurança   | O sistema deve implementar mecanismos de validação de informações fornecidas pelos usuários                                         |
 | RF6  | Deve permitir inclusão de textos, descrição e fotos nos anúncios |     Gestão de Anúncios      | O sistema deve permitir que usuários insiram descrições detalhadas e imagens em seus anúncios                                       |
 | RF7  | Deve facilitar contato direto com usuário                        |         Comunicação         | O sistema deve disponibilizar meios de contato direto (chat ou mensagens) entre usuários                                            |
@@ -82,7 +82,9 @@ Fonte: [Angélica](https://github.com/angelicaccampos), 2025
 
 ---
 
-## Requisitos Não Funcionais 
+## Requisitos Não Funcionais (RNF)
+Os requisitos não funcionais descrevem restrições e qualidades que o sistema deve atender para garantir sua conformidade legal, segurança, desempenho e confiabilidade. No contexto do sistema analisado, destacam-se requisitos relacionados ao cumprimento de legislações como a LGPD e o Código de Defesa do Consumidor, à adoção de medidas de segurança da informação, à transparência na comunicação com os usuários e à garantia de disponibilidade e confiabilidade do serviço.
+
 |   ID   | Requisitos                                         |        Categoria        | Descrição                                                                                                             |
 |:------:|:---------------------------------------------------|:-----------------------:|:----------------------------------------------------------------------------------------------------------------------|
 |  RNF1  | Cumprir legislações aplicáveis                     |   Legal e Regulatório   | O sistema deve cumprir a LGPD (Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis. |
@@ -97,7 +99,8 @@ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github
 
 ---
 
-## Itens Não Implementados (NI)
+## Requisitos Não Implementados (NI)
+Os requisitos não implementados representam lacunas ou ausências identificadas durante a análise documental. Diferentemente dos requisitos funcionais e não funcionais já implementados, esses pontos sinalizam aspectos que deveriam estar descritos ou especificados, mas não foram abordados de forma clara ou completa no documento analisado.
 
 | ID   | Requisitos                   |          Categoria           | Descrição                                                                                                                                                                                    |
 |:----:|:-----------------------------|:----------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -109,13 +112,15 @@ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github
 
 ---
 
-## Bibliografia
+## Referências
 
-> 1. Site LigaMagic. Disponível em: https://www.ligamagic.com.br/?view=contrato. Acesso em: 24/09/2025.
+> 1. LIGAMAGIC. *Termos e condições gerais de uso*. Disponível em: [https://www.ligamagic.com.br/?view=contrato](https://www.ligamagic.com.br/?view=contrato). Acesso em: 24/09/2025.
+2. LIGAMAGIC. *Política de proteção de dados pessoais*. Disponível em: [https://www.ligamagic.com.br/?view=privacidade](https://www.ligamagic.com.br/?view=privacidade). Acesso em: 25 set. 2025.
 
 ## Histórico de versão
 
 | Versão |    Data     |                        Descrição                        |                     Autor                     |                     Revisor                     |
 |:------:|:-----------:|:-------------------------------------------------------:|:---------------------------------------------:|:-----------------------------------------------:|
 |  1.0   | 24/09/2025  | Criação da estrutura da página de Analise de Documentos | [Vera Lucia](https://github.com/verabelucia)  | [Angélica](https://github.com/angelicaccampos)  |
-|  1.1   | 24/09/2024  |           Criação dos Requisitos Funcionais             | [Vera Lucia](https://github.com/verabelucia)  | [Angélica](https://github.com/angelicaccampos)  |
+|  1.1   | 24/09/2025  |           Criação dos Requisitos Funcionais             | [Vera Lucia](https://github.com/verabelucia)  | [Angélica](https://github.com/angelicaccampos)  |
+|  1.2   | 26/09/2025  |           Criação dos Requisitos não Funcionais e não implementados             | [Angélica](https://github.com/angelicaccampos)  |  [Vera Lucia](https://github.com/verabelucia) |

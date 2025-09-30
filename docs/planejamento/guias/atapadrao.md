@@ -80,7 +80,7 @@ Presente: Marcar somente as pessoas que participaram da reunião
 |    |              |             |      |
 
 ## Fonte 
-Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](https://aprender3.unb.br/pluginfile.php/3259329/mod_resource/content/2/SiglaProjeto_AtaReuniao_AAAAMMDD_XX.pdf).
+Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](SiglaProjeto_AtaReuniao_AAAAMMDD_XX(1).pdf).
 
 ## Histórico de versão
 | Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |

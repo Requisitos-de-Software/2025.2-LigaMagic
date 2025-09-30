@@ -38,9 +38,10 @@ nav:
       - Apresentação 1: apresentacao/apresentacao1.md
       - Apresentação 2: apresentacao/apresentacao2.md
 
-  - Atas:
+  - Atas: 
       - Ata 1: atas/ata1.md
       - Ata 2: atas/ata2.md
+      - Ata 3: atas/ata3.md
 
   - Planejamento:
       - Guias:
@@ -59,11 +60,20 @@ nav:
     - Entrega 1:
       - Lista de verificação do Rich Picture: verificacao/entrega1/verificacao_richpicture.md
 
+    - Entrega 2:
+      - Lista de verificação:
+        - Técnica de elicitação: 
+          - Glossário: verificacao/entrega2/verificacao_glossario.md
+
+        - Técnica de priorização: 
+          - Pairwise Comparison: verificacao/entrega2/verificacao_PairwiseComparison.md
+
   - Inspeção:
     - Grupos + 1:
         - Entrega 1:
           - Inspeção 1 do grupo 3: inspecao/grupos/grupo3/entrega1/inspecao_grupo_mais_um.md
           - Inspeção do rich picture: inspecao/grupos/grupo3/entrega1/inspecao_richpicture.md
+
   - Elicitação:
       - Tecnicas de Elicitação:
           - Análise de Documentos: elicitacao/tecnicas_de_elicitacao/analise_documentos.md
@@ -71,7 +81,12 @@ nav:
       - Tecnicas de Priorização:
           - Three Level Scale: elicitacao/tecnicas_de_priorizacao/three_level_scale.md
 
+
   - Grupo:
     - Entrega 1:
       - Planejamento da verificação da entrega 1: grupo/entrega1/planejamento.md
       - Rich Picture: grupo/entrega1/richpicture.md
+      
+    - Entrega 2:
+      - Técnica de elicitação:
+        - Glossário: grupo/entrega2/glossario.md

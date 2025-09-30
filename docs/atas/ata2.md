@@ -5,22 +5,11 @@ Nesta seção são mantidos os registros oficiais de todas as reuniões realizad
 
 ## Identificação
 
-[ Data: Data de realização da reunião
-Início: Hora e minuto de início da reunião
-Término: Hora e minuto de término da reunião
-Local: Local de realização da reunião
-Redator: Nome de que redigiu a ata da reunião
-Convocados: Listas todas as pessoas que foram convocadas para a reunião
-Presente: Marcar somente as pessoas que participaram da reunião
-]
-
 | Data | Horário de Início | Horário de Término | Local | Projeto | Redator |
 |:----:|:-----------------:|:------------------:|:-----:|:-------:|:-------:|
 |   08/09/2025   |         19:00          |         20:30           |   Online na plataforma Teams    |     ligamagic    |     Angélica e Guilherme    |
 
 ## Participantes da reunião
-
-[Listar os assuntos que serão tratados na reunião]
 
 | Convocados | Presente (Sim/Não) | E-mail |
 |:----------:|:------------------:|:------:|
@@ -34,8 +23,6 @@ Presente: Marcar somente as pessoas que participaram da reunião
 
 ## Pauta
 
-[Registrar as pendências de reuniões passadas que ainda não foram solucionadas, identificando o responsável e a data para conclusão da pendência.]
-
 | Nº | Descrição |
 |:--:|:---------:|
 |  1  |     Revisar o projeto com a lista de verificação      |
@@ -45,16 +32,12 @@ Presente: Marcar somente as pessoas que participaram da reunião
 
 ## Pendências Anteriores
 
-[Registrar as pendências de reuniões passadas que ainda não foram solucionadas, identificando o responsável e a data para conclusão da pendência.]
-
 | Nº | Pendência | Responsável | Data |
 |:--:|:---------:|:-----------:|:----:|
 |    |         |             |      |
 
 
 ## Assuntos Tratados
-
-[Registrar as determinações acordadas em reunião para cada assunto tratado. Identificar os assuntos com o mesmo número da pauta da reunião.]
 
 | Nº | Descrição | Tipo¹ |
 |:--:|:---------:|:-----:|
@@ -80,7 +63,6 @@ Presente: Marcar somente as pessoas que participaram da reunião
 09/09/2025 ás 19 horas
 
 ## Compromissos
-[Registrar os compromissos acordados durante a reunião (identificados como pendências nos assuntos tratados), identificando o responsável e a data acordada para a conclusão da atividade.]
 
 | Nº | Compromissos | Responsável | Data |
 |:--:|:------------:|:-----------:|:----:|
