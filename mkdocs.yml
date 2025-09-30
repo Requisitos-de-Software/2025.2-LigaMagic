@@ -72,7 +72,9 @@ nav:
   - Elicitação:
       - Tecnicas de Elicitação:
           - Análise de Documentos: elicitacao/tecnicas_de_elicitacao/analise_documentos.md
-          - Entrevista: elicitacao/tecnicas_de_elicitacao/entrevista.md/
+          - Entrevista: elicitacao/tecnicas_de_elicitacao/entrevista.md
+          - In or Out: elicitacao/tecnicas_de_elicitacao/inorout.md
+          - Perfil do Usuário: elicitacao/tecnicas_de_elicitacao/perfildousuario.md
 
 
   - Grupo:

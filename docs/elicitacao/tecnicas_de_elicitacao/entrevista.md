@@ -135,7 +135,7 @@ nas várias edições de carta e de variadade de lojas  para  vê como montar 
 |16|Alguma consideração?|Não|
 
 
-## Referências 
+## Bibliografia 
 
 - BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; 
 DARIN, T.; BARBOSA, G. D. J. (2021) Interação Humano-Computador e Experiência 
