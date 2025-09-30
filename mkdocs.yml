@@ -64,6 +64,7 @@ nav:
       - Lista de verificação:
         - Técnica de elicitação: 
           - Glossário: verificacao/entrega2/verificacao_glossario.md
+          - Observação: verificacao/entrega2/verificacao_observacao.md
 
         - Técnica de priorização: 
           - Pairwise Comparison: verificacao/entrega2/verificacao_PairwiseComparison.md
@@ -78,9 +79,15 @@ nav:
   - Elicitação:
       - Tecnicas de Elicitação:
           - Análise de Documentos: elicitacao/tecnicas_de_elicitacao/analise_documentos.md
+<<<<<<< HEAD
+          - Observação: elicitacao/tecnicas_de_elicitacao/observacao.md
+      - Tecnicas de Priorização:
+          - Three Level Scale: elicitacao/tecnicas_de_priorizacao/three_level_scale.md
+=======
           - Entrevista: elicitacao/tecnicas_de_elicitacao/entrevista.md
           - In or Out: elicitacao/tecnicas_de_elicitacao/inorout.md
           - Perfil do Usuário: elicitacao/tecnicas_de_elicitacao/perfildousuario.md
+>>>>>>> daffd19a2ed46b600eddf5025b04e625e2d01ded
 
   - Priorização:
       - Tecnicas de Priorização:

@@ -85,15 +85,15 @@ Os requisitos foram organizados em categorias temáticas que refletem os princip
 ## Requisitos Não Funcionais (RNF)
 Os requisitos não funcionais descrevem restrições e qualidades que o sistema deve atender para garantir sua conformidade legal, segurança, desempenho e confiabilidade. No contexto do sistema analisado, destacam-se requisitos relacionados ao cumprimento de legislações como a LGPD e o Código de Defesa do Consumidor, à adoção de medidas de segurança da informação, à transparência na comunicação com os usuários e à garantia de disponibilidade e confiabilidade do serviço.
 
-|   ID   | Requisitos                                         |        Categoria        | Descrição                                                                                                             |
-|:------:|:---------------------------------------------------|:-----------------------:|:----------------------------------------------------------------------------------------------------------------------|
-|  RNF1  | Cumprir legislações aplicáveis                     |   Legal e Regulatório   | O sistema deve cumprir a LGPD (Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis. |
-|  RNF3  | Adotar medidas de segurança                        | Segurança da Informação | O sistema deve implementar padrões de segurança e privacidade alinhados às diretrizes do Banco Central do Brasil.     |
-|  RNF4  | Definir procedimentos para incidentes de segurança | Segurança da Informação | O sistema deve prever ações em caso de incidente ou vazamento de dados pessoais.                                      |
-|  RNF5  | Notificar alterações de política                   |      Transparência      | O sistema deve informar os usuários sobre mudanças relevantes na política com antecedência razoável.                  |
-|  RNF6  | Exigir consentimento e concordância explícita      |   Legal e Regulatório   | O sistema deve garantir que o usuário declare ciência e concordância com a política ao usar o portal.                 |
-|  RNF7  | Atualização do Sistema                             |     Disponibilidade     | O sistema deve suportar alterações na configuração ou apresentação sem interromper o uso                              |
-| RNF08  | Informações Legais e Tributárias                   |     Confiabilidade      | Garantir que anúncios incluam informações fiscais corretas                                                            |
+|  ID   | Requisitos                                         |        Categoria        | Descrição                                                                                                             |
+|:-----:|:---------------------------------------------------|:-----------------------:|:----------------------------------------------------------------------------------------------------------------------|
+| RNF1  | Cumprir legislações aplicáveis                     |   Legal e Regulatório   | O sistema deve cumprir a LGPD (Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis. |
+| RNF2  | Adotar medidas de segurança                        | Segurança da Informação | O sistema deve implementar padrões de segurança e privacidade alinhados às diretrizes do Banco Central do Brasil.     |
+| RNF3  | Definir procedimentos para incidentes de segurança | Segurança da Informação | O sistema deve prever ações em caso de incidente ou vazamento de dados pessoais.                                      |
+| RNF4  | Notificar alterações de política                   |      Transparência      | O sistema deve informar os usuários sobre mudanças relevantes na política com antecedência razoável.                  |
+| RNF5  | Exigir consentimento e concordância explícita      |   Legal e Regulatório   | O sistema deve garantir que o usuário declare ciência e concordância com a política ao usar o portal.                 |
+| RNF6  | Atualização do Sistema                             |     Disponibilidade     | O sistema deve suportar alterações na configuração ou apresentação sem interromper o uso                              |
+| RNF07 | Informações Legais e Tributárias                   |     Confiabilidade      | Garantir que anúncios incluam informações fiscais corretas                                                            |
 
 Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github.com/angelicaccampos), 2025
 
@@ -112,10 +112,13 @@ Os requisitos não implementados representam lacunas ou ausências identificadas
 
 ---
 
-## Bibliografia
 
-> 1. LIGAMAGIC. *Termos e condições gerais de uso*. Disponível em: [https://www.ligamagic.com.br/?view=contrato](https://www.ligamagic.com.br/?view=contrato). Acesso em: 24/09/2025.
-2. LIGAMAGIC. *Política de proteção de dados pessoais*. Disponível em: [https://www.ligamagic.com.br/?view=privacidade](https://www.ligamagic.com.br/?view=privacidade). Acesso em: 25 set. 2025.
+## Bibliografias
+
+
+
+1. LIGAMAGIC. *Política de proteção de dados pessoais*. Disponível em: [https://www.ligamagic.com.br/?view=privacidade](https://www.ligamagic.com.br/?view=privacidade). Acesso em: 25 set. 2025.
+2. LIGAMAGIC. *Termos e condições gerais de uso*. Disponível em: [https://www.ligamagic.com.br/?view=contrato](https://www.ligamagic.com.br/?view=contrato). Acesso em: 24/09/2025.
 
 ## Histórico de versão
 
