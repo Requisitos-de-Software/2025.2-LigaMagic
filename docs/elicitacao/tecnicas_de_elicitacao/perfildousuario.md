@@ -6,8 +6,7 @@ Um perfil de usuário é a descrição detalhada das características de um grup
 
 ## Objetivo
 
-O objetivo deste documento é traçar o perfil dos usuários da plataforma LigaMagic com base nos dados coletados em entrevistas. A análise visa identificar grupos de usuários com características e comportamentos semelhantes para guiar o desenvolvimento e as decisões de design do projeto.
-
+O objetivo deste documento é traçar o perfil dos usuários da plataforma LigaMagic. Para isso, foram realizadas entrevistas que permitiram aprimorar o entendimento inicial sobre os usuários. A análise dos dados coletados visa identificar e descrever grupos com características e comportamentos semelhantes, de modo que os perfis resultantes possam guiar as futuras decisões de desenvolvimento e design do projeto.
 ## Metodologia
 
 A metodologia adotada para a construção dos perfis de usuário foi baseada na análise dos dados coletados em entrevistas, uma das técnicas recomendadas para a identificação de necessidades dos usuários. O processo consistiu em agregar os dados e valores obtidos nas entrevistas em grupos e faixas nos quais os usuários se encaixam. A partir da análise comparativa das respostas, foi possível identificar padrões de comportamento e traçar perfis com características semelhantes
