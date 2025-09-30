@@ -4,34 +4,38 @@ Esta etapa apresenta a execução da lista de verificação estruturada no grupo
 
 ## Lista de verificação do grupo
 
-| ID  | Item de Verificação                                  | Sim/Não |
-|:---:|:---------------------------------------------------- |:------- |
-|  1  | **Identificar processos de negócio e dados**         | Sim     |
-|  2  | **Identificar atores e responsabilidades**           | Sim     |
-|  3  | **Mapear relacionamentos**                           | Sim     |
-|  4  | **Apontar problemas e conflitos**                    | Sim     |
-|  5  | **Posicionar palavras-chave relevantes**             | Sim     |
-|  6  | **Não ser excessivamente verboso**                   | Sim     |
-|  7  | **Contar uma história**                              | Sim     |
-|  8  | **Incluir informações essenciais do negócio**        | Sim     |
-|  9  | **Garantir clareza e compreensão**                   | Sim     |
-| 10  | **Identificar atores**                               | Sim     |
-| 11  | **Identificar operações por ator**                   | Sim     |
-| 12  | **Identificar requisitos de dados**                  | Sim     |
-| 13  | **Representar atores graficamente**                  | Sim     |
-| 14  | **Representar operações graficamente**               | Sim     |
-| 15  | **Representar armazenamentos de dados graficamente** | Sim     |
-| 16  | **Usar setas para fluxo de dados**                   | Sim     |
-| 17  | **Definir o limite do sistema**                      | Sim     |
-| 18  | **Representar o limite do sistema graficamente**     | Sim     |
-| 19  | **Adicionar o limite do sistema por último**         | Sim     |
-| 20  | **Utilizar o rich picture como desenho à mão livre** | Não     |
-| 21  | **Evitar ambiguidades visuais**                      | Sim     |
+| ID  | Item de Verificação                                  | Conforme/Não Conforme |
+|:---:|:---------------------------------------------------- |:--------------------- |
+|  1  | **Identificar processos de negócio e dados**         | Conforme              |
+|  2  | **Identificar atores e responsabilidades**           | Conforme              |
+|  3  | **Mapear relacionamentos**                           | Conforme              |
+|  4  | **Apontar problemas e conflitos**                    | Conforme              |
+|  5  | **Posicionar palavras-chave relevantes**             | Conforme              |
+|  6  | **Não ser excessivamente verboso**                   | Conforme              |
+|  7  | **Contar uma história**                              | Conforme              |
+|  8  | **Incluir informações essenciais do negócio**        | Conforme              |
+|  9  | **Garantir clareza e compreensão**                   | Conforme              |
+| 10  | **Identificar atores**                               | Conforme              |
+| 11  | **Identificar operações por ator**                   | Conforme              |
+| 12  | **Identificar requisitos de dados**                  | Conforme              |
+| 13  | **Representar atores graficamente**                  | Conforme              |
+| 14  | **Representar operações graficamente**               | Conforme              |
+| 15  | **Representar armazenamentos de dados graficamente** | Conforme              |
+| 16  | **Usar setas para fluxo de dados**                   | Conforme              |
+| 17  | **Definir o limite do sistema**                      | Conforme              |
+| 18  | **Representar o limite do sistema graficamente**     | Conforme              |
+| 19  | **Adicionar o limite do sistema por último**         | Conforme              |
+| 20  | **Utilizar o rich picture como desenho à mão livre** | Não Conforme          |
+| 21  | **Evitar ambiguidades visuais**                      | Conforme              |
 
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/samuelncaetano">Samuel Nogueira Caetano</a></strong>
+</div>
 
 ## Histórico de versão
 
-| Versão |    Data    |             Descrição              | Autor(es) | Revisor(es) |
-|:------:|:----------:|:----------------------------------:|:---------:|:-----------:|
-|  1.0   | 23/09/2025 | Elaboração da lista de verificação |  Samuel   |   Thiago    |
-|  1.0   | 23/09/2025 | Criação da página de documentação  |  Samuel   |   Thiago    |
+| Versão |    Data    |                  Descrição                   | Autor(es) | Revisor(es) |
+|:------:|:----------:|:--------------------------------------------:|:---------:|:-----------:|
+|  1.0   | 23/09/2025 |      Elaboração da lista de verificação      |  Samuel   |   Thiago    |
+|  1.0   | 23/09/2025 |      Criação da página de documentação       |  Samuel   |   Thiago    |
+|  1.1   | 30/09/2025 | Correção de formatação e revisão do conteúdo |  Samuel   |   Thiago    |
