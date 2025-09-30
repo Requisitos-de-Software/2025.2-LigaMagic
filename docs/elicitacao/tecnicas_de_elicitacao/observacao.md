@@ -1,16 +1,17 @@
 # Observação 
 
-## Introdução 
+## Descrição
 
 A observação consiste em acompanhar como o usuário interage com a aplicação, registrando seu comportamento, as tarefas realizadas, eventuais obstáculos encontrados e oportunidades de melhoria.  
 
----
 
 ## Objetivo 
 
 Identificar aspectos relacionados à usabilidade, navegação e funcionalidades do site LigaMagic por meio da técnica de elicitação por observação. Serão analisadas as interações de usuários, destacando dificuldades, comportamentos e oportunidades de melhoria, com o objetivo de propor recomendações que aprimorem a experiência, a eficiência e a satisfação no uso da plataforma. 
 
----
+## Método de Observação
+
+A observação foi conduzida pelo integrante [Guilherme]( https://github.com/GuilhermeOliveira1327), utilizando a técnica de observação ativa guiada por tarefas, com um usuário participante.. O objetivo foi compreender como o usuário interage com o site LigaMagic, identificar dificuldades na navegação e nas funcionalidades, e coletar informações que ajudem a aprimorar a experiência do usuário. Para conduzir a observação, foi elaborado um roteiro de ações, que foi lido e apresentado ao usuário.
 
 ## Ações Observadas 
 
@@ -28,10 +29,9 @@ Foram criadas algumas ações para que o usuário pudesse seguir durante a obser
 |  8  | Interação no fórum                    | Verificar como o usuário busca tópicos, lê e responde mensagens                          |
 |  9  | Uso em dispositivo móvel              | Observar a responsividade e usabilidade no celular                                       |
 
-Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025
+<sub>Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025</sub>
 
 
----
 
 ## Requisitos Funcionais 
 
@@ -59,7 +59,7 @@ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://githu
 | RF17 | Compartilhar carta              | Interação com Usuários   | Permitir que o usuário compartilhe informações da carta em redes sociais ou por link direto                   |
 | RF18 | Reportar problemas              | Interação com Usuários   | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) |
                                                                                
-Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025
+<sub>Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025</sub>
 
 ---
 
@@ -81,7 +81,22 @@ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://githu
 | RNF08  | Criptografia de dados sensíveis | Segurança       | O site deve criptografar dados sensíveis do usuário, como senhas e informações de pagamento                      |
 | RNF09  | Suporte a telas pequenas        | Usabilidade     | O site deve carregar corretamente em dispositivos móveis com telas menores que 6 polegadas                       |
 
-Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025
+<sub>Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme]( https://github.com/GuilhermeOliveira1327), 2025</sub>
 
----
+## Validação com Usuário
+No video abaixo é feito a validação com o integrante [Guilherme]( https://github.com/GuilhermeOliveira1327), com a usuária....
 
+
+## Bibliografia
+
+> 1. Site LigaMagic. Disponível em: https://www.ligamagic.com.br/ Acesso em: 26/09/2025.
+> 2. VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de requisitos: software orientado ao negócio. Disponível em: [Aprender3](https://aprender3.unb.br/pluginfile.php/3210603/mod_resource/content/4/Elicitacao%20de%20Req%202.pdf)
+
+
+## Histórico de versão 
+
+| Versão |    Data    |            Descrição             |                         Autor                          |                        Revisor                         |
+|:------:|:----------:|:--------------------------------:|:------------------------------------------------------:|:------------------------------------------------------:|
+|  1.0   | 24/09/2025 |  Criação da estrutura da página  |      [Vera Lucia](https://github.com/verabelucia)      | [Guilherme]( https://github.com/GuilhermeOliveira1327) |
+|  1.1   | 28/09/2024 | Criação das ações para o usuário |      [Vera Lucia](https://github.com/verabelucia)      | [Guilherme]( https://github.com/GuilhermeOliveira1327) |
+|  1.2   | 29/09/2024 |     Adicionando Bibliografia     | [Guilherme]( https://github.com/GuilhermeOliveira1327) |      [Vera Lucia](https://github.com/verabelucia)      |
