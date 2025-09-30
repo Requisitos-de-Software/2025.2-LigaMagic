@@ -6,37 +6,38 @@
 
 Fonte: [LigaMagic](https://www.ligamagic.com.br/?view=home)
 
-Bem-vindo ao repositório do **Grupo 02**, da disciplina **Requisitos de Software (2025.2)**, da Universidade de Brasília (FCTE-UnB). Nosso ambiente de documentação está hospedado usando **MkDocs**, e está disponível online em:  
+Bem-vindo ao repositório do **Grupo 02**, da disciplina **Requisitos de Software (2025.2)**, da Universidade de Brasília (FCTE-UnB). Nosso ambiente de documentação está hospedado usando **MkDocs**, e está disponível online em:
 [https://requisitos-de-software.github.io/2025.2-Grupo02](https://requisitos-de-software.github.io/2025.2-LigaMagic/)
 
-##  Como Executar o Projeto Localmente
+## Como Executar o Projeto Localmente
+
 Caso queira ver ou editar a documentação localmente:
 
-
 ### Pré-requisitos
+
 - Python 3.6 ou superior
 - pip (gerenciador de pacotes do Python)
 
-
 ### Clone este repositório:
-   ```bash
-   git clone https://github.com/Requisitos-de-Software/2025.2-Grupo02.git
-   cd 2025.2-Grupo02
+
+```bash
+git clone https://github.com/Requisitos-de-Software/2025.2-Grupo02.git
+cd 2025.2-Grupo02
 
 # Acesse a pasta do projeto
 cd repositorio
-   ```
-
+```
 
 ### Instalação
-   ```bash
+
+```bash
 # Instale o MkDocs
 pip install mkdocs
 ```
 
-
 ### Configure o Ambiente Virtual (Recomendado)
- ```bash
+
+```bash
 # Crie um ambiente virtual
 python -m venv venv
 
@@ -50,14 +51,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-
 ### Adicionar uma nova página:
+
 1. Crie um novo arquivo .md na pasta docs/
 2. Adicione ao menu no mkdocs.yml
 
-
 ### Visualize as Alterações Localmente
- ```bash
+
+```bash
 # Execute o servidor local
 mkdocs serve
 
@@ -65,14 +66,15 @@ mkdocs serve
 # http://localhost:8000
 ```
 
-
 ### Deploy para Produção após o push
- ```bash
+
+```bash
 # Faça deploy para GitHub Pages
 mkdocs gh-deploy
 ```
 
 ## Integrantes
+
 <table>
   <tr>
     <td align="center"><a href="https://github.com/angelicaccampos"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/82877749?v=4" width="100px;" alt=""/><br /><sub><b>ANGELICA DA COSTA CAMPOS</b></sub></a><br />
