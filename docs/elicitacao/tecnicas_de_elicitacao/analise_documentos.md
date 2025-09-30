@@ -112,7 +112,10 @@ Os requisitos não implementados representam lacunas ou ausências identificadas
 
 ---
 
+
 ## Bibliografias
+
+
 
 1. LIGAMAGIC. *Política de proteção de dados pessoais*. Disponível em: [https://www.ligamagic.com.br/?view=privacidade](https://www.ligamagic.com.br/?view=privacidade). Acesso em: 25 set. 2025.
 2. LIGAMAGIC. *Termos e condições gerais de uso*. Disponível em: [https://www.ligamagic.com.br/?view=contrato](https://www.ligamagic.com.br/?view=contrato). Acesso em: 24/09/2025.
