@@ -93,7 +93,7 @@ O RF7 e o RF4 se mostraram as funcionalidades mais prioritárias para o sistema,
 ## Vídeo da priorização feita com um usuario 
 Para realizar a priorização dos requisitos fizemos uma consulta com um usuario do app, disponivel aqui:
 
-[Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=mAeFDw2IV84)
+[Assista ao vídeo no YouTube](https://youtu.be/NiyykwAPFow). Este video foi produzido pela aluna Angélica Campos e Guilherme Oliveira.
 
 [Tabelas usadas com o usuario](./pairwisecomparetion.pdf)
 
@@ -103,3 +103,4 @@ Para realizar a priorização dos requisitos fizemos uma consulta com um usuario
 |:------:|:-----------:|:-------------------------------------------------------:|:---------------------------------------------:|:-----------------------------------------------:|
 |  1.0   | 28/09/2025  | Criação da estrutura da página        | Angélica|Marcelo|
 |  1.1   | 30/09/2025  | Adição do ranking | Angélica|Marcelo|
+|  1.2   | 30/09/2025  | Adição do video | Angélica|Marcelo|
