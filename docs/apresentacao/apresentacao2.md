@@ -12,9 +12,9 @@ A **Entrega 2** consiste na apresentação da segunda etapa do projeto e deve co
 
 |   |A git page possui?	|Sim/Não/Incompleto|
 |:--|:--|:------------|
-| 1 | Perfil dos usuários |Não|
-| 2 | Técnicas de elecitação usadas e que serão usadas | Não|
-| 3 | Técnicas priorização usadas e que serão usadas no projeto.| Não|
+| 1 | Perfil dos usuários |Sim|
+| 2 | Técnicas de elecitação usadas e que serão usadas | Sim|
+| 3 | Técnicas priorização usadas e que serão usadas no projeto.| Sim|
 
 ### Fonte: Plano de Ensino da disciplina de Requisitos de Software
 
