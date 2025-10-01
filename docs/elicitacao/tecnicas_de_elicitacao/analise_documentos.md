@@ -95,6 +95,7 @@ Os requisitos não funcionais descrevem restrições e qualidades que o sistema 
 |  RNF7  | Atualização do Sistema                             |     Disponibilidade     | O sistema deve suportar alterações na configuração ou apresentação sem interromper o uso                              |[Política de Proteção de Dados Pessoais](https://www.ligamagic.com.br/?view=privacidade) |
 | RNF08  | Informações Legais e Tributárias                   |     Confiabilidade      | Garantir que anúncios incluam informações fiscais corretas                                                            |[Política de Proteção de Dados Pessoais](https://www.ligamagic.com.br/?view=privacidade) |
 
+
 Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github.com/angelicaccampos), 2025
 
 ---
@@ -112,10 +113,13 @@ Os requisitos não implementados representam lacunas ou ausências identificadas
 
 ---
 
-## Bibliografia
 
-> 1. LIGAMAGIC. *Termos e condições gerais de uso*. Disponível em: [https://www.ligamagic.com.br/?view=contrato](https://www.ligamagic.com.br/?view=contrato). Acesso em: 24/09/2025.
-2. LIGAMAGIC. *Política de proteção de dados pessoais*. Disponível em: [https://www.ligamagic.com.br/?view=privacidade](https://www.ligamagic.com.br/?view=privacidade). Acesso em: 25 set. 2025.
+## Bibliografias
+
+
+
+1. LIGAMAGIC. *Política de proteção de dados pessoais*. Disponível em: [https://www.ligamagic.com.br/?view=privacidade](https://www.ligamagic.com.br/?view=privacidade). Acesso em: 25 set. 2025.
+2. LIGAMAGIC. *Termos e condições gerais de uso*. Disponível em: [https://www.ligamagic.com.br/?view=contrato](https://www.ligamagic.com.br/?view=contrato). Acesso em: 24/09/2025.
 
 ## Histórico de versão
 
