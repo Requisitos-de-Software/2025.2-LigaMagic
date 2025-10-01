@@ -79,25 +79,19 @@ nav:
   - Elicitação:
       - Tecnicas de Elicitação:
           - Análise de Documentos: elicitacao/tecnicas_de_elicitacao/analise_documentos.md
-<<<<<<< HEAD
           - Observação: elicitacao/tecnicas_de_elicitacao/observacao.md
+          - Entrevista: elicitacao/tecnicas_de_elicitacao/entrevista.md
+          - Glossário:  elicitacao/tecnicas_de_elicitacao/glossario.md
+          - Perfil do Usuário: elicitacao/tecnicas_de_elicitacao/perfildousuario.md
       - Tecnicas de Priorização:
           - Three Level Scale: elicitacao/tecnicas_de_priorizacao/three_level_scale.md
-=======
-          - Entrevista: elicitacao/tecnicas_de_elicitacao/entrevista.md
-          - In or Out: elicitacao/tecnicas_de_elicitacao/inorout.md
-          - Perfil do Usuário: elicitacao/tecnicas_de_elicitacao/perfildousuario.md
->>>>>>> daffd19a2ed46b600eddf5025b04e625e2d01ded
-
-  - Priorização:
-      - Tecnicas de Priorização:
-         - Pairwise Comparison: priorizacao/tecnicas_de_priorizacao/pairwise_comparison.md
+          - Pairwise Comparison: elicitacao/tecnicas_de_priorizacao/pairwise_comparison.md
+          - In or Out: elicitacao/tecnicas_de_priorizacao/inorout.md
 
   - Grupo:
     - Entrega 1:
       - Planejamento da verificação da entrega 1: grupo/entrega1/planejamento.md
       - Rich Picture: grupo/entrega1/richpicture.md
       
-    - Entrega 2:
-      - Técnica de elicitação:
-        - Glossário: grupo/entrega2/glossario.md
+
+
