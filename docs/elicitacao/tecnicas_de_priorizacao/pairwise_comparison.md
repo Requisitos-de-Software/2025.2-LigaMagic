@@ -1,7 +1,7 @@
 # Comparação em Pares - (Pairwise comparison and rank ordering)
 
 ## Introdução 
-Para priorização dos requisitos neste projeto foi aplicada a técnica Pairwise Comparison, que consiste na comparação sistemática de todos os requisitos dois a dois, de forma a estabelecer sua relevância relativa dentro do sistema. Os requisitos comparados foram tirados da [análise de documentos](../../elicitacao/tecnicas_de_elicitacao/analise_documentos.md)
+Para priorização dos requisitos neste projeto foi aplicada a técnica Pairwise Comparison, que consiste na comparação sistemática de todos os requisitos dois a dois, de forma a estabelecer sua relevância relativa dentro do sistema. Os requisitos comparados foram tirados da [análise de documentos](../tecnicas_de_elicitacao/analise_documentos.md)
 
 ## Metodologia 
 A técnica foi aplicada seguindo os seguintes passos:
@@ -95,12 +95,12 @@ Para realizar a priorização dos requisitos fizemos uma consulta com um usuario
 
 [Assista ao vídeo no YouTube](https://youtu.be/NiyykwAPFow). Este video foi produzido pela aluna Angélica Campos e Guilherme Oliveira.
 
-[Tabelas usadas com o usuario](./pairwisecomparetion.pdf)
+[Tabelas usadas com o usuario](pairwisecomparetion.pdf)
 
 ## Histórico de versão
 
-| Versão |    Data     |                        Descrição                        |                     Autor                     |                     Revisor                     |
-|:------:|:-----------:|:-------------------------------------------------------:|:---------------------------------------------:|:-----------------------------------------------:|
-|  1.0   | 28/09/2025  | Criação da estrutura da página        | Angélica|Marcelo|
-|  1.1   | 30/09/2025  | Adição do ranking | Angélica|Marcelo|
-|  1.2   | 30/09/2025  | Adição do video | Angélica|Marcelo|
+| Versão |    Data     |        Descrição               | Autor     |    Revisor |
+|:------:|:-----------:|:------------------------------:|:---------:|:----------:|
+|  1.0   | 28/09/2025  | Criação da estrutura da página | Angélica  |  Marcelo   |
+|  1.1   | 30/09/2025  |       Adição do ranking        | Angélica  |  Marcelo   |
+|  1.2   | 30/09/2025  |        Adição do video         | Angélica  |  Marcelo   |

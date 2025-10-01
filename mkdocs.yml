@@ -65,10 +65,12 @@ nav:
         - Técnica de elicitação: 
           - Glossário: verificacao/entrega2/verificacao_glossario.md
           - Observação: verificacao/entrega2/verificacao_observacao.md
+          - Análise de documentos: verificacao/entrega2/verficacao_analisededocumentos.md
 
         - Técnica de priorização: 
           - Pairwise Comparison: verificacao/entrega2/verificacao_PairwiseComparison.md
           - MoSCoW: verificacao/entrega2/verificacao_MoSCoW.md
+          - Three Level Scale: verificacao/entrega2/verificacao_trhee_level.md
 
   - Inspeção:
     - Grupos + 1:
@@ -83,10 +85,13 @@ nav:
           - Entrevista: elicitacao/tecnicas_de_elicitacao/entrevista.md
           - Glossário:  elicitacao/tecnicas_de_elicitacao/glossario.md
           - Perfil do Usuário: elicitacao/tecnicas_de_elicitacao/perfildousuario.md
+
       - Tecnicas de Priorização:
           - Three Level Scale: elicitacao/tecnicas_de_priorizacao/three_level_scale.md
           - Pairwise Comparison: elicitacao/tecnicas_de_priorizacao/pairwise_comparison.md
           - In or Out: elicitacao/tecnicas_de_priorizacao/inorout.md
+          - MoSCoW: elicitacao/tecnicas_de_priorizacao/moscow.md
+
 
   - Grupo:
     - Entrega 1:
