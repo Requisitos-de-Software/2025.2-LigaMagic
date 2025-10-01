@@ -86,10 +86,10 @@ nav:
       - Tecnicas de Priorização:
           - Three Level Scale: elicitacao/tecnicas_de_priorizacao/three_level_scale.md
 
-
   - Priorização:
       - Tecnicas de Priorização:
          - Pairwise Comparison: priorizacao/tecnicas_de_priorizacao/pairwise_comparison.md
+         - MoSCoW: priorizacao/tecnicas_de_priorizacao/moscow.md
 
   - Grupo:
     - Entrega 1:
