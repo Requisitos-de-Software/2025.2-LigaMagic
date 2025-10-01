@@ -35,6 +35,8 @@ O objetivo desta verificação é assegurar que a técnica seja aplicada de form
 
 > **WIEGERS, Karl; BEATTY, Joy.** *Software Requirements. *3. ed. Redmond: Microsoft Press, 2013. 638 p.
 
+## Histórico de versão
+
 | Versão |    Data    |               Descrição               | Autor(es) | Revisor(es) |
 | :----: | :--------: | :-----------------------------------: | :-------: | :---------: |
 |  1.0   | 18/09/2025 |  Elaboração da lista de verificação   |  Samuel   |   Thiago    |
