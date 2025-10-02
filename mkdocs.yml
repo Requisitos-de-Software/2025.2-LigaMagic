@@ -66,10 +66,12 @@ nav:
           - Glossário: verificacao/entrega2/verificacao_glossario.md
           - Observação: verificacao/entrega2/verificacao_observacao.md
           - Análise de documentos: verificacao/entrega2/verficacao_analisededocumentos.md
+          - Entrevista: verificacao/entrega2/verificacao_entrevista.md
 
         - Técnica de priorização: 
           - Pairwise Comparison: verificacao/entrega2/verificacao_PairwiseComparison.md
           - MoSCoW: verificacao/entrega2/verificacao_MoSCoW.md
+          - In or Our: verificacao/entrega2/verificacao_inorout.md
 
   - Inspeção:
     - Grupos + 1:
