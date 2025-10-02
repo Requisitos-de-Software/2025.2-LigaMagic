@@ -25,4 +25,4 @@
 
 | Versão |    Data    |             Descrição              |   Autor(es)    | Revisor(es) |
 |:------:|:----------:|:----------------------------------:|:--------------:|:-----------:|
-|  1.0   | 01/10/2025 | Criação da estrutura da página   | Angélica |  Samuel   |
+|  1.0   | 01/10/2025 | Criação da estrutura da página   | Angélica |  Samuel, Tiago, Guilherme, Marcelo, Raissa e Vera   |
