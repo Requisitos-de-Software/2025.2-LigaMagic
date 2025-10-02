@@ -38,7 +38,7 @@ Esta lista de verificação tem como objetivo fornecer um guia estruturado para 
 |  8  | A priorização levou em conta as dimensões de importância e urgência de forma clara e consistente?                                                                 | [Guilherme]( https://github.com/GuilhermeOliveira1327) |sim
 |  9  | Cada requisito recebeu um atributo de prioridade registrado no documento de requisitos ou base de dados?                                                          | [Guilherme]( https://github.com/GuilhermeOliveira1327) |sim
 | 10  | Foi estabelecida uma convenção para indicar se requisitos de alto nível transmitem sua prioridade para requisitos subordinados?                                   | [Guilherme]( https://github.com/GuilhermeOliveira1327) |sim
-| 11  | Em projetos grandes, foi feita uma subdivisão dos requisitos de alta prioridade em grupos adicionais (ex.: “alto”, “mais alto”, “altíssimo”), quando necessário?  | [Guilherme]( https://github.com/GuilhermeOliveira1327) sim
+| 11  | Em projetos grandes, foi feita uma subdivisão dos requisitos de alta prioridade em grupos adicionais (ex.: “alto”, “mais alto”, “altíssimo”), quando necessário?  | [Guilherme]( https://github.com/GuilhermeOliveira1327) |sim
 | 12  | A equipe validou se todos os requisitos classificados como “altíssima prioridade” realmente precisam estar na próxima entrega para que o produto seja utilizável? | [Guilherme]( https://github.com/GuilhermeOliveira1327) |sim
 | 13  | Foram analisadas as dependências entre requisitos para evitar que um requisito de alta prioridade dependa de outro de baixa prioridade planejado para depois?     | [Guilherme]( https://github.com/GuilhermeOliveira1327) |sim
 
