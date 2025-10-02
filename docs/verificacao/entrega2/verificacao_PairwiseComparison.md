@@ -21,6 +21,10 @@ A Comparação em Pares (Pairwise Comparison) é uma técnica sistemática de pr
 
 [Lista de Verificação Completa (PDF)](./Grupo2AngelicadaCostaCmposVerifacacaoListaPairwiseComparison.pdf)
 
+## Inspeção do grupo 3
+O grupo 3 não aplicou a técnica de Pairwise Comparison, por isso não a lista de verificação não foi aplicada. 
+
+[Assista ao vídeo da inspeção no YouTube](https://youtu.be/kPY4_MQQVxo). Este video foi produzido pelas alunas Angélica e Raissa.
 
 ## Referências
 > **WIEGERS, Karl; BEATTY, Joy.** *Software Requirements. *3. ed. Redmond: Microsoft Press, 2013. 638 p.
@@ -31,3 +35,4 @@ A Comparação em Pares (Pairwise Comparison) é uma técnica sistemática de pr
 | Versão |    Data    |             Descrição              |   Autor(es)    | Revisor(es) |
 |:------:|:----------:|:----------------------------------:|:--------------:|:-----------:|
 |  1.0   | 29/09/2025 | Elaboração da lista de verificação | Angélica |  Raissa   |
+|  1.1   | 01/09/2025 | Adição da inspeção | Angélica |  Raissa   |
