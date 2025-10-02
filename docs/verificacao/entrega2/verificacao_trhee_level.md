@@ -42,7 +42,9 @@ Esta lista de verificação tem como objetivo fornecer um guia estruturado para 
 | 12  | A equipe validou se todos os requisitos classificados como “altíssima prioridade” realmente precisam estar na próxima entrega para que o produto seja utilizável? | [Guilherme]( https://github.com/GuilhermeOliveira1327) |sim
 | 13  | Foram analisadas as dependências entre requisitos para evitar que um requisito de alta prioridade dependa de outro de baixa prioridade planejado para depois?     | [Guilherme]( https://github.com/GuilhermeOliveira1327) |sim
 
+## Inspeção do grupo +1
 
+[Assista ao vídeo da inspeção completo no YouTube](https://youtu.be/fInotIcIkKg). Este video foi produzido por [Guilherme]( https://github.com/GuilhermeOliveira1327) [Vera Lucia](https://github.com/verabelucia) 
 
 
 ## Referências

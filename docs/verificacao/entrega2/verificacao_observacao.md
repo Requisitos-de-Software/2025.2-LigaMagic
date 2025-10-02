@@ -26,6 +26,13 @@ Esta lista de verificação foi elaborada para inspecionar  à técnica de obser
 | 18  | Os resultados foram revistos para garantir representatividade do grupo?                           | [Guilherme]( https://github.com/GuilhermeOliveira1327) |        
 
 [Lista de Verificação Completa (PDF)](./pdf\Grupo2GuilhermeOliveiraVerifacaçãoListaTécnicadeelicitaçãoObservação.pdf)
+
+## Inspeção do grupo +1
+
+O grupo +1 não aplicou a técnica de Observação, por isso a lista de verificação não foi aplicada. 
+
+[Assista ao vídeo da inspeção no YouTube](https://youtu.be/h0t28vRdrIw). Este video foi produzido por [Guilherme]( https://github.com/GuilhermeOliveira1327) [Vera Lucia](https://github.com/verabelucia) 
+
 ## Referências
 > **Vazquez, C. E.; Simões, G. S.** *Engenharia de Requisitos: software orientado ao negócio*.
 
