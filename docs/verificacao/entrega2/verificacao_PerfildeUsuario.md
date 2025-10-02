@@ -42,4 +42,4 @@ BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; B
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:---:|:---:|:---:|:---:|:---:|
-| 1.0 | A ser preenchido | Criação e preenchimento do documento | Marcelo de Araújo Lopes | Thiago e Samuel|
+| 1.0 | 01/10/2025 | Criação e preenchimento do documento | Marcelo de Araújo Lopes | Thiago e Samuel|
