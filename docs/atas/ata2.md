@@ -1,50 +1,48 @@
 # Ata 2 - 08/09/2025
 
-## Introdução 
+## Introdução
+
 Nesta seção são mantidos os registros oficiais de todas as reuniões realizadas. As atas servem como documento oficial para acompanhamento do progresso e transparência dos processos de tomada de decisão.
 
 ## Identificação
 
-| Data | Horário de Início | Horário de Término | Local | Projeto | Redator |
-|:----:|:-----------------:|:------------------:|:-----:|:-------:|:-------:|
-|   08/09/2025   |         19:00          |         20:30           |   Online na plataforma Teams    |     ligamagic    |     Angélica e Guilherme    |
+|    Data    | Horário de Início | Horário de Término |           Local            |  Projeto  |       Redator        |
+| :--------: | :---------------: | :----------------: | :------------------------: | :-------: | :------------------: |
+| 08/09/2025 |       19:00       |       20:30        | Online na plataforma Teams | ligamagic | Angélica e Guilherme |
 
 ## Participantes da reunião
 
-| Convocados | Presente (Sim/Não) | E-mail |
-|:----------:|:------------------:|:------:|
-| ANGELICA DA COSTA CAMPOS | Sim | angelicadacostacampos@gmail.com |
-| GUILHERME OLIVEIRA | Sim | guilhermeoliveira.carreira@hotmail.com |
-| MARCELO DE ARAUJO LOPES | Sim |  |
-| RAISSA ANDRADE SILVEIRA | Sim | raissaandrade8@gmail.com |
-| SAMUEL NOGUEIRA CAETANO | Sim | samueln.caetano42@gmail.com |
-| THIAGO VIRIATO ACCIOLY | Sim | thiagoacciolyv@gmail.com |
-| VERA LUCIA BEZERRA DA SILVA | Sim | verabelucia@gmail.com |
+| Convocados                  | Presente (Sim/Não) | E-mail                                 |
+| :-------------------------- | :----------------: | :------------------------------------- |
+| ANGELICA DA COSTA CAMPOS    |        Sim         | angelicadacostacampos@gmail.com        |
+| GUILHERME OLIVEIRA          |        Sim         | guilhermeoliveira.carreira@hotmail.com |
+| MARCELO DE ARAUJO LOPES     |        Sim         |                                        |
+| RAISSA ANDRADE SILVEIRA     |        Sim         | raissaandrade8@gmail.com               |
+| SAMUEL NOGUEIRA CAETANO     |        Sim         | samueln.caetano42@gmail.com            |
+| THIAGO VIRIATO ACCIOLY      |        Sim         | thiagoacciolyv@gmail.com               |
+| VERA LUCIA BEZERRA DA SILVA |        Sim         | verabelucia@gmail.com                  |
 
 ## Pauta
 
-| Nº | Descrição |
-|:--:|:---------:|
-|  1  |     Revisar o projeto com a lista de verificação      |
-|  2  |     Planejar a apresentação       |
-|  3  |     Marcar a proxima reunião de apresentação       |
-
+| Nº  | Descrição                                    |
+| :-: | :------------------------------------------- |
+|  1  | Revisar o projeto com a lista de verificação |
+|  2  | Planejar a apresentação                      |
+|  3  | Marcar a proxima reunião de apresentação     |
 
 ## Pendências Anteriores
 
-| Nº | Pendência | Responsável | Data |
-|:--:|:---------:|:-----------:|:----:|
-|    |         |             |      |
-
+| Nº  | Pendência | Responsável | Data |
+| :-: | :-------: | :---------: | :--: |
+|     |           |             |      |
 
 ## Assuntos Tratados
 
-| Nº | Descrição | Tipo¹ |
-|:--:|:---------:|:-----:|
-|  1  |    Revisar o projeto com a lista de verificação     |    Solicitação   |
-|  2  |    Planejar a apresentação       |    Decisão   |
-|  3  |      Marcar a proxima reunião de apresentação     |    Definição   |
-
+| Nº  | Descrição                                    |    Tipo¹    |
+| :-: | :------------------------------------------- | :---------: |
+|  1  | Revisar o projeto com a lista de verificação | Solicitação |
+|  2  | Planejar a apresentação                      |   Decisão   |
+|  3  | Marcar a proxima reunião de apresentação     |  Definição  |
 
 **Tipos¹:**
 
@@ -64,15 +62,16 @@ Nesta seção são mantidos os registros oficiais de todas as reuniões realizad
 
 ## Compromissos
 
-| Nº | Compromissos | Responsável | Data |
-|:--:|:------------:|:-----------:|:----:|
-|  1  |      Corrigir a opção de contraste de cores   |       Samuel      |   09/09/2025   |
+| Nº  | Compromissos                           | Responsável |    Data    |
+| :-: | :------------------------------------- | :---------: | :--------: |
+|  1  | Corrigir a opção de contraste de cores |   Samuel    | 09/09/2025 |
 
-## Fonte 
-Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](https://aprender3.unb.br/pluginfile.php/3259329/mod_resource/content/2/SiglaProjeto_AtaReuniao_AAAAMMDD_XX.pdf).
+## Fonte
+
+> Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](https://aprender3.unb.br/pluginfile.php/3259329/mod_resource/content/2/SiglaProjeto_AtaReuniao_AAAAMMDD_XX.pdf).
 
 ## Histórico de versão
-| Versão | Data | Descrição | Autor(es)	 | Revisor(es)	 |
-|:--:|:------------:|:-----------:|:----:| :----:|
-|  1.0  |       08/09/2025       |       Criação da Documentação	      |   Angélica   |   Guilherme   |
 
+| Versão |    Data    | Descrição               | Autor(es) | Revisor(es) |
+| :----: | :--------: | :---------------------- | :-------: | :---------: |
+|  1.0   | 08/09/2025 | Criação da Documentação | Angélica  |  Guilherme  |

@@ -1,0 +1,54 @@
+# Glossário do Projeto: Magic: The Gathering
+
+Este documento apresenta um glossário detalhado dos principais termos e funcionalidades relacionados ao projeto desenvolvido sobre Magic: The Gathering. O objetivo é facilitar o entendimento dos conceitos utilizados, tanto no contexto do jogo quanto nas ferramentas e recursos oferecidos pela plataforma abordada.
+
+## Termos Gerais e de Jogo
+
+| ID  | Termos                                                                                                                                                                                                                                             | Autor  |
+| :-: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: |
+|  1  | **Booster:** Pacote lacrado de cartas de uma determinada coleção de Magic: The Gathering.                                                                                                                                                          | Samuel |
+|  2  | **Card:** Termo em inglês para “carta”, a unidade fundamental do jogo Magic: The Gathering.                                                                                                                                                        | Samuel |
+|  3  | **Coleção / Edição (Set):** Um conjunto de cartas lançado em uma data específica, com um tema e símbolo próprios.                                                                                                                                  | Samuel |
+|  4  | **Deck:** O baralho de no mínimo 60 cartas que um jogador utiliza para uma partida. A plataforma possui ferramentas para a criação e gerenciamento de decks.                                                                                       | Samuel |
+|  5  | **Decklist:** A lista completa e exata das cartas que compõem um deck específico, frequentemente usada em torneios.                                                                                                                                | Samuel |
+|  6  | **Formato:** Um conjunto de regras que determina quais coleções de cartas são permitidas para a construção de um deck (ex: Standard, Modern, Commander).                                                                                           | Samuel |
+|  7  | **Mana:** A energia mágica no jogo, usada para conjurar feitiços (cartas). É representada por diferentes cores.                                                                                                                                    | Samuel |
+|  8  | **Raridade:** Classificação de uma carta baseada na sua frequência de aparição em boosters (ex: Comum, Incomum, Rara, Mítica). É um critério de busca e um fator determinante no valor da carta.                                                   | Samuel |
+|  9  | **Sideboard:** Um conjunto de até 15 cartas que o jogador pode usar para modificar seu deck entre as partidas de um mesmo confronto.                                                                                                               | Samuel |
+| 10  | **Terreno (Land):** Tipo de carta fundamental que gera mana para que o jogador possa usar suas outras cartas.                                                                                                                                      | Samuel |
+| 11  | **Criatura (Creature):** Tipo de carta que representa um ser que luta pelo jogador. Criaturas podem atacar o oponente e bloquear as criaturas dele, sendo fundamentais na maioria das estratégias de jogo.                                         | Thiago |
+| 12  | **Mágica Instantânea (Instant):** Tipo de carta de feitiço que pode ser jogada a qualquer momento, inclusive durante o turno do oponente, oferecendo grande flexibilidade tática.                                                                  | Thiago |
+| 13  | **Feitiço (Sorcery):** Tipo de carta de feitiço que, em geral, só pode ser jogada durante a fase principal do turno do próprio jogador.                                                                                                            | Thiago |
+| 14  | **Habilidade (Ability):** Texto em uma carta que descreve um efeito que ela pode gerar no jogo. Pode ser uma habilidade ativada (com um custo para usar), desencadeada (que acontece em resposta a um evento) ou estática (que está sempre ativa). | Thiago |
+
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/samuelncaetano">Samuel Nogueira Caetano</a> e de <a href="https://github.com/Acciolyy">Thiago Accioly</a></strong>
+</div>
+
+## Funcionalidades do Site
+
+| ID  | Funcionalidades                                                                                                                                                                                                                   | URL                                                                                                                                               | Autor  |
+| :-: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ | :----: |
+|  1  | **Artigos:** Seção do site dedicada a publicações escritas pela equipe ou por membros da comunidade sobre estratégias, novidades, análises de campeonatos e outros assuntos relacionados ao universo de Magic: The Gathering.     | URL: [https://www.ligamagic.com.br/?view=artigos/home&artigos=1&noticias=1](https://www.ligamagic.com.br/?view=artigos/home&artigos=1&noticias=1) | Samuel |
+|  2  | **Arquétipo:** Classificação da estratégia principal de um deck (ex: Aggro, Control, Combo, Midrange). É um filtro essencial na busca e análise de decks no site.                                                                 | URL: [https://www.ligamagic.com.br/?view=dks/decks](https://www.ligamagic.com.br/?view=dks/decks)                                                 | Samuel |
+|  3  | **Busca Avançada:** Ferramenta de pesquisa detalhada que permite aos usuários filtrar cartas por múltiplos critérios como nome, tipo, custo, edição, raridade, cor, texto da habilidade, entre outros.                            | URL: [https://www.ligamagic.com.br/?view=dks/decks](https://www.ligamagic.com.br/?view=dks/decks)                                                 | Samuel |
+|  4  | **Leilão:** Modalidade de venda na plataforma onde vendedores podem ofertar cartas e os compradores interessados dão lances, arrematando o produto quem oferecer o maior valor ao final do tempo estipulado.                      | URL: [https://www.ligamagic.com.br/?view=leilao/listar](https://www.ligamagic.com.br/?view=leilao/listar)                                         | Samuel |
+|  5  | **Minha Coleção (My Collection):** Ferramenta do site que permite ao usuário catalogar todas as cartas que possui, facilitando o gerenciamento do seu acervo pessoal, a montagem de decks e a identificação de cartas para venda. | URL: [https://www.ligamagic.com.br/?view=colecao/colecao](https://www.ligamagic.com.br/?view=colecao/colecao)                                     | Thiago |
+|  6  | **Fórum (Forum):** Espaço de discussão para a comunidade, onde usuários podem criar tópicos, fazer perguntas, debater estratégias e interagir com outros jogadores sobre diversos temas do universo Magic.                        | URL: [https://www.ligamagic.com.br/?view=forum/forum](https://www.ligamagic.com.br/?view=forum/forum)                                             | Thiago |
+|  7  | **Meu Carrinho (Carrinho de Compras):** Uma lista de compras selecionadas a partir de navegação do site, para no fim, comprar todos os produtos selecionados ou retirar alguns da própria lista.                                  | URL: [https://www.ligamagic.com.br/?view=mp/carrinho&open=1](https://www.ligamagic.com.br/?view=mp/carrinho&open=1)                               | Thiago |
+
+<div align="center">
+  <strong>Autoria de <a href="https://github.com/samuelncaetano">Samuel Nogueira Caetano</a> e de <a href="https://github.com/Acciolyy">Thiago Accioly</a></strong>
+</div>
+
+---
+
+[Técnica de elicitação – Glossário (PDF)](../../00_assets/pdfs/elicitacao/tecnica_de_elicitacao_glossario.pdf)
+
+## Histórico de versão
+
+| Versão |    Data    | Descrição                                         | Autor(es) | Revisor(es) |
+| :----: | :--------: | :------------------------------------------------ | :-------: | :---------: |
+|  1.0   | 23/09/2025 | Elaboração da lista de verificação                |  Samuel   |   Thiago    |
+|  1.1   | 30/09/2025 | Adicionado PDF do documento original do glossário |  Samuel   |   Thiago    |
+|  1.2   | 02/09/2025 | Formatação e organização do documento             |  Samuel   |      -      |
