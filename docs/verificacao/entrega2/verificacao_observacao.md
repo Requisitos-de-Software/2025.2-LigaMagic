@@ -41,6 +41,7 @@ O grupo +1 não aplicou a técnica de Observação, por isso a lista de verifica
 
 | Versão |    Data    |            Descrição             |                     Autor                      |                        Revisor                         |
 |:------:|:----------:|:--------------------------------:|:----------------------------------------------:|:------------------------------------------------------:|
+|  1.2   | 01/10/2025  | Adicionando Verificação e Inspeção do grupo 3 | [Vera Lucia](https://github.com/verabelucia) | [Guilherme]( https://github.com/GuilhermeOliveira1327)  |
 |  1.0   | 29/09/2025 |  Criação da estrutura da página  |  [Vera Lucia](https://github.com/verabelucia)  | [Guilherme]( https://github.com/GuilhermeOliveira1327) |
 |  1.1   | 29/09/2025 | Adicionando lista de verificação | [Vera Lucia](https://github.com/verabelucia)   | [Guilherme]( https://github.com/GuilhermeOliveira1327) |
 
