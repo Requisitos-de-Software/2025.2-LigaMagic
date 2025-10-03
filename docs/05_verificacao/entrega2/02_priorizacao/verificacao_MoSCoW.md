@@ -8,38 +8,43 @@ O objetivo desta verificação é assegurar que a técnica seja aplicada de form
 
 ## Lista de Verificação
 
-| ID  | Item de Verificação                                                                                                                                                         | Autor  | Resultado |
-|:---:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |:------:|:---------:|
-|  1  | As definições para cada uma das quatro classificações de prioridade (Must, Should, Could, Won’t) foram claramente estabelecidas e compartilhadas com todos os stakeholders? | Samuel | Não se aplica |
-|  2  | Foi esclarecido o significado da classificação “Won’t”?                                                                                                                     | Samuel | Não se aplica |
-|  3  | Todos os envolvidos entendem se significa “não será implementado nesta release” ou “não será implementado nunca”?                                                           | Samuel | Não se aplica|
-|  4  | Foi evitada uma concentração excessiva de requisitos na categoria “Must”?                                                                                                   | Samuel | Conforme |
-|  5  | A distribuição das prioridades parece razoável?                                                                                                                             | Samuel | Conforme |
-|  6  | A maioria dos itens foi classificada como “Must” para garantir sua implementação?                                                                                           | Samuel | Conforme |
-|  7  | Há evidências de que os stakeholders compreenderam as diferenças sutis entre “Should”, “Could” e “Won’t”?                                                                   | Samuel | Não se aplica |
-|  8  | A técnica MoSCoW foi utilizada apenas como um esquema de classificação?                                                                                                     | Samuel | Conforme |
-|  9  | Foi realizada uma análise racional que justifique por que um requisito é “Must” e outro é “Should”?                                                                         | Samuel | Conforme |
-| 10  | A equipe do projeto foi informada sobre as limitações e críticas da técnica MoSCoW (como a falta de racionalidade e a tendência ao uso indevido) antes de sua adoção?       | Samuel | Não se aplica |
-| 11  | A classificação de um requisito como “Must” está claramente justificada por sua contribuição direta para os objetivos de negócio do projeto?                                | Samuel | Conforme |
-| 12  | O processo de priorização MoSCoW foi estabelecido como uma atividade contínua, a ser revisitada periodicamente, em vez de um evento único no início do projeto?             | Samuel | Não se aplica |
-
-[Assista ao vídeo da inspeção no YouTube](https://youtu.be/oShj0z2DPRA). Este video foi produzido pelas alunos Marcelo,Thiago e Samuel
-
+| ID  | Item de Verificação                                                                                                                                                         | Autor  |
+| :-: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----: |
+|  1  | As definições para cada uma das quatro classificações de prioridade (Must, Should, Could, Won't) foram claramente estabelecidas e compartilhadas com todos os stakeholders? | Samuel |
+|  2  | Foi esclarecido o significado da classificação "Won't"?                                                                                                                     | Samuel |
+|  3  | Todos os envolvidos entendem se significa "não será implementado nesta release" ou "não será implementado nunca"?                                                           | Samuel |
+|  4  | Foi evitada uma concentração excessiva de requisitos na categoria "Must"?                                                                                                   | Samuel |
+|  5  | A distribuição das prioridades parece razoável?                                                                                                                             | Samuel |
+|  6  | A maioria dos itens foi classificada como "Must" para garantir sua implementação?                                                                                           | Samuel |
+|  7  | Há evidências de que os stakeholders compreenderam as diferenças sutis entre "Should", "Could" e "Won't"?                                                                   | Samuel |
+|  8  | A técnica MoSCoW foi utilizada apenas como um esquema de classificação?                                                                                                     | Samuel |
+|  9  | Foi realizada uma análise racional que justifique por que um requisito é "Must" e outro é "Should"?                                                                         | Samuel |
+| 10  | A equipe do projeto foi informada sobre as limitações e críticas da técnica MoSCoW (como a falta de racionalidade e a tendência ao uso indevido) antes de sua adoção?       | Samuel |
+| 11  | A classificação de um requisito como "Must" está claramente justificada por sua contribuição direta para os objetivos de negócio do projeto?                                | Samuel |
+| 12  | O processo de priorização MoSCoW foi estabelecido como uma atividade contínua, a ser revisitada periodicamente, em vez de um evento único no início do projeto?             | Samuel |
 
 <div align="center">
   <strong>Autoria de <a href="https://github.com/samuelncaetano">Samuel Nogueira Caetano</a></strong>
 </div>
 
----
+## Lista de verificação (PDF)
 
-[Lista de verificação – Técnica de elicitação – MoSCoW (PDF)](../../../00_assets/pdfs/verificacao/tecnica_de_priorizacao/lista_de_verificacao_tecnica_de_priorizacao_moscow.pdf)
+[Lista de verificação – Técnica de priorização – MoSCoW (PDF)](../../../00_assets/pdfs/verificacao/tecnica_de_priorizacao/lista_de_verificacao_tecnica_de_priorizacao_moscow.pdf)
+
+## Nível de Contribuição dos Integrantes
+
+| Nome   | % de Contribuição |
+| :----- | :---------------: |
+| Samuel |       100%        |
 
 ## Referências
-> **WIEGERS, Karl; BEATTY, Joy.** *Software Requirements. *3. ed. Redmond: Microsoft Press, 2013. 638 p.
 
-| Versão |    Data    |             Descrição              | Autor(es) | Revisor(es) |
-|:------:|:----------:|:----------------------------------:|:---------:|:-----------:|
-|  1.0   | 18/09/2025 | Elaboração da lista de verificação |  Samuel   |   Thiago    |
-|  1.0   | 30/09/2025 | Criação da página de documentação  |  Samuel   |   Thiago    |
-|  1.1   | 01/10/2025 | Atualização com os resultados dos itens/vídeo |  Thiago   |   Marcelo    |
-|  1.2   | 02/09/2025 | Formatação e organização do documento |  Samuel   |      -      |
+> **WIEGERS, Karl; BEATTY, Joy.** _Software Requirements._ 3. ed. Redmond: Microsoft Press, 2013. 638 p.
+
+## Histórico de versão
+
+| Versão |    Data    |                  Descrição                   | Autor(es) | Revisor(es) |
+| :----: | :--------: | :------------------------------------------: | :-------: | :---------: |
+|  1.0   | 18/09/2025 |      Elaboração da lista de verificação      |  Samuel   |   Thiago    |
+|  1.1   | 30/09/2025 |      Criação da página de documentação       |  Samuel   |   Thiago    |
+|  1.2   | 02/10/2025 | Separação das responsabilidades do documento |  Samuel   |      -      |
