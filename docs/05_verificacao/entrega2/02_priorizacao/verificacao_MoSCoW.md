@@ -35,8 +35,8 @@ O objetivo desta verificação é assegurar que a técnica seja aplicada de form
 
 | Nome   | % de Contribuição |
 | :----- | :---------------: |
-| Thiago |        85%        |
-| Samuel |        15%        |
+| Thiago |        50%        |
+| Samuel |        50%        |
 
 ## Referências
 
