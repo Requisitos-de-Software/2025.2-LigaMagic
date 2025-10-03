@@ -34,77 +34,80 @@ markdown_extensions:
 nav:
   - Home: index.md
 
-  - Apresentação:
+  - Planejamento:
+      - Guias:
+          - Contribuição: 01_planejamento/guias/contribuicao.md
+          - Ata Padrão: 01_planejamento/guias/ata_padrao.md
+      - Cronograma: 01_planejamento/cronograma.md
+      - Cronograma Executado: 01_planejamento/cronograma_executado.md
+      - Aplicativo Escolhido: 01_planejamento/aplicativo_escolhido.md
+      - Ferramentas: 01_planejamento/ferramentas.md
+      - Heatmap: 01_planejamento/heatmap.md
+
+  - Pré-rastreabilidade:
+      - Rich Picture: 02_pre-rastreabilidade/rich_picture.md
+
+  - Elicitação:
+      - Artefatos:
+          - Glossário: 03_elicitacao/artefatos/glossario.md
+          - Perfil de usuário: 03_elicitacao/artefatos/perfil_usuario.md
+      - Técnicas:
+          - Análise de Documentos: 03_elicitacao/tecnicas/analise_documentos.md
+          - Entrevista: 03_elicitacao/tecnicas/entrevista.md
+          - Observação: 03_elicitacao/tecnicas/observacao.md
+
+  - Priorização:
+      - In or Out: 04_priorizacao/in_or_out.md
+      - MoSCoW: 04_priorizacao/moscow.md
+      - Pairwise Comparison: 04_priorizacao/pairwise_comparison.md
+      - Three Level Scale: 04_priorizacao/three_level_scale.md
+
+  - Verificação e Validação:
+      - Entrega 1:
+          - Rich Picture: 05_verificacao/entrega1/verificacao_rich_picture.md
+      - Entrega 2:
+          - Elicitação:
+              - Artefatos:
+                  - Glossário: 05_verificacao/entrega2/01_elicitacao/artefatos/verificacao_glossario.md
+                  - Perfil de usuário: 05_verificacao/entrega2/01_elicitacao/artefatos/verificacao_perfil_de_usuario.md
+              - Técnicas:
+                  - Análise de Documentos: 05_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_analise_de_documentos.md
+                  - Brainstorming: 05_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_brainstorming.md
+                  - Entrevista: 05_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_entrevista.md
+                  - Observação: 05_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_observacao.md
+          - Priorização:
+              - In or Out: 05_verificacao/entrega2/02_priorizacao/verificacao_in_or_out.md
+              - MoSCoW: 05_verificacao/entrega2/02_priorizacao/verificacao_MoSCoW.md
+              - Pairwise Comparison: 05_verificacao/entrega2/02_priorizacao/verificacao_pairwise_comparison.md
+              - Three Level Scale: 05_verificacao/entrega2/02_priorizacao/verificacao_three_level_scale.md
+
+  - Inspeção:
+      - Entrega 1:
+          - Inspeção Geral: 06_inspecao/entrega1/inspecao_grupo_mais_um.md
+          - Rich Picture: 06_inspecao/entrega1/inspecao_richpicture.md
+      - Entrega 2:
+          - Elicitação:
+              - Artefatos:
+                  - Glossário: 06_inspecao/entrega2/01_elicitacao/artefatos/inspecao_glossario.md
+                  - Perfil de usuário: 06_inspecao/entrega2/01_elicitacao/artefatos/inspecao_perfil_de_usuario.md
+              - Técnicas:
+                  - Análise de Documentos: 06_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_analise_de_documentos.md
+                  - Brainstorming: 06_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_brainstorming.md
+                  - Entrevista: 06_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_entrevista.md
+                  - Observação: 06_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_observacao.md
+          - Priorização:
+              - In or Out: 06_inspecao/entrega2/02_priorizacao/inspecao_in_or_out.md
+              - MoSCoW: 06_inspecao/entrega2/02_priorizacao/inspecao_MoSCoW.md
+              - Pairwise Comparison: 06_inspecao/entrega2/02_priorizacao/inspecao_pairwise_comparison.md
+              - Three Level Scale: 06_inspecao/entrega2/02_priorizacao/inspecao_three_level_scale.md
+          - Inspeção Geral: 06_inspecao/entrega2/inspecao_geral.md
+
+  - Apresentações:
       - Apresentação 1: apresentacao/apresentacao1.md
       - Apresentação 2: apresentacao/apresentacao2.md
 
-  - Atas: 
-      - Ata 1: atas/ata1.md
-      - Ata 2: atas/ata2.md
-      - Ata 3: atas/ata3.md
-
-  - Planejamento:
-      - Guias:
-        - Contribuição: planejamento/guias/contribuicao.md
-        - Ata Padão: planejamento/guias/atapadrao.md
-      - Cronograma: planejamento/cronograma.md
-      - Cronograma executado: planejamento/cronograma_executado.md
-      - Ferramentas: planejamento/ferramentas.md
-      - Heatmap: planejamento/heatmap.md
-      - Aplicativo Escolhido: planejamento/aplicativoescolhido.md
-
-  - Pré-rastreabilidade:
-    - Rich Picture: Pré-rastreabilidade/richpicture.md
-
-  - Verificacao:
-    - Entrega 1:
-      - Lista de verificação do Rich Picture: verificacao/entrega1/verificacao_richpicture.md
-
-    - Entrega 2:
-      - Lista de verificação:
-        - Técnica de elicitação: 
-          - Glossário: verificacao/entrega2/verificacao_glossario.md
-          - Observação: verificacao/entrega2/verificacao_observacao.md
-          - Análise de documentos: verificacao/entrega2/verficacao_analisededocumentos.md
-          - Entrevista: verificacao/entrega2/verificacao_entrevista.md
-          - Perfil de Usuário: verificacao\entrega2\verificacao_PerfildeUsuario.md
-          - Brainstorming: verificacao/entrega2/verificacao_brainstorming.md
-
-        - Técnica de priorização: 
-          - Pairwise Comparison: verificacao/entrega2/verificacao_PairwiseComparison.md
-          - MoSCoW: verificacao/entrega2/verificacao_MoSCoW.md
-          - In or Our: verificacao/entrega2/verificacao_inorout.md
-          - Three Level Scale: verificacao/entrega2/verificacao_trhee_level.md
-        
-      - Elicitação – Técnicas e Priorização Grupo 3: verificacao/entrega2/verificacao_geral.md
-          
-
-  - Inspeção:
-    - Grupos + 1:
-        - Entrega 1:
-          - Inspeção 1 do grupo 3: inspecao/grupos/grupo3/entrega1/inspecao_grupo_mais_um.md
-          - Inspeção do rich picture: inspecao/grupos/grupo3/entrega1/inspecao_richpicture.md
-
-  - Elicitação:
-      - Tecnicas de Elicitação:
-          - Análise de Documentos: elicitacao/tecnicas_de_elicitacao/analise_documentos.md
-          - Observação: elicitacao/tecnicas_de_elicitacao/observacao.md
-          - Entrevista: elicitacao/tecnicas_de_elicitacao/entrevista.md
-          - In or Out: elicitacao/tecnicas_de_elicitacao/inorout.md
-          - Perfil do Usuário: elicitacao/tecnicas_de_elicitacao/perfildousuario.md
-      - Tecnicas de Priorização:
-          - Three Level Scale: elicitacao/tecnicas_de_priorizacao/three_level_scale.md
-
-  - Priorização:
-      - Tecnicas de Priorização:
-         - Pairwise Comparison: priorizacao/tecnicas_de_priorizacao/pairwise_comparison.md
-         - MoSCoW: priorizacao/tecnicas_de_priorizacao/moscow.md
-
-  - Grupo:
-    - Entrega 1:
-      - Planejamento da verificação da entrega 1: grupo/entrega1/planejamento.md
-      - Rich Picture: grupo/entrega1/richpicture.md
-      
-    - Entrega 2:
-      - Técnica de elicitação:
-        - Glossário: grupo/entrega2/glossario.md
+  - Documentação:
+      - Atas de Reunião:
+          - Ata 1: atas/ata1.md
+          - Ata 2: atas/ata2.md
+          - Ata 3: atas/ata3.md
