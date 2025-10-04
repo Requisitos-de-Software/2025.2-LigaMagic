@@ -86,6 +86,11 @@ nav:
               - MoSCoW: 06_verificacao/entrega2/02_priorizacao/verificacao_MoSCoW.md
               - Pairwise Comparison: 06_verificacao/entrega2/02_priorizacao/verificacao_pairwise_comparison.md
               - Three Level Scale: 06_verificacao/entrega2/02_priorizacao/verificacao_three_level_scale.md
+      - Entrega 3:
+          - Cenários: 06_verificacao/entrega3/01_cenarios/verificacao_cenarios.md
+          - Léxicos: 06_verificacao/entrega3/02_lexicos/verificacao_lexicos.md
+          - Casos de Uso: 06_verificacao/entrega3/03_casos_de_uso/verificacao_casos_de_uso.md
+          - Especificação Suplementar: 06_verificacao/entrega3/04_especificacao_suplementar/verificacao_especificacao_suplementar.md
 
   - Inspeção:
       - Entrega 1:
