@@ -62,45 +62,51 @@ nav:
       - Pairwise Comparison: 04_priorizacao/pairwise_comparison.md
       - Three Level Scale: 04_priorizacao/three_level_scale.md
 
-  - Verificação e Validação:
+  - Modelagem:
+      - Cenários: 05_modelagem/01_cenarios/cenarios.md
+      - Léxicos: 05_modelagem/02_lexicos/lexicos.md
+      - Casos de Uso: 05_modelagem/03_casos_de_uso/casos_de_uso.md
+      - Especificação Suplementar: 05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md
+
+  - Verificação:
       - Entrega 1:
-          - Rich Picture: 05_verificacao/entrega1/verificacao_rich_picture.md
+          - Rich Picture: 06_verificacao/entrega1/verificacao_rich_picture.md
       - Entrega 2:
           - Elicitação:
               - Artefatos:
-                  - Glossário: 05_verificacao/entrega2/01_elicitacao/artefatos/verificacao_glossario.md
-                  - Perfil de usuário: 05_verificacao/entrega2/01_elicitacao/artefatos/verificacao_perfil_de_usuario.md
+                  - Glossário: 06_verificacao/entrega2/01_elicitacao/artefatos/verificacao_glossario.md
+                  - Perfil de usuário: 06_verificacao/entrega2/01_elicitacao/artefatos/verificacao_perfil_de_usuario.md
               - Técnicas:
-                  - Análise de Documentos: 05_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_analise_de_documentos.md
-                  - Brainstorming: 05_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_brainstorming.md
-                  - Entrevista: 05_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_entrevista.md
-                  - Observação: 05_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_observacao.md
+                  - Análise de Documentos: 06_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_analise_de_documentos.md
+                  - Brainstorming: 06_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_brainstorming.md
+                  - Entrevista: 06_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_entrevista.md
+                  - Observação: 06_verificacao/entrega2/01_elicitacao/tecnicas/verificacao_observacao.md
           - Priorização:
-              - In or Out: 05_verificacao/entrega2/02_priorizacao/verificacao_in_or_out.md
-              - MoSCoW: 05_verificacao/entrega2/02_priorizacao/verificacao_MoSCoW.md
-              - Pairwise Comparison: 05_verificacao/entrega2/02_priorizacao/verificacao_pairwise_comparison.md
-              - Three Level Scale: 05_verificacao/entrega2/02_priorizacao/verificacao_three_level_scale.md
+              - In or Out: 06_verificacao/entrega2/02_priorizacao/verificacao_in_or_out.md
+              - MoSCoW: 06_verificacao/entrega2/02_priorizacao/verificacao_MoSCoW.md
+              - Pairwise Comparison: 06_verificacao/entrega2/02_priorizacao/verificacao_pairwise_comparison.md
+              - Three Level Scale: 06_verificacao/entrega2/02_priorizacao/verificacao_three_level_scale.md
 
   - Inspeção:
       - Entrega 1:
-          - Inspeção Geral: 06_inspecao/entrega1/inspecao_grupo_mais_um.md
-          - Rich Picture: 06_inspecao/entrega1/inspecao_richpicture.md
+          - Inspeção Geral: 07_inspecao/entrega1/inspecao_grupo_mais_um.md
+          - Rich Picture: 07_inspecao/entrega1/inspecao_richpicture.md
       - Entrega 2:
           - Elicitação:
               - Artefatos:
-                  - Glossário: 06_inspecao/entrega2/01_elicitacao/artefatos/inspecao_glossario.md
-                  - Perfil de usuário: 06_inspecao/entrega2/01_elicitacao/artefatos/inspecao_perfil_de_usuario.md
+                  - Glossário: 07_inspecao/entrega2/01_elicitacao/artefatos/inspecao_glossario.md
+                  - Perfil de usuário: 07_inspecao/entrega2/01_elicitacao/artefatos/inspecao_perfil_de_usuario.md
               - Técnicas:
-                  - Análise de Documentos: 06_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_analise_de_documentos.md
-                  - Brainstorming: 06_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_brainstorming.md
-                  - Entrevista: 06_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_entrevista.md
-                  - Observação: 06_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_observacao.md
+                  - Análise de Documentos: 07_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_analise_de_documentos.md
+                  - Brainstorming: 07_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_brainstorming.md
+                  - Entrevista: 07_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_entrevista.md
+                  - Observação: 07_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_observacao.md
           - Priorização:
-              - In or Out: 06_inspecao/entrega2/02_priorizacao/inspecao_in_or_out.md
-              - MoSCoW: 06_inspecao/entrega2/02_priorizacao/inspecao_MoSCoW.md
-              - Pairwise Comparison: 06_inspecao/entrega2/02_priorizacao/inspecao_pairwise_comparison.md
-              - Three Level Scale: 06_inspecao/entrega2/02_priorizacao/inspecao_three_level_scale.md
-          - Inspeção Geral: 06_inspecao/entrega2/inspecao_geral.md
+              - In or Out: 07_inspecao/entrega2/02_priorizacao/inspecao_in_or_out.md
+              - MoSCoW: 07_inspecao/entrega2/02_priorizacao/inspecao_MoSCoW.md
+              - Pairwise Comparison: 07_inspecao/entrega2/02_priorizacao/inspecao_pairwise_comparison.md
+              - Three Level Scale: 07_inspecao/entrega2/02_priorizacao/inspecao_three_level_scale.md
+          - Inspeção Geral: 07_inspecao/entrega2/inspecao_geral.md
 
   - Apresentações:
       - Apresentação 1: apresentacao/apresentacao1.md
