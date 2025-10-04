@@ -51,6 +51,7 @@ nav:
       - Artefatos:
           - Glossário: 03_elicitacao/artefatos/glossario.md
           - Perfil de usuário: 03_elicitacao/artefatos/perfil_usuario.md
+          - Requisitos Elicitados: 03_elicitacao/artefatos/requisitos_elicitados.md
       - Técnicas:
           - Análise de Documentos: 03_elicitacao/tecnicas/analise_documentos.md
           - Entrevista: 03_elicitacao/tecnicas/entrevista.md
@@ -101,7 +102,6 @@ nav:
               - Artefatos:
                   - Glossário: 07_inspecao/entrega2/01_elicitacao/artefatos/inspecao_glossario.md
                   - Perfil de usuário: 07_inspecao/entrega2/01_elicitacao/artefatos/inspecao_perfil_de_usuario.md
-                  - Requisitos Elicitados: 03_elicitacao/artefatos/requisitos_elicitados.md
               - Técnicas:
                   - Análise de Documentos: 07_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_analise_de_documentos.md
                   - Brainstorming: 07_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_brainstorming.md
