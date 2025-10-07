@@ -1,8 +1,13 @@
 # Comparação em Pares - (Pairwise comparison and rank ordering)
 
-## Introdução
+## Descrição
 
-Para priorização dos requisitos neste projeto foi aplicada a técnica Pairwise Comparison, que consiste na comparação sistemática de todos os requisitos dois a dois, de forma a estabelecer sua relevância relativa dentro do sistema. Os requisitos comparados foram tirados da [análise de documentos](../../03_elicitacao/tecnicas/analise_documentos.md)
+Para priorização dos requisitos neste projeto foi aplicada a técnica Pairwise Comparison, que consiste na comparação sistemática de todos os requisitos dois a dois, de forma a estabelecer sua relevância relativa dentro do sistema. Os requisitos comparados foram tirados da [análise de documentos](../../03_elicitacao/tecnicas/analise_documentos.md).
+
+
+## Objetivo
+
+Priorizar os requisitos do projeto com base em sua importância relativa, auxiliando na definição de quais funcionalidades devem ser implementadas primeiro.
 
 ## Metodologia
 
@@ -12,7 +17,9 @@ A técnica foi aplicada seguindo os seguintes passos:
 2. Definição de prioridades entre categorias
 3. Cálculo do ranking final baseado no número de vitórias
 
-## Requisitos Funcionais Analisados
+## Conteúdo
+
+### Requisitos Funcionais Analisados
 
 | Categoria                       | ID   | Requisito                                                        | Descrição                                                                                                       |
 | ------------------------------- | ---- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -28,12 +35,14 @@ A técnica foi aplicada seguindo os seguintes passos:
 | **Gerenciamento de Usuários**   | RF2  | Deve verificar duplicação de cadastros                           | O sistema deve verificar se já existe um cadastro para o usuário que está tentando fazer cadastro               |
 | **Gerenciamento de Usuários**   | RF10 | Deve permitir criação de páginas pessoais                        | O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional                 |
 | **Gerenciamento de Usuários**   | RF12 | Registrar dados pessoais do usuário                              | O sistema deve permitir o registro de dados como Nome, RG, CPF, Telefone, E-mail, Data de Nascimento e Endereço |
+#### **Fonte:** Angélica Campos, 2025.
+---
 
-## Resultados da Priorização
+### Resultados da Priorização
 
-## Comparações por categoria
+#### Comparações por categoria
 
-### Matriz de Comparação dentro da categoria: Gerenciamento de Usuários (implementar juntos obrigatoriamente)
+##### Matriz de Comparação dentro da categoria: Gerenciamento de Usuários (implementar juntos obrigatoriamente)
 
 | ID       | RF1   | RF2  | RF12 | Vitórias |
 | -------- | ----- | ---- | ---- | -------- |
@@ -41,14 +50,16 @@ A técnica foi aplicada seguindo os seguintes passos:
 | **RF2**  | 🔴    | ---- | 🔴   | 0        |
 | **RF12** | 🔵    | 🔵   | ---  | 2        |
 
-### Matriz de Comparação dentro da categoria: Autenticação e Segurança (implementar juntos obrigatoriamente)
+
+##### Matriz de Comparação dentro da categoria: Autenticação e Segurança (implementar juntos obrigatoriamente)
 
 | ID      | RF3  | RF5  | Vitórias |
 | ------- | ---- | ---- | -------- |
 | **RF3** | ---- | 🔵   | 1        |
 | **RF5** | 🔴   | ---- | 0        |
 
-### Matriz de Comparação dentro da categoria: Comunicação
+
+##### Matriz de Comparação dentro da categoria: Comunicação
 
 | ID       | RF9   | RF7  | RF11 | Vitórias |
 | -------- | ----- | ---- | ---- | -------- |
@@ -56,7 +67,9 @@ A técnica foi aplicada seguindo os seguintes passos:
 | **RF7**  | 🔵    | ---- | 🔵   | 2        |
 | **RF11** | 🔴    | 🔴   | ---- | 0        |
 
-## Comparações entre os resultados das comparações por categorias
+---
+
+### Comparações entre os resultados das comparações por categorias
 
 | Categorias                  | ID       | RF12 | RF3  | RF7  | RF6  | RF8  | RF4  | RF10 | Vitórias |
 | --------------------------- | -------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | -------- |
@@ -68,12 +81,15 @@ A técnica foi aplicada seguindo os seguintes passos:
 | Gestão de Produtos/Serviços | **RF4**  | 🔵   | 🔵   | 🔴   | 🔵   | 🔵   | ---- | 🔵   | 5        |
 | Gerenciamento de Usuários   | **RF10** | 🔴   | 🔵   | 🔴   | 🔴   | 🔴   | 🔴   | ---- | 1        |
 
-#### Legenda:
+### Legenda:
 
 🔵 Requisito da LINHA vence
 🔴 Requisito da COLUNA vence
 
-## Posição
+#### **Fonte:** Angélica Campos, 2025.
+---
+
+### Posição
 
 | Posição | ID         | Vitórias |
 | ------- | ---------- | -------- |
@@ -90,7 +106,7 @@ A técnica foi aplicada seguindo os seguintes passos:
 - O RF12 por estar em uma categoria que deve ser implementados junto com outros requisitos obrigatoriamente representa o bloco e Gerenciamento de Usuários (RF1, RF2, RF12), com 3 vitorias e na posição 3 (Média prioridade).
 - O RF3 por estar em uma categoria que deve ser implementados junto com outros requisitos obrigatoriamente representa o bloco de Autenticação e Segurança (RF5), com 0 vitorias e na posição 6 (Baixa prioridade).
 
-## Ranking Final dos Requisitos
+### Ranking Final dos Requisitos
 
 | Categoria        | Posição | Requisitos Incluídos                                            |
 | ---------------- | ------- | --------------------------------------------------------------- |
@@ -98,15 +114,31 @@ A técnica foi aplicada seguindo os seguintes passos:
 | Média prioridade | 3 - 4   | RF12 (Bloco de Gerenciamento de Usuários (RF1, RF2, RF12)), RF8 |
 | Baixa prioridade | 5 - 5   | RF9, RF3(Bloco de Autenticação e Segurança (RF5)), RF11         |
 
+#### **Fonte:** Angélica Campos, 2025.
+
 O RF7 e o RF4 se mostraram as funcionalidades mais prioritárias para o sistema, seguidas pelo RF6. Já o Gerenciamento de Usuários, embora essencial, ficou em prioridade média por comparação, e os requisitos RF9, RF3, RF5, RF11 empataram com vitórias mínimas, por isso foram classificados na mesma faixa de prioridade, baixa.
+
+---
 
 ## Vídeo da priorização feita com um usuario
 
 Para realizar a priorização dos requisitos fizemos uma consulta com um usuario do app, disponivel aqui:
 
-[Assista ao vídeo no YouTube](https://youtu.be/NiyykwAPFow). Este video foi produzido pela aluna Angélica Campos e Guilherme Oliveira.
+- [Assista ao vídeo no YouTube](https://youtu.be/NiyykwAPFow). Este video foi produzido pela aluna Angélica Campos e Guilherme Oliveira. [Tabelas usadas com o usuario](../../00_assets/pdfs/priorizacao/tecnica_de_priorizacao_pairwise_comparison.pdf).
 
-[Tabelas usadas com o usuario](../../00_assets/pdfs/priorizacao/tecnica_de_priorizacao_pairwise_comparison.pdf)
+## Referências
+- **Lista de verificação da técnica Pairwise Comparison.** Material elaborado pela autora, 2025. Disponível em: https://requisitos-de-software.github.io/2025.2-LigaMagic/06_verificacao/entrega2/02_priorizacao/verificacao_pairwise_comparison.
+
+- **WIEGERS, Karl; BEATTY, Joy.** *Software Requirements. *3. ed. Redmond: Microsoft Press, 2013. p638.
+
+
+## Nível de Contribuição dos Integrantes
+
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+|  Angélica |         80%      |
+|  Guilherme |        20%       |
+
 
 ## Histórico de versão
 
@@ -115,4 +147,4 @@ Para realizar a priorização dos requisitos fizemos uma consulta com um usuario
 |  1.0   | 28/09/2025 | Criação da estrutura da página        | Angélica | Marcelo |
 |  1.1   | 30/09/2025 | Adição do ranking                     | Angélica | Marcelo |
 |  1.2   | 30/09/2025 | Adição do video                       | Angélica | Marcelo |
-|  1.3   | 02/09/2025 | Formatação e organização do documento |  Samuel  |    -    |
+|  1.3   | 07/09/2025 | Reorganizar no padrão solicitado     |  Angélica  |    Samuel    |
