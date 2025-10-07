@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Os léxicos são termos específicos do domínio da aplicação **LigaMagic** que possuem significado particular no contexto do sistema. Este documento apresenta a definição e o impacto de cada termo identificado, categorizando-os como **sujeitos** (atores), **verbos** (ações) ou **objetos** (entidades) do sistema.
+Os léxicos são termos específicos do domínio da aplicação **LigaMagic** que possuem significado particular no contexto do sistema. Este documento apresenta a Noção e o impacto de cada termo identificado, categorizando-os como **sujeitos** (atores), **verbos** (ações) ou **objetos** (entidades) do sistema.
 
 ## Objetivo
 
@@ -19,7 +19,7 @@ Os léxicos foram identificados por meio da análise do domínio da aplicação 
 
 Cada léxico possui:
 
-- **Definição**: Explicação clara e concisa do termo
+- **Noção**: Explicação clara e concisa do termo
 - **Impacto**: Como o termo afeta ou é afetado por outros elementos do sistema
 - **Sinônimos**: Termos alternativos que podem ser utilizados para referenciar o mesmo conceito. Nem todos os léxicos possuem sinônimos, sendo identificados apenas quando existem variações comumente utilizadas no domínio.
 
@@ -29,7 +29,7 @@ Cada léxico possui:
 
 #### L01 - Membro
 
-- **Definição:**
+- **Noção:**
   Pessoa que realizou o `Cadastro` e possui uma `Conta` ativa no site **LigaMagic**, diferenciando-se de um `Visitante`, que não possui cadastro.
 - **Impacto:**
   - Executa `Login` para acessar funcionalidades restritas.
@@ -40,7 +40,7 @@ Cada léxico possui:
 
 #### L02 - Visitante
 
-- **Definição:**
+- **Noção:**
   Pessoa que navega pelo site **LigaMagic** sem ter realizado `Login` em uma `Conta`. Possui acesso limitado às funcionalidades públicas da plataforma.
 - **Impacto:**
   - Pode `Pesquisar` por `Cartas` e visualizar seus detalhes.
@@ -55,7 +55,7 @@ Cada léxico possui:
 
 #### L03 - Cadastrar
 
-- **Definição:**
+- **Noção:**
   Ação realizada por um `Visitante` para criar uma `Conta` no sistema. Ocorre quando o `Visitante` preenche um formulário com dados pessoais (nome, e-mail, senha).
 - **Impacto:**
   - O sistema verifica se os dados são válidos e se o e-mail já está registrado.
@@ -65,7 +65,7 @@ Cada léxico possui:
 
 #### L04 - Pesquisar Carta
 
-- **Definição:**
+- **Noção:**
   Ação realizada por qualquer pessoa (`Visitante` ou `Membro`) para encontrar uma `Carta` específica no banco de dados do site. O usuário insere critérios de busca, como nome, cor, tipo ou `Edição`.
 - **Impacto:**
   - O sistema filtra o banco de dados de `Cartas` com base nos critérios fornecidos.
@@ -75,7 +75,7 @@ Cada léxico possui:
 
 #### L05 - Comprar Carta
 
-- **Definição:**
+- **Noção:**
   Ação realizada por um `Membro`, na função de `Comprador`, para adquirir uma `Carta` de um `Vendedor` na plataforma. Ocorre após o `Membro` selecionar uma `Carta` e adicioná-la ao `Carrinho de Compras`.
 - **Impacto:**
   - A `Carta` é movida para o `Carrinho de Compras` do `Membro`.
@@ -85,7 +85,7 @@ Cada léxico possui:
 
 #### L06 - Login
 
-- **Definição:**
+- **Noção:**
   Ação realizada por um `Membro` para acessar sua `Conta`. Ocorre quando o `Membro` informa suas credenciais (e-mail e senha) em um formulário específico.
 - **Impacto:**
   - O sistema autentica as credenciais do `Membro`.
@@ -95,7 +95,7 @@ Cada léxico possui:
 
 #### L07 - Leiloar Carta
 
-- **Definição:**
+- **Noção:**
   Processo iniciado por um `Membro`, na função de `Vendedor`, para vender uma `Carta` ao `Membro` que oferecer o maior lance dentro de um período determinado. O `Vendedor` define um lance inicial e a duração do `Leilão`.
 - **Impacto:**
   - Cria um registro de `Leilão` no sistema, associado à `Carta` e ao `Vendedor`.
@@ -109,7 +109,7 @@ Cada léxico possui:
 
 #### L08 - Carta
 
-- **Definição:**
+- **Noção:**
   Unidade fundamental do jogo Magic: The Gathering. Possui atributos como nome, custo de `Mana`, cor, `Edição`, `Raridade`, tipo e texto de `Habilidade`.
 - **Impacto:**
   - Pode ser pesquisada através da `Busca Avançada`.
@@ -120,7 +120,7 @@ Cada léxico possui:
 
 #### L09 - Deck
 
-- **Definição:**
+- **Noção:**
   Conjunto de no mínimo 60 `Cartas` que um `Membro` utiliza para jogar. É baseado em um `Formato` específico e em uma estratégia de jogo.
 - **Impacto:**
   - Um `Membro` pode criar, editar e salvar múltiplos `Decks`.
@@ -130,7 +130,7 @@ Cada léxico possui:
 
 #### L10 - Coleção de Cartas
 
-- **Definição:**
+- **Noção:**
   Ferramenta que permite a um `Membro` catalogar todas as `Cartas` que possui.
 - **Impacto:**
   - Facilita o gerenciamento da coleção pessoal do `Membro`.
@@ -139,7 +139,7 @@ Cada léxico possui:
 
 #### L11 - Edição
 
-- **Definição:**
+- **Noção:**
   Conjunto de `Cartas` de Magic: The Gathering lançadas juntas em uma data específica. Cada `Edição` possui um símbolo único que a identifica.
 - **Impacto:**
   - É um critério fundamental na `Pesquisa de Carta`.
@@ -151,7 +151,7 @@ Cada léxico possui:
 
 #### L12 - Formato
 
-- **Definição:**
+- **Noção:**
   Conjunto de regras que define quais `Edições` de `Cartas` são permitidas na construção de um `Deck`. Exemplos: Standard, Modern, Commander.
 - **Impacto:**
   - Restringe as `Cartas` que um `Membro` pode incluir ao criar um `Deck`.
@@ -160,7 +160,7 @@ Cada léxico possui:
 
 #### L13 - Fórum
 
-- **Definição:**
+- **Noção:**
   Seção do site onde os `Membros` podem criar discussões (tópicos) e publicar mensagens para interagir com a comunidade de jogadores de Magic: The Gathering.
 - **Impacto:**
   - Permite a troca de informações e estratégias entre os `Membros`.
@@ -169,7 +169,7 @@ Cada léxico possui:
 
 #### L14 - Mana
 
-- **Definição:**
+- **Noção:**
   Recurso fundamental do jogo, utilizado para conjurar as mágicas (jogar as `Cartas`). A `Mana` é representada por cores (Branco, Azul, Preto, Vermelho, Verde) e símbolos incolores.
 - **Impacto:**
   - O "Custo de Mana" é um atributo principal de uma `Carta`.
