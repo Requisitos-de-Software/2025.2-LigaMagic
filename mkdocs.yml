@@ -51,6 +51,7 @@ nav:
       - Artefatos:
           - Glossário: 03_elicitacao/artefatos/glossario.md
           - Perfil de usuário: 03_elicitacao/artefatos/perfil_usuario.md
+          - Requisitos Elicitados: 03_elicitacao/artefatos/requisitos_elicitados.md
       - Técnicas:
           - Análise de Documentos: 03_elicitacao/tecnicas/analise_documentos.md
           - Entrevista: 03_elicitacao/tecnicas/entrevista.md
