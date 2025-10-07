@@ -7,6 +7,8 @@ Os casos de uso descrevem como o usuário interage com o sistema para realizar d
 O objetivo dos casos de uso é detalhar o funcionamento do sistema a partir da perspectiva do usuário, facilitando o entendimento entre desenvolvedores, analistas e stakeholders. Com eles, é possível visualizar os principais fluxos de interação, identificar possíveis falhas ou melhorias e assegurar que o sistema atenda às necessidades reais dos usuários e aos requisitos definidos no projeto.
 
 ## Metodologia
+
+### **Tabela 1:** Elementos do diagrama de casos de uso
 | Nome         | Função                     | Elemento                          |
 |--------------|----------------------------|-----------------------------------|
 | Sistema      | Representado por um retangulo o sistema define os limites do sistema, indicando o que está dentro do seu escopo e o que está fora representando o conjunto de funcionalidades que serão modeladas    |  ![Sistema](../../00_assets/images/casos_de_uso/sistema.png) |
@@ -17,9 +19,49 @@ O objetivo dos casos de uso é detalhar o funcionamento do sistema a partir da p
 | Relacionamento de Extensão | Representado por uma linha tracejada ligando um caso de uso estendido até um caso de uso base com uma seta no final. O relacionamento de extensão representa comportamentos opcionais ou condicionais, que ocorrem apenas em determinadas situações dentro de um caso de uso | ![Relacionamento de Extensão](../../00_assets/images/casos_de_uso/relacionamentoe.png)  |
 | Relacionamento de Generalização | Representado por uma seta contínua ligando o caso de uso especializado ao caso de uso geral, com um triângulo na ponta voltado para o caso de uso geral. O relacionamento de generalização mostra a herança entre atores ou casos de uso, quando um elemento herda características ou comportamentos de outro |  ![Relacionamento de Generalização](../../00_assets/images/casos_de_uso/relacionamentoG.png)  |
 
-Fonte : [Guilherme](https://github.com/GuilhermeOliveira1327), 2025
+#### **Fonte :** [Guilherme](https://github.com/GuilhermeOliveira1327), 2025
 
 ## Conteúdo
+### Diagrama de Casos de Uso
+A figura 1 demonstra o diagrama de casos de uso.
+
+Figura 1: Casos de uso do app LigaMagic
+
+[Link para o lucidchart](https://lucid.app/lucidchart/c773e26a-b84b-417d-94ac-0650750fad93/edit?invitationId=inv_fe5546f1-416e-4628-be7c-b75e4a0fbf4c&page=0_0#)
+#### **Fonte:** Angélica e [Guilherme](https://github.com/GuilhermeOliveira1327), 2025
+
+### Especialização dos casos de uso
+#### Tabela 2: Configurar Período de Retenção de Dados
+
+| Campo                      | Descrição                                                                                                   |
+| :------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| **Identificador:**         | UC01                                                                                                    |
+| **Nome:**                  | Configurar Período de Retenção de Dados                                                          |
+| **Atores:**                | Administrador do sistema                                                           |
+| **Descrição:**             | O sistema deve permitir configurar e visualizar o tempo de retenção dos dados pessoais conforme base legal. |
+| **Pré-condições:**         | O usuário deve estar autenticado.                                                                           |
+| **Fluxo principal:**       | Passos do ator e do sistema em condições normais.                                                           |
+| **Fluxos alternativos:**   | O que acontece se algo der errado (ex: dados inválidos, falha de permissão).                                |
+| **Pós-condição:**          | O sistema registra o tempo de retenção e atualiza a política.                                               |
+| **Requisitos associados:** | **NI01** – Armazenamento e Retenção                                                                             |
+
+**Fonte:** Angélica 
+
+#### Tabela 3: Registrar Incidente de Segurança
+
+| Campo                      | Descrição                                                                                                   |
+| :------------------------- | :---------------------------------------------------------------------------------------------------------- |
+| **Identificador:**         | UC02                                                                                                   |
+| **Nome:**                  | Registrar Incidente de Segurança                                                          |
+| **Atores:**                | Administrador do sistema                                                           |
+| **Descrição:**             | Permite o registro, documentação e gerenciamento de incidentes de segurança envolvendo dados pessoais. |
+| **Pré-condições:**         | O usuário deve estar autenticado.                                                                           |
+| **Fluxo principal:**       | Passos do ator e do sistema em condições normais.                                                           |
+| **Fluxos alternativos:**   | Sistema identifica gravidade CRÍTICA (>10.000 usuários ou dados sensíveis).                                |
+| **Pós-condição:**          | Incidente registrado com número de protocolo único.                                               |
+| **Requisitos associados:** | **NI02** - Procedimento para Incidentes                                                                             |
+
+**Fonte:** Angélica 
 
 ## Bibliografia
 > 1. LUCID SOFTWARE PORTUGUÊS. Tutorial de Caso de Uso UML. YouTube, 20 mar. 2020. Disponível em: [Vídeo Completo](https://www.youtube.com/watch?v=ab6eDdwS3rA). Acesso em: 07 out. 2025. 
