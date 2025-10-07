@@ -1,7 +1,16 @@
 # Lista de Verificação - Observação
+## Descrição
+Esta lista de verificação foi elaborada para inspecionar artefatos relacionados à técnica de Observação.
+A Observação é uma técnica de elicitação de requisitos que consiste em acompanhar e analisar o comportamento dos usuários em seu ambiente de trabalho ou de uso do sistema, sem necessariamente interferir em suas atividades. Essa abordagem permite identificar necessidades, dificuldades e práticas reais que podem não ser explicitadas em entrevistas ou questionários, contribuindo para uma compreensão mais precisa do contexto e das tarefas envolvidas.
 
-Esta lista de verificação foi elaborada para inspecionar à técnica de observação.A observação é uma técnica sistemática utilizada na engenharia de requisitos para compreender como os usuários interagem com um sistema ou aplicação. Este método baseia-se no registro e análise detalhada do comportamento, das ações e das decisões dos usuários durante a execução de tarefas.
+## Objetivo 
+Garantir que a técnica de Observação seja aplicada de forma estruturada e ética, possibilitando a coleta de informações reais sobre o ambiente e as interações dos usuários, a fim de apoiar a identificação de requisitos implícitos, comportamentais e contextuais do sistema em desenvolvimento.
 
+## Metodologia 
+A lista de verificação foi desenvolvida com base na literatura especializada sobre elicitação de requisitos e nas boas práticas de aplicação da técnica de Observação.
+Cada item foi formulado para avaliar aspectos essenciais da técnica, incluindo o planejamento da observação, a definição de objetivos claros, o registro sistemático das atividades observadas, o consentimento dos participantes, a análise dos comportamentos e a interpretação dos dados coletados para derivação de requisitos de forma consistente e fundamentada.
+
+## Conteúdo
 ## Tabela de Verificação
 
 | ID  | Item de Verificação                                                                               |                         Autor                         |
@@ -25,17 +34,19 @@ Esta lista de verificação foi elaborada para inspecionar à técnica de observ
 | 17  | As notas foram compartilhadas com os participantes para validação?                                | [Guilherme](https://github.com/GuilhermeOliveira1327) |
 | 18  | Os resultados foram revistos para garantir representatividade do grupo?                           | [Guilherme](https://github.com/GuilhermeOliveira1327) |
 
-[Lista de verificação – Técnica de elicitação – Observação (PDF)](../../../00_assets/pdfs/verificacao/tecnica_de_elicitacao/lista_de_verificacao_tecnica_de_elicitacao_observacao.pdf)
-
-## Inspeção do grupo +1
-
-O grupo +1 não aplicou a técnica de Observação, por isso a lista de verificação não foi aplicada.
-
-[Assista ao vídeo da inspeção no YouTube](https://youtu.be/h0t28vRdrIw). Este video foi produzido por [Guilherme](https://github.com/GuilhermeOliveira1327) [Vera Lucia](https://github.com/verabelucia)
+## Lista de Verificação
+[Lista de Verificação da Técnica de Elicitação Observação](../../../../00_assets/pdfs/verificacao/tecnica_de_elicitacao/lista_de_verificacao_tecnica_de_elicitacao_observacao.pdf)
 
 ## Referências
 
 > **Vazquez, C. E.; Simões, G. S.** _Engenharia de Requisitos: software orientado ao negócio_.
+
+## Nível de Contribuição dos Integrantes
+
+| Nome            | % de Contribuição |
+|-----------------|-------------------|
+|  [Guilherme](https://github.com/GuilhermeOliveira1327)|        50%       |
+|  [Vera Lucia](https://github.com/verabelucia) |        50%       |
 
 ## Histórico de versão
 
@@ -43,5 +54,6 @@ O grupo +1 não aplicou a técnica de Observação, por isso a lista de verifica
 | :----: | :--------: | :-------------------------------------------- | :------------------------------------------: | :-----------------------------------------------------: |
 |  1.0   | 29/09/2025 | Criação da estrutura da página                | [Vera Lucia](https://github.com/verabelucia) |  [Guilherme](https://github.com/GuilhermeOliveira1327)  |
 |  1.1   | 29/09/2025 | Adicionando lista de verificação              | [Vera Lucia](https://github.com/verabelucia) |  [Guilherme](https://github.com/GuilhermeOliveira1327)  |
-|  1.2   | 01/10/2025 | Adicionando Verificação e Inspeção do grupo 3 | [Vera Lucia](https://github.com/verabelucia) | [Guilherme](https://github.com/GuilhermeOliveira1327)   |
+|  1.2   | 01/10/2025 | Adicionando Verificação e Inspeção do grupo +1 | [Vera Lucia](https://github.com/verabelucia) | [Guilherme](https://github.com/GuilhermeOliveira1327)   |
 |  1.3   | 02/09/2025 | Formatação e organização do documento         |                    Samuel                    |                            -                            |
+|  1.4   | 07/10/2025 | Correção da estrutura da página | [Guilherme](https://github.com/GuilhermeOliveira1327) | [Vera Lucia](https://github.com/verabelucia)   |
