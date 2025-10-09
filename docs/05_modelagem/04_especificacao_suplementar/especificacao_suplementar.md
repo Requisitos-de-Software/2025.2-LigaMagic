@@ -50,7 +50,15 @@ A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva
 Esta seção avalia os requisitos de desempenho do software, podendo usar como medida diversos aspectos, entre eles o tempo de resposta às solicitações, o consumo de memória, a utilização da CPU e a capacidade de carga do sistema.
 
 ## Confiabilidade
- A confiabilidade do software está reacionado à sua integridade e  conformidade, anaizando a capacidade do sistema de funcionar corretamente mesmo diante de falhas. 
+ A confiabilidade do software está reacionado à sua integridade e  conformidade, analizando a capacidade do sistema de funcionar corretamente mesmo diante de falhas. 
+
+| ID     | Descrição                                                                                                          | Rastreabilidade                                                                                                   |
+|:-------|:-------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
+| Con01  | Garantir que anúncios incluam informações fiscais corretas | [RNF07](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
+
+
+#### Fonte: Marcelo,2025
+
 
 ## Suportabilidade
 Os requisitos de suportabilidade se referem às características que tornam o software mais fácil de usar, manter e adaptar. Entre essas características estão a testabilidade, adaptabilidade, manutenibilidade, compatibilidade, configurabilidade, instalabilidade, escalabilidade, localizabilidade, entre outras.
@@ -78,4 +86,5 @@ Os requisitos de suportabilidade se referem às características que tornam o so
 
 | Versão |    Data    | Descrição             |                 Autor(es)                    |                  Revisor                    |
 |:------:|:----------:|:----------------------|:--------------------------------------------:|:-------------------------------------------:|
-|  Vera  | 08/10/2025 | Adicionando conteudo  | [Vera Lucia](https://github.com/verabelucia) | [Raissa](https://github.com/RaissaAndradeS) |
+|  1.0  | 08/10/2025 | Adicionando conteudo  | [Vera Lucia](https://github.com/verabelucia) | [Raissa](https://github.com/RaissaAndradeS) |
+|  1.1   | 09/10/2025 | Adicionado conteudo em confiabilidade| Marcelo                      |    Thiago                                     |
