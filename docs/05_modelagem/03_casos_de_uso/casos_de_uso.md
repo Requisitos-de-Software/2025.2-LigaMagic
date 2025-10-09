@@ -63,6 +63,10 @@ Figura 1: Casos de uso do app LigaMagic
 
 **Fonte:** Angélica 
 
+
+###Caso de Uso: Personalizar Perfil de  Jogador
+![caso de uso](../../00_assets/images/casos_de_uso/casodeusodeperfildeJogador.png)
+
 ### Tabela 4 - Especificação do Caso de Uso: Personalizar Perfil de  Jogador
 
 | Campo| Descrição |
@@ -76,10 +80,13 @@ Figura 1: Casos de uso do app LigaMagic
 | **Fluxo alternativo** | - 6a. O jogador decide cancelar a edição: o sistema descarta as alterações e retorna à tela de visualização do perfil. |
 | **Fluxo de exceções** | - E1. Falha no upload da imagem (formato/tamanho inválido): o sistema exibe uma mensagem de erro e solicita um novo arquivo.E2. Dados obrigatórios não preenchidos (ex: rua em um endereço): o sistema alerta sobre o campo e impede o salvamento.E3. Falha de conexão com o sistema: o sistema exibe uma mensagem de erro e informa que a alteração não pôde ser salva. |
 
-###Caso de Uso: Personalizar Perfil de  Jogador
-![caso de uso](../../00_assets/images/casos_de_uso/casodeusodeperfildeJogador.png)
+
 
 **Fonte:** Marcelo
+
+###Caso de Uso: Filtrar Busca por Condição
+![caso de uso](../../00_assets/images/casos_de_uso/filtrarporcondicao.png)
+
 
 ### Tabela 5 - Especificação do Caso de Uso: Filtrar Busca por Condição
 
@@ -94,8 +101,7 @@ Figura 1: Casos de uso do app LigaMagic
 | **Fluxo alternativo** | - 6a. O jogador decide limpar um filtro selecionado: o sistema desmarca a opção.6b. O jogador decide fechar a janela de filtros sem aplicar: o sistema retorna à página de resultados sem realizar alterações. |
 | **Fluxo de exceções** | - E1. Nenhum resultado corresponde ao filtro: o sistema exibe uma mensagem "Nenhum resultado encontrado para os filtros aplicados" e sugere a remoção do filtro.E2. Falha de conexão com o sistema ao aplicar o filtro: o sistema exibe uma mensagem de erro e mantém a busca original. |
 
-###Caso de Uso: Filtrar Busca por Condição
-![caso de uso](../../00_assets/images/casos_de_uso/filtrarporcondicao.png)
+
 
 
 **Fonte:** Marcelo
