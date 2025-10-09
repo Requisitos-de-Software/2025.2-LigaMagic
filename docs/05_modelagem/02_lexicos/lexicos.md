@@ -12,10 +12,10 @@ Definir e padronizar o vocabulário utilizado no projeto **LigaMagic**, garantin
 
 Os léxicos foram identificados por meio da análise do domínio da aplicação **LigaMagic**, e foram redigidos com o apoio da [lista de verificação](../../06_verificacao/entrega3/02_lexicos/verificacao_lexicos.md) utilizada na elaboração dos léxicos. Foram categorizados conforme a classificação LAL (Léxico Ampliado da Linguagem):
 
-
 - **Sujeito**: Entidades que realizam ações no sistema
 - **Verbo**: Ações que podem ser executadas no sistema
 - **Objeto**: Entidades passivas manipuladas pelo sistema
+- **Estado**: Situações específicas em que um objeto ou sujeito do sistema pode se encontrar
 
 Cada léxico possui:
 
@@ -38,6 +38,9 @@ Cada léxico possui:
   - Cria e gerencia `Decks`, atuando como `Jogador`.
   - Participa ativamente do `Fórum`.
 
+<br>
+Fonte: Samuel, 2025.
+
 #### L02 - Visitante
 
 - **Noção:**
@@ -48,6 +51,9 @@ Cada léxico possui:
   - Pode ler os tópicos e mensagens do `Fórum`.
   - É impedido de realizar ações restritas, como `Comprar Carta`, `Leiloar Carta`, criar `Decks`, gerenciar uma `Coleção de Cartas` ou publicar no `Fórum`.
   - Pode iniciar o processo de `Cadastro` para se tornar um `Membro`.
+
+<br>
+Fonte: Thiago, 2025.
 
 ---
 
@@ -63,7 +69,17 @@ Cada léxico possui:
   - Muda o estado do `Visitante` para `Membro`.
   - Permite que o novo `Membro` realize `Login`.
 
-#### L04 - Pesquisar Carta
+#### L04 - Login
+
+- **Noção:**
+  Ação realizada por um `Membro` para acessar sua `Conta`. Ocorre quando o `Membro` informa suas credenciais (e-mail e senha) em um formulário específico.
+- **Impacto:**
+  - O sistema autentica as credenciais do `Membro`.
+  - Inicia uma sessão segura, dando acesso a áreas restritas como "Minha `Coleção de Cartas`" e "Meus `Decks`".
+  - Se as credenciais estiverem incorretas, o acesso é negado.
+  - É um pré-requisito para as ações de `Comprar Carta` e `Leiloar Carta`.
+
+#### L05 - Pesquisar Carta
 
 - **Noção:**
   Ação realizada por qualquer pessoa (`Visitante` ou `Membro`) para encontrar uma `Carta` específica no banco de dados do site. O usuário insere critérios de busca, como nome, cor, tipo ou `Edição`.
@@ -73,7 +89,10 @@ Cada léxico possui:
   - Permite a visualização dos detalhes de uma `Carta` específica.
   - A partir do resultado, um `Membro` pode adicionar a `Carta` a um `Deck` ou à sua `Coleção de Cartas`.
 
-#### L05 - Comprar Carta
+<br>
+Fonte: Samuel, 2025.
+
+#### L06 - Comprar Carta
 
 - **Noção:**
   Ação realizada por um `Membro`, na função de `Comprador`, para adquirir uma `Carta` de um `Vendedor` na plataforma. Ocorre após o `Membro` selecionar uma `Carta` e adicioná-la ao `Carrinho de Compras`.
@@ -83,15 +102,8 @@ Cada léxico possui:
   - Após a confirmação, o sistema registra a transação e notifica o `Vendedor`.
   - A `Carta` pode ser adicionada automaticamente à `Coleção de Cartas` do `Membro`.
 
-#### L06 - Login
-
-- **Noção:**
-  Ação realizada por um `Membro` para acessar sua `Conta`. Ocorre quando o `Membro` informa suas credenciais (e-mail e senha) em um formulário específico.
-- **Impacto:**
-  - O sistema autentica as credenciais do `Membro`.
-  - Inicia uma sessão segura, dando acesso a áreas restritas como "Minha `Coleção de Cartas`" e "Meus `Decks`".
-  - Se as credenciais estiverem incorretas, o acesso é negado.
-  - É um pré-requisito para as ações de `Comprar Carta` e `Leiloar Carta`.
+<br>
+Fonte: Thiago, 2025.
 
 #### L07 - Leiloar Carta
 
@@ -118,6 +130,9 @@ Cada léxico possui:
   - Pode ser comprada, vendida ou leiloada por `Membros`.
   - Seu preço é exibido e acompanhado pelo sistema.
 
+<br>
+Fonte: Samuel, 2025.
+
 #### L09 - Deck
 
 - **Noção:**
@@ -127,6 +142,9 @@ Cada léxico possui:
   - Pode ter sua lista de `Cartas` (Decklist) exportada ou compartilhada.
   - Pode ser analisado pelo sistema para verificar sua legalidade em um `Formato` específico.
   - `Decks` criados por `Membros` podem ser públicos ou privados.
+
+<br>
+Fonte: Thiago, 2025.
 
 #### L10 - Coleção de Cartas
 
@@ -178,9 +196,82 @@ Cada léxico possui:
 
 ---
 
+### ESTADO
+
+#### L15 - Leilão Ativo
+
+- **Noção:**
+  - Período em que um `Leilão` está aberto para receber lances dos `Membros`. Inicia-se quando o `Vendedor` cadastra a `Carta` para leiloar e termina quando o tempo definido expira.
+- **Impacto:**
+  - `Membros` podem submeter lances de valor superior ao lance atual.
+  - O sistema exibe o tempo restante e o maior lance publicamente.
+  - Ao final do tempo, transita para o estado "Leilão Encerrado".
+
+#### L16 - Leilão Encerrado
+
+- **Noção:**
+  - Situação de um `Leilão` após o término do seu prazo.
+- **Impacto:**
+  - O sistema não aceita mais novos lances para este `Leilão`.
+  - O `Membro` com o maior lance é declarado o vencedor.
+  - Inicia o processo de transação, movendo a compra para o estado "Pagamento Pendente".
+
+#### L17 - Pagamento Aprovado
+
+- **Noção:**
+  - Situação de uma transação após a confirmação do pagamento pela instituição financeira.
+- **Impacto:**
+  - O `Vendedor` recebe uma notificação oficial para preparar e enviar o pedido.
+  - A transação é confirmada no histórico de compras do `Comprador` e de vendas do `Vendedor`.
+  - Libera a próxima etapa do fluxo, que levará ao estado "Pedido Enviado".
+
+<br>
+Fonte: Samuel, 2025.
+
+#### L18 - Pedido Enviado
+
+- **Noção:**
+  - Situação de uma compra após o `Vendedor` despachar o produto e registrar o envio na plataforma.
+- **Impacto:**
+  - O `Comprador` é notificado de que seu pedido está a caminho.
+  - O código de rastreamento, se aplicável, é disponibilizado para o `Comprador`.
+  - Habilita a ação de `Avaliar Transação` para o `Comprador` após o recebimento.
+
+<br>
+Fonte: Thiago, 2025.
+
+#### L19 - Pedido Entregue
+
+- **Noção:**
+  - Situação final de uma transação, que ocorre quando o `Comprador` confirma o recebimento do produto em bom estado.
+- **Impacto:**
+  - O ciclo da transação é formalmente encerrado.
+  - Libera o pagamento para o `Vendedor`, caso esteja retido pelo sistema.
+  - Permite que tanto o `Comprador` quanto o `Vendedor` realizem a `Avaliar Transação`.
+
+#### L20 - Pedido Cancelado
+
+- **Noção:**
+  - Situação de uma transação que foi interrompida e anulada antes de ser concluída. O cancelamento pode ocorrer por falta de pagamento, a pedido do `Comprador` ou por impossibilidade de envio pelo `Vendedor`.
+- **Impacto:**
+  - A transação é registrada como inválida no histórico de ambos os `Membros`.
+  - As `Cartas` do pedido retornam ao estoque do `Vendedor` e ficam disponíveis para venda novamente.
+  - Dispara o envio de notificações para `Comprador` e `Vendedor` informando sobre o cancelamento.
+
+#### L21 - Carrinho Ativo
+
+- **Noção:**
+  - Situação em que o `Carrinho de Compras` de um `Membro` contém um ou mais itens selecionados, mas a compra ainda não foi finalizada.
+- **Impacto:**
+  - Os itens no carrinho não ficam reservados no estoque do `Vendedor` e podem ser adquiridos por outro `Comprador`.
+  - Permite ao `Membro` adicionar mais itens, remover existentes ou alterar quantidades.
+  - Ao finalizar a compra, transita para o estado "Pagamento Pendente". Se esvaziado, retorna ao estado "Carrinho Vazio".
+
+---
+
 ## Bibliografia
 
-> **SERRANO, Milene; SERRANO, Maurício.** *Requisitos – Aula 10*.
+> **SERRANO, Milene; SERRANO, Maurício.** _Requisitos – Aula 10_.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -191,6 +282,6 @@ Cada léxico possui:
 
 ## Histórico de Versão
 
-| Versão |    Data    | Descrição                               | Autor(es) | Revisor |
-| :----: | :--------: | :-------------------------------------- | :-------: | :-----: |
-|  1.0   | 07/10/2025 | Criação inicial do documento de léxicos |  Samuel   | Thiago  |
+| Versão |    Data    | Descrição                               |   Autor(es)    | Revisor |
+| :----: | :--------: | :-------------------------------------- | :------------: | :-----: |
+|  1.0   | 07/10/2025 | Criação inicial do documento de léxicos | Samuel, Thiago |    -    |
