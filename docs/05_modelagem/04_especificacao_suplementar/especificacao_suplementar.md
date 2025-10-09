@@ -21,6 +21,11 @@ Este documento está organizado conforme o modelo RUP, dividido em seções que 
 
 - As características de desempenho
 
+## Definições, Acrônimos e Abreviações
+
+RNF - Requisito não funcional
+US - Usabelidade....
+
 ## Funcionalidades
 
 As funcionalidades deste projeto foram listados a partir das técnicas de elicicação:
@@ -31,24 +36,37 @@ As funcionalidades deste projeto foram listados a partir das técnicas de elicic
 
 Os requisitos que foram elicitados com essas técnicas estão no artefato [Requisitos Elicitados](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/)
 
-## Utilidade
+## Usabilidade
 
 A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva e consistente para o usuário deve seguir padrões visuais e de navegação conhecidos.
 
-| ID    | Descrição                                                                                                                                                 | Rastreabilidade |
-|:------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------|
-| US01  | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | RNF09           |
-| Us02  | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | RNF14           |
+| ID    | Descrição                                                                                                                                                 | Rastreabilidade                                                                                                   |
+|:------|:----------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
+| US01  | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | [RNF09](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
+| Us02  | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
 
 ##  Desempenho
 
-Desempenho está relacionado à capacidade do sistema em atender às solicitações dos usuários de maneira rápida e eficiente. Isso inclui fatores como tempo de resposta, utilização de recursos, capacidade de escalabilidade e suporte a múltiplos acessos simultâneos.
+Esta seção avalia os requisitos de desempenho do software, podendo usar como medida diversos aspectos, entre eles o tempo de resposta às solicitações, o consumo de memória, a utilização da CPU e a capacidade de carga do sistema.
+
+## Confiabilidade
+ A confiabilidade do software está reacionado à sua integridade e  conformidade, anaizando a capacidade do sistema de funcionar corretamente mesmo diante de falhas. 
+
+## Suportabilidade
+Os requisitos de suportabilidade se referem às características que tornam o software mais fácil de usar, manter e adaptar. Entre essas características estão a testabilidade, adaptabilidade, manutenibilidade, compatibilidade, configurabilidade, instalabilidade, escalabilidade, localizabilidade, entre outras.
+
+| ID     | Descrição                                                                                                          | Rastreabilidade                                                                                                   |
+|:-------|:-------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
+| SUP01  | Permite que o sistema seja alterado ou atuaizado sem interromper o uso, ligado a manutenibilidade e adaptabilidade | [RNF06](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
+| SUP02  | O sistema funcione em diferentes navegadores                                                                       | [RNF12](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
 
 ## Conteúdo
 
 
 
 ## Bibliografia
+> 1.FURPS+. QualidadeBR, 10 jul. 2008. Disponível em: https://qualidadebr.wordpress.com/2008/07/10/furps/
+. Acesso em: 9 out. 2025.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -58,6 +76,6 @@ Desempenho está relacionado à capacidade do sistema em atender às solicitaç�
 
 ## Histórico de versão
 
-| Versão | Data | Descrição | Autor(es) | Revisor |
-| :----: | :--: | :-------- | :-------: | :-----: |
-|        |      |           |           |         |
+| Versão |    Data    | Descrição             |                 Autor(es)                    |                  Revisor                    |
+|:------:|:----------:|:----------------------|:--------------------------------------------:|:-------------------------------------------:|
+|  Vera  | 08/10/2025 | Adicionando conteudo  | [Vera Lucia](https://github.com/verabelucia) | [Raissa](https://github.com/RaissaAndradeS) |
