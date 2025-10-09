@@ -149,7 +149,7 @@ Figura 1: Casos de uso do app LigaMagic
 | :--- | :---------------: |
 |   [Guilherme](https://github.com/GuilhermeOliveira1327)    |                   |
 |   [Angélica](https://github.com/angelicaccampos)    |                   |
-|   Marcelo                |                    |
+|   Marcelo           |             |
 
 ## Histórico de versão
 
