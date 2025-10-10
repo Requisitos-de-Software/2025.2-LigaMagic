@@ -15,7 +15,7 @@ Cada cenário foi estruturado conforme a tabela 1.
 A tabela 2 distribui as funcionalidades entre os integrantes.
 
 
-# Tabela 1 - Estrutura de um cenário
+### Tabela 1 - Estrutura de um cenário
 
 ---
 
@@ -32,7 +32,7 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 
 ---
 
-# Tabela 2 - Distribuição de funcionalidades
+### Tabela 2 - Distribuição de funcionalidades
  
 ---
 
@@ -44,9 +44,9 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | 4 | **Raissa Andrade**: Gerenciar Lista de Decks: Cenário 06|
 | 5 | **Raissa Andrade**: Comprar por Lista: Cenário 07 |
 | 6 | **Vera Lucia**: Permitir  definir um alerta de preço para a carta selecionada: Cenário 08|
-| 7 |  **Vera Lucia** : Permitir reporte de problemas relacionados à carta ou anúncios: Cenário 09
-| 8 | 
-| 9 | 
+| 7 |  **Vera Lucia** : Permitir reporte de problemas relacionados à carta ou anúncios: Cenário 09|
+| 8 | **Angélica** : Salvar carta para compra futura |
+| 9 | **Angélica** : Encontrar carta específica rapidamente |
 | 10 | 
 | 11 | 
 | 12 | 
@@ -144,7 +144,7 @@ A tabela 4 descreve o cenário do requisito funcional Personalizar perfil de usu
 | **Restrições**      | - Somente listas salvas podem ser compradas.<br>- O processo deve mostrar os itens correspondidos e os não encontrados.<br>- Ter todas cartas disponíveis.  |
 | **Episódios**       | 1. Jogador acessa uma lista salva.<br>2. Clica em “Comprar por lista”.<br>3. Exibe resumo com preços, itens indisponíveis e total estimado.<br>4. Jogador confirma e é redirecionado ao carrinho do fornecedor. |
 
-### Cenário 08:Permitir definir um alerta de preço para a carta selecionada
+### Cenário 08: Permitir definir um alerta de preço para a carta selecionada
 **Requisito Associado:** [RI05] - O sistema deve permitir que defina um alerta de preço para a carta selecionada.
 
 <div align="center"><strong>Tabela 8: Cenário 08</strong></div>
@@ -164,7 +164,7 @@ Tempo: em tempo real. |
 
 Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
-### Cenário 09:Permitir reporte problemas relacionados à carta ou anúncios
+### Cenário 09: Permitir reporte problemas relacionados à carta ou anúncios
 **Requisito Associado:** [RI07] - O sistema deve permitir que defina um alerta de preço para a carta selecionada.
 
 <div align="center"><strong>Tabela 9: Cenário 09</strong></div>
@@ -184,6 +184,40 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
 
+### Cenário 10: Adicionar à Wishlist
+**Requisito Associado:** [RI14] -  wishlist de cartas.
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | ------------------- |
+| **ID**              |  CE10 |
+| **Título**          | Adicionar à Wishlist.  |
+| **Metas/Objetivos** | Salvar carta para compra futura. |
+| **Contexto**        | Usuário encontra carta de interesse, mas não pode comprar agora.	 |
+| **Ator(es)**        | Usuário |
+| **Recursos**        | • Sistema autenticação • Banco dados wishlist • Storage usuário. |
+| **Exceções**        | • Sessão expirada • Erro servidor • Carta já na lista.|
+| **Restrições**      | • Usuário deve estar logado • Limite de 1000 cartas • Dados persistentes  |
+| **Episódios**       | 1. Visualizar carta 2. Clicar ícone em formato de estrela 3. Sistema valida adição 4. Feedback visual confirma 5. Carta salva na lista |
+
+Fonte: Angélica, 2025
+
+### Cenário 11: Pesquisar Cartas
+**Requisito Associado:** [RI15] - Pesquisar Cartas
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | ------------------- |
+| **ID**              |  CE11 |
+| **Título**          | Pesquisar Cartas  |
+| **Metas/Objetivos** | Encontrar carta específica rapidamente.	 |
+| **Contexto**        | Usuário precisa localizar carta para compra ou consultar.	 |
+| **Ator(es)**        | Usuário |
+| **Recursos**        | • Conexão internet • Banco dados das cartas • Serviço de busca |
+| **Exceções**        | • Falha retorno resultados|
+| **Restrições**      | • Conexão internet obrigatória  • Dados das cartas atualizados |
+| **Episódios**       | 1. Acessar aba pesquisa 2. Digitar termo de busca 3. Sistema processa as requisição 4. Exibir os resultados 5. Usuário visualizam as opções. |
+
+Fonte: Angélica, 2025
+
 
 ## Bibliografia
 
@@ -196,6 +230,7 @@ BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; B
 |   Marcelo   |          14,29%         |
 |   Raissa   |          14,29%         |
 |   Vera   |          14,29%         |
+|   Angélica   |          14,29%         |
 
 ## Histórico de versão
 
@@ -203,5 +238,6 @@ BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; B
 | :----: | :--: | :-------- | :-------: | :-----: |
 |    1.0    |   08/10/2025   |     Adição de cenários      |   Marcelo     |     Raissa    |
 |    1.1    |   09/10/2025   |     Adição de cenários  05, 06 e 07    |   Raissa    |   Vera      |
-|    1.2    |   09/10/2025   |     Adição de cenários 08 e09          |    Vera     |   Raissa    |
+|    1.2    |   09/10/2025   |     Adição de cenários 08 e 09          |    Vera     |   Raissa    |
+|    1.3    |   10/10/2025   |     Adição de cenários 10 e 11          |    Angélica     |   Marcelo    |
 
