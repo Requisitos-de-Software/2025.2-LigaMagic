@@ -69,6 +69,10 @@ Fonte: Thiago, 2025.
   - Muda o estado do `Visitante` para `Membro`.
   - Permite que o novo `Membro` realize `Login`.
 
+<br>
+Fonte: Raissa, 2025.
+
+
 #### L04 - Login
 
 - **Noção:**
@@ -78,6 +82,10 @@ Fonte: Thiago, 2025.
   - Inicia uma sessão segura, dando acesso a áreas restritas como "Minha `Coleção de Cartas`" e "Meus `Decks`".
   - Se as credenciais estiverem incorretas, o acesso é negado.
   - É um pré-requisito para as ações de `Comprar Carta` e `Leiloar Carta`.
+  
+<br>
+Fonte: Vera, 2025.
+
 
 #### L05 - Pesquisar Carta
 
@@ -114,6 +122,10 @@ Fonte: Thiago, 2025.
   - A `Carta` fica temporariamente indisponível para venda direta.
   - Outros `Membros` podem registrar lances.
   - Ao término do período, a `Carta` é vendida ao `Membro` com o maior lance.
+  
+<br>
+Fonte: Marcelo, 2025.
+
 
 ---
 
@@ -154,6 +166,10 @@ Fonte: Thiago, 2025.
   - Facilita o gerenciamento da coleção pessoal do `Membro`.
   - Auxilia na montagem de `Decks` ao mostrar as `Cartas` disponíveis para o `Membro`.
   - Permite ao `Membro` identificar `Cartas` para venda ou troca.
+  
+<br>
+Fonte: Vera, 2025.
+
 
 #### L11 - Edição
 
@@ -167,6 +183,9 @@ Fonte: Thiago, 2025.
 - **Sinônimo:**
   - Coleção.
 
+<br>
+Fonte: Angélica, 2025.
+
 #### L12 - Formato
 
 - **Noção:**
@@ -175,6 +194,10 @@ Fonte: Thiago, 2025.
   - Restringe as `Cartas` que um `Membro` pode incluir ao criar um `Deck`.
   - O sistema pode validar um `Deck` para verificar se ele é legal em um determinado `Formato`.
   - É um critério de busca para encontrar `Decks` públicos e artigos estratégicos.
+  
+<br>
+Fonte: Raissa, 2025.
+
 
 #### L13 - Fórum
 
@@ -185,6 +208,9 @@ Fonte: Thiago, 2025.
   - Um `Membro` pode criar, responder e seguir tópicos.
   - O conteúdo do `Fórum` é moderado para garantir o cumprimento das regras da comunidade.
 
+<br>
+Fonte: Angélica, 2025.
+
 #### L14 - Mana
 
 - **Noção:**
@@ -193,6 +219,9 @@ Fonte: Thiago, 2025.
   - O "Custo de Mana" é um atributo principal de uma `Carta`.
   - É um critério essencial para a construção de um `Deck` por um `Membro`.
   - É utilizado como filtro na `Pesquisa de Carta`.
+  
+<br>
+Fonte: Marcelo, 2025.
 
 ---
 
@@ -206,6 +235,10 @@ Fonte: Thiago, 2025.
   - `Membros` podem submeter lances de valor superior ao lance atual.
   - O sistema exibe o tempo restante e o maior lance publicamente.
   - Ao final do tempo, transita para o estado "Leilão Encerrado".
+  
+<br>
+Fonte: Marcelo, 2025.
+
 
 #### L16 - Leilão Encerrado
 
@@ -215,6 +248,10 @@ Fonte: Thiago, 2025.
   - O sistema não aceita mais novos lances para este `Leilão`.
   - O `Membro` com o maior lance é declarado o vencedor.
   - Inicia o processo de transação, movendo a compra para o estado "Pagamento Pendente".
+  
+<br>
+Fonte: Raissa, 2025.
+
 
 #### L17 - Pagamento Aprovado
 
@@ -248,6 +285,10 @@ Fonte: Thiago, 2025.
   - O ciclo da transação é formalmente encerrado.
   - Libera o pagamento para o `Vendedor`, caso esteja retido pelo sistema.
   - Permite que tanto o `Comprador` quanto o `Vendedor` realizem a `Avaliar Transação`.
+  
+<br>
+Fonte: Vera, 2025.
+
 
 #### L20 - Pedido Cancelado
 
@@ -258,6 +299,9 @@ Fonte: Thiago, 2025.
   - As `Cartas` do pedido retornam ao estoque do `Vendedor` e ficam disponíveis para venda novamente.
   - Dispara o envio de notificações para `Comprador` e `Vendedor` informando sobre o cancelamento.
 
+<br>
+Fonte: Angélica, 2025.
+
 #### L21 - Carrinho Ativo
 
 - **Noção:**
@@ -266,6 +310,9 @@ Fonte: Thiago, 2025.
   - Os itens no carrinho não ficam reservados no estoque do `Vendedor` e podem ser adquiridos por outro `Comprador`.
   - Permite ao `Membro` adicionar mais itens, remover existentes ou alterar quantidades.
   - Ao finalizar a compra, transita para o estado "Pagamento Pendente". Se esvaziado, retorna ao estado "Carrinho Vazio".
+
+<br>
+Fonte: Angélica, 2025.
 
 ---
 
