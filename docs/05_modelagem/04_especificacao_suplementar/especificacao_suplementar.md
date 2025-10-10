@@ -1,30 +1,27 @@
 # Especificação Suplementar
 
 ## Descrição
+Este documento apresenta a Especificação Suplementar do sistema LigaMagic, utilizando o modelo FURPS+ para garantir que o software atenda não apenas aos requisitos funcionais, mas também aos aspectos de qualidade, como segurança, desempenho, usabilidade e suportabilidade.
 
 ## Objetivo
 O objetivo deste documento é detalhar os requisitos não funcionais do sistema, garantindo que todas as necessidades de desempenho, segurança, compatibilidade e qualidade sejam atendidas durante o desenvolvimento e manutenção da plataforma.
 
-## Escopo
+## Metodologia
 
-O sistema LigaMagic é uma plataforma digital voltada para jogadores e colecionadores de cartas, permitindo interações como: compra e venda de cartas, criação e gestão de decks, participação em fóruns, configuração de alertas de preço e reportes de erro.
+A elaboração desta Especificação Suplementar organizar e detalhar os requisitos do sistema LigaMagic de forma estruturada. A especificação segue o modelo FURPS+, que organiza os requisitos nas seguintes categorias:
 
-## Visão Geral
-
-Este documento está organizado conforme o modelo RUP, dividido em seções que descrevem:
-
-- As funcionalidades principais
-
-- Os requisitos de usabilidade
-
-- Os requisitos de confiabilidade
-
-- As características de desempenho
+- Funcionalidade: regras de negócio, validações e exigências legais específicas do sistema LigaMagic.
+- Usabilidade: interface intuitiva, acessibilidade e experiência do usuário.
+- Confiabilidade: segurança dos dados, disponibilidade e tolerância a falhas.
+- Desempenho: tempos de resposta, capacidade de atendimento em horários de pico e escalabilidade da aplicação.
+- Suporte: manutenção, documentação e compatibilidade com múltiplas plataformas (Web, Android e iOS).
+- Outros (“+”): restrições legais, padrões de identidade digital e integração com sistemas externos ou governamentais.
 
 ## Definições, Acrônimos e Abreviações
 
 RNF - Requisito não funcional
-US - Usabelidade....
+US - Usabelidade
+SUP - Suportabilidade
 
 ## Funcionalidades
 
@@ -45,6 +42,8 @@ A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva
 | US01  | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | [RNF09](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
 | Us02  | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
 
+Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
+ 
 ##  Desempenho
 
 Esta seção avalia os requisitos de desempenho do software, podendo usar como medida diversos aspectos, entre eles o tempo de resposta às solicitações, o consumo de memória, a utilização da CPU e a capacidade de carga do sistema.
@@ -68,9 +67,28 @@ Os requisitos de suportabilidade se referem às características que tornam o so
 | SUP01  | Permite que o sistema seja alterado ou atuaizado sem interromper o uso, ligado a manutenibilidade e adaptabilidade | [RNF06](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
 | SUP02  | O sistema funcione em diferentes navegadores                                                                       | [RNF12](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
 
-## Conteúdo
+Fonte: [Raissa](https://github.com/RaissaAndradeS), 2025
 
+## Requisitos de Design 
 
+Os requisitos de design, também conhecidos como restrições de projeto, definem limitações ou diretrizes que devem ser seguidas durante o desenvolvimento do sistema. Esses requisitos estabelecem parâmetros que influenciam a estrutura e o comportamento do software, como a linguagem de programação utilizada, o processo de desenvolvimento adotado, as ferramentas de apoio empregadas e o uso de bibliotecas ou frameworks específicos.
+
+| ID     | Descrição                                                                                                          | Rastreabilidade                                                                                                   |
+|:-------|:-------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
+
+## Requisitos de Implementação
+
+Os requisitos de implementação determinam condições técnicas ou restrições relacionadas ao desenvolvimento do código e à construção do sistema. Eles orientam como o software deve ser implementado, especificando aspectos como padrões obrigatórios de programação, linguagens de desenvolvimento permitidas, políticas de integridade e segurança do banco de dados, além de limitações de recursos e ambientes operacionais compatíveis.
+
+| ID     | Descrição                                                                                                          | Rastreabilidade                                                                                                   |
+|:-------|:-------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
+
+## Requisitos de Interface
+
+Os requisitos de interface definem ou limitam as funcionalidades e interações entre o sistema e o usuário. Eles estabelecem como os elementos da interface devem se comportar e se apresentar, garantindo consistência visual, clareza nas informações exibidas e facilidade de uso durante a navegação no sistema.
+
+| ID     | Descrição                                                                                                          | Rastreabilidade                                                                                                   |
+|:-------|:-------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------|
 
 ## Bibliografia
 > 1.FURPS+. QualidadeBR, 10 jul. 2008. Disponível em: https://qualidadebr.wordpress.com/2008/07/10/furps/
