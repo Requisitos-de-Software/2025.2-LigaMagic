@@ -24,7 +24,7 @@ A elaboração da lista de verificação foi realizada com base na análise  do 
 |  11  | A seção de Interfaces define todas as interfaces que o sistema deve suportar                                                                                                     | Raissa    |
 |  12  | A seção de Requisitos de Licenciamento define todos os tipos de licença que  o software deve obedecer?                                                                           | Raissa    |
 
-[Lista de Verificação - Especificação Suplementar (PDF)](../../../../00_assets/pdfs/verificacao/Lista-Verificacao-Especificacao-Suplementar.pdf)
+[Lista de Verificação - Especificação Suplementar (PDF)](../../../00_assets/pdfs/verificacao/Lista-Verificacao-Especificacao-Suplementar.pdf)
 
 ## Bibliografia
 
