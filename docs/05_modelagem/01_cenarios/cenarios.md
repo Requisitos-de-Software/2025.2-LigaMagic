@@ -43,8 +43,8 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | 3 | **Raissa Andrade**: Criar e Salvar Lista de Decks: Cenário 05: Criar e Salvar Lista de Decks |
 | 4 | **Raissa Andrade**: Gerenciar Lista de Decks: Cenário 06|
 | 5 | **Raissa Andrade**: Comprar por Lista: Cenário 07 |
-| 6 | 
-| 7 | 
+| 6 | **Vera Lucia**: Permitir  definir um alerta de preço para a carta selecionada: Cenário 08|
+| 7 |  **Vera Lucia** : Permitir reporte de problemas relacionados à carta ou anúncios: Cenário 09
 | 8 | 
 | 9 | 
 | 10 | 
@@ -104,7 +104,6 @@ A tabela 4 descreve o cenário do requisito funcional Personalizar perfil de usu
 | **Recursos**        | - Banco de dados para armazenar listas<br>- Interface de criação/edição<br>- Campo de busca e adição de decks |
 | **Exceções**        | - Deck não encontrado na base local.<br>- Erro ao salvar lista. |
 | **Restrições**      | - O nome da lista deve ser único por jogador.<br>- Somente jogadoress autenticados podem criar ou salvar listas.<br>- Salvar a carta somente uma vez
- |
 | **Episódios**       | 1. Jogador acessa “Minhas Listas”.<br>2. Seleciona “Criar nova lista”.<br>3. Preenche nome/descrição.<br>4. Adiciona decks (busca/link).<br>5. Salva lista.<br>6. Sistema confirma criação. |
 
 ---
@@ -145,6 +144,45 @@ A tabela 4 descreve o cenário do requisito funcional Personalizar perfil de usu
 | **Restrições**      | - Somente listas salvas podem ser compradas.<br>- O processo deve mostrar os itens correspondidos e os não encontrados.<br>- Ter todas cartas disponíveis.  |
 | **Episódios**       | 1. Jogador acessa uma lista salva.<br>2. Clica em “Comprar por lista”.<br>3. Exibe resumo com preços, itens indisponíveis e total estimado.<br>4. Jogador confirma e é redirecionado ao carrinho do fornecedor. |
 
+### Cenário 08:Permitir definir um alerta de preço para a carta selecionada
+**Requisito Associado:** [RI05] - O sistema deve permitir que defina um alerta de preço para a carta selecionada.
+
+<div align="center"><strong>Tabela 8: Cenário 08</strong></div>
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**              | CE05    |
+| **Título**          | Permitir que o comprador defina um alerta de preço para a carta selecionada  |
+| **Metas/Objetivos** | Notificar o comprador quando o preço da carta atingir o valor definido.. |
+| **Contexto**        | Local: qualquer lugar onde o usuário possa acessar o aplicativo.
+Tempo: em tempo real. |
+| **Ator(es)**        | - Jogador Autenticado |
+| **Recursos**        | - Smartphone com o app da LigaMagic, conexão com a internet |
+| **Exceções**        | - Falta de conexão com a internet.- Valor inválido inserido.- Usuário não está logado em sua conta.|
+| **Restrições**      | - Valor do alerta deve estar dentro do limite permitido pelo sistema.<br>- Apenas cartas existentes na plataforma podem ter alertas definidos.  |
+| **Episódios**       |1. Comprador decide acompanhar o preço de uma carta.<br>2. Abre o aplicativo.<br>3. Realiza login, caso ainda não esteja autenticado.<br>4. Acessa a busca ou lista de cartas.<br>5. Localiza a carta desejada.<br>6. Abre a página detalhada da carta.<br>7. Clica no botão “Definir alerta”.<br>8. Insere o valor desejado para o alerta.<br>9. Sistema valida o valor informado.<br>10. Sistema confirma a criação do alerta.<br> |
+
+Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
+
+### Cenário 09:Permitir reporte problemas relacionados à carta ou anúncios
+**Requisito Associado:** [RI07] - O sistema deve permitir que defina um alerta de preço para a carta selecionada.
+
+<div align="center"><strong>Tabela 9: Cenário 09</strong></div>
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**              | CE07    |
+| **Título**          | Permitir que reporte problemas relacionados à carta ou anúncios  |
+| **Metas/Objetivos** | Permitir que o comprador comunique erros ou irregularidades encontradas em cartas ou anúncios |
+| **Contexto**        |  Local: qualquer lugar onde o usuário possa acessar o aplicativo.<br>Tempo: Em tempo real|
+| **Ator(es)**        | - Comprador  Autenticado|
+| **Recursos**        | - Smartphone com o app da LigaMagic, conexão com a internet |
+| **Exceções**        | - Falta de conexão com a internet.- Valor inválido inserido.- Usuário não está logado em sua conta.|
+| **Restrições**      | O comprador deve selecionar um tipo de problema antes de enviar.<br>- O comprador deve descrever o problema antes de enviar. |.  |
+| **Episódios**       |1. Usuário identifica um possível erro ou anúncio suspeito.<br>2. Abre o aplicativo.<br>3. Realiza login, se necessário.<br>4. Acessa a página da carta.<br>5. Clica em “Reportar problema”.<br>6. Sistema apresenta opções de tipos de problema.<br>7. Usuário seleciona o tipo adequado.<br>8. Descreve o problema em detalhes.<br>9. Envia o reporte.<br>10. Sistema registra o reporte e confirma o envio ao usuário.<br> |
+
+Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
+
 
 
 ## Bibliografia
@@ -157,6 +195,7 @@ BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; B
 | :--- | :---------------: |
 |   Marcelo   |          14,29%         |
 |   Raissa   |          14,29%         |
+|   Vera   |          14,29%         |
 
 ## Histórico de versão
 
@@ -164,3 +203,5 @@ BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; B
 | :----: | :--: | :-------- | :-------: | :-----: |
 |    1.0    |   08/10/2025   |     Adição de cenários      |   Marcelo     |     Raissa    |
 |    1.1    |   09/10/2025   |     Adição de cenários  05, 06 e 07    |   Raissa    |   Vera      |
+|    1.2    |   09/10/2025   |     Adição de cenários 08 e09          |    Vera     |   Raissa    |
+
