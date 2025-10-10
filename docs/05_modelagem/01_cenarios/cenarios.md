@@ -194,26 +194,43 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 | **Metas/Objetivos** | Salvar carta para compra futura. |
 | **Contexto**        | Usuário encontra carta de interesse, mas não pode comprar agora.	 |
 | **Ator(es)**        | Usuário |
-| **Recursos**        | • Sistema autenticação • Banco dados wishlist • Storage usuário. |
-| **Exceções**        | • Sessão expirada • Erro servidor • Carta já na lista.|
-| **Restrições**      | • Usuário deve estar logado • Limite de 1000 cartas • Dados persistentes  |
+| **Recursos**        | - Sistema autenticação - Banco dados wishlist - Storage usuário. |
+| **Exceções**        | - Sessão expirada - Erro servidor - Carta já na lista.|
+| **Restrições**      | - Usuário deve estar logado - Limite de 1000 cartas - Dados persistentes  |
 | **Episódios**       | 1. Visualizar carta 2. Clicar ícone em formato de estrela 3. Sistema valida adição 4. Feedback visual confirma 5. Carta salva na lista |
 
 Fonte: Angélica, 2025
 
-### Cenário 11: Pesquisar Cartas
-**Requisito Associado:** [RI15] - Pesquisar Cartas
+### Cenário 11: Gerenciar Wishlist Existente
+**Requisito Associado:** [RI14] -  wishlist de cartas.
 
 | **Elemento**        | **Descrição**  |
 | ------------------- | ------------------- |
 | **ID**              |  CE11 |
+| **Título**          | Gerenciar Wishlist Existente.  |
+| **Metas/Objetivos** | Organizar e manter lista de desejos atualizada. |
+| **Contexto**        | Usuário precisa revisar e organizar cartas salvas na wishlist.	 |
+| **Ator(es)**        | Usuário |
+| **Recursos**        | - Lista de cartas salvas - Sistema de filtros - Opções de ordenação. |
+| **Exceções**        | - Wishlist vazia - Erro ao carregar itens - Falha ao aplicar filtros - Sessão expirada.|
+| **Restrições**      | - Wishlist deve ter itens - Conexão para sincronização - Limite de 1000 cartas.  |
+| **Episódios**       | 1. Acessar seção "Minha Wishlist" 2. Visualizar cartas organizadas 3. Aplicar filtros (tipo, raridade, preço) 4. Ordenar por critério desejado 5. Navegar entre páginas 6. Realizar ações (remover, ver detalhes) |
+
+Fonte: Angélica, 2025
+
+### Cenário 12: Pesquisar Cartas
+**Requisito Associado:** [RI15] - Pesquisar Cartas
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | ------------------- |
+| **ID**              |  CE12 |
 | **Título**          | Pesquisar Cartas  |
 | **Metas/Objetivos** | Encontrar carta específica rapidamente.	 |
 | **Contexto**        | Usuário precisa localizar carta para compra ou consultar.	 |
 | **Ator(es)**        | Usuário |
-| **Recursos**        | • Conexão internet • Banco dados das cartas • Serviço de busca |
-| **Exceções**        | • Falha retorno resultados|
-| **Restrições**      | • Conexão internet obrigatória  • Dados das cartas atualizados |
+| **Recursos**        | - Conexão internet - Banco dados das cartas - Serviço de busca |
+| **Exceções**        | - Falha retorno resultados|
+| **Restrições**      | - Conexão internet obrigatória  - Dados das cartas atualizados |
 | **Episódios**       | 1. Acessar aba pesquisa 2. Digitar termo de busca 3. Sistema processa as requisição 4. Exibir os resultados 5. Usuário visualizam as opções. |
 
 Fonte: Angélica, 2025
@@ -239,5 +256,5 @@ BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; B
 |    1.0    |   08/10/2025   |     Adição de cenários      |   Marcelo     |     Raissa    |
 |    1.1    |   09/10/2025   |     Adição de cenários  05, 06 e 07    |   Raissa    |   Vera      |
 |    1.2    |   09/10/2025   |     Adição de cenários 08 e 09          |    Vera     |   Raissa    |
-|    1.3    |   10/10/2025   |     Adição de cenários 10 e 11          |    Angélica     |   Marcelo    |
+|    1.3    |   10/10/2025   |     Adição de cenários 10, 11 e 12          |    Angélica     |   Marcelo    |
 
