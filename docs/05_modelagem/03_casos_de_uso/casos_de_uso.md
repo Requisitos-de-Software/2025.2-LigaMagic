@@ -262,6 +262,10 @@ Para realizar a validação dos requisitos fizemos uma consulta com um usuário 
 
 - [Assista ao vídeo no YouTube](https://youtu.be/V7Ye3xwXizk). Este video foi produzido pela aluna Angélica Campos.
 
+## Vídeo da priorização feita com um usuario
+Para realizar a validação dos casos de uso fizemos uma consulta com um usuario do app, disponivel aqui:
+
+
 ## Bibliografia
 
 > 1. LUCID SOFTWARE PORTUGUÊS. Tutorial de Caso de Uso UML. YouTube, 20 mar. 2020. Disponível em: [Vídeo Completo](https://www.youtube.com/watch?v=ab6eDdwS3rA). Acesso em: 07 out. 2025.
@@ -270,12 +274,13 @@ Para realizar a validação dos requisitos fizemos uma consulta com um usuário 
 
 | Nome                                                  | % de Contribuição |
 | :---------------------------------------------------- | :---------------: |
-| [Guilherme](https://github.com/GuilhermeOliveira1327) |                   |
-| Angélica                                              |                   |
-| Marcelo                                               |                   |
+| [Guilherme](https://github.com/GuilhermeOliveira1327) |      7%             |
+| Angélica                                              |      21,6%             |
+| Marcelo                                               |      14,28%             |
 | Raissa                                                |      14,28%       |
-| Vera                                                  |                   |
-| Samuel                                                |                   |
+| Vera                                                  |      14,28%             |
+| Samuel                                                |      14,28%             |
+| Tiago                                                 |      14,28%             |
 
 ## Histórico de versão
 
