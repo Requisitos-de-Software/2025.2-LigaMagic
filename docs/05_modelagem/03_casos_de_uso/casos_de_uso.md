@@ -42,8 +42,8 @@ Figura 1: Casos de uso do app LigaMagic
 
 
 ### Especialização dos casos de uso
-#### Caso de uso 01 - Wishlist de Cartas    
-| Campo                      |Descrição                                                                                                    |
+#### **Caso de uso 01** - Wishlist de Cartas    
+| Campo                      |Descrição|
 | :------------------------- | :---------------------------------------------------------------------------------------------------------- |
 | **Identificador:**         | UC01                  |
 | **Nome:**                  |   Wishlist de Cartas|
@@ -62,10 +62,10 @@ Figura 1: Casos de uso do app LigaMagic
 
 **Fonte:** Angélica 
 
-#### Caso de uso 02 - Pesquisar Cartas
-| Campo                      | Descrição                                                                                                   |
+#### **Caso de uso 02** - Pesquisar Cartas
+| Campo                      | Descrição|
 | :------------------------- | :---------------------------------------------------------------------------------------------------------- |
-| **Identificador:**         | UC02                                                                                                   |
+| **Identificador:**        |UC02                                                                                                   |
 | **Nome:**                  |    Pesquisar Cartas                               |
 | **Atores:**                |   Usuário                              |
 | **Descrição:**             |  Usuário busca cartas por nome, tipo ou categoria.|
@@ -82,10 +82,45 @@ Figura 1: Casos de uso do app LigaMagic
 
 **Fonte:** Angélica 
 
-#### Caso de uso 03 - Personalizar Perfil de  Jogador
+#### **Caso de uso 03** - Definir Alerta de Preço para uma Carta
+**Requisito Associado**  RI05 - Permite criar uma notificação automática para ser avisado quando o preço de uma carta específica atingir um valor desejado. 
+
+| **Campo**                  | **Descrição** |
+| :---------------- | ------------- |
+| **Identificador:**         | UC03 |
+| **Nome:**                  | Definir Alerta de Preço para uma Carta|
+| **Atores:**                | Conta autenticada |
+| **Descrição:**             | Permite criar uma notificação automática para ser avisado quando o preço de uma carta específica atingir um valor desejado.  |
+| **Pré-condições:**         | - A conta está autenticada no sistema.<br>- A página de detalhes da carta desejada está aberta. |
+| **Fluxo principal:**       | 1. O botão "Criar Alerta de Preço" é clicado na página da carta.<br>2. O sistema exibe um formulário (modal) com os campos: Condição (ex: "Preço abaixo de", "Preço acima de") e Valor (R$).<br>3. A condição desejada é selecionada.<br>4. Um valor de preço válido é inserido.<br>5. O botão "Salvar Alerta" é clicado.<br>6. O sistema valida os dados inseridos.<br>7. O sistema cria o registro do alerta de preço no banco de dados.<br>8. O sistema exibe a mensagem "Alerta de preço definido com sucesso!" e fecha o formulário. |
+| **Fluxo alternativo:**     | - A condição ou valor é revisada antes de salvar: o formulário permanece aberto para ajustes.<br>  |
+| **Fluxos de exceção:**     | -Valor inválido ou ausente  se o campo "Valor" não for preenchido ou for negativo/não numérico, o sistema exibe: "Por favor, insira um valor de preço válido." O formulário permanece aberto.<br>   |
+| **Pós-condição:**          | Um novo alerta de preço é registrado no sistema, associado à conta e à carta, e o sistema exibe uma mensagem de confirmação de sucesso.  |
+| **Requisitos associados:** |  RI05 |
+
+Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
+
+#### **Caso de uso 04** - Reportar Erro em Carta ou Anúncio
+| **Campo**                  | **Descrição** |
+| :---------------- | ------------- |
+| **Identificador:**         | UC04  |
+| **Nome:**                  | Reportar Erro em Carta ou Anúncio |
+| **Atores:**                | Comprador, Administrador |
+| **Descrição:**             | Permite que um comprador, ao identificar um erro nas informações de uma carta ou em um anúncio, envie um reporte para a administração da plataforma para análise e correção.        |
+| **Pré-condições:**         | O comprador está autenticado e navegando na página da carta específica.  |
+| **Fluxo principal:**       | 1. O botão “Reportar Problema” é acionado na página da carta.<br>2. O sistema exibe um formulário de reporte.<br>3. O tipo de erro é selecionado (Dados da Carta Incorretos, Formato da carta incorreto, Preço incorreto).<br>4. Uma descrição detalhada do problema é inserida.<br>5. A caixa "Não sou um robô" é marcada e o formulário é submetido.<br>6. O sistema valida os dados e registra o reporte.<br>7. O sistema exibe a mensagem "Problema reportado com sucesso." |
+| **Fluxo alternativo:**     | - O usuário decide revisar ou editar o detalhe do erro antes de enviar: o sistema mantém o formulário aberto para edição.<br>- 5b. O usuário decide alterar o tipo de erro selecionado: o sistema atualiza a seleção no formulário antes do envio. |
+| **Fluxos de exceção:**     | - Tipo de erro não selecionado o sistema exibe: "Selecione o tipo de erro antes de enviar." O formulário permanece aberto.<br>- Falha de conexão  o sistema exibe: "Falha no envio. Verifique sua conexão e tente novamente." O formulário permanece aberto.  |
+| **Pós-condição:**          | Um novo reporte é registrado no sistema, associado à carta específica, e o comprador recebe confirmação visual do envio.    |
+| **Requisitos associados:** |       RI07          |
+
+Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
+
+#### **Caso de uso 05** - Personalizar Perfil de  Jogador
+
 | Campo| Descrição |
 | :--- | :--- |
-| **UC03** | **Personalizar Perfil de  Jogador** |
+| **UC05** | **Personalizar Perfil de  Jogador** |
 | **Descrição** | Este caso de uso descreve como o jogador realiza a atualização de suas informações pessoais, como avatar e endereço de envio, em seu perfil na plataforma. |
 | **Atores** |  Jogador Comum (ator principal), Sistema |
 | **Pré-condição** | O jogador deve estar autenticado (logado) no sistema. |
@@ -96,10 +131,10 @@ Figura 1: Casos de uso do app LigaMagic
 
 **Fonte:** Marcelo
 
-#### Caso de uso 04 - Especificação do Caso de Uso: Filtrar Busca por Condição
+#### **Caso de uso 06** - Filtrar Busca por Condição
 | Campo | Descrição |
 | :--- | :--- |
-| **UC04** | **Filtrar Busca por Condição** |
+| **UC06** | **Filtrar Busca por Condição** |
 | **Descrição** | Este caso de uso descreve como o jogador refina uma lista de resultados de busca de cartas, aplicando um filtro baseado na qualidade/condição de conservação  do item. |
 | **Atores** |  Jogador Comum (ator principal), Vendedor (ator principal), Sistema |
 | **Pré-condição** | O jogador deve ter realizado uma busca e estar na página de resultados. |
@@ -110,11 +145,12 @@ Figura 1: Casos de uso do app LigaMagic
 
 **Fonte:** Marcelo
 
-#### Caso de uso 09 – Gerenciamento de Listas de Decks  
+#### **Caso de uso 07** – Gerenciamento de Listas de Decks  
 **Requisito Associado:** RI09 – Os usuários devem ser capazes de criar, salvar e gerenciar listas de decks.  
+
 | **Campo**        | **Descrição** |
 | ---------------- | ------------- |
-| **UC09**         | Gerenciamento de Listas de Decks |
+| **UC07**         | Gerenciamento de Listas de Decks |
 | **Descrição**    | O sistema permite que o jogador crie, edite, salve e gerencie listas de decks de forma personalizada. |
 | **Ator**         | - Jogador<br>- Sistema |
 | **Pré-condições**| 1. O jogador deve estar autenticado no sistema.<br>2. O sistema deve estar com banco de dados acessível. |
@@ -129,10 +165,12 @@ Figura 1: Casos de uso do app LigaMagic
 
 **Fonte:** Raissa, 2025 
 
-#### Caso de uso 10 -  Requisito Associad  RI05 - Definir Alerta de Preço para uma Carta
+#### **Caso de uso 08** - Definir Alerta de Preço para uma Carta
+**Requisito Associado**  RI05 - Permite criar uma notificação automática para ser avisado quando o preço de uma carta específica atingir um valor desejado. 
+
 | **Campo**                  | **Descrição** |
 | :---------------- | ------------- |
-| **Identificador:**         | UC10 |
+| **Identificador:**         | UC08 |
 | **Nome:**                  | Definir Alerta de Preço para uma Carta|
 | **Atores:**                | Conta autenticada |
 | **Descrição:**             | Permite criar uma notificação automática para ser avisado quando o preço de uma carta específica atingir um valor desejado.  |
@@ -145,11 +183,12 @@ Figura 1: Casos de uso do app LigaMagic
 
 Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
-#### Caso de uso 11 – Compra por Lista  
-**Requisito Associado:** RI11 – O sistema deve fornecer a funcionalidade "comprar por lista".  
+#### **Caso de uso 09** – Compra por Lista  
+**Requisito Associado:** RI11 – O sistema deve fornecer a funcionalidade "comprar por lista". 
+
 | **Campo**        | **Descrição** |
 | ---------------- | ------------- |
-| **UC11**         | Compra por Lista |
+| **UC09**         | Compra por Lista |
 | **Descrição**    | O sistema permite que o jogador adicione todos os itens de uma lista de decks diretamente ao carrinho e realize a compra. |
 | **Ator**         | - Jogador<br>- Sistema de compras |
 | **Pré-condições**| 1. O jogador deve ter uma lista de decks salva.<br>2. O sistema deve ter integração de compras e estoque. |
@@ -163,22 +202,6 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 | **Autoria**       | Raissa Andrade |
 
 **Fonte:** Raissa,2025
-
-#### Caso de uso 00 - Reportar Erro em Carta ou Anúncio
-| **Campo**                  | **Descrição** |
-| :---------------- | ------------- |
-| **Identificador:**         | UC09  |
-| **Nome:**                  | Reportar Erro em Carta ou Anúncio |
-| **Atores:**                | Comprador, Administrador |
-| **Descrição:**             | Permite que um comprador, ao identificar um erro nas informações de uma carta ou em um anúncio, envie um reporte para a administração da plataforma para análise e correção.        |
-| **Pré-condições:**         | O comprador está autenticado e navegando na página da carta específica.  |
-| **Fluxo principal:**       | 1. O botão “Reportar Problema” é acionado na página da carta.<br>2. O sistema exibe um formulário de reporte.<br>3. O tipo de erro é selecionado (Dados da Carta Incorretos, Formato da carta incorreto, Preço incorreto).<br>4. Uma descrição detalhada do problema é inserida.<br>5. A caixa "Não sou um robô" é marcada e o formulário é submetido.<br>6. O sistema valida os dados e registra o reporte.<br>7. O sistema exibe a mensagem "Problema reportado com sucesso." |
-| **Fluxo alternativo:**     | - O usuário decide revisar ou editar o detalhe do erro antes de enviar: o sistema mantém o formulário aberto para edição.<br>- 5b. O usuário decide alterar o tipo de erro selecionado: o sistema atualiza a seleção no formulário antes do envio. |
-| **Fluxos de exceção:**     | - Tipo de erro não selecionado o sistema exibe: "Selecione o tipo de erro antes de enviar." O formulário permanece aberto.<br>- Falha de conexão  o sistema exibe: "Falha no envio. Verifique sua conexão e tente novamente." O formulário permanece aberto.  |
-| **Pós-condição:**          | Um novo reporte é registrado no sistema, associado à carta específica, e o comprador recebe confirmação visual do envio.    |
-| **Requisitos associados:** |       RI07          |
-
-Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
 ## Video de validação feita com um usuario
 Para realizar a validação dos requisitos fizemos uma consulta com um usuario do app, disponivel aqui: 
