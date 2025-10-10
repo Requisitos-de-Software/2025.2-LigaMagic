@@ -17,11 +17,18 @@ A elaboração desta Especificação Suplementar organizar e detalhar os requisi
 - Suporte: manutenção, documentação e compatibilidade com múltiplas plataformas (Web, Android e iOS).
 - Outros (“+”): restrições legais, padrões de identidade digital e integração com sistemas externos ou governamentais.
 
+## Distribuição de especificaçoes por integrante 
+
+| Integrante     | Especificação                                                                                              | 
+|:-------|:-------------------------------------------------------------------------------------------------------------------|
+|Angélica|Usabilidade |
+|Raissa | Suportabilidade|
+|Vera|Usabilidade |
 ## Definições, Acrônimos e Abreviações
 
-RNF - Requisito não funcional
-US - Usabelidade
-SUP - Suportabilidade
+- RNF - Requisito não funcional
+- US - Usabelidade
+- SUP - Suportabilidade
 
 ## Funcionalidades
 
@@ -42,7 +49,7 @@ A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva
 | US01  | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | [RNF09](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
 | Us02  | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/) |
 
-Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
+Fonte: [Vera Lucia](https://github.com/verabelucia), 2025 e  [Angélica](https://github.com/angelicaccampos),2025
  
 ##  Desempenho
 
