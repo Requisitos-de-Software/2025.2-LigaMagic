@@ -51,13 +51,13 @@ Os requisitos que foram elicitados com essas técnicas estão no artefato [Requi
 
 A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva e consistente para o usuário deve seguir padrões visuais e de navegação conhecidos.
 
-|  ID  | Descrição                                                                                                                                                 | Rastreabilidade                                                 | Autor  |
-| :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :----- |
-| US01 | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Vera   |
-| US02 | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Vera   |
-| US03 | O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone.                                   | [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Thiago |
+|  ID  | Descrição                                                                                                                                                 | Rastreabilidade                                                 | Autor   |
+| :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :-----  |
+| US01 | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Vera    |
+| US02 | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Angélica|
+| US03 | O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone.                                   | [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Thiago  |
 
-Fonte: [Vera Lucia](https://github.com/verabelucia), 2025 e [Angélica](https://github.com/angelicaccampos), 2025
+Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github.com/angelicaccampos), 2025
 
 ## Compatibilidade (Reliability)
 
@@ -100,6 +100,7 @@ Os requisitos de design, também conhecidos como restrições de projeto, define
 
 | ID  | Descrição | Rastreabilidade |
 | :-: | :-------- | :-------------- |
+| :-: | :-------- | :-------------- |
 
 ## Requisitos de Implementação
 
@@ -124,6 +125,9 @@ Os requisitos de interface definem ou limitam as funcionalidades e interações 
 
 | Nome   | % de Contribuição |
 | :----- | :---------------: |
+|Angélica| 14,28% |
+|Raissa |  |
+|Vera|  |
 | Samuel |                   |
 | Thiago |                   |
 
