@@ -30,6 +30,13 @@ Figura 1: Casos de uso do app LigaMagic
 [Link para o lucidchart](https://lucid.app/lucidchart/c773e26a-b84b-417d-94ac-0650750fad93/edit?invitationId=inv_fe5546f1-416e-4628-be7c-b75e4a0fbf4c&page=0_0#)
 #### **Fonte:** Angélica e [Guilherme](https://github.com/GuilhermeOliveira1327), 2025
 
+### PDFs com Diagrama de casos de Uso
+
+[Diagrama de caso de uso: Definir Alerta de Preço para uma Carta (PDF)](../../00_assets/pdfs/Diagrama1.pdf)
+
+[Diagrama de caso de uso: Reportar Erro em Carta ou Anúncio    (PDF)](../../00_assets/pdfs/Diagrama.pdf)
+
+
 ### Especialização dos casos de uso
 #### Tabela 2: Configurar Período de Retenção de Dados
 
@@ -187,6 +194,44 @@ Figura 1: Casos de uso do app LigaMagic
 | **Autoria**       | Raissa Andrade |
 
 **Fonte:** Raissa,2025
+
+## UC09 –  Reportar Erro em Carta ou Anúncio  
+#### Tabela 6:  Requisito Associado RI05  = Reportar Erro em Carta ou Anúncio
+
+| **Campo**                  | **Descrição** |
+| :---------------- | ------------- |
+| **Identificador:**         | UC09  |
+| **Nome:**                  | Reportar Erro em Carta ou Anúncio |
+| **Atores:**                | Comprador, Administrador |
+| **Descrição:**             | Permite que um comprador, ao identificar um erro nas informações de uma carta ou em um anúncio, envie um reporte para a administração da plataforma para análise e correção.        |
+| **Pré-condições:**         | O comprador está autenticado e navegando na página da carta específica.  |
+| **Fluxo principal:**       | 1. O botão “Reportar Problema” é acionado na página da carta.<br>2. O sistema exibe um formulário de reporte.<br>3. O tipo de erro é selecionado (Dados da Carta Incorretos, Formato da carta incorreto, Preço incorreto).<br>4. Uma descrição detalhada do problema é inserida.<br>5. A caixa "Não sou um robô" é marcada e o formulário é submetido.<br>6. O sistema valida os dados e registra o reporte.<br>7. O sistema exibe a mensagem "Problema reportado com sucesso." |
+| **Fluxo alternativo:**     | - O usuário decide revisar ou editar o detalhe do erro antes de enviar: o sistema mantém o formulário aberto para edição.<br>- 5b. O usuário decide alterar o tipo de erro selecionado: o sistema atualiza a seleção no formulário antes do envio. |
+| **Fluxos de exceção:**     | - Tipo de erro não selecionado o sistema exibe: "Selecione o tipo de erro antes de enviar." O formulário permanece aberto.<br>- Falha de conexão  o sistema exibe: "Falha no envio. Verifique sua conexão e tente novamente." O formulário permanece aberto.  |
+| **Pós-condição:**          | Um novo reporte é registrado no sistema, associado à carta específica, e o comprador recebe confirmação visual do envio.    |
+| **Requisitos associados:** |       RI07          |
+
+Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
+
+
+## UC10 –  Reportar Erro em Carta ou Anúncio 
+#### Tabela 7:  Requisito Associad  RI05 - Definir Alerta de Preço para uma Carta
+
+
+| **Campo**                  | **Descrição** |
+| :---------------- | ------------- |
+| **Identificador:**         | UC10 |
+| **Nome:**                  | Definir Alerta de Preço para uma Carta|
+| **Atores:**                | Conta autenticada |
+| **Descrição:**             | Permite criar uma notificação automática para ser avisado quando o preço de uma carta específica atingir um valor desejado.  |
+| **Pré-condições:**         | - A conta está autenticada no sistema.<br>- A página de detalhes da carta desejada está aberta. |
+| **Fluxo principal:**       | 1. O botão "Criar Alerta de Preço" é clicado na página da carta.<br>2. O sistema exibe um formulário (modal) com os campos: Condição (ex: "Preço abaixo de", "Preço acima de") e Valor (R$).<br>3. A condição desejada é selecionada.<br>4. Um valor de preço válido é inserido.<br>5. O botão "Salvar Alerta" é clicado.<br>6. O sistema valida os dados inseridos.<br>7. O sistema cria o registro do alerta de preço no banco de dados.<br>8. O sistema exibe a mensagem "Alerta de preço definido com sucesso!" e fecha o formulário. |
+| **Fluxo alternativo:**     | - A condição ou valor é revisada antes de salvar: o formulário permanece aberto para ajustes.<br>  |
+| **Fluxos de exceção:**     | -Valor inválido ou ausente  se o campo "Valor" não for preenchido ou for negativo/não numérico, o sistema exibe: "Por favor, insira um valor de preço válido." O formulário permanece aberto.<br>   |
+| **Pós-condição:**          | Um novo alerta de preço é registrado no sistema, associado à conta e à carta, e o sistema exibe uma mensagem de confirmação de sucesso.  |
+| **Requisitos associados:** |  RI05 |
+
+Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
 
 ## Bibliografia
