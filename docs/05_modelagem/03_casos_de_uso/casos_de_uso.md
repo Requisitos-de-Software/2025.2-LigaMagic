@@ -146,6 +146,49 @@ Figura 1: Casos de uso do app LigaMagic
 
 **Fonte:** Angélica 
 
+## UC09 – Gerenciamento de Listas de Decks  
+
+**Requisito Associado:** RI09 – Os usuários devem ser capazes de criar, salvar e gerenciar listas de decks.  
+
+| **Campo**        | **Descrição** |
+| ---------------- | ------------- |
+| **UC09**         | Gerenciamento de Listas de Decks |
+| **Descrição**    | O sistema permite que o jogador crie, edite, salve e gerencie listas de decks de forma personalizada. |
+| **Ator**         | - Jogador<br>- Sistema |
+| **Pré-condições**| 1. O jogador deve estar autenticado no sistema.<br>2. O sistema deve estar com banco de dados acessível. |
+| **Ação**         | O jogador cria e gerencia suas listas de decks através da interface do sistema. |
+| **Fluxo principal** | - O jogador acessa a área de gerenciamento de decks.<br>- Cria uma nova lista de deck.<br>- Salva alterações realizadas.<br>- Consulta ou edita decks existentes. |
+| **Fluxo alternativo** | - O jogador tenta criar uma lista já existente.<br>- O sistema solicita confirmação de sobreposição ou bloqueia duplicatas. |
+| **Fluxo de exceção** | - Falha ao salvar lista no banco de dados.<br>- Conexão interrompida durante a operação. |
+| **Pós-condições** | A lista de decks do jogadoré salva e pode ser consultada e gerenciada futuramente. |
+| **Rastreabilidade** | RI09 |
+| **Data de criação** | 08/10/2025 |
+| **Autoria**       | Raissa Andrade |
+
+**Fonte:** Raissa, 2025 
+
+## UC11 – Compra por Lista  
+
+**Requisito Associado:** RI11 – O sistema deve fornecer a funcionalidade "comprar por lista".  
+
+| **Campo**        | **Descrição** |
+| ---------------- | ------------- |
+| **UC11**         | Compra por Lista |
+| **Descrição**    | O sistema permite que o jogador adicione todos os itens de uma lista de decks diretamente ao carrinho e realize a compra. |
+| **Ator**         | - Jogador<br>- Sistema de compras |
+| **Pré-condições**| 1. O jogador deve ter uma lista de decks salva.<br>2. O sistema deve ter integração de compras e estoque. |
+| **Ação**         | O jogador seleciona uma lista e solicita a compra dos itens disponíveis. |
+| **Fluxo principal** | - O jogador acessa a funcionalidade "comprar por lista".<br>- Seleciona a lista de decks desejada.<br>- O sistema verifica os itens disponíveis em estoque.<br>- Adiciona os itens ao carrinho.<br>- O jogador confirma a compra. |
+| **Fluxo alternativo** | - Alguns itens não estão disponíveis em estoque.<br> |
+| **Fluxo de exceção** | - Falha na comunicação com o de estoque.<br>- Erro no processamento da transação de pagamento. |
+| **Pós-condições** | O jogador conclui a compra dos itens da lista de decks de forma simples. |
+| **Rastreabilidade** | RI11 |
+| **Data de criação** | 08/10/2025 |
+| **Autoria**       | Raissa Andrade |
+
+**Fonte:** Raissa,2025
+
+
 ## Bibliografia
 > 1. LUCID SOFTWARE PORTUGUÊS. Tutorial de Caso de Uso UML. YouTube, 20 mar. 2020. Disponível em: [Vídeo Completo](https://www.youtube.com/watch?v=ab6eDdwS3rA). Acesso em: 07 out. 2025. 
 
@@ -156,10 +199,13 @@ Figura 1: Casos de uso do app LigaMagic
 |   [Guilherme](https://github.com/GuilhermeOliveira1327)    |                   |
 |   [Angélica](https://github.com/angelicaccampos)    |                   |
 |   Marcelo           |             |
+|   Raissa           |    14,28%         |
 
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | :----: | :--: | :-------- | :-------: | :-----: |
 |   1.0  |  07/10/2025   | Adição da Descrição, objetivo e metodologia | [Guilherme](https://github.com/GuilhermeOliveira1327)|[Angélica](https://github.com/angelicaccampos) |
-|   1.1  | 09/102025| Adição de casos de usos: filtrar por condição e personalizar perfil do jogador| Marcelo |                 |
+|   1.1  | 09/10/2025| Adição de casos de usos: filtrar por condição e personalizar perfil do jogador| Marcelo |                 |
+|   1.2  | 09/10/2025| Adição de casos de usos: UC09 – Gerenciamento de Listas de Decks e UC11 – Compra por Lista  
+ |    Raissa             |
