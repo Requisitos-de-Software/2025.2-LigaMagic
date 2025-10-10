@@ -40,9 +40,9 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 |:----:|:-------------------------------------------------------------|
 | 1 | **Marcelo de Araújo** : Sistema que personaliza e mantem a  página pessoal/profissional |
 | 2 | **Marcelo de Araújo** : Sistema de filtragem de cartas por qualidade/condição |
-| 3 | 
-| 4 | 
-| 5 | 
+| 3 | **Raissa Andrade**: Criar e Salvar Lista de Decks: Cenário 05: Criar e Salvar Lista de Decks |
+| 4 | **Raissa Andrade**: Gerenciar Lista de Decks: Cenário 06|
+| 5 | **Raissa Andrade**: Comprar por Lista: Cenário 07 |
 | 6 | 
 | 7 | 
 | 8 | 
@@ -89,6 +89,64 @@ A tabela 4 descreve o cenário do requisito funcional Personalizar perfil de usu
 | **Exceção** | A aplicação do filtro resulta em um erro ou não altera a lista de resultado, reiniciando a busca nenhum vendedor possui a carta na condição desejada. |
 
 
+### Cenário 05: Criar e Salvar Lista de Decks
+**Requisito Associado:** [RI09] - Os jogadores devem ser capazes de criar, salvar e gerenciar listas de decks.
+
+<div align="center"><strong>Tabela 1: Cenário 01</strong></div>
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**              | CE09    |
+| **Título**          | Criar e Salvar Lista de Decks  |
+| **Metas/Objetivos** | Permitir que o jogador monte uma lista de decks, personalize com nome/descrição e salve para uso. |
+| **Contexto**        | O jogador deseja organizar seus decks em listas, seja para colecionar, montar estratégias ou preparar compras futuras. |
+| **Ator(es)**        | - Jogador Autenticado<br>- Sistema de gerenciamento de listas |
+| **Recursos**        | - Banco de dados para armazenar listas<br>- Interface de criação/edição<br>- Campo de busca e adição de decks |
+| **Exceções**        | - Deck não encontrado na base local.<br>- Erro ao salvar lista. |
+| **Restrições**      | - O nome da lista deve ser único por jogador.<br>- Somente jogadoress autenticados podem criar ou salvar listas.<br>- Salvar a carta somente uma vez
+ |
+| **Episódios**       | 1. Jogador acessa “Minhas Listas”.<br>2. Seleciona “Criar nova lista”.<br>3. Preenche nome/descrição.<br>4. Adiciona decks (busca/link).<br>5. Salva lista.<br>6. Sistema confirma criação. |
+
+---
+
+### Cenário 06: Gerenciar Lista de Decks
+**Requisito Associado:** [RI09] - Os jogadores devem ser capazes de criar, salvar e gerenciar listas de decks.
+
+<div align="center"><strong>Tabela 2: Cenário 02</strong></div>
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**              | CE09    |
+| **Título**          | Gerenciar Lista de Decks  |
+| **Metas/Objetivos** | Permitir que o jogadores edite, exclua, ordene ou compartilhe suas listas de decks. |
+| **Contexto**        | O jogador já possui uma lista criada e deseja alterar ou organizar seu conteúdo. |
+| **Ator(es)**        | - Jogador Autenticado<br>- Sistema de gerenciamento de listas |
+| **Recursos**        | - Banco de dados das listas<br>- Interface de edição<br>- Funcionalidade de compartilhamento/exportação |
+| **Exceções**        | - Tentativa de exclusão de lista que não existe.<br>- Compartilhamento com link inválido.<br>- Erro ao salvar alterações. |
+| **Restrições**      | - Somente o dono da lista pode editá-la ou excluí-la. |
+| **Episódios**       | 1. Usuário acessa “Minhas Listas”.<br>2. Seleciona uma lista existente.<br>3. Edita quantidades, renomeia ou exclui itens.<br>4. Salva alterações.<br>5. Sistema atualiza e confirma mudanças. |
+
+---
+
+### Cenário 07: Comprar por Lista
+**Requisito Associado:** [RI11] - O sistema deve fornecer a funcionalidade "comprar por lista".
+
+<div align="center"><strong>Tabela 3: Cenário 03</strong></div>
+
+| **Elemento**        | **Descrição**  |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**              | CE11    |
+| **Título**          | Comprar por Lista  |
+| **Metas/Objetivos** | Permitir que o jogador compre todos os itens de uma lista de decks com integração ao site LigaMagic. |
+| **Contexto**        | O jogador possui uma lista pronta e deseja adquirir os decks diretamente, sem buscar um por um no site. |
+| **Ator(es)**        | - Jogador Autenticado<br>- Sistema de integração<br>- Fornecedor (LigaMagic) |
+| **Recursos**        | - Banco de dados da lista<br>- Mecanismo de matching com catálogo LigaMagic<br>- API/integração para redirecionamento ao carrinho |
+| **Exceções**        | - Produto não encontrado.<br>- Indisponibilidade de integração com LigaMagic.<br>|
+| **Restrições**      | - Somente listas salvas podem ser compradas.<br>- O processo deve mostrar os itens correspondidos e os não encontrados.<br>- Ter todas cartas disponíveis.  |
+| **Episódios**       | 1. Jogador acessa uma lista salva.<br>2. Clica em “Comprar por lista”.<br>3. Exibe resumo com preços, itens indisponíveis e total estimado.<br>4. Jogador confirma e é redirecionado ao carrinho do fornecedor. |
+
+
+
 ## Bibliografia
 
 BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1.
@@ -98,9 +156,11 @@ BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; B
 | Nome | % de Contribuição |
 | :--- | :---------------: |
 |   Marcelo   |          14,29%         |
+|   Raissa   |          14,29%         |
 
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | :----: | :--: | :-------- | :-------: | :-----: |
 |    1.0    |   08/10/2025   |     Adição de cenários      |   Marcelo     |     Raissa    |
+|    1.1    |   09/10/2025   |     Adição de cenários  05, 06 e 07    |   Raissa    |   Vera      |
