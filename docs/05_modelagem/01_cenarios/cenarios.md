@@ -1,10 +1,12 @@
 # Cenários
 
 ## Descrição
+Este documento faz parte do projeto das disciplinas de Requisitos de Software e tem como objetivo principal a definição detalhada dos cenários de uso da plataforma LigaMagic. Os cenários auxiliam na análise e modelagem de requisitos ao descrever as interações e jornadas específicas que o sistema deve suportar para atender às necessidades de seus usuários.
 
 Este documento faz parte do projeto das disciplinas de Requisitos de Software e tem como objetivo principal a definição detalhada dos cenários de uso da plataforma LigaMagic. Os cenários auxiliam na análise e modelagem de requisitos ao descrever as interações e jornadas específicas que o sistema deve suportar para atender às necessidades de seus consumidores.
 
 ## Objetivo
+O objetivo desta etapa é criar narrativas concretas com detalhes contextuais  que descrevem situações de uso da plataforma LigaMagic.
 
 O objetivo desta etapa é criar narrativas concretas com detalhes contextuais que descrevem situações de uso da plataforma LigaMagic.
 
