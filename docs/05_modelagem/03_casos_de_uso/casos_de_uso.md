@@ -24,7 +24,6 @@ O objetivo dos casos de uso é detalhar o funcionamento do sistema a partir da p
 
 **Fonte :** [Guilherme](https://github.com/GuilhermeOliveira1327), 2025
 
-## Conteúdo
 
 ### Autoria dos Casos de Uso
 
