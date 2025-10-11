@@ -90,7 +90,7 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 | RNF15 | Criptografia de dados sensíveis |    Segurança    | O site deve criptografar dados sensíveis do usuário, como senhas e informações de pagamento                      | [Observação](../tecnicas/observacao.md) |
 | RNF16 | Suporte a telas pequenas        |   Usabilidade   | O site deve carregar corretamente em dispositivos móveis com telas menores que 6 polegadas                       | [Observação](../tecnicas/observacao.md) |
 
-## Requisitos Não Implementados
+## Requisitos Não Funcionais Não Implementados
 
 |  ID  | Requisitos                   |          Categoria           | Descrição                                                                                                                                                                                    | Fonte                                                      |
 | :--: | :--------------------------- | :--------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------- |
@@ -100,17 +100,18 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 
 ## Matriz de Rastreabilidade
 
-| Técnica de Elicitação                                      | Requisitos Funcionais | Requisitos Não Funcionais | Requisitos Não Implementados |
-| :--------------------------------------------------------- | :-------------------: | :-----------------------: | :--------------------------: |
-| [Análise de Documentos](../tecnicas/analise_documentos.md) |      RF01 - RF19      |       RNF01 - RNF07       |         NI01 - NI03          |
-| [Observação](../tecnicas/observacao.md)                    |      RF20 - RF37      |       RNF08 - RNF16       |              -               |
+| Técnica de Elicitação                                      | Requisitos Funcionais | Requisitos Não Funcionais | Requisitos Não Funcionais Não Implementados |
+| :--------------------------------------------------------- | :-------------------: | :-----------------------: | :-----------------------------------------: |
+| [Análise de Documentos](../tecnicas/analise_documentos.md) |      RF01 - RF19      |       RNF01 - RNF07       |                 NI01 - NI03                 |
+| [Observação](../tecnicas/observacao.md)                    |      RF20 - RF37      |       RNF08 - RNF16       |                      -                      |
 
 ## Resumo Quantitativo
 
 - **Total de Requisitos Funcionais**: 37
 - **Total de Requisitos Não Funcionais**: 16
-- **Total de Requisitos Não Implementados**: 3
+- **Total de Requisitos Não Funcionais Não Implementados**: 3
 - **Total Geral**: 56 requisitos
+- **[Requisitos Não Implementados no App](requisitos_nao_implementados.md)**: 11
 
 ## Bibliografia
 
