@@ -111,6 +111,7 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 - **Total de Requisitos Não Funcionais**: 16
 - **Total de Requisitos Não Funcionais Não Implementados**: 3
 - **Total Geral**: 56 requisitos
+- **[Requisitos Não Implementados no App](requisitos_nao_implementados.md)**: 11
 
 ## Bibliografia
 
