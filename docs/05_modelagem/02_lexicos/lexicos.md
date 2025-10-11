@@ -321,11 +321,11 @@ Para realizar a validação dos requisitos fizemos uma consulta com um Jogador d
 
 - [Assista ao vídeo no YouTube](https://youtu.be/-oI5j4mZHHI). Este video foi produzido pela aluna Angélica Campos. 
 Observação: a câmera parou de gravar um dos participantes por um breve período, mas o conteúdo da apresentação foi preservado.
-
-
 - [Assista ao vídeo no YouTube](https://youtu.be/3K4RufgxZ-E). Este video foi produzido pela aluna Vera Lucia Bezerra. 
+- [Assista ao vídeo no YouTube](https://youtu.be/YXONTjL32WU). Este video foi produzido pelo aluno Thiago Viriato Accioly (Na descrição tem os minutos de cada parte).
+- [Assista ao vídeo no YouTube](https://youtu.be/YXONTjL32WU). Este video foi produzido pelo aluno Samuel Nogueira Caetano (Na descrição tem os minutos de cada parte).
+- [Assista ao vídeo no YouTube](https://youtu.be/1lxHnaYfWR4). Este video foi produzido pelo aluno Marcelo De Araujo Lopes (Na descrição tem os minutos de cada parte).
 
-fonte: Vera, 2025
 
 ## Bibliografia
 
@@ -335,12 +335,17 @@ fonte: Vera, 2025
 
 | Nome   | % de Contribuição |
 | :----- | :---------------: |
-| Samuel |        75%        |
-| Thiago |        25%        |
+| Samuel |        16.67%        |
+| Thiago |        16.67%        |
+| Angelica |        16.67%        |
+| Vera |        16.67%        |
+| Raissa |        16.67%        |
+| Marcelo |        16.67%        |
 
 ## Histórico de Versão
 
 | Versão |    Data    | Descrição                               |   Autor(es)    | Revisor |
 | :----: | :--------: | :-------------------------------------- | :------------: | :-----: |
 |  1.0   | 07/10/2025 | Criação inicial do documento de léxicos | Samuel, Thiago |    -    |
-|  1.1   | 11/10/2025 | Adicionando Video de Validação | Raissa  |    -    |
+|  1.1   | 11/10/2025 | Adicionando Video de Validação | Raissa  |    Thiago    |
+|  1.2   | 11/10/2025 | Adicionando Video de Validação dos integrantes | Thiago  |   Raissa    |
