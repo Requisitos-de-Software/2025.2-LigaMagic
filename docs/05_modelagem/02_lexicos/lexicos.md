@@ -323,6 +323,12 @@ Para realizar a validação dos requisitos fizemos uma consulta com um Jogador d
 Observação: a câmera parou de gravar um dos participantes por um breve período, mas o conteúdo da apresentação foi preservado.
 
 
+## Video de validação 
+
+[![Assista ao vídeo](https://img.youtube.com/vi/3K4RufgxZ-E/0.jpg)](https://youtu.be/3K4RufgxZ-E)
+
+fonte: Vera, 2025
+
 ## Bibliografia
 
 > **SERRANO, Milene; SERRANO, Maurício.** _Requisitos – Aula 10_.
@@ -339,3 +345,4 @@ Observação: a câmera parou de gravar um dos participantes por um breve perío
 | Versão |    Data    | Descrição                               |   Autor(es)    | Revisor |
 | :----: | :--------: | :-------------------------------------- | :------------: | :-----: |
 |  1.0   | 07/10/2025 | Criação inicial do documento de léxicos | Samuel, Thiago |    -    |
+|  1.1   | 11/10/2025 | Adicionando Video de Validação | Raissa  |    -    |
