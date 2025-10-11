@@ -287,10 +287,11 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
 ## Video de validação feita com um comprador
 
-Para realizar a validação dos requisitos fizemos uma consulta com um Jogador do app, disponível aqui:
+Para a validação dos casos de uso, cada integrante do grupo ficou responsável por validar os casos de uso de sua autoria. A seguir, são apresentados os vídeos referentes às validações realizadas:
 
 - [Assista ao vídeo no YouTube](https://youtu.be/V7Ye3xwXizk). Este video foi produzido pela aluna Angélica Campos.
-
+- [Assista ao vídeo no YouTube](https://youtu.be/xaZ6n-U2wj4) Este video é referente à validação dos casos de uso 03 e 04 e foi produzido pela aluna Vera Lucia.
+  
 ## Bibliografia
 
 > 1. LUCID SOFTWARE PORTUGUÊS. Tutorial de Caso de Uso UML. YouTube, 20 mar. 2020. Disponível em: [Vídeo Completo](https://www.youtube.com/watch?v=ab6eDdwS3rA). Acesso em: 07 out. 2025.
@@ -318,3 +319,9 @@ Para realizar a validação dos requisitos fizemos uma consulta com um Jogador d
 |  1.4   | 10/10/2025 | Adicionar os casos de uso 09 a 12                                                          |                        Samuel                         |        Thiago         |
 |  1.5   | 10/10/2025 | Correção das palavras "usuários"                                                           |                        Thiago                         |        Raissa         |
 |  1.6   | 11/10/2025 | Adição da tabela de autoria dos casos de uso                                               |                        Samuel                         |        Thiago         |
+|1.7   | 11/10/2025  | Adição do vídeo de validação                                                                 | Vera | Raissa|
+
+
+
+
+
