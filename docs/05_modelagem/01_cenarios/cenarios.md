@@ -333,3 +333,4 @@ Para a validação dos cenários, cada integrante do grupo foi responsável por 
 |  1.4   | 10/10/2025 | Adição de cenários 13, 14, 15 e 16 | Samuel e Thiago |  Vera   |
 |  1.5   | 10/10/2025 | Retirada de "usuários"             |     Thiago      | Samuel  |
 |  1.6   | 11/10/2025 | Adição da tabela de autoria        |     Samuel      | Thiago  |
+|  1.7   | 11/10/2025 | Adição do vídeo de validação       |      Vera       | Angélica|
