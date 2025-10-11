@@ -65,6 +65,11 @@ A figura 1 demonstra o diagrama de casos de uso.
 
 [Diagrama de caso de uso: Reportar Erro em Carta ou Anúncio (PDF)](../../00_assets/pdfs/Diagrama.pdf)
 
+[Diagrama de caso de uso: Personalizar Perfil de Jogador (PDF)](../../00_assets/pdfs/PersonalizarPerfildeJogador.pdf)
+
+[Diagrama de caso de uso: Filtrar Busca por Condição (PDF)](../../00_assets/pdfs/FiltrarBuscaporCondição.pdf)
+
+
 ### Especialização dos casos de uso
 
 #### **Caso de uso 01** - Wishlist de Cartas
@@ -291,11 +296,8 @@ Para a validação dos casos de uso, cada integrante do grupo ficou responsável
 
 - [Assista ao vídeo no YouTube](https://youtu.be/V7Ye3xwXizk). Este video foi produzido pela aluna Angélica Campos.
 - [Assista ao vídeo no YouTube](https://youtu.be/xaZ6n-U2wj4) Este video é referente à validação dos casos de uso 03 e 04 e foi produzido pela aluna Vera Lucia.
-- [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=YXONTjL32WU) Este vídeo foi produzido pelo aluno Samuel, sendo referente à validação dos casos de uso 09 e 10 (Os minutos estão na descrição).
-- [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=YXONTjL32WU) Este vídeo foi produzido pelo aluno Thiago, sendo referente à validação dos casos de uso 11 e 12 (Os minutos estão na descrição).
-- [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=ZlX_tKeczd8) Este vídeo foi produzido pela aluna Raissa, sendo referente à validação dos casos de uso 07 e 08 (Os minutos estão na descrição).
+- [Assista ao vídeo no YouTube](https://youtu.be/1lxHnaYfWR4) Este video é referente à validação dos casos de uso 05 e 06 e foi produzido pelo aluno Marcelo.
 
-  
 ## Bibliografia
 
 > 1. LUCID SOFTWARE PORTUGUÊS. Tutorial de Caso de Uso UML. YouTube, 20 mar. 2020. Disponível em: [Vídeo Completo](https://www.youtube.com/watch?v=ab6eDdwS3rA). Acesso em: 07 out. 2025.
@@ -324,7 +326,7 @@ Para a validação dos casos de uso, cada integrante do grupo ficou responsável
 |  1.5   | 10/10/2025 | Correção das palavras "usuários"                                                           |                        Thiago                         |        Raissa         |
 |  1.6   | 11/10/2025 | Adição da tabela de autoria dos casos de uso                                               |                        Samuel                         |        Thiago         |
 |1.7   | 11/10/2025  | Adição do vídeo de validação                                                                 | Vera | Raissa|
-|1.7.1   | 11/10/2025  | Adição dos vídeo de validação                                                                 | Thiago | Samuel |
+|1.8   | 11/10/2025  | Adição do vídeo de validação   e de casos de uso                                                           | Marcelo | Samuel|
 
 
 
