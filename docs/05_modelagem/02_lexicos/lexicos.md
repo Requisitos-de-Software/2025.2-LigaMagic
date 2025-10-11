@@ -316,6 +316,13 @@ Fonte: Angélica, 2025.
 
 ---
 
+## Video de validação feita com um jogador
+Para realizar a validação dos requisitos fizemos uma consulta com um Jogador do app, disponível aqui:
+
+- [Assista ao vídeo no YouTube](https://youtu.be/-oI5j4mZHHI). Este video foi produzido pela aluna Angélica Campos. 
+Observação: a câmera parou de gravar um dos participantes por um breve período, mas o conteúdo da apresentação foi preservado.
+
+
 ## Bibliografia
 
 > **SERRANO, Milene; SERRANO, Maurício.** _Requisitos – Aula 10_.
