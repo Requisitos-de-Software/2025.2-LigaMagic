@@ -117,10 +117,10 @@ Os requisitos de interface definem ou limitam as funcionalidades e interações 
 | :-: | :-------- | :-------------- |
 
 ## Video de validação feita com um jogador
-Para realizar a validação dos requisitos fizemos uma consulta com um Jogador do app, disponível aqui:
+Para a validação da Especificação Suplementar, cada integrante do grupo ficou responsável por validar a especificação suplementar de sua autoria. A seguir, são apresentados os vídeos referentes às validações realizadas:
 
 - [Assista ao vídeo no YouTube](https://youtu.be/LLM2-XJXOMU). Este video foi produzido pela aluna Angélica Campos.
-
+- [Assista ao vídeo no YouTube](https://youtu.be/OHdbeTbz57o).  Este video é referente à validação especificação suplementar de usabelidade e foi produzido pela aluna Vera.
 ## Bibliografia
 
 > 1.FURPS+. QualidadeBR, 10 jul. 2008. Disponível em: https://qualidadebr.wordpress.com/2008/07/10/furps/
@@ -144,3 +144,4 @@ Para realizar a validação dos requisitos fizemos uma consulta com um Jogador d
 |  1.1   | 09/10/2025 | Adicionado conteúdo em confiabilidade                |                   Marcelo                    |                   Thiago                    |
 |  1.2   | 10/10/2025 | Adicionado conteúdo em compatibilidade e usabilidade |                Samuel, Thiago                |                    Vera                     |
 |  1.3   | 10/10/2025 | Corrigindo "usuários" do projeto" e pequenas coisas |             Thiago                |                    Samuel                     |
+|1.4| 11/10/2025| Adição do vídeo de validação | Vera | Angélica |
