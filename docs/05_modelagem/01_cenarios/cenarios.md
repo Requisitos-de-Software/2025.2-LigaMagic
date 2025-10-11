@@ -302,7 +302,7 @@ Fonte: Angélica, 2025
 
 ## Video de validação feita com um comprador
 
-Para realizar a validação dos requisitos fizemos uma consulta com um Jogador do app, disponível aqui:
+Para a validação dos cenários, cada integrante do grupo foi responsável por validar os cenários que criou. A seguir, estão os vídeos realizados durante as validações.
 
 - [Assista ao vídeo no YouTube](https://youtu.be/6mkG1ma1Wf4). Este video foi produzido pela aluna Angélica Campos.
 - [Assista ao vídeo no YouTube](https://youtu.be/9G1eUtgW3nE). Este video é referente à validação dos cenários 06 e 07 e foi produzido pela aluna Vera Lucia
