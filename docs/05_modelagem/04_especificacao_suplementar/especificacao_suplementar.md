@@ -116,6 +116,11 @@ Os requisitos de interface definem ou limitam as funcionalidades e interações 
 | ID  | Descrição | Rastreabilidade |
 | :-: | :-------- | :-------------- |
 
+## Video de validação feita com um jogador
+Para realizar a validação dos requisitos fizemos uma consulta com um Jogador do app, disponível aqui:
+
+- [Assista ao vídeo no YouTube](https://youtu.be/LLM2-XJXOMU). Este video foi produzido pela aluna Angélica Campos.
+
 ## Bibliografia
 
 > 1.FURPS+. QualidadeBR, 10 jul. 2008. Disponível em: https://qualidadebr.wordpress.com/2008/07/10/furps/
