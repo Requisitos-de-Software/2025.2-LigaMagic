@@ -323,9 +323,7 @@ Para realizar a validação dos requisitos fizemos uma consulta com um Jogador d
 Observação: a câmera parou de gravar um dos participantes por um breve período, mas o conteúdo da apresentação foi preservado.
 
 
-## Video de validação 
-
-[![Assista ao vídeo](https://img.youtube.com/vi/3K4RufgxZ-E/0.jpg)](https://youtu.be/3K4RufgxZ-E)
+- [Assista ao vídeo no YouTube](https://youtu.be/3K4RufgxZ-E). Este video foi produzido pela aluna Vera Lucia Bezerra. 
 
 fonte: Vera, 2025
 
