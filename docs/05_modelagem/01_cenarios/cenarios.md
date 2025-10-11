@@ -29,17 +29,17 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 
 **Tabela 1** - Estrutura de um cenário
 
-| Integrante | Cenário                                                                                                |       Autor       |
+| Id | Cenário                                                                                                |       Autor       |
 | :--------: | :----------------------------------------------------------------------------------------------------- | :---------------: |
-|     1      | Sistema que personaliza e mantem a página pessoal/profissional                                         | Marcelo de Araújo |
-|     2      | Sistema de filtragem de cartas por qualidade/condição                                                  | Marcelo de Araújo |
-|     3      | Criar e Salvar Lista de Decks                                                                          |  Raissa Andrade   |
-|     4      | Gerenciar Lista de Decks                                                                               |  Raissa Andrade   |
-|     5      | Comprar por Lista                                                                                      |  Raissa Andrade   |
-|     6      | Permitir definir um alerta de preço para a carta selecionada                                           |    Vera Lucia     |
-|     7      | Permitir reporte de problemas relacionados à carta ou anúncios                                         |    Vera Lucia     |
-|     8      | Salvar carta para compra futura                                                                        |     Angélica      |
-|     9      | Gerenciar Wishlist Existente                                                                           |     Angélica      |
+|     01      | Sistema que personaliza e mantem a página pessoal/profissional                                         | Marcelo de Araújo |
+|     02      | Sistema de filtragem de cartas por qualidade/condição                                                  | Marcelo de Araújo |
+|     03      | Criar e Salvar Lista de Decks                                                                          |  Raissa Andrade   |
+|     04      | Gerenciar Lista de Decks                                                                               |  Raissa Andrade   |
+|     05      | Comprar por Lista                                                                                      |  Raissa Andrade   |
+|     06      | Permitir definir um alerta de preço para a carta selecionada                                           |    Vera Lucia     |
+|     07      | Permitir reporte de problemas relacionados à carta ou anúncios                                         |    Vera Lucia     |
+|     08      | Salvar carta para compra futura                                                                        |     Angélica      |
+|     09      | Gerenciar Wishlist Existente                                                                           |     Angélica      |
 |     10     | Encontrar carta específica rapidamente                                                                 |     Angélica      |
 |     11     | O sistema deve possibilitar participação dos consumidores em fóruns de discussão (postagem e resposta) |      Samuel       |
 |     12     | Permitir que o jogador compartilhe informações da carta por link direto                                |      Samuel       |
@@ -306,7 +306,7 @@ Para a validação dos cenários, cada integrante do grupo foi responsável por 
 
 - [Assista ao vídeo no YouTube](https://youtu.be/6mkG1ma1Wf4). Este video foi produzido pela aluna Angélica Campos.
 - [Assista ao vídeo no YouTube](https://youtu.be/9G1eUtgW3nE). Este video é referente à validação dos cenários 06 e 07 e foi produzido pela aluna Vera Lucia
-
+- [Assista ao vídeo no YouTube](https://youtu.be/1lxHnaYfWR4). Este video é referente á validação dos cenários 01 e 02 e foi produzido pelo aluno Marcelo.
 ## Bibliografia
 
 > BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1.
@@ -315,12 +315,12 @@ Para a validação dos cenários, cada integrante do grupo foi responsável por 
 
 | Nome     | % de Contribuição |
 | :------- | :---------------: |
-| Marcelo  |      14,29%       |
-| Raissa   |      14,29%       |
-| Vera     |      14,29%       |
-| Angélica |      14,29%       |
-| Samuel   |      14,29%       |
-| Thiago   |      14,29%       |
+| Marcelo  |      16,67%       |
+| Raissa   |      16,67%       |
+| Vera     |      16,67%       |
+| Angélica |      16,67%       |
+| Samuel   |      16,67%       |
+| Thiago   |      16,67%       |
 
 ## Histórico de versão
 
@@ -334,3 +334,4 @@ Para a validação dos cenários, cada integrante do grupo foi responsável por 
 |  1.5   | 10/10/2025 | Retirada de "usuários"             |     Thiago      | Samuel  |
 |  1.6   | 11/10/2025 | Adição da tabela de autoria        |     Samuel      | Thiago  |
 |  1.7   | 11/10/2025 | Adição do vídeo de validação       |      Vera       | Angélica|
+|  1.8   | 11/10/2025 | Adição do vídeo de validação 01 e 02      |      Marcelo      | Vera|
