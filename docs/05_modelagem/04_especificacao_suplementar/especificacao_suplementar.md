@@ -13,7 +13,7 @@ O objetivo deste documento é detalhar os requisitos não funcionais do sistema,
 A elaboração desta Especificação Suplementar organizar e detalhar os requisitos do sistema LigaMagic de forma estruturada. A especificação segue o modelo FURPS+, que organiza os requisitos nas seguintes categorias:
 
 - Funcionalidade: regras de negócio, validações e exigências legais específicas do sistema LigaMagic.
-- Usabilidade: interface intuitiva, acessibilidade e experiência do usuário.
+- Usabilidade: interface intuitiva, acessibilidade e experiência do consumidor.
 - Confiabilidade: segurança dos dados, disponibilidade e tolerância a falhas.
 - Desempenho: tempos de resposta, capacidade de atendimento em horários de pico e escalabilidade da aplicação.
 - Suporte: manutenção, documentação e compatibilidade com múltiplas plataformas (Web, Android e iOS).
@@ -49,7 +49,7 @@ Os requisitos que foram elicitados com essas técnicas estão no artefato [Requi
 
 ## Usabilidade (Usability)
 
-A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva e consistente para o usuário deve seguir padrões visuais e de navegação conhecidos.
+A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva e consistente para o consumidor deve seguir padrões visuais e de navegação conhecidos.
 
 |  ID  | Descrição                                                                                                                                                 | Rastreabilidade                                                 | Autor   |
 | :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :-----  |
@@ -57,11 +57,11 @@ A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva
 | US02 | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Angélica|
 | US03 | O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone.                                   | [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Thiago  |
 
-Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github.com/angelicaccampos), 2025
+Fonte: [Vera Lucia](https://github.com/verabelucia), [Angélica](https://github.com/angelicaccampos) e [Thiago](https://github.com/Acciolyy), 2025
 
 ## Compatibilidade (Reliability)
 
-A compatibilidade garante que o sistema funcione adequadamente em diferentes ambientes tecnológicos, incluindo sistemas operacionais, navegadores web e dispositivos diversos. Isso assegura que todos os usuários tenham acesso consistente às funcionalidades, independentemente da plataforma utilizada, mantendo a integridade visual e funcional da aplicação em todos os contextos de uso.
+A compatibilidade garante que o sistema funcione adequadamente em diferentes ambientes tecnológicos, incluindo sistemas operacionais, navegadores web e dispositivos diversos. Isso assegura que todos os consumidores tenham acesso consistente às funcionalidades, independentemente da plataforma utilizada, mantendo a integridade visual e funcional da aplicação em todos os contextos de uso.
 
 |  ID   | Descrição                                                                                                                                                |                         Rastreabilidade                         | Autor  |
 | :---: | -------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :----: |
@@ -111,7 +111,7 @@ Os requisitos de implementação determinam condições técnicas ou restriçõe
 
 ## Requisitos de Interface
 
-Os requisitos de interface definem ou limitam as funcionalidades e interações entre o sistema e o usuário. Eles estabelecem como os elementos da interface devem se comportar e se apresentar, garantindo consistência visual, clareza nas informações exibidas e facilidade de uso durante a navegação no sistema.
+Os requisitos de interface definem ou limitam as funcionalidades e interações entre o sistema e o jogador. Eles estabelecem como os elementos da interface devem se comportar e se apresentar, garantindo consistência visual, clareza nas informações exibidas e facilidade de uso durante a navegação no sistema.
 
 | ID  | Descrição | Rastreabilidade |
 | :-: | :-------- | :-------------- |
@@ -128,8 +128,8 @@ Os requisitos de interface definem ou limitam as funcionalidades e interações 
 |Angélica| 14,28% |
 |Raissa |  |
 |Vera|  |
-| Samuel |                   |
-| Thiago |                   |
+| Samuel |      14,28%             |
+| Thiago |      14,28%             |
 
 ## Histórico de versão
 
@@ -138,3 +138,4 @@ Os requisitos de interface definem ou limitam as funcionalidades e interações 
 |  1.0   | 08/10/2025 | Adicionando conteudo                                 | [Vera Lucia](https://github.com/verabelucia) | [Raissa](https://github.com/RaissaAndradeS) |
 |  1.1   | 09/10/2025 | Adicionado conteúdo em confiabilidade                |                   Marcelo                    |                   Thiago                    |
 |  1.2   | 10/10/2025 | Adicionado conteúdo em compatibilidade e usabilidade |                Samuel, Thiago                |                    Vera                     |
+|  1.3   | 10/10/2025 | Corrigindo "usuários" do projeto" e pequenas coisas |             Thiago                |                    Samuel                     |
