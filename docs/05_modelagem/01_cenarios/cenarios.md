@@ -305,6 +305,7 @@ Fonte: Angélica, 2025
 Para realizar a validação dos requisitos fizemos uma consulta com um Jogador do app, disponível aqui:
 
 - [Assista ao vídeo no YouTube](https://youtu.be/6mkG1ma1Wf4). Este video foi produzido pela aluna Angélica Campos.
+- [Assista ao vídeo no YouTube](https://youtu.be/9G1eUtgW3nE). Este video é referente à validação dos cenários 06 e 07 e foi produzido pela aluna Vera Lucia
 
 ## Bibliografia
 
