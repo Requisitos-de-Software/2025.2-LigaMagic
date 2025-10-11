@@ -16,26 +16,26 @@ Os requisitos não implementados foram identificados através de:
 
 ### Requisitos Funcionais Não Implementados
 
-| **ID** | **Descrição**                                                                                                 | **Técnica de Elicitação** |
-| :----: | :------------------------------------------------------------------------------------------------------------ | :-----------------------: |
-| RFNI01 | O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional               |   Análise de Documentos   |
-| RFNI02 | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)            |   Análise de Documentos   |
-| RFNI03 | Permitir que o usuário filtre cartas por qualidade/condição                                                   |        Observação         |
-| RFNI04 | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                        |        Observação         |
-| RFNI05 | Permitir que o usuário defina um alerta de preço para a carta selecionada                                     |        Observação         |
-| RFNI06 | Permitir que o usuário compartilhe informações da carta por link direto                                       |        Observação         |
-| RFNI07 | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) |        Observação         |
-| RFNI08 | O sistema deve fornecer um módulo completo de **leilões**                                                     |                           |
-| RFNI09 | Os usuários devem ser capazes de criar, salvar e gerenciar listas de **decks**                                |                           |
-| RFNI10 | Os usuários devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas                      |                           |
-| RFNI11 | O sistema deve fornecer a funcionalidade "**Compra por Lista**"                                               |                           |
+| **ID** | **Descrição**                                                                                                 | **Técnica de Elicitação** | **Requisito Original** |
+| :----: | :------------------------------------------------------------------------------------------------------------ | :-----------------------: | :--------------------: |
+| RFNI01 | O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional               |   Análise de Documentos   |          RF10          |
+| RFNI02 | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)            |   Análise de Documentos   |          RF11          |
+| RFNI03 | Permitir que o usuário filtre cartas por qualidade/condição                                                   |        Observação         |          RF21          |
+| RFNI04 | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                        |        Observação         |          RF29          |
+| RFNI05 | Permitir que o usuário defina um alerta de preço para a carta selecionada                                     |        Observação         |          RF31          |
+| RFNI06 | Permitir que o usuário compartilhe informações da carta por link direto                                       |        Observação         |          RF36          |
+| RFNI07 | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) |        Observação         |          RF37          |
+| RFNI08 | O sistema deve fornecer um módulo completo de **leilões**                                                     |                           |                        |
+| RFNI09 | Os usuários devem ser capazes de criar, salvar e gerenciar listas de **decks**                                |                           |                        |
+| RFNI10 | Os usuários devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas                      |                           |                        |
+| RFNI11 | O sistema deve fornecer a funcionalidade "**Compra por Lista**"                                               |                           |                        |
 
 ### Requisitos Não Funcionais Não Implementados
 
-| **ID**  | **Descrição**                                                                                                              | **Técnica de Elicitação** |
-| :-----: | :------------------------------------------------------------------------------------------------------------------------- | :-----------------------: |
-| RNFNI12 | O documento não informa por quanto tempo os dados pessoais serão armazenados nem os critérios para definição desse prazo   |   Análise de Documentos   |
-| RNFNI13 | O documento não prevê ou detalha os procedimentos a serem adotados em caso de incidente de segurança ou vazamento de dados |   Análise de Documentos   |
+| **ID**  | **Descrição**                                                                                                              | **Técnica de Elicitação** | **Requisito Original** |
+| :-----: | :------------------------------------------------------------------------------------------------------------------------- | :-----------------------: | :--------------------: |
+| RNFNI12 | O documento não informa por quanto tempo os dados pessoais serão armazenados nem os critérios para definição desse prazo   |   Análise de Documentos   |          NI01          |
+| RNFNI13 | O documento não prevê ou detalha os procedimentos a serem adotados em caso de incidente de segurança ou vazamento de dados |   Análise de Documentos   |          NI02          |
 
 ## Distribuição por Técnica de Elicitação
 
