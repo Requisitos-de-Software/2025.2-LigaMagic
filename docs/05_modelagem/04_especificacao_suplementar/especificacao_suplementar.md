@@ -60,15 +60,6 @@ A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva
 
 Fonte: [Vera Lucia](https://github.com/verabelucia), [Angélica](https://github.com/angelicaccampos) e [Thiago](https://github.com/Acciolyy), 2025
 
-## Compatibilidade (Reliability)
-
-A compatibilidade garante que o sistema funcione adequadamente em diferentes ambientes tecnológicos, incluindo sistemas operacionais, navegadores web e dispositivos diversos. Isso assegura que todos os consumidores tenham acesso consistente às funcionalidades, independentemente da plataforma utilizada, mantendo a integridade visual e funcional da aplicação em todos os contextos de uso.
-
-|  ID   | Descrição                                                                                                                                                |                         Rastreabilidade                         | Autor  |
-| :---: | -------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :----: |
-| COM01 | O site deve ser compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari). | [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Samuel |
-
-**Fonte:** Samuel, 2025
 
 ## Desempenho (Performance)
 
@@ -81,8 +72,9 @@ A confiabilidade do software está relacionado à sua integridade e conformidade
 |  ID   | Descrição                                                  | Rastreabilidade                                                 |
 | :---: | :--------------------------------------------------------- | :-------------------------------------------------------------- |
 | CON01 | Garantir que anúncios incluam informações fiscais corretas | [RNF07](../../03_elicitacao/artefatos/requisitos_elicitados.md) |
+|CON02  | O site deve ser compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari)|[RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md) |
 
-**Fonte:** Marcelo,2025
+**Fonte:** Marcelo e Samuel,2025
 
 ## Suportabilidade
 
@@ -99,23 +91,19 @@ Fonte: [Raissa](https://github.com/RaissaAndradeS), 2025
 
 Os requisitos de design, também conhecidos como restrições de projeto, definem limitações ou diretrizes que devem ser seguidas durante o desenvolvimento do sistema. Esses requisitos estabelecem parâmetros que influenciam a estrutura e o comportamento do software, como a linguagem de programação utilizada, o processo de desenvolvimento adotado, as ferramentas de apoio empregadas e o uso de bibliotecas ou frameworks específicos.
 
-| ID  | Descrição | Rastreabilidade |
-| :-: | :-------- | :-------------- |
-| :-: | :-------- | :-------------- |
+
 
 ## Requisitos de Implementação
 
 Os requisitos de implementação determinam condições técnicas ou restrições relacionadas ao desenvolvimento do código e à construção do sistema. Eles orientam como o software deve ser implementado, especificando aspectos como padrões obrigatórios de programação, linguagens de desenvolvimento permitidas, políticas de integridade e segurança do banco de dados, além de limitações de recursos e ambientes operacionais compatíveis.
 
-| ID  | Descrição | Rastreabilidade |
-| :-: | :-------- | :-------------- |
+
 
 ## Requisitos de Interface
 
 Os requisitos de interface definem ou limitam as funcionalidades e interações entre o sistema e o jogador. Eles estabelecem como os elementos da interface devem se comportar e se apresentar, garantindo consistência visual, clareza nas informações exibidas e facilidade de uso durante a navegação no sistema.
 
-| ID  | Descrição | Rastreabilidade |
-| :-: | :-------- | :-------------- |
+
 
 ## Video de validação feita com um jogador
 Para a validação da Especificação Suplementar, cada integrante do grupo ficou responsável por validar a especificação suplementar de sua autoria. A seguir, são apresentados os vídeos referentes às validações realizadas:
