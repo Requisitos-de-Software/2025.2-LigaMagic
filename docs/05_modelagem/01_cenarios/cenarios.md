@@ -310,6 +310,11 @@ Fonte: Angélica, 2025
 
 **Fonte:** Thiago, 2025
 
+## Video de validação feita com um comprador
+Para realizar a validação dos requisitos fizemos uma consulta com um Jogador do app, disponível aqui:
+
+- [Assista ao vídeo no YouTube](https://youtu.be/6mkG1ma1Wf4). Este video foi produzido pela aluna Angélica Campos.
+
 ## Bibliografia
 
 > BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1.
