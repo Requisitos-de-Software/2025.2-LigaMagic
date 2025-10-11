@@ -54,6 +54,8 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 
 A tabela 3 descreve o cenário do requisito funcional Personalizar perfil de jogador, que foi rastreada pelas técnica de observação
 
+<div align="center"><strong>Tabela 3: Cenário 01</strong></div>
+
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                             |
 | :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Título**    | Personalizar e manter o perfil de jogador                                                                                                                                                                                                                                                                                                                                                                             |
@@ -63,11 +65,14 @@ A tabela 3 descreve o cenário do requisito funcional Personalizar perfil de jog
 | **Recursos**  | Conexão com a internetDispositivo (PC/Smartphone) com acesso à LigaMagic.                                                                                                                                                                                                                                                                                                                                             |
 | **Episódios** | O jogador acessa o menu e seleciona a opção "Meu Perfil". Clica em "Editar Avatar" e faz o upload de uma nova imagem pessoal.Acessa a seção "Meus Endereços" e cadastra ou atualiza seu endereço de envio principal. Vai para a seção "Want List" para adicionar os cards que tem interesse em adquirir. Salva as alterações em cada seção. Verifica se o novo avatar e as informações estão aparecendo corretamente. |
 | **Restrição** | A imagem do avatar deve seguir um formato (ex: JPG, PNG) e tamanho máximo especificado.O cadastro de endereço deve seguir um formato de CEP válido.                                                                                                                                                                                                                                                                   |
-| **Exceção**   | Falha no upload do avatar (formato/tamanho inválido).O CEP informado não é encontrado ou é inválido.Perda das alterações não salvas caso a conexão com a internet caia.                                                                                                                                                                                                                                               |
+| **Exceção**   | Falha no upload do avatar (formato/tamanho inválido).O CEP informado não é encontrado ou é inválido.Perda das alterações não salvas caso a conexão com a internet caia.                                                                                                                                                                                                                                               | 
 
+Fonte: Marcelo, 2025
 ### Cenário 02: Filtrar busca por condição da carta
 
 A tabela 4 descreve o cenário do requisito funcional Personalizar perfil de jogador, que foi rastreada pelas técnica de observação
+
+<div align="center"><strong>Tabela 4: Cenário 02</strong></div>
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -80,11 +85,13 @@ A tabela 4 descreve o cenário do requisito funcional Personalizar perfil de jog
 | **Restrição** | O filtro depende da correta classificação feita pelo vendedor no momento do cadastro do card. Anúncios sem a classificação de condição podem ser omitidos do resultado.                                                                                                                                                                                                                                                                     |
 | **Exceção**   | A aplicação do filtro resulta em um erro ou não altera a lista de resultado, reiniciando a busca nenhum vendedor possui a carta na condição desejada.                                                                                                                                                                                                                                                                                       |
 
+Fonte: Marcelo, 2025
+
 ### Cenário 03: Criar e Salvar Lista de Decks
 
 **Requisito Associado:** [RI09] - Os jogadores devem ser capazes de criar, salvar e gerenciar listas de decks.
 
-<div align="center"><strong>Tabela 1: Cenário 01</strong></div>
+<div align="center"><strong>Tabela 5: Cenário 03</strong></div>
 
 | **Elemento**        | **Descrição**                                                                                                                                                                               |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -99,12 +106,13 @@ A tabela 4 descreve o cenário do requisito funcional Personalizar perfil de jog
 | **Episódios**       | 1. Jogador acessa “Minhas Listas”.<br>2. Seleciona “Criar nova lista”.<br>3. Preenche nome/descrição.<br>4. Adiciona decks (busca/link).<br>5. Salva lista.<br>6. Sistema confirma criação. |
 
 ---
+Fonte: Raissa, 2025
 
 ### Cenário 04: Gerenciar Lista de Decks
 
 **Requisito Associado:** [RI09] - Os jogadores devem ser capazes de criar, salvar e gerenciar listas de decks.
 
-<div align="center"><strong>Tabela 2: Cenário 02</strong></div>
+<div align="center"><strong>Tabela 6: Cenário 04</strong></div>
 
 | **Elemento**        | **Descrição**                                                                                                                                                                                    |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -119,12 +127,13 @@ A tabela 4 descreve o cenário do requisito funcional Personalizar perfil de jog
 | **Episódios**       | 1. Comprador acessa “Minhas Listas”.<br>2. Seleciona uma lista existente.<br>3. Edita quantidades, renomeia ou exclui itens.<br>4. Salva alterações.<br>5. Sistema atualiza e confirma mudanças. |
 
 ---
+Fonte: Raissa, 2025
 
 ### Cenário 05: Comprar por Lista
 
 **Requisito Associado:** [RI11] - O sistema deve fornecer a funcionalidade "comprar por lista".
 
-<div align="center"><strong>Tabela 3: Cenário 03</strong></div>
+<div align="center"><strong>Tabela 7: Cenário 05</strong></div>
 
 | **Elemento**        | **Descrição**                                                                                                                                                                                                   |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -138,11 +147,13 @@ A tabela 4 descreve o cenário do requisito funcional Personalizar perfil de jog
 | **Restrições**      | - Somente listas salvas podem ser compradas.<br>- O processo deve mostrar os itens correspondidos e os não encontrados.<br>- Ter todas cartas disponíveis.                                                      |
 | **Episódios**       | 1. Jogador acessa uma lista salva.<br>2. Clica em “Comprar por lista”.<br>3. Exibe resumo com preços, itens indisponíveis e total estimado.<br>4. Jogador confirma e é redirecionado ao carrinho do fornecedor. |
 
+Fonte: Raissa, 2025
+
 ### Cenário 06: Permitir definir um alerta de preço para a carta selecionada
 
 **Requisito Associado:** [RI05] - O sistema deve permitir que defina um alerta de preço para a carta selecionada.
 
-<div align="center"><strong>Tabela 8: Cenário 08</strong></div>
+<div align="center"><strong>Tabela 8: Cenário 06</strong></div>
 
 | **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -162,7 +173,7 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
 **Requisito Associado:** [RI07] - O sistema deve permitir que defina um alerta de preço para a carta selecionada.
 
-<div align="center"><strong>Tabela 9: Cenário 09</strong></div>
+<div align="center"><strong>Tabela 9: Cenário 07</strong></div>
 
 | **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -182,6 +193,8 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 
 **Requisito Associado:** [RI14] - wishlist de cartas.
 
+<div align="center"><strong>Tabela 10: Cenário 08</strong></div>
+
 | **Elemento**        | **Descrição**                                                                                                                          |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID**              | CE10                                                                                                                                   |
@@ -197,6 +210,8 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), 2025
 Fonte: Angélica, 2025
 
 ### Cenário 09: Gerenciar Wishlist Existente
+
+<div align="center"><strong>Tabela 11: Cenário 09</strong></div>
 
 **Requisito Associado:** [RI14] - wishlist de cartas.
 
@@ -218,6 +233,8 @@ Fonte: Angélica, 2025
 
 **Requisito Associado:** [RI15] - Pesquisar Cartas
 
+<div align="center"><strong>Tabela 12: Cenário 10</strong></div>
+
 | **Elemento**        | **Descrição**                                                                                                                               |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | **ID**              | CE12                                                                                                                                        |
@@ -236,6 +253,8 @@ Fonte: Angélica, 2025
 
 **Requisito Associado:** [RI02] - O sistema deve possibilitar participação dos jogadres em fóruns de discussão (postagem e resposta)
 
+<div align="center"><strong>Tabela 13: Cenário 11</strong></div>
+
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                    |
 | :------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Título**    | Pedindo Ajuda para Montar um Primeiro Deck Commander                                                                                                                                                                                                                                                                                                                         |
@@ -252,6 +271,8 @@ Fonte: Angélica, 2025
 ### Cenário 12: Compartilhamento de Informações de Carta
 
 **Requisito Associado:** [RI06] - Permitir que o consumidor compartilhe informações da carta por link direto
+
+<div align="center"><strong>Tabela 14: Cenário 12</strong></div>
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                              |
 | :------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -270,6 +291,8 @@ Fonte: Angélica, 2025
 
 **Requisito Associado:** [RI04] - Permitir que o comprador avalie ou dê feedback sobre vendedores ou decks
 
+<div align="center"><strong>Tabela 15: Cenário 13</strong></div>
+
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Título**    | Avaliar Vendedor Após Receber Compra                                                                                                                                                                                                                                                                                                                                                                                                   |
@@ -286,6 +309,8 @@ Fonte: Angélica, 2025
 ### Cenário 14: Adicionar Cartas à Coleção via Lista de Desejos
 
 **Requisito Associado:** [RI10] - Os jogadores devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas.
+
+<div align="center"><strong>Tabela 16: Cenário 14</strong></div>
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -307,6 +332,11 @@ Para a validação dos cenários, cada integrante do grupo foi responsável por 
 - [Assista ao vídeo no YouTube](https://youtu.be/6mkG1ma1Wf4). Este video foi produzido pela aluna Angélica Campos.
 - [Assista ao vídeo no YouTube](https://youtu.be/9G1eUtgW3nE). Este video é referente à validação dos cenários 06 e 07 e foi produzido pela aluna Vera Lucia
 - [Assista ao vídeo no YouTube](https://youtu.be/1lxHnaYfWR4). Este video é referente á validação dos cenários 01 e 02 e foi produzido pelo aluno Marcelo.
+- [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=YXONTjL32WU) Este vídeo foi produzido pelo aluno Samuel, sendo referente à validação dos cenários 11 e 12 (Os minutos estão na descrição).
+- [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=YXONTjL32WU) Este vídeo foi produzido pelo aluno Thiago, sendo referente à validação dos cenários 13 e 14 (Os minutos estão na descrição).
+- [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=ZlX_tKeczd8) Este vídeo foi produzido pela aluna Raissa, sendo referente à validação dos cenários 03, 04 e 05 (Os minutos estão na descrição).
+
+
 ## Bibliografia
 
 > BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1.
@@ -335,3 +365,4 @@ Para a validação dos cenários, cada integrante do grupo foi responsável por 
 |  1.6   | 11/10/2025 | Adição da tabela de autoria        |     Samuel      | Thiago  |
 |  1.7   | 11/10/2025 | Adição do vídeo de validação       |      Vera       | Angélica|
 |  1.8   | 11/10/2025 | Adição do vídeo de validação 01 e 02      |      Marcelo      | Vera|
+|  1.8.1   | 11/10/2025 | Adição do vídeo de validação dos integrantes e corrigindo nomes de tabelas      |      Thiago      | Marcelo |
