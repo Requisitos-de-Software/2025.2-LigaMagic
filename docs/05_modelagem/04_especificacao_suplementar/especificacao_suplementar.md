@@ -28,6 +28,7 @@ A elaboração desta Especificação Suplementar organizar e detalhar os requisi
 | Thiago     | Usabilidade     |
 | Samuel     | Compatibilidade |
 | Raissa     | Suportabilidade |
+|Marcelo |   Confiabilidade |
 
 ## Definições, Acrônimos e Abreviações
 
@@ -121,6 +122,7 @@ Para a validação da Especificação Suplementar, cada integrante do grupo fico
 
 - [Assista ao vídeo no YouTube](https://youtu.be/LLM2-XJXOMU). Este video foi produzido pela aluna Angélica Campos.
 - [Assista ao vídeo no YouTube](https://youtu.be/OHdbeTbz57o).  Este video é referente à validação especificação suplementar de usabelidade e foi produzido pela aluna Vera.
+- [Assista ao vídeo no YouTube](https://youtu.be/1lxHnaYfWR4).  Este video é referente à validação especificação suplementar de Confiabilidade e foi produzido pelo aluna Marcelo.
 ## Bibliografia
 
 > 1.FURPS+. QualidadeBR, 10 jul. 2008. Disponível em: https://qualidadebr.wordpress.com/2008/07/10/furps/
@@ -128,13 +130,14 @@ Para a validação da Especificação Suplementar, cada integrante do grupo fico
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome   | % de Contribuição |
-| :----- | :---------------: |
-|Angélica| 14,28% |
-|Raissa |  |
-|Vera|  |
-| Samuel |      14,28%             |
-| Thiago |      14,28%             |
+| Nome   | % de Contribuição        |
+| :----- | :---------------:         |
+|Angélica| 16,67%                   |
+|Raissa |   16,67%             |
+|Vera|      16,67%             |
+| Samuel |     16,67%             |
+| Thiago |    16,67%            |
+|Marcelo |      16,67%           |
 
 ## Histórico de versão
 
@@ -145,3 +148,4 @@ Para a validação da Especificação Suplementar, cada integrante do grupo fico
 |  1.2   | 10/10/2025 | Adicionado conteúdo em compatibilidade e usabilidade |                Samuel, Thiago                |                    Vera                     |
 |  1.3   | 10/10/2025 | Corrigindo "usuários" do projeto" e pequenas coisas |             Thiago                |                    Samuel                     |
 |1.4| 11/10/2025| Adição do vídeo de validação | Vera | Angélica |
+|1.5| 11/10/2025| Adição do vídeo de validação | Marcelo | Thiago|
