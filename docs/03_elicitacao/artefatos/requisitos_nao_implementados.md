@@ -29,6 +29,8 @@ Os requisitos não implementados foram identificados através de:
 | RFNI09 {#rfni09} | Os usuários devem ser capazes de criar, salvar e gerenciar listas de **decks**                                |                           |                                         |
 | RFNI10 {#rfni10} | Os usuários devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas                      |                           |                                         |
 | RFNI11 {#rfni11} | O sistema deve fornecer a funcionalidade "**Compra por Lista**"                                               |                           |                                         |
+| RFNI14 {#rfni14} | Permitir que o usuário salve cartas para compra futura (wishlist)                                             |        Observação         | [RF28](./requisitos_elicitados.md#rf28) |
+| RFNI15 {#rfni15} | Permitir busca rápida e eficiente de cartas específicas                                                       |        Observação         | [RF20](./requisitos_elicitados.md#rf20) |
 
 ### Requisitos Não Funcionais Não Implementados
 
@@ -42,7 +44,7 @@ Os requisitos não implementados foram identificados através de:
 |      **Técnica**      | **Quantidade de Requisitos** |
 | :-------------------: | :--------------------------: |
 | Análise de Documentos |         4 requisitos         |
-|      Observação       |         5 requisitos         |
+|      Observação       |         7 requisitos         |
 
 ## Bibliografia
 
