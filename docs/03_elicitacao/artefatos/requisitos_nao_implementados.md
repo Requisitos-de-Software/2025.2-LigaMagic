@@ -16,26 +16,26 @@ Os requisitos não implementados foram identificados através de:
 
 ### Requisitos Funcionais Não Implementados
 
-|      **ID**      | **Descrição**                                                                                                 | **Técnica de Elicitação** |                               **Requisito Original**                               |
-| :--------------: | :------------------------------------------------------------------------------------------------------------ | :-----------------------: | :--------------------------------------------------------------------------------: |
-| RFNI01 {#rfni01} | O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional               |   Análise de Documentos   | [RF10](./requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos) |
-| RFNI02 {#rfni02} | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)            |   Análise de Documentos   | [RF11](./requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos) |
-| RFNI03 {#rfni03} | Permitir que o usuário filtre cartas por qualidade/condição                                                   |        Observação         |      [RF21](./requisitos_elicitados.md#rf20---rf37-requisitos-da-observação)       |
-| RFNI04 {#rfni04} | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                        |        Observação         |      [RF29](./requisitos_elicitados.md#rf20---rf37-requisitos-da-observação)       |
-| RFNI05 {#rfni05} | Permitir que o usuário defina um alerta de preço para a carta selecionada                                     |        Observação         |      [RF31](./requisitos_elicitados.md#rf20---rf37-requisitos-da-observação)       |
-| RFNI06 {#rfni06} | Permitir que o usuário compartilhe informações da carta por link direto                                       |        Observação         |      [RF36](./requisitos_elicitados.md#rf20---rf37-requisitos-da-observação)       |
-| RFNI07 {#rfni07} | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) |        Observação         |      [RF37](./requisitos_elicitados.md#rf20---rf37-requisitos-da-observação)       |
-| RFNI08 {#rfni08} | O sistema deve fornecer um módulo completo de **leilões**                                                     |                           |                                                                                    |
-| RFNI09 {#rfni09} | Os usuários devem ser capazes de criar, salvar e gerenciar listas de **decks**                                |                           |                                                                                    |
-| RFNI10 {#rfni10} | Os usuários devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas                      |                           |                                                                                    |
-| RFNI11 {#rfni11} | O sistema deve fornecer a funcionalidade "**Compra por Lista**"                                               |                           |                                                                                    |
+|      **ID**      | **Descrição**                                                                                                 | **Técnica de Elicitação** |         **Requisito Original**          |
+| :--------------: | :------------------------------------------------------------------------------------------------------------ | :-----------------------: | :-------------------------------------: |
+| RFNI01 {#rfni01} | O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional               |   Análise de Documentos   | [RF10](./requisitos_elicitados.md#rf10) |
+| RFNI02 {#rfni02} | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)            |   Análise de Documentos   | [RF11](./requisitos_elicitados.md#rf11) |
+| RFNI03 {#rfni03} | Permitir que o usuário filtre cartas por qualidade/condição                                                   |        Observação         | [RF21](./requisitos_elicitados.md#rf21) |
+| RFNI04 {#rfni04} | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                        |        Observação         | [RF29](./requisitos_elicitados.md#rf29) |
+| RFNI05 {#rfni05} | Permitir que o usuário defina um alerta de preço para a carta selecionada                                     |        Observação         | [RF31](./requisitos_elicitados.md#rf31) |
+| RFNI06 {#rfni06} | Permitir que o usuário compartilhe informações da carta por link direto                                       |        Observação         | [RF36](./requisitos_elicitados.md#rf36) |
+| RFNI07 {#rfni07} | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) |        Observação         | [RF37](./requisitos_elicitados.md#rf37) |
+| RFNI08 {#rfni08} | O sistema deve fornecer um módulo completo de **leilões**                                                     |                           |                                         |
+| RFNI09 {#rfni09} | Os usuários devem ser capazes de criar, salvar e gerenciar listas de **decks**                                |                           |                                         |
+| RFNI10 {#rfni10} | Os usuários devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas                      |                           |                                         |
+| RFNI11 {#rfni11} | O sistema deve fornecer a funcionalidade "**Compra por Lista**"                                               |                           |                                         |
 
 ### Requisitos Não Funcionais Não Implementados
 
-|       **ID**       | **Descrição**                                                                                                              | **Técnica de Elicitação** |                                **Requisito Original**                                |
-| :----------------: | :------------------------------------------------------------------------------------------------------------------------- | :-----------------------: | :----------------------------------------------------------------------------------: |
-| RNFNI12 {#rnfni12} | O documento não informa por quanto tempo os dados pessoais serão armazenados nem os critérios para definição desse prazo   |   Análise de Documentos   | [NI01](./requisitos_elicitados.md#rnf01---rnf07-requisitos-da-análise-de-documentos) |
-| RNFNI13 {#rnfni13} | O documento não prevê ou detalha os procedimentos a serem adotados em caso de incidente de segurança ou vazamento de dados |   Análise de Documentos   | [NI02](./requisitos_elicitados.md#rnf01---rnf07-requisitos-da-análise-de-documentos) |
+|       **ID**       | **Descrição**                                                                                                              | **Técnica de Elicitação** |         **Requisito Original**          |
+| :----------------: | :------------------------------------------------------------------------------------------------------------------------- | :-----------------------: | :-------------------------------------: |
+| RNFNI12 {#rnfni12} | O documento não informa por quanto tempo os dados pessoais serão armazenados nem os critérios para definição desse prazo   |   Análise de Documentos   | [NI01](./requisitos_elicitados.md#ni01) |
+| RNFNI13 {#rnfni13} | O documento não prevê ou detalha os procedimentos a serem adotados em caso de incidente de segurança ou vazamento de dados |   Análise de Documentos   | [NI02](./requisitos_elicitados.md#ni02) |
 
 ## Distribuição por Técnica de Elicitação
 
