@@ -136,3 +136,4 @@ Para a validação da Especificação Suplementar, cada integrante do grupo fico
 |  1.4   | 11/10/2025 | Adição do vídeo de validação                         |                     Vera                     |                  Angélica                   |
 |  1.5   | 11/10/2025 | Adição do vídeo de validação                         |                   Marcelo                    |                   Thiago                    |
 | 1.5.1  | 11/10/2025 | Adição do vídeo de validação dos integrantes         |                    Thiago                    |                   Marcelo                   |
+|  1.6   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos           | [Samuel](https://github.com/samuelncaetano)  |                   Thiago                    |

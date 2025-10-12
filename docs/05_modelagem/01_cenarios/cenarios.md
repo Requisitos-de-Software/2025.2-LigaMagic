@@ -324,15 +324,16 @@ Para a validação dos cenários, cada integrante do grupo foi responsável por 
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição                                                                  |    Autor(es)    | Revisor  |
-| :----: | :--------: | :------------------------------------------------------------------------- | :-------------: | :------: |
-|  1.0   | 08/10/2025 | Adição de cenários                                                         |     Marcelo     |  Raissa  |
-|  1.1   | 09/10/2025 | Adição de cenários 05, 06 e 07                                             |     Raissa      |   Vera   |
-|  1.2   | 09/10/2025 | Adição de cenários 08 e 09                                                 |      Vera       |  Raissa  |
-|  1.3   | 10/10/2025 | Adição de cenários 10, 11 e 12                                             |    Angélica     | Marcelo  |
-|  1.4   | 10/10/2025 | Adição de cenários 13, 14, 15 e 16                                         | Samuel e Thiago |   Vera   |
-|  1.5   | 10/10/2025 | Retirada de "usuários"                                                     |     Thiago      |  Samuel  |
-|  1.6   | 11/10/2025 | Adição da tabela de autoria                                                |     Samuel      |  Thiago  |
-|  1.7   | 11/10/2025 | Adição do vídeo de validação                                               |      Vera       | Angélica |
-|  1.8   | 11/10/2025 | Adição do vídeo de validação 01 e 02                                       |     Marcelo     |   Vera   |
-| 1.8.1  | 11/10/2025 | Adição do vídeo de validação dos integrantes e corrigindo nomes de tabelas |     Thiago      | Marcelo  |
+| Versão |    Data    | Descrição                                                                  |                  Autor(es)                  | Revisor  |
+| :----: | :--------: | :------------------------------------------------------------------------- | :-----------------------------------------: | :------: |
+|  1.0   | 08/10/2025 | Adição de cenários                                                         |                   Marcelo                   |  Raissa  |
+|  1.1   | 09/10/2025 | Adição de cenários 05, 06 e 07                                             |                   Raissa                    |   Vera   |
+|  1.2   | 09/10/2025 | Adição de cenários 08 e 09                                                 |                    Vera                     |  Raissa  |
+|  1.3   | 10/10/2025 | Adição de cenários 10, 11 e 12                                             |                  Angélica                   | Marcelo  |
+|  1.4   | 10/10/2025 | Adição de cenários 13, 14, 15 e 16                                         |               Samuel e Thiago               |   Vera   |
+|  1.5   | 10/10/2025 | Retirada de "usuários"                                                     |                   Thiago                    |  Samuel  |
+|  1.6   | 11/10/2025 | Adição da tabela de autoria                                                |                   Samuel                    |  Thiago  |
+|  1.7   | 11/10/2025 | Adição do vídeo de validação                                               |                    Vera                     | Angélica |
+|  1.8   | 11/10/2025 | Adição do vídeo de validação 01 e 02                                       |                   Marcelo                   |   Vera   |
+| 1.8.1  | 11/10/2025 | Adição do vídeo de validação dos integrantes e corrigindo nomes de tabelas |                   Thiago                    | Marcelo  |
+|  1.9   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos                                 | [Samuel](https://github.com/samuelncaetano) |  Thiago  |

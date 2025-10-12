@@ -54,6 +54,7 @@ Os requisitos não implementados foram identificados através de:
 
 ## Histórico de Versão
 
-| Versão |    Data    | Descrição                                            | Autor  | Revisor |
-| :----: | :--------: | :--------------------------------------------------- | :----: | :-----: |
-|  1.0   | 11/10/2025 | Criação do documento de requisitos não implementados | Samuel |    -    |
+| Versão |    Data    | Descrição                                            |                    Autor                    | Revisor |
+| :----: | :--------: | :--------------------------------------------------- | :-----------------------------------------: | :-----: |
+|  1.0   | 11/10/2025 | Criação do documento de requisitos não implementados |                   Samuel                    | Thiago  |
+|  1.1   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos           | [Samuel](https://github.com/samuelncaetano) | Thiago  |

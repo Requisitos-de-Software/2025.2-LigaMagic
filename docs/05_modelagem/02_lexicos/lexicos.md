@@ -263,8 +263,9 @@ Para realizar a validação dos requisitos fizemos uma consulta com um Jogador d
 
 ## Histórico de Versão
 
-| Versão |    Data    | Descrição                                      |   Autor(es)    | Revisor |
-| :----: | :--------: | :--------------------------------------------- | :------------: | :-----: |
-|  1.0   | 07/10/2025 | Criação inicial do documento de léxicos        | Samuel, Thiago |    -    |
-|  1.1   | 11/10/2025 | Adicionando Video de Validação                 |     Raissa     | Thiago  |
-|  1.2   | 11/10/2025 | Adicionando Video de Validação dos integrantes |     Thiago     | Raissa  |
+| Versão |    Data    | Descrição                                      |                  Autor(es)                  | Revisor |
+| :----: | :--------: | :--------------------------------------------- | :-----------------------------------------: | :-----: |
+|  1.0   | 07/10/2025 | Criação inicial do documento de léxicos        |               Samuel, Thiago                |    -    |
+|  1.1   | 11/10/2025 | Adicionando Video de Validação                 |                   Raissa                    | Thiago  |
+|  1.2   | 11/10/2025 | Adicionando Video de Validação dos integrantes |                   Thiago                    | Raissa  |
+|  1.3   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos     | [Samuel](https://github.com/samuelncaetano) | Thiago  |

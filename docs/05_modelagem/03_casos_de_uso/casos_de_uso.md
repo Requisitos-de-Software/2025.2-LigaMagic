@@ -324,3 +324,4 @@ Para a validação dos casos de uso, cada integrante do grupo ficou responsável
 |  1.7   | 11/10/2025 | Adição do vídeo de validação                                                               |                         Vera                          |        Raissa         |
 |  1.8   | 11/10/2025 | Adição do vídeo de validação e de casos de uso                                             |                        Marcelo                        |        Samuel         |
 | 1.8.1  | 11/10/2025 | Adição do vídeo de validação e de casos de uso dos integrantes                             |                        Thiago                         |        Marcelo        |
+|  1.9   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos                                                 |      [Samuel](https://github.com/samuelncaetano)      |        Thiago         |
