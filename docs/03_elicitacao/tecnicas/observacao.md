@@ -69,7 +69,7 @@ Foram criadas algumas ações para que o usuário pudesse seguir durante a obser
 | RNF02 | Organização da informação       |   Usabilidade   | O site deve apresentar informações de cartas, anúncios e decks de forma organizada e legível                     |
 | RNF03 | Transmissão segura de dados     |    Segurança    | O sistema deve garantir a transmissão segura de dados pessoais e informações de pagamento                        |
 | RNF04 | Mensagens de sucesso/erro       |   Usabilidade   | O sistema deve fornecer mensagens claras de sucesso ou erro ao realizar ações como cadastro, compra ou inscrição |
-| RNF05 | Compatibilidade com navegadores | Compatibilidade | O site deve ser compatível com os principais navegadores (Chrome, Firefox, Edge, Safari)                         |
+| RNF05 | Compatibilidade com navegadores | Compatibilidade | A plataforma deve ser totalmente compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari), tanto em suas versões para desktop quanto para dispositivos móveis (Android e iOS)                         |
 | RNF06 | Backup automático               |     Backup      | O sistema deve garantir backup automático dos dados de usuários e transações                                     |
 | RNF07 | Alertas e confirmações          |   Usabilidade   | Mensagens de alerta, erro ou confirmação devem ser exibidas de forma clara e consistente                         |
 | RNF08 | Criptografia de dados sensíveis |    Segurança    | O site deve criptografar dados sensíveis do usuário, como senhas e informações de pagamento                      |

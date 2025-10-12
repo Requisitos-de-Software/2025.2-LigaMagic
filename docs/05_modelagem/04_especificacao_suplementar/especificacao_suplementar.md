@@ -28,7 +28,7 @@ A elaboração desta Especificação Suplementar organizar e detalhar os requisi
 | Thiago     | Usabilidade     |
 | Samuel     | Compatibilidade |
 | Raissa     | Suportabilidade |
-|Marcelo |   Confiabilidade |
+| Marcelo    | Confiabilidade  |
 
 ## Definições, Acrônimos e Abreviações
 
@@ -52,14 +52,13 @@ Os requisitos que foram elicitados com essas técnicas estão no artefato [Requi
 
 A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva e consistente para o consumidor deve seguir padrões visuais e de navegação conhecidos.
 
-|  ID  | Descrição                                                                                                                                                 | Rastreabilidade                                                 | Autor   |
-| :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :-----  |
-| US01 | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Vera    |
-| US02 | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Angélica|
-| US03 | O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone.                                   | [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Thiago  |
+|  ID  | Descrição                                                                                                                                                 | Rastreabilidade                                                 | Autor    |
+| :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :------- |
+| US01 | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Vera     |
+| US02 | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Angélica |
+| US03 | O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone.                                   | [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Thiago   |
 
 Fonte: [Vera Lucia](https://github.com/verabelucia), [Angélica](https://github.com/angelicaccampos) e [Thiago](https://github.com/Acciolyy), 2025
-
 
 ## Desempenho (Performance)
 
@@ -69,10 +68,10 @@ Esta seção avalia os requisitos de desempenho do software, podendo usar como m
 
 A confiabilidade do software está relacionado à sua integridade e conformidade, analisando a capacidade do sistema de funcionar corretamente mesmo diante de falhas.
 
-|  ID   | Descrição                                                  | Rastreabilidade                                                 |
-| :---: | :--------------------------------------------------------- | :-------------------------------------------------------------- |
-| CON01 | Garantir que anúncios incluam informações fiscais corretas | [RNF07](../../03_elicitacao/artefatos/requisitos_elicitados.md) |
-|CON02  | O site deve ser compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari)|[RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md) |
+|  ID   | Descrição                                                                                                                                                                                                                                                    | Rastreabilidade                                                 |  Autor  |
+| :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :-----: |
+| CON01 | Garantir que anúncios incluam informações fiscais corretas                                                                                                                                                                                                   | [RNF07](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Marcelo |
+| CON02 | A plataforma deve ser totalmente compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari), tanto em suas versões para desktop quanto para dispositivos móveis (Android e iOS) | [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Samuel  |
 
 **Fonte:** Marcelo e Samuel,2025
 
@@ -91,26 +90,21 @@ Fonte: [Raissa](https://github.com/RaissaAndradeS), 2025
 
 Os requisitos de design, também conhecidos como restrições de projeto, definem limitações ou diretrizes que devem ser seguidas durante o desenvolvimento do sistema. Esses requisitos estabelecem parâmetros que influenciam a estrutura e o comportamento do software, como a linguagem de programação utilizada, o processo de desenvolvimento adotado, as ferramentas de apoio empregadas e o uso de bibliotecas ou frameworks específicos.
 
-
-
 ## Requisitos de Implementação
 
 Os requisitos de implementação determinam condições técnicas ou restrições relacionadas ao desenvolvimento do código e à construção do sistema. Eles orientam como o software deve ser implementado, especificando aspectos como padrões obrigatórios de programação, linguagens de desenvolvimento permitidas, políticas de integridade e segurança do banco de dados, além de limitações de recursos e ambientes operacionais compatíveis.
-
-
 
 ## Requisitos de Interface
 
 Os requisitos de interface definem ou limitam as funcionalidades e interações entre o sistema e o jogador. Eles estabelecem como os elementos da interface devem se comportar e se apresentar, garantindo consistência visual, clareza nas informações exibidas e facilidade de uso durante a navegação no sistema.
 
-
-
 ## Video de validação feita com um jogador
+
 Para a validação da Especificação Suplementar, cada integrante do grupo ficou responsável por validar a especificação suplementar de sua autoria. A seguir, são apresentados os vídeos referentes às validações realizadas:
 
 - [Assista ao vídeo no YouTube](https://youtu.be/LLM2-XJXOMU). Este video foi produzido pela aluna Angélica Campos.
-- [Assista ao vídeo no YouTube](https://youtu.be/OHdbeTbz57o).  Este video é referente à validação especificação suplementar de usabelidade e foi produzido pela aluna Vera.
-- [Assista ao vídeo no YouTube](https://youtu.be/1lxHnaYfWR4).  Este video é referente à validação especificação suplementar de Confiabilidade e foi produzido pelo aluna Marcelo (Os minutos estão na descrição).
+- [Assista ao vídeo no YouTube](https://youtu.be/OHdbeTbz57o). Este video é referente à validação especificação suplementar de usabelidade e foi produzido pela aluna Vera.
+- [Assista ao vídeo no YouTube](https://youtu.be/1lxHnaYfWR4). Este video é referente à validação especificação suplementar de Confiabilidade e foi produzido pelo aluna Marcelo (Os minutos estão na descrição).
 - [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=YXONTjL32WU) Este vídeo foi produzido pelo aluno Samuel, sendo referente à validação da especificação suplementar de Compatibilidade (Os minutos estão na descrição).
 - [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=YXONTjL32WU) Este vídeo foi produzido pelo aluno Thiago, sendo referente à validação da especificação suplementar de Usabilidade (Os minutos estão na descrição).
 - [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=ZlX_tKeczd8) Este vídeo foi produzido pela aluna Raissa, sendo referente à validação da especificação suplementar de Suportabilidade (Os minutos estão na descrição).
@@ -122,14 +116,14 @@ Para a validação da Especificação Suplementar, cada integrante do grupo fico
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome   | % de Contribuição        |
-| :----- | :---------------:         |
-|Angélica| 16,67%                   |
-|Raissa |   16,67%             |
-|Vera|      16,67%             |
-| Samuel |     16,67%             |
-| Thiago |    16,67%            |
-|Marcelo |      16,67%           |
+| Nome     | % de Contribuição |
+| :------- | :---------------: |
+| Angélica |      16,67%       |
+| Raissa   |      16,67%       |
+| Vera     |      16,67%       |
+| Samuel   |      16,67%       |
+| Thiago   |      16,67%       |
+| Marcelo  |      16,67%       |
 
 ## Histórico de versão
 
@@ -138,7 +132,7 @@ Para a validação da Especificação Suplementar, cada integrante do grupo fico
 |  1.0   | 08/10/2025 | Adicionando conteudo                                 | [Vera Lucia](https://github.com/verabelucia) | [Raissa](https://github.com/RaissaAndradeS) |
 |  1.1   | 09/10/2025 | Adicionado conteúdo em confiabilidade                |                   Marcelo                    |                   Thiago                    |
 |  1.2   | 10/10/2025 | Adicionado conteúdo em compatibilidade e usabilidade |                Samuel, Thiago                |                    Vera                     |
-|  1.3   | 10/10/2025 | Corrigindo "usuários" do projeto" e pequenas coisas |             Thiago                |                    Samuel                     |
-|1.4| 11/10/2025| Adição do vídeo de validação | Vera | Angélica |
-|1.5| 11/10/2025| Adição do vídeo de validação | Marcelo | Thiago|
-|1.5.1| 11/10/2025| Adição do vídeo de validação dos integrantes | Thiago | Marcelo |
+|  1.3   | 10/10/2025 | Corrigindo "usuários" do projeto" e pequenas coisas  |                    Thiago                    |                   Samuel                    |
+|  1.4   | 11/10/2025 | Adição do vídeo de validação                         |                     Vera                     |                  Angélica                   |
+|  1.5   | 11/10/2025 | Adição do vídeo de validação                         |                   Marcelo                    |                   Thiago                    |
+| 1.5.1  | 11/10/2025 | Adição do vídeo de validação dos integrantes         |                    Thiago                    |                   Marcelo                   |
