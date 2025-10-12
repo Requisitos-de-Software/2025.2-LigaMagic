@@ -43,10 +43,10 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 |     08      | Salvar carta para compra futura                                                                        |     Angélica      |
 |     09      | Gerenciar Wishlist Existente                                                                           |     Angélica      |
 |     10     | Encontrar carta específica rapidamente                                                                 |     Angélica      |
-|     11     | O sistema deve possibilitar participação dos consumidores em fóruns de discussão (postagem e resposta) |      Samuel       |
-|     12     | Permitir que o jogador compartilhe informações da carta por link direto                                |      Samuel       |
-|     13     | Permitir que o jogadores avalie ou dê feedback sobre vendedores ou decks                               |      Thiago       |
-|     14     | Os jogadores devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas.             |      Thiago       |
+|     09     | O sistema deve possibilitar participação dos consumidores em fóruns de discussão (postagem e resposta) |      Samuel       |
+|     10     | Permitir que o jogador compartilhe informações da carta por link direto                                |      Samuel       |
+|     11     | Permitir que o jogadores avalie ou dê feedback sobre vendedores ou decks                               |      Thiago       |
+|     12     | Os jogadores devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas.             |      Thiago       |
 
 **Tabela 2** - Distribuição de funcionalidades
 
@@ -251,11 +251,11 @@ Fonte: Angélica, 2025
 
 Fonte: Angélica, 2025
 
-### Cenário 11: Participação em Fóruns de Discussão
+### Cenário 09: Participação em Fóruns de Discussão
 
 **Requisito Associado:** [RI02] - O sistema deve possibilitar participação dos jogadres em fóruns de discussão (postagem e resposta)
 
-<div align="center"><strong>Tabela 13: Cenário 11</strong></div>
+<div align="center"><strong>Tabela 13: Cenário 09</strong></div>
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                    |
 | :------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -270,11 +270,11 @@ Fonte: Angélica, 2025
 
 **Fonte:** Samuel, 2025
 
-### Cenário 12: Compartilhamento de Informações de Carta
+### Cenário 10: Compartilhamento de Informações de Carta
 
 **Requisito Associado:** [RI06] - Permitir que o consumidor compartilhe informações da carta por link direto
 
-<div align="center"><strong>Tabela 14: Cenário 12</strong></div>
+<div align="center"><strong>Tabela 14: Cenário 10</strong></div>
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                              |
 | :------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -289,11 +289,11 @@ Fonte: Angélica, 2025
 
 **Fonte:** Samuel, 2025
 
-### Cenário 13: Avaliar Vendedor Após Receber Compra
+### Cenário 11: Avaliar Vendedor Após Receber Compra
 
 **Requisito Associado:** [RI04] - Permitir que o comprador avalie ou dê feedback sobre vendedores ou decks
 
-<div align="center"><strong>Tabela 15: Cenário 13</strong></div>
+<div align="center"><strong>Tabela 15: Cenário 11</strong></div>
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -308,11 +308,11 @@ Fonte: Angélica, 2025
 
 **Fonte:** Thiago, 2025
 
-### Cenário 14: Adicionar Cartas à Coleção via Lista de Desejos
+### Cenário 12: Adicionar Cartas à Coleção via Lista de Desejos
 
 **Requisito Associado:** [RI10] - Os jogadores devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas.
 
-<div align="center"><strong>Tabela 16: Cenário 14</strong></div>
+<div align="center"><strong>Tabela 16: Cenário 12</strong></div>
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
