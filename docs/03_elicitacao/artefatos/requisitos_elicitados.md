@@ -76,6 +76,20 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 | RNF06 {#rnf06} | Atualização do Sistema                             |     Disponibilidade     | O sistema deve suportar alterações na configuração ou apresentação sem interromper o uso                              | [Análise de Documentos](../tecnicas/analise_documentos.md) |
 | RNF07 {#rnf07} | Informações Legais e Tributárias                   |     Confiabilidade      | Garantir que anúncios incluam informações fiscais corretas                                                            | [Análise de Documentos](../tecnicas/analise_documentos.md) |
 
+### RNF08 - RNF16: Requisitos da Observação {#rnf08---rnf16-requisitos-da-observacao}
+
+|       ID       | Requisitos                                  |       Categoria        | Descrição                                                                                                                                                                                                                         | Fonte                                   |
+| :------------: | :------------------------------------------ | :--------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------- |
+| RNF08 {#rnf08} | Responsividade                              |      Usabilidade      | O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone                                                                                                            | [Observação](../tecnicas/observacao.md) |
+| RNF09 {#rnf09} | Organização visual                          |      Usabilidade      | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação                                                                         | [Observação](../tecnicas/observacao.md) |
+| RNF10 {#rnf10} | Tempo de resposta para busca               |      Performance       | O sistema deve retornar resultados de busca em no máximo 3 segundos                                                                                                                                                              | [Observação](../tecnicas/observacao.md) |
+| RNF11 {#rnf11} | Disponibilidade                            |     Confiabilidade     | O sistema deve estar disponível 99,5% do tempo                                                                                                                                                                                   | [Observação](../tecnicas/observacao.md) |
+| RNF12 {#rnf12} | Compatibilidade com navegadores            |   Compatibilidade     | A plataforma deve ser totalmente compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari), tanto em desktop quanto em dispositivos móveis | [Observação](../tecnicas/observacao.md) |
+| RNF13 {#rnf13} | Segurança de dados                         | Segurança da Informação | O sistema deve criptografar todas as informações sensíveis dos usuários                                                                                                                                                          | [Observação](../tecnicas/observacao.md) |
+| RNF14 {#rnf14} | Padronização de mensagens                  |      Usabilidade      | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões                                                                                                                  | [Observação](../tecnicas/observacao.md) |
+| RNF15 {#rnf15} | Backup de dados                            |     Confiabilidade     | O sistema deve realizar backup automático dos dados a cada 24 horas                                                                                                                                                              | [Observação](../tecnicas/observacao.md) |
+| RNF16 {#rnf16} | Escalabilidade                             |      Performance       | O sistema deve suportar um aumento de 50% no número de usuários simultâneos sem degradação significativa de performance                                                                                                           | [Observação](../tecnicas/observacao.md) |
+
 ## Requisitos Não Funcionais Não Implementados
 
 |      ID      | Requisitos                   |          Categoria           | Descrição                                                                                                                                                                                    | Fonte                                                      |
@@ -97,7 +111,7 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 - **Total de Requisitos Não Funcionais**: 16
 - **Total de Requisitos Não Funcionais Não Implementados**: 3
 - **Total Geral**: 56 requisitos
-- **[Requisitos Não Implementados no App](requisitos_nao_implementados.md)**: 11
+- **[Requisitos Não Implementados no App](requisitos_nao_implementados.md)**: 15
 
 ## Bibliografia
 

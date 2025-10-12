@@ -42,7 +42,7 @@ A elaboração desta Especificação Suplementar organizar e detalhar os requisi
 
 As funcionalidades deste projeto foram listados a partir das técnicas de elicicação:
 
-- Analise de Dcumentos
+- Analise de Documentos
 - Observação
 - Glossário
 
@@ -52,11 +52,11 @@ Os requisitos que foram elicitados com essas técnicas estão no artefato [Requi
 
 A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva e consistente para o consumidor deve seguir padrões visuais e de navegação conhecidos.
 
-|  ID  | Descrição                                                                                                                                                 | Rastreabilidade                                                 | Autor    |
-| :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :------- |
-| US01 | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Vera     |
-| US02 | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Angélica |
-| US03 | O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone.                                   | [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Thiago   |
+|  ID  | Descrição                                                                                                                                                 | Rastreabilidade                                                       | Autor    |
+| :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- | :------- |
+| US01 | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação. | [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09) | Vera     |
+| US02 | As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões.                                          | [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf14) | Angélica |
+| US03 | O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone.                                   | [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08) | Thiago   |
 
 Fonte: [Vera Lucia](https://github.com/verabelucia), [Angélica](https://github.com/angelicaccampos) e [Thiago](https://github.com/Acciolyy), 2025
 
@@ -68,10 +68,10 @@ Esta seção avalia os requisitos de desempenho do software, podendo usar como m
 
 A confiabilidade do software está relacionado à sua integridade e conformidade, analisando a capacidade do sistema de funcionar corretamente mesmo diante de falhas.
 
-|  ID   | Descrição                                                                                                                                                                                                                                                    | Rastreabilidade                                                 |  Autor  |
-| :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :-----: |
-| CON01 | Garantir que anúncios incluam informações fiscais corretas                                                                                                                                                                                                   | [RNF07](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Marcelo |
-| CON02 | A plataforma deve ser totalmente compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari), tanto em suas versões para desktop quanto para dispositivos móveis (Android e iOS) | [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md) | Samuel  |
+|  ID   | Descrição                                                                                                                                                                                                                                                    | Rastreabilidade                                                       |  Autor  |
+| :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- | :-----: |
+| CON01 | Garantir que anúncios incluam informações fiscais corretas                                                                                                                                                                                                   | [RNF07](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf07) | Marcelo |
+| CON02 | A plataforma deve ser totalmente compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari), tanto em suas versões para desktop quanto para dispositivos móveis (Android e iOS) | [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12) | Samuel  |
 
 **Fonte:** Marcelo e Samuel,2025
 
@@ -79,10 +79,10 @@ A confiabilidade do software está relacionado à sua integridade e conformidade
 
 Os requisitos de suportabilidade se referem às características que tornam o software mais fácil de usar, manter e adaptar. Entre essas características estão a testabilidade, adaptabilidade, manutenibilidade, compatibilidade, configurabilidade, instalabilidade, escalabilidade, localizabilidade, entre outras.
 
-|  ID   | Descrição                                                                                                          | Rastreabilidade                                                 |
-| :---: | :----------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- |
-| SUP01 | Permite que o sistema seja alterado ou atuaizado sem interromper o uso, ligado a manutenibilidade e adaptabilidade | [RNF06](../../03_elicitacao/artefatos/requisitos_elicitados.md) |
-| SUP02 | O sistema funcione em diferentes navegadores                                                                       | [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md) |
+|  ID   | Descrição                                                                                                          | Rastreabilidade                                                       |
+| :---: | :----------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
+| SUP01 | Permite que o sistema seja alterado ou atuaizado sem interromper o uso, ligado a manutenibilidade e adaptabilidade | [RNF06](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf06) |
+| SUP02 | O sistema funcione em diferentes navegadores                                                                       | [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12) |
 
 Fonte: [Raissa](https://github.com/RaissaAndradeS), 2025
 
