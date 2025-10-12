@@ -42,5 +42,5 @@ O objetivo é aplicar os conceitos de Engenharia de Requisitos usando a comunida
 | Versão |    Data    | Descrição                                     |     Autor(es)     | Revisor(es) |
 | :----: | :--------: | :-------------------------------------------- | :---------------: | :---------: |
 |  1.0   | 04/09/2025 | Criação da git page                           |      Samuel       |  Angélica   |
-|  1.1   | 06/09/2025 | Adição da intro, Objetivo e logo da LigaMagic |     Angélica      |             |
-|  1.2   | 09/09/2025 | Adicionar a opção de contraste de cores       | Samuel, Guilherme |             |
+|  1.1   | 06/09/2025 | Adição da intro, Objetivo e logo da LigaMagic |     Angélica      |        Raissa     |
+|  1.2   | 09/09/2025 | Adicionar a opção de contraste de cores       | Samuel, Guilherme |     Raissa        |

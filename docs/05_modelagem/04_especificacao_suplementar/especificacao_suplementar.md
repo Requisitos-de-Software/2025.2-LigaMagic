@@ -81,7 +81,7 @@ Os requisitos de suportabilidade se referem às características que tornam o so
 
 |  ID   | Descrição                                                                                                          | Rastreabilidade                                                       |
 | :---: | :----------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
-| SUP01 | Permite que o sistema seja alterado ou atuaizado sem interromper o uso, ligado a manutenibilidade e adaptabilidade | [RNF06](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf06) |
+| SUP01 | Permite que o sistema seja alterado ou atualizado sem interromper o uso, ligado a manutenibilidade e adaptabilidade | [RNF06](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf06) |
 | SUP02 | O sistema funcione em diferentes navegadores                                                                       | [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12) |
 
 Fonte: [Raissa](https://github.com/RaissaAndradeS), 2025

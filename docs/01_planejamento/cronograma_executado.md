@@ -4,7 +4,7 @@ Este artefato tem como objetivo apresentar o cronograma executado do projeto, re
 
 ## Etapa 1 - Planejamento Executado
 
-    Tabela com as atividades planejadas da etapa 1:
+    Tabela com as atividades Executadas da etapa 1:
 
 | Atividade                         |     Período de Desenvolvimento     | Autor                                                                                                                                                                                                                                                                                                                  | Revisores                                                                                                                                                                                                                                                                                                              | Revisão                                |
 | :-------------------------------- | :--------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------- |
@@ -23,7 +23,7 @@ Este artefato tem como objetivo apresentar o cronograma executado do projeto, re
 
 ## Etapa 1 - Planejamento Grupo + 1
 
-    Tabela com as atividades planejadas da etapa 1:
+    Tabela com as atividades Executadas da etapa 1:
 
 | Atividade                                                |  Período de Desenvolvimento  | Autor                                                                                                                                                                                                                                                                                                                   | Revisores                                                                                                                                                                                                                                                                                                          | Revisão |
 | :------------------------------------------------------- | :--------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----: |
@@ -41,10 +41,141 @@ Este artefato tem como objetivo apresentar o cronograma executado do projeto, re
 
 ## Etapa 2 - Elicitação – Técnicas e Priorização
 
-    Tabela com as atividades planejadas da etapa 1:
+    Tabela com as atividades Executadas da etapa 2:
 
 | Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
 | :-------- | :------------------------: | :---- | :-------- | :------ |
+| Perfil dos usuários  |     01/10     | Raissa e Marcelo | Vera e Angelica  | 02/10 |
+| Analise de documento  |     01/10     | Angelica e Vera | Raissa e Marcelo | 02/10  |
+| Obvervação |     01/10     | Guilherme e Vera | Samuel e Thiago | 02/10 |
+| Glossário  |     01/10     | Samuel | Thiago | 02/10 |
+| In or Out  |     02/10     | Raissa | Vera | 02/10 |
+| Three Level Scale  |     02/10     | Guilherme e Vera | Angelica | 02/10 |
+| Pairwise |     01/10     | Angelica | Thiago | 02/10 |
+| Moscow  |     02/10     | Samuel  e Thiago | Marcelo | 02/10 |
+
+Fonte: Raissa, 2025
+
+## Etapa 3 - Modelagem de Requisitos 
+
+    Tabela com as atividades executadas da etapa 3:
+
+| Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
+| :-------- | :------------------------: | :---- | :-------- | :------ |
+| Cenários |     10/10     | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | 12/10 |
+| Léxicos  | 10/10  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | 12/10 |
+| Use Case  |     10/10    | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | 12/10 |
+| Especificação  Suplementar |     10/10   | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | 12/10 |
+
+Fonte: Raissa, 2025
+
+
+## Etapa 3 - Modelagem de Requisitos - Grupo + 1
+
+    Tabela com as atividades executadas da etapa 3:
+
+| Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
+| :-------- | :------------------------: | :---- | :-------- | :------ |
+| Cenários |     13/10     | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | 13/10 |
+| Léxicos  | 13/10  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | 13/10 |
+| Use Case  |     13/10    | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | 13/10 |
+| Especificação  Suplementar |     13/10   | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera  | 13/10 |
+
+Fonte: Raissa, 2025
+
+
+## Etapa 4-  Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework)
+
+    Tabela com as atividades executadas da etapa 4:
+
+| Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
+| :-------- | :------------------------: | :---- | :-------- | :------ |
+| Histórias de Usuários |     -     | - | - | - |
+| Backlogs |     -     | - | - | - |
+| NFR  Framework |     -     | - | - | - |
+
+Fonte: Raissa, 2025
+
+## Etapa 4-  Modelagem de Requisitos - Ágil (Histórias de Usuário, Backlogs, NFR Framework) Grupo + 1
+ 
+    Tabela com as atividades executadas da etapa 4:
+
+| Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
+| :-------- | :------------------------: | :---- | :-------- | :------ |
+| Histórias de Usuários |     -     | - | - | - |
+| Backlogs |     -     | - | - | - |
+| NFR  Framework |     -     | - | - | - |
+
+Fonte: Raissa, 2025
+
+
+## Etapa 5-  Análise de Requisitos: Verificação e Validação
+ 
+    Tabela com as atividades executadas da etapa 5:
+
+| Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
+| :-------- | :------------------------: | :---- | :-------- | :------ |
+| Verificação  |     -     | - | - | - |
+| Validação |     -     | - | - | - |
+
+Fonte: Raissa, 2025
+
+
+## Etapa 5-  Análise de Requisitos: Verificação e Validação Grupo + 1 
+ 
+    Tabela com as atividades executadas da etapa 5:
+
+| Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
+| :-------- | :------------------------: | :---- | :-------- | :------ |
+| Verificação  |     -     | - | - | - |
+| Validação |     -     | - | - | - |
+
+Fonte: Raissa, 2025
+
+## Etapa 6 -  Pós-Rastreabilidade - Gerência II
+ 
+    Tabela com as atividades executadas da etapa 6:
+
+| Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
+| :-------- | :------------------------: | :---- | :-------- | :------ |
+| -  |     -     | - | - | - |
+| -  |     -     | - | - | - |
+| -  |     -     | - | - | - |
+| -  |     -     | - | - | - |
+
+
+Fonte: Raissa, 2025
+
+
+## Etapa 6 -  Pós-Rastreabilidade - Gerência II Grupo + 1
+ 
+    Tabela com as atividades executadas da etapa 6:
+
+| Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
+| :-------- | :------------------------: | :---- | :-------- | :------ |
+| -  |     -     | - | - | - |
+| -  |     -     | - | - | - |
+| -  |     -     | - | - | - |
+| -  |     -     | - | - | - |
+
+
+Fonte: Raissa, 2025
+
+## Etapa 7 -  Projeto Final
+ 
+    Tabela com as atividades executadas da etapa 6:
+
+| Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
+| :-------- | :------------------------: | :---- | :-------- | :------ |
+| -  |     -     | - | - | - |
+| -  |     -     | - | - | - |
+| -  |     -     | - | - | - |
+| -  |     -     | - | - | - |
+
+
+Fonte: Raissa, 2025
+
+
 
 ## Bibliografia
 
@@ -56,4 +187,5 @@ Este artefato tem como objetivo apresentar o cronograma executado do projeto, re
 | :----: | :--------: | :------------------------------------ | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
 |  1.0   | 09/09/2025 | Cronograma Executado                  | [Vera](https://github.com/verabelucia) e [Raissa](https://github.com/RaissaAndradeS) | [Vera](https://github.com/verabelucia) e [Raissa](https://github.com/RaissaAndradeS) |
 |  1.1   | 09/09/2025 | Grupo + 1                             |                     [Raissa](https://github.com/RaissaAndradeS)                      |                                                                                      |
-|  1.2   | 02/09/2025 | Formatação e organização do documento |                                        Samuel                                        |                                          -                                           |
+|  1.2   | 02/09/2025 | Formatação e organização do documento | Samuel |  Raissa  |
+|  1.3   | 12/10/2025 | Adicionando etapas 2, 3, 4, 5, 6, 7 | Raissa |  -  |

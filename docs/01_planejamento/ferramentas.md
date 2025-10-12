@@ -22,6 +22,8 @@ Com objetivo de desenvolver o projeto, foram utilizadas ferramentas específicas
 |            ![Figma](../00_assets/images/ferramentas/figma.png){: style="height:50px;width:50px"}            |         **Figma**          | Usado para Prototipação.                                        |
 |       ![Lucidchart](../00_assets/images/ferramentas/lucidchart.png){: style="height:50px;width:50px"}       |       **Lucidchart**       | Usado para criação de diagramas.                                |
 | ![ThisPersonDoesNotExist](../00_assets/images/ferramentas/thisperson.png){: style="height:50px;width:50px"} | **ThisPersonDoesNotExist** | Geração de imagens falsas de personas.                          |
+| ![PlantUML](../00_assets/images/ferramentas/plantuml.png){: style="height:50px;width:50px"} | **PlantUML** | Geração de diagramas UML a partir de texto. [https://plantuml.com](https://plantuml.com) |
+
 
 **Fonte:** [Thiago](https://github.com/Acciolyy), 08 de set. de 2025.
 
@@ -39,6 +41,7 @@ Com objetivo de desenvolver o projeto, foram utilizadas ferramentas específicas
 - [Figma](https://www.figma.com/pt-br/) Acesso em: 8 de set. de 2025.
 - [Lucidchart](https://www.lucidchart.com/pages/pt/landing?utm_source=google&utm_medium=cpc&utm_campaign=_chart_pt_allcountries_mixed_search_brand_phrase_&km_CPC_CampaignId=1500131479&km_CPC_AdGroupID=57888677956&km_CPC_Keyword=%2Blucidcharts&km_CPC_MatchType=b&km_CPC_ExtensionID=&km_CPC_Network=g&km_CPC_AdPosition=&km_CPC_Creative=286634000599&km_CPC_TargetID=kwd-334618660008&km_CPC_Country=9198361&km_CPC_Device=c&km_CPC_placement=&km_CPC_target=&gad_source=1&gad_campaignid=1500131479&gbraid=0AAAAADLdSjA18ykxm14mE7lUqLs6ashw3&gclid=CjwKCAjw_fnFBhB0EiwAH_MfZlCmYLJP2kdqgcFU59669Ykc02AZTsR8oOI764h1ExXfYqPf8itx1hoCGQ4QAvD_BwE) Acesso em: 8 de set. de 2025.
 - [ThisPersonDoesNotExist](https://thispersondoesnotexist.tools/) Acesso em: 8 de set. de 2025.
+- [PlantUml](https://plantuml.com) Acesso em: 09/10/2025
 
 ## Histórico de Versões
 
@@ -46,4 +49,5 @@ Com objetivo de desenvolver o projeto, foram utilizadas ferramentas específicas
 | :--------: | :--------: | :------------------------------------ | :-----------------------------------: | :-----------------------------------------: |
 |    1.0     | 07/09/2025 | Versão inicial da página              | [Thiago](https://github.com/Acciolyy) | [Samuel](https://github.com/samuelncaetano) |
 |    1.1     | 08/09/2025 | Versão modificada da página           | [Thiago](https://github.com/Acciolyy) | [Samuel](https://github.com/samuelncaetano) |
-|    1.2     | 02/09/2025 | Formatação e organização do documento |                Samuel                 |                      -                      |
+|    1.2     | 02/09/2025 | Formatação e organização do documento |                Samuel                 | Raissa                  |
+|    1.3     | 10/10/2025 | Adicionando a ferramenta PlantUml |                Raissa|   -     |
