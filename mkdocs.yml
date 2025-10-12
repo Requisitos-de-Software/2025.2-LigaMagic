@@ -29,6 +29,8 @@ theme:
         name: Mudar para modo claro
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - attr_list
 
 nav:
