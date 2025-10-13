@@ -31,16 +31,16 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 
 | Id  | Cenário                                                                                                |       Autor       |                              Requisito Associado                               |
 | :-: | :----------------------------------------------------------------------------------------------------- | :---------------: | :----------------------------------------------------------------------------: |
+| 08  | Salvar carta para compra futura                                                                        |     Angélica      | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14) |
+| 09  | Gerenciar Wishlist Existente                                                                           |     Angélica      | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14) |
+| 10  | Encontrar carta específica rapidamente                                                                 |     Angélica      | [RFNI15](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni15) |
+| 06  | Permitir definir um alerta de preço para a carta selecionada                                           |    Vera Lucia     | [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05) |
+| 07  | Permitir reporte de problemas relacionados à carta ou anúncios                                         |    Vera Lucia     | [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07) |
 | 01  | Sistema que personaliza e mantem a página pessoal/profissional                                         | Marcelo de Araújo | [RFNI01](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni01) |
 | 02  | Sistema de filtragem de cartas por qualidade/condição                                                  | Marcelo de Araújo | [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni03) |
 | 03  | Criar e Salvar Lista de Decks                                                                          |  Raissa Andrade   | [RFNI09](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni09) |
 | 04  | Gerenciar Lista de Decks                                                                               |  Raissa Andrade   | [RFNI09](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni09) |
 | 05  | Comprar por Lista                                                                                      |  Raissa Andrade   | [RFNI11](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni11) |
-| 06  | Permitir definir um alerta de preço para a carta selecionada                                           |    Vera Lucia     | [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05) |
-| 07  | Permitir reporte de problemas relacionados à carta ou anúncios                                         |    Vera Lucia     | [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07) |
-| 08  | Salvar carta para compra futura                                                                        |     Angélica      | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14) |
-| 09  | Gerenciar Wishlist Existente                                                                           |     Angélica      | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14) |
-| 10  | Encontrar carta específica rapidamente                                                                 |     Angélica      | [RFNI15](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni15) |
 | 09  | O sistema deve possibilitar participação dos consumidores em fóruns de discussão (postagem e resposta) |      Samuel       | [RFNI02](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni02) |
 | 10  | Permitir que o jogador compartilhe informações da carta por link direto                                |      Samuel       | [RFNI06](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni06) |
 | 11  | Permitir que o jogadores avalie ou dê feedback sobre vendedores ou decks                               |      Thiago       | [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04) |
