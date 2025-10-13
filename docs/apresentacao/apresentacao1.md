@@ -27,6 +27,10 @@ A **Entrega 1** consiste na apresentação inicial do projeto e deve contemplar 
 |  9  | Rich Picture               | Representação visual do aplicativo escolhido.                                                                           |
 | 10  | Tabela de Contribuição     | Registro da contribuição de cada integrante, com hiperlinks para a atividade correspondente e gravação (quando houver). |
 
+## Documentação de avaliação da entrega 1
+
+[Documentação de avaliação da entrega 1 disponivel em PDF.](../00_assets/pdfs/RequisitosEntrega1PlanejamentoGrupo02.pdf)
+
 > Fonte: Plano de Ensino da disciplina de Requisitos de Software
 
 ## Histórico de versão
@@ -34,3 +38,4 @@ A **Entrega 1** consiste na apresentação inicial do projeto e deve contemplar 
 | Versão |    Data    | Descrição                    | Autor(es) | Revisor(es) |
 | :----: | :--------: | :--------------------------- | :-------: | :---------: |
 |  1.0   | 05/09/2025 | Documentação da apresentação | Angélica  |   Marcelo   |
+|  1.1   | 13/10/2025 | Adição da Documentação de avaliação da entrega 1 | Angélica  |   Marcelo   |

@@ -23,9 +23,16 @@ A **Entrega 2** consiste na apresentação da segunda etapa do projeto e deve co
 
 > Fonte: Plano de Ensino da disciplina de Requisitos de Software
 
+
+## Documentação de avaliação da entrega 1
+
+[Documentação de avaliação da entrega 2 disponivel em PDF.](../00_assets/pdfs/RequisitosEntrega2ElicitacaoGrupo02.pdf)
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                       | Autor(es) | Revisor(es) |
 | :----: | :--------: | :------------------------------ | :-------: | :---------: |
 |  1.0   | 19/09/2025 | Documentação da apresentação    | Angélica  |   Raissa    |
 |  1.1   | 30/09/2025 | Adicionar video de apresentação | Angélica  |   Raissa    |
+|  1.2   | 13/10/2025 | Adição da Documentação de avaliação da entrega 1 | Angélica  |   Raissa   |
+
