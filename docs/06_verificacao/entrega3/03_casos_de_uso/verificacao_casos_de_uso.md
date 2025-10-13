@@ -69,7 +69,7 @@ Foi realizada uma comparação sistemática entre as duas listas para:
 | 26 | Tudo que acontece no app está representado dentro do sistema (retângulo)? |Angélica|
 | 27 | Os atores são representados por bonecos? |Angélica|
 | 28 | Os atores estão fora do sistema (retângulo)?|Angélica|
-| 29 | Os atores secundários, que são aqueles que reagem após a ação do ator secundário, estão posicionados a direita do sistema? |Angélica|
+| 29 | Os atores secundários, que são aqueles que reagem após a ação do ator primário, estão posicionados a direita do sistema? |Angélica|
 | 30 | As elipses representam uma ação que realiza uma tarefa dentro do sistema (retângulo)? |Angélica|
 | 31 | Os casos de uso representam cada uma das ações que o sistema faz? |Angélica|
 | 32 | Os casos de uso são suficientemente descritivos? |Angélica|
