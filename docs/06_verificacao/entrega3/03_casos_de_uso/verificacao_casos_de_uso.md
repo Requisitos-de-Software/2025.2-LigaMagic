@@ -103,4 +103,4 @@ Foi realizada uma comparação sistemática entre as duas listas para:
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | :----: | :--: | :-------- | :-------: | :-----: |
-|1.1|	07/10/2025|	Adição da tabela de verificação |	Angélica	|Guilherme       
+|1.1|	07/10/2025|	Adição da tabela de verificação |	Angélica	|Guilherme      | 
