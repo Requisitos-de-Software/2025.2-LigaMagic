@@ -50,6 +50,13 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 
 ## Video de inspeção 
 - [Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=lsChvv3-GMg). Este video foi produzido pela aluna Angélica Campos.
+- [Assista ao vídeo no YouTube.](https://youtu.be/jeBSOpccCdw) Este vídeo foi produzido pelas alunas Raissa Andrade e Vera Lucia. Segue a lista de verificação utilizada:
+[Lista de verificação Raissa - Caso de Uso](/00_assets/pdfs/verificacao/CasodeUsoRaissaAndrade.pdf)
+ e [Lista de verificação Vera - Caso de Uso](/../00_assets/pdfs/verificacao/CasodeUsoVera.pdf)
+
+
+
+
 
 
 ## Histórico de versão

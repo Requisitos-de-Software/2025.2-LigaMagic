@@ -41,6 +41,8 @@ Fonte: Marcelo, 2025
 
 ## Video de inspeção 
 - [Assista ao vídeo no YouTube](https://youtu.be/MBGN-T71PzY). Este video foi produzido pelos alunos Marcelo, Samuel e Thiago.
+- [Assista ao vídeo no YouTube.](https://youtu.be/GK7pTG2pDl4) Este vídeo foi produzido pelas alunas Raissa Andrade e Vera Lucia. Segue a lista de verificação utilizada: [Lista de verificação Raissa - Cenários](CenárioRaissaAndradeVerifacação.pdf) e [Lista de verificação- Vera Cenários](/00_assets/pdfs/verificacao/CenáriosVeraVerifacaçãoLista.pdf)
+
 
 ## Histórico de versão
 
