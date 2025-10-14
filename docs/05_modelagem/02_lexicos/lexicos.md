@@ -49,6 +49,10 @@ Cada léxico possui:
   - É impedido de realizar ações restritas, como [Comprar Carta](#l06-comprar-carta), [Leiloar Carta](#l07-leiloar-carta), criar [Decks](#l09-deck), gerenciar uma [Coleção de Cartas](#l10-colecao-de-cartas) ou publicar no [Fórum](#l13-forum).
   - Pode iniciar o processo de [Cadastro](#l03-cadastrar) para se tornar um [Membro](#l01-membro).
 
+---
+
+### VERBO
+
 #### L03 - Cadastrar {#l03-cadastrar}
 
 - **Noção:**
@@ -98,6 +102,10 @@ Cada léxico possui:
   - A [Carta](#l08-carta) fica temporariamente indisponível para venda direta.
   - Outros [Membros](#l01-membro) podem registrar lances.
   - Ao término do período, a [Carta](#l08-carta) é vendida ao [Membro](#l01-membro) com o maior lance.
+
+---
+
+### OBJETO
 
 #### L08 - Carta {#l08-carta}
 
