@@ -15,16 +15,16 @@ A análise foi conduzida por meio de uma revisão estruturada, utilizando uma ta
 
 |  ID  | Item de verificação                                                                                                                                                              | Autor     | Resposta (Sim / Não / Incompleto) | Versão data da avaliação |
 |:----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|:----------------------------------|:-------------------------|
-|  6   | A descrição da "Noção" é clara, objetiva e se assemelha a uma definição de dicionário?                                                                                           | Samuel    |                                   | 1.0 - 13/10/2025         |
-|  7   | A descrição do "Impacto" é de fácil entendimento ao explicar o efeito ou uso do símbolo?                                                                                         | Samuel    |                                   | 1.0 - 13/10/2025         |
+|  6   | A descrição da "Noção" é clara, objetiva e se assemelha a uma definição de dicionário?                                                                                           | Samuel    | Sim                               | 1.0 - 13/10/2025         |
+|  7   | A descrição do "Impacto" é de fácil entendimento ao explicar o efeito ou uso do símbolo?                                                                                         | Samuel    | Sim                               | 1.0 - 13/10/2025         |
 
 ### Completude
 
 |  ID  | Item de verificação                                                                                                                                                              | Autor     | Resposta (Sim / Não / Incompleto) | Versão data da avaliação |
 |:----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|:----------------------------------|:-------------------------|
-|  8   | O léxico contempla todos os termos essenciais para a compreensão do universo da aplicação?                                                                                       | Samuel    |                                   | 1.0 - 13/10/2025         |
-|  9   | Cada símbolo possui ao menos uma "Noção" descrita?                                                                                                                               | Samuel    |                                   | 1.0 - 13/10/2025         |
-|  10  | Cada símbolo possui ao menos um "Impacto" descrito?                                                                                                                              | Samuel    |                                   | 1.0 - 13/10/2025         |
+|  8   | O léxico contempla todos os termos essenciais para a compreensão do universo da aplicação?                                                                                       | Samuel    | Sim                               | 1.0 - 13/10/2025         |
+|  9   | Cada símbolo possui ao menos uma "Noção" descrita?                                                                                                                               | Samuel    | Sim                               | 1.0 - 13/10/2025         |
+|  10  | Cada símbolo possui ao menos um "Impacto" descrito?                                                                                                                              | Samuel    | Sim                               | 1.0 - 13/10/2025         |
 
 ### Consistência e Regras por Tipo
 
@@ -32,29 +32,29 @@ A análise foi conduzida por meio de uma revisão estruturada, utilizando uma ta
 
 |  ID  | Item de verificação                                                                                                                                                              | Autor     | Resposta (Sim / Não / Incompleto) | Versão data da avaliação |
 |:----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|:----------------------------------|:-------------------------|
-|  11  | A "Noção" esclarece quem executa a ação, quando ela ocorre e quais os procedimentos?                                                                                             | Samuel    |                                   | 1.0 - 13/10/2025         |
-|  12  | O "Impacto" detalha os reflexos da ação no ambiente e os novos estados que dela decorrem?                                                                                        | Samuel    |                                   | 1.0 - 13/10/2025         |
+|  11  | A "Noção" esclarece quem executa a ação, quando ela ocorre e quais os procedimentos?                                                                                             | Samuel    | Sim                               | 1.0 - 13/10/2025         |
+|  12  | O "Impacto" detalha os reflexos da ação no ambiente e os novos estados que dela decorrem?                                                                                        | Samuel    | Sim                               | 1.0 - 13/10/2025         |
 
 #### OBJETO
 
 |  ID  | Item de verificação                                                                                                                                                              | Autor     | Resposta (Sim / Não / Incompleto) | Versão data da avaliação |
 |:----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|:----------------------------------|:-------------------------|
-|  13  | A "Noção" define o objeto e identifica outros objetos com os quais se relaciona?                                                                                                 | Samuel    |                                   | 1.0 - 13/10/2025         |
-|  14  | O "Impacto" especifica as ações que podem ser aplicadas sobre ele?                                                                                                               | Samuel    |                                   | 1.0 - 13/10/2025         |
+|  13  | A "Noção" define o objeto e identifica outros objetos com os quais se relaciona?                                                                                                 | Samuel    | Sim                               | 1.0 - 13/10/2025         |
+|  14  | O "Impacto" especifica as ações que podem ser aplicadas sobre ele?                                                                                                               | Samuel    | Sim                               | 1.0 - 13/10/2025         |
 
 #### ESTADO
 
 |  ID  | Item de verificação                                                                                                                                                              | Autor     | Resposta (Sim / Não / Incompleto) | Versão data da avaliação |
 |:----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|:----------------------------------|:-------------------------|
-|  15  | A "Noção" explica o que o estado significa e quais ações o originaram?                                                                                                           | Samuel    |                                   | 1.0 - 13/10/2025         |
-|  16  | O "Impacto" identifica outros estados ou ações que podem ocorrer a partir dele?                                                                                                  | Samuel    |                                   | 1.0 - 13/10/2025         |
+|  15  | A "Noção" explica o que o estado significa e quais ações o originaram?                                                                                                           | Samuel    | Sim                               | 1.0 - 13/10/2025         |
+|  16  | O "Impacto" identifica outros estados ou ações que podem ocorrer a partir dele?                                                                                                  | Samuel    | Sim                               | 1.0 - 13/10/2025         |
 
 #### SUJEITO
 
 |  ID  | Item de verificação                                                                                                                                                              | Autor     | Resposta (Sim / Não / Incompleto) | Versão data da avaliação |
 |:----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------|:----------------------------------|:-------------------------|
-|  17  | A "Noção" responde claramente à pergunta "Quem é o sujeito?"?                                                                                                                    | Samuel    |                                   | 1.0 - 13/10/2025         |
-|  18  | O "Impacto" responde claramente à pergunta "Quais ações ele executa?"?                                                                                                           | Samuel    |                                   | 1.0 - 13/10/2025         |
+|  17  | A "Noção" responde claramente à pergunta "Quem é o sujeito?"?                                                                                                                    | Samuel    | Não                               | 1.0 - 13/10/2025         |
+|  18  | O "Impacto" responde claramente à pergunta "Quais ações ele executa?"?                                                                                                           | Samuel    | Não                               | 1.0 - 13/10/2025         |
 
 Fonte: Thiago, Marcelo e Samuel, 2025
 
