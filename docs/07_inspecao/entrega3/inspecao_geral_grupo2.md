@@ -48,5 +48,5 @@ Fonte: Thiago, Samuel, Angélica, Raissa e Vera, 2025
 
 | Versão |    Data    | Descrição                      | Autor(es) |                    Revisor(es)                     |
 | :----: | :--------: | :----------------------------- | :-------: | :------------------------------------------------: |
-|  1.0   | 13/10/2025 | Criação da estrutura da página |  Samuel   | Angélica, Tiago, Guilherme, Marcelo, Raissa e Vera |
+|  1.0   | 13/10/2025 | Criação da estrutura da página |  Thiago   | Angélica, Tiago, Guilherme, Marcelo, Raissa e Vera |
 
