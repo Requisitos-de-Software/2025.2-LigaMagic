@@ -1,4 +1,4 @@
-# Lista de Verificação - Casos de Uso
+# Lista de Verificação - Backlogs
 
 ## Descrição
 
@@ -17,7 +17,7 @@
 | 4 | O backlog possui detalhes suficientes para ajudar os desenvolvedores a implementas esses requisitos, ou seja, uma sprint tem a quantidade de funcionalidades necessárias detalhadas?  |Angélica |
 | 5 |  O backlog é estimado ou estimável, contendo partes entendíveis sendo fácil de ser agendado?   |Angélica |
 
-[Lista de verificação Angélica – Verificação - Casos de Uso com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/)
+[Lista de verificação Angélica – Verificação - Backlogs com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/)
 
 
 ## Bibliografia

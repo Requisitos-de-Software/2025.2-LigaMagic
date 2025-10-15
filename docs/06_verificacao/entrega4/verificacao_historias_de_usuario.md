@@ -1,5 +1,4 @@
-# Lista de Verificação - Casos de Uso
-
+# Lista de Verificação - historias de usuario
 ## Descrição
 
 ## Objetivo
@@ -17,7 +16,7 @@
 | 4 | As historias de usuario definem o escopo sem muitos detalhes?    |Angélica |
 | 5 | As historias de usuario são uma declarações breves?     |Angélica |
 
-[Lista de verificação Angélica – Verificação - Casos de Uso com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/)
+[Lista de verificação Angélica – Verificação - historias de usuario com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/)
 
 
 ## Bibliografia

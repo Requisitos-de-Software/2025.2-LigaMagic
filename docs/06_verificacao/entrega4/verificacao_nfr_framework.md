@@ -1,4 +1,4 @@
-# Lista de Verificação - Casos de Uso
+# Lista de Verificação - NFR
 
 ## Descrição
 
@@ -17,7 +17,7 @@
 | 4 | O framework avalia o impacto das decisões tomadas?    |Angélica |
 | 5 | O framework estabelece interdependências entre NFRs?     |Angélica |
 
-[Lista de verificação Angélica – Verificação - Casos de Uso com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/)
+[Lista de verificação Angélica – Verificação - NFR com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/)
 
 
 ## Bibliografia
