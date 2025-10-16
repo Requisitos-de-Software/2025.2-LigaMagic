@@ -72,9 +72,9 @@ nav:
       - Casos de Uso: 05_modelagem/03_casos_de_uso/casos_de_uso.md
       - Especificação Suplementar: 05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md
       - Agil:
-          - NFR Framework: 05_modelagem/05_Agil/01_NFR.md
-          - Backlogs: 05_modelagem/05_Agil/03_Backlogs.md
-          - Histórias de Usuário: 05_modelagem/05_Agil/02_historias_de_usuario.md
+          - Histórias de Usuário: 05_modelagem/05_Agil/01_historias_de_usuario.md
+          - Backlogs: 05_modelagem/05_Agil/02_backlogs.md
+          - NFR Framework: 05_modelagem/05_Agil/03_nfr_framework.md
 
   - Verificação:
       - Entrega 1:
@@ -100,9 +100,9 @@ nav:
           - Casos de Uso: 06_verificacao/entrega3/03_casos_de_uso/verificacao_casos_de_uso.md
           - Especificação Suplementar: 06_verificacao/entrega3/04_especificacao_suplementar/verificacao_especificacao_suplementar.md
       - Entrega 4:
-          - NFR Framework: 06_verificacao/entrega4/verificacao_nfr_framework.md
-          - Backlogs : 06_verificacao/entrega4/verificacao_backlogs.md
           - Histórias de Usuário : 06_verificacao/entrega4/verificacao_historias_de_usuario.md
+          - Backlogs : 06_verificacao/entrega4/verificacao_backlogs.md
+          - NFR Framework: 06_verificacao/entrega4/verificacao_nfr_framework.md
 
   - Inspeção:
       - Entrega 1:
@@ -132,11 +132,11 @@ nav:
           - Inspeção Casos de Uso: 07_inspecao/entrega3/inspecao_casos_de_uso.md
           - Inspeção Especificação Suplementar: 07_inspecao/entrega3/inspecao_especificacao_suplementar.md
       - Entrega 4:
-          - Inspeção Geral Grupo +1: 07_inspecao/entrega4/05_inspecao_geral_grupo3.md
-          - Inspeção Geral Grupo 2: 07_inspecao/entrega4/04_inspecao_geral_grupo2.md
-          - Inspeção NFR Framework: 07_inspecao/entrega4/01_inspecao_nfr.md
-          - Inspeção Backlogs : 07_inspecao/entrega4/03_inspecao_backlogs.md
-          - Inspeção Histórias de Usuário : 07_inspecao/entrega4/02_inspecao_historias_de_usuario.md
+          - Inspeção Geral Grupo 2: 07_inspecao/entrega4/01_inspecao_geral_grupo2.md
+          - Inspeção Geral Grupo +1: 07_inspecao/entrega4/02_inspecao_geral_grupo3.md
+          - Inspeção Histórias de Usuário : 07_inspecao/entrega4/03_inspecao_historias_de_usuario.md
+          - Inspeção Backlogs : 07_inspecao/entrega4/04_inspecao_backlogs.md
+          - Inspeção NFR Framework: 07_inspecao/entrega4/05_inspecao_nfr.md
 
   - Apresentações:
       - Apresentação 1: apresentacao/apresentacao1.md
