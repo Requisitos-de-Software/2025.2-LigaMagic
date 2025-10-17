@@ -73,6 +73,7 @@ A forma como os softgoals são representados pode ser observada na Figura 1, que
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição        | Autor(es) |  Revisor  |
-| :----: | :--------: | :--------------- | :-------: | :-------: |
-|  1.1   | 15/10/2025 | Adição da tabela | Angélica  | Guilherme |
+| Versão |    Data     | Descrição            | Autor(es) |  Revisor  |
+|:------:|:-----------:|:---------------------|:---------:|:---------:|
+|  1.1   | 15/10/2025  | Adição da tabela     | Angélica  | Guilherme |
+|  1.2   | 17/10/2025  | Adição da introdução |   Vera    |  Raissa   |
