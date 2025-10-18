@@ -9,16 +9,14 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 
 ## Conteúdo
 ## Avaliação - GitHub Pages
-|  | Perguntas | Autor| Resposta (Sim / Não / Incompleto) | Versão, data e hora da avaliação |
-|---|----------|----------|---------|---------|
-| 1 | As historias de usuario descrevem algo que o sistema deve fazer para o usuário?  |Angélica |||
-| 2 | As historias de usuario Representa um requisito funcional?    |Angélica |||
-| 3 | As historias de usuario estam inicialmente no nível de objetivo do usuário?    |Angélica |||
-| 4 | As historias de usuario definem o escopo sem muitos detalhes?    |Angélica |||
-| 5 | As historias de usuario são uma declarações breves?     |Angélica |||
+|   Perguntas | Fontes  | Fotos | Autor| Resposta (Sim / Não / Incompleto) | Versão, data e hora da avaliação |
+|----------|----------|---------|---------|---------|---------|
+| 1 - As historias de usuario descrevem algo que o sistema deve fazer para o usuário?  |||Angélica |||
+| 2 - As historias de usuario Representa um requisito funcional?   || |Angélica |||
+| 3 - As historias de usuario definem o escopo sem muitos detalhes?   || |Angélica |||
+| 4 - As historias de usuario são uma declarações breves?     |||Angélica |||
 
 ### **Fonte:** Angélica, 2025
-
 
 [Lista de verificação Angélica – Verificação - Casos de Uso com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/.pdf)
 
