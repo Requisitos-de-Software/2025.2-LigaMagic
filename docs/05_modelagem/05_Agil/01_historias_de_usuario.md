@@ -244,6 +244,106 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 
 **Fonte:** Angélica, 2025
 
+<div align="center"><strong>Tabela 13:</strong> História de Usuário – Personalizar Página do Usuário      </div>
+
+#### US13 - Personalizar Página do Usuário
+
+| **Item** | **Descrição** |
+|-----------|---------------|
+| **USx** | US13 |
+| **Tema** | Personalizar Página do Usuário |
+| **Descrição** | Eu, como usuário, desejo personalizar e manter minha página pessoal/profissional para exibir minhas informações e preferências dentro da plataforma. |
+| **Critérios de Aceitação** | - O sistema deve permitir que o usuário altere informações pessoais e profissionais.  - O sistema deve permitir o upload de imagem de perfil.  - O sistema deve permitir salvar e editar as informações da página pessoal. |
+| **Prioridade** | - |
+| **Status** | Não validada |
+| **Rastreabilidade** | [RFNI01](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni01) |
+| **Validação** | - |
+
+**Fonte:** Marcelo, 2025
+<div align="center"><strong>Tabela 14:</strong> História de Usuário – Filtragem de Cartas por Qualidade/Condição      </div>
+
+####  US14 - Filtragem de Cartas por Qualidade/Condição
+
+| **Item** | **Descrição** |
+|-----------|---------------|
+| **USx** | US14 |
+| **Tema** | Filtragem de Cartas por Qualidade/Condição |
+| **Descrição** | Eu, como usuário, desejo filtrar cartas por qualidade e condição para encontrar produtos que atendam melhor às minhas preferências. |
+| **Critérios de Aceitação** | - O sistema deve oferecer filtros por qualidade (nova, usada, etc.). <br> - O sistema deve oferecer filtros por condição (ótima, boa, regular). <br> - O sistema deve atualizar a lista de cartas conforme os filtros aplicados. |
+| **Prioridade** | - |
+| **Status** | Não validada |
+| **Rastreabilidade** | [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni03) |
+| **Validação** | - |
+
+**Fonte:** Marcelo, 2025
+
+<div align="center"><strong>Tabela 15:</strong> História de Usuário – Restrição de Produtos      </div>
+
+####  US15 - Restrição de Produtos
+
+| **Item** | **Descrição** |
+|-----------|---------------|
+| **USx** | US15 |
+| **Tema** | Restrição de Produtos |
+| **Descrição** | Eu, como administrador do sistema, desejo garantir que apenas produtos relacionados a Magic: The Gathering sejam cadastrados na plataforma, para manter a relevância e integridade do conteúdo. |
+| **Critérios de Aceitação** | - O sistema deve bloquear o cadastro de produtos que não pertençam ao universo de Magic. <br> - O sistema deve validar o tipo de produto antes de permitir sua publicação. |
+| **Prioridade** | - |
+| **Status** | Não validada |
+| **Rastreabilidade** | [RF04](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf04) |
+| **Validação** | - |
+
+**Fonte:** Marcelo, 2025
+
+<div align="center"><strong>Tabela 16:</strong> História de Usuário – Visualização de Detalhes da Carta      </div>
+
+####  US16 - Visualização de Detalhes da Carta
+
+| **Item** | **Descrição** |
+|-----------|---------------|
+| **USx** | US16 |
+| **Tema** | Visualização de Detalhes da Carta |
+| **Descrição** | Eu, como usuário, desejo visualizar detalhes de uma carta ao clicar no resultado da pesquisa para conhecer mais sobre ela antes de comprar ou trocar. |
+| **Critérios de Aceitação** | - O sistema deve exibir informações completas da carta selecionada. <br> - O sistema deve apresentar uma interface clara e organizada para os detalhes. <br> - O sistema deve permitir retornar à lista de resultados. |
+| **Prioridade** | - |
+| **Status** | Não validada |
+| **Rastreabilidade** | [RF27](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf27) |
+| **Validação** | - |
+
+**Fonte:** Marcelo, 2025
+
+<div align="center"><strong>Tabela 17:</strong> História de Usuário – Exibição de Informações Detalhadas da Carta     </div>
+
+####  US17 - Exibição de Informações Detalhadas da Carta
+
+| **Item** | **Descrição** |
+|-----------|---------------|
+| **USx** | US17 |
+| **Tema** | Exibição de Informações Detalhadas da Carta |
+| **Descrição** | Eu, como usuário, desejo visualizar informações detalhadas de cada carta, incluindo edição, idioma, condição e preço médio, para tomar decisões mais informadas. |
+| **Critérios de Aceitação** | - O sistema deve mostrar a edição, idioma, condição e preço médio da carta. <br> - As informações devem estar visíveis na tela de detalhes. <br> - Os dados devem ser consistentes com o banco de dados da plataforma. |
+| **Prioridade** | - |
+| **Status** | Não validada |
+| **Rastreabilidade** | [RF30](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf30) |
+| **Validação** | - |
+
+**Fonte:** Marcelo, 2025
+
+<div align="center"><strong>Tabela 18:</strong> História de Usuário – Buscar Decks Relacionados </div>
+
+####  US18 - Buscar Decks Relacionados
+
+| **Item** | **Descrição** |
+|-----------|---------------|
+| **USx** | US18 |
+| **Tema** | Buscar Decks Relacionados |
+| **Descrição** | Eu, como usuário, desejo buscar decks que utilizam a carta selecionada para entender como ela é usada em diferentes estratégias. |
+| **Critérios de Aceitação** | - O sistema deve permitir buscar decks que incluam a carta selecionada. <br> - O sistema deve apresentar uma lista com os decks encontrados. <br> - O sistema deve permitir acessar detalhes de cada deck listado. |
+| **Prioridade** | - |
+| **Status** | Não validada |
+| **Rastreabilidade** | [RF32](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf32) |
+| **Validação** | - |
+
+**Fonte:** Marcelo, 2025
 
 ## Referências
 
@@ -256,6 +356,7 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 | Samuel |                   |
 | Thiago |                   |
 | Angélica |                   |
+| Marcelo |                 |
 
 ## Histórico de versão
 
@@ -263,3 +364,4 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 | :----: | :--------: | :--------------------------- | :------------: | :-----: |
 |  1.0   | 16/10/2025 | Criação inicial do documento | Samuel, Thiago |    -    |
 |  1.1   | 18/10/2025 | adicionar histórias de usuário (US07–US12) | Angélica |    Samuel, Thiago    |
+|  1.2  | 18/10/2025 | adicionar histórias de usuário (US13–US18) | Marcelo |   Raissa  |
