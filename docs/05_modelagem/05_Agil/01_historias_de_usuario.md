@@ -19,6 +19,7 @@ As histórias de usuário foram criadas seguindo o padrão: "Como [tipo de usuá
 | **História de Usuario** | **Desenvolvedor** |
 | ----------------------- | ----------------- |
 | US01 a US06             | Samuel Nogueira   |
+| US07 a US12         | Thiago Accioly  |
 
 ---
 
@@ -143,6 +144,104 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 
 **Fonte:** Samuel, 2025
 
+### [US07] – Adicionar a Diferentes Listas
+
+| Item                        | Descrição                                                                                                                                   |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| USx                         | US07                                                                                                                                        |
+| Tema                        | Organização e Listas de Cartas                                                                                                              |
+| Descrição                   | Eu, como **usuário colecionador**, desejo **adicionar uma carta a diferentes listas (coleção, deck, desejos e carrinho)** para **gerenciar melhor meus itens e planos de compra**. |
+| Critérios de Aceitação      | - O sistema deve permitir selecionar múltiplas listas ao adicionar uma carta.<br>- O usuário pode criar listas personalizadas.<br>- A carta adicionada deve refletir em todas as listas escolhidas. |
+| Prioridade Usuário          | Alta                                                                                                                                        |
+| Status                      | Não Validada                                                                                                                                     |
+| Rastreabilidade             | RF35 – Adicionar a diferentes listas.                                                                                                       |
+| Validação                   | (#)                                                                                |
+
+<div align="center"><strong>Tabela 7:</strong> História de Usuário – Adicionar a Diferentes Listas</div>  
+**Fonte:** Thiago, 2025  
+
+### [US08] – Oferecer Canal de Contato para Solicitações
+
+| Item                        | Descrição                                                                                                                                   |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| USx                         | US08                                                                                                                                        |
+| Tema                        | Privacidade e Comunicação                                                                                                                   |
+| Descrição                   | Eu, como **usuário cadastrado**, desejo **ter acesso a um canal de contato (e-mail ou link)** para **enviar solicitações sobre meus dados pessoais** conforme a LGPD. |
+| Critérios de Aceitação      | - O sistema deve disponibilizar link ou endereço de e-mail para contato.<br>- O canal deve estar acessível na área de configurações e rodapé.<br>- O envio deve gerar confirmação automática de recebimento. |
+| Prioridade Usuário          | Alta                                                                                                                                        |
+| Status                      | Não Validada                                                                                                                                     |
+| Rastreabilidade             | RF16 – Oferecer canal de contato para solicitações.                                                                                         |
+| Validação                   | (#)                                                                                    |
+
+<div align="center"><strong>Tabela 8:</strong> História de Usuário – Oferecer Canal de Contato para Solicitações</div>  
+**Fonte:** Thiago, 2025  
+
+### [US09] – Criação de Páginas Pessoais
+
+| Item                        | Descrição                                                                                                                                   |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| USx                         | US09                                                                                                                                        |
+| Tema                        | Perfil e Personalização                                                                                                                     |
+| Descrição                   | Eu, como **usuário do sistema**, desejo **criar e personalizar minha página pessoal/profissional** para **divulgar minhas informações e coleções publicamente**. |
+| Critérios de Aceitação      | - O usuário deve poder editar foto, descrição e links pessoais.<br>- Deve ser possível escolher se a página será pública ou privada.<br>- As alterações devem ser salvas automaticamente. |
+| Prioridade Usuário          | Média                                                                                                                                       |
+| Status                      | Não Validada                                                                                                                                     |
+| Rastreabilidade             | RF10 – Permitir criação de páginas pessoais.                                                                                                |
+| Validação                   | (#)                                                                                 |
+
+<div align="center"><strong>Tabela 9:</strong> História de Usuário – Criação de Páginas Pessoais</div>  
+**Fonte:** Thiago, 2025  
+
+### [US10] – Registro de Dados Pessoais
+
+| Item                        | Descrição                                                                                                                                   |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| USx                         | US10                                                                                                                                        |
+| Tema                        | Cadastro e Segurança de Dados                                                                                                               |
+| Descrição                   | Eu, como **usuário novo**, desejo **registrar meus dados pessoais (Nome, RG, CPF, Telefone, E-mail, Data de Nascimento e Endereço)** para **completar meu perfil e garantir autenticidade no sistema**. |
+| Critérios de Aceitação      | - Todos os campos obrigatórios devem estar disponíveis no formulário de cadastro.<br>- O sistema deve validar formato de CPF e e-mail.<br>- Os dados devem ser armazenados de forma segura. |
+| Prioridade Usuário          | Alta                                                                                                                                        |
+| Status                      | Não Validada                                                                                                                                     |
+| Rastreabilidade             | RF12 – Registrar dados pessoais do usuário.                                                                                                 |
+| Validação                   | (#)                                                                             |
+
+<div align="center"><strong>Tabela 10:</strong> História de Usuário – Registro de Dados Pessoais</div>  
+**Fonte:** Thiago, 2025  
+
+### [US11] – Criação de Páginas Pessoais
+
+| Item                        | Descrição                                                                                                                                   |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| USx                         | US11                                                                                                                                        |
+| Tema                        | Perfil e Personalização                                                                                                                     |
+| Descrição                   | Eu, como **usuário do sistema**, desejo **criar e personalizar minha página pessoal/profissional** para **divulgar minhas informações e coleções publicamente**. |
+| Critérios de Aceitação      | - O usuário deve poder editar foto, descrição e links pessoais.<br>- Deve ser possível escolher se a página será pública ou privada.<br>- As alterações devem ser salvas automaticamente. |
+| Prioridade Usuário          | Média                                                                                                                                       |
+| Status                      | Não Validada                                                                                                                                     |
+| Rastreabilidade             | RF10 – Permitir criação de páginas pessoais.                                                                                                |
+| Validação                   | (#)                                                                                 |
+
+<div align="center"><strong>Tabela 11:</strong> História de Usuário – Criação de Páginas Pessoais</div>  
+**Fonte:** Thiago, 2025 
+
+### [US12] – Registro de Dados Pessoais
+
+| Item                        | Descrição                                                                                                                                   |
+|-----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| USx                         | US12                                                                                                                                        |
+| Tema                        | Cadastro e Segurança de Dados                                                                                                               |
+| Descrição                   | Eu, como **usuário novo**, desejo **registrar meus dados pessoais (Nome, RG, CPF, Telefone, E-mail, Data de Nascimento e Endereço)** para **completar meu perfil e garantir autenticidade no sistema**. |
+| Critérios de Aceitação      | - Todos os campos obrigatórios devem estar disponíveis no formulário de cadastro.<br>- O sistema deve validar formato de CPF e e-mail.<br>- Os dados devem ser armazenados de forma segura. |
+| Prioridade Usuário          | Alta                                                                                                                                        |
+| Status                      | Não Validada                                                                                                                                     |
+| Rastreabilidade             | RF12 – Registrar dados pessoais do usuário.                                                                                                 |
+| Validação                   | (#)                                                                             |
+
+<div align="center"><strong>Tabela 12:</strong> História de Usuário – Registro de Dados Pessoais</div>  
+**Fonte:** Thiago, 2025  
+
+
+
 ## Referências
 
 > **PRESSMAN, Roger S.** _Engenharia de Software: uma abordagem profissional_. Cap. 3
@@ -159,3 +258,4 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 | Versão |    Data    | Descrição                    |   Autor(es)    | Revisor |
 | :----: | :--------: | :--------------------------- | :------------: | :-----: |
 |  1.0   | 16/10/2025 | Criação inicial do documento | Samuel, Thiago |    -    |
+|  1.0   | 17/10/2025 | Edição do documento | Samuel, Thiago |    -    |
