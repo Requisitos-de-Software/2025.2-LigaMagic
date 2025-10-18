@@ -19,6 +19,7 @@ As histórias de usuário foram criadas seguindo o padrão: "Como [tipo de usuá
 | **História de Usuario** | **Desenvolvedor** |
 | ----------------------- | ----------------- |
 | US01 a US06             | Samuel Nogueira   |
+| US07 a US012            | Angélica Campos   |
 
 ---
 
@@ -143,6 +144,107 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 
 **Fonte:** Samuel, 2025
 
+#### US07 - Lista de Desejos (Wishlist)                      
+| **Item**                   | **Descrição**|
+| -------------------------- | ---------------------------------------------------------|
+| **USx**                    | **US07**|
+| **Tema**                   | Lista de Desejos (Wishlist)|
+| **Descrição**              | Eu, como usuário comprador**, desejo salvar cartas em uma lista de desejos (wishlist) para poder comprá-las futuramente ou acompanhar mudanças de preço.|
+| **Critérios de Aceitação** | - O sistema deve permitir adicionar uma carta à lista de desejos a partir da página de resultados ou detalhes da carta. <br> - O usuário deve poder visualizar todas as cartas salvas em uma seção dedicada (“Minha Wishlist”). <br> - O usuário deve conseguir remover cartas da lista de desejos.  |
+| **Prioridade**             ||
+| **Status**                 ||
+| **Rastreabilidade**        | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14)|
+| **Validação**              ||
+
+<div align="center"><strong>Tabela 7:</strong> História de Usuário –  Lista de Desejos (Wishlist)                          </div>
+
+**Fonte:** Angélica, 2025
+
+#### US08 - Busca Rápida de Cartas                          
+| **Item**                   | **Descrição**|
+| -------------------------- | ---------------------------------------------- |
+| **USx**                    | **US08**|
+| **Tema**                   | Busca Rápida de Cartas|
+| **Descrição**              | Eu, como usuário comprador, desejo realizar buscas por cartas específicas de forma eficiente e intuitiva, para encontrar rapidamente as cartas que desejo adquirir.|
+| **Critérios de Aceitação** | - O sistema deve permitir a busca por nome, tipo ou categoria da carta. <br> - Os resultados devem ser exibidos de forma clara e organizada.<br> - A busca deve funcionar mesmo com pequenas variações de digitação (ex: acentos ou maiúsculas/minúsculas). |
+| **Prioridade**             | |
+| **Status**                 | |
+| **Rastreabilidade**        | [RFNI15](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni15)|
+| **Validação**              ||
+
+<div align="center"><strong>Tabela 8:</strong> História de Usuário –  Busca Rápida de Cartas                            </div>
+
+
+**Fonte:** Angélica, 2025
+
+#### US09 - Cadastro de Usuário
+
+| **Item**                   | **Descrição**|
+| -------------------------- | -------------------------------------- |
+| **USx**                    | **US09**|
+| **Tema**                   | Cadastro de usuário|
+| **Descrição**              | Eu, como usuário comprador desejo realizar meu cadastro na plataforma para acessar os recursos do sistema e salvar minhas informações pessoais de forma segura                     |
+| **Critérios de Aceitação** | - O sistema deve permitir o cadastro com nome, e-mail e senha. <br> - O sistema deve validar se o e-mail já está cadastrado. <br> - O usuário deve receber confirmação de cadastro bem-sucedido. |
+| **Prioridade**             ||
+| **Status**                 ||
+| **Rastreabilidade**        |[RF1](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf1)|
+| **Validação**              | —|
+<div align="center"><strong>Tabela 9:</strong> História de Usuário – Cadastro de usuário                          </div>
+
+**Fonte:** Angélica, 2025
+
+#### US10 - Login e Autenticação
+| **Item**                   | **Descrição**|
+| -------------------------- | -------------------------------|
+| **USx**                    | **US10**|
+| **Tema**                   | Login de usuário|
+| **Descrição**              | Eu, como usuário comprador desejo acessar minha conta usando e-mail e senha para visualizar minhas informações e histórico de atividades                                                             |
+| **Critérios de Aceitação** | - O sistema deve validar e autenticar o login do usuário. <br> - Em caso de erro, deve exibir mensagem clara de credenciais incorretas. <br> - O login deve redirecionar o usuário para a tela inicial do sistema. |
+| **Prioridade**             ||
+| **Status**                 ||
+| **Rastreabilidade**        | [RF3](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf3)|
+| **Validação**              | —|
+
+
+<div align="center"><strong>Tabela 10:</strong> História de Usuário – Login e Autenticação                      </div>
+
+**Fonte:** Angélica, 2025
+
+
+#### US11 - Atualização de Dados do Usuário
+| **Item**                   | **Descrição**|
+| -------------------------- | ------------------------------------ |
+| **USx**                    | **US11**|
+| **Tema**                   | Atualização de Dados do Usuário|
+| **Descrição**              | Eu, como usuário comprador desejo atualizar meus dados pessoais (como endereço, telefone e e-mail)para manter minhas informações corretas e facilitar futuras compras ou comunicações
+| **Critérios de Aceitação** | - O sistema deve permitir a edição de dados pessoais (nome, e-mail, telefone, endereço). <br> - As alterações devem ser salvas corretamente no perfil do usuário. <br>  - Caso algum campo obrigatório não esteja preenchido, o sistema deve exibir uma mensagem de erro clara. |
+| **Prioridade**             ||
+| **Status**                 | Não validada|
+| **Rastreabilidade**        | [RF19](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf19)|
+| **Validação**              ||
+
+<div align="center"><strong>Tabela 11:</strong> História de Usuário – Atualização de Dados do Usuário                  </div>
+
+**Fonte:** Angélica, 2025
+
+#### US12 - Histórico de Compras 
+| **Item**| **Descrição**|
+| ------- | -------------|
+| **USx**                    | **US12**|
+| **Tema**                   | Histórico de Compras|
+| **Descrição**              | Eu, como usuário comprador desejo acessar meu histórico de compras com informações detalhadas para consultar produtos adquiridos, datas e valores pagos
+| **Critérios de Aceitação** | - O sistema deve exibir uma lista com todas as compras realizadas pelo usuário. <br> - Cada item do histórico deve mostrar a data da compra, nome do produto, quantidade e valor pago. <br> - O usuário deve conseguir visualizar detalhes de cada compra ao clicar em um item da lista. |
+| **Prioridade**             | |
+| **Status**                 |   |
+| **Rastreabilidade**        | [RF24](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf24)|
+| **Validação**              | |
+
+
+<div align="center"><strong>Tabela 12:</strong> História de Usuário – Histórico de Compras      </div>
+
+**Fonte:** Angélica, 2025
+
+
 ## Referências
 
 > **PRESSMAN, Roger S.** _Engenharia de Software: uma abordagem profissional_. Cap. 3
@@ -153,9 +255,11 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 | ------ | ----------------- |
 | Samuel |                   |
 | Thiago |                   |
+| Angélica |                   |
 
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                    |   Autor(es)    | Revisor |
 | :----: | :--------: | :--------------------------- | :------------: | :-----: |
 |  1.0   | 16/10/2025 | Criação inicial do documento | Samuel, Thiago |    -    |
+|  1.1   | 18/10/2025 | adicionar histórias de usuário (US07–US12) | Angélica |    Samuel, Thiago    |
