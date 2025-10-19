@@ -23,12 +23,14 @@ Essa estrutura hierárquica facilita a compreensão do escopo total do projeto, 
 
 ### Tabela de contribuição
 
-|                                   Histórias de Usuário                                   | Autor  |
-| :--------------------------------------------------------------------------------------: | :----: |
-| [US01](#us01), [US02](#us02), [US03](#us03), [US04](#us04), [US05](#us05), [US06](#us06) | Samuel |
-| US13, US14, US15, US16, US17, US18         | Thiago        |
- [US13](#us13), [US14](#us14), [US15](#us15), [US16](#us16), [US17](#us17), [US18](#us18)         | Marcelo  |
-  [US25](#us25), [US26](#us26), [US27](#us27), [US28](#us28), [US29](#us29), [US30](#us30)| Raissa  |
+| Histórias de Usuário                                                                     |    Autor     |
+|:-----------------------------------------------------------------------------------------|:------------:|
+|                                                                                          |              |
+| [US13](#us13), [US14](#us14), [US15](#us15), [US16](#us16), [US17](#us17), [US18](#us18) |   Marcelo    |
+| [US25](#us25), [US26](#us26), [US27](#us27), [US28](#us28), [US29](#us29), [US30](#us30) |    Raissa    |
+| [US01](#us01), [US02](#us02), [US03](#us03), [US04](#us04), [US05](#us05), [US06](#us06) |    Samuel    |
+| US13, US14, US15, US16, US17, US18                                                       |    Thiago    |                                                                                    
+| [US31](#us31), [US32](#us32), [US33](#us33), [US34](#us34), [US35](#us35), [US36](#us36) |     Vera     |
 
 <div align="center"><strong>Tabela 1:</strong> Tabela de contribuição</div>
 
@@ -225,7 +227,55 @@ Este épico foca no gerenciamento de configurações de privacidade.
 
 - **US25:** Eu, como usuário preocupado com privacidade, desejo poder configurar minhas preferências de cookies no sistema, para ter controle sobre quais tipos de cookies são aceitos e proteger minha privacidade durante a navegação. [RF18](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf18)
 
+---
 
+#### Tema 10: Gestão de Anúncios
+Este tema engloba funcionalidades que permitem aos vendedores criar, gerenciar e melhorar anúncios de cartas para atrair compradores.
+
+#### Épico 10.1: Criação e Edição de Anúncios
+Este épico contém as histórias de usuário relacionadas à adição de informações detalhadas e imagens nos anúncios.
+
+- [US34](../05_Agil/01_historias_de_usuario.md#us34) Eu, como vendedor, desejo incluir textos, descrições e fotos detalhadas nos meus anúncios para atrair compradores e fornecer informações completas sobre a carta ofertada. [RF06](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf06)
+
+---
+
+#### Tema 11: Suporte e Qualidade de Dados
+Este tema abrange funcionalidades para garantir a confiabilidade das informações sobre cartas e anúncios e proteger a comunidade de conteúdo inadequado.
+
+#### Épico 11.1: Reporte de Problemas
+Este épico contém as histórias de usuário relacionadas ao reporte de problemas de cartas e anúncios.
+
+- [US35](../05_Agil/01_historias_de_usuario.md#us35) Eu, como usuário cadastrado, desejo reportar problemas relacionados a uma carta (como erros de informação ou anúncios suspeitos) para garantir que os dados estejam corretos e a comunidade seja protegida de conteúdo inadequado. [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07)  
+
+---
+
+### Tema 12: Processos de Compra Otimizados
+Este tema engloba funcionalidades avançadas para facilitar e agilizar transações na plataforma.
+
+#### Épico 12.1: Compras de Cartas
+Este épico contém as histórias de usuário relacionadas à compra de cartas cadastradas e transações seguras.
+
+[US31](../05_Agil/01_historias_de_usuario.md#us31) Eu, como comprador, desejo realizar a compra de cartas cadastradas informando meus dados pessoais e endereço de entrega para finalizar a transação de forma segura e prática. [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)
+
+#### Épico 12.2: Alertas de Preço
+Este épico contém as histórias de usuário relacionadas à configuração de alertas para monitoramento de preços de cartas.
+
+- [US36](../05_Agil/01_historias_de_usuario.md#us36)Eu, como usuário interessado em monitorar preços de cartas, desejo definir um alerta de preço para uma carta específica para ser notificado quando o valor atingir ou ficar abaixo do limite que determinei. [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)
+
+---
+
+#### Tema 13: Relatórios e Análise de Mercado
+Este tema abrange funcionalidades focadas em oferecer informações detalhadas sobre os preços das cartas para auxiliar decisões de compra e venda.
+
+#### Épico 13.1: Histórico de Preços
+Este épico contém as histórias de usuário relacionadas à visualização do histórico de preços das cartas.
+
+- [US32](../05_Agil/01_historias_de_usuario.md#us32) Eu, como jogador, desejo acessar o histórico de preços de uma carta em formato gráfico para visualizar a variação de valores ao longo do tempo e identificar o melhor momento para comprar ou vender. [RF34](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf34)
+
+#### Épico 13.2: Preço Médio por Edição
+Este épico contém as histórias de usuário relacionadas à visualização de preços médios das cartas por edição, permitindo comparações e decisões estratégicas.
+
+- [US33](../05_Agil/01_historias_de_usuario.md#us33) Eu, como jogador e colecionador, desejo visualizar o preço médio e a variação histórica de uma carta em diferentes edições, para comparar tendências e identificar qual versão apresenta o melhor custo-benefício.  [RF33](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf33) 
 
 ## Referências
 
@@ -239,11 +289,13 @@ Este épico foca no gerenciamento de configurações de privacidade.
 | Thiago |                   |
 |Marcelo |                   |
 |Raissa |  14,28%            |
+
 ## Histórico de versão
 
-| Versão |    Data    | Descrição              | Autor(es) | Revisor  |
-| :----: | :--------: | :--------------------- | :-------: | :------: |
-|  1.0   | 18/10/2025 | Início da documentação |  Samuel   | Angélica |
-|  1.1   | 18/10/2025 | Editando |  Thiago   | Samuel |
-| 1.2 |  19/10/2025 |      adição de descrição, objetivo e metodologia               |     Marcelo       |        Raissa    |
-| 1.3 |  19/10/2025 |      Adicionando Backlogs         |     Raissa     |        -     |
+| Versão |    Data    | Descrição                                   | Autor(es) | Revisor  |
+|:------:|:----------:|:--------------------------------------------|:---------:|:--------:|
+|  1.0   | 18/10/2025 | Início da documentação                      |  Samuel   | Angélica |
+|  1.1   | 18/10/2025 | Editando                                    |  Thiago   |  Samuel  |
+|  1.2   | 19/10/2025 | adição de descrição, objetivo e metodologia |  Marcelo  |  Raissa  |
+|  1.3   | 19/10/2025 | Adicionando Backlogs                        |  Raissa   |    -     |
+|  1.4   | 19/10/2025 | Adicionando Backlogs (temas 10 ao 13)       |   Vera    |  Thiago  |
