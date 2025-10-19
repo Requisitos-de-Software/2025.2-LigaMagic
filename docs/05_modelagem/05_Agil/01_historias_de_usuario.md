@@ -42,7 +42,7 @@ As histórias de usuário foram criadas seguindo o padrão: "Como [tipo de usuá
 
 A seguir, apresentamos as histórias de usuário que descrevem as funcionalidades do sistema, elaboradas a partir da perspectiva do usuário e validadas de acordo com a [lista de verificação](../../06_verificacao/entrega4/verificacao_historias_de_usuario.md). Cada história detalha o resultado esperado, as características, as funcionalidade desejada e a prioridade de negócio definida pelo usuário.
 
-#### [US01] - Participar de Fóruns de Discussão
+#### [US01] - Participar de Fóruns de Discussão {#us01}
 
 | **Item**                     | **Descrição**                                                                                                                                                                                                                                                                                        |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -59,7 +59,7 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 
 **Fonte:** Samuel, 2025
 
-#### [US02] - Compartilhar Carta por Link
+#### [US02] - Compartilhar Carta por Link {#us02}
 
 | **Item**                     | **Descrição**                                                                                                                                                                                                                                                                                 |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -76,7 +76,7 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 
 **Fonte:** Samuel, 2025
 
-#### [US03] - Verificar Cadastro Duplicado
+#### [US03] - Verificar Cadastro Duplicado {#us03}
 
 | **Item**                     | **Descrição**                                                                                                                                                                                                                                    |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -93,7 +93,7 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 
 **Fonte:** Samuel, 2025
 
-#### [US04] - Pesquisar Cartas por Nome
+#### [US04] - Pesquisar Cartas por Nome {#us04}
 
 | **Item**                     | **Descrição**                                                                                                                                                                                                                 |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -110,7 +110,7 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 
 **Fonte:** Samuel, 2025
 
-#### [US05] - Filtrar Resultados de Busca de Cartas
+#### [US05] - Filtrar Resultados de Busca de Cartas {#us05}
 
 | **Item**                     | **Descrição**                                                                                                                                                                                                                                                                                                                       |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -127,7 +127,7 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 
 **Fonte:** Samuel, 2025
 
-#### [US06] - Visualizar Informações Relevantes nos Resultados
+#### [US06] - Visualizar Informações Relevantes nos Resultados {#us06}
 
 | **Item**                     | **Descrição**                                                                                                                                                                                                                                                                          |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
