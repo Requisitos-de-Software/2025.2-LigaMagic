@@ -3,7 +3,7 @@
 ## Descrição
 
 Este artefato documenta as histórias de usuário desenvolvidas para o sistema, seguindo a metodologia ágil. As histórias são descritas na perspectiva do usuário final e incluem critérios de aceitação claros para orientar o desenvolvimento e validação das funcionalidades.
-_(Pressman; Maxim, cap. 3)_.
+_(PRESSMAN, cap. 3)_[¹](#PRESSMAN).
 
 ## Objetivo
 
@@ -15,7 +15,7 @@ As histórias de usuário foram criadas seguindo o padrão:
 
 **“Como [tipo de usuário], eu quero [funcionalidade] para que [benefício]”**,
 
-em alinhamento com as práticas de levantamento de requisitos no desenvolvimento ágil, nas quais os usuários descrevem necessidades em forma de histórias que orientam a implementação incremental _(Pressman; Maxim, cap. 3)_.
+em alinhamento com as práticas de levantamento de requisitos no desenvolvimento ágil, nas quais os usuários descrevem necessidades em forma de histórias que orientam a implementação incremental _(PRESSMAN, cap. 3)_[¹](#PRESSMAN).
 
 Cada uma delas foi elaborada com critérios de aceitação claros, priorizadas com base no valor que trazem para o usuário e rastreáveis aos [requisitos elicitados](../../03_elicitacao/artefatos/requisitos_elicitados.md).
 
@@ -471,7 +471,10 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 ## Referências
 
-> **PRESSMAN, Roger S.** _Engenharia de Software: uma abordagem profissional_. Cap. 3
+<a id="PRESSMAN"></a>
+
+> **1. PRESSMAN, Roger S.** _Engenharia de Software: uma abordagem profissional_. Cap. 3
+
 
 ## Nível de Contribuição dos Integrantes
 
