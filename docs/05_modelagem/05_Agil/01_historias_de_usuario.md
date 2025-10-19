@@ -20,6 +20,8 @@ As histórias de usuário foram criadas seguindo o padrão: "Como [tipo de usuá
 | ----------------------- | ----------------- |
 | US01 a US06             | Samuel Nogueira   |
 | US07 a US012            | Angélica Campos   |
+| US13 a US18            | Marcelo   |
+| US19 a US24            | Thiago   |
 
 ---
 
@@ -345,6 +347,110 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 
 **Fonte:** Marcelo, 2025
 
+
+#### [US19] - Avaliação de Vendedor
+
+| **Item** | **Descrição** |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US19                                                                                                                                                                                                                                                                                          |
+| Tema                         | Feedback e Reputação                                                                                                                                                                                                                                                                        |
+| Descrição                    | Eu, como Comprador, desejo avaliar um vendedor após uma compra concluída para ajudar outros usuários a tomar decisões e fornecer feedback ao vendedor.                                                                                                                                         |
+| Critérios de Aceitação       | - O usuário só pode avaliar um vendedor após um pedido ter o status "Entregue". <br>- O sistema deve permitir uma avaliação de 1 a 5 estrelas. <br>- O sistema deve permitir um campo de comentário opcional (limite 500 caracteres). <br>- A avaliação (nota e comentário) deve ser exibida publicamente no perfil do vendedor. |
+| Prioridade                   | Alta                                                                                                                                                                                                                                                                                          |
+| Status                       | Não validada                                                                                                                                                                                                                                                                                  |
+| Rastreabilidade              | [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04)                                                                                                                                                                                                                                                                                                                     |
+| Validação                    | N/A                                                                                                                                                                                                                                                                                         |
+
+<div align="center"><strong>Tabela 19:</strong> História de Usuário – Avaliação de Vendedor</div>
+
+**Fonte:** Thiago, 2025
+
+#### [US20] - Adicionar Carta à Coleção Pessoal
+
+| **Item** | **Descrição** |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US20                                                                                                                                                                                                                                                                                          |
+| Tema                         | Gerenciamento de Coleção                                                                                                                                                                                                                                                                      |
+| Descrição                    | Eu, como Colecionador, desejo adicionar cartas à minha coleção pessoal para manter um inventário digital do que eu possuo.                                                                                                                                                                 |
+| Critérios de Aceitação       | - O usuário deve ter uma seção "Minha Coleção" em seu perfil.<br>- Na "Minha Coleção", deve existir um botão "Adicionar Carta".<br>- O sistema deve fornecer uma busca (pelo nome da carta) para encontrar a carta no banco de dados global do sistema.<br>- Ao selecionar a carta, o usuário deve poder informar: Quantidade, Condição (Mint, Near Mint, Played, etc.) e Idioma.<br>- A carta adicionada (com seus detalhes) deve aparecer na lista "Minha Coleção". |
+| Prioridade                   | Alta                                                                                                                                                                                                                                                                                          |
+| Status                       | Não validada                                                                                                                                                                                                                                                                                  |
+| Rastreabilidade              | [RFNI10](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni10)                                                                                                                                                                                                                                                                                                                     |
+| Validação                    | N/A                                                                                                                                                                                                                                                                                         |
+
+<div align="center"><strong>Tabela 20:</strong> História de Usuário – Adicionar Carta à Coleção Pessoal</div>
+
+**Fonte:** Thiago, 2025
+
+#### [US21] - Registro de Conta de Usuário
+
+| **Item** | **Descrição** |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US21                                                                                                                                                                                                                                                                                          |
+| Tema                         | Gerenciamento de Conta                                                                                                                                                                                                                                                                      |
+| Descrição                    | Eu, como Visitante, desejo me registrar na plataforma fornecendo meus dados pessoais (Nome, E-mail, CPF, etc.) para criar uma conta e acessar as funcionalidades restritas.                                                                                                                        |
+| Critérios de Aceitação       | - O formulário de registro deve solicitar: Nome Completo, E-mail, CPF, Data de Nascimento e Senha.<br>- O sistema deve validar o formato do E-mail e a unicidade (não pode estar em uso).<br>- O sistema deve validar o formato do CPF (ex: 11 dígitos numéricos).<br>- Os campos de Endereço (CEP, Rua, etc.) e Telefone podem ser solicitados no primeiro acesso ao perfil, após o registro.<br>- (O RG não será obrigatório no registro inicial).<br>- Após o registro, o usuário deve ser autenticado ou direcionado para a página de login. |
+| Prioridade                   | Alta                                                                                                                                                                                                                                                                                          |
+| Status                       | Não validada                                                                                                                                                                                                                                                                                  |
+| Rastreabilidade              | [RF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf12)                                                                                                                                                                                                                                                                                          |
+| Validação                    | N/A                                                                                                                                                                                                                                                                                         |
+
+<div align="center"><strong>Tabela 21:</strong> História de Usuário – Registro de Conta de Usuário</div>
+
+**Fonte:** Thiago, 2025
+
+#### [US22] - Personalização do Perfil Público
+
+| **Item** | **Descrição** |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US22                                                                                                                                                                                                                                                                                          |
+| Tema                         | Perfil de Usuário                                                                                                                                                                                                                                                                             |
+| Descrição                    | Eu, como Usuário Cadastrado (Vendedor ou Colecionador), desejo personalizar minha página de perfil público com foto e descrição para me apresentar à comunidade.                                                                                                                                  |
+| Critérios de Aceitação       | - O usuário deve ter uma área "Editar Perfil" na sua conta.<br>- O usuário deve poder carregar uma foto de perfil (avatar).<br>- O usuário deve poder escrever um texto de "Biografia" ou "Sobre mim" (limite 1000 caracteres).<br>- O usuário deve poder definir se sua coleção (ver US20) é pública ou privada.<br>- As informações salvas (foto, biografia) devem ser exibidas na página de perfil público do usuário. |
+| Prioridade                   | Média                                                                                                                                                                                                                                                                                         |
+| Status                       | Não validada                                                                                                                                                                                                                                                                                  |
+| Rastreabilidade              | [RF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)                                                                                                                                                                                                                                                                                          |
+| Validação                    | N/A                                                                                                                                                                                                                                                                                         |
+
+<div align="center"><strong>Tabela 22:</strong> História de Usuário – Personalização do Perfil Público</div>
+
+**Fonte:** Thiago, 2025
+
+#### [US23] - Adicionar Carta a Múltiplas Listas
+
+| **Item** | **Descrição** |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US23                                                                                                                                                                                                                                                                                          |
+| Tema                         | Gerenciamento de Listas                                                                                                                                                                                                                                                                     |
+| Descrição                    | Eu, como Usuário Logado, desejo poder adicionar uma carta (encontrada na busca) a diferentes listas (Coleção, Deck, Lista de Desejos, Carrinho) para organizar minhas atividades.                                                                                                                  |
+| Critérios de Aceitação       | - Ao visualizar uma carta, deve haver botões ou um menu de "Adicionar a...".<br>- A opção "Adicionar ao Carrinho" deve direcionar para a seleção de uma oferta/vendedor daquela carta.<br>- A opção "Adicionar à Coleção" deve abrir o formulário simplificado de adição à coleção (conforme US20, mas talvez direto).<br>- A opção "Adicionar à Lista de Desejos" deve adicionar a carta-base à "Wishlist" do usuário.<br>- A opção "Adicionar ao Deck" deve permitir ao usuário selecionar um de seus decks existentes (ou criar um novo) para incluir a carta. |
+| Prioridade                   | Alta                                                                                                                                                                                                                                                                                          |
+| Status                       | Não validada                                                                                                                                                                                                                                                                                  |
+| Rastreabilidade              | [RF35](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf35)                                                                                                                                                                                                                                                                                          |
+| Validação                    | N/A                                                                                                                                                                                                                                                                                         |
+
+<div align="center"><strong>Tabela 23:</strong> História de Usuário – Adicionar Carta a Múltiplas Listas</div>
+
+**Fonte:** Thiago, 2025
+
+#### [US24] - Acesso ao Canal de Direitos do Titular
+
+| **Item** | **Descrição** |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USx(número de identificação) | US24                                                                                                                                                                                                                                                                                          |
+| Tema                         | Privacidade e Suporte (LGPD)                                                                                                                                                                                                                                                                    |
+| Descrição                    | Eu, como Titular dos Dados (Usuário), desejo encontrar facilmente um canal de contato (e-mail ou link) para exercer meus direitos de privacidade (ex: solicitar meus dados ou exclusão).                                                                                                         |
+| Critérios de Aceitação       | - O rodapé do site deve conter um link visível para a "Política de Privacidade".<br>- A página "Política de Privacidade" deve conter uma seção específica sobre "Direitos do Titular" (conforme LGPD/GDPR).<br>- Nessa seção, deve ser disponibilizado um e-mail de contato (ex: dpo@dominio.com) ou um link para um formulário de solicitação. |
+| Prioridade                   | Média                                                                                                                                                                                                                                                                                         |
+| Status                       | Não validada                                                                                                                                                                                                                                                                                  |
+| Rastreabilidade              | [RF16](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf16)                                                                                                                                                                                                                                                                                          |
+| Validação                    | N/A                                                                                                                                                                                                                                                                                         |
+
+<div align="center"><strong>Tabela 24:</strong> História de Usuário – Acesso ao Canal de Direitos do Titular</div>
+
+**Fonte:** Thiago, 2025
+
+
 ## Referências
 
 > **PRESSMAN, Roger S.** _Engenharia de Software: uma abordagem profissional_. Cap. 3
@@ -365,3 +471,4 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 |  1.0   | 16/10/2025 | Criação inicial do documento | Samuel, Thiago |    -    |
 |  1.1   | 18/10/2025 | adicionar histórias de usuário (US07–US12) | Angélica |    Samuel, Thiago    |
 |  1.2  | 18/10/2025 | adicionar histórias de usuário (US13–US18) | Marcelo |   Raissa  |
+|  1.3  | 18/10/2025 | adicionar histórias de usuário (US19–US24) | Thiago |   Samuel  |
