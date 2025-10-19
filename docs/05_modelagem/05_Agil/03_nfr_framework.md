@@ -143,7 +143,7 @@ Abaixo está o modelo padrão para os cartões de especificação:
 
 O objetivo desse trabalho é representar, analisar e documentar os Requisitos Não-Funcionais (RNFs) do site LigaMagic, utilizando o NFR Framework para garantir a qualidade do sistema. Eles são divididos como:
 
-- **1.Classificar**: Os requisitos Não-Funcionais em categorias como Usabilidade, Performance, Portabilidade e Disponibilidade
+- **1.Classificar**: Os Requisitos Não Funcionais em Requisitos de Produto, Requisitos de Processo e Requisitos Externos, conforme a classificação proposta por Kotonya e Sommerville (1998). Este trabalho tem como foco principal os Requisitos de Produto, abrangendo aspectos como Usabilidade, Performance, Portabilidade e Disponibilidade, além de identificar os Requisitos Externos quando aplicável.
 - **2.Detalhar**: Requisitos específicos, fornecendo uma declaração clara e justificativa e, principalmente, um critério de Aceitação (que seja objetiva e testável) para definir quando o requisito é considerado atendido.
 - **3.Identificar as relações de interdependência e conflitos**: Um exemplo é com a manutenibilidade e custo entre os RNFs no projeto.
 
@@ -162,12 +162,17 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **3. Especificação Detalhada (Cartões de Especificação)**: Uso de um formato padronizado para registrar cada requisito não funcional, facilitando a análise e o acompanhamento. Este modelo padrão (baseado no snowcard) inclui campos essenciais como ID, Requisito, Classificação, Descrição, Justificativa, Critério de Aceitação, Prioridade, Dependências e Conflitos.
 
-**4. Classificação de RNFs**: Os requisitos são categorizados explicitamente, como:
+**4. Classificação de RNFs**: De acordo com a classificação proposta por Kotonya e Sommerville (1998), os Requisitos Não Funcionais podem ser agrupados em três categorias: **Requisitos de Produto**, **Requisitos de Processo** e **Requisitos Externos**.
 
-- **Usabilidade:** Incluindo requisitos como responsividade do site (RNF08), clareza de informações (RNF09) e padronização de mensagens (RNF14).
-- **Performance:** Incluindo tempo de resposta (RNF10) e capacidade de suportar aumento de usuários simultâneos (RNF16).
-- **Portabilidade:** Incluindo compatibilidade com navegadores principais (RNF12) e adaptabilidade (RNF06).
-- **Disponibilidade:** Incluindo tempo de atividade (RNF11) e backup automático (RNF15)
+**Requisitos de Produto:**
+- **Usabilidade:** Inclui requisitos como responsividade do site (RNF08), clareza na apresentação das informações (RNF09) e padronização de mensagens (RNF14).
+- **Performance:** Inclui tempo de resposta (RNF10) e capacidade de suportar aumento de usuários simultâneos (RNF16).
+- **Portabilidade:** Inclui compatibilidade com os principais navegadores (RNF12) e flexibilidade para alterações sem interrupção (RNF06).
+- **Disponibilidade:** Inclui tempo de atividade do sistema (RNF11) e backup automático dos dados (RNF15).
+
+**Requisitos Externos:**
+- **Legal e Regulatório:** inclui requisitos por dependerem de fatores legais e regulatórios, como RNF01 (cumprimento de legislações aplicáveis) e RNF07 (informações fiscais corretas).
+
 
 ### Tabela de contribuição
 
@@ -176,36 +181,44 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | [NFR01](#nfr01) | Responsividade da plataforma     | Samuel  |                          [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12)                          |
 | [NFR02](#nfr02) | Informações Legais e Tributárias | Marcelo | [RNF07](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf07) |
 | [NFR03](#nfr03) | Padronização de mensagens        | Raissa  |                          [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12)                          |
+| [NFR04](#nfr03) | Cumprir legislações aplicáveis        | Guilherme  |                          [RNF01](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf01)                          |
 
 <div align="center"><strong>Tabela 2:</strong> Tabela de contribuição</div>
 
 ### Classificação dos RNFs
 
-#### **Usabilidade**
+#### **Requisitos de Produto**
+
+##### **Usabilidade**
 
 - **RNF08** – O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone.
 - **RNF09** – As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara e legível.
 - **RNF14** – As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível.
 - **RNF04** – O sistema deve informar os usuários sobre mudanças relevantes na política com antecedência razoável (transparência contribui para melhor experiência do usuário).
 
-#### **Performance**
+##### **Performance**
 
 - **RNF10** – O sistema deve retornar resultados de busca em no máximo 3 segundos.
 - **RNF16** – O sistema deve suportar um aumento de 50% no número de usuários simultâneos sem degradação significativa de performance.
-- **RNF07** – Garantir que anúncios incluam informações fiscais corretas (precisão contribui para confiabilidade no desempenho).
-- **RNF01** – O sistema deve cumprir legislações aplicáveis, assegurando conformidade e funcionamento correto (correção é base para desempenho confiável).
 
-#### **Portabilidade**
+##### **Portabilidade**
 
 - **RNF08** – O site deve ser totalmente responsivo (também relacionado à usabilidade, mas afeta portabilidade).
 - **RNF12** – A plataforma deve ser compatível com as versões mais recentes dos principais navegadores (Google Chrome, Firefox, Edge e Safari).
 - **RNF06** – O sistema deve suportar alterações na configuração ou apresentação sem interromper o uso (flexibilidade e adaptação).
 
-#### **Disponibilidade**
+##### **Disponibilidade**
 
 - **RNF11** – O sistema deve estar disponível 99,5% do tempo.
 - **RNF15** – O sistema deve realizar backup automático dos dados a cada 24 horas (garante continuidade e recuperação).
 - **RNF06** – O sistema deve suportar alterações sem interrupção de uso (também relacionado à manutenibilidade).
+
+#### **Requisitos Externos**
+
+##### **Legal e Regulatório**
+
+- **RNF07** – Garantir que anúncios incluam informações fiscais corretas (precisão contribui para confiabilidade no desempenho).
+- **RNF01** – O sistema deve cumprir legislações aplicáveis, assegurando conformidade e funcionamento correto (correção é base para desempenho confiável).
 
 ### NFRs
 
@@ -263,11 +276,30 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | **Dependências**          | - RF03 – Sistema de Login/Autenticação: para mensagens de sucesso/erro de login. <br> -RF23 – Processo de Compra: para confirmações de transação e alertas de estoque. <br>- RF05 – Validação de Dados: para mensagens de erro em formulários. <br> - RNF08 – Responsividade: garantia de exibição correta em todos os dispositivos. <br> - RNF09 – Organização Visual: alinhamento com padrões de layout estabelecidos             |
 | **Prioridade**            | 8                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Conflitos**             | - Customização Contextual (𝒲-): Padronização rigorosa pode limitar adaptações específicas para diferentes fluxos. <br> - Performance (𝒲-): Sistema centralizado de mensagens pode adicionar complexidade ao gerenciamento de estado. <br> - Acessibilidade (𝒲+): Padronização facilita implementação consistente de recursos de acessibilidade. <br> - Manutenção (𝒲+): Sistema unificado reduz duplicação e facilita atualizações. |
-| **História**              | Criado em 19/10/2025                                                                                                                                                                                                                                                                                                                                                                                                                |
-
+| **História**              | Criado em 19/10/2025          
+                                                   
 <div align="center"><strong>Tabela 5: Padronização de mensagens</strong> </div>
 
-**Fonte:** Raissa, 2025
+**Fonte:** Raissa, 2025                                                                                                                               
+#### NFR04 - Cumprir legislações aplicáveis {#nfr04}
+
+| Item                      | Descrição  |
+| ------------------------- | - |
+| **ID**                    | NFR04|
+| **Requisito**             | [RNF01](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf01)  |
+| **Classificação**         |Legal e Regulatório > Conformidade com Legislações Vigentes|
+| **Descrição**             | O sistema deve estar em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD – Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis a serviços digitais e comércio eletrônico. Isso inclui a coleta, armazenamento, tratamento e exclusão de dados pessoais de forma segura e transparente, além da disponibilização de informações claras sobre direitos e deveres do consumidor.|
+| **Justificativa**         | A conformidade legal é essencial para a credibilidade e continuidade operacional do site Liga Magic. O descumprimento das legislações pode resultar em multas, sanções legais e perda de confiança dos usuários. Além disso, cumprir a LGPD garante que os dados pessoais dos clientes sejam tratados com segurança, respeitando seus direitos à privacidade e ao controle sobre suas informações.|
+| **Origem**                |[Ánalise de Documentos](../../03_elicitacao/tecnicas/analise_documentos.md)       |
+| **Critério de Aceitação**    | **LGPD:** <br>- A plataforma deve exibir política de privacidade e termos de uso em local de fácil acesso. <br>- O usuário deve poder gerenciar o consentimento sobre o uso de seus dados pessoais (opt-in e opt-out). <br>- O sistema deve permitir que o usuário solicite a exclusão ou atualização de seus dados.<br><br>**Código de Defesa do Consumidor:** <br>- O site deve conter informações claras sobre produtos, preços, prazos de entrega e política de devolução. <br>- Deve ser garantido o direito de arrependimento (cancelamento em até 7 dias, conforme o art. 49).<br>- As condições de compra e reembolso devem estar acessíveis e atualizadas.|
+| **Dependências**          | <br>- Implementação de política de privacidade e termos de uso.<br>- Módulo de gerenciamento de consentimento de dados.<br>- Banco de dados seguro com criptografia e controle de acesso.<br>- Suporte jurídico especializado para revisão de conformidade.|
+| **Prioridade**            | **10** |
+| **Conflitos**             | <br>- **Usabilidade (𝒲-):** A inclusão de etapas de consentimento e formulários pode tornar a navegação mais longa ou complexa para o usuário.<br>- **Desempenho (𝒲-):** Processos adicionais de criptografia e validação de dados podem impactar o tempo de resposta do sistema.<br>- **Custo (𝒲-):** A implementação e manutenção de conformidade legal exigem investimento contínuo em segurança, auditorias e atualizações jurídicas.|
+| **História**              | Criado em 19/10/2025|
+
+<div align="center"><strong>Tabela 6: Cumprir legislações aplicáveis</strong> </div>
+
+**Fonte:** Guilherme, 2025   
 
 ## Bibliografia
 
@@ -281,6 +313,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | Samuel   |                   |
 | Marcelo  |                   |
 | Raissa   |      14,28%       |
+|Guilherme |                   |
 
 ## Histórico de versão
 
@@ -293,3 +326,4 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 |  1.5   | 18/10/2025 | Adição de parte da introdução                                                     | Guilherme |   Vera    |
 |  1.6   | 19/10/2025 | Adição de parte de objetivo, metodologia e tabela 5                               |  Raissa   |     -     |
 |  1.7   | 19/10/2025 | Adicionar hyper links nos cartões                                                 |  Samuel   |   Vera    |
+|  1.8   | 19/10/2025 | Adição da tabela NFR04 e ajustes em textos da classificação                                               |  Guilherme   |   Vera    |
