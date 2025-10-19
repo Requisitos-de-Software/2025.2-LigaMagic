@@ -28,6 +28,7 @@ Essa estrutura hierárquica facilita a compreensão do escopo total do projeto, 
 | [US01](#us01), [US02](#us02), [US03](#us03), [US04](#us04), [US05](#us05), [US06](#us06) | Samuel |
 | US13, US14, US15, US16, US17, US18         | Thiago        |
  [US13](#us13), [US14](#us14), [US15](#us15), [US16](#us16), [US17](#us17), [US18](#us18)         | Marcelo  |
+------ (vou verificar) | Raissa  |
 
 <div align="center"><strong>Tabela 1:</strong> Tabela de contribuição</div>
 
@@ -158,6 +159,73 @@ Este épico foca em fornecer ao usuário acesso claro para exercer seus direitos
 - [US18]: Eu, como Titular dos Dados (Jogador), desejo encontrar facilmente um canal de contato (e-mail ou link) para exercer meus direitos de privacidade (ex: solicitar meus dados ou exclusão). [RF16](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf16)
 
 
+#### Tema 6: Gestão de Decks e Listas
+
+Este tema engloba as funcionalidades relacionadas à criação, organização e compartilhamento de decks e listas de cartas.
+
+##### Épico 6.1: Criação e Gerenciamento de Decks
+
+Este épico contém as histórias de usuário para criação, edição e organização de decks pessoais.
+
+<a id="us25"></a>
+
+- [US25](../05_Agil/01_historias_de_usuario.md#us25): Eu, como jogador de Magic, desejo visualizar decks publicados por outros usuários, com a lista completa de cartas, para poder me inspirar em novas estratégias e aprender sobre combinações de cartas populares. [RF25](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf25)
+
+<a id="us38"></a>
+
+- [US38](../05_Agil/01_historias_de_usuario.md#us38): Eu, como jogador dedicado de Magic, desejo criar, salvar e gerenciar minhas próprias listas de decks, para poder organizar minhas estratégias, acompanhar evoluções e ter acesso rápido aos meus decks favoritos. [RFNI09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni09)
+
+---
+
+#### Tema 7: Comunicação e Suporte
+
+Este tema abrange as funcionalidades de comunicação entre usuários e mecanismos de suporte da plataforma.
+
+##### Épico 7.1: Sistema de Mensagens e Contato
+
+Este épico contém as histórias de usuário para comunicação direta entre usuários.
+
+<a id="us26"></a>
+
+- [US26](../05_Agil/01_historias_de_usuario.md#us26): Eu, como membro da comunidade Magic, desejo buscar tópicos, ler discussões, responder postagens e criar novos tópicos no fórum, para poder compartilhar conhecimento, tirar dúvidas e interagir com outros jogadores. [RF26](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf26)
+
+##### Épico 7.2: Reporte e Moderação
+
+Este épico foca em mecanismos para manter a qualidade e segurança do conteúdo.
+
+<a id="us37"></a>
+
+- [US37](../05_Agil/01_historias_de_usuario.md#us37): Eu, como usuário ativo da plataforma, desejo reportar problemas relacionados a cartas e anúncios, como informações incorretas, preços discrepantes ou anúncios suspeitos, para contribuir com a qualidade e confiabilidade do sistema para toda a comunidade. [RF37](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf37)
+
+---
+
+#### Tema 8: Processos de Compra Otimizados
+
+Este tema engloba funcionalidades avançadas para facilitar e agilizar transações na plataforma.
+
+##### Épico 8.1: Compras em Lote e Listas
+
+Este épico contém as histórias de usuário para compras otimizadas de múltiplos itens.
+
+<a id="us39"></a>
+
+- [US39](../05_Agil/01_historias_de_usuario.md#us39): Eu, como comprador frequente, desejo utilizar a funcionalidade "Compra por Lista" para adicionar múltiplas cartas de uma vez ao carrinho, para poder agilizar minhas compras de decks completos ou listas específicas. [RFNI11](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni11)
+
+---
+
+#### Tema 9: Privacidade e Configurações
+
+Este tema abrange as funcionalidades relacionadas ao controle de privacidade e personalização da experiência.
+
+##### Épico 9.1: Controle de Cookies e Preferências
+
+Este épico foca no gerenciamento de configurações de privacidade.
+
+<a id="us18"></a>
+
+- [US18](../05_Agil/01_historias_de_usuario.md#us18): Eu, como usuário preocupado com privacidade, desejo poder configurar minhas preferências de cookies no sistema, para ter controle sobre quais tipos de cookies são aceitos e proteger minha privacidade durante a navegação. [RF18](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf18)
+
+
 ## Referências
 
 - Ordem Alfabetica
@@ -169,7 +237,7 @@ Este épico foca em fornecer ao usuário acesso claro para exercer seus direitos
 | Samuel |                   |
 | Thiago |                   |
 |Marcelo |                   |
-
+|Raissa |  14,28%            |
 ## Histórico de versão
 
 | Versão |    Data    | Descrição              | Autor(es) | Revisor  |
@@ -177,3 +245,4 @@ Este épico foca em fornecer ao usuário acesso claro para exercer seus direitos
 |  1.0   | 18/10/2025 | Início da documentação |  Samuel   | Angélica |
 |  1.1   | 18/10/2025 | Editando |  Thiago   | Samuel |
 | 1.2 |  19/10/2025 |      adição de descrição, objetivo e metodologia               |     Marcelo       |        Raissa    |
+| 1.3 |  19/10/2025 |      Adicionando Backlogs         |     Raissa     |        -     |
