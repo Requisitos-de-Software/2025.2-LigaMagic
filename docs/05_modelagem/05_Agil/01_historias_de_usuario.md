@@ -639,7 +639,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | USx(número de identificação) | US35                                                                                                                                                                                                                                                                   |
 | Tema                         | Suporte e Qualidade de Dados                                                                                                                                                                                                                                           |
-| Descrição                    | Eu, como usuário cadastrado, desejo reportar problemas relacionados a uma carta (como erros de informação ou anúncios suspeitos)** para garantir que os dados estejam corretos e a comunidade seja protegida de conteúdo inadequado.                                   |
+| Descrição                    | Eu, como usuário cadastrado, desejo reportar problemas relacionados a uma carta (como erros de informação ou anúncios suspeitos) para garantir que os dados estejam corretos e a comunidade seja protegida de conteúdo inadequado.                                     |
 | Critérios de Aceitação       | - O sistema deve permitir que o usuário selecione a carta e descreva o problema.<br>- O relatório deve ser enviado para análise e armazenado no sistema.<br>- O usuário deve receber uma confirmação de envio e, opcionalmente, acompanhamento do status do relatório. |
 | Prioridade                   | Alta                                                                                                                                                                                                                                                                   |
 | Status                       | -                                                                                                                                                                                                                                                                      |
@@ -660,7 +660,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | Prioridade                   | Alta                                                                                                                                                                                                                                                                                                           |
 | Status                       | Validada                                                                                                                                                                                                                                                                                                       |
 | Rastreabilidade              | [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)                                                                                                                                                                                                                                 |
-| Validação                    | [vídeo ou evidência de teste, se aplicável]                                                                                                                                                                                                                                                                    |
+| Validação                    |                                                                                                                                                                                                                                                                                                                |
 
 
 
@@ -685,11 +685,12 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  |   Autor(es)    |    Revisor     |
-| :----: | :--------: | :----------------------------------------- | :------------: | :------------: |
+|:------:|:----------:|:-------------------------------------------|:--------------:|:--------------:|
 |  1.0   | 16/10/2025 | Criação inicial do documento               | Samuel, Thiago |       -        |
 | 1.0.1  | 16/10/2025 | Adicionar histórias de usuário (US01–US06) |     Samuel     |     Thiago     |
 |  1.1   | 18/10/2025 | Adicionar histórias de usuário (US07–US12) |    Angélica    | Samuel, Thiago |
 |  1.2   | 18/10/2025 | Adicionar histórias de usuário (US13–US18) |    Marcelo     |     Raissa     |
 |  1.3   | 18/10/2025 | Adicionar histórias de usuário (US19–US24) |     Thiago     |     Samuel     |
 |  1.4   | 16/10/2025 | Adicionar as citações bibliográficas       |     Samuel     |     Thiago     |
-|  1.5  | 19/10/2025 | adicionar histórias de usuário (US25–US30) | Raissa |   -  |
+|  1.5   | 19/10/2025 | adicionar histórias de usuário (US25–US30) |     Raissa     |       -        |
+|  1.6   | 19/10/2025 | adicionar histórias de usuário (US21–US33) |      Vera      |   Guilherme    |
