@@ -152,15 +152,40 @@ Abaixo está o modelo padrão para os cartões de especificação:
 
 ## Objetivo
 
+O objetivo desse trabalho é representar, analisar e documentar os Requisitos Não-Funcionais (RNFs) do site LigaMagic, utilizando o NFR Framework para garantir a qualidade do sistema. Eles são divididos como:
+
+- **1.Classificar**: Os requisitos Não-Funcionais em categorias como Usabilidade, Performance, Portabilidade e Disponibilidade
+- **2.Detalhar**: Requisitos específicos, fornecendo uma declaração clara e justificativa e, principalmente, um critério de Aceitação (que seja objetiva e testável) para definir quando o requisito é considerado atendido.
+- **3.Identificar as relações de interdependência e conflitos**: Um exemplo é com a manutenibilidade e custo entre os RNFs no projeto.
+
 ## Metodologia
 
-## Conteúdo
+A metodologia adotada para o tratamento e especificação dos Requisitos Não-Funcionais baseia-se na aplicação do NFR Framework.
+
+Os principais procedimentos metodológicos utilizados e documentados na estrutura incluem:
+
+**1. Utilização de Softgoals**: Representar os requisitos não funcionais (RNFs) como Softgoals NFR, que são objetivos de qualidade que influenciam o sistema.
+
+**2. Modelagem de Relações**: Uso do Softgoal Interdependency Graph (SIG) (Gráfico de Interdependência de Softgoals) para registrar visualmente as decisões de desenvolvimento e ilustrar a relação e interdependência entre os softgoals. O SIG permite visualizar como os softgoals se influenciam mutuamente, revelando dependências hierárquicas e impactos. As relações (interdependências) são classificadas em:
+    ◦ Refinamentos/Decomposições: Ocorre de forma hierárquica (top-down), detalhando softgoals mais amplos em objetivos mais específicos, como a Decomposição de Softgoal NFR ou Priorização.
+    ◦ Contribuições: Descrevem como um softgoal descendente impacta a satisfação do softgoal ascendente (positiva ou negativamente). Os tipos de contribuição incluem: MAKE (++), BREAK (--), HELP (+), HURT (-) e UNKNOWN (?).
+
+**3. Especificação Detalhada (Cartões de Especificação)**: Uso de um formato padronizado para registrar cada requisito não funcional, facilitando a análise e o acompanhamento. Este modelo padrão (baseado no snowcard) inclui campos essenciais como ID, Requisito, Classificação, Descrição, Justificativa, Critério de Aceitação, Prioridade, Dependências e Conflitos.
+
+**4. Classificação de RNFs**: Os requisitos são categorizados explicitamente, como:
+
+    ◦ Usabilidade: Incluindo requisitos como responsividade do site (RNF08), clareza de informações (RNF09) e padronização de mensagens (RNF14).
+    ◦ Performance: Incluindo tempo de resposta (RNF10) e capacidade de suportar aumento de usuários simultâneos (RNF16).
+    ◦ Portabilidade: Incluindo compatibilidade com navegadores principais (RNF12) e adaptabilidade (RNF06).
+    ◦ Disponibilidade: Incluindo tempo de atividade (RNF11) e backup automático (RNF15)
+
 
 ### Tabela de contribuição
 
 | ID  | NFR                          | Autor  |                          Requisito Associado                          |
 | :-: | :--------------------------- | :----: | :-------------------------------------------------------------------: |
 | 01  | Responsividade da plataforma | Samuel | [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12) |
+| 03  | Padronização de mensagens | Raissa | [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12) |
 
 <div align="center"><strong>Tabela 2:</strong> Tabela de contribuição</div>
 
@@ -231,6 +256,27 @@ Abaixo está o modelo padrão para os cartões de especificação:
 
 **Fonte:** Marcelo, 2025
 
+<div align="center"><strong>Tabela 5: </strong> </div>
+
+| Item                      | Descrição                                                                             |
+| ------------------------- | ------------------------------------------------------------------------------------- |
+| **ID**                    | NFR03                                          |
+| **Requisito**             | [RNF14](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf14)                                 |
+| **Classificação**         | Usabilidade > Padronização de Mensagem   |
+| **Descrição**             | O sistea deve exibir mensagens de alerta, erro, confirmação e informação de forma padronizada, consistente e visível em toda a plataforma, utilizando componentes, cores e linguagem que seja clara e fácil de entender para evitar confusões e garantir que o jogador entenda imediatamente  |
+| **Justificativa**         | A padronização das mensagens melhora a experiência do jogador através de feedback visual, reduz erros de interpretação, acelera a tomada de decisão, seguindo princípios estabelecidos de design de interface e usabilidade.                        |
+| **Origem**                |  Observação                                        |
+| **Critério de Aceitação** | - Usar cores no sistema, por exemplo, vermelhor para mensagens de erros críticos, Laranja para alertas ou avisos importantes, verde para mensagens de sucesso e azul para orientações. Modais de confirmação criticas, mensagens inline para validações de formulário |
+| **Dependências**          | - RF03 – Sistema de Login/Autenticação: para mensagens de sucesso/erro de login. <br> -RF23 – Processo de Compra: para confirmações de transação e alertas de estoque. <br>- RF05 – Validação de Dados: para mensagens de erro em formulários. <br> - RNF08 – Responsividade: garantia de exibição correta em todos os dispositivos. <br> - RNF09 – Organização Visual: alinhamento com padrões de layout estabelecidos                      |
+| **Prioridade**            | 8            |
+| **Conflitos**             | - Customização Contextual (𝒲-): Padronização rigorosa pode limitar adaptações específicas para diferentes fluxos. <br> - Performance (𝒲-): Sistema centralizado de mensagens pode adicionar complexidade ao gerenciamento de estado. <br> - Acessibilidade (𝒲+): Padronização facilita implementação consistente de recursos de acessibilidade. <br> - Manutenção (𝒲+): Sistema unificado reduz duplicação e facilita atualizações.          |
+| **História**              | Criado em 19/10/2025                     |
+
+**Fonte:** Raissa, 2025
+
+
+
+
 ## Bibliografia
 
 > CHUNG, L., NIXON, B. A., YU, E., MYLOPOULOS, J. Non-functional requirementsin software engineering. Springer Science & Business Media: [S.l.], 2000. v. 5.
@@ -241,8 +287,8 @@ Abaixo está o modelo padrão para os cartões de especificação:
 | :------- | :---------------: |
 | Angélica |                   |
 | Samuel   |                   |
-
 |Marcelo |                     |
+|Raissa    |        14,28%     |
 
 ## Histórico de versão
 
@@ -253,3 +299,4 @@ Abaixo está o modelo padrão para os cartões de especificação:
 |  1.3   | 18/10/2025 | Adição da tabela de contribuição, do modelo do cartão de especificação e do NFR01 |  Samuel   |   Vera    |
 |  1.4 | 18/10/2025 | Adição da tabela de contribuição, do modelo do cartão de especificação e do NFR02 |  Marcelo  |   Thiago   |
 |  1.5 | 18/10/2025 | Adição de parte da introdução |  Guilherme  |   Vera   |
+|  1.6 | 19/10/2025 | Adição de parte de objetivo, metodologia e tabela 5 |  Raissa  |   -   |
