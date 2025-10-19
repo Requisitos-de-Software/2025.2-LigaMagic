@@ -20,7 +20,6 @@ As histórias de usuário foram criadas seguindo o padrão: "Como [tipo de usuá
 | ----------------------- | ----------------- |
 | US01 a US06             | Samuel Nogueira   |
 | US07 a US012            | Angélica Campos   |
-| US19 a US024            | Raissa Andrade   |
 
 ---
 
@@ -347,99 +346,6 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 **Fonte:** Marcelo, 2025
 
 
-
-<div align="center"><strong>Tabela 19:</strong> Permitir controle de cookies </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | US19                                                         |
-| Tema                         | Controle de Configurações de Cookies                                         |
-| Descrição                    | Eu, como usuário preocupado com privacidade, desejo poder configurar minhas preferências de cookies no sistema, para ter controle sobre quais tipos de cookies são aceitos e proteger minha privacidade durante a navegação. |
-| Critérios de Aceitação       | - O sistema deve permitir que o usuário aceite todos os cookies com um clique. <br> - O sistema deve permitir que o usuário rejeite todos os cookies com um clique. <br> - O sistema deve oferecer opções avançadas para selecionar tipos específicos de cookies. <br> - O sistema deve salvar as preferências do usuário e não exibir o banner novamente para escolhas já feitas. <br> - O sistema deve permitir que o usuário altere suas configurações de cookies a qualquer momento através do perfil.          |
-| Prioridade                   | Média                                    |
-| Status                       | -                            |
-| Rastreabilidade              | [RF18](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf18)                         |
-| Validação                    | -                 |
-
-**Fonte:** Raissa, 2025
-
-
-<div align="center"><strong>Tabela 20:</strong> Visualizar decks </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | US20                                                         |
-| Tema                         | Visualização de Decks Publicados     |
-| Descrição                    | Eu, como jogador de Magic, desejo visualizar decks publicados por outros usuários, com a lista completa de cartas, para ter como referência e fazer nosas estratégias, aprender sobre combinações de cartas populares.  |
-| Critérios de Aceitação       | - O sistema deve permitir filtrar decks por formato (Standard, Modern, Commander, etc.). <br> - Ao selecionar um deck, o sistema deve mostrar a lista completa de cartas organizadas por tipo (criaturas, feitiços, terrenos, etc.). <br> - O sistema deve exibir informações do deck: nome, descrição, criador, data de criação e formato. <br> - O sistema deve calcular e mostrar o custo médio total do deck baseado nos preços atuais das cartas. <br> - O sistema deve permitir copiar a lista de cartas do deck para minha coleção pessoal.             |
-| Prioridade                | Alta                                     |
-| Status                       | -                                 |
-| Rastreabilidade              | [RF25](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf25)                         |
-| Validação                    | -                  |
-
-**Fonte:** Raissa, 2025
-
-<div align="center"><strong>Tabela 21:</strong> Fórum </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | US21                                                          |
-| Tema                         | Participação em Fórum de Discussão             |
-| Descrição                    | Eu, como membro da comunidade Magic, desejo buscar tópicos, ler discussões, responder postagens e criar novos tópicos no fórum, para poder compartilhar conhecimento, tirar dúvidas e interagir com outros jogadores.|
-| Critérios de Aceitação       | - O sistema deve exibir lista de tópicos ordenados por data de última resposta ou relevância <br> - O sistema deve permitir visualizar o conteúdo completo de um tópico com todas as respostas <br>  - O sistema deve permitir criar novo tópico com título, categoria e conteúdo <br>  - O sistema deve permitir responder a tópicos existentes com mensagens formatadas <br> - O sistema deve mostrar informações do autor e data de cada postagem <br>  - O sistema deve permitir marcar tópicos como favoritos e receber notificações de novas respostas              |
-| Prioridade                   | Alta   |
-| Status                       | -                   |
-| Rastreabilidade              | [RF26](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf26)                          |
-| Validação                    | -             |
-
-**Fonte:** Raissa, 2025
-
-
-<div align="center"><strong>Tabela 22:</strong> Reportar problemas </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | U22                                                         |
-| Tema                         | Reportar problemas em cartas e anúncios                     |
-| Descrição                    |  Eu, como usuário ativo da plataforma, desejo reportar problemas relacionados a cartas e anúncios, como informações incorretas, preços discrepantes ou anúncios suspeitos, para contribuir com a qualidade e confiabilidade do sistema para toda a comunidade. |
-| Critérios de Aceitação       | - O sistema deve oferecer categorias pré-definidas de problemas (informação incorreta, preço errado, anúncio suspeito, imagem de baixa qualidade e afins) <br> - O sistema deve permitir que o usuário descreva detalhadamente o problema encontrado. <br> - O sistema deve permitir anexar fotos, prints ou imagens que comprovem o problema <br> - O sistema deve enviar confirmação do reporte registrado com número de protocolo <br> - O sistema deve notificar a equipe de moderação sobre novos reportes  <br>  - O sistema deve permitir acompanhar o status do reporte na área do usuário. <br>      |
-| Prioridade                   | Média                  |
-| Status                       | -                   |
-| Rastreabilidade              | [RF37](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf37)                        |
-| Validação                    | -                  |
-
-**Fonte:** Raissa, 2025
-
-<div align="center"><strong>Tabela 23:</strong> Os usuarios devem ser capazes de criar, salvar e gerenciar listas de decks </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | US23                                                        |
-| Tema                         | Gerenciamento de Listas de Decks Pessoais                                      |
-| Descrição                    | Eu, como jogador dedicado de Magic, desejo criar, salvar e gerenciar minhas próprias listas de decks, para poder organizar minhas estratégias, acompanhar evoluções e ter acesso rápido aos meus decks favoritos. |
-| Critérios de Aceitação       | - O sistema deve permitir criar novo deck com nome, descrição, formato e lista de cartas. <br> - O sistema deve validar se o deck atende às regras do formato selecionado (número mínimo/máximo de cartas). <br> - O sistema deve permitir salvar múltiplos decks na coleção pessoal do usuário. <br> - O sistema deve permitir editar decks existentes (adicionar/remover cartas, alterar informações). <br> - O sistema deve permitir duplicar decks existentes para criar variações. <br> - O sistema deve permitir organizar decks em pastas ou categorias personalizadas. <br> - O sistema deve oferecer opção de tornar deck público ou mantê-lo privado. <br> - O sistema deve calcular automaticamente o custo total do deck baseado nos preços atuais. <br>           |
-| Prioridade                   | Alta                                     |
-| Status                       | Não Implementada                       |
-| Rastreabilidade              | [RFNI09](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni09)                           |
-| Validação                    |             |
-
-**Fonte:** Raissa, 2025
-
-<div align="center"><strong>Tabela 24:</strong> O sistema deve fornecer a funcionalidade "Comprar por lista" </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | US24                                                         |
-| Tema                         | Compra por Lista de Cartas                                         |
-| Descrição                    | Eu, como comprador frequente, desejo utilizar a funcionalidade "Compra por Lista" para adicionar múltiplas cartas de uma vez ao carrinho, para poder agilizar minhas compras de decks completos ou listas específicas. |
-| Critérios de Aceitação       | -  O sistema deve permitir importar lista de cartas a partir de texto ou arquivo. <br> - O sistema deve identificar automaticamente cada carta da lista e suas quantidades. <br> - O sistema deve buscar os anúncios disponíveis para cada carta da lista. <br> - O sistema deve sugerir opções de compra consolidada com menor número de vendedores. <br> - O sistema deve calcular o custo total e frete consolidado. <br> - O sistema deve permitir ajustar quantidades e selecionar vendedores antes de adicionar ao carrinho. <br> - O sistema deve salvar listas de compra frequentes para reutilização. <br> - O sistema deve mostrar economia potencial em relação à compra individual. <br>          |
-| Prioridade                   |  Média             |
-| Status                       | Não Implementada                                 |
-| Rastreabilidade              | [RFNI11](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni11)                         |
-| Validação                    |           -        |
-
-**Fonte:** Raissa, 2025
-
 ## Referências
 
 > **PRESSMAN, Roger S.** _Engenharia de Software: uma abordagem profissional_. Cap. 3
@@ -452,7 +358,7 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 | Thiago |                   |
 | Angélica |                   |
 | Marcelo |                 |
-| Raissa |     14,28%            |
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                    |   Autor(es)    | Revisor |
@@ -460,4 +366,3 @@ A seguir, apresentamos as histórias de usuário que descrevem as funcionalidade
 |  1.0   | 16/10/2025 | Criação inicial do documento | Samuel, Thiago |    -    |
 |  1.1   | 18/10/2025 | adicionar histórias de usuário (US07–US12) | Angélica |    Samuel, Thiago    |
 |  1.2  | 18/10/2025 | adicionar histórias de usuário (US13–US18) | Marcelo |   Raissa  |
-|  1.3  | 19/10/2025 | adicionar histórias de usuário (US19–US24) | Raissa |   -  |
