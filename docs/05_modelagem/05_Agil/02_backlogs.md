@@ -13,10 +13,11 @@
 |                                   Histórias de Usuário                                   | Autor  |
 | :--------------------------------------------------------------------------------------: | :----: |
 | [US01](#us01), [US02](#us02), [US03](#us03), [US04](#us04), [US05](#us05), [US06](#us06) | Samuel |
+| US13, US14, US15, US16, US17, US18         | Thiago        |
 
 <div align="center"><strong>Tabela 1:</strong> Tabela de contribuição</div>
 
-**Fonte:** Samuel, 2025
+**Fonte:** Samuel, Thiago 2025
 
 ### Estrutura das Histórias de Usuário
 
@@ -40,6 +41,14 @@ Este épico contém as histórias de usuário relacionadas à criação, visuali
 
 - [US01](../05_Agil/01_historias_de_usuario.md#us01): Eu, como um jogador iniciante, desejo criar um novo tópico em um fórum para poder tirar dúvidas sobre regras e montagem de decks. [RFNI02](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni02)
 
+##### Épico 1.2: Sistema de Feedback e Reputação
+
+Este épico contém as histórias de usuário focadas na avaliação e reputação dos vendedores dentro da plataforma.
+
+<a id="us13"></a>
+
+- [US13]: Eu, como Comprador, desejo avaliar um vendedor após uma compra concluída para ajudar outros usuários a tomar decisões e fornecer feedback ao vendedor. [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04)
+
 #### Tema 2: Gerenciamento de Cartas e Coleção
 
 Este tema abrange as funcionalidades focadas na busca, visualização e compartilhamento de informações sobre as cartas de _Magic: The Gathering_.
@@ -48,9 +57,25 @@ Este tema abrange as funcionalidades focadas na busca, visualização e comparti
 
 Este épico contém as histórias de usuário relacionadas à interação com o banco de dados de cartas do aplicativo.
 
-<a id="us02"></a>
+<a id="us14"></a>
 
 - [US02](../05_Agil/01_historias_de_usuario.md#us02): Eu, como um jogador, desejo compartilhar o link de uma carta específica para poder mostrar a um amigo ou pedir uma opinião de forma rápida e precisa. [RFNI06](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni06)
+
+##### Épico 2.2: Inventário Pessoal de Cartas
+
+Este épico contém as histórias de usuário para o gerenciamento da coleção pessoal do usuário.
+
+<a id="us14"></a>
+
+- [US14]: Eu, como Colecionador, desejo adicionar cartas à minha coleção pessoal para manter um inventário digital do que eu possuo. [RFNI10](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni10)
+
+##### Épico 2.3: Organização de Listas de Cartas
+
+Este épico foca nas ferramentas que permitem ao usuário organizar cartas em diferentes listas funcionais.
+
+<a id="us17"></a>
+
+- [US17]: Eu, como Jogador Logado, desejo poder adicionar uma carta (encontrada na busca) a diferentes listas [RF35](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rf35)
 
 #### Tema 3: Gerenciamento de Usuário
 
@@ -63,6 +88,18 @@ Este épico contém as histórias de usuário focadas em garantir um processo de
 <a id="us03"></a>
 
 - [US03](../05_Agil/01_historias_de_usuario.md#us03): Eu, como um novo usuário, desejo ser informado se meu e-mail já está cadastrado ao tentar criar uma conta para evitar a criação de contas duplicadas e recuperar meu acesso, se necessário. [RF2](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf2)
+
+<a id="us15"></a>
+
+- [US15]: Eu, como Visitante, desejo me registrar na plataforma fornecendo meus dados pessoais (Nome, E-mail, CPF, etc.) para criar uma conta e acessar as funcionalidades restritas. [RF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf12)
+
+##### Épico 3.2: Personalização de Perfil Público
+
+Este épico contém as histórias de usuário para a personalização da página pública do usuário.
+
+<a id="us16"></a>
+
+- [US16]: Eu, como Jogador Cadastrado (Vendedor ou Colecionador), desejo personalizar minha página de perfil público com foto e descrição para me apresentar à comunidade. [RF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)
 
 #### Tema 4: Pesquisa e Filtragem de Cartas
 
@@ -84,6 +121,19 @@ Este épico contém as histórias de usuário relacionadas à experiência de pe
 
 - [US06](../05_Agil/01_historias_de_usuario.md#us06): Eu, como um comprador, desejo ver o preço, a condição, o idioma e a reputação do vendedor diretamente na lista de resultados da pesquisa para poder comparar as opções disponíveis de forma eficiente, sem precisar clicar em cada item. [RF22](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf22)
 
+#### Tema 5: Privacidade e Conformidade
+
+Este tema engloba as funcionalidades relacionadas à segurança dos dados do consumidor e à conformidade com leis de privacidade (LGPD).
+
+##### Épico 5.1: Canal de Direitos do Titular (LGPD)
+
+Este épico foca em fornecer ao usuário acesso claro para exercer seus direitos de dados.
+
+<a id="us18"></a>
+
+- [US18]: Eu, como Titular dos Dados (Jogador), desejo encontrar facilmente um canal de contato (e-mail ou link) para exercer meus direitos de privacidade (ex: solicitar meus dados ou exclusão). [RF16](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf16)
+
+
 ## Referências
 
 - Ordem Alfabetica
@@ -93,9 +143,11 @@ Este épico contém as histórias de usuário relacionadas à experiência de pe
 | Nome   | % de Contribuição |
 | ------ | ----------------- |
 | Samuel |                   |
+| Thiago |                   |
 
 ## Histórico de versão
 
 | Versão |    Data    | Descrição              | Autor(es) | Revisor  |
 | :----: | :--------: | :--------------------- | :-------: | :------: |
 |  1.0   | 18/10/2025 | Início da documentação |  Samuel   | Angélica |
+|  1.1   | 18/10/2025 | Editando |  Thiago   | Samuel |
