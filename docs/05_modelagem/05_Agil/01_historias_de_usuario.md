@@ -735,7 +735,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Item**                      | **Descrição**                                               |
 | ----------------------------- | ----------------------------------------------------------- |
 | USx | US41                                                         |
-| Tema                          |  Perfil e Personalização de Usuário                |
+| Tema                          |  Privacidade e Conformidade                |
 | Descrição                     | Eu, como um usuário do sistema, desejo que meus dados pessoais sejam utilizados apenas para finalidades específicas, como identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações, para garantir transparência e segurança no tratamento das minhas informações.|
 | Critérios de Aceitação        |    <br>- O sistema deve utilizar os dados pessoais apenas para as finalidades descritas.<br>- O sistema deve informar ao usuário de forma clara as finalidades do uso dos dados.<br>- O sistema deve permitir que o usuário gerencie suas preferências de uso de dados.<br>- O sistema deve registrar o consentimento do usuário antes de qualquer uso adicional dos dados.                 |
 | Prioridade                    | -                                   |
