@@ -66,8 +66,6 @@ Este épico contém as histórias de usuário focadas na avaliação e reputaç�
 
 - [US13]: Eu, como Comprador, desejo avaliar um vendedor após uma compra concluída para ajudar outros usuários a tomar decisões e fornecer feedback ao vendedor. [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04)
 
----
-
 #### Tema 2: Gerenciamento de Cartas e Coleção
 
 Este tema abrange as funcionalidades focadas na busca, visualização e compartilhamento de informações sobre as cartas de _Magic: The Gathering_.
@@ -106,8 +104,6 @@ Este épico foca nas ferramentas que permitem ao usuário organizar cartas em di
 
 - [US17]: Eu, como Jogador Logado, desejo poder adicionar uma carta (encontrada na busca) a diferentes listas [RF35](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rf35)
 
----
-
 #### Tema 3: Gerenciamento de Usuário
 
 Este tema engloba todas as funcionalidades relacionadas ao ciclo de vida do usuário, desde o cadastro até a autenticação e gerenciamento de perfil.
@@ -132,8 +128,6 @@ Este épico contém as histórias de usuário para a personalização da página
 
 - [US16]: Eu, como Jogador Cadastrado (Vendedor ou Colecionador), desejo personalizar minha página de perfil público com foto e descrição para me apresentar à comunidade. [RF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)
 
----
-
 #### Tema 4: Pesquisa e Filtragem de Cartas
 
 Este tema abrange as funcionalidades centrais de busca, filtragem e visualização de cartas, permitindo que os usuários encontrem produtos de forma eficiente.
@@ -154,8 +148,6 @@ Este épico contém as histórias de usuário relacionadas à experiência de pe
 
 - [US06](../05_Agil/01_historias_de_usuario.md#us06): Eu, como um comprador, desejo ver o preço, a condição, o idioma e a reputação do vendedor diretamente na lista de resultados da pesquisa para poder comparar as opções disponíveis de forma eficiente, sem precisar clicar em cada item. [RF22](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf22)
 
----
-
 #### Tema 5: Privacidade e Conformidade
 
 Este tema engloba as funcionalidades relacionadas à segurança dos dados do consumidor e à conformidade com leis de privacidade (LGPD).
@@ -168,27 +160,6 @@ Este épico foca em fornecer ao usuário acesso claro para exercer seus direitos
 
 - [US18]: Eu, como Titular dos Dados (Jogador), desejo encontrar facilmente um canal de contato (e-mail ou link) para exercer meus direitos de privacidade (ex: solicitar meus dados ou exclusão). [RF16](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf16)
 
-<a id="us39"></a>
-
-- [US39](../05_Agil/01_historias_de_usuario.md#us39): Eu, como usuário do sistema, desejo solicitar o acesso, a correção, a exclusão ou a anonimização dos meus dados pessoais para garantir meus direitos de privacidade e conformidade com a LGPD. [RF15](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
-
-##### Épico 5.2: Verificação e Segurança de Dados
-
-Este épico foca em garantir a autenticidade e integridade das informações fornecidas pelos usuários, assegurando que os dados cadastrados sejam válidos e verdadeiros.
-
-<a id="us37"></a>
-
-- [US37](../05_Agil/01_historias_de_usuario.md#us37): Eu, como administrador do sistema, desejo que os dados cadastrados sejam verificados automaticamente para garantir a autenticidade das informações e proteger a plataforma contra falsos cadastros. [RF05](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
-
-##### Épico 5.3: Gestão de Uso de Dados Pessoais
-
-Este épico tem como foco o uso responsável dos dados pessoais, garantindo que sejam utilizados apenas para finalidades específicas e comunicadas ao usuário.
-
-<a id="us41"></a>
-
-- [US41](../05_Agil/01_historias_de_usuario.md#us41): Eu, como usuário do sistema, desejo que meus dados pessoais sejam utilizados apenas para finalidades específicas, como identificação, contato, gestão contratual e melhoria de serviços, para garantir transparência e segurança no tratamento das minhas informações. [RF13](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
-
----
 
 #### Tema 6: Gestão de Decks e Listas
 
@@ -219,10 +190,6 @@ Este épico contém as histórias de usuário para comunicação direta entre us
 <a id="us27"></a>
 
 - **US27:** Eu, como membro da comunidade Magic, desejo buscar tópicos, ler discussões, responder postagens e criar novos tópicos no fórum, para poder compartilhar conhecimento, tirar dúvidas e interagir com outros jogadores. [RF26](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf26)
-
-<a id="us38"></a>
-
-- [US38](../05_Agil/01_historias_de_usuario.md#us38): Eu, como usuário cadastrado, desejo trocar mensagens privadas com outros usuários para me comunicar de forma direta e segura.[RF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
 
 ##### Épico 7.2: Reporte e Moderação
 
@@ -260,16 +227,12 @@ Este épico foca no gerenciamento de configurações de privacidade.
 
 - **US25:** Eu, como usuário preocupado com privacidade, desejo poder configurar minhas preferências de cookies no sistema, para ter controle sobre quais tipos de cookies são aceitos e proteger minha privacidade durante a navegação. [RF18](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf18)
 
-<a id="us40"></a>
-
-- [US40](../05_Agil/01_historias_de_usuario.md#us40): Eu, como usuário do sistema, desejo que sejam utilizados cookies para facilitar o login e personalizar minha experiência de navegação, tornando o uso da plataforma mais prático e adaptado às minhas preferências. [RF17](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
-
 ---
 
 #### Tema 10: Gestão de Anúncios
 Este tema engloba funcionalidades que permitem aos vendedores criar, gerenciar e melhorar anúncios de cartas para atrair compradores.
 
-##### Épico 10.1: Criação e Edição de Anúncios
+#### Épico 10.1: Criação e Edição de Anúncios
 Este épico contém as histórias de usuário relacionadas à adição de informações detalhadas e imagens nos anúncios.
 
 - [US34](../05_Agil/01_historias_de_usuario.md#us34) Eu, como vendedor, desejo incluir textos, descrições e fotos detalhadas nos meus anúncios para atrair compradores e fornecer informações completas sobre a carta ofertada. [RF06](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf06)
@@ -279,22 +242,22 @@ Este épico contém as histórias de usuário relacionadas à adição de inform
 #### Tema 11: Suporte e Qualidade de Dados
 Este tema abrange funcionalidades para garantir a confiabilidade das informações sobre cartas e anúncios e proteger a comunidade de conteúdo inadequado.
 
-##### Épico 11.1: Reporte de Problemas
+#### Épico 11.1: Reporte de Problemas
 Este épico contém as histórias de usuário relacionadas ao reporte de problemas de cartas e anúncios.
 
 - [US35](../05_Agil/01_historias_de_usuario.md#us35) Eu, como usuário cadastrado, desejo reportar problemas relacionados a uma carta (como erros de informação ou anúncios suspeitos) para garantir que os dados estejam corretos e a comunidade seja protegida de conteúdo inadequado. [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07)  
 
 ---
 
-#### Tema 12: Processos de Compra Otimizados
+### Tema 12: Processos de Compra Otimizados
 Este tema engloba funcionalidades avançadas para facilitar e agilizar transações na plataforma.
 
-##### Épico 12.1: Compras de Cartas
+#### Épico 12.1: Compras de Cartas
 Este épico contém as histórias de usuário relacionadas à compra de cartas cadastradas e transações seguras.
 
 [US31](../05_Agil/01_historias_de_usuario.md#us31) Eu, como comprador, desejo realizar a compra de cartas cadastradas informando meus dados pessoais e endereço de entrega para finalizar a transação de forma segura e prática. [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)
 
-##### Épico 12.2: Alertas de Preço
+#### Épico 12.2: Alertas de Preço
 Este épico contém as histórias de usuário relacionadas à configuração de alertas para monitoramento de preços de cartas.
 
 - [US36](../05_Agil/01_historias_de_usuario.md#us36)Eu, como usuário interessado em monitorar preços de cartas, desejo definir um alerta de preço para uma carta específica para ser notificado quando o valor atingir ou ficar abaixo do limite que determinei. [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)
@@ -304,29 +267,15 @@ Este épico contém as histórias de usuário relacionadas à configuração de 
 #### Tema 13: Relatórios e Análise de Mercado
 Este tema abrange funcionalidades focadas em oferecer informações detalhadas sobre os preços das cartas para auxiliar decisões de compra e venda.
 
-##### Épico 13.1: Histórico de Preços
+#### Épico 13.1: Histórico de Preços
 Este épico contém as histórias de usuário relacionadas à visualização do histórico de preços das cartas.
 
 - [US32](../05_Agil/01_historias_de_usuario.md#us32) Eu, como jogador, desejo acessar o histórico de preços de uma carta em formato gráfico para visualizar a variação de valores ao longo do tempo e identificar o melhor momento para comprar ou vender. [RF34](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf34)
 
-##### Épico 13.2: Preço Médio por Edição
+#### Épico 13.2: Preço Médio por Edição
 Este épico contém as histórias de usuário relacionadas à visualização de preços médios das cartas por edição, permitindo comparações e decisões estratégicas.
 
 - [US33](../05_Agil/01_historias_de_usuario.md#us33) Eu, como jogador e colecionador, desejo visualizar o preço médio e a variação histórica de uma carta em diferentes edições, para comparar tendências e identificar qual versão apresenta o melhor custo-benefício.  [RF33](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf33) 
-
----
-
-#### Tema 14: Módulo de Leilões
-
-Este tema abrange as funcionalidades voltadas para criação, gerenciamento e participação em leilões online.
-
-##### Épico 14.1: Sistema de Leilões Online
-
-Este épico foca em oferecer um módulo completo de leilões, permitindo que os usuários anunciem, participem e acompanhem lances em tempo real.
-
-<a id="us42"></a>
-
-- [US42](../05_Agil/01_historias_de_usuario.md#us42): Eu, como usuário do sistema, desejo acessar um módulo completo de leilões para poder anunciar, participar e acompanhar disputas por produtos ou serviços em tempo real.[RFNI08](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#requisitos-funcionais-não-implementados)
 
 ## Referências
 
@@ -334,13 +283,12 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome    | % de Contribuição |
-| ------  | ----------------- |
-| Samuel  |                   |
-| Thiago  |                   |
-| Marcelo |                   |
-|Raissa   |      14,28%       |
-|Guilherme|                   |
+| Nome   | % de Contribuição |
+| ------ | ----------------- |
+| Samuel |                   |
+| Thiago |                   |
+|Marcelo |                   |
+|Raissa |  14,28%            |
 
 ## Histórico de versão
 
@@ -351,4 +299,3 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 |  1.2   | 19/10/2025 | adição de descrição, objetivo e metodologia |  Marcelo  |  Raissa  |
 |  1.3   | 19/10/2025 | Adicionando Backlogs                        |  Raissa   |    -     |
 |  1.4   | 19/10/2025 | Adicionando Backlogs (temas 10 ao 13)       |   Vera    |  Thiago  |
-|  1.5   | 20/10/2025 | Adicionando Backlogs                        | Guilherme |  Vera    |
