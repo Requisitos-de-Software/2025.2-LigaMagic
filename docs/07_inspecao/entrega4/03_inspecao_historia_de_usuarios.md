@@ -17,9 +17,6 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 | [4 - As historias de usuario são uma declarações breves?](../../06_verificacao/entrega4/verificacao_historias_de_usuario.md#vus4)   |Angélica |||
 
 
-### **Fonte:** Angélica, 2025
-
-
 ## Bibliografia
 > VASQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. 1. ed.  2016.
 

@@ -16,10 +16,6 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 | [3 - O backlog é visível para todos os envolvidos no projeto?](../../06_verificacao/entrega4/verificacao_backlogs.md#VPBI3)|Angélica |||
 | [4 - O backlog possui detalhes suficientes para ajudar os desenvolvedores a implementas esses requisitos, ou seja, uma sprint tem a quantidade de funcionalidades necessárias detalhadas?](../../06_verificacao/entrega4/verificacao_backlogs.md#VPBI4) |Angélica |||
 
-### **Fonte:** Angélica, 2025
-
-
-[Lista de verificação Angélica – Verificação - Casos de Uso com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/.pdf)
 
 ## Bibliografia
 > Luiz. Product Backlog - Introdução. YouTube, LuizTools, 21 de mar. de 2020. Disponível em: https://www.youtube.com/watch?v=z4ubaBwjCsU. Acessado em: 13 de out. de 2025.

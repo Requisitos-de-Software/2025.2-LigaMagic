@@ -9,15 +9,12 @@
 ## Conteúdo
 
 ### Tabela de Verificação
-|  | Perguntas | Autor|
-|---|----------|----------|
-| 1 | Os requisitos não-funcionais são representados como softgoals  |Angélica |
-| 2 | Cada um dos softgoals representam uma meta sem definição clara?    |Angélica |
-| 3 | Os softgoals suportam raciocínio qualitativo, ou seja, tem graus de satisfação?    |Angélica |
-| 4 | O framework avalia o impacto das decisões tomadas?    |Angélica |
-| 5 | O framework estabelece interdependências entre NFRs?     |Angélica |
-
-[Lista de verificação Angélica – Verificação - NFR com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/)
+|   Perguntas | Fontes  | Fotos | Autor| 
+|----------|----------|---------|---------|
+| 1 - Os requisitos não-funcionais são representados como softgoals {VNFN1} |JAELSON, Castro. Requisitos Não-Funcionais. Slide 12. Acesso em: 13 out. 2025. (JAELSON, Castro, 2014, slide 3) |[Referencia completa]()|Angélica |
+| 2 - Cada um dos softgoals representam uma meta sem definição clara?   {VNFN2} |JAELSON, Castro. Requisitos Não-Funcionais. Slide 12. Acesso em: 13 out. 2025. (JAELSON, Castro, 2014, slide 4) |[Referencia completa]()|Angélica |
+| 3 - O framework avalia o impacto das decisões tomadas?   {VNFN3} ||[Referencia completa]()|Angélica |
+| 4 - O framework estabelece interdependências entre NFRs?    {VNFN4} ||[Referencia completa]()|Angélica |
 
 
 ## Bibliografia
@@ -34,3 +31,4 @@
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | :----: | :--: | :-------- | :-------: | :-----: |
 |1.1|	15/10/2025|	Adição da tabela de verificação |	Angélica	|Guilherme      | 
+|1.2|	20/10/2025|	Adição dos links da tabela de verificação |	Angélica	|Guilherme      | 
