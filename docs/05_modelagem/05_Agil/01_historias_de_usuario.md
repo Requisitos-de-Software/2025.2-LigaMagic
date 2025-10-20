@@ -667,7 +667,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Item**                      | **Descrição**                                               |
 | ----------------------------- | ----------------------------------------------------------- |
 | USx  | US37                                                        |
-| Tema                          | Autenticação e Segurança                                         |
+| Tema                          | Privacidade e Conformidade                                        |
 | Descrição                     | Eu, como um usuário do sistema, desejo que as informações inseridas durante o cadastro sejam verificadas automaticamente para garantir que os dados sejam autênticos e válidos, evitando erros e fraudes. |
 | Critérios de Aceitação        | <br>- O sistema deve validar os campos obrigatórios durante o cadastro.<br>- O sistema deve identificar e rejeitar informações inválidas (ex: CPF inexistente, e-mail incorreto).<br>- O sistema deve exibir mensagens claras informando o motivo da rejeição dos dados.<br>- O sistema deve impedir o cadastro até que todos os dados sejam válidos.                    |
 | Prioridade                    | -                                     |
@@ -684,7 +684,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Item**                      | **Descrição**                                               |
 | ----------------------------- | ----------------------------------------------------------- |
 | USx  | US38                                                         |
-| Tema                          | Comunicação                                         |
+| Tema                          | Comunicação e Suporte                                        |
 | Descrição                     | Eu, como um usuário do sistema, desejo enviar e receber mensagens privadas com outros usuários para poder me comunicar de forma direta e segura.|
 | Critérios de Aceitação        | <br>- O sistema deve permitir o envio e recebimento de mensagens privadas entre dois usuários.<br>- As mensagens devem ser armazenadas de forma segura, garantindo a privacidade dos usuários.<br>- O sistema deve notificar o usuário ao receber uma nova mensagem.<br>- O sistema deve exibir o histórico de mensagens trocadas.                    |
 | Prioridade                    | -                                     |
@@ -701,7 +701,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Item**                      | **Descrição**                                               |
 | ----------------------------- | ----------------------------------------------------------- |
 | USx | US39                                                         |
-| Tema                          | Gerenciamento de Usuários                                         |
+| Tema                          | Privacidade e Conformidade                                        |
 | Descrição                     | Eu, como um usuário do sistema, desejo solicitar o acesso, a correção, a exclusão ou a anonimização dos meus dados pessoais para garantir meus direitos de privacidade e conformidade com a Lei Geral de Proteção de Dados (LGPD). |
 | Critérios de Aceitação        | <br>- O sistema deve permitir que o usuário visualize todas as informações pessoais armazenadas.<br>- O sistema deve permitir que o usuário solicite a correção de dados incorretos.<br>- O sistema deve permitir que o usuário solicite a exclusão ou anonimização de seus dados pessoais.<br>- O sistema deve confirmar a execução da solicitação ao usuário.                     |
 | Prioridade                    | -                                    |
@@ -718,7 +718,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Item**                      | **Descrição**                                               |
 | ----------------------------- | ----------------------------------------------------------- |
 | USx | US40                                                         |
-| Tema                          | Personalização                                         |
+| Tema                          | Privacidade e Configurações                                        |
 | Descrição                     | Eu, como um usuário do sistema, desejo que sejam utilizados cookies para facilitar meu login e personalizar minha experiência de navegação, tornando o uso da plataforma mais prático e adaptado às minhas preferências.|
 | Critérios de Aceitação        | <br>- O sistema deve utilizar cookies para manter o usuário autenticado entre sessões.<br>- O sistema deve permitir a personalização de conteúdo com base nas preferências do usuário.<br>- O sistema deve solicitar consentimento do usuário para o uso de cookies.<br>- O sistema deve permitir a exclusão dos cookies a qualquer momento.                     |
 | Prioridade                    | -                                    |
@@ -735,7 +735,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Item**                      | **Descrição**                                               |
 | ----------------------------- | ----------------------------------------------------------- |
 | USx | US41                                                         |
-| Tema                          |  Gestão de Serviços                 |
+| Tema                          |  Perfil e Personalização de Usuário                |
 | Descrição                     | Eu, como um usuário do sistema, desejo que meus dados pessoais sejam utilizados apenas para finalidades específicas, como identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações, para garantir transparência e segurança no tratamento das minhas informações.|
 | Critérios de Aceitação        |    <br>- O sistema deve utilizar os dados pessoais apenas para as finalidades descritas.<br>- O sistema deve informar ao usuário de forma clara as finalidades do uso dos dados.<br>- O sistema deve permitir que o usuário gerencie suas preferências de uso de dados.<br>- O sistema deve registrar o consentimento do usuário antes de qualquer uso adicional dos dados.                 |
 | Prioridade                    | -                                   |
