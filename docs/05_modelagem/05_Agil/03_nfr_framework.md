@@ -176,12 +176,13 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 ### Tabela de contribuição
 
-|       NFR       | Nome                             |  Autor  |                                                   Requisito Associado                                                   |
-| :-------------: | :------------------------------- | :-----: | :---------------------------------------------------------------------------------------------------------------------: |
-| [NFR01](#nfr01) | Responsividade da plataforma     | Samuel  |                          [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12)                          |
-| [NFR02](#nfr02) | Informações Legais e Tributárias | Marcelo | [RNF07](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf07) |
-| [NFR03](#nfr03) | Padronização de mensagens        | Raissa  |                          [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12)                          |
-| [NFR04](#nfr03) | Cumprir legislações aplicáveis        | Guilherme  |                          [RNF01](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf01)                          |
+|       NFR       | Nome                              |   Autor   |                                                   Requisito Associado                                                   |
+|:---------------:|:----------------------------------|:---------:|:-----------------------------------------------------------------------------------------------------------------------:|
+| [NFR01](#nfr01) | Responsividade da plataforma      |  Samuel   |                          [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12)                          |
+| [NFR02](#nfr02) | Informações Legais e Tributárias  |  Marcelo  | [RNF07](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf07) |
+| [NFR03](#nfr03) | Padronização de mensagens         |  Raissa   |                          [RNF14](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12)                          |
+| [NFR04](#nfr04) | Cumprir legislações aplicáveis    | Guilherme |                          [RNF01](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf01)                          |
+| [NRF05](#nfr05) | Organização visual                |   Vera    |                          [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)                          |
 
 <div align="center"><strong>Tabela 2:</strong> Tabela de contribuição</div>
 
@@ -301,24 +302,48 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Guilherme, 2025   
 
+
+
+#### NRF05 - Organização visual {#nrf05}
+
+| Item                  | Descrição                                                                                                                                                                                                                                                                                                                                                              |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ID                    | RNF09                                                                                                                                                                                                                                                                                                                                                                  |
+| Requisito             | [RNF09](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf09)                                                                                                                                                                                                                                                |
+| Classificação         | Usabilidade > Organização visual                                                                                                                                                                                                                                                                                                                                       |
+| Descrição             | As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação.                                                                                                                                                                                                              |
+| Justificativa         | Uma organização visual clara melhora a experiência do usuário, reduz erros de navegação e aumenta a eficiência na busca por informações, alinhando-se às boas práticas de usabilidade do site LigaMagic.                                                                                                                                                               |
+| Origem                | [Análise de Documentos](../../03_elicitacao/tecnicas/analise_documentos.md)                                                                                                                                                                                                                                                                                            |
+| Critério de Aceitação | - Usuário consegue localizar cartas, anúncios e decks em no máximo 3 cliques ou interações.<br>- Todas as informações devem estar legíveis<br/>- O espaçamento entre elementos (cartas, decks, anúncios) deve permitir leitura clara e evitar sobreposição.<br>- Alterações no layout não devem causar quebras de interface em dispositivos desktop, tablet ou mobile. |
+| Dependências          | [RNF08](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf08)  e [RNF12](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf12)                                                                                                                     |
+| Prioridade            | 9                                                                                                                                                                                                                                                                                                                                                                      |
+| Conflitos             | [RNF16](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf16)                                                                                                                                                                                                                                                |
+| História              | Criado em 19/10/2025                                                                                                                                                                                                                                                                                                                                                   |
+
+<div align="center"><strong>Tabela 7: Organização visual </strong> </div>
+
+**Fonte:** Vera, 2025
+
+
 ## Bibliografia
 
 > CHUNG, L., NIXON, B. A., YU, E., MYLOPOULOS, J. Non-functional requirementsin software engineering. Springer Science & Business Media: [S.l.], 2000. v. 5.
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome     | % de Contribuição |
-| :------- | :---------------: |
-| Angélica |                   |
-| Samuel   |                   |
-| Marcelo  |                   |
-| Raissa   |      14,28%       |
-|Guilherme |                   |
+| Nome      | % de Contribuição |
+|:----------| :---------------: |
+| Angélica  |                   |
+| Samuel    |                   |
+| Marcelo   |                   |
+| Raissa    |      14,28%       |
+| Guilherme |                   |
+| Vera      |                   |
 
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                                                         | Autor(es) |  Revisor  |
-| :----: | :--------: | :-------------------------------------------------------------------------------- | :-------: | :-------: |
+|:------:|:----------:|:----------------------------------------------------------------------------------|:---------:|:---------:|
 |  1.1   | 15/10/2025 | Adição da tabela                                                                  | Angélica  | Guilherme |
 |  1.2   | 17/10/2025 | Adição da introdução                                                              |   Vera    |  Raissa   |
 |  1.3   | 18/10/2025 | Adição da tabela de contribuição, do modelo do cartão de especificação e do NFR01 |  Samuel   |   Vera    |
@@ -326,4 +351,5 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 |  1.5   | 18/10/2025 | Adição de parte da introdução                                                     | Guilherme |   Vera    |
 |  1.6   | 19/10/2025 | Adição de parte de objetivo, metodologia e tabela 5                               |  Raissa   |     -     |
 |  1.7   | 19/10/2025 | Adicionar hyper links nos cartões                                                 |  Samuel   |   Vera    |
-|  1.8   | 19/10/2025 | Adição da tabela NFR04 e ajustes em textos da classificação                                               |  Guilherme   |   Vera    |
+|  1.8   | 19/10/2025 | Adição da tabela NFR04 e ajustes em textos da classificação                       | Guilherme |   Vera    |
+|  1.9   | 19/10/2025 | Adição do cartão de epecificação                                                  |   Vera    |  Samuel   |
