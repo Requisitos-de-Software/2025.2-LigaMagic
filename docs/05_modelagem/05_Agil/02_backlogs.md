@@ -31,6 +31,7 @@ Essa estrutura hierárquica facilita a compreensão do escopo total do projeto, 
 | [US01](#us01), [US02](#us02), [US03](#us03), [US04](#us04), [US05](#us05), [US06](#us06) |    Samuel    |
 | US13, US14, US15, US16, US17, US18                                                       |    Thiago    |                                                                                    
 | [US31](#us31), [US32](#us32), [US33](#us33), [US34](#us34), [US35](#us35), [US36](#us36) |     Vera     |
+| [US07](#us07), [US08](#us08), [US09](#us09), [US10](#us10), [US11](#us11), [US12](#us12) |     Angélica     |
 
 <div align="center"><strong>Tabela 1:</strong> Tabela de contribuição</div>
 
@@ -118,15 +119,31 @@ Este épico contém as histórias de usuário focadas em garantir um processo de
 
 <a id="us15"></a>
 
-- [US15]: Eu, como Visitante, desejo me registrar na plataforma fornecendo meus dados pessoais (Nome, E-mail, CPF, etc.) para criar uma conta e acessar as funcionalidades restritas. [RF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf12)
+- [US15](../05_Agil/01_historias_de_usuario.md#us15): Eu, como Visitante, desejo me registrar na plataforma fornecendo meus dados pessoais (Nome, E-mail, CPF, etc.) para criar uma conta e acessar as funcionalidades restritas. [RF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf12)
 
-##### Épico 3.2: Personalização de Perfil Público
+<a id="us09"></a>
 
-Este épico contém as histórias de usuário para a personalização da página pública do usuário.
+- [US09](../05_Agil/01_historias_de_usuario.md#us09): Eu, como usuário comprador, desejo realizar meu cadastro na plataforma para acessar os recursos do sistema e salvar minhas informações pessoais de forma segura. [RF1](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf1)
+
+<a id="us10"></a>
+
+- [US10](../05_Agil/01_historias_de_usuario.md#us10): Eu, como usuário comprador, desejo acessar minha conta usando e-mail e senha para visualizar minhas informações e histórico de atividades. [RF3](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf3)
 
 <a id="us16"></a>
 
-- [US16]: Eu, como Jogador Cadastrado (Vendedor ou Colecionador), desejo personalizar minha página de perfil público com foto e descrição para me apresentar à comunidade. [RF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)
+- [US16](../05_Agil/01_historias_de_usuario.md#us16): Eu, como Jogador Cadastrado (Vendedor ou Colecionador), desejo personalizar minha página de perfil público com foto e descrição para me apresentar à comunidade. [RF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)
+
+
+##### Épico 3.2: Gerenciamento de Perfil e Dados Pessoais
+Este épico contém as histórias de usuário relacionadas à atualização e visualização das informações pessoais do usuário.
+
+<a id="us11"></a>
+
+- [US11](../05_Agil/01_historias_de_usuario.md#us11): Eu, como usuário comprador, desejo atualizar meus dados pessoais (como endereço, telefone e e-mail) para manter minhas informações corretas e facilitar futuras compras ou comunicações. [RF19](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf19)
+
+<a id="us12"></a>
+
+- [US12](../05_Agil/01_historias_de_usuario.md#us11): Eu, como usuário comprador, desejo atualizar meus dados pessoais (como endereço, telefone e e-mail) para manter minhas informações corretas e facilitar futuras compras ou comunicações. [RF24](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf24)
 
 #### Tema 4: Pesquisa e Filtragem de Cartas
 
@@ -147,6 +164,18 @@ Este épico contém as histórias de usuário relacionadas à experiência de pe
 <a id="us06"></a>
 
 - [US06](../05_Agil/01_historias_de_usuario.md#us06): Eu, como um comprador, desejo ver o preço, a condição, o idioma e a reputação do vendedor diretamente na lista de resultados da pesquisa para poder comparar as opções disponíveis de forma eficiente, sem precisar clicar em cada item. [RF22](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf22)
+
+
+<a id="us08"></a>
+
+- [US08](../05_Agil/01_historias_de_usuario.md#us08) : Eu, como usuário comprador, desejo realizar buscas por cartas específicas de forma eficiente e intuitiva, para encontrar rapidamente as cartas que desejo adquirir. [RFNI15](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni15)
+
+##### Épico 4.2: Lista de Desejos (Wishlist)
+Este épico contém as histórias de usuário relacionadas ao gerenciamento da lista de desejos, permitindo que o usuário salve cartas de interesse para acompanhamento futuro.
+
+<a id="us07"></a>
+
+- [US07](../05_Agil/01_historias_de_usuario.md#us07) : Eu, como usuário comprador, desejo salvar cartas em uma lista de desejos (wishlist) para poder comprá-las futuramente ou acompanhar mudanças de preço. [RFNI14](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni14)
 
 #### Tema 5: Privacidade e Conformidade
 
@@ -289,6 +318,7 @@ Este épico contém as histórias de usuário relacionadas à visualização de 
 | Thiago |                   |
 |Marcelo |                   |
 |Raissa |  14,28%            |
+| Angélica |                   |
 
 ## Histórico de versão
 
@@ -299,3 +329,4 @@ Este épico contém as histórias de usuário relacionadas à visualização de 
 |  1.2   | 19/10/2025 | adição de descrição, objetivo e metodologia |  Marcelo  |  Raissa  |
 |  1.3   | 19/10/2025 | Adicionando Backlogs                        |  Raissa   |    -     |
 |  1.4   | 19/10/2025 | Adicionando Backlogs (temas 10 ao 13)       |   Vera    |  Thiago  |
+|  1.5   | 19/10/2025 | Adicionando Backlogs                        |  Angélica |    Thiago, Raissa, Samuel, Marcelo, Vera, Guilherme     |
