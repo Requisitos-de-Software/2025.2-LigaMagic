@@ -8,16 +8,12 @@
 ## Conteúdo
 
 ### Tabela de Verificação
-|  | Perguntas | Autor|
-|---|----------|----------|
-| 1 | As historias de usuario descrevem algo que o sistema deve fazer para o usuário?  |Angélica |
-| 2 | As historias de usuario Representa um requisito funcional?    |Angélica |
-| 3 | As historias de usuario estam inicialmente no nível de objetivo do usuário?    |Angélica |
-| 4 | As historias de usuario definem o escopo sem muitos detalhes?    |Angélica |
-| 5 | As historias de usuario são uma declarações breves?     |Angélica |
-
-[Lista de verificação Angélica – Verificação - historias de usuario com referencia completa de cada pergunta disponivel em PDF.](../../../00_assets/pdfs/verificacao/)
-
+|   Perguntas | Fontes  | Fotos | Autor| 
+|----------|----------|---------|---------|
+| 1 - As historias de usuario descrevem algo que o sistema deve fazer para o usuário? {vus1} |VASQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. 1. ed.  2016. p. 307.|[Referencia completa](../../00_assets/pdfs/verificacao/modelagem/historia_de_usuario/Angelica/1-Inspecao-HistoriadeusuariosdoGrupo3.png)|Angélica |
+| 2 - As historias de usuario Representa um requisito funcional? {vus2}  |VASQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. 1. ed.  2016. p. 307.|[Referencia completa](../../00_assets/pdfs/verificacao/modelagem/historia_de_usuario/Angelica/2-Inspecao-HistoriadeusuariosdoGrupo3.png) |Angélica |
+| 3 - As historias de usuario definem o escopo sem muitos detalhes? {vus3}  |VASQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. 1. ed.  2016. p. 307.|[Referencia completa](../../00_assets/pdfs/verificacao/modelagem/historia_de_usuario/Angelica/3-Inspecao-HistoriadeusuariosdoGrupo3.png) |Angélica |
+| 4 - As historias de usuario são uma declarações breves?   {vus4}  |VASQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. 1. ed.  2016. p. 307.|[Referencia completa](../../00_assets/pdfs/verificacao/modelagem/historia_de_usuario/Angelica/4-Inspecao-HistoriadeusuariosdoGrupo3.png)|Angélica |
 
 ## Bibliografia
 > VASQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos: software orientado ao negócio. 1. ed.  2016.
@@ -33,3 +29,4 @@
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | :----: | :--: | :-------- | :-------: | :-----: |
 |1.1|	15/10/2025|	Adição da tabela de verificação |	Angélica	|Guilherme      | 
+|1.2|	20/10/2025|	Adição dos links da tabela de verificação |	Angélica	|Guilherme      | 
