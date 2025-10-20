@@ -39,3 +39,4 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | :----: | :--: | :-------- | :-------: | :-----: |
 |1.0|	15/10/2025|	Adição da tabela de inspeção |	Angélica	|Guilherme     |
+|1.2|	20/10/2025|	Adição dos links da tabela de inspeção |	Angélica	|Guilherme     |

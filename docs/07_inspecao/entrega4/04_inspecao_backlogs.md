@@ -9,13 +9,12 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 
 ## Conteúdo
 ## Avaliação - GitHub Pages
-|   Perguntas | Fontes  | Fotos | Autor| Resposta (Sim / Não / Incompleto) | Versão, data e hora da avaliação |
-|----------|----------|---------|---------|---------|---------|
-| 1 - O backlog representa uma lista de funcionalidade para fazer no projeto? |||Angélica |||
-| 2 - O backlog é uma lista priorizada das funcionalidades do projeto?  |||Angélica |||
-| 3 -  O backlog é visível para todos os envolvidos no projeto?  |||Angélica |||
-| 4 - O backlog possui detalhes suficientes para ajudar os desenvolvedores a implementas esses requisitos, ou seja, uma sprint tem a quantidade de funcionalidades necessárias detalhadas?  |||Angélica |||
-| 5 -  O backlog é estimado ou estimável, contendo partes entendíveis sendo fácil de ser agendado?   |||Angélica |||
+|   Perguntas |  Autor| Resposta (Sim / Não / Incompleto) | Versão, data e hora da avaliação |
+|----------   |----------|---------|---------|
+| [1 - O backlog representa uma lista de funcionalidade para fazer no projeto?](../../06_verificacao/entrega4/verificacao_backlogs.md#VPBI1)|Angélica |||
+| [2 - O backlog é uma lista priorizada das funcionalidades do projeto?](../../06_verificacao/entrega4/verificacao_backlogs.md#VPBI2) |Angélica |||
+| [3 - O backlog é visível para todos os envolvidos no projeto?](../../06_verificacao/entrega4/verificacao_backlogs.md#VPBI3)|Angélica |||
+| [4 - O backlog possui detalhes suficientes para ajudar os desenvolvedores a implementas esses requisitos, ou seja, uma sprint tem a quantidade de funcionalidades necessárias detalhadas?](../../06_verificacao/entrega4/verificacao_backlogs.md#VPBI4) |Angélica |||
 
 ### **Fonte:** Angélica, 2025
 
@@ -41,3 +40,4 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 | Versão | Data | Descrição | Autor(es) | Revisor |
 | :----: | :--: | :-------- | :-------: | :-----: |
 |1.0|	15/10/2025|	Adição da tabela de inspeção |	Angélica	|Guilherme     |
+|1.2|	20/10/2025|	Adição dos links da tabela de inspeção |	Angélica	|Guilherme     |
