@@ -471,7 +471,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 **Fonte:** Thiago, 2025
 
 
-<div align="center"><strong>Tabela 25:</strong> Permitir controle de cookies </div>
+<div align="center"><strong>Tabela 26:</strong> Permitir controle de cookies </div>
 
 | **Item**                     | **Descrição**                                               |
 | ---------------------------- | ----------------------------------------------------------- |
@@ -487,7 +487,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 **Fonte:** Raissa, 2025
 
 
-<div align="center"><strong>Tabela 26:</strong> Visualizar decks </div>
+<div align="center"><strong>Tabela 27:</strong> Visualizar decks </div>
 
 | **Item**                     | **Descrição**                                               |
 | ---------------------------- | ----------------------------------------------------------- |
@@ -502,7 +502,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 **Fonte:** Raissa, 2025
 
-<div align="center"><strong>Tabela 27:</strong> Fórum </div>
+<div align="center"><strong>Tabela 28:</strong> Fórum </div>
 
 | **Item**                     | **Descrição**                                               |
 | ---------------------------- | ----------------------------------------------------------- |
@@ -518,7 +518,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 **Fonte:** Raissa, 2025
 
 
-<div align="center"><strong>Tabela 28:</strong> Reportar problemas </div>
+<div align="center"><strong>Tabela 29:</strong> Reportar problemas </div>
 
 | **Item**                     | **Descrição**                                               |
 | ---------------------------- | ----------------------------------------------------------- |
@@ -533,7 +533,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 **Fonte:** Raissa, 2025
 
-<div align="center"><strong>Tabela 29:</strong> Os usuarios devem ser capazes de criar, salvar e gerenciar listas de decks </div>
+<div align="center"><strong>Tabela 30:</strong> Os usuarios devem ser capazes de criar, salvar e gerenciar listas de decks </div>
 
 | **Item**                     | **Descrição**                                               |
 | ---------------------------- | ----------------------------------------------------------- |
@@ -548,7 +548,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 **Fonte:** Raissa, 2025
 
-<div align="center"><strong>Tabela 30:</strong> O sistema deve fornecer a funcionalidade "Comprar por lista" </div>
+<div align="center"><strong>Tabela 31:</strong> O sistema deve fornecer a funcionalidade "Comprar por lista" </div>
 
 | **Item**                     | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -565,7 +565,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 #### [US31] - Permitir que o usuário realize a compra de cartas cadastradas
 
-<div align="center"><strong>Tabela 31:</strong> O sistema deve permitir que o usuário realize a compra de cartas cadastradas</div>
+<div align="center"><strong>Tabela 32:</strong> O sistema deve permitir que o usuário realize a compra de cartas cadastradas</div>
 
 | **Item**               | **Descrição**                                                                                                                                                                                                              |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -582,7 +582,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 ####  [US32] – Visualizar gráfico de histórico de preços
 
-<div align="center"><strong>Tabela 32:</strong> O sistema deve permitir que o usuário visualize o histórico de preços em formato gráfico</div>
+<div align="center"><strong>Tabela 33:</strong> O sistema deve permitir que o usuário visualize o histórico de preços em formato gráfico</div>
 
 | **Item**               | **Descrição**                                                                                                                                                                                                   |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -599,7 +599,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 ####  [US33] – Permitir visualizar preço médio de uma carta por edição
 
-<div align="center"><strong>Tabela 33:</strong> O sistema deve permitir que o usuário visualize o preço médio de cartas por edição</div>
+<div align="center"><strong>Tabela 34:</strong> O sistema deve permitir que o usuário visualize o preço médio de cartas por edição</div>
 
 | **Item**               | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -616,7 +616,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 #### [US34] – Permitir adicionar textos e imagens em anúncios
 
-<div align="center"><strong>Tabela 34:</strong> O sistema deve permitir a inclusão de textos e fotos nos anúncios</div>
+<div align="center"><strong>Tabela 35:</strong> O sistema deve permitir a inclusão de textos e fotos nos anúncios</div>
 
 | **Item**               | **Descrição**                                                                                                                                                                                                     |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -633,7 +633,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 #### [US35] – Permitir reportar problemas relacionados a cartas
 
-<div align="center"><strong>Tabela 35:</strong> O sistema deve permitir que o usuário reporte problemas relacionados à carta</div> 
+<div align="center"><strong>Tabela 36:</strong> O sistema deve permitir que o usuário reporte problemas relacionados à carta</div> 
 
 | **Item**                     | **Descrição**                                                                                                                                                                                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -649,7 +649,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 ####  [US36] – Definir alerta de preço para carta
 
-<div align="center"><strong>Tabela 36:</strong> O sistema deve permitir que o usuário defina um alerta de preço para uma carta específica</div>
+<div align="center"><strong>Tabela 37:</strong> O sistema deve permitir que o usuário defina um alerta de preço para uma carta específica</div>
 
 | **Item**                     | **Descrição**                                                                                                                                                                                                                                                                                                  |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -662,9 +662,107 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | Rastreabilidade              | [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)                                                                                                                                                                                                                                 |
 | Validação                    |                                                                                                                                                                                                                                                                                                                |
 
+####  [US37] – Verificação de Dados Cadastrados {#us37}
 
+| **Item**                      | **Descrição**                                               |
+| ----------------------------- | ----------------------------------------------------------- |
+| USx  | US37                                                        |
+| Tema                          | Autenticação e Segurança                                         |
+| Descrição                     | Eu, como um usuário do sistema, desejo que as informações inseridas durante o cadastro sejam verificadas automaticamente para garantir que os dados sejam autênticos e válidos, evitando erros e fraudes. |
+| Critérios de Aceitação        | <br>- O sistema deve validar os campos obrigatórios durante o cadastro.<br>- O sistema deve identificar e rejeitar informações inválidas (ex: CPF inexistente, e-mail incorreto).<br>- O sistema deve exibir mensagens claras informando o motivo da rejeição dos dados.<br>- O sistema deve impedir o cadastro até que todos os dados sejam válidos.                    |
+| Prioridade                    | -                                     |
+| Status                        | Não validada                                   |
+| Rastreabilidade               | [RF05](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                          |
+| Validação                     |-                  |
 
+<div align="center"><strong>Tabela 38:</strong> Verificação de Dados Cadastrados</div>
 
+**Fonte:** Guilherme, 2025
+
+####  [US38] – Troca de Mensagens Privadas {#us38}
+
+| **Item**                      | **Descrição**                                               |
+| ----------------------------- | ----------------------------------------------------------- |
+| USx  | US38                                                         |
+| Tema                          | Comunicação                                         |
+| Descrição                     | Eu, como um usuário do sistema, desejo enviar e receber mensagens privadas com outros usuários para poder me comunicar de forma direta e segura.|
+| Critérios de Aceitação        | <br>- O sistema deve permitir o envio e recebimento de mensagens privadas entre dois usuários.<br>- As mensagens devem ser armazenadas de forma segura, garantindo a privacidade dos usuários.<br>- O sistema deve notificar o usuário ao receber uma nova mensagem.<br>- O sistema deve exibir o histórico de mensagens trocadas.                    |
+| Prioridade                    | -                                     |
+| Status                        | Não validada                                   |
+| Rastreabilidade               | [RF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                           |
+| Validação                     | -                 |
+
+<div align="center"><strong>Tabela 39:</strong> Troca de Mensagens Privadas </div>
+
+**Fonte:** Guilherme, 2025
+
+####  [US39] – Verificação de Dados Cadastrados {#us39}
+
+| **Item**                      | **Descrição**                                               |
+| ----------------------------- | ----------------------------------------------------------- |
+| USx | US39                                                         |
+| Tema                          | Gerenciamento de Usuários                                         |
+| Descrição                     | Eu, como um usuário do sistema, desejo solicitar o acesso, a correção, a exclusão ou a anonimização dos meus dados pessoais para garantir meus direitos de privacidade e conformidade com a Lei Geral de Proteção de Dados (LGPD). |
+| Critérios de Aceitação        | <br>- O sistema deve permitir que o usuário visualize todas as informações pessoais armazenadas.<br>- O sistema deve permitir que o usuário solicite a correção de dados incorretos.<br>- O sistema deve permitir que o usuário solicite a exclusão ou anonimização de seus dados pessoais.<br>- O sistema deve confirmar a execução da solicitação ao usuário.                     |
+| Prioridade                    | -                                    |
+| Status                        | Não validada                                   |
+| Rastreabilidade               | [RF15](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                             |
+| Validação                     | -                  |
+
+<div align="center"><strong>Tabela 40:</strong> Verificação de Dados Cadastrados</div>
+
+**Fonte:** Guilherme, 2025
+
+####  [US40] – Utilizar Cookies para Personalização {#us40}
+
+| **Item**                      | **Descrição**                                               |
+| ----------------------------- | ----------------------------------------------------------- |
+| USx | US40                                                         |
+| Tema                          | Personalização                                         |
+| Descrição                     | Eu, como um usuário do sistema, desejo que sejam utilizados cookies para facilitar meu login e personalizar minha experiência de navegação, tornando o uso da plataforma mais prático e adaptado às minhas preferências.|
+| Critérios de Aceitação        | <br>- O sistema deve utilizar cookies para manter o usuário autenticado entre sessões.<br>- O sistema deve permitir a personalização de conteúdo com base nas preferências do usuário.<br>- O sistema deve solicitar consentimento do usuário para o uso de cookies.<br>- O sistema deve permitir a exclusão dos cookies a qualquer momento.                     |
+| Prioridade                    | -                                    |
+| Status                        | Não validada                                   |
+| Rastreabilidade               | [RF17](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                           |
+| Validação                     |               |
+
+<div align="center"><strong>Tabela 41:</strong> Utilizar Cookies para Personalização </div>
+
+**Fonte:** Guilherme, 2025
+
+####  [US41] – Utilização de Dados para Finalidades Específicas {#us41}
+
+| **Item**                      | **Descrição**                                               |
+| ----------------------------- | ----------------------------------------------------------- |
+| USx | US41                                                         |
+| Tema                          |  Gestão de Serviços                 |
+| Descrição                     | Eu, como um usuário do sistema, desejo que meus dados pessoais sejam utilizados apenas para finalidades específicas, como identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações, para garantir transparência e segurança no tratamento das minhas informações.|
+| Critérios de Aceitação        |    <br>- O sistema deve utilizar os dados pessoais apenas para as finalidades descritas.<br>- O sistema deve informar ao usuário de forma clara as finalidades do uso dos dados.<br>- O sistema deve permitir que o usuário gerencie suas preferências de uso de dados.<br>- O sistema deve registrar o consentimento do usuário antes de qualquer uso adicional dos dados.                 |
+| Prioridade                    | -                                   |
+| Status                        | Não validada                                   |
+| Rastreabilidade               |  [RF13](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                          |
+| Validação                     | -                   |
+
+<div align="center"><strong>Tabela 42:</strong> Utilização de Dados para Finalidades Específicas</div>
+
+**Fonte:** Guilherme, 2025
+
+####  [US42] – Módulo de Leilões {#us42}
+
+| **Item**                      | **Descrição**                                               |
+| ----------------------------- | ----------------------------------------------------------- |
+| USx | US42                                                         |
+| Tema                          | Módulo de Leilões                                          |
+| Descrição                     | Eu, como um usuário do sistema, desejo acessar um módulo completo de leilões para poder anunciar, participar e acompanhar disputas por produtos ou serviços em tempo real. |
+| Critérios de Aceitação        | <br>- O sistema deve permitir a criação de leilões com título, descrição e valor inicial.<br>- O sistema deve permitir que outros usuários façam lances em tempo real.<br>- O sistema deve atualizar automaticamente o valor mais alto do lance.<br>- O sistema deve encerrar o leilão quando o tempo limite for atingido e registrar o vencedor.                    |
+| Prioridade                    | -                                     |
+| Status                        | Não validada                                   |
+| Rastreabilidade               | [RFNI08](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#requisitos-funcionais-não-implementados)                           |
+| Validação                     | -                  |
+
+<div align="center"><strong>Tabela 43:</strong> Módulo de Leilões</div>
+
+**Fonte:** Guilherme, 2025
 
 ## Referências
 
@@ -678,7 +776,9 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | Thiago   |                   |
 | Angélica |                   |
 | Marcelo  |                   |
-| Raissa |     14,28%          |
+| Raissa   |     14,28%        |
+|Vera      |                   |
+|Guilherme |                   |
 
 
 
@@ -693,4 +793,5 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 |  1.3   | 18/10/2025 | Adicionar histórias de usuário (US19–US24) |     Thiago     |     Samuel     |
 |  1.4   | 16/10/2025 | Adicionar as citações bibliográficas       |     Samuel     |     Thiago     |
 |  1.5   | 19/10/2025 | adicionar histórias de usuário (US25–US30) |     Raissa     |       -        |
-|  1.6   | 19/10/2025 | adicionar histórias de usuário (US21–US33) |      Vera      |   Guilherme    |
+|  1.6   | 19/10/2025 | adicionar histórias de usuário (US31–US36) |      Vera      |   Guilherme    |
+|  1.7   | 19/10/2025 | adicionar histórias de usuário (US37–US42) |      Guilherme     |   Vera   |
