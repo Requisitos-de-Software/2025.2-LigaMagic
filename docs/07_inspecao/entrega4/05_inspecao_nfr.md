@@ -13,8 +13,7 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 |----------   |----------|---------|---------|
 | [1 - Os requisitos não-funcionais são representados como softgoals](../../06_verificacao/entrega4/verificacao_nfr_framework.md#VNFN1)  |Angélica |Não||
 | [2 - Cada um dos softgoals representam uma meta sem definição clara?](../../06_verificacao/entrega4/verificacao_nfr_framework.md#VNFN2)    |Angélica |Não||
-| [3 - Os softgoals suportam raciocínio qualitativo, ou seja, tem graus de satisfação?](../../06_verificacao/entrega4/verificacao_nfr_framework.md#VNFN3)    |Angélica |Não||
-| [4 - O framework estabelece interdependências entre NFRs?](../../06_verificacao/entrega4/verificacao_nfr_framework.md#VNFN4)     |Angélica |Não||
+| [3 - O framework avalia o impacto das decisões tomadas?](../../06_verificacao/entrega4/verificacao_nfr_framework.md#VNFN3)    |Angélica |Não||
 
 
 
