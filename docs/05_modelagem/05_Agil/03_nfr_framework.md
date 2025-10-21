@@ -24,6 +24,108 @@ A forma como os softgoals são representados pode ser observada na Figura 1, que
 
 <p align="center"><em>Fonte: CHUNG et al., 2000.</em></p>
 
+### Interdependências
+
+As interdependências definem as relações entre os softgoals. No NFR Framework, essas relações são representadas por dois tipos principais de interdependência: os refinamentos e as contribuições.
+Essas interdependências permitem visualizar como os softgoals se influenciam mutuamente dentro do sistema, revelando dependências hierárquicas e impactos entre diferentes requisitos de qualidade.
+
+#### Decomposições (Refinamentos)
+
+Os refinamentos representam o tipo de interdependência que ocorre de forma hierárquica (top-down), quando um softgoal ascendente (pai) gera um ou mais softgoals descendentes (filhos), que se relacionam com o objetivo principal.
+Os refinamentos podem ocorrer por meio de decomposição, operacionalização e afirmação, permitindo detalhar gradualmente os requisitos não funcionais até níveis mais específicos e aplicáveis ao projeto (CHUNG et al., 2000).
+
+Os quatro tipos de decomposição utilizados pelo NFR Framework são:
+
+- **Decomposição de Softgoal NFR**: subdivide um softgoal NFR em outros mais específicos, ajudando a dividir grandes problemas em partes menores e mais manejáveis.
+
+- **Decomposição de Operacionalização**: subdivide um softgoal de operacionalização em outros mais específicos, definindo soluções práticas e refinadas.
+
+- **Decomposição de Afirmação (Claims)**: refina softgoals de afirmação, úteis para apoiar ou negar justificativas de projeto.
+
+- **Priorização**: tipo especial de decomposição que refina um softgoal com o mesmo tipo, mas associado a diferentes níveis de prioridade.
+
+Essas decomposições permitem representar, dentro do grafo SIG, a estrutura de refinamento dos requisitos não funcionais, auxiliando na rastreabilidade e na clareza das decisões de projeto.
+
+<p align="center"><strong>Figura 2 – Tipos de decomposição</strong></p>
+
+![Tipos de Decomposicao](../../00_assets/images/nfr_framework/InterdependenciasFig8.png)
+
+<p align="center"><em>Fonte: CHUNG et al., 2000.</em></p>
+
+### Contribuições
+
+Durante o refinamento dos softgoals, cada elemento descendente pode contribuir total ou parcialmente, e de forma positiva ou negativa, para a satisfação do softgoal ascendente (CHUNG et al., 2000).
+Essas contribuições permitem analisar o equilíbrio entre diferentes requisitos não funcionais — por exemplo, como melhorar o desempenho pode prejudicar a segurança, ou como aumentar a usabilidade pode impactar na eficiência.
+
+Os principais tipos de contribuições do NFR Framework incluem:
+
+- **AND**: todos os softgoals descendentes devem ser satisfeitos para que o ascendente também seja.
+
+- **OR**: a satisfação de qualquer softgoal descendente é suficiente para satisfazer o ascendente.
+
+<p align="center"><strong>Figura 3 – Exemplos de contribuições "AND" e "OR"</strong></p>
+
+![Tipos de Decomposicao](../../00_assets/images/nfr_framework/contribuicaoAndOr.png)
+
+<p align="center"><em>Fonte: Silva, Reinaldo Antônio da 
+NFR4ES: um Catálogo de Requisitos Não-Funcionais para
+Sistemas Embarcados/ Reinaldo Antônio da Silva – 2019.</em></p>
+
+- **MAKE** (++): contribuição fortemente positiva.
+
+- **BREAK** (--): contribuição fortemente negativa.
+
+- **HELP** (+): contribuição parcialmente positiva.
+
+- **HURT** (-): contribuição parcialmente negativa.
+
+<p align="center"><strong>Figura 4 – Exemplos de contribuições ” MAKE", ”BREAK ", ”HELP" e ”HURT"</strong></p>
+
+![Tipos de Decomposicao](../../00_assets/images/nfr_framework/contribuicaoAndOr.png)
+
+<p align="center"><em>Fonte: Silva, Reinaldo Antônio da 
+NFR4ES: um Catálogo de Requisitos Não-Funcionais para
+Sistemas Embarcados/ Reinaldo Antônio da Silva – 2019.</em></p>
+
+- **UNKNOWN** (?): contribuição desconhecida (pode ser positiva ou negativa).
+
+- **EQUALS**: o softgoal descendente só será satisfeito se o ascendente também for.
+
+- **SOME** (+/-): contribuição com sinal conhecido (positivo ou negativo), mas intensidade incerta.
+
+Essas relações permitem que o analista compreenda como os softgoals se reforçam ou se contradizem dentro do sistema, servindo como base para o processo de propagação de impactos.
+
+
+<p align="center"><strong>Figura 5 – Exemplos de contribuições"SOME", UNKNOWN e EQUALS</strong></p>
+
+![Tipos de Decomposicao](../../00_assets/images/nfr_framework/contribuicaoAndOr.png)
+
+<p align="center"><em>Fonte: Silva, Reinaldo Antônio da 
+NFR4ES: um Catálogo de Requisitos Não-Funcionais para
+Sistemas Embarcados/ Reinaldo Antônio da Silva – 2019.</em></p>
+
+### Propagação de Impactos (Procedimento de Avaliação)
+
+O procedimento de avaliação tem como objetivo determinar o grau de satisfação dos requisitos não funcionais a partir de um conjunto de decisões do projeto.
+Durante esse processo, cada softgoal do SIG é rotulado de acordo com o nível de satisfação alcançado, permitindo avaliar se os objetivos de qualidade foram atingidos.
+
+Os principais rótulos utilizados são:
+- **Satisfeito**
+- **Fracamente satisfeito**
+- **Negado**
+- **Fracamente negado**
+- **Conflitante**
+- **Indeterminado**
+
+<p align="center"><strong>Figura 6 – Tipos de rótulos utilizados pelos softgoals</strong></p>
+
+![Tipos de Decomposicao](../../00_assets/images/nfr_framework/rotulosSoftgoals.png)
+
+<p align="center"><em>Fonte: CHUNG et al., 2000.</em></p>
+
+Esses rótulos são aplicados de forma iterativa, começando pelos softgoals de nível mais baixo na hierarquia e propagando os resultados até os softgoals de nível superior.
+Esse procedimento permite compreender o impacto cumulativo das decisões sobre a qualidade do sistema, facilitando ajustes e priorizações ao longo do desenvolvimento.
+
 ### Cartões de Especificação
 
 Os cartões de especificação servem para registrar de forma detalhada cada requisito não funcional (softgoal) que identificamos. Eles oferecem um formato padronizado, o que torna mais fácil entender, analisar e acompanhar esses requisitos ao longo do projeto.
@@ -149,5 +251,5 @@ Abaixo está o modelo padrão para os cartões de especificação:
 |  1.1   | 15/10/2025 | Adição da tabela                                                                  | Angélica  | Guilherme |
 |  1.2   | 17/10/2025 | Adição da introdução                                                              |   Vera    |  Raissa   |
 |  1.3   | 18/10/2025 | Adição da tabela de contribuição, do modelo do cartão de especificação e do NFR01 |  Samuel   |   Vera    |
-
-|  1.5 | 18/10/2025 | Adição da tabela de contribuição, do modelo do cartão de especificação e do NFR02 |  Marcelo  |   Thiago   |
+|  1.4 | 18/10/2025 | Adição da tabela de contribuição, do modelo do cartão de especificação e do NFR02 |  Marcelo  |   Thiago   |
+|  1.5 | 18/10/2025 | Adição de parte da introdução |  Guilherme  |   Vera   |
