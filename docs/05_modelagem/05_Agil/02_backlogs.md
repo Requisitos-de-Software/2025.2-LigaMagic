@@ -21,12 +21,12 @@ Essa estrutura hierárquica facilita a compreensão do escopo total do projeto, 
 
 ### Tabela de contribuição
 
-| Histórias de Usuário                                                                     |   Autor   |
+| Backlogs                                                                                 |   Autor   |
 | :--------------------------------------------------------------------------------------- | :-------: |
 | [US01](#us01), [US02](#us02), [US03](#us03), [US04](#us04), [US05](#us05), [US06](#us06) |  Samuel   |
 | [US07](#us07), [US08](#us08), [US09](#us09), [US10](#us10), [US11](#us11), [US12](#us12) | Angélica  |
 | [US13](#us13), [US14](#us14), [US15](#us15), [US16](#us16), [US17](#us17), [US18](#us18) |  Marcelo  |
-| [US19](#us19), [US20](#us20), [US21](#us21), [US22](#us22), [US23](#us23), [US24](us24#) |  Thiago   |
+| [US19](#us19), [US20](#us20), [US21](#us21), [US22](#us22), [US23](#us23), [US24](#us24) |  Thiago   |
 | [US25](#us25), [US26](#us26), [US27](#us27), [US28](#us28), [US29](#us29), [US30](#us30) |  Raissa   |
 | [US31](#us31), [US32](#us32), [US33](#us33), [US34](#us34), [US35](#us35), [US36](#us36) |   Vera    |
 | [US37](#us37), [US38](#us38), [US39](#us39), [US40](#us40), [US41](#us41), [US42](#us42) | Guilherme |
