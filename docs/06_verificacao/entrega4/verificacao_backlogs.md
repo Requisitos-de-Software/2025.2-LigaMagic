@@ -1,11 +1,11 @@
 # Lista de Verificação - Backlogs
 
 ## Descrição
-
+Este documento apresenta uma lista de verificação consolidada para inspeção de backlogs no contexto do desenvolvimento ágil. O objetivo é garantir que o Product Backlog esteja estruturado de forma clara.
 ## Objetivo
-
+O objetivo desta verificação é avaliar se o backlog do projeto atende às boas práticas, buscando identificar se os itens estão devidamente descritos e detalhados.
 ## Metodologia
-
+A metodologia adotada baseia-se na criação de listas de verificação elaboradas a partir do conteúdo dos artefatos de backlog.
 ## Conteúdo
 
 ### Tabela de Verificação
