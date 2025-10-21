@@ -189,6 +189,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | [NFR04](#nfr04) | Cumprir legislações aplicáveis    | Guilherme |                          [RNF01](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf01)                          |
 | [NRF05](#nfr05) | Organização visual                |   Vera    |                          [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)                          |
 | [NRF06](#nfr06) | Exigir consentimento e concordância explícita             |   Angélica|                          [RNF05](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf05)                          |
+| [NRF07](#nfr07) | Adaptabilidade a Dispositivos Móveis             |   Thiago |                          [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)                          |
 
 <div align="center"><strong>Tabela 2:</strong> Tabela de contribuição</div>
 
@@ -239,7 +240,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | **Classificação**         | Suportabilidade > Compatibilidade|
 | **Descrição**             | A plataforma deve ser totalmente compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari), tanto em suas versões para desktop quanto para dispositivos móveis (Android e iOS).|
 | **Justificativa**         | Garantir que a vasta e diversificada base de usuários de _Magic: The Gathering_ possa acessar a plataforma sem barreiras técnicas, independentemente do dispositivo ou navegador de sua preferência. A compatibilidade ampla maximiza o alcance do produto, aumenta a satisfação e reduz a taxa de abandono por frustração técnica.|
-| **Origem**                | [Observação](../tecnicas/observacao.md)|
+| **Origem**                | [Observação](../../03_elicitacao/tecnicas/observacao.md)|
 | **Critério de Aceitação** | **Compatibilidade do aplicativo mobile:** <br>- O aplicativo deve ser instalável e totalmente funcional nas duas últimas versões estáveis dos sistemas operacionais Android e iOS. <br>- A interface deve seguir as diretrizes de design de cada plataforma para garantir uma experiência nativa e intuitiva. <br>- O layout deve ser fluido e adaptar-se a diferentes tamanhos e densidades de tela de smartphones, sem perda de funcionalidade. <br>- Todas as funcionalidades (fóruns, busca, etc.) devem operar sem erros e com performance otimizada para o ambiente mobile. <br><br>**Compatibilidade Desktop:** <br>- A versão web da plataforma deve operar sem erros nas últimas versões estáveis dos navegadores Google Chrome, Mozilla Firefox, Microsoft Edge e Safari. <br>- A interface deve ser renderizada corretamente, sem quebras de layout ou sobreposição de elementos, em todos os navegadores suportados. |
 | **Dependências**          | Nenhum|
 | **Prioridade**            | **9**|
@@ -349,6 +350,27 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 <div align="center"><strong>Tabela 8: Exigir consentimento e concordância explícita </strong> </div>
 
 **Fonte:** Angélica, 2025
+
+#### NFR07 - Adaptabilidade a Dispositivos Móveis {#nfr08}
+
+| Item                      | Descrição|
+| ------------------------- | ------------------------------- |
+| **ID**                    | NFR07|
+| **Requisito**             | [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)|
+| **Classificação**         | Portabilidade > Usabilidade |
+| **Descrição**             | A interface do sistema deve se adaptar fluidamente a diferentes tamanhos de tela (viewports) e orientações (retrato e paisagem) específicas do ecossistema móvel.|
+| **Justificativa**         | Atender à fragmentação do mercado de dispositivos móveis, garantindo que a aplicação seja funcional e esteticamente agradável tanto em smartphones compactos quanto em "phablets" (telas grandes), independentemente de como o usuário segura o dispositivo. |
+| **Origem**                | [Observação](../../03_elicitacao/tecnicas/observacao.md)|
+| **Critério de Aceitação** |1. O layout deve ser funcional e legível em viewports móveis pequenas (ex: 320px a 375px de largura). 2. O layout deve otimizar o espaço em viewports móveis grandes (ex: 414px a 480px de largura), sem deixar espaços vazios ou elementos desproporcionais. 3. A transição entre as orientações retrato (vertical) e paisagem (horizontal) no mesmo dispositivo não deve causar quebra de layout, perda de estado ou truncamento de conteúdo essencial. 4. A densidade de pixels (DPI) deve ser considerada para garantir a nitidez de ícones e imagens em telas de alta resolução (ex: Retina/AMOLED).|
+| **Dependências**          | Nenhum|
+| **Prioridade**            | **9**|
+| **Conflitos**             | Pode conflitar na parte de manutenibilidade, por conta do aumento da complexidade da parte visual e também de testes. Além disso, também há a chance de conflito na base do desemenho, pois irá carregar múltiplos assets, podendo impactar o tempo de carregamento.                         |
+| **História**              | Criado em 19/10/2025|
+
+<div align="center"><strong>Tabela 3:</strong> Adaptabilidade a Dispositivos Móveis </div>
+
+**Fonte:** Thiago, 2025
+
 ## Bibliografia
 
 > CHUNG, L., NIXON, B. A., YU, E., MYLOPOULOS, J. Non-functional requirementsin software engineering. Springer Science & Business Media: [S.l.], 2000. v. 5.
@@ -363,6 +385,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | Raissa    |      14,28%       |
 | Guilherme |                   |
 | Vera      |                   |
+| Thiago      |                   |
 
 ## Histórico de versão
 
@@ -378,3 +401,4 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 |  1.8   | 19/10/2025 | Adição da tabela NFR04 e ajustes em textos da classificação                       | Guilherme |   Vera    |
 |  1.9   | 19/10/2025 | Adição do cartão de epecificação                                                  |   Vera    |  Samuel   |
 |  1.10   | 19/10/2025 | Adição do cartão de epecificação                                                  |   Angélica    |  Samuel, Guilherme, Raissa, Marcelo, Vera    |
+|  1.11   | 20/10/2025 | Adição do cartão de epecificação                                                  |   Thiago    |  Samuel    |
