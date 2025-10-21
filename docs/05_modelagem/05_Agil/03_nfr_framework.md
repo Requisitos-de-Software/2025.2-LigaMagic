@@ -367,20 +367,29 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Thiago, 2025
 
+## Gravações das Validações
+
+| Requisito                  | Gravação                                           | Autor |
+|:---------------------------|:---------------------------------------------------|:------|
+| NRF05 - Organização visual | [Vídeo da valicação](https://youtu.be/X_5HQWm8DzM) | Vera  |
+
+
+
+
 ## Bibliografia
 
-> CHUNG, L., NIXON, B. A., YU, E., MYLOPOULOS, J. Non-functional requirementsin software engineering. Springer Science & Business Media: [S.l.], 2000. v. 5.
+> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 19/10/2025.
 
 ## Nível de Contribuição dos Integrantes
 
 | Nome      | % de Contribuição |
-| :-------- | :---------------: |
+| :-------- |:-----------------:|
 | Angélica  |                   |
 | Samuel    |                   |
 | Marcelo   |                   |
 | Raissa    |      14,28%       |
 | Guilherme |                   |
-| Vera      |                   |
+| Vera      |       14,28       |
 | Thiago    |                   |
 
 ## Histórico de versão
