@@ -281,7 +281,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Prioridade**             | -                                                                                                                                                                                                                        |
 | **Status**                 | Não Validada                                                                                                                                                                                                             |
 | **Rastreabilidade**        | [RFNI01](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni01)                                                                                                                                           |
-| **Validação**              | -                                                                                                                                                                                                                        |
+| **Validação**              |  https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA-                                                                                                                                                                                                                        |
 
 **Fonte:** Marcelo, 2025
 
@@ -298,7 +298,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Prioridade**             | -                                                                                                                                                                                                                                |
 | **Status**                 | Não Validada                                                                                                                                                                                                                     |
 | **Rastreabilidade**        | [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni03)                                                                                                                                                   |
-| **Validação**              | -                                                                                                                                                                                                                                |
+| **Validação**              |  https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA-                                                                                                                                                                                                                                |
 
 **Fonte:** Marcelo, 2025
 
@@ -315,7 +315,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Prioridade**             | -                                                                                                                                                                                               |
 | **Status**                 | Não Validada                                                                                                                                                                                    |
 | **Rastreabilidade**        | [RF04](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf04)                                                                                                                             |
-| **Validação**              | -                                                                                                                                                                                               |
+| **Validação**              | https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA-                                                                                                                                                                                               |
 
 **Fonte:** Marcelo, 2025
 
@@ -332,7 +332,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Prioridade**             | -                                                                                                                                                                                                                      |
 | **Status**                 | Não Validada                                                                                                                                                                                                           |
 | **Rastreabilidade**        | [RF27](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf27)                                                                                                                                                    |
-| **Validação**              | -                                                                                                                                                                                                                      |
+| **Validação**              | https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA-                                                                                                                                                                                                                      |
 
 **Fonte:** Marcelo, 2025
 
@@ -349,7 +349,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Prioridade**             | -                                                                                                                                                                                                                      |
 | **Status**                 | Não Validada                                                                                                                                                                                                           |
 | **Rastreabilidade**        | [RF30](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf30)                                                                                                                                                    |
-| **Validação**              | -                                                                                                                                                                                                                      |
+| **Validação**              | https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA-                                                                                                                                                                                                                      |
 
 **Fonte:** Marcelo, 2025
 
@@ -366,7 +366,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Prioridade**             | -                                                                                                                                                                                                                  |
 | **Status**                 | Não Validada                                                                                                                                                                                                       |
 | **Rastreabilidade**        | [RF32](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf32)                                                                                                                                                |
-| **Validação**              | -                                                                                                                                                                                                                  |
+| **Validação**              | https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA-                                                                                                                                                                                                                  |
 
 **Fonte:** Marcelo, 2025
 
@@ -783,7 +783,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | Samuel    |                   |
 | Thiago    |                   |
 | Angélica  |                   |
-| Marcelo   |                   |
+| Marcelo   |  14,28%           |
 | Raissa    | 14,28%            |
 | Vera      |                   |
 | Guilherme |                   |
