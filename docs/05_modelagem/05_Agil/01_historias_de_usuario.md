@@ -174,10 +174,10 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Tema**                   | Lista de Desejos (Wishlist)                                                                                                                                                                                                                                                                         |
 | **Descrição**              | Eu, como usuário comprador\*\*, desejo salvar cartas em uma lista de desejos (wishlist) para poder comprá-las futuramente ou acompanhar mudanças de preço.                                                                                                                                          |
 | **Critérios de Aceitação** | - O sistema deve permitir adicionar uma carta à lista de desejos a partir da página de resultados ou detalhes da carta. <br> - O usuário deve poder visualizar todas as cartas salvas em uma seção dedicada (“Minha Wishlist”). <br> - O usuário deve conseguir remover cartas da lista de desejos. |
-| **Prioridade**             |                                                                                                                                                                                                                                                                                                     |
-| **Status**                 |                                                                                                                                                                                                                                                                                                     |
-| **Rastreabilidade**        | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14)                                                                                                                                                                                                                      |
-| **Validação**              |                                                                                                                                                                                                                                                                                                     |
+| **Prioridade**             |Baixa|
+| **Status**                 | Validada                     |
+| **Rastreabilidade**        | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14)|
+| **Validação**              |[Video de validação com usuario aqui](https://youtu.be/zAwu2rMYy9s)|
 
 <div align="center"><strong>Tabela 9:</strong> História de Usuário –  Lista de Desejos (Wishlist)                          </div>
 
@@ -191,10 +191,10 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Tema**                   | Busca Rápida de Cartas                                                                                                                                                                                                                                      |
 | **Descrição**              | Eu, como usuário comprador, desejo realizar buscas por cartas específicas de forma eficiente e intuitiva, para encontrar rapidamente as cartas que desejo adquirir.                                                                                         |
 | **Critérios de Aceitação** | - O sistema deve permitir a busca por nome, tipo ou categoria da carta. <br> - Os resultados devem ser exibidos de forma clara e organizada.<br> - A busca deve funcionar mesmo com pequenas variações de digitação (ex: acentos ou maiúsculas/minúsculas). |
-| **Prioridade**             |                                                                                                                                                                                                                                                             |
-| **Status**                 |                                                                                                                                                                                                                                                             |
+| **Prioridade**             |Média|
+| **Status**                 |       Validada                                                                                                                                                                                                                                                      |
 | **Rastreabilidade**        | [RFNI15](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni15)                                                                                                                                                                              |
-| **Validação**              |                                                                                                                                                                                                                                                             |
+| **Validação**              |[Video de validação com usuario aqui](https://youtu.be/zAwu2rMYy9s)|
 
 <div align="center"><strong>Tabela 10:</strong> História de Usuário –  Busca Rápida de Cartas                            </div>
 
@@ -208,10 +208,10 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Tema**                   | Cadastro de usuário                                                                                                                                                                              |
 | **Descrição**              | Eu, como usuário comprador desejo realizar meu cadastro na plataforma para acessar os recursos do sistema e salvar minhas informações pessoais de forma segura                                   |
 | **Critérios de Aceitação** | - O sistema deve permitir o cadastro com nome, e-mail e senha. <br> - O sistema deve validar se o e-mail já está cadastrado. <br> - O usuário deve receber confirmação de cadastro bem-sucedido. |
-| **Prioridade**             |                                                                                                                                                                                                  |
-| **Status**                 |                                                                                                                                                                                                  |
+| **Prioridade**             |Alta|
+| **Status**                 |                                                                                                                          Validada                                                                        |
 | **Rastreabilidade**        | [RF1](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf1)                                                                                                                                |
-| **Validação**              | —                                                                                                                                                                                                |
+| **Validação**              | [Video de validação com usuario aqui](https://youtu.be/zAwu2rMYy9s)                                                                                                                                                                                                |
 
 <div align="center"><strong>Tabela 11:</strong> História de Usuário – Cadastro de usuário                          </div>
 
@@ -225,10 +225,10 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Tema**                   | Login de usuário                                                                                                                                                                                                   |
 | **Descrição**              | Eu, como usuário comprador desejo acessar minha conta usando e-mail e senha para visualizar minhas informações e histórico de atividades                                                                           |
 | **Critérios de Aceitação** | - O sistema deve validar e autenticar o login do usuário. <br> - Em caso de erro, deve exibir mensagem clara de credenciais incorretas. <br> - O login deve redirecionar o usuário para a tela inicial do sistema. |
-| **Prioridade**             |                                                                                                                                                                                                                    |
-| **Status**                 |                                                                                                                                                                                                                    |
+| **Prioridade**             |Alta|
+| **Status**                 |   Validada                                                                                                                                                                                                                 |
 | **Rastreabilidade**        | [RF3](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf3)                                                                                                                                                  |
-| **Validação**              | —                                                                                                                                                                                                                  |
+| **Validação**              | [Video de validação  com usuario aqui](https://youtu.be/zAwu2rMYy9s)                                                                                                                                                                                                                  |
 
 <div align="center"><strong>Tabela 12:</strong> História de Usuário – Login e Autenticação                      </div>
 
@@ -242,10 +242,10 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Tema**                   | Atualização de Dados do Usuário                                                                                                                                                                                                                                                |
 | **Descrição**              | Eu, como usuário comprador desejo atualizar meus dados pessoais (como endereço, telefone e e-mail)para manter minhas informações corretas e facilitar futuras compras ou comunicações                                                                                          |
 | **Critérios de Aceitação** | - O sistema deve permitir a edição de dados pessoais (nome, e-mail, telefone, endereço). <br> - As alterações devem ser salvas corretamente no perfil do usuário. <br> - Caso algum campo obrigatório não esteja preenchido, o sistema deve exibir uma mensagem de erro clara. |
-| **Prioridade**             |                                                                                                                                                                                                                                                                                |
-| **Status**                 | Não Validada                                                                                                                                                                                                                                                                   |
+| **Prioridade**             |Alta|
+| **Status**                 |  Validada                                                                                                                                                                                                                                                                   |
 | **Rastreabilidade**        | [RF19](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf19)                                                                                                                                                                                                            |
-| **Validação**              |                                                                                                                                                                                                                                                                                |
+| **Validação**              |[Video de validação  com usuario aqui](https://youtu.be/zAwu2rMYy9s)|
 
 <div align="center"><strong>Tabela 13:</strong> História de Usuário – Atualização de Dados do Usuário                  </div>
 
@@ -259,10 +259,10 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Tema**                   | Histórico de Compras                                                                                                                                                                                                                                                                     |
 | **Descrição**              | Eu, como usuário comprador desejo acessar meu histórico de compras com informações detalhadas para consultar produtos adquiridos, datas e valores pagos                                                                                                                                  |
 | **Critérios de Aceitação** | - O sistema deve exibir uma lista com todas as compras realizadas pelo usuário. <br> - Cada item do histórico deve mostrar a data da compra, nome do produto, quantidade e valor pago. <br> - O usuário deve conseguir visualizar detalhes de cada compra ao clicar em um item da lista. |
-| **Prioridade**             |                                                                                                                                                                                                                                                                                          |
-| **Status**                 |                                                                                                                                                                                                                                                                                          |
+| **Prioridade**             |Alta|
+| **Status**                 |      Validada                                                                                                                                                                                                                                                                                    |
 | **Rastreabilidade**        | [RF24](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf24)                                                                                                                                                                                                                      |
-| **Validação**              |                                                                                                                                                                                                                                                                                          |
+| **Validação**              |[Video de validação com usuario aqui](https://youtu.be/zAwu2rMYy9s)|
 
 <div align="center"><strong>Tabela 14:</strong> História de Usuário – Histórico de Compras      </div>
 
