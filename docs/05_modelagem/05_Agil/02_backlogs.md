@@ -157,6 +157,10 @@ Este épico contém as histórias de usuário relacionadas à atualização e vi
 
 - [US12](../05_Agil/01_historias_de_usuario.md#us11): Eu, como usuário comprador, desejo atualizar meus dados pessoais (como endereço, telefone e e-mail) para manter minhas informações corretas e facilitar futuras compras ou comunicações. [RF24](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf24)
 
+<a id="us13"></a>
+
+- [US13](../05_Agil/01_historias_de_usuario.md#us13): Eu, como usuário, desejo personalizar e manter minha página pessoal/profissional para exibir minhas informações e preferências dentro da plataforma.[RFNI01](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni15)
+
 ---
 
 #### Tema 4: Pesquisa e Filtragem de Cartas
@@ -393,7 +397,8 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 
 | Tema     | Gravação                                          | Autor |
 | :------- | :------------------------------------------------ | :---- |
-| 10 ao 13 | [Vídeo da valicação](https://youtu.be/b4i_QipWo9) | Vera  |
+| 31 ao 36 | [Vídeo da valicação](https://youtu.be/b4i_QipWo9) | Vera  |
+| 13 ao 18 |  [Vídeo da valicação](https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA)   |     Marcelo   |
 
 ## Referências
 
