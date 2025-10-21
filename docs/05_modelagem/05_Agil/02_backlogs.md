@@ -393,12 +393,62 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 
 ---
 
+### Prioridade dos Backlogs
+
+| Tema 01 | Épico 1 | US13 | - |
+
+| **Tema** | **Épico**  | **USx** | **Prioridade** |
+| :------: | :--------: | :-----: | :------------: |
+| Tema 01  | Épico 1.1  |  US01   |     Média      |
+| Tema 01  | Épico 1.2  |  US19   |     Média      |
+| Tema 02  | Épico 2.1  |  US02   |      Alta      |
+| Tema 02  | Épico 2.1  |  US16   |       -        |
+| Tema 02  | Épico 2.1  |  US17   |       -        |
+| Tema 02  | Épico 2.1  |  US18   |       -        |
+| Tema 02  | Épico 2.2  |  US14   |       -        |
+| Tema 02  | Épico 2.2  |  US20   |     Média      |
+| Tema 02  | Épico 2.3  |  US15   |       -        |
+| Tema 02  | Épico 2.3  |  US23   |      Alta      |
+| Tema 03  | Épico 3.1  |  US03   |      Alta      |
+| Tema 03  | Épico 3.1  |  US09   |                |
+| Tema 03  | Épico 3.1  |  US10   |                |
+| Tema 03  | Épico 3.1  |  US21   |      Alta      |
+| Tema 03  | Épico 3.1  |  US22   |     Média      |
+| Tema 03  | Épico 3.2  |  US11   |                |
+| Tema 03  | Épico 3.2  |  US12   |                |
+| Tema 04  | Épico 4.1  |  US04   |      Alta      |
+| Tema 04  | Épico 4.1  |  US05   |     Média      |
+| Tema 04  | Épico 4.1  |  US06   |      Alta      |
+| Tema 04  | Épico 4.1  |  US08   |                |
+| Tema 04  | Épico 4.2  |  US07   |                |
+| Tema 05  | Épico 5.1  |  US24   |      Alta      |
+| Tema 05  | Épico 5.1  |  US39   |       -        |
+| Tema 05  | Épico 5.2  |  US37   |       -        |
+| Tema 05  | Épico 5.3  |  US41   |       -        |
+| Tema 06  | Épico 6.1  |  US26   |      Alta      |
+| Tema 06  | Épico 6.1  |  US29   |      Alta      |
+| Tema 07  | Épico 7.1  |  US27   |      Alta      |
+| Tema 07  | Épico 7.1  |  US38   |       -        |
+| Tema 07  | Épico 7.2  |  US28   |     Média      |
+| Tema 08  | Épico 8.1  |  US30   |     Média      |
+| Tema 09  | Épico 9.1  |  US25   |     Média      |
+| Tema 09  | Épico 9.1  |  US40   |       -        |
+| Tema 10  | Épico 10.1 |  US34   |      Alta      |
+| Tema 11  | Épico 11.1 |  US35   |      Alta      |
+| Tema 12  | Épico 12.1 |  US31   |      Alta      |
+| Tema 12  | Épico 12.2 |  US36   |      Alta      |
+| Tema 13  | Épico 13.1 |  US33   |      Alta      |
+| Tema 13  | Épico 13.2 |  US32   |      Alta      |
+| Tema 14  | Épico 14.1 |  US42   |       -        |
+
+---
+
 ## Gravações das Validações
 
-| Tema     | Gravação                                          | Autor |
-| :------- | :------------------------------------------------ | :---- |
-| 31 ao 36 | [Vídeo da valicação](https://youtu.be/b4i_QipWo9) | Vera  |
-| 13 ao 18 |  [Vídeo da valicação](https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA)   |     Marcelo   |
+| Tema     | Gravação                                                               | Autor   |
+| :------- | :--------------------------------------------------------------------- | :------ |
+| 31 ao 36 | [Vídeo da valicação](https://youtu.be/b4i_QipWo9)                      | Vera    |
+| 13 ao 18 | [Vídeo da valicação](https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA) | Marcelo |
 
 ## Referências
 
