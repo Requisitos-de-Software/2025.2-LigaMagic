@@ -81,7 +81,7 @@ Este épico contém as histórias de usuário relacionadas à interação com o 
 
 <a id="us17"></a>
 
-- [US17](../05_Agil/01_historias_de_usuario.md#us17): Eu, como usuário, desejo visualizar informações detalhadas de cada carta, incluindo edição, idioma, condição e preço médio, para tomar decisões mais informadas.
+- [US17](../05_Agil/01_historias_de_usuario.md#us17): Eu, como usuário, desejo visualizar informações detalhadas de cada carta, incluindo edição, idioma, condição e preço médio, para tomar decisões mais informadas.[RF30](../../03_elicitacao/artefatos/requisitos_elicitados.md)
 
 <a id="us18"></a>
 
@@ -402,12 +402,12 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 | Tema 01  | Épico 1.1  |  US01   |     Média      |
 | Tema 01  | Épico 1.2  |  US19   |     Média      |
 | Tema 02  | Épico 2.1  |  US02   |      Alta      |
-| Tema 02  | Épico 2.1  |  US16   |       -        |
-| Tema 02  | Épico 2.1  |  US17   |       -        |
-| Tema 02  | Épico 2.1  |  US18   |       -        |
-| Tema 02  | Épico 2.2  |  US14   |       -        |
+| Tema 02  | Épico 2.1  |  US16   |      Alta       |
+| Tema 02  | Épico 2.1  |  US17   |      Alta       |
+| Tema 02  | Épico 2.1  |  US18   |      Alta      |
+| Tema 02  | Épico 2.2  |  US14   |      Alta      |
 | Tema 02  | Épico 2.2  |  US20   |     Média      |
-| Tema 02  | Épico 2.3  |  US15   |       -        |
+| Tema 02  | Épico 2.3  |  US15   |      Alta      |
 | Tema 02  | Épico 2.3  |  US23   |      Alta      |
 | Tema 03  | Épico 3.1  |  US03   |      Alta      |
 | Tema 03  | Épico 3.1  |  US09   |                |
@@ -416,6 +416,7 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 | Tema 03  | Épico 3.1  |  US22   |     Média      |
 | Tema 03  | Épico 3.2  |  US11   |                |
 | Tema 03  | Épico 3.2  |  US12   |                |
+| Tema 03  | Épico 3.2  |  US13   |      Média     |
 | Tema 04  | Épico 4.1  |  US04   |      Alta      |
 | Tema 04  | Épico 4.1  |  US05   |     Média      |
 | Tema 04  | Épico 4.1  |  US06   |      Alta      |
@@ -460,7 +461,7 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 | --------- | ----------------- |
 | Samuel    |                   |
 | Thiago    |                   |
-| Marcelo   |                   |
+| Marcelo   |   14,28%          |
 | Raissa    | 14,28%            |
 | Angélica  |                   |
 | Guilherme |                   |
