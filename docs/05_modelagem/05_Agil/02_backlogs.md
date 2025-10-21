@@ -367,6 +367,17 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 
 ---
 
+
+## Gravações das Validações
+
+| Tema     | Gravação                                          | Autor |
+|:---------|:--------------------------------------------------|:------|
+| 10 ao 13 | [Vídeo da valicação](https://youtu.be/b4i_QipWo9) | Vera  | 
+
+
+
+
+
 ## Referências
 
 - Ordem Alfabetica
