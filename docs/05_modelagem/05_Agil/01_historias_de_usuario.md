@@ -3,7 +3,7 @@
 ## Descrição
 
 Este artefato documenta as histórias de usuário desenvolvidas para o sistema, seguindo a metodologia ágil. As histórias são descritas na perspectiva do usuário final e incluem critérios de aceitação claros para orientar o desenvolvimento e validação das funcionalidades.
-_(Pressman; Maxim, cap. 3)_.
+_(PRESSMAN, cap. 3)_[¹](#PRESSMAN).
 
 ## Objetivo
 
@@ -15,7 +15,7 @@ As histórias de usuário foram criadas seguindo o padrão:
 
 **“Como [tipo de usuário], eu quero [funcionalidade] para que [benefício]”**,
 
-em alinhamento com as práticas de levantamento de requisitos no desenvolvimento ágil, nas quais os usuários descrevem necessidades em forma de histórias que orientam a implementação incremental _(Pressman; Maxim, cap. 3)_.
+em alinhamento com as práticas de levantamento de requisitos no desenvolvimento ágil, nas quais os usuários descrevem necessidades em forma de histórias que orientam a implementação incremental _(PRESSMAN, cap. 3)_[¹](#PRESSMAN).
 
 Cada uma delas foi elaborada com critérios de aceitação claros, priorizadas com base no valor que trazem para o usuário e rastreáveis aos [requisitos elicitados](../../03_elicitacao/artefatos/requisitos_elicitados.md).
 
@@ -33,7 +33,6 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | US07 a US012            | Angélica Campos   |
 | US13 a US18             | Marcelo           |
 | US19 a US24             | Thiago            |
-| US25 a US30             | Raissa            |
 
 <div align="center"><strong>Tabela 1:</strong> Distribuição das histórias de usuário</div>
 
@@ -470,303 +469,11 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 **Fonte:** Thiago, 2025
 
-
-<div align="center"><strong>Tabela 26:</strong> Permitir controle de cookies </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | US25                                                        |
-| Tema                         | Controle de Configurações de Cookies                                         |
-| Descrição                    | Eu, como usuário preocupado com privacidade, desejo poder configurar minhas preferências de cookies no sistema, para ter controle sobre quais tipos de cookies são aceitos e proteger minha privacidade durante a navegação. |
-| Critérios de Aceitação       | - O sistema deve permitir que o usuário aceite todos os cookies com um clique. <br> - O sistema deve permitir que o usuário rejeite todos os cookies com um clique. <br> - O sistema deve oferecer opções avançadas para selecionar tipos específicos de cookies. <br> - O sistema deve salvar as preferências do usuário e não exibir o banner novamente para escolhas já feitas. <br> - O sistema deve permitir que o usuário altere suas configurações de cookies a qualquer momento através do perfil.          |
-| Prioridade                   | Média                                    |
-| Status                       | -                            |
-| Rastreabilidade              | [RF18](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf18)                         |
-| Validação                    | -                 |
-
-**Fonte:** Raissa, 2025
-
-
-<div align="center"><strong>Tabela 27:</strong> Visualizar decks </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | US26                                                         |
-| Tema                         | Visualização de Decks Publicados     |
-| Descrição                    | Eu, como jogador de Magic, desejo visualizar decks publicados por outros usuários, com a lista completa de cartas, para ter como referência e fazer nosas estratégias, aprender sobre combinações de cartas populares.  |
-| Critérios de Aceitação       | - O sistema deve permitir filtrar decks por formato (Standard, Modern, Commander, etc.). <br> - Ao selecionar um deck, o sistema deve mostrar a lista completa de cartas organizadas por tipo (criaturas, feitiços, terrenos, etc.). <br> - O sistema deve exibir informações do deck: nome, descrição, criador, data de criação e formato. <br> - O sistema deve calcular e mostrar o custo médio total do deck baseado nos preços atuais das cartas. <br> - O sistema deve permitir copiar a lista de cartas do deck para minha coleção pessoal.             |
-| Prioridade                | Alta                                     |
-| Status                       | -                                 |
-| Rastreabilidade              | [RF25](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf25)                         |
-| Validação                    | -                  |
-
-**Fonte:** Raissa, 2025
-
-<div align="center"><strong>Tabela 28:</strong> Fórum </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | US27                                                          |
-| Tema                         | Participação em Fórum de Discussão             |
-| Descrição                    | Eu, como membro da comunidade Magic, desejo buscar tópicos, ler discussões, responder postagens e criar novos tópicos no fórum, para poder compartilhar conhecimento, tirar dúvidas e interagir com outros jogadores.|
-| Critérios de Aceitação       | - O sistema deve exibir lista de tópicos ordenados por data de última resposta ou relevância <br> - O sistema deve permitir visualizar o conteúdo completo de um tópico com todas as respostas <br>  - O sistema deve permitir criar novo tópico com título, categoria e conteúdo <br>  - O sistema deve permitir responder a tópicos existentes com mensagens formatadas <br> - O sistema deve mostrar informações do autor e data de cada postagem <br>  - O sistema deve permitir marcar tópicos como favoritos e receber notificações de novas respostas              |
-| Prioridade                   | Alta   |
-| Status                       | -                   |
-| Rastreabilidade              | [RF26](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf26)                          |
-| Validação                    | -             |
-
-**Fonte:** Raissa, 2025
-
-
-<div align="center"><strong>Tabela 29:</strong> Reportar problemas </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | U28                                                         |
-| Tema                         | Reportar problemas em cartas e anúncios                     |
-| Descrição                    |  Eu, como usuário ativo da plataforma, desejo reportar problemas relacionados a cartas e anúncios, como informações incorretas, preços discrepantes ou anúncios suspeitos, para contribuir com a qualidade e confiabilidade do sistema para toda a comunidade. |
-| Critérios de Aceitação       | - O sistema deve oferecer categorias pré-definidas de problemas (informação incorreta, preço errado, anúncio suspeito, imagem de baixa qualidade e afins) <br> - O sistema deve permitir que o usuário descreva detalhadamente o problema encontrado. <br> - O sistema deve permitir anexar fotos, prints ou imagens que comprovem o problema <br> - O sistema deve enviar confirmação do reporte registrado com número de protocolo <br> - O sistema deve notificar a equipe de moderação sobre novos reportes  <br>  - O sistema deve permitir acompanhar o status do reporte na área do usuário. <br>      |
-| Prioridade                   | Média                  |
-| Status                       | -                   |
-| Rastreabilidade              | [RF37](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf37)                        |
-| Validação                    | -                  |
-
-**Fonte:** Raissa, 2025
-
-<div align="center"><strong>Tabela 30:</strong> Os usuarios devem ser capazes de criar, salvar e gerenciar listas de decks </div>
-
-| **Item**                     | **Descrição**                                               |
-| ---------------------------- | ----------------------------------------------------------- |
-| USx(número de identificação) | US29                                                        |
-| Tema                         | Gerenciamento de Listas de Decks Pessoais                                      |
-| Descrição                    | Eu, como jogador dedicado de Magic, desejo criar, salvar e gerenciar minhas próprias listas de decks, para poder organizar minhas estratégias, acompanhar evoluções e ter acesso rápido aos meus decks favoritos. |
-| Critérios de Aceitação       | - O sistema deve permitir criar novo deck com nome, descrição, formato e lista de cartas. <br> - O sistema deve validar se o deck atende às regras do formato selecionado (número mínimo/máximo de cartas). <br> - O sistema deve permitir salvar múltiplos decks na coleção pessoal do usuário. <br> - O sistema deve permitir editar decks existentes (adicionar/remover cartas, alterar informações). <br> - O sistema deve permitir duplicar decks existentes para criar variações. <br> - O sistema deve permitir organizar decks em pastas ou categorias personalizadas. <br> - O sistema deve oferecer opção de tornar deck público ou mantê-lo privado. <br> - O sistema deve calcular automaticamente o custo total do deck baseado nos preços atuais. <br>           |
-| Prioridade                   | Alta                                     |
-| Status                       | Não Implementada                       |
-| Rastreabilidade              | [RFNI09](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni09)                           |
-| Validação                    |             |
-
-**Fonte:** Raissa, 2025
-
-<div align="center"><strong>Tabela 31:</strong> O sistema deve fornecer a funcionalidade "Comprar por lista" </div>
-
-| **Item**                     | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| USx(número de identificação) | US30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Tema                         | Compra por Lista de Cartas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Descrição                    | Eu, como comprador frequente, desejo utilizar a funcionalidade "Compra por Lista" para adicionar múltiplas cartas de uma vez ao carrinho, para poder agilizar minhas compras de decks completos ou listas específicas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| Critérios de Aceitação       | -  O sistema deve permitir importar lista de cartas a partir de texto ou arquivo. <br> - O sistema deve identificar automaticamente cada carta da lista e suas quantidades. <br> - O sistema deve buscar os anúncios disponíveis para cada carta da lista. <br> - O sistema deve sugerir opções de compra consolidada com menor número de vendedores. <br> - O sistema deve calcular o custo total e frete consolidado. <br> - O sistema deve permitir ajustar quantidades e selecionar vendedores antes de adicionar ao carrinho. <br> - O sistema deve salvar listas de compra frequentes para reutilização. <br> - O sistema deve mostrar economia potencial em relação à compra individual. <br> |
-| Prioridade                   | Média                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Status                       | Não Implementada                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Rastreabilidade              | [RFNI11](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni11)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Validação                    | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-
-**Fonte:** Raissa, 2025
-
-#### [US31] - Permitir que o usuário realize a compra de cartas cadastradas
-
-<div align="center"><strong>Tabela 32:</strong> O sistema deve permitir que o usuário realize a compra de cartas cadastradas</div>
-
-| **Item**               | **Descrição**                                                                                                                                                                                                              |
-|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| US31                   | Realizar compra de cartas                                                                                                                                                                                                  |
-| Tema                   | Comércio e Transações de Cartas                                                                                                                                                                                            |
-| Descrição              | Eu, como comprador, desejo realizar a compra de cartas cadastradas informando meus dados pessoais e endereço de entrega para finalizar a transação de forma segura e prática.                                              |
-| Critérios de Aceitação | - O sistema deve permitir que o usuário adicione cartas ao carrinho.<br>- Deve ser possível inserir e confirmar dados pessoais e endereço de entrega.<br>- A compra só deve ser concluída após a confirmação do pagamento. |
-| Prioridade             | Alta                                                                                                                                                                                                                       |
-| Status                 | Não validada                                                                                                                                                                                                               |
-| Rastreabilidade        | [RF23](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf23)                                                                                                                                                        |
-| Validação              | -                                                                                                                                                                                                                          |
-
-**Fonte:** Vera, 2025
-
-####  [US32] – Visualizar gráfico de histórico de preços
-
-<div align="center"><strong>Tabela 33:</strong> O sistema deve permitir que o usuário visualize o histórico de preços em formato gráfico</div>
-
-| **Item**               | **Descrição**                                                                                                                                                                                                   |
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| US32                   | Visualizar histórico de preços em gráfico                                                                                                                                                                       |
-| Tema                   | Relatórios e Análise de Mercado                                                                                                                                                                                 |
-| Descrição              | Eu, como jogador, desejo acessar o histórico de preços de uma carta em formato gráfico para visualizar a variação de valores ao longo do tempo e identificar o melhor momento para comprar ou vender.           |
-| Critérios de Aceitação | - O gráfico deve exibir a variação de preços ao longo do tempo.<br>- O usuário deve conseguir selecionar o período desejado (mês/ano).<br>- Os valores devem estar apresentados em reais (R$) no eixo vertical. |
-| Prioridade             | Alta                                                                                                                                                                                                            |
-| Status                 | Não validada                                                                                                                                                                                                    |
-| Rastreabilidade        | [RF34](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf34)                                                                                                                                             |
-| Validação              | -                                                                                                                                                                                                               |
-
-**Fonte:** Vera, 2025
-
-####  [US33] – Permitir visualizar preço médio de uma carta por edição
-
-<div align="center"><strong>Tabela 34:</strong> O sistema deve permitir que o usuário visualize o preço médio de cartas por edição</div>
-
-| **Item**               | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| US33                   | Exibir preço médio e histórico comparativo por edição                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Tema                   | Relatórios e Análise de Mercado                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Descrição              | Eu, como jogador e colecionador, desejo **visualizar o preço médio e a variação histórica de uma carta em diferentes edições , para comparar tendências e identificar qual versão apresenta o melhor custo-benefício.                                                                                                                                                                                                                                                   |
-| Critérios de Aceitação | - O sistema deve exibir um gráfico comparativo com o histórico de preços médios por edição.<br>- Deve permitir selecionar o tipo de preço a visualizar (menor, médio ou maior).<br>- O usuário deve poder definir um intervalo de tempo personalizado para análise.<br>- O gráfico deve apresentar legenda identificando cada edição e condição (ex: normal, foil, extended art, borderless).<br>- O sistema deve atualizar o gráfico dinamicamente ao aplicar filtros. |
-| Prioridade             | Alta                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Status                 | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Rastreabilidade        | [RF33](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf33)                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Validação              | -                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-
-**Fonte:** Vera, 2025
-
-#### [US34] – Permitir adicionar textos e imagens em anúncios
-
-<div align="center"><strong>Tabela 35:</strong> O sistema deve permitir a inclusão de textos e fotos nos anúncios</div>
-
-| **Item**               | **Descrição**                                                                                                                                                                                                     |
-|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **US34**               | Incluir textos e fotos em anúncios                                                                                                                                                                                |
-| Tema                   | Gestão de Anúncios                                                                                                                                                                                                |
-| Descrição              | Eu, como vendedor, desejo incluir textos, descrições e fotos detalhadas nos meus anúncios para atrair compradores e fornecer informações completas sobre a carta ofertada.                                        |
-| Critérios de Aceitação | - O sistema deve permitir inserir uma descrição textual do produto.<br>- Deve permitir adicionar ao menos uma imagem do item.<br>- As informações inseridas devem ser exibidas corretamente no anúncio publicado. |
-| Prioridade             | Alta                                                                                                                                                                                                              |
-| Status                 | Não validada                                                                                                                                                                                                      |
-| Rastreabilidade        | [RF06](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf06)                                                                                                                                               |
-| Validação              | -                                                                                                                                                                                                                 |
-
-**Fonte:** Vera, 2025
-
-#### [US35] – Permitir reportar problemas relacionados a cartas
-
-<div align="center"><strong>Tabela 36:</strong> O sistema deve permitir que o usuário reporte problemas relacionados à carta</div> 
-
-| **Item**                     | **Descrição**                                                                                                                                                                                                                                                          |
-|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| USx(número de identificação) | US35                                                                                                                                                                                                                                                                   |
-| Tema                         | Suporte e Qualidade de Dados                                                                                                                                                                                                                                           |
-| Descrição                    | Eu, como usuário cadastrado, desejo reportar problemas relacionados a uma carta (como erros de informação ou anúncios suspeitos) para garantir que os dados estejam corretos e a comunidade seja protegida de conteúdo inadequado.                                     |
-| Critérios de Aceitação       | - O sistema deve permitir que o usuário selecione a carta e descreva o problema.<br>- O relatório deve ser enviado para análise e armazenado no sistema.<br>- O usuário deve receber uma confirmação de envio e, opcionalmente, acompanhamento do status do relatório. |
-| Prioridade                   | Alta                                                                                                                                                                                                                                                                   |
-| Status                       | -                                                                                                                                                                                                                                                                      |
-| Rastreabilidade              | [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07)                                                                                                                                                                                         |
-| Validação                    |                                                                                                                                                                                                                                                                        |
-
-
-####  [US36] – Definir alerta de preço para carta
-
-<div align="center"><strong>Tabela 37:</strong> O sistema deve permitir que o usuário defina um alerta de preço para uma carta específica</div>
-
-| **Item**                     | **Descrição**                                                                                                                                                                                                                                                                                                  |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| USx(número de identificação) | US36                                                                                                                                                                                                                                                                                                           |
-| Tema**                       | Alertas e Notificações                                                                                                                                                                                                                                                                                         |
-| Descrição                    | Eu, como usuário interessado em monitorar preços de cartas, desejo definir um alerta de preço para uma carta específica para ser notificado quando o valor atingir ou ficar abaixo do limite que determinei**.                                                                                                 |
-| Critérios de Aceitação       | - O sistema deve permitir ao usuário definir um preço-alvo para uma carta específica.<br>- Quando o preço da carta atingir ou ficar abaixo do valor definido, o sistema deve notificar o usuário (por e-mail ou notificação interna).<br>- O usuário deve poder editar ou remover o alerta a qualquer momento. |
-| Prioridade                   | Alta                                                                                                                                                                                                                                                                                                           |
-| Status                       | Validada                                                                                                                                                                                                                                                                                                       |
-| Rastreabilidade              | [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)                                                                                                                                                                                                                                 |
-| Validação                    |                                                                                                                                                                                                                                                                                                                |
-
-####  [US37] – Verificação de Dados Cadastrados {#us37}
-
-| **Item**                      | **Descrição**                                               |
-| ----------------------------- | ----------------------------------------------------------- |
-| USx  | US37                                                        |
-| Tema                          | Privacidade e Conformidade                                        |
-| Descrição                     | Eu, como um usuário do sistema, desejo que as informações inseridas durante o cadastro sejam verificadas automaticamente para garantir que os dados sejam autênticos e válidos, evitando erros e fraudes. |
-| Critérios de Aceitação        | <br>- O sistema deve validar os campos obrigatórios durante o cadastro.<br>- O sistema deve identificar e rejeitar informações inválidas (ex: CPF inexistente, e-mail incorreto).<br>- O sistema deve exibir mensagens claras informando o motivo da rejeição dos dados.<br>- O sistema deve impedir o cadastro até que todos os dados sejam válidos.                    |
-| Prioridade                    | -                                     |
-| Status                        | Não validada                                   |
-| Rastreabilidade               | [RF05](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                          |
-| Validação                     |-                  |
-
-<div align="center"><strong>Tabela 38:</strong> Verificação de Dados Cadastrados</div>
-
-**Fonte:** Guilherme, 2025
-
-####  [US38] – Troca de Mensagens Privadas {#us38}
-
-| **Item**                      | **Descrição**                                               |
-| ----------------------------- | ----------------------------------------------------------- |
-| USx  | US38                                                         |
-| Tema                          | Comunicação e Suporte                                        |
-| Descrição                     | Eu, como um usuário do sistema, desejo enviar e receber mensagens privadas com outros usuários para poder me comunicar de forma direta e segura.|
-| Critérios de Aceitação        | <br>- O sistema deve permitir o envio e recebimento de mensagens privadas entre dois usuários.<br>- As mensagens devem ser armazenadas de forma segura, garantindo a privacidade dos usuários.<br>- O sistema deve notificar o usuário ao receber uma nova mensagem.<br>- O sistema deve exibir o histórico de mensagens trocadas.                    |
-| Prioridade                    | -                                     |
-| Status                        | Não validada                                   |
-| Rastreabilidade               | [RF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                           |
-| Validação                     | -                 |
-
-<div align="center"><strong>Tabela 39:</strong> Troca de Mensagens Privadas </div>
-
-**Fonte:** Guilherme, 2025
-
-####  [US39] – Verificação de Dados Cadastrados {#us39}
-
-| **Item**                      | **Descrição**                                               |
-| ----------------------------- | ----------------------------------------------------------- |
-| USx | US39                                                         |
-| Tema                          | Privacidade e Conformidade                                        |
-| Descrição                     | Eu, como um usuário do sistema, desejo solicitar o acesso, a correção, a exclusão ou a anonimização dos meus dados pessoais para garantir meus direitos de privacidade e conformidade com a Lei Geral de Proteção de Dados (LGPD). |
-| Critérios de Aceitação        | <br>- O sistema deve permitir que o usuário visualize todas as informações pessoais armazenadas.<br>- O sistema deve permitir que o usuário solicite a correção de dados incorretos.<br>- O sistema deve permitir que o usuário solicite a exclusão ou anonimização de seus dados pessoais.<br>- O sistema deve confirmar a execução da solicitação ao usuário.                     |
-| Prioridade                    | -                                    |
-| Status                        | Não validada                                   |
-| Rastreabilidade               | [RF15](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                             |
-| Validação                     | -                  |
-
-<div align="center"><strong>Tabela 40:</strong> Verificação de Dados Cadastrados</div>
-
-**Fonte:** Guilherme, 2025
-
-####  [US40] – Utilizar Cookies para Personalização {#us40}
-
-| **Item**                      | **Descrição**                                               |
-| ----------------------------- | ----------------------------------------------------------- |
-| USx | US40                                                         |
-| Tema                          | Privacidade e Configurações                                        |
-| Descrição                     | Eu, como um usuário do sistema, desejo que sejam utilizados cookies para facilitar meu login e personalizar minha experiência de navegação, tornando o uso da plataforma mais prático e adaptado às minhas preferências.|
-| Critérios de Aceitação        | <br>- O sistema deve utilizar cookies para manter o usuário autenticado entre sessões.<br>- O sistema deve permitir a personalização de conteúdo com base nas preferências do usuário.<br>- O sistema deve solicitar consentimento do usuário para o uso de cookies.<br>- O sistema deve permitir a exclusão dos cookies a qualquer momento.                     |
-| Prioridade                    | -                                    |
-| Status                        | Não validada                                   |
-| Rastreabilidade               | [RF17](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                           |
-| Validação                     |               |
-
-<div align="center"><strong>Tabela 41:</strong> Utilizar Cookies para Personalização </div>
-
-**Fonte:** Guilherme, 2025
-
-####  [US41] – Utilização de Dados para Finalidades Específicas {#us41}
-
-| **Item**                      | **Descrição**                                               |
-| ----------------------------- | ----------------------------------------------------------- |
-| USx | US41                                                         |
-| Tema                          |  Privacidade e Conformidade                |
-| Descrição                     | Eu, como um usuário do sistema, desejo que meus dados pessoais sejam utilizados apenas para finalidades específicas, como identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações, para garantir transparência e segurança no tratamento das minhas informações.|
-| Critérios de Aceitação        |    <br>- O sistema deve utilizar os dados pessoais apenas para as finalidades descritas.<br>- O sistema deve informar ao usuário de forma clara as finalidades do uso dos dados.<br>- O sistema deve permitir que o usuário gerencie suas preferências de uso de dados.<br>- O sistema deve registrar o consentimento do usuário antes de qualquer uso adicional dos dados.                 |
-| Prioridade                    | -                                   |
-| Status                        | Não validada                                   |
-| Rastreabilidade               |  [RF13](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)                          |
-| Validação                     | -                   |
-
-<div align="center"><strong>Tabela 42:</strong> Utilização de Dados para Finalidades Específicas</div>
-
-**Fonte:** Guilherme, 2025
-
-####  [US42] – Módulo de Leilões {#us42}
-
-| **Item**                      | **Descrição**                                               |
-| ----------------------------- | ----------------------------------------------------------- |
-| USx | US42                                                         |
-| Tema                          | Módulo de Leilões                                          |
-| Descrição                     | Eu, como um usuário do sistema, desejo acessar um módulo completo de leilões para poder anunciar, participar e acompanhar disputas por produtos ou serviços em tempo real. |
-| Critérios de Aceitação        | <br>- O sistema deve permitir a criação de leilões com título, descrição e valor inicial.<br>- O sistema deve permitir que outros usuários façam lances em tempo real.<br>- O sistema deve atualizar automaticamente o valor mais alto do lance.<br>- O sistema deve encerrar o leilão quando o tempo limite for atingido e registrar o vencedor.                    |
-| Prioridade                    | -                                     |
-| Status                        | Não validada                                   |
-| Rastreabilidade               | [RFNI08](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#requisitos-funcionais-não-implementados)                           |
-| Validação                     | -                  |
-
-<div align="center"><strong>Tabela 43:</strong> Módulo de Leilões</div>
-
-**Fonte:** Guilherme, 2025
-
 ## Referências
 
-> **PRESSMAN, Roger S.** _Engenharia de Software: uma abordagem profissional_. Cap. 3
+<a id="PRESSMAN"></a>
+
+> **1. PRESSMAN, Roger S.** _Engenharia de Software: uma abordagem profissional_. Cap. 3
 
 ## Nível de Contribuição dos Integrantes
 
@@ -776,22 +483,14 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | Thiago   |                   |
 | Angélica |                   |
 | Marcelo  |                   |
-| Raissa   |     14,28%        |
-|Vera      |                   |
-|Guilherme |                   |
-
-
 
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  |   Autor(es)    |    Revisor     |
-|:------:|:----------:|:-------------------------------------------|:--------------:|:--------------:|
+| :----: | :--------: | :----------------------------------------- | :------------: | :------------: |
 |  1.0   | 16/10/2025 | Criação inicial do documento               | Samuel, Thiago |       -        |
 | 1.0.1  | 16/10/2025 | Adicionar histórias de usuário (US01–US06) |     Samuel     |     Thiago     |
 |  1.1   | 18/10/2025 | Adicionar histórias de usuário (US07–US12) |    Angélica    | Samuel, Thiago |
 |  1.2   | 18/10/2025 | Adicionar histórias de usuário (US13–US18) |    Marcelo     |     Raissa     |
 |  1.3   | 18/10/2025 | Adicionar histórias de usuário (US19–US24) |     Thiago     |     Samuel     |
 |  1.4   | 16/10/2025 | Adicionar as citações bibliográficas       |     Samuel     |     Thiago     |
-|  1.5   | 19/10/2025 | adicionar histórias de usuário (US25–US30) |     Raissa     |       -        |
-|  1.6   | 19/10/2025 | adicionar histórias de usuário (US31–US36) |      Vera      |   Guilherme    |
-|  1.7   | 19/10/2025 | adicionar histórias de usuário (US37–US42) |      Guilherme     |   Vera   |
