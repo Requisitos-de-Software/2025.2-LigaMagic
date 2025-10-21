@@ -143,7 +143,7 @@ Este épico contém as histórias de usuário focadas em garantir um processo de
 
 <a id="us16"></a>
 
-- [US16](../05_Agil/01_historias_de_usuario.md#us16): Eu, como Jogador Cadastrado (Vendedor ou Colecionador), desejo personalizar minha página de perfil público com foto e descrição para me apresentar à comunidade. [RF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)
+- [US22](../05_Agil/01_historias_de_usuario.md#us22): Eu, como Jogador Cadastrado (Vendedor ou Colecionador), desejo personalizar minha página de perfil público com foto e descrição para me apresentar à comunidade. [RF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)
 
 ##### Épico 3.2: Gerenciamento de Perfil e Dados Pessoais
 
@@ -450,6 +450,8 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 | :------- | :--------------------------------------------------------------------- | :------ |
 | 31 ao 36 | [Vídeo da valicação](https://youtu.be/b4i_QipWo9)                      | Vera    |
 | 13 ao 18 | [Vídeo da valicação](https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA) | Marcelo |
+| 1 ao 6 | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=688) | Samuel |
+| 19 ao 24 | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=688) | Thiago |
 
 ## Referências
 
@@ -459,12 +461,13 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 
 | Nome      | % de Contribuição |
 | --------- | ----------------- |
-| Samuel    |                   |
-| Thiago    |                   |
-| Marcelo   |   14,28%          |
-| Raissa    | 14,28%            |
-| Angélica  |                   |
-| Guilherme |                   |
+| Samuel    |        14,28%           |
+| Thiago    |         14,28%          |
+| Angélica  |         14,28%    |
+| Marcelo   |          14,28%   |
+| Raissa  |              14,28%     |
+| Vera |               14,28%    |
+| Guilherme |              14,28%     |
 
 ## Histórico de versão
 
@@ -477,3 +480,4 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 |  1.4   | 19/10/2025 | Adicionando Backlogs (temas 10 ao 13)       |   Vera    |                      Thiago                      |
 |  1.5   | 19/10/2025 | Adicionando Backlogs                        | Angélica  | Thiago, Raissa, Samuel, Marcelo, Vera, Guilherme |
 |  1.6   | 20/10/2025 | Adicionando Backlogs das US37-42            | Guilherme |                        -                         |
+
