@@ -372,7 +372,9 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | Requisito                  | Gravação                                           | Autor |
 |:---------------------------|:---------------------------------------------------|:------|
 | NRF05 - Organização visual | [Vídeo da valicação](https://youtu.be/X_5HQWm8DzM) | Vera  |
-|NFR02 - Informações Legais e Tributárias   | [Vídeo da valicação](https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA)| Marcelo | 
+|NFR02 - Informações Legais e Tributárias   | [Vídeo da valicação](https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA)| Marcelo |
+|NFR01 - Responsividade da plataforma   | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=704)| Samuel | 
+|NFR01 - Responsividade da plataforma   | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=834)| Thiago |
 
 
 
