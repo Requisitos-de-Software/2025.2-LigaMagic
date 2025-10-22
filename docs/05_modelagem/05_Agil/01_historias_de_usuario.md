@@ -779,14 +779,14 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 ## Nível de Contribuição dos Integrantes
 
 | Nome      | % de Contribuição |
-| --------- | ----------------- |
-| Samuel    |                   |
-| Thiago    |                   |
-| Angélica  |                   |
-| Marcelo   |  14,28%           |
-| Raissa    | 14,28%            |
-| Vera      |                   |
-| Guilherme |                   |
+| :-------- | :---------------: |
+| Samuel    |      14,28%       |
+| Thiago    |      14,28%       |
+| Angélica  |      14,28%       |
+| Marcelo   |      14,28%       |
+| Raissa    |      14,28%       |
+| Vera      |      14,28%       |
+| Guilherme |      14,28%       |
 
 ## Histórico de versão
 
