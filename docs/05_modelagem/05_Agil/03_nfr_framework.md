@@ -384,14 +384,14 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 ## Nível de Contribuição dos Integrantes
 
 | Nome      | % de Contribuição |
-| :-------- |:-----------------:|
-| Angélica  |                   |
-| Samuel    |                   |
-| Marcelo   |        14,28%     |
+| :-------- | :---------------: |
+| Samuel    |      14,28%       |
+| Thiago    |      14,28%       |
+| Angélica  |      14,28%       |
+| Marcelo   |      14,28%       |
 | Raissa    |      14,28%       |
-| Guilherme |                   |
-| Vera      |       14,28%      |
-| Thiago    |                   |
+| Vera      |      14,28%       |
+| Guilherme |      14,28%       |
 
 ## Histórico de versão
 
