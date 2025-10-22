@@ -460,14 +460,14 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 ## Nível de Contribuição dos Integrantes
 
 | Nome      | % de Contribuição |
-| --------- | ----------------- |
-| Samuel    |        14,28%           |
-| Thiago    |         14,28%          |
-| Angélica  |         14,28%    |
-| Marcelo   |          14,28%   |
-| Raissa  |              14,28%     |
-| Vera |               14,28%    |
-| Guilherme |              14,28%     |
+| :-------- | :---------------: |
+| Samuel    |      14,28%       |
+| Thiago    |      14,28%       |
+| Angélica  |      14,28%       |
+| Marcelo   |      14,28%       |
+| Raissa    |      14,28%       |
+| Vera      |      14,28%       |
+| Guilherme |      14,28%       |
 
 ## Histórico de versão
 
