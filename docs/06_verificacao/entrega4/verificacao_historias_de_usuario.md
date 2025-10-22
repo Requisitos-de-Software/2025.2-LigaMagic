@@ -26,7 +26,14 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | 13 - A História de Usuário detalha as características, a funcionalidade e o resultado requisitados para o software? | PRESSMAN, Roger S.; MAXIM, Bruce R. Engenharia de Software: Uma Abordagem Profissional. | [Referencia completa](../../00_assets/images/historia_usuario/HistoriaUsuario10.png)                                                      | Thiago     |  
 | 14 - O cliente atribuiu um valor (prioridade) à História de Usuário com base no valor de negócio global da função ou recurso? | PRESSMAN, Roger S.; MAXIM, Bruce R. Engenharia de Software: Uma Abordagem Profissional. | [Referencia completa](../../00_assets/images/historia_usuario/HistoriaUsuario11.png)                                                      | Thiago     |  
 | 15 - A História de Usuário tem um custo que não ultrapassa três semanas de desenvolvimento? | PRESSMAN, Roger S.; MAXIM, Bruce R. Engenharia de Software: Uma Abordagem Profissional. | [Referencia completa](../../00_assets/images/historia_usuario/HistoriaUsuario12.png)                                                      | Thiago     |  
- 
+ | 16 - As histórias de usuário descrevem o resultado, as características e a funcionalidade requisitados para o software a ser construído? {VPHU13} | PRESSMAN, Roger S. Desenvolvimento ágil. In: ______. Engenharia de Software: Uma Abordagem Profissional. [S.l.: s.n., s.d.]. cap. 3, p. 88. Citação no texto: (Pressman, s.d., p. 88) | [Referência completa](/00_assets/pdfs/verificacao/Grupo2MarcelodeAraujoLopesVerifacaçãoListaHUB.pdf) | Marcelo |
+| 17 - O cliente atribuiu um valor (prioridade) a cada história com base no seu valor de negócio? {VPHU14} | PRESSMAN, Roger S. Desenvolvimento ágil. In: ______. Engenharia de Software: Uma Abordagem Profissional. [S.l.: s.n., s.d.]. cap. 3, p. 88. Citação no texto: (Pressman, s.d., p. 88) | [Referência completa](/00_assets/pdfs/verificacao/Grupo2MarcelodeAraujoLopesVerifacaçãoListaHUB.pdf) | Marcelo |
+| 18 - A equipe de desenvolvimento avaliou o custo de cada história (medido em semanas ou outra unidade de esforço)? {VPHU15} | PRESSMAN, Roger S. Desenvolvimento ágil. In: ______. Engenharia de Software: Uma Abordagem Profissional. [S.l.: s.n., s.d.]. cap. 3, p. 88. Citação no texto: (Pressman, s.d., p. 88) | [Referência completa](/00_assets/pdfs/verificacao/Grupo2MarcelodeAraujoLopesVerifacaçãoListaHUB.pdf) | Marcelo |
+| 19 - Histórias que demandam um tempo de desenvolvimento estimado muito longo (ex: mais de três semanas) foram divididas em histórias menores? {VPHU16} | PRESSMAN, Roger S. Desenvolvimento ágil. In: ______. Engenharia de Software: Uma Abordagem Profissional. [S.l.: s.n., s.d.]. cap. 3, p. 88. Citação no texto: (Pressman, s.d., p. 88) | [Referência completa](/00_assets/pdfs/verificacao/Grupo2MarcelodeAraujoLopesVerifacaçãoListaHUB.pdf) | Marcelo |
+| 20 - Os critérios de teste de aceitação são derivados das histórias de usuário? {VPHU17} | PRESSMAN, Roger S. Desenvolvimento ágil. In: ______. Engenharia de Software: Uma Abordagem Profissional. [S.l.: s.n., s.d.]. cap. 3, p. 90. Citação no texto: (Pressman, s.d., p. 90) | [Referência completa](/00_assets/pdfs/verificacao/Grupo2MarcelodeAraujoLopesVerifacaçãoListaHUB.pdf) | Marcelo |
+| 21 - Os testes de aceitação são especificados pelo cliente e focam em características e funcionalidades visíveis e revisáveis por ele? {VPHU18} | PRESSMAN, Roger S. Desenvolvimento ágil. In: ______. Engenharia de Software: Uma Abordagem Profissional. [S.l.: s.n., s.d.]. cap. 3, p. 90. Citação no texto: (Pressman, s.d., p. 90) | [Referência completa](/00_assets/pdfs/verificacao/Grupo2MarcelodeAraujoLopesVerifacaçãoListaHUB.pdf) | Marcelo |
+| 22 - Os critérios de aceitação foram definidos antes do início da codificação para a história correspondente? {VPHU19} | PRESSMAN, Roger S. Desenvolvimento ágil. In: ______. Engenharia de Software: Uma Abordagem Profissional. [S.l.: s.n., s.d.]. cap. 3, p. 90. Citação no texto: (Pressman, s.d., p. 90) | [Referência completa](/00_assets/pdfs/verificacao/Grupo2MarcelodeAraujoLopesVerifacaçãoListaHUB.pdf) | Marcelo |
+
 
 
 ## Nível de Contribuição dos Integrantes
@@ -36,6 +43,7 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | Angélica |                    |
 |Vera      |                    |
 |Guilherme |                    |
+|Marcelo   |                    |
 
 ## Histórico de versão
 
