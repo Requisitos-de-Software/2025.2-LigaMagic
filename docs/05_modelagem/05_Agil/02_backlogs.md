@@ -61,9 +61,9 @@ Este épico contém as histórias de usuário relacionadas à criação, visuali
 
 Este épico contém as histórias de usuário focadas na avaliação e reputação dos vendedores dentro da plataforma.
 
-<a id="us13"></a>
+<a id="us19"></a>
 
-- [US13]: Eu, como Comprador, desejo avaliar um vendedor após uma compra concluída para ajudar outros usuários a tomar decisões e fornecer feedback ao vendedor. [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04)
+- [US19](../05_Agil/01_historias_de_usuario.md#us19): Eu, como Comprador, desejo avaliar um vendedor após uma compra concluída para ajudar outros usuários a tomar decisões e fornecer feedback ao vendedor. [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04)
 
 ---
 
@@ -75,13 +75,19 @@ Este tema abrange as funcionalidades focadas na busca, visualização e comparti
 
 Este épico contém as histórias de usuário relacionadas à interação com o banco de dados de cartas do aplicativo.
 
-[US16](../05_Agil/01_historias_de_usuario.md#us16): Eu, como usuário, desejo visualizar detalhes de uma carta ao clicar no resultado da pesquisa para conhecer mais sobre ela antes de comprar ou trocar. [RF27](../../03_elicitacao/artefatos/requisitos_elicitados.md)
+<a id="us16"></a>
 
-[US17](../05_Agil/01_historias_de_usuario.md#us17): Eu, como usuário, desejo visualizar informações detalhadas de cada carta, incluindo edição, idioma, condição e preço médio, para tomar decisões mais informadas. [RF30](../../03_elicitacao/artefatos/requisitos_elicitados.md)
+- [US16](../05_Agil/01_historias_de_usuario.md#us16): Eu, como usuário, desejo visualizar detalhes de uma carta ao clicar no resultado da pesquisa para conhecer mais sobre ela antes de comprar ou trocar. [RF27](../../03_elicitacao/artefatos/requisitos_elicitados.md)
 
-[US18](../05_Agil/01_historias_de_usuario.md#us18): Eu, como jogador, desejo buscar decks que utilizam a carta selecionada para entender como ela é usada em diferentes estratégias. [RF32](../../03_elicitacao/artefatos/requisitos_elicitados.md)
+<a id="us17"></a>
 
-<a id="us14"></a>
+- [US17](../05_Agil/01_historias_de_usuario.md#us17): Eu, como usuário, desejo visualizar informações detalhadas de cada carta, incluindo edição, idioma, condição e preço médio, para tomar decisões mais informadas.[RF30](../../03_elicitacao/artefatos/requisitos_elicitados.md)
+
+<a id="us18"></a>
+
+- [US18](../05_Agil/01_historias_de_usuario.md#us18): Eu, como jogador, desejo buscar decks que utilizam a carta selecionada para entender como ela é usada em diferentes estratégias. [RF32](../../03_elicitacao/artefatos/requisitos_elicitados.md)
+
+<a id="us02"></a>
 
 - [US02](../05_Agil/01_historias_de_usuario.md#us02): Eu, como um jogador, desejo compartilhar o link de uma carta específica para poder mostrar a um amigo ou pedir uma opinião de forma rápida e precisa. [RFNI06](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni06)
 
@@ -89,21 +95,25 @@ Este épico contém as histórias de usuário relacionadas à interação com o 
 
 Este épico contém as histórias de usuário para o gerenciamento da coleção pessoal do usuário.
 
-[US14](../05_Agil/01_historias_de_usuario.md#us14): Eu, como usuário, desejo filtrar cartas por qualidade e condição para encontrar produtos que atendam melhor às minhas preferências. [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md)
-
 <a id="us14"></a>
 
-- [US14]: Eu, como Colecionador, desejo adicionar cartas à minha coleção pessoal para manter um inventário digital do que eu possuo. [RFNI10](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni10)
+- [US14](../05_Agil/01_historias_de_usuario.md#us14): Eu, como usuário, desejo filtrar cartas por qualidade e condição para encontrar produtos que atendam melhor às minhas preferências. [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md)
+
+<a id="us20"></a>
+
+- [US20](../05_Agil/01_historias_de_usuario.md#us20): Eu, como Colecionador, desejo adicionar cartas à minha coleção pessoal para manter um inventário digital do que eu possuo. [RFNI10](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni10)
 
 ##### Épico 2.3: Organização de Listas de Cartas
 
 Este épico foca nas ferramentas que permitem ao usuário organizar cartas em diferentes listas funcionais.
 
-[US15](../05_Agil/01_historias_de_usuario.md#us15): Eu, como administrador do sistema, desejo garantir que apenas produtos relacionados a Magic: The Gathering sejam cadastrados na plataforma, para manter a relevância e integridade do conteúdo. [RF04](../../03_elicitacao/artefatos/requisitos_elicitados.md)
-
 <a id="us17"></a>
 
-- [US17]: Eu, como Jogador Logado, desejo poder adicionar uma carta (encontrada na busca) a diferentes listas [RF35](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rf35)
+- [US15](../05_Agil/01_historias_de_usuario.md#us15): Eu, como administrador do sistema, desejo garantir que apenas produtos relacionados a Magic: The Gathering sejam cadastrados na plataforma, para manter a relevância e integridade do conteúdo. [RF04](../../03_elicitacao/artefatos/requisitos_elicitados.md)
+
+<a id="us23"></a>
+
+- [US23](../05_Agil/01_historias_de_usuario.md#us23): Eu, como Jogador Logado, desejo poder adicionar uma carta (encontrada na busca) a diferentes listas [RF35](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rf35)
 
 ---
 
@@ -119,9 +129,9 @@ Este épico contém as histórias de usuário focadas em garantir um processo de
 
 - [US03](../05_Agil/01_historias_de_usuario.md#us03): Eu, como um novo usuário, desejo ser informado se meu e-mail já está cadastrado ao tentar criar uma conta para evitar a criação de contas duplicadas e recuperar meu acesso, se necessário. [RF2](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf2)
 
-<a id="us15"></a>
+<a id="us21"></a>
 
-- [US15](../05_Agil/01_historias_de_usuario.md#us15): Eu, como Visitante, desejo me registrar na plataforma fornecendo meus dados pessoais (Nome, E-mail, CPF, etc.) para criar uma conta e acessar as funcionalidades restritas. [RF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf12)
+- [US21](../05_Agil/01_historias_de_usuario.md#us21): Eu, como Visitante, desejo me registrar na plataforma fornecendo meus dados pessoais (Nome, E-mail, CPF, etc.) para criar uma conta e acessar as funcionalidades restritas. [RF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf12)
 
 <a id="us09"></a>
 
@@ -133,7 +143,7 @@ Este épico contém as histórias de usuário focadas em garantir um processo de
 
 <a id="us16"></a>
 
-- [US16](../05_Agil/01_historias_de_usuario.md#us16): Eu, como Jogador Cadastrado (Vendedor ou Colecionador), desejo personalizar minha página de perfil público com foto e descrição para me apresentar à comunidade. [RF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)
+- [US22](../05_Agil/01_historias_de_usuario.md#us22): Eu, como Jogador Cadastrado (Vendedor ou Colecionador), desejo personalizar minha página de perfil público com foto e descrição para me apresentar à comunidade. [RF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)
 
 ##### Épico 3.2: Gerenciamento de Perfil e Dados Pessoais
 
@@ -146,6 +156,10 @@ Este épico contém as histórias de usuário relacionadas à atualização e vi
 <a id="us12"></a>
 
 - [US12](../05_Agil/01_historias_de_usuario.md#us11): Eu, como usuário comprador, desejo atualizar meus dados pessoais (como endereço, telefone e e-mail) para manter minhas informações corretas e facilitar futuras compras ou comunicações. [RF24](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf24)
+
+<a id="us13"></a>
+
+- [US13](../05_Agil/01_historias_de_usuario.md#us13): Eu, como usuário, desejo personalizar e manter minha página pessoal/profissional para exibir minhas informações e preferências dentro da plataforma.[RFNI01](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni15)
 
 ---
 
@@ -191,13 +205,13 @@ Este tema engloba as funcionalidades relacionadas à segurança dos dados do con
 
 Este épico foca em fornecer ao usuário acesso claro para exercer seus direitos de dados.
 
-<a id="us18"></a>
+<a id="us24"></a>
 
-- [US18]: Eu, como Titular dos Dados (Jogador), desejo encontrar facilmente um canal de contato (e-mail ou link) para exercer meus direitos de privacidade (ex: solicitar meus dados ou exclusão). [RF16](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf16)
+- [US24](../05_Agil/01_historias_de_usuario.md#us24): Eu, como Titular dos Dados (Jogador), desejo encontrar facilmente um canal de contato (e-mail ou link) para exercer meus direitos de privacidade (ex: solicitar meus dados ou exclusão). [RF16](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf16)
 
 <a id="us39"></a>
 
-- [US39](../05_Agil/01_historias_de_usuario.md#us39): Eu, como usuário do sistema, desejo solicitar o acesso, a correção, a exclusão ou a anonimização dos meus dados pessoais para garantir meus direitos de privacidade e conformidade com a LGPD. [RF15](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
+- [US39](../05_Agil/01_historias_de_usuario.md#us39): Eu, como usuário do sistema, desejo solicitar o acesso, a correção, a exclusão ou a anonimização dos meus dados pessoais para garantir meus direitos de privacidade e conformidade com a LGPD. [RF15](../../03_elicitacao/artefatos/../../03_elicitacao/artefatos/requisitos_elicitados.md#rf15)
 
 ##### Épico 5.2: Verificação e Segurança de Dados
 
@@ -205,7 +219,7 @@ Este épico foca em garantir a autenticidade e integridade das informações for
 
 <a id="us37"></a>
 
-- [US37](../05_Agil/01_historias_de_usuario.md#us37): Eu, como administrador do sistema, desejo que os dados cadastrados sejam verificados automaticamente para garantir a autenticidade das informações e proteger a plataforma contra falsos cadastros. [RF05](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
+- [US37](../05_Agil/01_historias_de_usuario.md#us37): Eu, como administrador do sistema, desejo que os dados cadastrados sejam verificados automaticamente para garantir a autenticidade das informações e proteger a plataforma contra falsos cadastros. [RF05](../../03_elicitacao/artefatos/../../03_elicitacao/artefatos/requisitos_elicitados.md#rf05)
 
 ##### Épico 5.3: Gestão de Uso de Dados Pessoais
 
@@ -213,7 +227,7 @@ Este épico tem como foco o uso responsável dos dados pessoais, garantindo que 
 
 <a id="us41"></a>
 
-- [US41](../05_Agil/01_historias_de_usuario.md#us41): Eu, como usuário do sistema, desejo que meus dados pessoais sejam utilizados apenas para finalidades específicas, como identificação, contato, gestão contratual e melhoria de serviços, para garantir transparência e segurança no tratamento das minhas informações. [RF13](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
+- [US41](../05_Agil/01_historias_de_usuario.md#us41): Eu, como usuário do sistema, desejo que meus dados pessoais sejam utilizados apenas para finalidades específicas, como identificação, contato, gestão contratual e melhoria de serviços, para garantir transparência e segurança no tratamento das minhas informações. [RF13](../../03_elicitacao/artefatos/../../03_elicitacao/artefatos/requisitos_elicitados.md#rf41)
 
 ---
 
@@ -227,11 +241,11 @@ Este épico contém as histórias de usuário para criação, edição e organiz
 
 <a id="us26"></a>
 
-- **US29:** Eu, como jogador de Magic, desejo visualizar decks publicados por outros usuários, com a lista completa de cartas, para poder me inspirar em novas estratégias e aprender sobre combinações de cartas populares. [RF25](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf25)
+- [US26](../05_Agil/01_historias_de_usuario.md#us26): Eu, como jogador de Magic, desejo visualizar decks publicados por outros usuários, com a lista completa de cartas, para poder me inspirar em novas estratégias e aprender sobre combinações de cartas populares. [RF25](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf25)
 
 <a id="us29"></a>
 
-- **US29:** Eu, como jogador dedicado de Magic, desejo criar, salvar e gerenciar minhas próprias listas de decks, para poder organizar minhas estratégias, acompanhar evoluções e ter acesso rápido aos meus decks favoritos. [RFNI09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni09)
+- [US29](../05_Agil/01_historias_de_usuario.md#us29): Eu, como jogador dedicado de Magic, desejo criar, salvar e gerenciar minhas próprias listas de decks, para poder organizar minhas estratégias, acompanhar evoluções e ter acesso rápido aos meus decks favoritos. [RFNI09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni09)
 
 ---
 
@@ -245,11 +259,11 @@ Este épico contém as histórias de usuário para comunicação direta entre us
 
 <a id="us27"></a>
 
-- **US27:** Eu, como membro da comunidade Magic, desejo buscar tópicos, ler discussões, responder postagens e criar novos tópicos no fórum, para poder compartilhar conhecimento, tirar dúvidas e interagir com outros jogadores. [RF26](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf26)
+- [US27](../05_Agil/01_historias_de_usuario.md#us27): Eu, como membro da comunidade Magic, desejo buscar tópicos, ler discussões, responder postagens e criar novos tópicos no fórum, para poder compartilhar conhecimento, tirar dúvidas e interagir com outros jogadores. [RF26](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf26)
 
 <a id="us38"></a>
 
-- [US38](../05_Agil/01_historias_de_usuario.md#us38): Eu, como usuário cadastrado, desejo trocar mensagens privadas com outros usuários para me comunicar de forma direta e segura.[RF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
+- [US38](../05_Agil/01_historias_de_usuario.md#us38): Eu, como usuário cadastrado, desejo trocar mensagens privadas com outros usuários para me comunicar de forma direta e segura.[RF09](../../03_elicitacao/artefatos/../../03_elicitacao/artefatos/requisitos_elicitados.md#rf09)
 
 ##### Épico 7.2: Reporte e Moderação
 
@@ -257,7 +271,7 @@ Este épico foca em mecanismos para manter a qualidade e segurança do conteúdo
 
 <a id="us28"></a>
 
-- **US28:** Eu, como usuário ativo da plataforma, desejo reportar problemas relacionados a cartas e anúncios, como informações incorretas, preços discrepantes ou anúncios suspeitos, para contribuir com a qualidade e confiabilidade do sistema para toda a comunidade. [RF37](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf37)
+- [US28](../05_Agil/01_historias_de_usuario.md#us28): Eu, como usuário ativo da plataforma, desejo reportar problemas relacionados a cartas e anúncios, como informações incorretas, preços discrepantes ou anúncios suspeitos, para contribuir com a qualidade e confiabilidade do sistema para toda a comunidade. [RF37](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf37)
 
 ---
 
@@ -271,7 +285,7 @@ Este épico contém as histórias de usuário para compras otimizadas de múltip
 
 <a id="us30"></a>
 
-- **US30:** Eu, como comprador frequente, desejo utilizar a funcionalidade "Compra por Lista" para adicionar múltiplas cartas de uma vez ao carrinho, para poder agilizar minhas compras de decks completos ou listas específicas. [RFNI11](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni11)
+- [US30](../05_Agil/01_historias_de_usuario.md#us30): Eu, como comprador frequente, desejo utilizar a funcionalidade "Compra por Lista" para adicionar múltiplas cartas de uma vez ao carrinho, para poder agilizar minhas compras de decks completos ou listas específicas. [RFNI11](../../03_elicitacao/artefatos/requisitos_elicitados.md#rfni11)
 
 ---
 
@@ -285,11 +299,11 @@ Este épico foca no gerenciamento de configurações de privacidade.
 
 <a id="us25"></a>
 
-- **US25:** Eu, como usuário preocupado com privacidade, desejo poder configurar minhas preferências de cookies no sistema, para ter controle sobre quais tipos de cookies são aceitos e proteger minha privacidade durante a navegação. [RF18](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf18)
+- [US25](../05_Agil/01_historias_de_usuario.md#us25): Eu, como usuário preocupado com privacidade, desejo poder configurar minhas preferências de cookies no sistema, para ter controle sobre quais tipos de cookies são aceitos e proteger minha privacidade durante a navegação. [RF18](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf18)
 
 <a id="us40"></a>
 
-- [US40](../05_Agil/01_historias_de_usuario.md#us40): Eu, como usuário do sistema, desejo que sejam utilizados cookies para facilitar o login e personalizar minha experiência de navegação, tornando o uso da plataforma mais prático e adaptado às minhas preferências. [RF17](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos-rf01---rf19-requisitos-da-analise-de-documentos)
+- [US40](../05_Agil/01_historias_de_usuario.md#us40): Eu, como usuário do sistema, desejo que sejam utilizados cookies para facilitar o login e personalizar minha experiência de navegação, tornando o uso da plataforma mais prático e adaptado às minhas preferências. [RF17](../../03_elicitacao/artefatos/../../03_elicitacao/artefatos/requisitos_elicitados.md#rf17)
 
 ---
 
@@ -300,6 +314,8 @@ Este tema engloba funcionalidades que permitem aos vendedores criar, gerenciar e
 ##### Épico 10.1: Criação e Edição de Anúncios
 
 Este épico contém as histórias de usuário relacionadas à adição de informações detalhadas e imagens nos anúncios.
+
+<a id="us34"></a>
 
 - [US34](../05_Agil/01_historias_de_usuario.md#us34) Eu, como vendedor, desejo incluir textos, descrições e fotos detalhadas nos meus anúncios para atrair compradores e fornecer informações completas sobre a carta ofertada. [RF06](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf06)
 
@@ -313,6 +329,8 @@ Este tema abrange funcionalidades para garantir a confiabilidade das informaçõ
 
 Este épico contém as histórias de usuário relacionadas ao reporte de problemas de cartas e anúncios.
 
+<a id="us35"></a>
+
 - [US35](../05_Agil/01_historias_de_usuario.md#us35) Eu, como usuário cadastrado, desejo reportar problemas relacionados a uma carta (como erros de informação ou anúncios suspeitos) para garantir que os dados estejam corretos e a comunidade seja protegida de conteúdo inadequado. [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07)
 
 ---
@@ -325,11 +343,15 @@ Este tema engloba funcionalidades avançadas para facilitar e agilizar transaç�
 
 Este épico contém as histórias de usuário relacionadas à compra de cartas cadastradas e transações seguras.
 
-[US31](../05_Agil/01_historias_de_usuario.md#us31) Eu, como comprador, desejo realizar a compra de cartas cadastradas informando meus dados pessoais e endereço de entrega para finalizar a transação de forma segura e prática. [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)
+<a id="us31"></a>
+
+- [US31](../05_Agil/01_historias_de_usuario.md#us31) Eu, como comprador, desejo realizar a compra de cartas cadastradas informando meus dados pessoais e endereço de entrega para finalizar a transação de forma segura e prática. [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)
 
 ##### Épico 12.2: Alertas de Preço
 
 Este épico contém as histórias de usuário relacionadas à configuração de alertas para monitoramento de preços de cartas.
+
+<a id="us36"></a>
 
 - [US36](../05_Agil/01_historias_de_usuario.md#us36)Eu, como usuário interessado em monitorar preços de cartas, desejo definir um alerta de preço para uma carta específica para ser notificado quando o valor atingir ou ficar abaixo do limite que determinei. [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)
 
@@ -343,11 +365,15 @@ Este tema abrange funcionalidades focadas em oferecer informações detalhadas s
 
 Este épico contém as histórias de usuário relacionadas à visualização do histórico de preços das cartas.
 
+<a id="us32"></a>
+
 - [US32](../05_Agil/01_historias_de_usuario.md#us32) Eu, como jogador, desejo acessar o histórico de preços de uma carta em formato gráfico para visualizar a variação de valores ao longo do tempo e identificar o melhor momento para comprar ou vender. [RF34](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf34)
 
 ##### Épico 13.2: Preço Médio por Edição
 
 Este épico contém as histórias de usuário relacionadas à visualização de preços médios das cartas por edição, permitindo comparações e decisões estratégicas.
+
+<a id="us33"></a>
 
 - [US33](../05_Agil/01_historias_de_usuario.md#us33) Eu, como jogador e colecionador, desejo visualizar o preço médio e a variação histórica de uma carta em diferentes edições, para comparar tendências e identificar qual versão apresenta o melhor custo-benefício. [RF33](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf33)
 
@@ -366,6 +392,66 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 - [US42](../05_Agil/01_historias_de_usuario.md#us42): Eu, como usuário do sistema, desejo acessar um módulo completo de leilões para poder anunciar, participar e acompanhar disputas por produtos ou serviços em tempo real.[RFNI08](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#requisitos-funcionais-não-implementados)
 
 ---
+
+### Prioridade dos Backlogs
+
+| Tema 01 | Épico 1 | US13 | - |
+
+| **Tema** | **Épico**  | **USx** | **Prioridade** |
+| :------: | :--------: | :-----: | :------------: |
+| Tema 01  | Épico 1.1  |  US01   |     Média      |
+| Tema 01  | Épico 1.2  |  US19   |     Média      |
+| Tema 02  | Épico 2.1  |  US02   |      Alta      |
+| Tema 02  | Épico 2.1  |  US16   |      Alta       |
+| Tema 02  | Épico 2.1  |  US17   |      Alta       |
+| Tema 02  | Épico 2.1  |  US18   |      Alta      |
+| Tema 02  | Épico 2.2  |  US14   |      Alta      |
+| Tema 02  | Épico 2.2  |  US20   |     Média      |
+| Tema 02  | Épico 2.3  |  US15   |      Alta      |
+| Tema 02  | Épico 2.3  |  US23   |      Alta      |
+| Tema 03  | Épico 3.1  |  US03   |      Alta      |
+| Tema 03  | Épico 3.1  |  US09   |                |
+| Tema 03  | Épico 3.1  |  US10   |                |
+| Tema 03  | Épico 3.1  |  US21   |      Alta      |
+| Tema 03  | Épico 3.1  |  US22   |     Média      |
+| Tema 03  | Épico 3.2  |  US11   |                |
+| Tema 03  | Épico 3.2  |  US12   |                |
+| Tema 03  | Épico 3.2  |  US13   |      Média     |
+| Tema 04  | Épico 4.1  |  US04   |      Alta      |
+| Tema 04  | Épico 4.1  |  US05   |     Média      |
+| Tema 04  | Épico 4.1  |  US06   |      Alta      |
+| Tema 04  | Épico 4.1  |  US08   |                |
+| Tema 04  | Épico 4.2  |  US07   |                |
+| Tema 05  | Épico 5.1  |  US24   |      Alta      |
+| Tema 05  | Épico 5.1  |  US39   |       -        |
+| Tema 05  | Épico 5.2  |  US37   |       -        |
+| Tema 05  | Épico 5.3  |  US41   |       -        |
+| Tema 06  | Épico 6.1  |  US26   |      Alta      |
+| Tema 06  | Épico 6.1  |  US29   |      Alta      |
+| Tema 07  | Épico 7.1  |  US27   |      Alta      |
+| Tema 07  | Épico 7.1  |  US38   |       -        |
+| Tema 07  | Épico 7.2  |  US28   |     Média      |
+| Tema 08  | Épico 8.1  |  US30   |     Média      |
+| Tema 09  | Épico 9.1  |  US25   |     Média      |
+| Tema 09  | Épico 9.1  |  US40   |       -        |
+| Tema 10  | Épico 10.1 |  US34   |      Alta      |
+| Tema 11  | Épico 11.1 |  US35   |      Alta      |
+| Tema 12  | Épico 12.1 |  US31   |      Alta      |
+| Tema 12  | Épico 12.2 |  US36   |      Alta      |
+| Tema 13  | Épico 13.1 |  US33   |      Alta      |
+| Tema 13  | Épico 13.2 |  US32   |      Alta      |
+| Tema 14  | Épico 14.1 |  US42   |       -        |
+
+---
+
+## Gravações das Validações
+
+| Tema     | Gravação                                                               | Autor   |
+| :------- | :--------------------------------------------------------------------- | :------ |
+| 31 ao 36 | [Vídeo da valicação](https://youtu.be/b4i_QipWo9)                      | Vera    |
+| 13 ao 18 | [Vídeo da valicação](https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA) | Marcelo |
+| 1 ao 6 | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=688) | Samuel |
+| 19 ao 24 | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=688) | Thiago |
 
 ## Referências
 
@@ -394,3 +480,4 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 |  1.4   | 19/10/2025 | Adicionando Backlogs (temas 10 ao 13)       |   Vera    |                      Thiago                      |
 |  1.5   | 19/10/2025 | Adicionando Backlogs                        | Angélica  | Thiago, Raissa, Samuel, Marcelo, Vera, Guilherme |
 |  1.6   | 20/10/2025 | Adicionando Backlogs das US37-42            | Guilherme |                        -                         |
+
