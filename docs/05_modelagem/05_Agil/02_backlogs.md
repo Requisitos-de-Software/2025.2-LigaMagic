@@ -410,37 +410,37 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 | Tema 02  | Épico 2.3  |  US15   |      Alta      |
 | Tema 02  | Épico 2.3  |  US23   |      Alta      |
 | Tema 03  | Épico 3.1  |  US03   |      Alta      |
-| Tema 03  | Épico 3.1  |  US09   |                |
-| Tema 03  | Épico 3.1  |  US10   |                |
+| Tema 03  | Épico 3.1  |  US09   |    Alta            |
+| Tema 03  | Épico 3.1  |  US10   |       Alta         |
 | Tema 03  | Épico 3.1  |  US21   |      Alta      |
 | Tema 03  | Épico 3.1  |  US22   |     Média      |
-| Tema 03  | Épico 3.2  |  US11   |                |
-| Tema 03  | Épico 3.2  |  US12   |                |
+| Tema 03  | Épico 3.2  |  US11   |     Alta           |
+| Tema 03  | Épico 3.2  |  US12   |     Alta           |
 | Tema 03  | Épico 3.2  |  US13   |      Média     |
 | Tema 04  | Épico 4.1  |  US04   |      Alta      |
 | Tema 04  | Épico 4.1  |  US05   |     Média      |
 | Tema 04  | Épico 4.1  |  US06   |      Alta      |
-| Tema 04  | Épico 4.1  |  US08   |                |
-| Tema 04  | Épico 4.2  |  US07   |                |
+| Tema 04  | Épico 4.1  |  US08   |    Média            |
+| Tema 04  | Épico 4.2  |  US07   |     Baixa           |
 | Tema 05  | Épico 5.1  |  US24   |      Alta      |
-| Tema 05  | Épico 5.1  |  US39   |       -        |
-| Tema 05  | Épico 5.2  |  US37   |       -        |
-| Tema 05  | Épico 5.3  |  US41   |       -        |
+| Tema 05  | Épico 5.1  |  US39   |       Alta        |
+| Tema 05  | Épico 5.2  |  US37   |       Alta        |
+| Tema 05  | Épico 5.3  |  US41   |       Alta        |
 | Tema 06  | Épico 6.1  |  US26   |      Alta      |
 | Tema 06  | Épico 6.1  |  US29   |      Alta      |
 | Tema 07  | Épico 7.1  |  US27   |      Alta      |
-| Tema 07  | Épico 7.1  |  US38   |       -        |
+| Tema 07  | Épico 7.1  |  US38   |       Média        |
 | Tema 07  | Épico 7.2  |  US28   |     Média      |
 | Tema 08  | Épico 8.1  |  US30   |     Média      |
 | Tema 09  | Épico 9.1  |  US25   |     Média      |
-| Tema 09  | Épico 9.1  |  US40   |       -        |
+| Tema 09  | Épico 9.1  |  US40   |       Média        |
 | Tema 10  | Épico 10.1 |  US34   |      Alta      |
 | Tema 11  | Épico 11.1 |  US35   |      Alta      |
 | Tema 12  | Épico 12.1 |  US31   |      Alta      |
 | Tema 12  | Épico 12.2 |  US36   |      Alta      |
 | Tema 13  | Épico 13.1 |  US33   |      Alta      |
 | Tema 13  | Épico 13.2 |  US32   |      Alta      |
-| Tema 14  | Épico 14.1 |  US42   |       -        |
+| Tema 14  | Épico 14.1 |  US42   |       Baixa        |
 
 ---
 
@@ -470,6 +470,9 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 | Raissa    |      14,28%       |
 | Vera      |      14,28%       |
 | Guilherme |      14,28%       |
+
+## Agradecimentos
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
 
 ## Histórico de versão
 

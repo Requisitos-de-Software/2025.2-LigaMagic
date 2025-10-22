@@ -6,7 +6,7 @@ Esta seção reúne a apresentação referente à quarta entrega do projeto. O o
 
 ## Video da apresentação 4
 
-[Assista ao vídeo no YouTube]()
+[Assista ao vídeo no YouTube](https://youtu.be/4TqlUltu3NY)
 
 ## Critérios para a Entrega 4
 
@@ -14,11 +14,11 @@ A **Entrega 4** consiste na apresentação da segunda etapa do projeto e deve co
 
 | ID  | A git page possui?                                         | Sim/Não/Incompleto |
 | :-: | :--------------------------------------------------------- | :----------------: |
-|  1  | Histórias de Usuário (Quantidade de requisitos Funcionais especificado pelo estudante?) (o estudante deveria especificar 6 requisitos funcionais sendo que 2 são requisitos não implementados? ) |        Não         |
-|  2  | Validação com usuário da Historia do Usuário com gravação presencial?           |        Não         |
-|  3  | NFR Framework (Pelo menos 1 por integrante)  |        Não         |
-|  4  | Quantidade de Cartão de especificação do RNF?|        Não         |
-|  5  | Validação com usuário do NFR com gravação presencial?|        Não         |
+|  1  | Histórias de Usuário (Quantidade de requisitos Funcionais especificado pelo estudante?) (o estudante deveria especificar 6 requisitos funcionais sendo que 2 são requisitos não implementados? ) |        Sim         |
+|  2  | Validação com usuário da Historia do Usuário com gravação presencial?           |        Sim         |
+|  3  | NFR Framework (Pelo menos 1 por integrante)  |        Sim         |
+|  4  | Quantidade de Cartão de especificação do RNF?|        Sim         |
+|  5  | Validação com usuário do NFR com gravação presencial?|        Sim         |
 
 > Fonte: Exemplo de Tabela Sintetizando os Artefatos e Atividades do Projeto Arquivo disponivel no aprender.
 

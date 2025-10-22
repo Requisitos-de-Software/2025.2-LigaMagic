@@ -395,6 +395,9 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | Vera      |      14,28%       |
 | Guilherme |      14,28%       |
 
+## Agradecimentos
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                                                         | Autor(es) |                 Revisor                  |
