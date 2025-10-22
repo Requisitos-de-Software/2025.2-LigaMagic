@@ -375,8 +375,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 |NFR02 - Informações Legais e Tributárias   | [Vídeo da valicação](https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA)| Marcelo |
 |NFR01 - Responsividade da plataforma   | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=704)| Samuel | 
 |NFR01 - Responsividade da plataforma   | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=834)| Thiago |
-
-
+|NFR06 - Exigir consentimento e concordância explícita   | [Vídeo da valicação](https://youtu.be/zAwu2rMYy9s)| Angélica |
 
 ## Bibliografia
 
