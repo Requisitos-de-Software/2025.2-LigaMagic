@@ -376,6 +376,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 |NFR01 - Responsividade da plataforma   | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=704)| Samuel | 
 |NFR01 - Responsividade da plataforma   | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=834)| Thiago |
 |NFR06 - Exigir consentimento e concordância explícita   | [Vídeo da valicação](https://youtu.be/zAwu2rMYy9s)| Angélica |
+|NFR04 - Cumprir legislações aplicáveis  | [Vídeo da valicação](https://youtu.be/wIRiHXkmi8E)| Guilherme |
 
 ## Bibliografia
 

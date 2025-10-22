@@ -452,6 +452,7 @@ Este épico foca em oferecer um módulo completo de leilões, permitindo que os 
 | 13 ao 18 | [Vídeo da valicação](https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA) | Marcelo |
 | 1 ao 6 | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=688) | Samuel |
 | 19 ao 24 | [Vídeo da valicação](https://youtu.be/ITKe7Txs100?t=688) | Thiago |
+| 37 ao 42 | [Vídeo da valicação](https://youtu.be/cCu91Xghwhk) | Guilherme |
 
 ## Referências
 
