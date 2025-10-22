@@ -22,10 +22,16 @@ A metodologia adotada baseia-se na criação de listas de verificação elaborad
 | 9 -  Foram utilizadas nuvens claras para representar os softgoals NFR? | SILVA, Reinaldo A. da. NFR4ES: Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Dissertação (Mestrado em Ciência da Computação) – UFPE, Recife, 2018.{VNFN9} | [Referencia completa](../../00_assets/images/nfr/nfr06.png) | Guilherme    |
 | 10 -  Os softgoals de operacionalização foram representados por nuvens com linhas mais grossas? {VNFN10}| SILVA, Reinaldo A. da. NFR4ES: Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Dissertação (Mestrado em Ciência da Computação) – UFPE, Recife, 2018. | [Referencia completa](../../00_assets/images/nfr/nfr07.png) | Guilherme    |
 | 11 -  Os softgoals de afirmação foram representados por nuvens com linhas tracejadas?{VNFN11}| SILVA, Reinaldo A. da. NFR4ES: Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Dissertação (Mestrado em Ciência da Computação) – UFPE, Recife, 2018. | [Referencia completa](../../00_assets/images/nfr/nfr08.png) | Guilherme    |
+| 12 - Os refinamentos foram aplicados de cima para baixo (TOP-DOWN)? | SILVA, Reinaldo Antônio da. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. 2019. 154 f. Dissertação (Mestrado em Ciência da Computação) - Centro de Informática, Universidade Federal de Pernambuco, Recife, 2019.  | [Referência completa](../../00_assets/images/nfr/referencia12.png) | Raissa |
+| 13 - Foram usadas softgoals de afirmação para ponderar características do domínio? | SILVA, Reinaldo A. da. *NFR4ES: Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados.* Dissertação (Mestrado em Ciência da Computação) – UFPE, Recife, 2019. | [Referência completa](../../00_assets/images/nfr/referencia13.png) | Raissa |
+| 14 - As operacionalizações têm operações, processos e representações de dados necessárias? | SILVA, Reinaldo A. da. *NFR4ES: Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados.* Dissertação (Mestrado em Ciência da Computação) – UFPE, Recife, 2019. | [Referência completa](../../00_assets/images/nfr/referencia14.png) | Raissa |
+| 15 - Os requisitos não funcionais estão descritos como Softgoals NFR? | SILVA, Reinaldo A. da. *NFR4ES: Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados.* Dissertação (Mestrado em Ciência da Computação) – UFPE, Recife, 2019. | [Referência completa](../../00_assets/images/nfr/referencia15.png) | Raissa |
+|16 - O SIG mostra de forma completa as decisões de desenvolvimento e a lógica do projeto? | SILVA, Reinaldo A. da. *NFR4ES: Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados.* Dissertação (Mestrado em Ciência da Computação) – UFPE, Recife, 2019. | [Referência completa](../../00_assets/images/nfr/referencia16.png) | Raissa |
 
 
 ## Bibliografia
-> JAELSON, Castro. Requisitos Não-Funcionais. Slide 12. Acessado em: 13 out. 2025.
+> JAELSON, Castro. Requisitos Não-Funcionais. Slide 12. Acessado em: 13 out. 2025. <br>
+> SILVA, Reinaldo A. da. *NFR4ES: Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados.* Dissertação (Mestrado em Ciência da Computação) – UFPE, Recife, 2019. Acessado em 15 out. 2025. 
 
 ## Nível de Contribuição dos Integrantes
 
@@ -34,6 +40,7 @@ A metodologia adotada baseia-se na criação de listas de verificação elaborad
 |   Angélica    |                  |
 |Vera   |       |
 |Guilherme  |       |
+|Raissa  |       |
 
 ## Histórico de versão
 
@@ -42,5 +49,5 @@ A metodologia adotada baseia-se na criação de listas de verificação elaborad
 |1.1|	15/10/2025|	Adição da tabela de verificação |	Angélica	|Guilherme      | 
 |1.2|	20/10/2025|	Adição dos links da tabela de verificação |	Angélica	|Guilherme      | 
 |1.3|	20/10/2025|	Adição dos itens de 5-8 |	Vera	|Guilherme      | 
-|1.4|	20/10/2025|	Adição dos itens de 9-12 |	Guilherme	| Angélica      | 
- 
+|1.4|	20/10/2025|	Adição dos itens de 9-11 |	Guilherme	| Angélica      | 
+|1.5|	21/10/2025|	Adição dos itens de 12- 16 |	Raissa	| Vera       | 
