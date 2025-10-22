@@ -1,17 +1,11 @@
 # Lista de Verificação - NFR
 
 ## Descrição
-
 Esta lista de verificação apresenta critérios específicos para inspecionar nfr-fremework.Esse documento apresenta os objetivos da verificação, a metodologia utilizada e os dados da verificação.
-
 ## Objetivo
-
 Assegurar que a verificação dos requisitos não funcionais siga as melhores práticas do NFR Framework, avaliando se os softgoals foram corretamente identificados, organizados e relacionados aos requisitos correspondentes.
-
 ## Metodologia
-
 A metodologia adotada baseia-se na criação de listas de verificação elaboradas a partir do conteúdo do NFR Framework, com o objetivo de validar os requisitos não funcionais identificados no projeto
-
 ## Conteúdo
 
 ### Tabela de Verificação

@@ -1,15 +1,11 @@
 # Lista de Verificação - historias de usuario
-
 ## Descrição
 
 Esse documento apresenta os objetivos da verificação, a metodologia utilizada e os dados da verificação.
 
 ## Objetivo
-
 O objetivo deste documento é relatar os resultados da verificação realizada acerca do artefato Histórias de Usuário.
-
 ## Metodologia
-
 A metodologia adotada baseia-se na elaboração de listas de verificação (checklists) para avaliar a qualidade e a completude das histórias de usuário produzidas no projeto.A partir desses critérios, foram elaboradas perguntas de verificação específicas, que permitem avaliar se cada história de usuário atende aos padrões recomendados
 
 ## Conteúdo
@@ -53,11 +49,12 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 
 | Nome      | % de Contribuição |
 | :-------- | :---------------: |
-| Angélica  |                   |
-| Vera      |                   |
-| Guilherme |                   |
-| Marcelo   |                   |
-| Samuel    |                   |
+| Angélica  |        14,28%           |
+| Vera      |        14,28%             |
+| Guilherme |        14,28%             |
+| Marcelo   |         14,28%            |
+| Samuel    |        14,28%             |
+| Thiago    |        14,28%             |
 
 ## Histórico de versão
 
