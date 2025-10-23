@@ -48,6 +48,7 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 
 ## Video de inspeção 
 - [Assista ao vídeo no YouTube](https://youtu.be/bhx_VbG62qY). Este video foi produzido pelos alunos Thiago, Samuel, Guilherme, Marcelo e Raissa.
+- [Assista ao vídeo no YouTube](https://youtu.be/fWCNoD1dI_w?t=569). Este video foi produzido pelas alunas Angélica e Vera.
 
 
 ## Histórico de versão

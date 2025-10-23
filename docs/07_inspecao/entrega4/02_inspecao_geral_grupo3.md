@@ -45,7 +45,7 @@ Documento baseado na lista de verificação feita para a entrega 4 do grupo 3. E
 
 ## Video de inspeção 
 - [Assista ao vídeo no YouTube](https://youtu.be/iw5RwyUDcPs). Este video foi produzido pelos alunos Guilherme, Marcelo, Raissa, Samuel, Thiago e Vera.
-
+- [Assista ao vídeo no YouTube](https://youtu.be/p1jhRlE5-0w). Este video foi produzido pela aluna Angélica.
 
 ## Histórico de versão
 
@@ -53,3 +53,4 @@ Documento baseado na lista de verificação feita para a entrega 4 do grupo 3. E
 | :----: | :--------: | :----------------------------- | :-------: | :------------------------------------------------: |
 |  1.0   | 20/10/2025 | Criação da estrutura da página |  Angélica   | Samuel, Thiago, Guilherme, Marcelo, Raissa e Vera |
 |  1.1   | 20/10/2025 | Edição e Adição de resultados |  Thiago   | Samuel, Guilherme, Marcelo, Raissa e Vera |
+|  1.2   | 22/10/2025 | Edição com resultados |  Angélica   | Samuel, Guilherme, Marcelo, Raissa e Vera |

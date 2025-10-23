@@ -61,7 +61,7 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 
 ## Video de inspeção 
 - [Assista ao vídeo no YouTube](https://youtu.be/bhx_VbG62qY). Este video foi produzido pelos alunos Guilherme, Marcelo, Raissa, Samuel e Thiago
-
+- [Assista ao vídeo no YouTube](https://youtu.be/fWCNoD1dI_w). Este video foi produzido pelas alunas Angélica e Vera.
 
 ## Histórico de versão
 
@@ -70,3 +70,4 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 |1.0|	15/10/2025|	Adição da tabela de inspeção |	Angélica	|Guilherme     |
 |1.2|	20/10/2025|	Adição dos links da tabela de inspeção |	Angélica	|Guilherme     |
 |1.3|	22/10/2025|	Adição dos resultados e vídeo |	Thiago	|Guilherme     |
+|  1.4   | 22/10/2025 | Edição com resultados |  Angélica   | Samuel, Guilherme, Marcelo, Raissa e Vera |
