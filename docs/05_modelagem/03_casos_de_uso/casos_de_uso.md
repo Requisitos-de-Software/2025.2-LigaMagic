@@ -28,20 +28,20 @@ O objetivo dos casos de uso é detalhar o funcionamento do sistema a partir da p
 
 A tabela 2 apresenta a associação entre cada caso de uso e o integrante responsável por sua criação.
 
-| Caso de Uso | Nome                                                      |  Autor   |
-| :---------: | :-------------------------------------------------------- | :------: |
-|    [UC01](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc01)     | Wishlist de Cartas                                        | Angélica |
-|    [UC02](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc02)     | Pesquisar Cartas                                          | Angélica |
-|    [UC03](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc03)     | Definir Alerta de Preço para uma Carta                    |   Vera   |
-|    [UC04](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc04)     | Reportar Erro em Carta ou Anúncio                         |   Vera   |
-|    [UC05](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc05)     | Personalizar Perfil de Jogador                            | Marcelo  |
-|    [UC06](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc06)     | Filtrar Busca por Condição                                | Marcelo  |
-|    [UC07](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc07)     | Gerenciamento de Listas de Decks                          |  Raissa  |
-|    [UC08](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc08)     | Compra por Lista                                          |  Raissa  |
-|    [UC09](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc09)     | Publicar Novo Tópico no Fórum                             |  Samuel  |
-|    [UC10](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc10)     | Compartilhar Carta por Link Direto                        |  Samuel  |
-|    [UC11](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc11)     | Confirmar Recebimento e Avaliar Vendedor                  |  Thiago  |
-|    [UC12](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc12)     | Transferir Carta da Lista de Desejos para Coleção Pessoal |  Thiago  |
+|                                                                                                                          |                           Caso de Uso                           | Nome                                                      |  Autor   |
+| ------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------: | :-------------------------------------------------------- | :------: |
+| [RF28](./requisitos_elicitados.md#rf28) - [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14) | [UC01](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc01) | Wishlist de Cartas                                        | Angélica |
+| [RF20](./requisitos_elicitados.md#rf20) - [RFNI15](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni15) | [UC02](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc02) | Pesquisar Cartas                                          | Angélica |
+| [RF31](./requisitos_elicitados.md#rf31) - [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05) | [UC03](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc03) | Definir Alerta de Preço para uma Carta                    |   Vera   |
+| [RF37](./requisitos_elicitados.md#rf37) - [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07) | [UC04](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc04) | Reportar Erro em Carta ou Anúncio                         |   Vera   |
+| [RF10](./requisitos_elicitados.md#rf10) - [RFNI01](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni01) | [UC05](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc05) | Personalizar Perfil de Jogador                            | Marcelo  |
+| [RF21](./requisitos_elicitados.md#rf21) - [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni03) | [UC06](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc06) | Filtrar Busca por Condição                                | Marcelo  |
+| [RF](./requisitos_elicitados.md#rf) - [RFNI09](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni09)     | [UC07](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc07) | Gerenciamento de Listas de Decks                          |  Raissa  |
+| [RF](./requisitos_elicitados.md#rf) - [RFNI11](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni11)     | [UC08](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc08) | Compra por Lista                                          |  Raissa  |
+| [RF11](./requisitos_elicitados.md#rf11) - [RFNI02](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni02) | [UC09](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc09) | Publicar Novo Tópico no Fórum                             |  Samuel  |
+| [RF36](./requisitos_elicitados.md#rf36) - [RFNI06](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni06) | [UC10](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc10) | Compartilhar Carta por Link Direto                        |  Samuel  |
+| [RF29](./requisitos_elicitados.md#rf29) - [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04) | [UC11](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc11) | Confirmar Recebimento e Avaliar Vendedor                  |  Thiago  |
+| [RF](./requisitos_elicitados.md#rf) - [RFNI10](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni10)     | [UC12](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc12) | Transferir Carta da Lista de Desejos para Coleção Pessoal |  Thiago  |
 
 **Tabela 2:** Autoria dos casos de uso
 
