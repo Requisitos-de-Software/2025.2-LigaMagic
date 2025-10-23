@@ -76,6 +76,15 @@ nav:
           - Backlogs: 05_modelagem/05_Agil/02_backlogs.md
           - NFR Framework: 05_modelagem/05_Agil/03_nfr_framework.md
 
+  - Pós-rastreabilidade:
+        - Matrizes:
+            - Backward-to: 06_pos-rastreabilidade/matrizes/01_backward_to.md
+            - Backward-from: 06_pos-rastreabilidade/matrizes/02_backward_from.md
+            - Forward-to: 06_pos-rastreabilidade/matrizes/03_forward_to.md
+            - Forward-from: 06_pos-rastreabilidade/matrizes/04_forward_from.md
+        - Elos de Pós-Rastreabilidade: 06_pos-rastreabilidade/elos_de_rastreabilidade.md
+        - Matriz de Pós-Rastreabilidade: 06_pos-rastreabilidade/matriz_de_rastreabilidade.md
+
   - Verificação:
       - Entrega 1:
           - Rich Picture: 07_verificacao/entrega1/verificacao_rich_picture.md
