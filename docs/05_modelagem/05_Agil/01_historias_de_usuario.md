@@ -142,7 +142,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Critérios de Aceitação** | - Na tela de resultados da busca, deve haver uma opção para aplicar filtros. <br>- O sistema deve permitir que eu selecione um ou mais filtros de condição, idioma e defina uma faixa de preço. <br>- Ao aplicar os filtros, a lista de resultados deve ser atualizada para exibir apenas as cartas que correspondem aos critérios. |
 | **Prioridade**             | Média                                                                                                                                                                                                                                                                                                                               |
 | **Status**                 | Validada                                                                                                                                                                                                                                                                                                                            |
-| **Rastreabilidade**        | [RF21](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf21)                                                                                                                                                                                                                                                                 |
+| **Rastreabilidade**        | [RF21.1](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf21_2)                                                                                                                                                                                                                                                                 |
 | **Validação**              | [Vídeo Aqui](https://youtu.be/ITKe7Txs100?t=103)                                                                                                                                                                                                                                                                                    |
 
 <div align="center"><strong>Tabela 7:</strong> História de Usuário – Filtrar Resultados de Busca de Cartas</div>
@@ -472,7 +472,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 **Fonte:** Thiago, 2025
 
-#### [US25] {#us25}
+#### [US25] - Permitir controle de cookies {#us25}
 
 <div align="center"><strong>Tabela 26:</strong> Permitir controle de cookies </div>
 
@@ -489,7 +489,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 **Fonte:** Raissa, 2025
 
-#### [US26] {#us26}
+#### [US26] - Visualização de Decks Publicados {#us26}
 
 <div align="center"><strong>Tabela 27:</strong> Visualizar decks </div>
 
@@ -506,7 +506,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 **Fonte:** Raissa, 2025
 
-#### [US27] {#us27}
+#### [US27] - Participação em Fórum de Discussão {#us27}
 
 <div align="center"><strong>Tabela 28:</strong> Fórum </div>
 
@@ -523,7 +523,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 **Fonte:** Raissa, 2025
 
-#### [US29] {#us29}
+#### [US28] - Reportar problemas {#us28}
 
 <div align="center"><strong>Tabela 29:</strong> Reportar problemas </div>
 
@@ -540,6 +540,8 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 
 **Fonte:** Raissa, 2025
 
+#### [US29] - Os usuarios devem ser capazes de criar, salvar e gerenciar listas de decks {#us29}
+
 <div align="center"><strong>Tabela 30:</strong> Os usuarios devem ser capazes de criar, salvar e gerenciar listas de decks </div>
 
 | **Item**                   | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -554,6 +556,8 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Validação**              | [Vídeo da validação](https://youtu.be/IeI8mVaSGU8)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 **Fonte:** Raissa, 2025
+
+#### [US30] - O sistema deve fornecer a funcionalidade "Comprar por lista" {#us30}
 
 <div align="center"><strong>Tabela 31:</strong> O sistema deve fornecer a funcionalidade "Comprar por lista" </div>
 
