@@ -34,26 +34,26 @@ Foram criadas algumas ações para que o usuário pudesse seguir durante a obser
 
 ## Requisitos Funcionais – Usuário Comprador
 
-|  ID  | Requisitos                      |        Categoria         | Descrição                                                                                                     |
-| :--: | :------------------------------ | :----------------------: | :------------------------------------------------------------------------------------------------------------ |
-| RF01 | Pesquisa de cartas pelo nome    |   Pesquisa e Filtragem   | Permitir que o usuário pesquise cartas pelo                                                                   |
-| RF02 | Filtrar cartas                  |   Pesquisa e Filtragem   | Permitir que o usuário filtre cartas por preço, condição e idioma                                             |
-| RF03 | Exibir resultados da pesquisa   |   Pesquisa e Filtragem   | Mostrar preço, condição, idioma e reputação do vendedor ao pesquisar uma carta                                |
-| RF04 | Realizar compra                 |     Compra de Cartas     | Permitir que o usuário compre cartas cadastradas, incluindo dados pessoais e endereço de entrega              |
-| RF05 | Histórico de compras            | Gerenciamento de Usuário | Permitir que o usuário acesse seu histórico de compras com informações detalhadas                             |
-| RF06 | Visualizar decks                |   Interação com Cartas   | Permitir que o usuário visualize decks publicados, com lista de cartas                                        |
-| RF07 | Fórum                           |  Interação com Usuários  | Permitir que o usuário busque tópicos, leia, responda e crie postagens no fórum                               |
-| RF08 | Detalhes da carta               |   Interação com Cartas   | Permitir que o usuário visualize detalhes de uma carta ao clicar no resultado da pesquisa                     |
-| RF09 | Adicionar a listas              | Gerenciamento de Usuário | Permitir que o usuário adicione cartas à lista de desejos, carrinho ou coleção                                |
-| RF10 | Avaliar ou dar feedback         |  Interação com Usuários  | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                        |
-| RF11 | Informações detalhadas da carta |   Interação com Cartas   | Mostrar edição, idioma, condição e preço médio de cada carta                                                  |
-| RF12 | Alerta de preço                 |   Relatórios e Alertas   | Permitir que o usuário defina um alerta de preço para a carta selecionada                                     |
-| RF13 | Buscar decks relacionados       |   Interação com Cartas   | Permitir que o usuário busque decks que utilizam a carta selecionada                                          |
-| RF14 | Preço médio por edição          |   Relatórios e Alertas   | Permitir que o usuário visualize o preço médio da carta em diferentes edições e condições                     |
-| RF15 | Histórico de preços             |   Relatórios e Alertas   | Permitir que o usuário acesse o histórico de preços da carta em formato gráfico                               |
-| RF16 | Adicionar a diferentes listas   | Gerenciamento de Usuário | Permitir que o usuário adicione a carta a diferentes listas (coleção, deck, lista de desejos, carrinho)       |
-| RF17 | Compartilhar carta              |  Interação com Usuários  | Permitir que o usuário compartilhe informações da carta em redes sociais ou por link direto                   |
-| RF18 | Reportar problemas              |  Interação com Usuários  | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) |
+|  ID  |     Código     | Requisitos                      |        Categoria         | Descrição                                                                                                     |
+| :--: | :------------: | :------------------------------ | :----------------------: | :------------------------------------------------------------------------------------------------------------ |
+| RF01 | OBS01 {#obs01} | Pesquisa de cartas pelo nome    |   Pesquisa e Filtragem   | Permitir que o usuário pesquise cartas pelo                                                                   |
+| RF02 | OBS02 {#obs02} | Filtrar cartas                  |   Pesquisa e Filtragem   | Permitir que o usuário filtre cartas por preço, condição e idioma                                             |
+| RF03 | OBS03 {#obs03} | Exibir resultados da pesquisa   |   Pesquisa e Filtragem   | Mostrar preço, condição, idioma e reputação do vendedor ao pesquisar uma carta                                |
+| RF04 | OBS04 {#obs04} | Realizar compra                 |     Compra de Cartas     | Permitir que o usuário compre cartas cadastradas, incluindo dados pessoais e endereço de entrega              |
+| RF05 | OBS05 {#obs05} | Histórico de compras            | Gerenciamento de Usuário | Permitir que o usuário acesse seu histórico de compras com informações detalhadas                             |
+| RF06 | OBS06 {#obs06} | Visualizar decks                |   Interação com Cartas   | Permitir que o usuário visualize decks publicados, com lista de cartas                                        |
+| RF07 | OBS07 {#obs07} | Fórum                           |  Interação com Usuários  | Permitir que o usuário busque tópicos, leia, responda e crie postagens no fórum                               |
+| RF08 | OBS08 {#obs08} | Detalhes da carta               |   Interação com Cartas   | Permitir que o usuário visualize detalhes de uma carta ao clicar no resultado da pesquisa                     |
+| RF09 | OBS09 {#obs09} | Adicionar a listas              | Gerenciamento de Usuário | Permitir que o usuário adicione cartas à lista de desejos, carrinho ou coleção                                |
+| RF10 | OBS10 {#obs10} | Avaliar ou dar feedback         |  Interação com Usuários  | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                        |
+| RF11 | OBS11 {#obs11} | Informações detalhadas da carta |   Interação com Cartas   | Mostrar edição, idioma, condição e preço médio de cada carta                                                  |
+| RF12 | OBS12 {#obs12} | Alerta de preço                 |   Relatórios e Alertas   | Permitir que o usuário defina um alerta de preço para a carta selecionada                                     |
+| RF13 | OBS13 {#obs13} | Buscar decks relacionados       |   Interação com Cartas   | Permitir que o usuário busque decks que utilizam a carta selecionada                                          |
+| RF14 | OBS14 {#obs14} | Preço médio por edição          |   Relatórios e Alertas   | Permitir que o usuário visualize o preço médio da carta em diferentes edições e condições                     |
+| RF15 | OBS15 {#obs15} | Histórico de preços             |   Relatórios e Alertas   | Permitir que o usuário acesse o histórico de preços da carta em formato gráfico                               |
+| RF16 | OBS16 {#obs16} | Adicionar a diferentes listas   | Gerenciamento de Usuário | Permitir que o usuário adicione a carta a diferentes listas (coleção, deck, lista de desejos, carrinho)       |
+| RF17 | OBS17 {#obs17} | Compartilhar carta              |  Interação com Usuários  | Permitir que o usuário compartilhe informações da carta em redes sociais ou por link direto                   |
+| RF18 | OBS18 {#obs18} | Reportar problemas              |  Interação com Usuários  | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) |
 
 <sub>Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme](https://github.com/GuilhermeOliveira1327), 2025</sub>
 
@@ -63,17 +63,17 @@ Foram criadas algumas ações para que o usuário pudesse seguir durante a obser
 
 ## Requisitos Não Funcionais – Usuário Comprador
 
-|  ID   | Requisitos                      |    Categoria    | Descrição                                                                                                        |
-| :---: | :------------------------------ | :-------------: | :--------------------------------------------------------------------------------------------------------------- |
-| RNF01 | Site responsivo                 |   Usabilidade   | O site deve ser totalmente responsivo, garantindo boa visualização em computador, tablet e smartphone            |
-| RNF02 | Organização da informação       |   Usabilidade   | O site deve apresentar informações de cartas, anúncios e decks de forma organizada e legível                     |
-| RNF03 | Transmissão segura de dados     |    Segurança    | O sistema deve garantir a transmissão segura de dados pessoais e informações de pagamento                        |
-| RNF04 | Mensagens de sucesso/erro       |   Usabilidade   | O sistema deve fornecer mensagens claras de sucesso ou erro ao realizar ações como cadastro, compra ou inscrição |
-| RNF05 | Compatibilidade com navegadores | Compatibilidade | A plataforma deve ser totalmente compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari), tanto em suas versões para desktop quanto para dispositivos móveis (Android e iOS)                         |
-| RNF06 | Backup automático               |     Backup      | O sistema deve garantir backup automático dos dados de usuários e transações                                     |
-| RNF07 | Alertas e confirmações          |   Usabilidade   | Mensagens de alerta, erro ou confirmação devem ser exibidas de forma clara e consistente                         |
-| RNF08 | Criptografia de dados sensíveis |    Segurança    | O site deve criptografar dados sensíveis do usuário, como senhas e informações de pagamento                      |
-| RNF09 | Suporte a telas pequenas        |   Usabilidade   | O site deve carregar corretamente em dispositivos móveis com telas menores que 6 polegadas                       |
+|  ID   |     Código     | Requisitos                      |    Categoria    | Descrição                                                                                                                                                                                                                                                    |
+| :---: | :------------: | :------------------------------ | :-------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| RNF01 | OBS19 {#obs19} | Site responsivo                 |   Usabilidade   | O site deve ser totalmente responsivo, garantindo boa visualização em computador, tablet e smartphone                                                                                                                                                        |
+| RNF02 | OBS20 {#obs20} | Organização da informação       |   Usabilidade   | O site deve apresentar informações de cartas, anúncios e decks de forma organizada e legível                                                                                                                                                                 |
+| RNF03 | OBS21 {#obs21} | Transmissão segura de dados     |    Segurança    | O sistema deve garantir a transmissão segura de dados pessoais e informações de pagamento                                                                                                                                                                    |
+| RNF04 | OBS22 {#obs22} | Mensagens de sucesso/erro       |   Usabilidade   | O sistema deve fornecer mensagens claras de sucesso ou erro ao realizar ações como cadastro, compra ou inscrição                                                                                                                                             |
+| RNF05 | OBS23 {#obs23} | Compatibilidade com navegadores | Compatibilidade | A plataforma deve ser totalmente compatível com as versões mais recentes dos principais navegadores do mercado (Google Chrome, Mozilla Firefox, Microsoft Edge e Safari), tanto em suas versões para desktop quanto para dispositivos móveis (Android e iOS) |
+| RNF06 | OBS24 {#obs24} | Backup automático               |     Backup      | O sistema deve garantir backup automático dos dados de usuários e transações                                                                                                                                                                                 |
+| RNF07 | OBS25 {#obs25} | Alertas e confirmações          |   Usabilidade   | Mensagens de alerta, erro ou confirmação devem ser exibidas de forma clara e consistente                                                                                                                                                                     |
+| RNF08 | OBS26 {#obs26} | Criptografia de dados sensíveis |    Segurança    | O site deve criptografar dados sensíveis do usuário, como senhas e informações de pagamento                                                                                                                                                                  |
+| RNF09 | OBS27 {#obs27} | Suporte a telas pequenas        |   Usabilidade   | O site deve carregar corretamente em dispositivos móveis com telas menores que 6 polegadas                                                                                                                                                                   |
 
 <sub>Fonte: [Vera Lucia](https://github.com/verabelucia) e [Guilherme](https://github.com/GuilhermeOliveira1327), 2025</sub>
 
