@@ -29,32 +29,32 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 
 <div align="center"><strong>Tabela 1:</strong> Estrutura de um cenário</div>
 
-| Id  | Cenário                                                                                                |       Autor       |                              Requisito Associado                               |
-| :-: | :----------------------------------------------------------------------------------------------------- | :---------------: | :----------------------------------------------------------------------------: |
-| 08  | Salvar carta para compra futura                                                                        |     Angélica      | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14) |
-| 09  | Gerenciar Wishlist Existente                                                                           |     Angélica      | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14) |
-| 10  | Encontrar carta específica rapidamente                                                                 |     Angélica      | [RFNI15](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni15) |
-| 06  | Permitir definir um alerta de preço para a carta selecionada                                           |    Vera Lucia     | [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05) |
-| 07  | Permitir reporte de problemas relacionados à carta ou anúncios                                         |    Vera Lucia     | [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07) |
-| 01  | Sistema que personaliza e mantem a página pessoal/profissional                                         | Marcelo de Araújo | [RFNI01](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni01) |
-| 02  | Sistema de filtragem de cartas por qualidade/condição                                                  | Marcelo de Araújo | [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni03) |
-| 03  | Criar e Salvar Lista de Decks                                                                          |  Raissa Andrade   | [RFNI09](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni09) |
-| 04  | Gerenciar Lista de Decks                                                                               |  Raissa Andrade   | [RFNI09](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni09) |
-| 05  | Comprar por Lista                                                                                      |  Raissa Andrade   | [RFNI11](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni11) |
-| 09  | O sistema deve possibilitar participação dos consumidores em fóruns de discussão (postagem e resposta) |      Samuel       | [RFNI02](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni02) |
-| 10  | Permitir que o jogador compartilhe informações da carta por link direto                                |      Samuel       | [RFNI06](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni06) |
-| 11  | Permitir que o jogadores avalie ou dê feedback sobre vendedores ou decks                               |      Thiago       | [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04) |
-| 12  | Os jogadores devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas.             |      Thiago       | [RFNI10](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni10) |
+|                           Id                            | Cenário                                                                                                |       Autor       |                              Requisito Associado                               |
+| :-----------------------------------------------------: | :----------------------------------------------------------------------------------------------------- | :---------------: | :----------------------------------------------------------------------------: |
+| [CE01](../../05_modelagem/01_cenarios/cenarios.md#ce01) | Salvar carta para compra futura                                                                        |     Angélica      | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14) |
+| [CE02](../../05_modelagem/01_cenarios/cenarios.md#ce02) | Gerenciar Wishlist Existente                                                                           |     Angélica      | [RFNI14](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni14) |
+| [CE03](../../05_modelagem/01_cenarios/cenarios.md#ce03) | Encontrar carta específica rapidamente                                                                 |     Angélica      | [RFNI15](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni15) |
+| [CE04](../../05_modelagem/01_cenarios/cenarios.md#ce04) | Permitir definir um alerta de preço para a carta selecionada                                           |    Vera Lucia     | [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05) |
+| [CE05](../../05_modelagem/01_cenarios/cenarios.md#ce05) | Permitir reporte de problemas relacionados à carta ou anúncios                                         |    Vera Lucia     | [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07) |
+| [CE06](../../05_modelagem/01_cenarios/cenarios.md#ce06) | Sistema que personaliza e mantem a página pessoal/profissional                                         | Marcelo de Araújo | [RFNI01](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni01) |
+| [CE07](../../05_modelagem/01_cenarios/cenarios.md#ce07) | Sistema de filtragem de cartas por qualidade/condição                                                  | Marcelo de Araújo | [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni03) |
+| [CE08](../../05_modelagem/01_cenarios/cenarios.md#ce08) | Criar e Salvar Lista de Decks                                                                          |  Raissa Andrade   | [RFNI09](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni09) |
+| [CE09](../../05_modelagem/01_cenarios/cenarios.md#ce09) | Gerenciar Lista de Decks                                                                               |  Raissa Andrade   | [RFNI09](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni09) |
+| [CE10](../../05_modelagem/01_cenarios/cenarios.md#ce10) | Comprar por Lista                                                                                      |  Raissa Andrade   | [RFNI11](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni11) |
+| [CE11](../../05_modelagem/01_cenarios/cenarios.md#ce11) | O sistema deve possibilitar participação dos consumidores em fóruns de discussão (postagem e resposta) |      Samuel       | [RFNI02](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni02) |
+| [CE12](../../05_modelagem/01_cenarios/cenarios.md#ce12) | Permitir que o jogador compartilhe informações da carta por link direto                                |      Samuel       | [RFNI06](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni06) |
+| [CE13](../../05_modelagem/01_cenarios/cenarios.md#ce13) | Permitir que o jogadores avalie ou dê feedback sobre vendedores ou decks                               |      Thiago       | [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04) |
+| [CE14](../../05_modelagem/01_cenarios/cenarios.md#ce14) | Os jogadores devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas.             |      Thiago       | [RFNI10](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni10) |
 
 <div align="center"><strong>Tabela 2:</strong> Distribuição de funcionalidades</div>
 
 ## Conteúdo
 
-### Cenário 01.1: Adicionar à Wishlist {ce01.1}
+### Cenário 01: Adicionar à Wishlist {#ce01}
 
 | **Elemento**        | **Descrição**                                                                                                                                          |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **ID**              | CE1.1                                                                                                                                                  |
+| **ID**              | CE01                                                                                                                                                   |
 | **Título**          | Adicionar à Wishlist.                                                                                                                                  |
 | **Metas/Objetivos** | Salvar carta para compra futura.                                                                                                                       |
 | **Contexto**        | Jogador encontra carta de interesse, mas não pode comprar agora.                                                                                       |
@@ -64,15 +64,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrições**      | - Jogador deve estar logado <br>- Limite de 1000 cartas <br>- Dados persistentes                                                                       |
 | **Episódios**       | 1. Visualizar carta <br>2. Clicar ícone em formato de estrela <br>3. Sistema valida adição <br>4. Feedback visual confirma <br>5. Carta salva na lista |
 
-<div align="center"><strong>Tabela 01:</strong> Cenário 1.1</div>
+<div align="center"><strong>Tabela 02:</strong> Cenário 01</div>
 
 **Fonte:** Angélica, 2025
 
-### Cenário 01.2: Gerenciar Wishlist Existente {ce01.2}
+### Cenário 02: Gerenciar Wishlist Existente {#ce02}
 
 | **Elemento**        | **Descrição**                                                                                                                                                                                                                         |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | CE1.2                                                                                                                                                                                                                                 |
+| **ID**              | CE02                                                                                                                                                                                                                                  |
 | **Título**          | Gerenciar Wishlist Existente.                                                                                                                                                                                                         |
 | **Metas/Objetivos** | Organizar e manter lista de desejos atualizada.                                                                                                                                                                                       |
 | **Contexto**        | Jogador precisa revisar e organizar cartas salvas na wishlist.                                                                                                                                                                        |
@@ -82,15 +82,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrições**      | - Wishlist deve ter itens <br>- Conexão para sincronização <br>- Limite de 1000 cartas.                                                                                                                                               |
 | **Episódios**       | 1. Acessar seção "Minha Wishlist" <br>2. Visualizar cartas organizadas <br>3. Aplicar filtros (tipo, raridade, preço) <br>4. Ordenar por critério desejado <br>5. Navegar entre páginas <br>6. Realizar ações (remover, ver detalhes) |
 
-<div align="center"><strong>Tabela 02:</strong> Cenário 1.2</div>
+<div align="center"><strong>Tabela 03:</strong> Cenário 02</div>
 
 **Fonte:** Angélica, 2025
 
-### Cenário 02: Pesquisar Cartas {ce02}
+### Cenário 03: Pesquisar Cartas {#ce03}
 
 | **Elemento**        | **Descrição**                                                                                                                                               |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | CE02                                                                                                                                                        |
+| **ID**              | CE03                                                                                                                                                        |
 | **Título**          | Pesquisar Cartas                                                                                                                                            |
 | **Metas/Objetivos** | Encontrar carta específica rapidamente.                                                                                                                     |
 | **Contexto**        | Jogador precisa localizar carta para compra ou consultar.                                                                                                   |
@@ -100,15 +100,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrições**      | - Conexão internet obrigatória <br>- Dados das cartas atualizados                                                                                           |
 | **Episódios**       | 1. Acessar aba pesquisa <br>2. Digitar termo de busca <br>3. Sistema processa as requisição <br>4. Exibir os resultados <br>5. Jogador visualiza as opções. |
 
-<div align="center"><strong>Tabela 03:</strong> Cenário 02</div>
+<div align="center"><strong>Tabela 04:</strong> Cenário 03</div>
 
 **Fonte:** Angélica, 2025
 
-### Cenário 03: Permitir definir um alerta de preço para a carta selecionada {ce03}
+### Cenário 04: Permitir definir um alerta de preço para a carta selecionada {#ce04}
 
 | **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **ID**              | CE03                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **ID**              | CE04                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Título**          | Permitir que o comprador defina um alerta de preço para a carta selecionada                                                                                                                                                                                                                                                                                                                                                          |
 | **Metas/Objetivos** | Notificar o comprador quando o preço da carta atingir o valor definido..                                                                                                                                                                                                                                                                                                                                                             |
 | **Contexto**        | **Local:** qualquer lugar onde o comprador possa acessar o aplicativo. <br>**Tempo:** em tempo real.                                                                                                                                                                                                                                                                                                                                 |
@@ -118,15 +118,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrições**      | - Valor do alerta deve estar dentro do limite permitido pelo sistema.<br>- Apenas cartas existentes na plataforma podem ter alertas definidos.                                                                                                                                                                                                                                                                                       |
 | **Episódios**       | 1. Comprador decide acompanhar o preço de uma carta.<br>2. Abre o aplicativo.<br>3. Realiza login, caso ainda não esteja autenticado.<br>4. Acessa a busca ou lista de cartas.<br>5. Localiza a carta desejada.<br>6. Abre a página detalhada da carta.<br>7. Clica no botão “Definir alerta”.<br>8. Insere o valor desejado para o alerta.<br>9. Sistema valida o valor informado.<br>10. Sistema confirma a criação do alerta.<br> |
 
-<div align="center"><strong>Tabela 04:</strong> Cenário 03</div>
+<div align="center"><strong>Tabela 04:</strong> Cenário 04</div>
 
 **Fonte:** [Vera Lucia](https://github.com/verabelucia), 2025
 
-### Cenário 04: Permitir reporte problemas relacionados à carta ou anúncios {ce04}
+### Cenário 05: Permitir reporte problemas relacionados à carta ou anúncios {#ce05}
 
 | **Elemento**        | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | CE04                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **ID**              | CE05                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Título**          | Permitir que reporte problemas relacionados à carta ou anúncios                                                                                                                                                                                                                                                                                                                                                               |
 | **Metas/Objetivos** | Permitir que o comprador comunique erros ou irregularidades encontradas em cartas ou anúncios                                                                                                                                                                                                                                                                                                                                 |
 | **Contexto**        | **Local:** qualquer lugar onde o jogador possa acessar o aplicativo.<br>**Tempo:** Em tempo real                                                                                                                                                                                                                                                                                                                              |
@@ -136,14 +136,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrições**      | - O comprador deve selecionar um tipo de problema antes de enviar.<br>- O comprador deve descrever o problema antes de enviar.                                                                                                                                                                                                                                                                                                |
 | **Episódios**       | 1. Jogador identifica um possível erro ou anúncio suspeito.<br>2. Abre o aplicativo.<br>3. Realiza login, se necessário.<br>4. Acessa a página da carta.<br>5. Clica em “Reportar problema”.<br>6. Sistema apresenta opções de tipos de problema.<br>7. Jogador seleciona o tipo adequado.<br>8. Descreve o problema em detalhes.<br>9. Envia o reporte.<br>10. Sistema registra o reporte e confirma o envio ao jogador.<br> |
 
-<div align="center"><strong>Tabela 05:</strong> Cenário 04</div>
+<div align="center"><strong>Tabela 06:</strong> Cenário 05</div>
 
 **Fonte:** [Vera Lucia](https://github.com/verabelucia), 2025
 
-### Cenário 05: Personalizar perfil de jogador {ce05}
+### Cenário 06: Personalizar perfil de jogador {#ce06}
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                             |
 | :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ID**        | CE06                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **Título**    | Personalizar e manter o perfil de jogador                                                                                                                                                                                                                                                                                                                                                                             |
 | **Objetivo**  | Permitir que o jogador personalize seu perfil com informações como avatar, endereço de envio e cards de interesse, a fim de agilizar futuras compras e customizar sua experiência na plataforma.                                                                                                                                                                                                                      |
 | **Contexto**  | **Local:** Aplicativo ou site da LigaMagic, na seção "Meu Perfil" ou "Minha Conta".<br>**Tempo:** Em tempo real, quando o consumidor desejar atualizar.<br>**Pré-condição:** O consumidor deve possuir um cadastro e estar logado na plataforma.                                                                                                                                                                      |
@@ -153,14 +154,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrição** | A imagem do avatar deve seguir um formato (ex: JPG, PNG) e tamanho máximo especificado.O cadastro de endereço deve seguir um formato de CEP válido.                                                                                                                                                                                                                                                                   |
 | **Exceção**   | Falha no upload do avatar (formato/tamanho inválido).O CEP informado não é encontrado ou é inválido.Perda das alterações não salvas caso a conexão com a internet caia.                                                                                                                                                                                                                                               |
 
-<div align="center"><strong>Tabela 06:</strong> Cenário 05</div>
+<div align="center"><strong>Tabela 07:</strong> Cenário 06</div>
 
 **Fonte:** Marcelo, 2025
 
-### Cenário 06: Filtrar busca por condição da carta {ce06}
+### Cenário 07: Filtrar busca por condição da carta {#ce07}
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **ID**        | CE07                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Título**    | Filtrar busca de cartas por qualidade/condição                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Objetivo**  | Permitir que o jogador (comprador) refine os resultados de uma busca de cartas, exibindo apenas as versões que se encontram em um estado de conservação específico (ex: Near Mint, Moderately Played), facilitando a compra para colecionadores e jogadores exigentes.                                                                                                                                                                      |
 | **Contexto**  | **Local:** Aplicativo ou site da LigaMagic, na página de busca ou na página de um produto específico. <br>**Tempo:** Em tempo real, durante a busca por cartas.<br>**Pré-condição:** O comprador estar realizando uma busca por uma ou mais cartas.                                                                                                                                                                                         |
@@ -170,15 +172,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrição** | O filtro depende da correta classificação feita pelo vendedor no momento do cadastro do card. Anúncios sem a classificação de condição podem ser omitidos do resultado.                                                                                                                                                                                                                                                                     |
 | **Exceção**   | A aplicação do filtro resulta em um erro ou não altera a lista de resultado, reiniciando a busca nenhum vendedor possui a carta na condição desejada.                                                                                                                                                                                                                                                                                       |
 
-<div align="center"><strong>Tabela 07:</strong> Cenário 06</div>
+<div align="center"><strong>Tabela 08:</strong> Cenário 07</div>
 
 **Fonte:** Marcelo, 2025
 
-### Cenário 07: Criar e Salvar Lista de Decks {ce07}
+### Cenário 08: Criar e Salvar Lista de Decks {#ce08}
 
 | **Elemento**        | **Descrição**                                                                                                                                                                               |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | CE07                                                                                                                                                                                        |
+| **ID**              | CE08                                                                                                                                                                                        |
 | **Título**          | Criar e Salvar Lista de Decks                                                                                                                                                               |
 | **Metas/Objetivos** | Permitir que o jogador monte uma lista de decks, personalize com nome/descrição e salve para uso.                                                                                           |
 | **Contexto**        | O jogador deseja organizar seus decks em listas, seja para colecionar, montar estratégias ou preparar compras futuras.                                                                      |
@@ -188,15 +190,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrições**      | - O nome da lista deve ser único por jogador.<br>- Somente jogadoress autenticados podem criar ou salvar listas.<br>- Salvar a carta somente uma vez                                        |
 | **Episódios**       | 1. Jogador acessa “Minhas Listas”.<br>2. Seleciona “Criar nova lista”.<br>3. Preenche nome/descrição.<br>4. Adiciona decks (busca/link).<br>5. Salva lista.<br>6. Sistema confirma criação. |
 
-<div align="center"><strong>Tabela 08:</strong> Cenário 07</div>
+<div align="center"><strong>Tabela 09:</strong> Cenário 08</div>
 
 **Fonte:** Raissa, 2025
 
-### Cenário 08: Gerenciar Lista de Decks {ce08}
+### Cenário 09: Gerenciar Lista de Decks {#ce09}
 
 | **Elemento**        | **Descrição**                                                                                                                                                                                    |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **ID**              | CE08                                                                                                                                                                                             |
+| **ID**              | CE09                                                                                                                                                                                             |
 | **Título**          | Gerenciar Lista de Decks                                                                                                                                                                         |
 | **Metas/Objetivos** | Permitir que o jogadores edite, exclua, ordene ou compartilhe suas listas de decks.                                                                                                              |
 | **Contexto**        | O jogador já possui uma lista criada e deseja alterar ou organizar seu conteúdo.                                                                                                                 |
@@ -206,15 +208,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrições**      | - Somente o dono da lista pode editá-la ou excluí-la.                                                                                                                                            |
 | **Episódios**       | 1. Comprador acessa “Minhas Listas”.<br>2. Seleciona uma lista existente.<br>3. Edita quantidades, renomeia ou exclui itens.<br>4. Salva alterações.<br>5. Sistema atualiza e confirma mudanças. |
 
-<div align="center"><strong>Tabela 09:</strong> Cenário 08</div>
+<div align="center"><strong>Tabela 10:</strong> Cenário 09</div>
 
 **Fonte:** Raissa, 2025
 
-### Cenário 09: Comprar por Lista {ce09}
+### Cenário 10: Comprar por Lista {#ce10}
 
 | **Elemento**        | **Descrição**                                                                                                                                                                                                   |
 | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**              | CE09                                                                                                                                                                                                            |
+| **ID**              | CE10                                                                                                                                                                                                            |
 | **Título**          | Comprar por Lista                                                                                                                                                                                               |
 | **Metas/Objetivos** | Permitir que o jogador compre todos os itens de uma lista de decks com integração ao site LigaMagic.                                                                                                            |
 | **Contexto**        | O jogador possui uma lista pronta e deseja adquirir os decks diretamente, sem buscar um por um no site.                                                                                                         |
@@ -224,15 +226,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrições**      | - Somente listas salvas podem ser compradas.<br>- O processo deve mostrar os itens correspondidos e os não encontrados.<br>- Ter todas cartas disponíveis.                                                      |
 | **Episódios**       | 1. Jogador acessa uma lista salva.<br>2. Clica em “Comprar por lista”.<br>3. Exibe resumo com preços, itens indisponíveis e total estimado.<br>4. Jogador confirma e é redirecionado ao carrinho do fornecedor. |
 
-<div align="center"><strong>Tabela 10:</strong> Cenário 09</div>
+<div align="center"><strong>Tabela 11:</strong> Cenário 10</div>
 
 **Fonte:** Raissa, 2025
 
-### Cenário 10: Participação em Fóruns de Discussão {ce10}
+### Cenário 11: Participação em Fóruns de Discussão {#ce11}
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                    |
 | :------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**        | CE10                                                                                                                                                                                                                                                                                                                                                                         |
+| **ID**        | CE11                                                                                                                                                                                                                                                                                                                                                                         |
 | **Título**    | Pedindo Ajuda para Montar um Primeiro Deck Commander                                                                                                                                                                                                                                                                                                                         |
 | **Objetivo**  | Permitir que o jogador iniciante obtenha sugestões de comandantes e listas de decks de baixo custo através do fórum da comunidade, facilitando o aprendizado e entrada no formato Commander.                                                                                                                                                                                 |
 | **Contexto**  | **Local:** Aplicativo Liga Magic, no intervalo entre aulas no pátio da universidade.<br>**Tempo:** Durante o intervalo das aulas, utilizando Wi-Fi da faculdade.<br>**Pré-condição:** O jogador deve ter o aplicativo instalado e acesso à internet.                                                                                                                         |
@@ -242,15 +244,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrição** | O jogador deve estar cadastrado na plataforma para participar do fórum. As postagens devem seguir as regras de conduta da comunidade.                                                                                                                                                                                                                                        |
 | **Exceção**   | Falha na conexão com a internet impedindo o carregamento do fórum. Nenhum membro da comunidade responde à postagem. Postagem removida por violar regras da comunidade.                                                                                                                                                                                                       |
 
-<div align="center"><strong>Tabela 11:</strong> Cenário 10</div>
+<div align="center"><strong>Tabela 12:</strong> Cenário 11</div>
 
 **Fonte:** Samuel, 2025
 
-### Cenário 11: Compartilhamento de Informações de Carta {ce11}
+### Cenário 12: Compartilhamento de Informações de Carta {#ce12}
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                              |
 | :------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**        | CE11                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **ID**        | CE12                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Título**    | Tirando Dúvida sobre uma Carta com um Amigo                                                                                                                                                                                                                                                                                                                                                            |
 | **Objetivo**  | Permitir que o jogador compartilhe informações detalhadas de uma carta específica através de link direto, facilitando a comunicação e esclarecimento de dúvidas com outros jogadores.                                                                                                                                                                                                                  |
 | **Contexto**  | **Local:** Quarto do jogador, organizando coleção de cartas.<br>**Tempo:** Momento de organização da coleção, quando surge uma dúvida.<br>**Pré-condição:** O consumidor deve ter o aplicativo Liga Magic instalado e acesso a um aplicativo de mensagens.                                                                                                                                             |
@@ -260,15 +262,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrição** | A carta deve estar cadastrada na base de dados do aplicativo. O link gerado deve ser acessível por consumidores externos ao aplicativo.                                                                                                                                                                                                                                                                |
 | **Exceção**   | Carta não encontrada na busca. Falha na geração do link de compartilhamento. Aplicativo de mensagens não disponível para compartilhamento. Link compartilhado não funciona corretamente.                                                                                                                                                                                                               |
 
-<div align="center"><strong>Tabela 12:</strong> Cenário 11</div>
+<div align="center"><strong>Tabela 13:</strong> Cenário 12</div>
 
 **Fonte:** Samuel, 2025
 
-### Cenário 12: Avaliar Vendedor Após Receber Compra {ce12}
+### Cenário 13: Avaliar Vendedor Após Receber Compra {#ce13}
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**        | CE12                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **ID**        | CE13                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Título**    | Avaliar Vendedor Após Receber Compra                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Objetivo**  | Permitir que o comprador avalie e forneça feedback sobre vendedores após receber uma compra, contribuindo para a confiabilidade da comunidade e ajudando outros compradores a tomar decisões informadas.                                                                                                                                                                                                                            |
 | **Contexto**  | **Local:** Aplicativo Liga Magic, durante o intervalo de almoço na faculdade.<br>**Tempo:** Após receber as cartas compradas, no mesmo dia da entrega.<br>**Pré-condição:** O jogador deve ter realizado uma compra, recebido as cartas e estar logado no aplicativo.                                                                                                                                                               |
@@ -278,15 +280,15 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrição** | O comprador só pode avaliar após confirmar o recebimento das cartas. Cada pedido pode ser avaliado apenas uma vez. O feedback deve seguir as regras de conduta da plataforma.                                                                                                                                                                                                                                                       |
 | **Exceção**   | Falha na conexão impedindo o envio da avaliação. Pedido não encontrado na seção "Minhas Compras". Sistema não exibe a opção de avaliação. Feedback rejeitado por violar regras da comunidade.                                                                                                                                                                                                                                       |
 
-<div align="center"><strong>Tabela 13:</strong> Cenário 12</div>
+<div align="center"><strong>Tabela 14:</strong> Cenário 13</div>
 
 **Fonte:** Thiago, 2025
 
-### Cenário 13: Adicionar Cartas à Coleção via Lista de Desejos {ce13}
+### Cenário 14: Adicionar Cartas à Coleção via Lista de Desejos {#ce14}
 
 | Item          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **ID**        | CE13                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **ID**        | CE14                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Título**    | Adicionar Cartas à Coleção via Lista de Desejos                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Objetivo**  | Permitir que o jogador transfira cartas adquiridas da Lista de Desejos para sua Coleção Pessoal, mantendo o controle organizado do inventário e atualizando automaticamente o valor total da coleção.                                                                                                                                                                                                                                                                                     |
 | **Contexto**  | **Local:** Aplicativo Liga Magic, após efetuar a compra de uma carta desejada.<br>**Tempo:** Momento pós-compra, quando o jogador deseja atualizar seu inventário.<br>**Pré-condição:** O jogador deve ter uma Lista de Desejos criada com cartas cadastradas e ter efetuado a compra de uma dessas cartas.                                                                                                                                                                               |
@@ -296,7 +298,7 @@ A tabela 2 distribui as funcionalidades entre os integrantes.
 | **Restrição** | A carta deve estar previamente cadastrada na Lista de Desejos. O comprador deve informar condição e preço pago para a transferência. O sistema deve manter a integridade dos dados entre as seções.                                                                                                                                                                                                                                                                                       |
 | **Exceção**   | Falha na conexão impedindo a sincronização dos dados. Erro no sistema ao mover a carta entre seções. Informações de condição ou preço em formato inválido. Carta não encontrada na Lista de Desejos.                                                                                                                                                                                                                                                                                      |
 
-<div align="center"><strong>Tabela 14:</strong> Cenário 13</div>
+<div align="center"><strong>Tabela 15:</strong> Cenário 14</div>
 
 **Fonte:** Thiago, 2025
 
