@@ -73,7 +73,7 @@ Esta seção aborda como os princípios da lista de verificação foram aplicado
 - **Consciência sobre as Limitações da Técnica:** A equipe está ciente de que a MoSCoW não oferece, por si só, uma razão para a priorização, mas sim um esquema de classificação. Por isso, a justificativa para cada prioridade foi baseada na análise de importância e urgência, conectada aos objetivos de negócio do projeto.
 - **Priorização como Processo Contínuo:** Esta priorização representa o estado atual do projeto. Conforme o desenvolvimento avança e novas informações surgem (feedback de usuários, mudanças no mercado, etc.), a lista de requisitos e suas prioridades serão revisitadas periodicamente. Isso garante que a equipe continue a alocar tempo e recursos nas atividades de maior valor ao longo do ciclo de vida do projeto.
 
-## Video de Validação
+## Vídeo de Validação
 
 [Link do Vídeo de Validação com Usuário:](https://youtu.be/lmzToU_Psmc)
 
