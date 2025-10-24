@@ -45,6 +45,10 @@ Este documento apresenta um glossário detalhado dos principais termos e funcion
 
 [Técnica de elicitação – Glossário (PDF)](../../00_assets/pdfs/elicitacao/tecnica_de_elicitacao_glossario.pdf)
 
+## Vídeo de Validação
+
+[Link do Vídeo de Validação](https://youtu.be/3EbsaRfX9Tk)
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                         | Autor(es) | Revisor(es) |
@@ -52,3 +56,4 @@ Este documento apresenta um glossário detalhado dos principais termos e funcion
 |  1.0   | 23/09/2025 | Elaboração da lista de verificação                |  Samuel   |   Thiago    |
 |  1.1   | 30/09/2025 | Adicionado PDF do documento original do glossário |  Samuel   |   Thiago    |
 |  1.2   | 02/09/2025 | Formatação e organização do documento             |  Samuel   |      -      |
+|  1.3   | 24/10/2025 | Adição do Vídeo de Validação             |  Thiago   |      -      |
