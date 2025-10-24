@@ -75,7 +75,7 @@ Esta seção aborda como os princípios da lista de verificação foram aplicado
 
 ## Vídeo de Validação
 
-[Link do Vídeo de Validação com Usuário:](https://youtu.be/lmzToU_Psmc)
+[Link do Vídeo de Validação com Usuário](https://youtu.be/lmzToU_Psmc):
 
 ## Histórico de versão
 
