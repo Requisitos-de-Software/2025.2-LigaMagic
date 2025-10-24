@@ -1,11 +1,26 @@
 # Backward-from
 
 ## Descrição
-
+Este artefato documenta a rastreabilidade backward-from, detalhando as conexões entre os requisitos e suas origens. A rastreabilidade backward-from (para trás, a partir de) refere-se ao processo de conectar cada requisito às suas respectivas fontes. De modo geral, a rastreabilidade de requisitos é uma característica essencial em sistemas, na qual os requisitos são claramente ligados tanto às suas fontes quanto aos artefatos criados durante o ciclo de vida de desenvolvimento. (SAYÃO; LEITE, 2005).
 ## Objetivo
-
+Examinar e documentar o processo de rastreabilidade backward-from, destacando como os requisitos do sistema são sistematicamente associados às suas origens. Isso permite descobrir quem sugeriu o requisito (a fonte), por que o requisito existe (o rationale) e quais outros requisitos estão relacionados a ele.
 ## Metodologia
+A abordagem backward-from foca em estabelecer conexões claras entre os requisitos e suas fontes. O processo  é dividido em três etapas principais:
 
+
+
+
+* Definição do Modelo: Nesta etapa inicial, são definidas as entidades a serem rastreadas (requisitos e suas fontes, como documentos, stakeholders ou atas de reuniões) e os tipos de relacionamentos. Também são selecionadas ferramentas de apoio para o registro, como Matrizes de Rastreabilidade ou RichPictures.
+
+
+
+
+
+* Execução do Rastreamento: Os vínculos entre os requisitos e suas fontes são explicitamente registrados. Isso é geralmente realizado por meio do preenchimento da matriz de rastreabilidade, documentando a origem e a justificativa (rationale) de cada requisito.
+
+
+
+* Utilização e Manutenção: As informações de rastreabilidade são utilizadas para consultar a origem dos requisitos , apoiar a análise de impacto de mudanças e auxiliar na resolução de requisitos em conflito, ao permitir a identificação das fontes. É fundamental manter esses vínculos atualizados caso haja alterações nas entidades ou nos próprios relacionamentos.
 ## Conteúdo
 
 ### Legenda
@@ -89,16 +104,20 @@
 
 ## Referências
 
-- Ordem Alfabetica
+<a id="PRESSMAN"></a>
+> 1. SAYÃO, Miriam; LEITE, Julio Cesar Sampaio do Prado. *Rastreabilidade de Requisitos*. Monografias em Ciência da Computação, n° 20/05. 2005.
+
 
 ## Nível de Contribuição dos Integrantes
 
 | Nome   | % de Contribuição |
 | :----- | :---------------: |
 | Samuel |                   |
+| Thiago |                   |
 
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                    | Autor(es) | Revisor |
 | :----: | :--------: | :--------------------------- | :-------: | :-----: |
 |  1.0   | 23/10/2025 | Criação inicial do documento |  Samuel   |    -    |
+|  1.1   | 24/10/2025 | Edição inicial do documento |  Thiago   |    Samuel    |
