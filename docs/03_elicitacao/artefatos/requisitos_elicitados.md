@@ -68,7 +68,7 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 
 |      ID      | Requisitos | Categoria | Descrição                                                                            |                 Fonte                  |
 | :----------: | :--------- | :-------: | :----------------------------------------------------------------------------------- | :------------------------------------: |
-| RF38 {#rf38} |            |           | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas | [EN01](../tecnicas/entrevista.md#en01) |
+| RF38 {#rf38} | Gerenciar e Catalogar cartas           | Interação com Cartas          | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas | [EN01](../tecnicas/entrevista.md#en01) |
 
 ## Requisitos Não Funcionais Consolidados
 
