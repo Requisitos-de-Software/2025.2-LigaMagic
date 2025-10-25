@@ -70,7 +70,7 @@ A abordagem backward-from foca em estabelecer conexões claras entre os requisit
 |     RF35     | Adicionar a diferentes listas                  |  Gerenciamento de Usuários  | Permitir que o usuário adicione a carta a diferentes listas (coleção, deck, lista de desejos, carrinho)                            | [OBS16](../../03_elicitacao/tecnicas/observacao.md#obs16)       |
 |     RF36     | Compartilhar carta                             |   Interação com Usuários    | Permitir que o usuário compartilhe informações da carta em redes sociais ou por link direto                                        | [OBS17](../../03_elicitacao/tecnicas/observacao.md#obs17)       |
 |     RF37     | Reportar problemas                             |   Interação com Usuários    | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)                      | [OBS18](../../03_elicitacao/tecnicas/observacao.md#obs18)       |
-| RF38 {#rf38} |                                                |                             |                                                                                                                                    | [EN01](../tecnicas/entrevista.md#en01)                          |
+| RF38 {#rf38} |    Gerenciar e Catalogar cartas                                            |           Interação com Cartas                  |    Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas                                                                                                                                | [EN01](../tecnicas/entrevista.md#en01)                          |
 
 **Fonte:** Samuel, 2025
 

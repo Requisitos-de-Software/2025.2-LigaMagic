@@ -73,7 +73,7 @@ Para realizar a análise de rastreabilidade forward-from, foram considerados os 
 |   RF35   | Adicionar a diferentes listas                                    |     Sim      |     -      |        |      -      |       |      |        US23         |
 |   RF36   | Compartilhar carta                                               |     Não      |    CE12    |        |    UC10     |       |      |        US02         |
 |   RF37   | Reportar problemas                                               |     Não      |    CE05    |        |    UC04     |       |      |     US28, US35      |
-|   RF38   |                                                                  |     Não      |            |        |             |       |      |                     |
+|   RF38   |   Gerenciar e Catalogar Cartas                                                               |     Não      |    [CE14](../../05_modelagem/01_cenarios/cenarios.md#ce14)        |        |  [UC12](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc12)            |       |      |               [US20](/05_modelagem/05_agil/01_historias_de_usuario/#us20)      |
 
 ### Requisitos Não Funcionais
 
