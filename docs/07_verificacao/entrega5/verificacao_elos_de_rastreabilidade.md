@@ -1,0 +1,45 @@
+# Lista de Verificação - Elos de Pós-Rastreabilidade
+
+## Descrição
+
+## Objetivo
+
+## Metodologia
+
+## Conteúdo
+
+### Tabela de Verificação
+
+| ID  | Perguntas                                                                                                                                                 | Fontes                                                                 |                                                                                                                              Fotos                                                                                                                               | Autor  |
+| :-: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----: |
+| 01  | O elo de Satisfação foi usado para conectar um artefato de solução (destino) a um artefato de necessidade (origem)?                                       | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21       |                                                                  [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)                                                                  | Samuel |
+| 02  | A relação de satisfação indica claramente que o artefato de destino atende a uma operacionalização, requisito ou objetivo definido no artefato de origem? | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.22 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.22](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.22.png) | Samuel |
+| 03  | É possível verificar objetivamente que o artefato de destino cumpre a dependência de satisfação estabelecida?                                             | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.22 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.22](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.22.png) | Samuel |
+| 04  | O elo de Recurso foi utilizado para indicar que um artefato (origem) depende de um recurso provido por outro artefato (destino)?                          | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.23 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.23](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.23.png) | Samuel |
+| 05  | O recurso provido pelo artefato de destino é essencial para a elaboração ou existência do artefato de origem?                                             | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.23 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.23](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.23.png) | Samuel |
+| 06  | O elo de Responsabilidade foi usado para associar um artefato a uma pessoa ou a um papel específico no projeto?                                           | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.24 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.24](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.24.png) | Samuel |
+| 07  | O tipo de responsabilidade (ex: autor, revisor, aprovador) está claramente definido no elo?                                                               | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.24 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.24](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.24.png) | Samuel |
+| 08  | A ação específica realizada pela pessoa ou papel sobre o artefato está documentada?                                                                       | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.24 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.24](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.24.png) | Samuel |
+| 09  | O elo de Representação foi estabelecido para conectar um requisito a sua modelagem em outra linguagem ou notação (ex: cenário para caso de uso)?          | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.25 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.25](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.25.png) | Samuel |
+| 10  | O artefato de destino é uma tradução ou formalização direta do artefato de origem em um modelo diferente?                                                 | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.25 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.25](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.25.png) | Samuel |
+| 11  | O elo de Alocado foi utilizado para designar um requisito ou artefato a um subsistema, componente ou pacote de trabalho específico?                       | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.26 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.26](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.26.png) | Samuel |
+| 12  | O local (destino) para onde o artefato (origem) foi alocado está claramente identificado?                                                                 | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.26 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.26](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.26.png) | Samuel |
+| 13  | O elo de Agregação foi empregado para representar uma relação de composição (“parte-todo”) entre artefatos?                                               | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.27 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.27](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.27.png) | Samuel |
+| 14  | O artefato de origem (o “todo”) é claramente composto pelos artefatos de destino (as “partes”)?                                                           | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.27 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.27](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.27.png) | Samuel |
+| 15  | A decomposição do artefato de origem nos artefatos de destino está completa e sem ambiguidades?                                                           | SERRANO, Milene; SERRANO, Maurício. _Requisitos – Aula 17_, p.21, p.27 | [Img - p.21](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.21.png)<br>[Img - p.27](../../00_assets/images/elos/SERRANO,%20Milene;%20SERRANO,%20Maurício.%20Requisitos%20–%20Aula%2017.%20Pág.27.png) | Samuel |
+
+## Referências
+
+- Ordem Alfabetica
+
+## Nível de Contribuição dos Integrantes
+
+| Nome | % de Contribuição |
+| ---- | ----------------- |
+|      |                   |
+
+## Histórico de versão
+
+| Versão | Data | Descrição | Autor(es) | Revisor |
+| :----: | ---- | :-------- | :-------- | :------ |
+|        |      |           |           |         |
