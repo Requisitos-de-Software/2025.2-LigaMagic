@@ -64,6 +64,12 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 |   RF36 {#rf36}   | Compartilhar carta              |  Interação com Usuários  | Permitir que o usuário compartilhe informações da carta em redes sociais ou por link direto                   | [OBS17](../tecnicas/observacao.md#obs17) |
 |   RF37 {#rf37}   | Reportar problemas              |  Interação com Usuários  | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) | [OBS18](../tecnicas/observacao.md#obs18) |
 
+### RF38: Requisitos da Entrevista
+
+|      ID      | Requisitos | Categoria | Descrição                                                                            |                 Fonte                  |
+| :----------: | :--------- | :-------: | :----------------------------------------------------------------------------------- | :------------------------------------: |
+| RF38 {#rf38} |            |           | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas | [EN01](../tecnicas/entrevista.md#en01) |
+
 ## Requisitos Não Funcionais Consolidados
 
 ### RNF01 - RNF07: Requisitos da Análise de Documentos

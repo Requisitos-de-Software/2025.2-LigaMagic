@@ -41,7 +41,7 @@ A tabela 2 apresenta a associação entre cada caso de uso e o integrante respon
 | [UC09](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc09) | Publicar Novo Tópico no Fórum                             |  Samuel  | [RF11](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf11) - [RFNI02](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni02)     |
 | [UC10](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc10) | Compartilhar Carta por Link Direto                        |  Samuel  | [RF36](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf36) - [RFNI06](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni06)     |
 | [UC11](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc11) | Confirmar Recebimento e Avaliar Vendedor                  |  Thiago  | [RF29](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf29) - [RFNI04](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni04)     |
-| [UC12](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc12) | Transferir Carta da Lista de Desejos para Coleção Pessoal |  Thiago  | [RF](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf) - [RFNI10](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni10)         |
+| [UC12](../../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc12) | Transferir Carta da Lista de Desejos para Coleção Pessoal |  Thiago  | [RF38](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf38) - [RFNI10](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni10)         |
 
 **Tabela 2:** Autoria dos casos de uso
 

@@ -150,7 +150,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 | Categoria              | Desenvolvimento                                                                                                                                                                                                                                            |
 | Elementos              | Cenário: [CE12](../05_modelagem/01_cenarios/cenarios.md#ce12); <br>Caso de Uso: [UC10](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc10); <br>História de Usuário: [US02](../05_modelagem/05_Agil/01_historias_de_usuario.md#us02)                     |
 | Elos Backward-from     | Recurso → <br>[OBS17](../03_elicitacao/tecnicas/observacao.md#obs17)                                                                                                                                                                                       |
-| Elos Forward-from      | Representação → Cenário: <br>[CE12](../05_modelagem/01_cenarios/cenarios.md#ce12); <br>Caso de Uso: [UC10](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc10); <br>História de Usuário: [US02](../05_modelagem/05_Agil/01_historias_de_usuario.md#us02) |
+| Elos Forward-from      | Representação → <br>Cenário: [CE12](../05_modelagem/01_cenarios/cenarios.md#ce12); <br>Caso de Uso: [UC10](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc10); <br>História de Usuário: [US02](../05_modelagem/05_Agil/01_historias_de_usuario.md#us02) |
 
 **Fonte:** Samuel, 2025.
 

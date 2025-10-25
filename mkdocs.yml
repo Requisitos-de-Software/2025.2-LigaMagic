@@ -78,10 +78,8 @@ nav:
 
   - Pós-rastreabilidade:
         - Matrizes:
-            - Backward-to: 06_pos-rastreabilidade/matrizes/01_backward_to.md
-            - Backward-from: 06_pos-rastreabilidade/matrizes/02_backward_from.md
-            - Forward-to: 06_pos-rastreabilidade/matrizes/03_forward_to.md
-            - Forward-from: 06_pos-rastreabilidade/matrizes/04_forward_from.md
+            - Backward-from: 06_pos-rastreabilidade/matrizes/01_backward_from.md
+            - Forward-from: 06_pos-rastreabilidade/matrizes/02_forward_from.md
         - Elos de Pós-Rastreabilidade: 06_pos-rastreabilidade/elos_de_rastreabilidade.md
         - Matriz de Pós-Rastreabilidade: 06_pos-rastreabilidade/matriz_de_rastreabilidade.md
 

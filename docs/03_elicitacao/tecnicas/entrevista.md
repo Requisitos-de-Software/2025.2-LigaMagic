@@ -133,12 +133,11 @@ Declaro que fui informado(a) sobre os objetivos da entrevista e concordo em part
 
 ## Requisitos da Técnica Entrevista
 
-| ID    | Requisito | Fonte |
-| ----- | --------- | ----- |
+|      ID      | Requisito                                                                            | Fonte                                               |
+| :----------: | :----------------------------------------------------------------------------------- | :-------------------------------------------------- |
 | EN01 {#en01} | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas | [Vídeo da Entrevista](https://youtu.be/9ub37ijhOb4) |
 
 Fonte: Thiago, 2025
-
 
 ## Bibliografia
 
@@ -157,4 +156,4 @@ Fonte: Thiago, 2025
 | :----: | :--------: | :-------------------------------------- | :-----------------------------------------: | :-----: |
 |  1.0   | 24/09/2025 | Criação e preenchimento das entrevistas | [Raissa](https://github.com/RaissaAndradeS) |    -    |
 |  1.1   | 02/09/2025 | Formatação e organização do documento   |                   Samuel                    |    -    |
-|  1.2   | 25/10/2025 |   Arrumando o requisito RFNI10         | [Thiago](https://github.com/Acciolyy) | Samuel  |
+|  1.2   | 25/10/2025 | Arrumando o requisito RFNI10            |    [Thiago](https://github.com/Acciolyy)    | Samuel  |

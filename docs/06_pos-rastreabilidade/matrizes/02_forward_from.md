@@ -1,31 +1,33 @@
 # Forward-from
 
 ## Descrição
+
 A rastreabilidade forward-from (para frente, a partir de) diz respeito à ligação entre os requisitos e os artefatos de desenho e implementação. Esta abordagem, também conhecida como pós-rastreabilidade , permite acompanhar o percurso de cada requisito desde sua definição até sua efetiva implementação e validação , ligando-os a artefatos como componentes de arquitetura, código e casos de teste. (SAYÃO; LEITE, 2005).
+
 ## Objetivo
+
 A análise da rastreabilidade forward-from tem como principal finalidade garantir que todos os requisitos identificados estejam corretamente refletidos nas fases seguintes do projeto. Esse tipo de rastreabilidade assegura a verificação de que um requisito foi de fato implementado no sistema , permitindo identificar requisitos ainda não alocados a componentes de software ou que não possuem casos de teste previstos.
 
-
-
-
-
 Além disso, esse processo facilita a análise de impacto de mudanças e contribui para a validação final do sistema, possibilitando demonstrar aos clientes que a implementação atende à baseline de requisitos acordada.
+
 ## Metodologia
+
 Para realizar a análise de rastreabilidade forward-from, foram considerados os vínculos estabelecidos entre os requisitos e diferentes artefatos gerados durante o projeto. Abaixo estão listados os tipos de artefatos utilizados na documentação e validação dos requisitos, junto às respectivas siglas utilizadas para identificá-los:
 
-* UC – Casos de Uso (Use Case)
+- UC – Casos de Uso (Use Case)
 
-* US – Histórias de Usuário
+- US – Histórias de Usuário
 
-* NFR – NFR Framework (Requisitos Não Funcionais)
+- NFR – NFR Framework (Requisitos Não Funcionais)
 
-* ESP – Especificação Suplementar
+- ESP – Especificação Suplementar
 
-* CN – Cenários
+- CN – Cenários
 
-* LX – Léxico
+- LX – Léxico
 
-* EP – Épicos
+- EP – Épicos
+
 ## Conteúdo
 
 ### Requisitos Funcionais
@@ -71,6 +73,7 @@ Para realizar a análise de rastreabilidade forward-from, foram considerados os 
 |   RF35   | Adicionar a diferentes listas                                    |     Sim      |     -      |        |      -      |       |      |        US23         |
 |   RF36   | Compartilhar carta                                               |     Não      |    CE12    |        |    UC10     |       |      |        US02         |
 |   RF37   | Reportar problemas                                               |     Não      |    CE05    |        |    UC04     |       |      |     US28, US35      |
+|   RF38   |                                                                  |     Não      |            |        |             |       |      |                     |
 
 ### Requisitos Não Funcionais
 
@@ -97,8 +100,10 @@ Para realizar a análise de rastreabilidade forward-from, foram considerados os 
 | RNF19 | Base Legal Específica                              |     Não      |
 
 ## Referências
+
 <a id="PRESSMAN"></a>
-> 1. SAYÃO, Miriam; LEITE, Julio Cesar Sampaio do Prado. *Rastreabilidade de Requisitos*. Monografias em Ciência da Computação, n° 20/05. 2005.
+
+> 1. SAYÃO, Miriam; LEITE, Julio Cesar Sampaio do Prado. _Rastreabilidade de Requisitos_. Monografias em Ciência da Computação, n° 20/05. 2005.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -112,4 +117,4 @@ Para realizar a análise de rastreabilidade forward-from, foram considerados os 
 | Versão |    Data    | Descrição                    | Autor(es) | Revisor |
 | :----: | :--------: | :--------------------------- | :-------: | :-----: |
 |  1.0   | 23/10/2025 | Criação inicial do documento |  Samuel   |    -    |
-|  1.1   | 24/10/2025 | Edição inicial do documento |  Thiago   |    Samuel    |
+|  1.1   | 24/10/2025 | Edição inicial do documento  |  Thiago   | Samuel  |
