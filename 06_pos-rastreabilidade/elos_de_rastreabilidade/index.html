@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.19">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
@@ -4356,40 +4356,48 @@
 <h2 id="objetivo">Objetivo<a class="headerlink" href="#objetivo" title="Permanent link">&para;</a></h2>
 <p>O objetivo deste documento é estruturar e gerenciar os requisitos do sistema <strong>LigaMagic</strong> utilizando o Meta-modelo de Toranzo. Esta abordagem visa garantir que todos os requisitos sejam claramente ligados às suas fontes (elos <em>backward-from</em>) e aos artefatos criados durante o projeto (elos <em>forward-from</em>).</p>
 <h2 id="metodologia">Metodologia<a class="headerlink" href="#metodologia" title="Permanent link">&para;</a></h2>
-<p>Para aplicar o modelo, cada requisito ou artefato rastreável do <strong>LigaMagic</strong> é documentado em um cartão estruturado. Este cartão detalha o nível de informação, os elementos envolvidos e os elos de rastreabilidade, conforme o modelo da Tabela 1.</p>
+<p>Para aplicar o modelo, cada requisito ou artefato rastreável do <strong>LigaMagic</strong> é documentado em um cartão estruturado. Este cartão detalha o nível de informação, a origem do requisito, os elementos envolvidos e os elos de rastreabilidade, conforme o modelo da Tabela 1. A partir desta versão:</p>
+<ul>
+<li>A origem do requisito (fonte de elicitação) é explicitada em campo próprio, preservando a evidência do vínculo.</li>
+<li>Os elos Backward-from e Forward-from registram o tipo do relacionamento e sua justificativa, sem listar diretamente os artefatos de destino.</li>
+</ul>
 <p style="text-align: center"><b>Tabela 1:</b> Modelo de cartão</p>
 
 <table>
 <thead>
 <tr>
-<th><strong>Item</strong></th>
-<th><strong>Descrição</strong></th>
+<th>Item</th>
+<th>Descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Descrição do requisito</strong></td>
+<td>Descrição do requisito</td>
 <td>Qual requisito está sendo tratado (RFx, RNFx, etc.)</td>
 </tr>
 <tr>
-<td><strong>Categoria</strong></td>
+<td>Categoria</td>
 <td>Nível de informação (Ambiental, Organizacional, Gerencial ou Desenvolvimento)</td>
 </tr>
 <tr>
-<td><strong>Elementos</strong></td>
-<td>Elementos rastreáveis associados (ex: UCx, CENx, Backlog)</td>
+<td>Origem do requisito</td>
+<td>Técnica/fonte de elicitação e evidência (ex: ADx, OBSx, ENx)</td>
 </tr>
 <tr>
-<td><strong>Elos Backward-from</strong></td>
-<td>Tipo de elo (ex: Recurso) e a origem do requisito (ex: Backlog do Produto)</td>
+<td>Elementos</td>
+<td>Elementos rastreáveis associados (ex: UCx, CEx, USx, Backlog)</td>
 </tr>
 <tr>
-<td><strong>Elos Forward-from</strong></td>
-<td>Tipo de elo (ex: Satisfação, Representação) e o artefato que o satisfaz (ex: UC-01)</td>
+<td>Elos Backward-from (tipo e justificativa)</td>
+<td>Tipo do elo e por que se aplica à origem do requisito (ex: Recurso — a fonte fornece a evidência)</td>
+</tr>
+<tr>
+<td>Elos Forward-from (tipo e justificativa)</td>
+<td>Tipo do elo e por que se aplica à relação com artefatos de desenvolvimento (ex: Representação — modela)</td>
 </tr>
 </tbody>
 </table>
-<p style="text-align: left">Fonte: Estrutura adaptada do Meta-modelo de Toranzo (<b>Sayão e Leite</b> <em>Rastreabilidade de Requisitos<em>; <b>Milene Serrano e Maurício Serrano</b> <em>Requisitos – Aula 26<em>).</p>
+<p style="text-align: left">Fonte: Estrutura adaptada do Meta-modelo de Toranzo (<b>Sayão e Leite</b> <em>Rastreabilidade de Requisitos</em>; <b>Milene Serrano e Maurício Serrano</b> <em>Requisitos – Aula 26</em>).</p>
 
 <h2 id="legenda">Legenda<a class="headerlink" href="#legenda" title="Permanent link">&para;</a></h2>
 <p>As tabelas a seguir detalham os identificadores e relacionamentos utilizados neste documento para garantir a correta aplicação do Meta-modelo de Toranzo.</p>
@@ -4547,16 +4555,20 @@
 <td>Desenvolvimento</td>
 </tr>
 <tr>
+<td>Origem do requisito</td>
+<td><a href="../../03_elicitacao/tecnicas/analise_documentos/#ad02">AD02</a></td>
+</tr>
+<tr>
 <td>Elementos</td>
 <td>História de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us03">US03</a></td>
 </tr>
 <tr>
-<td>Elos Backward-from</td>
-<td>Recurso → <br><a href="../../03_elicitacao/tecnicas/analise_documentos/#ad02">AD02</a></td>
+<td>Elos Backward-from (tipo e justificativa)</td>
+<td>Recurso — A Análise de Documentos (AD02) fornece a evidência necessária para a formulação do requisito, caracterizando dependência de recurso. Não é Representação (não modela) nem Satisfação (não é solução).</td>
 </tr>
 <tr>
-<td>Elos Forward-from</td>
-<td>Representação → <br>História de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us03">US03</a></td>
+<td>Elos Forward-from (tipo e justificativa)</td>
+<td>Representação — Os artefatos de modelagem descrevem como a verificar de cadastros deve operar. Opta-se por Representação em vez de Satisfação, pois a modelagem descreve o comportamento esperado.</td>
 </tr>
 </tbody>
 </table>
@@ -4579,16 +4591,20 @@
 <td>Desenvolvimento</td>
 </tr>
 <tr>
+<td>Origem do requisito</td>
+<td><a href="../../03_elicitacao/tecnicas/analise_documentos/#ad11">AD11</a></td>
+</tr>
+<tr>
 <td>Elementos</td>
 <td>Cenário: <a href="../../05_modelagem/01_cenarios/cenarios/#ce11">CE11</a>; <br>Caso de Uso: <a href="../../05_modelagem/03_casos_de_uso/casos_de_uso/#uc09">UC09</a>; <br>História de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us01">US01</a></td>
 </tr>
 <tr>
-<td>Elos Backward-from</td>
-<td>Recurso → <br><a href="../../03_elicitacao/tecnicas/analise_documentos/#ad11">AD11</a></td>
+<td>Elos Backward-from (tipo e justificativa)</td>
+<td>Recurso — A fonte documental AD11 sustenta a existência do requisito, logo o requisito depende do recurso informacional. Não é Representação (não traduz o requisito) nem Satisfação (não implementa a solução).</td>
 </tr>
 <tr>
-<td>Elos Forward-from</td>
-<td>Representação → <br>Cenário: <a href="../../05_modelagem/01_cenarios/cenarios/#ce11">CE11</a>; <br>Caso de Uso: <a href="../../05_modelagem/03_casos_de_uso/casos_de_uso/#uc09">UC09</a>; <br>História de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us01">US01</a></td>
+<td>Elos Forward-from (tipo e justificativa)</td>
+<td>Representação — Os modelos (cenários, casos de uso e histórias) representam o comportamento de fórum. Preferido a Satisfação, pois ainda não atesta implementação, apenas formaliza o entendimento.</td>
 </tr>
 </tbody>
 </table>
@@ -4611,16 +4627,20 @@
 <td>Desenvolvimento</td>
 </tr>
 <tr>
+<td>Origem do requisito</td>
+<td><a href="../../03_elicitacao/tecnicas/observacao/#obs01">OBS01</a></td>
+</tr>
+<tr>
 <td>Elementos</td>
 <td>Cenário: <a href="../../05_modelagem/01_cenarios/cenarios/#ce03">CE03</a>; <br>Caso de Uso: <a href="../../05_modelagem/03_casos_de_uso/casos_de_uso/#uc02">UC02</a>; <br>Histórias de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us04">US04</a>, <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us08">US08</a></td>
 </tr>
 <tr>
-<td>Elos Backward-from</td>
-<td>Recurso → <br><a href="../../03_elicitacao/tecnicas/observacao/#obs01">OBS01</a></td>
+<td>Elos Backward-from (tipo e justificativa)</td>
+<td>Recurso — A Observação (OBS01) provê evidência do contexto de uso e necessidade do usuário.</td>
 </tr>
 <tr>
-<td>Elos Forward-from</td>
-<td>Representação → <br>Cenário: <a href="../../05_modelagem/01_cenarios/cenarios/#ce03">CE03</a>; <br>Caso de Uso: <a href="../../05_modelagem/03_casos_de_uso/casos_de_uso/#uc02">UC02</a>; <br>Histórias de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us04">US04</a>, <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us08">US08</a></td>
+<td>Elos Forward-from (tipo e justificativa)</td>
+<td>Representação — Os artefatos de modelagem descrevem como a busca deve operar. Não é Satisfação, pois não demonstra implementação/teste; é a formalização do comportamento requerido.</td>
 </tr>
 </tbody>
 </table>
@@ -4643,16 +4663,20 @@
 <td>Desenvolvimento</td>
 </tr>
 <tr>
+<td>Origem do requisito</td>
+<td><a href="../../03_elicitacao/tecnicas/observacao/#obs02">OBS02</a></td>
+</tr>
+<tr>
 <td>Elementos</td>
 <td>História de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us05">US05</a></td>
 </tr>
 <tr>
-<td>Elos Backward-from</td>
-<td>Recurso → <br><a href="../../03_elicitacao/tecnicas/observacao/#obs02">OBS02</a></td>
+<td>Elos Backward-from (tipo e justificativa)</td>
+<td>Recurso — A Observação (OBS02) identifica a necessidade real de filtragem por preço.</td>
 </tr>
 <tr>
-<td>Elos Forward-from</td>
-<td>Representação → <br>História de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us05">US05</a></td>
+<td>Elos Forward-from (tipo e justificativa)</td>
+<td>Representação — A história descreve a regra de filtragem. Representação é adequada pois comunica a lógica esperada, sem atestar implementação (logo não é Satisfação).</td>
 </tr>
 </tbody>
 </table>
@@ -4675,16 +4699,20 @@
 <td>Desenvolvimento</td>
 </tr>
 <tr>
+<td>Origem do requisito</td>
+<td><a href="../../03_elicitacao/tecnicas/observacao/#obs17">OBS17</a></td>
+</tr>
+<tr>
 <td>Elementos</td>
 <td>Cenário: <a href="../../05_modelagem/01_cenarios/cenarios/#ce12">CE12</a>; <br>Caso de Uso: <a href="../../05_modelagem/03_casos_de_uso/casos_de_uso/#uc10">UC10</a>; <br>História de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us02">US02</a></td>
 </tr>
 <tr>
-<td>Elos Backward-from</td>
-<td>Recurso → <br><a href="../../03_elicitacao/tecnicas/observacao/#obs17">OBS17</a></td>
+<td>Elos Backward-from (tipo e justificativa)</td>
+<td>Recurso — A Observação (OBS17) fornece a necessidade de compartilhar por link direto; é insumo e não uma representação/solução.</td>
 </tr>
 <tr>
-<td>Elos Forward-from</td>
-<td>Representação → <br>Cenário: <a href="../../05_modelagem/01_cenarios/cenarios/#ce12">CE12</a>; <br>Caso de Uso: <a href="../../05_modelagem/03_casos_de_uso/casos_de_uso/#uc10">UC10</a>; <br>História de Usuário: <a href="../../05_modelagem/05_Agil/01_historias_de_usuario/#us02">US02</a></td>
+<td>Elos Forward-from (tipo e justificativa)</td>
+<td>Representação — Os modelos capturam como o compartilhamento deve ocorrer. Prefere-se Representação, pois descrevem a interação esperada ao invés de comprovar implementação.</td>
 </tr>
 </tbody>
 </table>
