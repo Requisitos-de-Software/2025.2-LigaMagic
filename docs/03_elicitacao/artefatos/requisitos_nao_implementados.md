@@ -34,7 +34,7 @@ Os requisitos não implementados foram identificados através de:
 | RFNI07 {#rfni07} | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) |    [OBS18](../tecnicas/observacao.md#obs18)    | [RF37](./requisitos_elicitados.md#rf37) |
 | RFNI08 {#rfni08} | O sistema deve fornecer um módulo completo de **leilões**                                                     |                                                |                                         |
 | RFNI09 {#rfni09} | Os usuários devem ser capazes de criar, salvar e gerenciar listas de **decks**                                |                                                |                                         |
-| RFNI10 {#rfni10} | Os usuários devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas                      |                                                |                                         |
+| RFNI10 {#rfni10} | Os usuários devem ser capazes de catalogar e gerenciar sua **coleção** pessoal de cartas                      |  [EN01](../tecnicas/entrevista.md#en01)                                              |                                         |
 | RFNI11 {#rfni11} | O sistema deve fornecer a funcionalidade "**Compra por Lista**"                                               |                                                |                                         |
 | RFNI14 {#rfni14} | Permitir que o usuário salve cartas para compra futura (wishlist)                                             |    [OBS09](../tecnicas/observacao.md#obs09)    | [RF28](./requisitos_elicitados.md#rf28) |
 | RFNI15 {#rfni15} | Permitir busca rápida e eficiente de cartas específicas                                                       |    [OBS01](../tecnicas/observacao.md#obs01)    | [RF20](./requisitos_elicitados.md#rf20) |
@@ -52,6 +52,7 @@ Os requisitos não implementados foram identificados através de:
 | :-------------------: | :--------------------------: |
 | Análise de Documentos |         4 requisitos         |
 |      Observação       |         7 requisitos         |
+|      Entrevista       |         1 requisito         |
 
 ## Bibliografia
 
@@ -65,3 +66,4 @@ Os requisitos não implementados foram identificados através de:
 | :----: | :--------: | :--------------------------------------------------- | :-----------------------------------------: | :-----: |
 |  1.0   | 11/10/2025 | Criação do documento de requisitos não implementados |                   Samuel                    | Thiago  |
 |  1.1   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos           | [Samuel](https://github.com/samuelncaetano) | Thiago  |
+|  1.2   | 25/10/2025 |   Arrumando o requisito RFNI10         | [Thiago](https://github.com/Acciolyy) | Samuel  |
