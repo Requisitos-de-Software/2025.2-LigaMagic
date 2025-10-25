@@ -96,13 +96,13 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 #### RF02 – Deve verificar duplicação de cadastros
 
-| Item                   | Descrição                                                                                                |
-| ---------------------- | -------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito | [RF02 – Deve verificar duplicação de cadastros](../03_elicitacao/artefatos/requisitos_elicitados.md#rf2) |
-| Categoria              | Desenvolvimento                                                                                          |
-| Elementos              | História de Usuário: [US03](../05_modelagem/05_Agil/01_historias_de_usuario.md#us03)                     |
-| Elos Backward-from     | Recurso → <br>[AD02](../03_elicitacao/tecnicas/analise_documentos.md#ad02)                               |
-| Elos Forward-from      | Representação → <br>História de Usuário: [US03](../05_modelagem/05_Agil/01_historias_de_usuario.md#us03) |
+| Item                   | Descrição                                                                                                 |
+| ---------------------- | --------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito | [RF02 – Deve verificar duplicação de cadastros](../03_elicitacao/artefatos/requisitos_elicitados.md#rf02) |
+| Categoria              | Desenvolvimento                                                                                           |
+| Elementos              | História de Usuário: [US03](../05_modelagem/05_Agil/01_historias_de_usuario.md#us03)                      |
+| Elos Backward-from     | Recurso → <br>[AD02](../03_elicitacao/tecnicas/analise_documentos.md#ad02)                                |
+| Elos Forward-from      | Representação → <br>História de Usuário: [US03](../05_modelagem/05_Agil/01_historias_de_usuario.md#us03)  |
 
 **Fonte:** Samuel, 2025.
 

@@ -108,7 +108,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Critérios de Aceitação** | - Dado que eu preencha o formulário de cadastro com um e-mail que já existe no sistema, Quando eu tentar submeter o formulário, Então o sistema deve exibir a mensagem "Este e-mail já está em uso. Deseja fazer login ou recuperar sua senha?". |
 | **Prioridade**             | Alta                                                                                                                                                                                                                                             |
 | **Status**                 | Validada                                                                                                                                                                                                                                         |
-| **Rastreabilidade**        | [RF2](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf2)                                                                                                                                                                                |
+| **Rastreabilidade**        | [RF2](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf02)                                                                                                                                                                                |
 | **Validação**              | [Vídeo Aqui](https://youtu.be/ITKe7Txs100?t=103)                                                                                                                                                                                                 |
 
 <div align="center"><strong>Tabela 5:</strong> História de Usuário – Verificar Cadastro Duplicado</div>
@@ -142,7 +142,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Critérios de Aceitação** | - Na tela de resultados da busca, deve haver uma opção para aplicar filtros. <br>- O sistema deve permitir que eu selecione um filtros de preço. <br>- Ao aplicar os filtros, a lista de resultados deve ser atualizada para exibir apenas as cartas que correspondem aos critérios. |
 | **Prioridade**             | Média                                                                                                                                                                                                                                                                                |
 | **Status**                 | Validada                                                                                                                                                                                                                                                                             |
-| **Rastreabilidade**        | [RF21.1](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf21_2)                                                                                                                                                                                                              |
+| **Rastreabilidade**        | [RF21.1](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf21_1)                                                                                                                                                                                                              |
 | **Validação**              | [Vídeo Aqui](https://youtu.be/ITKe7Txs100?t=103)                                                                                                                                                                                                                                     |
 
 <div align="center"><strong>Tabela 7:</strong> História de Usuário – Filtrar Resultados de Busca de Cartas</div>
@@ -210,7 +210,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Critérios de Aceitação** | - O sistema deve permitir o cadastro com nome, e-mail e senha. <br> - O sistema deve validar se o e-mail já está cadastrado. <br> - O usuário deve receber confirmação de cadastro bem-sucedido. |
 | **Prioridade**             | Alta                                                                                                                                                                                             |
 | **Status**                 | Validada                                                                                                                                                                                         |
-| **Rastreabilidade**        | [RF1](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf1)                                                                                                                                |
+| **Rastreabilidade**        | [RF1](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf01)                                                                                                                                |
 | **Validação**              | [Video de validação com usuario aqui](https://youtu.be/zAwu2rMYy9s)                                                                                                                              |
 
 <div align="center"><strong>Tabela 11:</strong> História de Usuário – Cadastro de usuário                          </div>
@@ -227,7 +227,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Critérios de Aceitação** | - O sistema deve validar e autenticar o login do usuário. <br> - Em caso de erro, deve exibir mensagem clara de credenciais incorretas. <br> - O login deve redirecionar o usuário para a tela inicial do sistema. |
 | **Prioridade**             | Alta                                                                                                                                                                                                               |
 | **Status**                 | Validada                                                                                                                                                                                                           |
-| **Rastreabilidade**        | [RF3](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf3)                                                                                                                                                  |
+| **Rastreabilidade**        | [RF3](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf03)                                                                                                                                                  |
 | **Validação**              | [Video de validação com usuario aqui](https://youtu.be/zAwu2rMYy9s)                                                                                                                                                |
 
 <div align="center"><strong>Tabela 12:</strong> História de Usuário – Login e Autenticação                      </div>
@@ -297,7 +297,7 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Critérios de Aceitação** | - O sistema deve oferecer filtros por qualidade (nova, usada, etc.). <br> - O sistema deve oferecer filtros por condição (ótima, boa, regular). <br> - O sistema deve atualizar a lista de cartas conforme os filtros aplicados. |
 | **Prioridade**             | -                                                                                                                                                                                                                                |
 | **Status**                 | Não Validada                                                                                                                                                                                                                     |
-| **Rastreabilidade**        | [RF21](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf21) - [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni03)                                                                             |
+| **Rastreabilidade**        | [RF21.2](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf21_2) - [RFNI03](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni03)                                                                             |
 | **Validação**              | https://youtu.be/5nbEy9z6nOQ?si=HE63jaM1Jab3o_WA-                                                                                                                                                                                |
 
 **Fonte:** Marcelo, 2025
