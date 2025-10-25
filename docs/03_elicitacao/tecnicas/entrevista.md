@@ -133,9 +133,9 @@ Declaro que fui informado(a) sobre os objetivos da entrevista e concordo em part
 
 ## Requisitos da Técnica Entrevista
 
-| ID | Código | Requisito | Fonte |
-| --- | --- | --- | --- |
-| RFNI10 | EN01 {#en01}  | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas | [Vídeo da Entrevista](https://youtu.be/9ub37ijhOb4) |
+| ID    | Requisito | Fonte |
+| ----- | --------- | ----- |
+| EN01 {#en01} | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas | [Vídeo da Entrevista](https://youtu.be/9ub37ijhOb4) |
 
 Fonte: Thiago, 2025
 
