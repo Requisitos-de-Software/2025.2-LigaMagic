@@ -163,7 +163,98 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Samuel, 2025.
 
+#### RF29 – Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks
+
+| Item                                      | Descrição                                                                                                                                                                                                                                                                      |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Descrição do requisito                    | [RF29 – Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks](../03_elicitacao/artefatos/requisitos_elicitados.md#rf29)                                                                                                                                      |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                                |
+| Origem do requisito                       | [OBS10](../03_elicitacao/tecnicas/observacao.md#obs10)                                                                                                                                                                                                                         |
+| Elementos                                 | Cenário: [CE13](../05_modelagem/01_cenarios/cenarios.md#ce13); <br>Caso de Uso: [UC11](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc11); <br>História de Usuário: [US19](../05_modelagem/05_Agil/01_historias_de_usuario.md#us19)                                        |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS10) fornece a evidência da necessidade de avaliação e feedback dos usuários, caracterizando dependência de recurso informacional.                                                                                                                    |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como o sistema de avaliação deve operar. Opta-se por Representação em vez de Satisfação, pois a modelagem descreve o comportamento esperado da funcionalidade de feedback. |
+
+**Fonte:** Thiago, 2025.
+
+#### RF38 – Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas
+
+| Item                                      | Descrição                                                                                                                                                                                                                                                                         |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF38 – Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas](../03_elicitacao/artefatos/requisitos_elicitados.md#rf38)                                                                                                                           |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                                   |
+| Origem do requisito                       | [EN01](../03_elicitacao/tecnicas/entrevista.md#en01)                                                                                                                                                                                                                              |
+| Elementos                                 | Cenário: [CE14](../05_modelagem/01_cenarios/cenarios.md#ce14); <br>Caso de Uso: [UC12](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc12); <br>História de Usuário: [US20](../05_modelagem/05_Agil/01_historias_de_usuario.md#us20)                                           |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Entrevista (EN01) identifica a necessidade dos usuários de gerenciar suas coleções pessoais, fornecendo a base informacional para o requisito.                                                                                                                        |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como a funcionalidade de catalogação e gerenciamento de coleção deve operar. Prefere-se Representação, pois formaliza o comportamento esperado sem atestar implementação. |
+
+**Fonte:** Thiago, 2025.
+
+#### RF35 – Adicionar a diferentes listas: Permitir que o usuário adicione a carta a diferentes listas
+
+| Item                                      | Descrição                                                                                                                                                                                                                                                                                       |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF35 – Adicionar a diferentes listas: Permitir que o usuário adicione a carta a diferentes listas (coleção, deck, lista de desejos, carrinho)](../03_elicitacao/artefatos/requisitos_elicitados.md#rf35)                                                                                       |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                                                 |
+| Origem do requisito                       | [OBS16](../03_elicitacao/tecnicas/observacao.md#obs16)                                                                                                                                                                                                                                          |
+| Elementos                                 | História de Usuário: [US23](../05_modelagem/05_Agil/01_historias_de_usuario.md#us23)                                                                                                                                                                                                            |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS16) fornece evidência do comportamento dos usuários ao organizar cartas em diferentes contextos (compra, desejo, coleção, deck).                                                                                                                                     |
+| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário representa o comportamento de organização de cartas em múltiplas listas. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica. |
+
+**Fonte:** Thiago, 2025.
+
+#### RF16 – Oferecer canal de contato para solicitações
+
+| Item                                      | Descrição                                                                                                                                                                                                                                                        |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF16 – Oferecer canal de contato para solicitações: O sistema deve disponibilizar canal (e-mail ou link) para o exercício dos direitos do titular](../03_elicitacao/artefatos/requisitos_elicitados.md#rf16)                                                   |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                  |
+| Origem do requisito                       | [AD16](../03_elicitacao/tecnicas/analise_documentos.md#ad16)                                                                                                                                                                                                     |
+| Elementos                                 | História de Usuário: [US24](../05_modelagem/05_Agil/01_historias_de_usuario.md#us24)                                                                                                                                                                             |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD16) fornece evidência legal (LGPD) da necessidade de canal de contato para exercício de direitos do titular.                                                                                                               |
+| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário representa como o canal de contato deve ser disponibilizado. Opta-se por Representação pois formaliza o requisito legal sem atestar implementação. |
+
+**Fonte:** Thiago, 2025.
+
+#### RF10 – Deve permitir criação de páginas pessoais
+
+| Item                                      | Descrição                                                                                                                                                                                                                                                    |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Descrição do requisito                    | [RF10 – Deve permitir criação de páginas pessoais: O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional](../03_elicitacao/artefatos/requisitos_elicitados.md#rf10)                                               |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                              |
+| Origem do requisito                       | [AD10](../03_elicitacao/tecnicas/analise_documentos.md#ad10)                                                                                                                                                                                                 |
+| Elementos                                 | Cenário: [CE06](../05_modelagem/01_cenarios/cenarios.md#ce06); <br>Caso de Uso: [UC05](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc05); <br>História de Usuário: [US22](../05_modelagem/05_Agil/01_historias_de_usuario.md#us22)                      |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD10) fornece evidência da necessidade de personalização de páginas pessoais/profissionais pelos usuários.                                                                                                                |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como a funcionalidade de personalização de perfil deve operar. Prefere-se Representação pois modela o comportamento sem comprovar implementação. |
+
+**Fonte:** Thiago, 2025.
+
+#### RF12 – Registrar dados pessoais do usuário
+
+| Item                                      | Descrição                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF12 – Registrar dados pessoais do usuário: O sistema deve permitir o registro de dados como Nome, RG, CPF, Telefone, E-mail, Data de Nascimento e Endereço](../03_elicitacao/artefatos/requisitos_elicitados.md#rf12)                                                                                       |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                                                                |
+| Origem do requisito                       | [AD12](../03_elicitacao/tecnicas/analise_documentos.md#ad12)                                                                                                                                                                                                                                                   |
+| Elementos                                 | História de Usuário: [US21](../05_modelagem/05_Agil/01_historias_de_usuario.md#us21)                                                                                                                                                                                                                           |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD12) fornece evidência da necessidade de coleta de dados pessoais para identificação e gestão de usuários.                                                                                                                                                                 |
+| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário representa o processo de registro de dados pessoais. Opta-se por Representação pois descreve os campos e validações esperadas sem atestar implementação técnica. |
+
+**Fonte:** Thiago, 2025.
+
 ### Requisitos Não Funcionais
+
+#### RNF08 – Responsividade: O site deve ser totalmente responsivo
+
+| Item                                      | Descrição                                                                                                                                                                                                                                                     |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RNF08 – Responsividade: O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)                                                   |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                               |
+| Origem do requisito                       | [OBS19](../03_elicitacao/tecnicas/observacao.md#obs19)                                                                                                                                                                                                        |
+| Elementos                                 | Especificação Suplementar: [US03](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability); <br>NFR Framework: [NFR07](../05_modelagem/05_Agil/03_nfr_framework.md#nfr07)                                             |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS19) fornece evidência do comportamento dos usuários em diferentes dispositivos e a necessidade de adaptação responsiva da interface.                                                                                               |
+| Elos Forward-from (tipo e justificativa)  | Representação — A especificação suplementar e o NFR Framework descrevem os requisitos de usabilidade relacionados à responsividade. Prefere-se Representação pois formaliza as características esperadas da interface. |
+
+**Fonte:** Thiago, 2025.
 
 ## Referências
 
@@ -178,7 +269,8 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 | Nome   | % de Contribuição |
 | :----- | :---------------: |
-| Samuel |                   |
+| Samuel |                |
+| Thiago |                |
 
 ## Histórico de versão
 
@@ -187,3 +279,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.0   | 23/10/2025 | Criação inicial do documento                                   |     Samuel     |  Vera   |
 |  1.1   | 25/10/2025 | Adição das seções (Introdução, Objetivo, Metodologia, Legenda) | Samuel, Thiago |  Vera   |
 | 1.1.1  | 25/10/2025 | Adição dos elos (RF02, RF11, RF20, RF21.1, RF36)               |     Samuel     | Thiago  |
+| 1.1.2  | 25/10/2025 | Adição dos elos (RF29, RF38, RF35, RF16, RF10, RF12, RNF08)    |     Thiago     | Samuel  |
