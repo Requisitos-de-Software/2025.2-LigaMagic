@@ -107,7 +107,9 @@ Para realizar a análise de rastreabilidade forward-from, foram considerados os 
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição                    | Autor(es) | Revisor |
-| :----: | :--------: | :--------------------------- | :-------: | :-----: |
-|  1.0   | 23/10/2025 | Criação inicial do documento |  Samuel   |    -    |
-|  1.1   | 24/10/2025 | Edição inicial do documento  |  Thiago   | Samuel  |
+| Versão |    Data    | Descrição                                                                         | Autor(es) | Revisor |
+| :----: | :--------: | :-------------------------------------------------------------------------------- | :-------: | :-----: |
+|  1.0   | 23/10/2025 | Criação inicial do documento                                                      |  Samuel   |    -    |
+|  1.1   | 24/10/2025 | Edição inicial do documento                                                       |  Thiago   | Samuel  |
+|  1.2   | 26/10/2025 | Adição dos Léxico e Épico                                                         |  Samuel   | Thiago  |
+|  1.3   | 26/10/2025 | Adição dos hyperlinks (Cenário, Léxico, Caso de Uso, Épico e História de Usuário) |  Samuel   | Thiago  |
