@@ -110,6 +110,8 @@ nav:
           - Histórias de Usuário: 07_verificacao/entrega4/verificacao_historias_de_usuario.md
           - Backlogs: 07_verificacao/entrega4/verificacao_backlogs.md
           - NFR Framework: 07_verificacao/entrega4/verificacao_nfr_framework.md
+      - Entrega 5:
+          - Elos de Rastreabilidade: 07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md
 
   - Inspeção:
       - Entrega 1:
@@ -144,6 +146,11 @@ nav:
           - Inspeção Histórias de Usuário: 08_inspecao/entrega4/03_inspecao_historia_de_usuarios.md
           - Inspeção Backlogs: 08_inspecao/entrega4/04_inspecao_backlogs.md
           - Inspeção NFR Framework: 08_inspecao/entrega4/05_inspecao_nfr.md
+      - Entrega 5:
+          - Inspeção Geral Grupo 2: 08_inspecao/entrega5/01_inspecao_geral_grupo2.md
+          - Inspeção Geral Grupo +1: 08_inspecao/entrega5/02_inspecao_geral_grupo3.md
+          - Inspeção Elos de Rastreabilidade Grupo 2: 08_inspecao/entrega5/03_inspecao_elos_de_rastreabilidade_grupo2.md
+          - Inspeção Elos de Rastreabilidade Grupo +1: 08_inspecao/entrega5/04_inspecao_elos_de_rastreabilidade_grupo3.md
 
   - Apresentações:
       - Apresentação 1: apresentacao/apresentacao1.md
