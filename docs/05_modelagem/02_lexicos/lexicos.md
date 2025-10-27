@@ -147,6 +147,9 @@ Cada léxico possui:
   - Ajuda o [Membro](#l01-membro) a organizar sua [Coleção de Cartas](#l10-colecao-de-cartas).
   - O preço de uma [Carta](#l08-carta) pode variar significativamente dependendo da sua [Edição](#l11-edicao).
 
+**Autor:** Angélica
+
+
 #### L12 - Formato {#l12-formato}
 
 - **Noção:**
@@ -164,6 +167,9 @@ Cada léxico possui:
   - Permite a troca de informações e estratégias entre os [Membros](#l01-membro).
   - Um [Membro](#l01-membro) pode criar, responder e seguir tópicos.
   - O conteúdo do [Fórum](#l13-forum) é moderado para garantir o cumprimento das regras da comunidade.
+
+**Autor:** Angélica
+
 
 #### L14 - Mana {#l14-mana}
 
@@ -232,6 +238,9 @@ Cada léxico possui:
   - As [Cartas](#l08-carta) do pedido retornam ao estoque do [Vendedor](#) e ficam disponíveis para venda novamente.
   - Dispara o envio de notificações para [Comprador](#) e [Vendedor](#) informando sobre o cancelamento.
 
+**Autor:** Angélica
+
+
 #### L21 - Carrinho Ativo {#l21-carrinho-ativo}
 
 - **Noção:**
@@ -240,6 +249,8 @@ Cada léxico possui:
   - Os itens no carrinho não ficam reservados no estoque do [Vendedor](#) e podem ser adquiridos por outro [Comprador](#).
   - Permite ao [Membro](#l01-membro) adicionar mais itens, remover existentes ou alterar quantidades.
   - Ao finalizar a compra, transita para o estado [Pagamento Aprovado](#l17-pagamento-aprovado). Se esvaziado, retorna ao estado "Carrinho Vazio".
+
+**Autor:** Angélica
 
 ---
 
@@ -282,3 +293,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.2   | 11/10/2025 | Adicionando Video de Validação dos integrantes |                   Thiago                    | Raissa  |
 |  1.3   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos     | [Samuel](https://github.com/samuelncaetano) | Thiago  |
 |  1.4   | 27/10/2025 | Adicionando Agradecimentos |                   Angélica                    | Samuel  |
+|  1.5   | 27/10/2025 | Adicionando autor |                   Angélica                    | Samuel  |
