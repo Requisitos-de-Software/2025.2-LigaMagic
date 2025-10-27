@@ -38,6 +38,8 @@ Cada léxico possui:
   - Cria e gerencia [Decks](#l09-deck), atuando como [Jogador](#).
   - Participa ativamente do [Fórum](#l13-forum).
 
+**Fonte:** Samuel, 2025.
+
 #### L02 - Visitante {#l02-visitante}
 
 - **Noção:**
@@ -48,6 +50,8 @@ Cada léxico possui:
   - Pode ler os tópicos e mensagens do [Fórum](#l13-forum).
   - É impedido de realizar ações restritas, como [Comprar Carta](#l06-comprar-carta), [Leiloar Carta](#l07-leiloar-carta), criar [Decks](#l09-deck), gerenciar uma [Coleção de Cartas](#l10-colecao-de-cartas) ou publicar no [Fórum](#l13-forum).
   - Pode iniciar o processo de [Cadastro](#l03-cadastrar) para se tornar um [Membro](#l01-membro).
+
+**Fonte:** Thiago, 2025.
 
 ---
 
@@ -63,6 +67,8 @@ Cada léxico possui:
   - Muda o estado do [Visitante](#l02-visitante) para [Membro](#l01-membro).
   - Permite que o novo [Membro](#l01-membro) realize [Login](#l04-login).
 
+**Fonte:** Raissa, 2025.
+
 #### L04 - Login {#l04-login}
 
 - **Noção:**
@@ -72,6 +78,8 @@ Cada léxico possui:
   - Inicia uma sessão segura, dando acesso a áreas restritas como "Minha [Coleção de Cartas](#l10-colecao-de-cartas)" e "Meus [Decks](#l09-deck)".
   - Se as credenciais estiverem incorretas, o acesso é negado.
   - É um pré-requisito para as ações de [Comprar Carta](#l06-comprar-carta) e [Leiloar Carta](#l07-leiloar-carta).
+
+**Fonte:** Vera, 2025.
 
 #### L05 - Pesquisar Carta {#l05-pesquisar-carta}
 
@@ -83,6 +91,8 @@ Cada léxico possui:
   - Permite a visualização dos detalhes de uma [Carta](#l08-carta) específica.
   - A partir do resultado, um [Membro](#l01-membro) pode adicionar a [Carta](#l08-carta) a um [Deck](#l09-deck) ou à sua [Coleção de Cartas](#l10-colecao-de-cartas).
 
+**Fonte:** Samuel, 2025.
+
 #### L06 - Comprar Carta {#l06-comprar-carta}
 
 - **Noção:**
@@ -93,6 +103,8 @@ Cada léxico possui:
   - Após a confirmação, o sistema registra a transação e notifica o [Vendedor](#).
   - A [Carta](#l08-carta) pode ser adicionada automaticamente à [Coleção de Cartas](#l10-colecao-de-cartas) do [Membro](#l01-membro).
 
+**Fonte:** Thiago, 2025.
+
 #### L07 - Leiloar Carta {#l07-leiloar-carta}
 
 - **Noção:**
@@ -102,6 +114,8 @@ Cada léxico possui:
   - A [Carta](#l08-carta) fica temporariamente indisponível para venda direta.
   - Outros [Membros](#l01-membro) podem registrar lances.
   - Ao término do período, a [Carta](#l08-carta) é vendida ao [Membro](#l01-membro) com o maior lance.
+
+**Fonte:** Marcelo, 2025.
 
 ---
 
@@ -118,6 +132,8 @@ Cada léxico possui:
   - Pode ser comprada, vendida ou leiloada por [Membros](#l01-membro).
   - Seu preço é exibido e acompanhado pelo sistema.
 
+**Fonte:** Samuel, 2025.
+
 #### L09 - Deck {#l09-deck}
 
 - **Noção:**
@@ -128,6 +144,8 @@ Cada léxico possui:
   - Pode ser analisado pelo sistema para verificar sua legalidade em um [Formato](#l12-formato) específico.
   - [Decks](#l09-deck) criados por [Membros](#l01-membro) podem ser públicos ou privados.
 
+**Fonte:** Thiago, 2025.
+
 #### L10 - Coleção de Cartas {#l10-colecao-de-cartas}
 
 - **Noção:**
@@ -136,6 +154,8 @@ Cada léxico possui:
   - Facilita o gerenciamento da coleção pessoal do [Membro](#l01-membro).
   - Auxilia na montagem de [Decks](#l09-deck) ao mostrar as [Cartas](#l08-carta) disponíveis para o [Membro](#l01-membro).
   - Permite ao [Membro](#l01-membro) identificar [Cartas](#l08-carta) para venda ou troca.
+
+**Fonte:** Vera, 2025.
 
 #### L11 - Edição {#l11-edicao}
 
@@ -147,8 +167,7 @@ Cada léxico possui:
   - Ajuda o [Membro](#l01-membro) a organizar sua [Coleção de Cartas](#l10-colecao-de-cartas).
   - O preço de uma [Carta](#l08-carta) pode variar significativamente dependendo da sua [Edição](#l11-edicao).
 
-**Autor:** Angélica
-
+**Fonte:** Angélica, 2025.
 
 #### L12 - Formato {#l12-formato}
 
@@ -159,6 +178,8 @@ Cada léxico possui:
   - O sistema pode validar um [Deck](#l09-deck) para verificar se ele é legal em um determinado [Formato](#l12-formato).
   - É um critério de busca para encontrar [Decks](#l09-deck) públicos e artigos estratégicos.
 
+**Fonte:** Raissa, 2025.
+
 #### L13 - Fórum {#l13-forum}
 
 - **Noção:**
@@ -168,8 +189,7 @@ Cada léxico possui:
   - Um [Membro](#l01-membro) pode criar, responder e seguir tópicos.
   - O conteúdo do [Fórum](#l13-forum) é moderado para garantir o cumprimento das regras da comunidade.
 
-**Autor:** Angélica
-
+**Fonte:** Angélica, 2025.
 
 #### L14 - Mana {#l14-mana}
 
@@ -179,6 +199,8 @@ Cada léxico possui:
   - O "Custo de Mana" é um atributo principal de uma [Carta](#l08-carta).
   - É um critério essencial para a construção de um [Deck](#l09-deck) por um [Membro](#l01-membro).
   - É utilizado como filtro na [Pesquisa de Carta](#l05-pesquisar-carta).
+
+**Fonte:** Marcelo, 2025.
 
 ---
 
@@ -193,6 +215,8 @@ Cada léxico possui:
   - O sistema exibe o tempo restante e o maior lance publicamente.
   - Ao final do tempo, transita para o estado [Leilão Encerrado](#l16-leilao-encerrado).
 
+**Fonte:** Marcelo, 2025.
+
 #### L16 - Leilão Encerrado {#l16-leilao-encerrado}
 
 - **Noção:**
@@ -201,6 +225,8 @@ Cada léxico possui:
   - O sistema não aceita mais novos lances para este [Leilão](#l15-leilao-ativo).
   - O [Membro](#l01-membro) com o maior lance é declarado o vencedor.
   - Inicia o processo de transação, movendo a compra para o estado [Pagamento Aprovado](#l17-pagamento-aprovado).
+
+**Fonte:** Raissa, 2025.
 
 #### L17 - Pagamento Aprovado {#l17-pagamento-aprovado}
 
@@ -211,6 +237,8 @@ Cada léxico possui:
   - A transação é confirmada no histórico de compras do [Comprador](#) e de vendas do [Vendedor](#).
   - Libera a próxima etapa do fluxo, que levará ao estado [Pedido Enviado](#l18-pedido-enviado).
 
+**Fonte:** Samuel, 2025.
+
 #### L18 - Pedido Enviado {#l18-pedido-enviado}
 
 - **Noção:**
@@ -219,6 +247,8 @@ Cada léxico possui:
   - O [Comprador](#) é notificado de que seu pedido está a caminho.
   - O código de rastreamento, se aplicável, é disponibilizado para o [Comprador](#).
   - Habilita a ação de [Avaliar Transação](#) para o [Comprador](#) após o recebimento.
+
+**Fonte:** Thiago, 2025.
 
 #### L19 - Pedido Entregue {#l19-pedido-entregue}
 
@@ -229,6 +259,8 @@ Cada léxico possui:
   - Libera o pagamento para o [Vendedor](#), caso esteja retido pelo sistema.
   - Permite que tanto o [Comprador](#) quanto o [Vendedor](#) realizem a [Avaliar Transação](#).
 
+**Fonte:** Vera, 2025.
+
 #### L20 - Pedido Cancelado {#l20-pedido-cancelado}
 
 - **Noção:**
@@ -238,8 +270,7 @@ Cada léxico possui:
   - As [Cartas](#l08-carta) do pedido retornam ao estoque do [Vendedor](#) e ficam disponíveis para venda novamente.
   - Dispara o envio de notificações para [Comprador](#) e [Vendedor](#) informando sobre o cancelamento.
 
-**Autor:** Angélica
-
+**Fonte:** Angélica, 2025.
 
 #### L21 - Carrinho Ativo {#l21-carrinho-ativo}
 
@@ -250,7 +281,7 @@ Cada léxico possui:
   - Permite ao [Membro](#l01-membro) adicionar mais itens, remover existentes ou alterar quantidades.
   - Ao finalizar a compra, transita para o estado [Pagamento Aprovado](#l17-pagamento-aprovado). Se esvaziado, retorna ao estado "Carrinho Vazio".
 
-**Autor:** Angélica
+**Fonte:** Angélica, 2025.
 
 ---
 
@@ -292,5 +323,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.1   | 11/10/2025 | Adicionando Video de Validação                 |                   Raissa                    | Thiago  |
 |  1.2   | 11/10/2025 | Adicionando Video de Validação dos integrantes |                   Thiago                    | Raissa  |
 |  1.3   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos     | [Samuel](https://github.com/samuelncaetano) | Thiago  |
-|  1.4   | 27/10/2025 | Adicionando Agradecimentos |                   Angélica                    | Samuel  |
-|  1.5   | 27/10/2025 | Adicionando autor |                   Angélica                    | Samuel  |
+|  1.4   | 27/10/2025 | Adicionando Agradecimentos                     |                  Angélica                   | Samuel  |
