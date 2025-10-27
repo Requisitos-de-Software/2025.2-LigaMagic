@@ -111,6 +111,20 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Samuel, 2025.
 
+#### RF06 – Inclusão de textos, descrição e fotos nos anúncios
+
+| Item                                          | Descrição                                                                                                                                                                                                                    |
+|:----------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descrição do Requisito                        | [RF06 – Deve permitir inclusão de textos, descrição e fotos nos anúncios](../03_elicitacao/artefatos/requisitos_elicitados.md#rf06)                                                                                          |
+| Categoria                                     | Desenvolvimento                                                                                                                                                                                                              |
+| Origem do Requisito                           | [AD06](../03_elicitacao/tecnicas/analise_documentos.md#ad06)                                                                                                                                                                 |
+| Elementos                                     | História de Usuário: [US34](../05_modelagem/05_Agil/01_historias_de_usuario.md#us34)                                                                                                                                         |
+| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de serviços de upload de imagens, armazenamento de textos e gerenciamento de dados do anúncio para funcionar corretamente. Esses recursos foram identificados na Análise de Documentos (AD06). |
+| Elos Forward-from</br>(tipo e justificativa)  | Representação — A história de usuário representa o comportamento de inclusão de textos, descrição e fotos nos anúncios. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.    |
+
+**Fonte:** Vera. 2025.
+
+
 #### RF10 – Deve permitir criação de páginas pessoais
 
 | Item                                      | Descrição                                                                                                                                                                                                                              |
@@ -189,6 +203,19 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Samuel, 2025.
 
+#### RF23 – Realizar compra de cartas
+ 
+| Item                                          | Descrição                                                                                                                                                                                                                                                           |
+|:----------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descrição do Requisito                        | [RF23 – Realizar compra de cartas: Deve permitir que o usuário compre cartas cadastradas, incluindo dados pessoais e endereço de entrega](../03_elicitacao/artefatos/requisitos_elicitados.md#rf23)                                                                 |
+| Categoria                                     | Desenvolvimento                                                                                                                                                                                                                                                     |
+| Origem do Requisito                           | [OBS27](../03_elicitacao/tecnicas/observacao.md#obs27)                                                                                                                                                                                                              |
+| Elementos                                     | História de Usuário: [US31](../05_modelagem/05_Agil/01_historias_de_usuario.md#us31)                                                                                                                                                                                |
+| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de serviços de autenticação do usuário, do banco de dados de produtos e do sistema de pagamento para que a compra seja processada corretamente. Esses elementos são fundamentais para permitir a execução completa da funcionalidade. |
+| Elos Forward-from</br>(tipo e justificativa)  | Representação — A história de usuário representa o comportamento de realização de compra de cartas. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.                                                               |
+
+**Fonte:** Vera. 2025.
+
 #### RF29 – Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks
 
 | Item                                      | Descrição                                                                                                                                                                                                                              |
@@ -201,6 +228,45 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 | Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como o sistema de avaliação deve operar. Opta-se por Representação em vez de Satisfação, pois a modelagem descreve o comportamento esperado da funcionalidade de feedback.         |
 
 **Fonte:** Thiago, 2025.
+
+#### RF31 – Alerta de preço
+
+| Item                                            | Descrição                                                                                                                                                                                                                            |
+|:------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descrição do Requisito                          | [RF31 – Alerta de preço: Deve permitir que o usuário defina um alerta de preço para a carta selecionada](../03_elicitacao/artefatos/requisitos_elicitados.md#rf31)                                                                   |
+| Categoria                                       | Desenvolvimento                                                                                                                                                                                                                      |
+| Origem do Requisito                             | [OBS12](../03_elicitacao/tecnicas/observacao.md#obs12)                                                                                                                                                                               |
+| Elementos                                       | Cenário: [CE04](../05_modelagem/01_cenarios/cenarios.md#ce04)</br>Caso de Uso: [UC03](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc03)</br>História de Usuário: [US36](../05_modelagem/05_Agil/01_historias_de_usuario.md#us36) |
+| Elos Backward-from</br>(tipo e justificativa)   | Recurso — O requisito depende de um serviço de monitoramento de preços e de notificações, além de dados de preço das cartas. Esses recursos são necessários para verificar variações e enviar alertas aos usuários.                  |
+| Elos Forward-from</br>(tipo e justificativa)    | Representação — A história de usuário representa o comportamento de configuração de alertas de preço. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.                              |
+
+**Fonte:** Vera. 2025.
+
+#### RF33 – Preço médio por edição
+
+| Item                                          | Descrição                                                                                                                                                                                                                                 |
+|:----------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descrição do Requisito                        | [RF33 –Preço médio por edição: Deve permitir que o usuário visualize o preço médio da carta em diferentes edições e condições](../03_elicitacao/artefatos/requisitos_elicitados.md#rf33)                                                  |
+| Categoria                                     | Desenvolvimento                                                                                                                                                                                                                           |
+| Origem do Requisito                           | [OBS14](../03_elicitacao/tecnicas/observacao.md#obs14)                                                                                                                                                                                    |
+| Elementos                                     | História de Usuário: [US33](../05_modelagem/05_Agil/01_historias_de_usuario.md#us33)                                                                                                                                                      |
+| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de dados consolidados de preços por edição e condição de carta, obtidos de fontes de mercado ou base interna. Esses dados são essenciais para gerar os cálculos de média e exibir os resultados ao usuário. |
+| Elos Forward-from</br>(tipo e justificativa)  | Representação — A história de usuário representa o comportamento de exibição de preços médios por edição. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.                               |
+
+**Fonte:** Vera. 2025.
+
+#### RF34 – Histórico de preços
+
+| Item                                          | Descrição                                                                                                                                                                                                                                            |
+|:----------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descrição do Requisito                        | [RF34 – Histórico de preços: Deve permitir que o usuário acesse o histórico de preços da carta em formato gráfico](../03_elicitacao/artefatos/requisitos_elicitados.md#rf34)                                                                         |
+| Categoria                                     | Desenvolvimento                                                                                                                                                                                                                                      |
+| Origem do Requisito                           | [OBS15](../03_elicitacao/tecnicas/observacao.md#obs15)                                                                                                                                                                                               |
+| Elementos                                     | História de Usuário: [US32](../05_modelagem/05_Agil/01_historias_de_usuario.md#us32)                                                                                                                                                                 |
+| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de registros históricos de preços armazenados em banco de dados e de um componente gráfico para exibição visual. Esses recursos são necessários para gerar e apresentar a evolução dos valores de forma compreensível. |
+| Elos Forward-from</br>(tipo e justificativa)  | Representação — A história de usuário representa o comportamento de visualização do histórico de preços. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.                                           |
+
+**Fonte:** Vera. 2025.
 
 #### RF35 – Adicionar a diferentes listas: Permitir que o usuário adicione a carta a diferentes listas
 
@@ -228,6 +294,19 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Samuel, 2025.
 
+#### RF37 – Reportar problemas
+
+| Item                                          | Descrição                                                                                                                                                                                                                            |
+|:----------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descrição do Requisito                        | [RF37 – Reportar problemas: Deve permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)](../03_elicitacao/artefatos/requisitos_elicitados.md#rf37)                            |
+| Categoria                                     | Desenvolvimento                                                                                                                                                                                                                      |
+| Origem do Requisito                           | [OBS18](../03_elicitacao/tecnicas/observacao.md#obs18)                                                                                                                                                                               |
+| Elementos                                     | Cenário: [CE05](../05_modelagem/01_cenarios/cenarios.md#ce05)</br>Caso de Uso: [UC04](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc04)</br>História de Usuário: [US35](../05_modelagem/05_Agil/01_historias_de_usuario.md#us35) |
+| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de um sistema de registro de feedbacks e de comunicação com a equipe administrativa. Esses recursos são essenciais para receber, armazenar e tratar os relatórios enviados pelos usuários.             |
+| Elos Forward-from</br>(tipo e justificativa)  | Representação — A história de usuário representa o comportamento de envio de reportes de problemas. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.                                |
+
+**Fonte:** Vera. 2025.
+
 #### RF38 – Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas
 
 | Item                                      | Descrição                                                                                                                                                                                                                              |
@@ -241,12 +320,23 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
+
+
+
+
+
+
+
+
+
+
+
 ### Requisitos Não Funcionais
 
 #### RNF08 – Responsividade: O site deve ser totalmente responsivo
 
 | Item                                      | Descrição                                                                                                                                                                                                              |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Descrição do requisito                    | [RNF08 – Responsividade: O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)            |
 | Categoria                                 | Desenvolvimento                                                                                                                                                                                                        |
 | Origem do requisito                       | [OBS19](../03_elicitacao/tecnicas/observacao.md#obs19)                                                                                                                                                                 |
@@ -255,6 +345,20 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 | Elos Forward-from (tipo e justificativa)  | Representação — A especificação suplementar e o NFR Framework descrevem os requisitos de usabilidade relacionados à responsividade. Prefere-se Representação pois formaliza as características esperadas da interface. |
 
 **Fonte:** Thiago, 2025.
+
+
+#### RNF09 – Organização visual
+
+| Item                                          | Descrição                                                                                                                                                                                                                                                    |
+|:----------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descrição do requisito                        | [RNF09 – Organização visual: As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)            |
+| Categoria                                     | Usabilidade                                                                                                                                                                                                                                                  |
+| Origem do requisito                           | [OBS20](../03_elicitacao/tecnicas/observacao.md#obs20)                                                                                                                                                                                                       |
+| Elementos                                     | Especificação Suplementar: [US01](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability); <br>NFR Framework: [NFR05](../05_modelagem/05_Agil/03_nfr_framework.md#nfr05)                                            |
+| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de diretrizes de design de interface, padrões de espaçamento e organização visual, identificados na Observação (OBS20). Esses recursos garantem clareza e legibilidade durante a navegação do usuário.                         |
+| Elos Forward-from</br>(tipo e justificativa)  | Representação — A especificação suplementar e o NFR Framework representam o comportamento esperado de organização visual das informações. Opta-se por Representação pois descrevem a interação e a disposição esperadas sem comprovar implementação técnica. |
+
+**Fonte:** Vera, 2025.
 
 ## Referências
 
@@ -268,15 +372,17 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 ## Nível de Contribuição dos Integrantes
 
 | Nome   | % de Contribuição |
-| :----- | :---------------: |
+|:-------| :---------------: |
 | Samuel |                   |
 | Thiago |                   |
+| Vera   |                   |
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição                                                      |   Autor(es)    | Revisor |
-| :----: | :--------: | :------------------------------------------------------------- | :------------: | :-----: |
-|  1.0   | 23/10/2025 | Criação inicial do documento                                   |     Samuel     |  Vera   |
-|  1.1   | 25/10/2025 | Adição das seções (Introdução, Objetivo, Metodologia, Legenda) | Samuel, Thiago |  Vera   |
-| 1.1.1  | 25/10/2025 | Adição dos elos (RF02, RF11, RF20, RF21.1, RF36)               |     Samuel     | Thiago  |
-| 1.1.2  | 25/10/2025 | Adição dos elos (RF29, RF38, RF35, RF16, RF10, RF12, RNF08)    |     Thiago     | Samuel  |
+| Versão |    Data    | Descrição                                                      |   Autor(es)    | Revisor  |
+|:------:|:----------:|:---------------------------------------------------------------|:--------------:|:--------:|
+|  1.0   | 23/10/2025 | Criação inicial do documento                                   |     Samuel     |   Vera   |
+|  1.1   | 25/10/2025 | Adição das seções (Introdução, Objetivo, Metodologia, Legenda) | Samuel, Thiago |   Vera   |
+| 1.1.1  | 25/10/2025 | Adição dos elos (RF02, RF11, RF20, RF21.1, RF36)               |     Samuel     |  Thiago  |
+| 1.1.2  | 25/10/2025 | Adição dos elos (RF29, RF38, RF35, RF16, RF10, RF12, RNF08)    |     Thiago     |  Samuel  |
+|  1.2   | 26/10/2025 | Adição dos elos (RF06, RF23, RF31, RF33, RF34, RF37 E RNF09    |      Vera      | Angélica |
