@@ -376,10 +376,10 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 | Item| Descrição|
 |-------------------------------------------|----------------------|
-| Descrição do requisito                    | [RNF05 – Exigir consentimento e concordância explícita](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf05)            |
+| Descrição do requisito                    | [RNF05 – O sistema deve garantir que o usuário declare ciência e concordância com a política ao usar o portal.	](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf05)            |
 | Categoria                                 | Legal e Regulatório		|
-| Origem do requisito                       | [AD24](../03_elicitacao/tecnicas/observacao.md#ad24)|
-| Elementos                                 | Especificação Suplementar: NFR Framework: [NFR06](../05_modelagem/05_Agil/03_nfr_framework.md#nfr06)     |
+| Origem do requisito                       | [AD24](../03_elicitacao/tecnicas/analise_documentos.md#ad24)|
+| Elementos                                 | NFR Framework: [NFR06](../05_modelagem/05_Agil/03_nfr_framework.md#nfr06)     |
 | Elos Backward-from (tipo e justificativa) | Recurso — Analise de documentos(AD24) apontou necessidade de aderência legal (ex.: LGPD), garantindo consentimento informado para uso e tratamento de dados pessoais.|
 | Elos Forward-from (tipo e justificativa)  | Representação —  Conecta com RF19 e os casos de uso de criação/gerenciamento de usuário, pois o consentimento deve ser explicitamente solicitado antes do processamento dos dados. Também está detalhado no NFR06 do NFR Framework.|
 
@@ -417,10 +417,10 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 | Item| Descrição|
 |-------------------------------------------|----------------------|
-| Descrição do requisito                    | [RNF14 – Padronização de mensagens	](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf06)            |
+| Descrição do requisito                    | [RNF14 – As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões		](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf14)            |
 | Categoria                                 | Usabilidade			|
 | Origem do requisito                       | [OBS25](../03_elicitacao/tecnicas/observacao.md#obs25)         |
-| Elementos                                 | Especificação Suplementar: [US02](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability);     |
+| Elementos                                 | Especificação Suplementar: [US02](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability)    |
 | Elos Backward-from (tipo e justificativa) | Recurso — OBS25 identificou a necessidade de manter consistência visual e textual nas mensagens para facilitar compreensão do usuário.|
 | Elos Forward-from (tipo e justificativa)  | Representação — Esse requisito impacta qualquer funcionalidade que exiba alertas e mensagens ao usuário, como feedbacks de ações em RF19 (atualização de dados) e RF24 (histórico de compras). Também impacta a conformidade da Especificação Suplementar US02, garantindo diretrizes de mensagens unificadas.|
 
