@@ -328,6 +328,10 @@ Para a validação dos cenários, cada integrante do grupo foi responsável por 
 | Samuel   |      16,67%       |
 | Thiago   |      16,67%       |
 
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                                                  |                  Autor(es)                  |                Revisor                |
@@ -344,3 +348,4 @@ Para a validação dos cenários, cada integrante do grupo foi responsável por 
 | 1.8.1  | 11/10/2025 | Adição do vídeo de validação dos integrantes e corrigindo nomes de tabelas |                   Thiago                    |                Marcelo                |
 |  1.9   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos                                 | [Samuel](https://github.com/samuelncaetano) |                Thiago                 |
 |  1.10  | 13/10/2025 | Correção da orem dos cenarios                                              |                  Angélica                   | Thiago, Marcelo, Vera, Raissa, Samuel |
+|  1.4   | 27/10/2025 | Adicionando Agradecimentos |                   Angélica                    | Samuel  |
