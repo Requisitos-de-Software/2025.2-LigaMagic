@@ -108,16 +108,23 @@ A abordagem backward-from foca em estabelecer conexões claras entre os requisit
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome   | % de Contribuição |
-| :----- | :---------------: |
-| Samuel |                   |
-| Thiago |                   |
+| Nome     | % de Contribuição |
+|:---------| :---------------: |
+| Samuel   |                   |
+| Thiago   |                   |
 | Angélica |                   |
+| Vera     |                   |
+
+## Agradecimento
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição                    | Autor(es) | Revisor |
-| :----: | :--------: | :--------------------------- | :-------: | :-----: |
-|  1.0   | 23/10/2025 | Criação inicial do documento |  Samuel   |    -    |
-|  1.1   | 24/10/2025 | Edição inicial do documento  |  Thiago   | Samuel  |
-|  1.2   | 28/10/2025 | Edição inicial dos hyperlinks na descrição dos requisitos  |  Angélica   | Vera  |
+| Versão |    Data    | Descrição                                                 | Autor(es) | Revisor  |
+|:------:|:----------:|:----------------------------------------------------------|:---------:|:--------:|
+|  1.0   | 23/10/2025 | Criação inicial do documento                              |  Samuel   |    -     |
+|  1.1   | 24/10/2025 | Edição inicial do documento                               |  Thiago   |  Samuel  |
+|  1.2   | 28/10/2025 | Edição inicial dos hyperlinks na descrição dos requisitos | Angélica  |   Vera   |
+|  1.3   | 28/10/2025 | Adição de  agradecimento                                  |   Vera    | Angélica |

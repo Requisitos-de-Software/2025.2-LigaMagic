@@ -101,18 +101,24 @@ Para realizar a análise de rastreabilidade forward-from, foram considerados os 
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome   | % de Contribuição |
-| :----- | :---------------: |
-| Samuel |                   |
-| Thiago |                   |
+| Nome     | % de Contribuição |
+|:---------| :---------------: |
+| Samuel   |                   |
+| Thiago   |                   |
 | Angélica |                   |
+| Vera     |                   |
+
+## Agradecimento
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição                                                                         | Autor(es) | Revisor |
-| :----: | :--------: | :-------------------------------------------------------------------------------- | :-------: | :-----: |
-|  1.0   | 23/10/2025 | Criação inicial do documento                                                      |  Samuel   |    -    |
-|  1.1   | 24/10/2025 | Edição inicial do documento                                                       |  Thiago   | Samuel  |
-|  1.2   | 26/10/2025 | Adição dos Léxico e Épico                                                         |  Samuel   | Thiago  |
-|  1.3   | 26/10/2025 | Adição dos hyperlinks (Cenário, Léxico, Caso de Uso, Épico e História de Usuário) |  Samuel   | Thiago  |
-|  1.4   | 28/10/2025 | Adição dos hyperlinks e descrição na tabela de Requisitos Funcionais |  Angélica   | Thiago  |
+| Versão |    Data    | Descrição                                                                         | Autor(es) | Revisor  |
+|:------:|:----------:|:----------------------------------------------------------------------------------|:---------:|:--------:|
+|  1.0   | 23/10/2025 | Criação inicial do documento                                                      |  Samuel   |    -     |
+|  1.1   | 24/10/2025 | Edição inicial do documento                                                       |  Thiago   |  Samuel  |
+|  1.2   | 26/10/2025 | Adição dos Léxico e Épico                                                         |  Samuel   |  Thiago  |
+|  1.3   | 26/10/2025 | Adição dos hyperlinks (Cenário, Léxico, Caso de Uso, Épico e História de Usuário) |  Samuel   |  Thiago  |
+|  1.4   | 28/10/2025 | Adição dos hyperlinks e descrição na tabela de Requisitos Funcionais              | Angélica  |  Thiago  |
+|  1.5   | 28/10/2025 | Adição do Agradecimento                                                           |   Vera    | Angélica |
