@@ -43,7 +43,14 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | 29 | O registro segue as condições estabelecidas na definição do modelo? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
 | 30 | Foram definidas as entidades a serem rastreadas? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34  | [Img -Item29](../../00_assets/images/elos/item29elos.png) | Marcelo |
 | 31 | Os elos foram atualizados conforme surgiram modificações nas entidades e nos relacionamentos? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
-| 32 | O registro foi feito de forma explícita? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
+| 32 | O registro foi feito de forma explícita? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item32](../../00_assets/images/elos/item29elos.png)| Marcelo |
+| 33 {#v33} | No meta-modelo estão identificados os seguintes tipos de elos: satisfação, recurso, responsabilidade, representação, alocado e agregação? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item32](../../00_assets/images/elos/elo29.png) | Raissa |
+| 33 {#v30} | Na proposta de Toranzo para rastreabilidade foram utilizadas quatro estratégias? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item33](../../00_assets/images/elos/elo30.png) | Raissa |
+| 34 {#v31} | As informações foram classificadas em quatro níveis? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item34](../../00_assets/images/elos/elo31.png) | Raissa |
+| 35 {#v32} | Os requisitos estão devidamente alocados a subsistemas? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item35](../../00_assets/images/elos/elo32.png) | Raissa |
+| 36 {#v33} | Há registro de dependência de recurso entre requisitos? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item36](../../00_assets/images/elos/elo33.png) | Raissa |
+| 37 {#v34} | Tem elos de satisfação que estão vinculados com requisitos a artefatos de projeto? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item37](../../00_assets/images/elos/elo34.png) | Raissa |
+
 
 ## Referências
 
@@ -57,7 +64,8 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 |  Thiago    |                   |
 |  Vera      |                   |
 |  Angélica  |                   |
-|  Marcelo   |                   |               
+|  Marcelo   |                   |  
+Raissa  |                   |               
 
 ## Histórico de versão
 
@@ -67,4 +75,6 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 |  1.2   | 26/10/2025 | Adição dos itens de verificação             | Thiago    | Vera    |
 |  1.3   | 26/10/2025 | Adição de descrição, objetivo e metodologia | Vera      | Thiago  |
 |  1.4   | 27/10/2025 | Adição de um item de verficação             | Angélica  | Vera    |
-|  1.5   | 28/10/2025 | Adição de items de verficação 29-32         | Marcelo   | Vera    |
+|  1.5  | 28/10/2025 | Adição de items de verficação 29-32           | Marcelo  | Vera    |
+|  1.6  | 28/10/2025 | Adição de items de verficação 33-37           | Raissa  | Vera    |
+
