@@ -2,7 +2,7 @@
 
 ## Descrição
 
-A rastreabilidade de requisitos permite acompanhar cada requisito ao longo de todo o desenvolvimento, conectando-os tanto aos documentos iniciais quanto aos resultados das etapas subsequentes. Essa prática é essencial para a gestão de requisitos¹, contribuindo para o desenvolvimento de software e sendo indispensável em atividades como análise de impacto e manutenção. Este documento apresenta uma matriz que centraliza as informações necessárias para rastrear os requisitos deste projeto.
+A rastreabilidade de requisitos permite acompanhar cada requisito ao longo de todo o desenvolvimento, conectando-os tanto aos documentos iniciais quanto aos resultados das etapas subsequentes. Essa prática é essencial para a gestão de requisitos [[1]](#refs1), contribuindo para o desenvolvimento de software e sendo indispensável em atividades como análise de impacto e manutenção. Este documento apresenta uma matriz que centraliza as informações necessárias para rastrear os requisitos deste projeto.
 
 ## Objetivo
 
