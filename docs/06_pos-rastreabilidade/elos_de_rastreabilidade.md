@@ -98,7 +98,8 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 ### Requisitos Funcionais
 
-#### RF01 – Cadastro de usuário
+#### RF01 – Cadastro de usuário {#elo01}
+
 | Item                                      | Descrição|
 | ----------------------------------------- | -------------------|
 | Descrição do requisito                    | [RF01 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01)|
