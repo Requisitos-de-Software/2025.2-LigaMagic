@@ -36,7 +36,11 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | 22 {#v22} | Existe uma classificação composta por quatro níveis de informação — ambiental, organizacional, gerencial e de desenvolvimento                                        | SAYÃO, Miriam; LEITE, Julio Cesar Sampaio do Prado. Rastreabilidade de Requisitos. Monografias em Ciência da Computação, n° 20/05. 2005.   |                                                                                                    [Img - Item22](../../00_assets/images/elos/item22elos.png)                                                                                                    |  Vera  |
 | 23 {#v23} | Nível Ambiental: As informações  do contexto ambiental que podem afetar o sistema foram consideradas?                                                                | SAYÃO, Miriam; LEITE, Julio Cesar Sampaio do Prado. Rastreabilidade de Requisitos. Monografias em Ciência da Computação, n° 20/05. 2005.   |                                                                                                    [Img - Item23](../../00_assets/images/elos/item23elos.png)                                                                                                    |  Vera  |         
 | 24 {#v24} | Nível Organizacional: As informações relacionadas à organização como: missão, objetivos, metas e padrões que impactam os requisitos foram incluídas?                 | SAYÃO, Miriam; LEITE, Julio Cesar Sampaio do Prado. Rastreabilidade de Requisitos. Monografias em Ciência da Computação, n° 20/05. 2005.   |                                                                                                    [Img - Item24](../../00_assets/images/elos/item24elos.png)                                                                                                    |  Vera  |
-| 25 {#v25} | Nível Desenvolvimento: Os artefatos gerados no processo de desenvolvimento documento de requisitos, diagramas, programas, casos de testes, etc.) foram considerados? | SAYÃO, Miriam; LEITE, Julio Cesar Sampaio do Prado. Rastreabilidade de Requisitos. Monografias em Ciência da Computação, n° 20/05. 2005.   |                                                                                                    [Img - Item25](../../00_assets/images/elos/item25elos.png)                                                                                                    |  Vera  |     
+| 25 {#v25} | Nível Desenvolvimento: Os artefatos gerados no processo de desenvolvimento documento de requisitos, diagramas, programas, casos de testes, etc.) foram considerados? | SAYÃO, Miriam; LEITE, Julio Cesar Sampaio do Prado. Rastreabilidade de Requisitos. Monografias em Ciência da Computação, n° 20/05. 2005.   |                                                                                                    [Img - Item25](../../00_assets/images/elos/item25elos.png)                                                                                                    |  Vera  | 
+| 26 {#v26} | A matriz de rastreabilidade contém informações de rastreabilidade entre requisitos e artefatos anteriores e posteriores do processo de desenvolvimento? | POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. 2. ed. Rocky Nook, 2015. p. 126.  |[Img - Item26](../../00_assets/images/elos/item26elos.png)      |Angélica|
+| 27 {#v27} | A rastreabilidade entre requisitos mapeia dependências entre requisitos?  | POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. 2. ed. Rocky Nook, 2015. p. 124.  |[Img - Item27](../../00_assets/images/elos/item27elos.png)      |Angélica|
+| 28 {#v28} | As informações de rastreabilidade são representadas de forma adequada (referências textuais, hiperlinks, matrizes)?  | POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. 2. ed. Rocky Nook, 2015. p. 124.  |[Img - Item28](../../00_assets/images/elos/item28elos.png)      |Angélica|
+
 ## Referências
 
 - Ordem Alfabetica
@@ -47,6 +51,8 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | ---- | ----------------- |
 |  Samuel    |                   |
 |  Thiago    |                   |
+|  Vera      |                   |
+|  Angélica  |                   |
 
 ## Histórico de versão
 
@@ -54,4 +60,5 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 |:------:|------------|:--------------------------------------------|:----------|:--------|
 |        |            |                                             |           |         |
 |        |            |                                             |           |         |
-|  1.3   | 26/10/2025 | Acição de descrição, objetivo e metodologia | Vera      | Thiago  |
+|  1.3   | 26/10/2025 | Adição de descrição, objetivo e metodologia | Vera      | Thiago  |
+|  1.4   | 27/10/2025 | Adição de um item de verficação             | Angélica  | Vera    |

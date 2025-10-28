@@ -36,7 +36,9 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 | [23- Nível Ambiental: As informações  do contexto ambiental que podem afetar o sistema foram consideradas? ](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v23)                                                               | Vera    |                                      |                                   |
 | [24- Nível Organizacional: As informações relacionadas à organização como: missão, objetivos, metas e padrões que impactam os requisitos foram incluídas?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v24)                 | Vera    |                                      |                                   |
 | [25 -Nível Desenvolvimento: Os artefatos gerados no processo de desenvolvimento documento de requisitos, diagramas, programas, casos de testes, etc.) foram considerados?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v25) | Vera    |                                      |                                   |
-
+| [26 - A matriz de rastreabilidade contém informações de rastreabilidade entre requisitos e artefatos anteriores e posteriores do processo de desenvolvimento?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v26) | Angélica   | 
+| [27 - A rastreabilidade entre requisitos mapeia dependências entre requisitos? ](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v27) | Angélica   | 
+| [28 - As informações de rastreabilidade são representadas de forma adequada (referências textuais, hiperlinks, matrizes)?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v28) | Angélica   | 
 
 ## Bibliografia
 > SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 17.
@@ -64,3 +66,4 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 |:------:|:----------:|:-----------------------------|:---------:|:-------:|
 |  1.0   | 24/10/2025 | Criação Inicial do Documento |  Thiago   | Samuel  |
 |  1.2   | 26/10/2025 | Adição dos item (22-25)      |   Vera    | Raissa  |
+|  1.3   | 27/10/205  | Adição dos itens (26-28) |   Angélica    | Guilherme  |
