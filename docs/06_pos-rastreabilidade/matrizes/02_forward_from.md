@@ -102,11 +102,12 @@ Para realizar a análise de rastreabilidade forward-from, foram considerados os 
 ## Nível de Contribuição dos Integrantes
 
 | Nome     | % de Contribuição |
-|:---------| :---------------: |
-| Samuel   |                   |
-| Thiago   |                   |
-| Angélica |                   |
-| Vera     |                   |
+|:---------|:-----------------:|
+| Samuel   |       16,67       |
+| Thiago   |       16,67       |
+| Angélica |       16,67       |
+| Vera     |       16,67       |      
+| Marcelo  |       16,67       |
 
 ## Agradecimento
 

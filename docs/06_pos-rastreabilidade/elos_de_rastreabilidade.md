@@ -560,7 +560,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 | Elos Backward-from (tipo e justificativa) | Recurso — OBS25 identificou a necessidade de manter consistência visual e textual nas mensagens para facilitar compreensão do usuário.|
 | Elos Forward-from (tipo e justificativa)  | Representação — Esse requisito impacta qualquer funcionalidade que exiba alertas e mensagens ao usuário, como feedbacks de ações em RF19 (atualização de dados) e RF24 (histórico de compras). Também impacta a conformidade da Especificação Suplementar US02, garantindo diretrizes de mensagens unificadas.|
 
-**Fonte:** Angélica, 2025.
+**Fonte:** Raissa, 2025.
 
 ## Referências
 
@@ -573,12 +573,13 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome   | % de Contribuição |
-|:-------| :---------------: |
-| Samuel |                   |
-| Thiago |                   |
-| Vera   |                   |
-| Amgélica   |                   |
+| Nome     | % de Contribuição |
+|:---------|:-----------------:|
+| Samuel   |       16,67       |
+| Thiago   |       16,67       |
+| Angélica |       16,67       |
+| Vera     |       16,67       |      
+| Marcelo  |       16,67       |
 
 
 ## Histórico de versão
