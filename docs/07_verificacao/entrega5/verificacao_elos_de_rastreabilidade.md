@@ -71,9 +71,10 @@ Raissa  |                   |
 
 | Versão | Data       | Descrição                                   | Autor(es) | Revisor |
 |:------:|------------|:--------------------------------------------|:----------|:--------|
-|        |            |                                             |           |         |
-|        |            |                                             |           |         |
+|  1.1   | 26/10/2025 | Criação da página                           | Samuel    | Vera    |
+|  1.2   | 26/10/2025 | Adição dos itens de verificação             | Thiago    | Vera    |
 |  1.3   | 26/10/2025 | Adição de descrição, objetivo e metodologia | Vera      | Thiago  |
 |  1.4   | 27/10/2025 | Adição de um item de verficação             | Angélica  | Vera    |
 |  1.5  | 28/10/2025 | Adição de items de verficação 29-32           | Marcelo  | Vera    |
 |  1.6  | 28/10/2025 | Adição de items de verficação 33-37           | Raissa  | Vera    |
+

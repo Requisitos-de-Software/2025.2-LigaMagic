@@ -98,61 +98,62 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 ### Requisitos Funcionais
 
-#### RF01 – Cadastro de usuário
-| Item                                      | Descrição|
-| ----------------------------------------- | -------------------|
-| Descrição do requisito                    | [RF01 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01)|
-| Categoria                                 | Gerenciamento de Usuários	|
-| Origem do requisito                       | [AD01](../03_elicitacao/tecnicas/analise_documentos.md#ad01)|
-| Elementos| História de Usuário: [US09](../05_modelagem/05_Agil/01_historias_de_usuario.md#us09)|
+#### RF01 – Cadastro de usuário {#elo01}
+
+| Item                                      | Descrição                                                                                                                                       |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF01 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01)                                                          |
+| Categoria                                 | Gerenciamento de Usuários                                                                                                                       |
+| Origem do requisito                       | [AD01](../03_elicitacao/tecnicas/analise_documentos.md#ad01)                                                                                    |
+| Elementos                                 | História de Usuário: [US09](../05_modelagem/05_Agil/01_historias_de_usuario.md#us09)                                                            |
 | Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD01) demonstra a necessidade do cadastro como requisito básico de acesso, servindo como fonte de evidência. |
-| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela o comportamento esperado para o processo de cadastro, descrevendo etapas e validações necessárias.             |
+| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela o comportamento esperado para o processo de cadastro, descrevendo etapas e validações necessárias. |
 
 **Fonte:** Angélica, 2025.
 
-#### RF02 – Deve verificar duplicação de cadastros
+#### RF02 – Deve verificar duplicação de cadastros {#elo02}
 
-| Item| Descrição|
-| ----------------------------------------- | ------------------ |
-| Descrição do requisito                    | [RF02 – Deve verificar duplicação de cadastros](../03_elicitacao/artefatos/requisitos_elicitados.md#rf02)|
-| Categoria| Desenvolvimento|
-| Origem do requisito                       | [AD02](../03_elicitacao/tecnicas/analise_documentos.md#ad02)|
-| Elementos                                 | História de Usuário: [US03](../05_modelagem/05_Agil/01_historias_de_usuario.md#us03)|
+| Item                                      | Descrição                                                                                                                                                                                                       |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF02 – Deve verificar duplicação de cadastros](../03_elicitacao/artefatos/requisitos_elicitados.md#rf02)                                                                                                       |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                 |
+| Origem do requisito                       | [AD02](../03_elicitacao/tecnicas/analise_documentos.md#ad02)                                                                                                                                                    |
+| Elementos                                 | História de Usuário: [US03](../05_modelagem/05_Agil/01_historias_de_usuario.md#us03)                                                                                                                            |
 | Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD02) fornece a evidência necessária para a formulação do requisito, caracterizando dependência de recurso. Não é Representação (não modela) nem Satisfação (não é solução). |
 | Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como a verificar de cadastros deve operar. Opta-se por Representação em vez de Satisfação, pois a modelagem descreve o comportamento esperado.              |
 
 **Fonte:** Samuel, 2025.
 
+#### RF03 – Permitir acesso via login e senha {#elo03}
 
-#### RF03 – Permitir acesso via login e senha	
-| Item                                      | Descrição|
-| ----------------------------------------- | -------------------|
-| Descrição do requisito                    | [RF03 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf03)|
-| Categoria                                 | 	Autenticação e Segurança		|
-| Origem do requisito                       | [AD03](../03_elicitacao/tecnicas/analise_documentos.md#ad03)|
-| Elementos| História de Usuário: [US10](../05_modelagem/05_Agil/01_historias_de_usuario.md#us10)|
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD03) evidencia que apenas usuários autenticados podem acessar áreas privadas do sistema.|
-| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela o comportamento esperado para o processo de autenticação, garantindo acesso seguro às funcionalidades privadas do sistema.     |
+| Item                                      | Descrição                                                                                                                                                               |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF03 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf03)                                                                                  |
+| Categoria                                 | Autenticação e Segurança                                                                                                                                                |
+| Origem do requisito                       | [AD03](../03_elicitacao/tecnicas/analise_documentos.md#ad03)                                                                                                            |
+| Elementos                                 | História de Usuário: [US10](../05_modelagem/05_Agil/01_historias_de_usuario.md#us10)                                                                                    |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD03) evidencia que apenas usuários autenticados podem acessar áreas privadas do sistema.                                            |
+| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela o comportamento esperado para o processo de autenticação, garantindo acesso seguro às funcionalidades privadas do sistema. |
 
 **Fonte:** Angélica, 2025.
 
-#### RF04 – O sistema deve restringir anúncios a produtos e serviços relacionados ao jogo Magic: The Gathering
+#### RF04 – O sistema deve restringir anúncios a produtos e serviços relacionados ao jogo Magic: The Gathering {#elo04}
 
-| Item                                      | Descrição                                                                                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF04 – O sistema deve restringir anúncios a produtos e serviços relacionados ao jogo Magic: The Gathering](../03_elicitacao/artefatos/requisitos_elicitados.md#rf04)                                                               |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
-| Origem do requisito                       | [AD04](../03_elicitacao/tecnicas/analise_documentos.md#ad04)                                                                                                                                                                                |
-| Elementos                                 | História de Usuário: [US15](../05_modelagem/05_Agil/01_historias_de_usuario.md#us15) |
-| Elos Backward-from (tipo e justificativa) | A análise de documento (AD04) identificou a necessidade de manter a integridade temática do sistema, limitando os anúncios apenas a produtos e serviços relacionados ao universo de Magic: The Gathering.          |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como o sistema deve validar e limitar o conteúdo dos anúncios antes da publicação.                                                        |
+| Item                                      | Descrição                                                                                                                                                                                                 |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF04 – O sistema deve restringir anúncios a produtos e serviços relacionados ao jogo Magic: The Gathering](../03_elicitacao/artefatos/requisitos_elicitados.md#rf04)                                     |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                           |
+| Origem do requisito                       | [AD04](../03_elicitacao/tecnicas/analise_documentos.md#ad04)                                                                                                                                              |
+| Elementos                                 | História de Usuário: [US15](../05_modelagem/05_Agil/01_historias_de_usuario.md#us15)                                                                                                                      |
+| Elos Backward-from (tipo e justificativa) | A análise de documento (AD04) identificou a necessidade de manter a integridade temática do sistema, limitando os anúncios apenas a produtos e serviços relacionados ao universo de Magic: The Gathering. |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como o sistema deve validar e limitar o conteúdo dos anúncios antes da publicação.                                                                    |
 
 **Fonte:** Marcelo. 2025.
 
-#### RF06 – Inclusão de textos, descrição e fotos nos anúncios
+#### RF06 – Inclusão de textos, descrição e fotos nos anúncios {#elo06}
 
 | Item                                          | Descrição                                                                                                                                                                                                                    |
-|:----------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :-------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Descrição do Requisito                        | [RF06 – Deve permitir inclusão de textos, descrição e fotos nos anúncios](../03_elicitacao/artefatos/requisitos_elicitados.md#rf06)                                                                                          |
 | Categoria                                     | Desenvolvimento                                                                                                                                                                                                              |
 | Origem do Requisito                           | [AD06](../03_elicitacao/tecnicas/analise_documentos.md#ad06)                                                                                                                                                                 |
@@ -162,8 +163,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Vera. 2025.
 
-
-#### RF10 – Deve permitir criação de páginas pessoais
+#### RF10 – Deve permitir criação de páginas pessoais {#elo10}
 
 | Item                                      | Descrição                                                                                                                                                                                                                              |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -176,7 +176,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Marcelo, 2025.
 
-#### RF11 – Deve permitir envio e respostas a mensagens no fórum
+#### RF11 – Deve permitir envio e respostas a mensagens no fórum {#elo11}
 
 | Item                                      | Descrição                                                                                                                                                                                                                              |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -189,7 +189,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Samuel, 2025.
 
-#### RF12 – Registrar dados pessoais do usuário
+#### RF12 – Registrar dados pessoais do usuário {#elo12}
 
 | Item                                      | Descrição                                                                                                                                                                                                               |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -202,7 +202,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
-#### RF16 – Oferecer canal de contato para solicitações
+#### RF16 – Oferecer canal de contato para solicitações {#elo16}
 
 | Item                                      | Descrição                                                                                                                                                                                                     |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -215,19 +215,20 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
-#### RF19 – Solicitar atualização de dados pessoais		
-| Item                                      | Descrição|
-| ----------------------------------------- | -------------------|
-| Descrição do requisito                    | [RF19 – Solicitar atualização de dados pessoais	](../03_elicitacao/artefatos/requisitos_elicitados.md#rf19)|
-| Categoria                                 | 	Gerenciamento de Usuários			|
-| Origem do requisito                       | [AD19](../03_elicitacao/tecnicas/analise_documentos.md#ad19)|
-| Elementos| Cenário: [CE06](../05_modelagem/01_cenarios/cenarios.md#ce06); <br>História de Usuário: [US11](../05_modelagem/05_Agil/01_historias_de_usuario.md#us11)|
-| Elos Backward-from (tipo e justificativa) |Recurso — A Análise de Documentos (AD19) indica que usuários precisam alterar dados cadastrais para manter suas informações atualizadas, justificando o requisito. |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem representam como o requisito será atendido, descrevendo comportamento esperado e validação funcional.|
+#### RF19 – Solicitar atualização de dados pessoais {#elo19}
+
+| Item                                      | Descrição                                                                                                                                                          |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Descrição do requisito                    | [RF19 – Solicitar atualização de dados pessoais ](../03_elicitacao/artefatos/requisitos_elicitados.md#rf19)                                                        |
+| Categoria                                 | Gerenciamento de Usuários                                                                                                                                          |
+| Origem do requisito                       | [AD19](../03_elicitacao/tecnicas/analise_documentos.md#ad19)                                                                                                       |
+| Elementos                                 | Cenário: [CE06](../05_modelagem/01_cenarios/cenarios.md#ce06); <br>História de Usuário: [US11](../05_modelagem/05_Agil/01_historias_de_usuario.md#us11)            |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD19) indica que usuários precisam alterar dados cadastrais para manter suas informações atualizadas, justificando o requisito. |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem representam como o requisito será atendido, descrevendo comportamento esperado e validação funcional.                    |
 
 **Fonte:** Angélica, 2025.
 
-#### RF20 – Pesquisa de cartas pelo nome
+#### RF20 – Pesquisa de cartas pelo nome {#elo20}
 
 | Item                                      | Descrição                                                                                                                                                                                                                                                                                                |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -240,7 +241,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Samuel, 2025.
 
-#### RF21.1 – Filtrar cartas por preço
+#### RF21.1 – Filtrar cartas por preço {#elo21_1}
 
 | Item                                      | Descrição                                                                                                                                                              |
 | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -253,23 +254,23 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Samuel, 2025.
 
-#### RF21.2 – Filtragem de Cartas por Qualidade/Condição
+#### RF21.2 – Filtragem de Cartas por Qualidade/Condição {#elo21_2}
 
-| Item                                      | Descrição                                                                                                                                                                                                                          |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF21.2 – Filtragem de Cartas por Qualidade/Condição](../03_elicitacao/artefatos/requisitos_elicitados.md#rf21.2)                                                                           |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                    |
-| Origem do requisito                       | [OBS02](../03_elicitacao/tecnicas/observacao.md#obs02)                                                                                                                                                                             |
+| Item                                      | Descrição                                                                                                                                                                                                                              |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF21.2 – Filtragem de Cartas por Qualidade/Condição](../03_elicitacao/artefatos/requisitos_elicitados.md#rf21.2)                                                                                                                      |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                        |
+| Origem do requisito                       | [OBS02](../03_elicitacao/tecnicas/observacao.md#obs02)                                                                                                                                                                                 |
 | Elementos                                 | Cenário: [CE07](../05_modelagem/01_cenarios/cenarios.md#ce07); <br>Caso de Uso: [UC06](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc06); <br>História de Usuário: [US14](../05_modelagem/05_Agil/01_historias_de_usuario.md#us14) |
-| Elos Backward-from (tipo e justificativa) | Recurso — A observação (OBS02) identificou a necessidade de os usuários filtrarem cartas com base em sua qualidade física e condição de conservação, otimizando a experiência de busca.                                           |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem a forma como o sistema deve aplicar e exibir os filtros de condição de carta.                                                           |
+| Elos Backward-from (tipo e justificativa) | Recurso — A observação (OBS02) identificou a necessidade de os usuários filtrarem cartas com base em sua qualidade física e condição de conservação, otimizando a experiência de busca.                                                |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem a forma como o sistema deve aplicar e exibir os filtros de condição de carta.                                                                                                      |
 
 **Fonte:** Marcelo. 2025.
 
-#### RF23 – Realizar compra de cartas
- 
+#### RF23 – Realizar compra de cartas {#elo23}
+
 | Item                                          | Descrição                                                                                                                                                                                                                                                           |
-|:----------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :-------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Descrição do Requisito                        | [RF23 – Realizar compra de cartas: Deve permitir que o usuário compre cartas cadastradas, incluindo dados pessoais e endereço de entrega](../03_elicitacao/artefatos/requisitos_elicitados.md#rf23)                                                                 |
 | Categoria                                     | Desenvolvimento                                                                                                                                                                                                                                                     |
 | Origem do Requisito                           | [OBS27](../03_elicitacao/tecnicas/observacao.md#obs27)                                                                                                                                                                                                              |
@@ -279,32 +280,33 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Vera. 2025.
 
-#### RF24 – Histórico de compras			
-| Item                                      | Descrição|
-| ----------------------------------------- | -------------------|
-| Descrição do requisito                    | [RF24 – Histórico de compras](../03_elicitacao/artefatos/requisitos_elicitados.md#rf24)|
-| Categoria                                 | 	Gerenciamento de Usuários			|
-| Origem do requisito                       | [OBS05](../03_elicitacao/tecnicas/observacao.md#obs05)|
-| Elementos| História de Usuário: [US12](../05_modelagem/05_Agil/01_historias_de_usuario.md#us12)|
-| Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS05) evidenciou o padrão de comportamento dos usuários que consultam compras anteriores para acompanhar transações e gastos.|
-| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela a funcionalidade necessária para exibição e detalhe das compras realizadas, representando o requisito.|
+#### RF24 – Histórico de compras {#elo24}
+
+| Item                                      | Descrição                                                                                                                                              |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Descrição do requisito                    | [RF24 – Histórico de compras](../03_elicitacao/artefatos/requisitos_elicitados.md#rf24)                                                                |
+| Categoria                                 | Gerenciamento de Usuários                                                                                                                              |
+| Origem do requisito                       | [OBS05](../03_elicitacao/tecnicas/observacao.md#obs05)                                                                                                 |
+| Elementos                                 | História de Usuário: [US12](../05_modelagem/05_Agil/01_historias_de_usuario.md#us12)                                                                   |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS05) evidenciou o padrão de comportamento dos usuários que consultam compras anteriores para acompanhar transações e gastos. |
+| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela a funcionalidade necessária para exibição e detalhe das compras realizadas, representando o requisito.    |
 
 **Fonte:** Angélica, 2025.
 
-#### RF27 – Visualização de Detalhes da Carta
+#### RF27 – Visualização de Detalhes da Carta {#elo27}
 
-| Item                                      | Descrição                                                                                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF27 – Visualização de Detalhes da Carta](../03_elicitacao/artefatos/requisitos_elicitados.md#rf27)                                                                                          |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
-| Origem do requisito                       | [OBS08](../03_elicitacao/tecnicas/observacao.md#obs08)                                                                                                                                                                              |
-| Elementos                                 | História de Usuário: [US16](../05_modelagem/05_Agil/01_historias_de_usuario.md#us16) |
-| Elos Backward-from (tipo e justificativa) | Recurso — A observação (OBS08) mostrou que os usuários desejam visualizar informações completas das cartas, justificando a necessidade de uma página ou modal detalhado.                                                            |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem demonstram o comportamento esperado da interface ao exibir detalhes da carta, como imagem, edição, tipo e raridade.                                 |
+| Item                                      | Descrição                                                                                                                                                                |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Descrição do requisito                    | [RF27 – Visualização de Detalhes da Carta](../03_elicitacao/artefatos/requisitos_elicitados.md#rf27)                                                                     |
+| Categoria                                 | Desenvolvimento                                                                                                                                                          |
+| Origem do requisito                       | [OBS08](../03_elicitacao/tecnicas/observacao.md#obs08)                                                                                                                   |
+| Elementos                                 | História de Usuário: [US16](../05_modelagem/05_Agil/01_historias_de_usuario.md#us16)                                                                                     |
+| Elos Backward-from (tipo e justificativa) | Recurso — A observação (OBS08) mostrou que os usuários desejam visualizar informações completas das cartas, justificando a necessidade de uma página ou modal detalhado. |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem demonstram o comportamento esperado da interface ao exibir detalhes da carta, como imagem, edição, tipo e raridade.            |
 
 **Fonte:** Marcelo. 2025.
 
-#### RF29 – Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks
+#### RF29 – Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks {#elo29}
 
 | Item                                      | Descrição                                                                                                                                                                                                                              |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -317,49 +319,49 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
-#### RF30 – Exibição de Informações Detalhadas da Carta
+#### RF30 – Exibição de Informações Detalhadas da Carta {#elo30}
 
-| Item                                      | Descrição                                                                                                                                                                                                                            |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Descrição do requisito                    | [RF30 – Exibição de Informações Detalhadas da Carta](../03_elicitacao/artefatos/requisitos_elicitados.md#rf30)                                                                                                                       |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                      |
-| Origem do requisito                       | [OBS11](../03_elicitacao/tecnicas/observacao.md#obs11)                                                                                                                                                                                 |
-| Elementos                                 | História de Usuário: [US17](../05_modelagem/05_Agil/01_historias_de_usuario.md#us17) |
-| Elos Backward-from (tipo e justificativa) | Recurso — A observação (OBS11) indicou a importância de apresentar informações detalhadas sobre cada carta, como histórico de versões, preço médio e disponibilidade.                                                                 |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os elementos de modelagem descrevem como o sistema exibe informações aprofundadas da carta selecionada.   
+| Item                                      | Descrição                                                                                                                                                             |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF30 – Exibição de Informações Detalhadas da Carta](../03_elicitacao/artefatos/requisitos_elicitados.md#rf30)                                                        |
+| Categoria                                 | Desenvolvimento                                                                                                                                                       |
+| Origem do requisito                       | [OBS11](../03_elicitacao/tecnicas/observacao.md#obs11)                                                                                                                |
+| Elementos                                 | História de Usuário: [US17](../05_modelagem/05_Agil/01_historias_de_usuario.md#us17)                                                                                  |
+| Elos Backward-from (tipo e justificativa) | Recurso — A observação (OBS11) indicou a importância de apresentar informações detalhadas sobre cada carta, como histórico de versões, preço médio e disponibilidade. |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os elementos de modelagem descrevem como o sistema exibe informações aprofundadas da carta selecionada.                                               |
 
 **Fonte:** Marcelo. 2025.
 
-#### RF31 – Alerta de preço
+#### RF31 – Alerta de preço {#elo31}
 
-| Item                                            | Descrição                                                                                                                                                                                                                            |
-|:------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descrição do Requisito                          | [RF31 – Alerta de preço: Deve permitir que o usuário defina um alerta de preço para a carta selecionada](../03_elicitacao/artefatos/requisitos_elicitados.md#rf31)                                                                   |
-| Categoria                                       | Desenvolvimento                                                                                                                                                                                                                      |
-| Origem do Requisito                             | [OBS12](../03_elicitacao/tecnicas/observacao.md#obs12)                                                                                                                                                                               |
-| Elementos                                       | Cenário: [CE04](../05_modelagem/01_cenarios/cenarios.md#ce04)</br>Caso de Uso: [UC03](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc03)</br>História de Usuário: [US36](../05_modelagem/05_Agil/01_historias_de_usuario.md#us36) |
-| Elos Backward-from</br>(tipo e justificativa)   | Recurso — O requisito depende de um serviço de monitoramento de preços e de notificações, além de dados de preço das cartas. Esses recursos são necessários para verificar variações e enviar alertas aos usuários.                  |
-| Elos Forward-from</br>(tipo e justificativa)    | Representação — A história de usuário representa o comportamento de configuração de alertas de preço. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.                              |
+| Item                                          | Descrição                                                                                                                                                                                                                            |
+| :-------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do Requisito                        | [RF31 – Alerta de preço: Deve permitir que o usuário defina um alerta de preço para a carta selecionada](../03_elicitacao/artefatos/requisitos_elicitados.md#rf31)                                                                   |
+| Categoria                                     | Desenvolvimento                                                                                                                                                                                                                      |
+| Origem do Requisito                           | [OBS12](../03_elicitacao/tecnicas/observacao.md#obs12)                                                                                                                                                                               |
+| Elementos                                     | Cenário: [CE04](../05_modelagem/01_cenarios/cenarios.md#ce04)</br>Caso de Uso: [UC03](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc03)</br>História de Usuário: [US36](../05_modelagem/05_Agil/01_historias_de_usuario.md#us36) |
+| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de um serviço de monitoramento de preços e de notificações, além de dados de preço das cartas. Esses recursos são necessários para verificar variações e enviar alertas aos usuários.                  |
+| Elos Forward-from</br>(tipo e justificativa)  | Representação — A história de usuário representa o comportamento de configuração de alertas de preço. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.                              |
 
 **Fonte:** Vera. 2025.
 
-#### RF32 – Permitir que o usuário busque decks que utilizam a carta selecionada
+#### RF32 – Permitir que o usuário busque decks que utilizam a carta selecionada {#elo32}
 
-| Item                                      | Descrição                                                                                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF32 – Permitir que o usuário busque decks que utilizam a carta selecionada](../03_elicitacao/artefatos/requisitos_elicitados.md#rf32)                                                                                             |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
-| Origem do requisito                       | [OBS13](../03_elicitacao/tecnicas/observacao.md#obs13)                                                                                                                                                                                  |
-| Elementos                                 |  [US18](../05_modelagem/05_Agil/01_historias_de_usuario.md#us18) |
-| Elos Backward-from (tipo e justificativa) | Recurso — A observação (OBS11) destacou o interesse dos usuários em explorar decks existentes que utilizam uma carta específica, justificando o desenvolvimento da busca relacionada.                                               |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem o comportamento da busca e a exibição dos decks correspondentes.                                                                         |
+| Item                                      | Descrição                                                                                                                                                                             |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF32 – Permitir que o usuário busque decks que utilizam a carta selecionada](../03_elicitacao/artefatos/requisitos_elicitados.md#rf32)                                               |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                       |
+| Origem do requisito                       | [OBS13](../03_elicitacao/tecnicas/observacao.md#obs13)                                                                                                                                |
+| Elementos                                 | [US18](../05_modelagem/05_Agil/01_historias_de_usuario.md#us18)                                                                                                                       |
+| Elos Backward-from (tipo e justificativa) | Recurso — A observação (OBS11) destacou o interesse dos usuários em explorar decks existentes que utilizam uma carta específica, justificando o desenvolvimento da busca relacionada. |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem o comportamento da busca e a exibição dos decks correspondentes.                                                                  |
 
 **Fonte:** Marcelo. 2025.
 
-#### RF33 – Preço médio por edição
+#### RF33 – Preço médio por edição {#elo33}
 
 | Item                                          | Descrição                                                                                                                                                                                                                                 |
-|:----------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :-------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Descrição do Requisito                        | [RF33 –Preço médio por edição: Deve permitir que o usuário visualize o preço médio da carta em diferentes edições e condições](../03_elicitacao/artefatos/requisitos_elicitados.md#rf33)                                                  |
 | Categoria                                     | Desenvolvimento                                                                                                                                                                                                                           |
 | Origem do Requisito                           | [OBS14](../03_elicitacao/tecnicas/observacao.md#obs14)                                                                                                                                                                                    |
@@ -369,10 +371,10 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Vera. 2025.
 
-#### RF34 – Histórico de preços
+#### RF34 – Histórico de preços {#elo34}
 
 | Item                                          | Descrição                                                                                                                                                                                                                                            |
-|:----------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :-------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Descrição do Requisito                        | [RF34 – Histórico de preços: Deve permitir que o usuário acesse o histórico de preços da carta em formato gráfico](../03_elicitacao/artefatos/requisitos_elicitados.md#rf34)                                                                         |
 | Categoria                                     | Desenvolvimento                                                                                                                                                                                                                                      |
 | Origem do Requisito                           | [OBS15](../03_elicitacao/tecnicas/observacao.md#obs15)                                                                                                                                                                                               |
@@ -382,7 +384,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Vera. 2025.
 
-#### RF35 – Adicionar a diferentes listas: Permitir que o usuário adicione a carta a diferentes listas
+#### RF35 – Adicionar a diferentes listas: Permitir que o usuário adicione a carta a diferentes listas {#elo35}
 
 | Item                                      | Descrição                                                                                                                                                                                                        |
 | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -395,7 +397,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
-#### RF36 – Compartilhar carta
+#### RF36 – Compartilhar carta {#elo36}
 
 | Item                                      | Descrição                                                                                                                                                                                                                              |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -408,10 +410,10 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Samuel, 2025.
 
-#### RF37 – Reportar problemas
+#### RF37 – Reportar problemas {#elo37}
 
 | Item                                          | Descrição                                                                                                                                                                                                                            |
-|:----------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :-------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Descrição do Requisito                        | [RF37 – Reportar problemas: Deve permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)](../03_elicitacao/artefatos/requisitos_elicitados.md#rf37)                            |
 | Categoria                                     | Desenvolvimento                                                                                                                                                                                                                      |
 | Origem do Requisito                           | [OBS18](../03_elicitacao/tecnicas/observacao.md#obs18)                                                                                                                                                                               |
@@ -421,7 +423,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Vera. 2025.
 
-#### RF38 – Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas
+#### RF38 – Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas {#elo38}
 
 | Item                                      | Descrição                                                                                                                                                                                                                              |
 | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -434,39 +436,90 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
+#### RF39 – Os usuários devem ser capazes de visualizar decks {#elo39}
+
+| Item                                      | Descrição                                                                                                                                                                                                                              |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF25 – Os usuários devem ser capazes de visualizar decks publicados, com lista de cartas](../03_elicitacao/artefatos/requisitos_elicitados.md#rf25)                                                                                   |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                        |
+| Origem do requisito                       | [OBS06](../03_elicitacao/observação)                                                                                                                                                                                                   |
+| Elementos                                 | Cenário: [CE08](../05_modelagem/01_cenarios/cenarios.md#ce08); <br>Caso de Uso: [UC07](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc07); <br>História de Usuário: [US30](../05_modelagem/05_Agil/01_historias_de_usuario.md#us30) |
+| Elos Backward-from (tipo e justificativa) | Fonte — A estrutura de níveis de informação (Ambiental, Organizacional, Gerencial, Desenvolvimento) serve como base conceitual para a organização e visualização dos decks, estabelecendo a fundamentação teórica.                     |
+| Elos Forward-from (tipo e justificativa)  | Representação — A visualização de decks materializa a estrutura conceitual em interface prática, permitindo aos usuários navegar e compreender as informações conforme os níveis estabelecidos.                                        |
+
+**Fonte:** Raissa, 2025.
+
+#### RF40 – Os usuários devem ser capazes de responder no fórum {#elo40}
+
+| Item                                      | Descrição                                                                                                                                                                                                                              |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF26 – Os usuários devem ser capazes de visualizar decks publicados, com lista de cartas](../03_elicitacao/artefatos/requisitos_elicitados.md#rf26)                                                                                   |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                        |
+| Origem do requisito                       | [OBS07](../03_elicitacao/observação)                                                                                                                                                                                                   |
+| Elementos                                 | Cenário: [CE11](../05_modelagem/01_cenarios/cenarios.md#ce11); <br>Caso de Uso: [UC09](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc09); <br>História de Usuário: [US27](../05_modelagem/05_Agil/01_historias_de_usuario.md#us27) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação evidencia a necessidade de um espaço colaborativo para discussão e troca de informações entre os usuários do sistema.                                                                                           |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem definem como as funcionalidades do fórum devem operar, incluindo criação de tópicos, respostas e moderação, modelando o comportamento esperado.                                              |
+
+**Fonte:** Raissa, 2025.
+
+#### RF41 – Os usuários devem ser capazes de reportar problemas {#elo41}
+
+| Item                                      | Descrição                                                                                                                                                                                                                              |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF37 – Os usuários devem ser capazes de reportar problemas relacionados à carta](../03_elicitacao/artefatos/requisitos_elicitados.md#rf37)                                                                                            |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                        |
+| Origem do requisito                       | [OBS18](../03_elicitacao/observação)                                                                                                                                                                                                   |
+| Elementos                                 | Cenário: [CE05](../05_modelagem/01_cenarios/cenarios.md#ce05); <br>Caso de Uso: [UC04](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc04); <br>História de Usuário: [US28](../05_modelagem/05_Agil/01_historias_de_usuario.md#us28) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação demonstra a necessidade de um canal estruturado para coleta e tratamento de problemas reportados pelos usuários.                                                                                                |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem especificam o fluxo de reporte de problemas, incluindo categorização, priorização e acompanhamento, modelando o comportamento esperado do sistema.                                           |
+
+**Fonte:** Raissa, 2025.
+
+#### RF42 – Os usuários devem ser capazes de permitir controle de cookies {#elo42}
+
+| Item                                      | Descrição                                                                                                                                                                                                                          |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF38 – O sistema deve permitir que o usuário configure seu navegador para aceitar ou bloquear cookies](../03_elicitacao/artefatos/requisitos_elicitados.md#rf18)                                                                  |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                    |
+| Origem do requisito                       | [AD17](../03_elicitacao/observação)                                                                                                                                                                                                |
+| Elementos                                 | Cenário: [--](../05_modelagem/01_cenarios/cenarios.md#ce05); <br>Caso de Uso: [--](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc04); <br>História de Usuário: [US25](../05_modelagem/05_Agil/01_historias_de_usuario.md#us25) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD18) comprova a necessidade de conformidade com leis de proteção de dados e privacidade, exigindo controle explícito de cookies.                                                               |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem definem a interface e fluxos para gerenciamento de cookies, modelando as interações do usuário com as configurações de privacidade.                                                      |
+
+**Fonte:** Raissa, 2025.
 
 ### Requisitos Não Funcionais
 
-#### RNF05 – Exigir consentimento e concordância explícita		
+#### RNF05 – Exigir consentimento e concordância explícita {#elon05}
 
-| Item| Descrição|
-|-------------------------------------------|----------------------|
-| Descrição do requisito                    | [RNF05 – O sistema deve garantir que o usuário declare ciência e concordância com a política ao usar o portal.	](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf05)            |
-| Categoria                                 | Legal e Regulatório		|
-| Origem do requisito                       | [AD24](../03_elicitacao/tecnicas/analise_documentos.md#ad24)|
-| Elementos                                 | NFR Framework: [NFR06](../05_modelagem/05_Agil/03_nfr_framework.md#nfr06)     |
-| Elos Backward-from (tipo e justificativa) | Recurso — Analise de documentos(AD24) apontou necessidade de aderência legal (ex.: LGPD), garantindo consentimento informado para uso e tratamento de dados pessoais.|
-| Elos Forward-from (tipo e justificativa)  | Representação —  Conecta com RF19 e os casos de uso de criação/gerenciamento de usuário, pois o consentimento deve ser explicitamente solicitado antes do processamento dos dados. Também está detalhado no NFR06 do NFR Framework.|
+| Item                                      | Descrição                                                                                                                                                                                                                          |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RNF05 – O sistema deve garantir que o usuário declare ciência e concordância com a política ao usar o portal. ](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf05)                                                        |
+| Categoria                                 | Legal e Regulatório                                                                                                                                                                                                                |
+| Origem do requisito                       | [AD24](../03_elicitacao/tecnicas/analise_documentos.md#ad24)                                                                                                                                                                       |
+| Elementos                                 | NFR Framework: [NFR06](../05_modelagem/05_Agil/03_nfr_framework.md#nfr06)                                                                                                                                                          |
+| Elos Backward-from (tipo e justificativa) | Recurso — Analise de documentos(AD24) apontou necessidade de aderência legal (ex.: LGPD), garantindo consentimento informado para uso e tratamento de dados pessoais.                                                              |
+| Elos Forward-from (tipo e justificativa)  | Representação — Conecta com RF19 e os casos de uso de criação/gerenciamento de usuário, pois o consentimento deve ser explicitamente solicitado antes do processamento dos dados. Também está detalhado no NFR06 do NFR Framework. |
 
 **Fonte:** Angélica, 2025.
 
-#### RNF07 – Garantir que anúncios incluam informações fiscais corretas
+#### RNF07 – Garantir que anúncios incluam informações fiscais corretas {#elon07}
 
-| Item                                      | Descrição                                                                                                                                                                                                                                             |
-|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descrição do requisito                    | [RNF07 – Garantir que anúncios incluam informações fiscais corretas](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf07)                                                                                |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                           |
-| Origem do requisito                       | [AD26](../03_elicitacao/tecnicas/analise_documentos.md#ad26)                                                                                                                                                                                 |
-| Elementos                                 | Especificação Suplementar: [Con01](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#confiabilidade)<br>NFR Framework: [NFR02](../05_modelagem/05_Agil/03_nfr_framework.md#nfr07)                                |
-| Elos Backward-from (tipo e justificativa) | Restrição — A Análise de Documento (AD26) identificou a necessidade de que os anúncios incluam informações fiscais corretas, assegurando conformidade com as normas legais e tributárias aplicáveis.                                                  |
-| Elos Forward-from (tipo e justificativa)  | Representação — A especificação suplementar e o NFR Framework descrevem os mecanismos de verificação das informações fiscais nos anúncios. Prefere-se Representação, pois formaliza o comportamento esperado sem comprovar a implementação técnica.  |
+| Item                                      | Descrição                                                                                                                                                                                                                                           |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RNF07 – Garantir que anúncios incluam informações fiscais corretas](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf07)                                                                                                                     |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                     |
+| Origem do requisito                       | [AD26](../03_elicitacao/tecnicas/analise_documentos.md#ad26)                                                                                                                                                                                        |
+| Elementos                                 | Especificação Suplementar: [Con01](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#confiabilidade)<br>NFR Framework: [NFR02](../05_modelagem/05_Agil/03_nfr_framework.md#nfr07)                                           |
+| Elos Backward-from (tipo e justificativa) | Restrição — A Análise de Documento (AD26) identificou a necessidade de que os anúncios incluam informações fiscais corretas, assegurando conformidade com as normas legais e tributárias aplicáveis.                                                |
+| Elos Forward-from (tipo e justificativa)  | Representação — A especificação suplementar e o NFR Framework descrevem os mecanismos de verificação das informações fiscais nos anúncios. Prefere-se Representação, pois formaliza o comportamento esperado sem comprovar a implementação técnica. |
 
-**Fonte:** Marcelo, 2025.  
+**Fonte:** Marcelo, 2025.
 
-#### RNF08 – Responsividade: O site deve ser totalmente responsivo
+#### RNF08 – Responsividade: O site deve ser totalmente responsivo {#elon08}
 
 | Item                                      | Descrição                                                                                                                                                                                                              |
-|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Descrição do requisito                    | [RNF08 – Responsividade: O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)            |
 | Categoria                                 | Desenvolvimento                                                                                                                                                                                                        |
 | Origem do requisito                       | [OBS19](../03_elicitacao/tecnicas/observacao.md#obs19)                                                                                                                                                                 |
@@ -476,11 +529,10 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
-
-#### RNF09 – Organização visual
+#### RNF09 – Organização visual {#elon09}
 
 | Item                                          | Descrição                                                                                                                                                                                                                                                    |
-|:----------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :-------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Descrição do requisito                        | [RNF09 – Organização visual: As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)            |
 | Categoria                                     | Usabilidade                                                                                                                                                                                                                                                  |
 | Origem do requisito                           | [OBS20](../03_elicitacao/tecnicas/observacao.md#obs20)                                                                                                                                                                                                       |
@@ -490,18 +542,18 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Vera, 2025.
 
-#### RNF14 – Padronização de mensagens			
+#### RNF14 – Padronização de mensagens {#elon14}
 
-| Item| Descrição|
-|-------------------------------------------|----------------------|
-| Descrição do requisito                    | [RNF14 – As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões		](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf14)            |
-| Categoria                                 | Usabilidade			|
-| Origem do requisito                       | [OBS25](../03_elicitacao/tecnicas/observacao.md#obs25)         |
-| Elementos                                 | Especificação Suplementar: [US02](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability)    |
-| Elos Backward-from (tipo e justificativa) | Recurso — OBS25 identificou a necessidade de manter consistência visual e textual nas mensagens para facilitar compreensão do usuário.|
-| Elos Forward-from (tipo e justificativa)  | Representação — Esse requisito impacta qualquer funcionalidade que exiba alertas e mensagens ao usuário, como feedbacks de ações em RF19 (atualização de dados) e RF24 (histórico de compras). Também impacta a conformidade da Especificação Suplementar US02, garantindo diretrizes de mensagens unificadas.|
+| Item                                      | Descrição                                                                                                                                                                                                                                                                                                      |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RNF14 – As mensagens de alerta, erro e confirmação devem aparecer de forma padronizada e visível, para evitar confusões ](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf14)                                                                                                                          |
+| Categoria                                 | Usabilidade                                                                                                                                                                                                                                                                                                    |
+| Origem do requisito                       | [OBS25](../03_elicitacao/tecnicas/observacao.md#obs25)                                                                                                                                                                                                                                                         |
+| Elementos                                 | Especificação Suplementar: [US02](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability)                                                                                                                                                                             |
+| Elos Backward-from (tipo e justificativa) | Recurso — OBS25 identificou a necessidade de manter consistência visual e textual nas mensagens para facilitar compreensão do usuário.                                                                                                                                                                         |
+| Elos Forward-from (tipo e justificativa)  | Representação — Esse requisito impacta qualquer funcionalidade que exiba alertas e mensagens ao usuário, como feedbacks de ações em RF19 (atualização de dados) e RF24 (histórico de compras). Também impacta a conformidade da Especificação Suplementar US02, garantindo diretrizes de mensagens unificadas. |
 
-**Fonte:** Angélica, 2025.
+**Fonte:** Raissa, 2025.
 
 ## Referências
 
@@ -514,22 +566,26 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome   | % de Contribuição |
-|:-------| :---------------: |
-| Samuel |                   |
-| Thiago |                   |
-| Vera   |                   |
-| Amgélica   |                   |
+| Nome     | % de Contribuição |
+
+|:---------|:-----------------:|
+| Samuel   |       16,67       |
+| Thiago   |       16,67       |
+| Angélica |       16,67       |
+| Vera     |       16,67       |      
+| Marcelo  |       16,67       |
+
 
 
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                                      |   Autor(es)    | Revisor  |
-|:------:|:----------:|:---------------------------------------------------------------|:--------------:|:--------:|
+| :----: | :--------: | :------------------------------------------------------------- | :------------: | :------: |
 |  1.0   | 23/10/2025 | Criação inicial do documento                                   |     Samuel     |   Vera   |
 |  1.1   | 25/10/2025 | Adição das seções (Introdução, Objetivo, Metodologia, Legenda) | Samuel, Thiago |   Vera   |
 | 1.1.1  | 25/10/2025 | Adição dos elos (RF02, RF11, RF20, RF21.1, RF36)               |     Samuel     |  Thiago  |
 | 1.1.2  | 25/10/2025 | Adição dos elos (RF29, RF38, RF35, RF16, RF10, RF12, RNF08)    |     Thiago     |  Samuel  |
 |  1.2   | 26/10/2025 | Adição dos elos (RF06, RF23, RF31, RF33, RF34, RF37 E RNF09)   |      Vera      | Angélica |
-|  1.3   | 26/10/2025 | Adição dos elos (RF04, RF21.2, RF27, RF30, RF32 E RNF07)   |      Marcelo    | Thiago |
-|  1.4   | 27/10/2025 | Adição dos elos (RF01, RF03, RF19, RF24, RNF05 E RNF14)    |      Angélica | Samuel |
+|  1.3   | 26/10/2025 | Adição dos elos (RF04, RF21.2, RF27, RF30, RF32 E RNF07)       |    Marcelo     |  Thiago  |
+|  1.4   | 27/10/2025 | Adição dos elos (RF01, RF03, RF19, RF24, RNF05 E RNF14)        |    Angélica    |  Samuel  |
+|  1.5   | 28/10/2025 | Adição dos elos 39 a 41                                        |     Raissa     |   Vera   |
