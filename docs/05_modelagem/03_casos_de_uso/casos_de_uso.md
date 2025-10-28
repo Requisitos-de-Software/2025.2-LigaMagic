@@ -310,6 +310,10 @@ Para a validação dos casos de uso, cada integrante do grupo ficou responsável
 | Samuel                                                |      14,28%       |
 | Thiago                                                |      14,28%       |
 
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                                                                  |                       Autor(es)                       |        Revisor        |
@@ -325,3 +329,4 @@ Para a validação dos casos de uso, cada integrante do grupo ficou responsável
 |  1.8   | 11/10/2025 | Adição do vídeo de validação e de casos de uso                                             |                        Marcelo                        |        Samuel         |
 | 1.8.1  | 11/10/2025 | Adição do vídeo de validação e de casos de uso dos integrantes                             |                        Thiago                         |        Marcelo        |
 |  1.9   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos                                                 |      [Samuel](https://github.com/samuelncaetano)      |        Thiago         |
+|  1.10   | 27/10/2025 | Adicionando Agradecimentos |                   Angélica                    | Samuel  |

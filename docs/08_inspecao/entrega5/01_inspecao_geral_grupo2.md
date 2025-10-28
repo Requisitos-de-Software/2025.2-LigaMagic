@@ -7,12 +7,9 @@ Documento baseado na lista de verificação feita para a entrega 5 do nosso grup
 ## Avaliação - GitHub Pages
 | ID  | Questão (O GitHub Pages possui)| Resposta (Conforme / Não Conforme / Incompleto/ Não se Aplica) | Versão, data e hora da avaliação |
 | :-: | :--------- | :-------------------------------: | :------------------------------: |
+| 01 | [A rastreabilidade cobre tanto requisitos funcionais quanto não-funcionais?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo2.md#v01)                |  ||
+| 02 | [A rastreabilidade identificou dependências críticas que impactam a evolução do sistema?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo2.md#v02)                |  ||
 
-Fonte: Thiago, 2025
-
-### Fonte
-
-> Material disponibilizado pelo professor André Barros da disciplina de Requisitos de Software – UnB, 2025.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -34,3 +31,4 @@ Fonte: Thiago, 2025
 | Versão |    Data    | Descrição                      | Autor(es) |                    Revisor(es)                     |
 | :----: | :--------: | :----------------------------- | :-------: | :------------------------------------------------: |
 |1.0       |  25/10/2025          |      Criação inicial do Documento                          |  Thiago         |                Samuel                                    |
+|1.1       |  28/10/2025          |      Adição de dois itens                          |  Angélica         |                Samuel                                    |

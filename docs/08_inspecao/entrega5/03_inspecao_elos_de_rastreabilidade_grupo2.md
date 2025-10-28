@@ -33,9 +33,12 @@ A inspeção foi conduzida através de revisão sistemática utilizando a tabela
 | [20 - O elo de Representação faz ligação entre um artefato e a modelagem dele em outra linguagem (Por exemplo: Cenário para seu devido Caso de Uso)?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v20)                      | Thiago |                                    |                                   |
 | [21 - O artefato de destino é uma representação fiel e certa da origem?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v21)                                                                                                   | Thiago |                                    |                                   |
 | [22 - Existe uma classificação composta por quatro níveis de informação — ambiental, organizacional, gerencial e de desenvolvimento](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v22)                                       | Vera   |                                    |                                   |
-| [23- Nível Ambiental: As informações  do contexto ambiental que podem afetar o sistema foram consideradas? ](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v23)                                                               | Vera   |                                    |                                   |
-| [24- Nível Organizacional: As informações relacionadas à organização como: missão, objetivos, metas e padrões que impactam os requisitos foram incluídas?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v24)                 | Vera   |                                    |                                   |
-| [25 -Nível Desenvolvimento: Os artefatos gerados no processo de desenvolvimento documento de requisitos, diagramas, programas, casos de testes, etc.) foram considerados?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v25) | Vera   |                                    |                                   |
+| [23 - Nível Ambiental: As informações  do contexto ambiental que podem afetar o sistema foram consideradas? ](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v23)                                                               | Vera   |                                    |                                   |
+| [24 - Nível Organizacional: As informações relacionadas à organização como: missão, objetivos, metas e padrões que impactam os requisitos foram incluídas?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v24)                 | Vera   |                                    |                                   |
+| [25 - Nível Desenvolvimento: Os artefatos gerados no processo de desenvolvimento documento de requisitos, diagramas, programas, casos de testes, etc.) foram considerados?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v25) | Vera   |                                    |                                   |
+| [26 - A matriz de rastreabilidade contém informações de rastreabilidade entre requisitos e artefatos anteriores e posteriores do processo de desenvolvimento?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v26) | Angélica   | 
+| [27 - A rastreabilidade entre requisitos mapeia dependências entre requisitos? ](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v27) | Angélica   | 
+| [28 - As informações de rastreabilidade são representadas de forma adequada (referências textuais, hiperlinks, matrizes)?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v28) | Angélica   | 
 
 Fonte: Thiago, 2025
 
@@ -66,3 +69,4 @@ Fonte: Thiago, 2025
 |        |           |                          |           |         |
 |        |           |                          |           |         |
 |  1.3   | 26/10/205 | Adição dos itens (22-25) |   Vera    | Raissa  |
+|  1.4   | 27/10/205 | Adição dos itens (26-28) |   Angélica    | Guilherme  |

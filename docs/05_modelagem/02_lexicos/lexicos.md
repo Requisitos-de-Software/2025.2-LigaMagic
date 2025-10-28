@@ -30,24 +30,28 @@ Cada léxico possui:
 #### L01 - Membro {#l01-membro}
 
 - **Noção:**
-  Pessoa que realizou o [Cadastro](#l03-cadastrar) e possui uma [Conta](#) ativa no site **LigaMagic**, diferenciando-se de um [Visitante](#l02-visitante), que não possui cadastro.
+  Pessoa que realizou o [Cadastro](#l03-cadastrar) e possui uma [Conta] ativa no site **LigaMagic**, diferenciando-se de um [Visitante](#l02-visitante), que não possui cadastro.
 - **Impacto:**
   - Executa [Login](#l04-login) para acessar funcionalidades restritas.
-  - Pode [Comprar](#l06-comprar-carta) e vender [Cartas](#l08-carta), atuando como [Comprador](#) ou [Vendedor](#).
+  - Pode [Comprar](#l06-comprar-carta) e vender [Cartas](#l08-carta), atuando como [Comprador] ou [Vendedor].
   - Gerencia sua [Coleção de Cartas](#l10-colecao-de-cartas).
-  - Cria e gerencia [Decks](#l09-deck), atuando como [Jogador](#).
+  - Cria e gerencia [Decks](#l09-deck), atuando como [Jogador].
   - Participa ativamente do [Fórum](#l13-forum).
+
+**Fonte:** Samuel, 2025.
 
 #### L02 - Visitante {#l02-visitante}
 
 - **Noção:**
-  Pessoa que navega pelo site **LigaMagic** sem ter realizado [Login](#l04-login) em uma [Conta](#). Possui acesso limitado às funcionalidades públicas da plataforma.
+  Pessoa que navega pelo site **LigaMagic** sem ter realizado [Login](#l04-login) em uma [Conta]. Possui acesso limitado às funcionalidades públicas da plataforma.
 - **Impacto:**
   - Pode [Pesquisar](#l05-pesquisar-carta) por [Cartas](#l08-carta) e visualizar seus detalhes.
   - Consegue visualizar [Decks](#l09-deck) públicos criados pela comunidade.
   - Pode ler os tópicos e mensagens do [Fórum](#l13-forum).
   - É impedido de realizar ações restritas, como [Comprar Carta](#l06-comprar-carta), [Leiloar Carta](#l07-leiloar-carta), criar [Decks](#l09-deck), gerenciar uma [Coleção de Cartas](#l10-colecao-de-cartas) ou publicar no [Fórum](#l13-forum).
   - Pode iniciar o processo de [Cadastro](#l03-cadastrar) para se tornar um [Membro](#l01-membro).
+
+**Fonte:** Thiago, 2025.
 
 ---
 
@@ -56,22 +60,26 @@ Cada léxico possui:
 #### L03 - Cadastrar {#l03-cadastrar}
 
 - **Noção:**
-  Ação realizada por um [Visitante](#l02-visitante) para criar uma [Conta](#) no sistema. Ocorre quando o [Visitante](#l02-visitante) preenche um formulário com dados pessoais (nome, e-mail, senha).
+  Ação realizada por um [Visitante](#l02-visitante) para criar uma [Conta] no sistema. Ocorre quando o [Visitante](#l02-visitante) preenche um formulário com dados pessoais (nome, e-mail, senha).
 - **Impacto:**
   - O sistema verifica se os dados são válidos e se o e-mail já está registrado.
-  - Cria uma nova [Conta](#) no banco de dados.
+  - Cria uma nova [Conta] no banco de dados.
   - Muda o estado do [Visitante](#l02-visitante) para [Membro](#l01-membro).
   - Permite que o novo [Membro](#l01-membro) realize [Login](#l04-login).
+
+**Fonte:** Raissa, 2025.
 
 #### L04 - Login {#l04-login}
 
 - **Noção:**
-  Ação realizada por um [Membro](#l01-membro) para acessar sua [Conta](#). Ocorre quando o [Membro](#l01-membro) informa suas credenciais (e-mail e senha) em um formulário específico.
+  Ação realizada por um [Membro](#l01-membro) para acessar sua [Conta]. Ocorre quando o [Membro](#l01-membro) informa suas credenciais (e-mail e senha) em um formulário específico.
 - **Impacto:**
   - O sistema autentica as credenciais do [Membro](#l01-membro).
   - Inicia uma sessão segura, dando acesso a áreas restritas como "Minha [Coleção de Cartas](#l10-colecao-de-cartas)" e "Meus [Decks](#l09-deck)".
   - Se as credenciais estiverem incorretas, o acesso é negado.
   - É um pré-requisito para as ações de [Comprar Carta](#l06-comprar-carta) e [Leiloar Carta](#l07-leiloar-carta).
+
+**Fonte:** Vera, 2025.
 
 #### L05 - Pesquisar Carta {#l05-pesquisar-carta}
 
@@ -83,25 +91,31 @@ Cada léxico possui:
   - Permite a visualização dos detalhes de uma [Carta](#l08-carta) específica.
   - A partir do resultado, um [Membro](#l01-membro) pode adicionar a [Carta](#l08-carta) a um [Deck](#l09-deck) ou à sua [Coleção de Cartas](#l10-colecao-de-cartas).
 
+**Fonte:** Samuel, 2025.
+
 #### L06 - Comprar Carta {#l06-comprar-carta}
 
 - **Noção:**
-  Ação realizada por um [Membro](#l01-membro), na função de [Comprador](#), para adquirir uma [Carta](#l08-carta) de um [Vendedor](#) na plataforma. Ocorre após o [Membro](#l01-membro) selecionar uma [Carta](#l08-carta) e adicioná-la ao [Carrinho de Compras](#l21-carrinho-ativo).
+  Ação realizada por um [Membro](#l01-membro), na função de [Comprador], para adquirir uma [Carta](#l08-carta) de um [Vendedor] na plataforma. Ocorre após o [Membro](#l01-membro) selecionar uma [Carta](#l08-carta) e adicioná-la ao [Carrinho de Compras](#l21-carrinho-ativo).
 - **Impacto:**
   - A [Carta](#l08-carta) é movida para o [Carrinho de Compras](#l21-carrinho-ativo) do [Membro](#l01-membro).
   - O sistema processa o pagamento.
-  - Após a confirmação, o sistema registra a transação e notifica o [Vendedor](#).
+  - Após a confirmação, o sistema registra a transação e notifica o [Vendedor].
   - A [Carta](#l08-carta) pode ser adicionada automaticamente à [Coleção de Cartas](#l10-colecao-de-cartas) do [Membro](#l01-membro).
+
+**Fonte:** Thiago, 2025.
 
 #### L07 - Leiloar Carta {#l07-leiloar-carta}
 
 - **Noção:**
-  Processo iniciado por um [Membro](#l01-membro), na função de [Vendedor](#), para vender uma [Carta](#l08-carta) ao [Membro](#l01-membro) que oferecer o maior lance dentro de um período determinado. O [Vendedor](#) define um lance inicial e a duração do [Leilão](#l15-leilao-ativo).
+  Processo iniciado por um [Membro](#l01-membro), na função de [Vendedor], para vender uma [Carta](#l08-carta) ao [Membro](#l01-membro) que oferecer o maior lance dentro de um período determinado. O [Vendedor] define um lance inicial e a duração do [Leilão](#l15-leilao-ativo).
 - **Impacto:**
-  - Cria um registro de [Leilão](#l15-leilao-ativo) no sistema, associado à [Carta](#l08-carta) e ao [Vendedor](#).
+  - Cria um registro de [Leilão](#l15-leilao-ativo) no sistema, associado à [Carta](#l08-carta) e ao [Vendedor].
   - A [Carta](#l08-carta) fica temporariamente indisponível para venda direta.
   - Outros [Membros](#l01-membro) podem registrar lances.
   - Ao término do período, a [Carta](#l08-carta) é vendida ao [Membro](#l01-membro) com o maior lance.
+
+**Fonte:** Marcelo, 2025.
 
 ---
 
@@ -110,13 +124,15 @@ Cada léxico possui:
 #### L08 - Carta {#l08-carta}
 
 - **Noção:**
-  Unidade fundamental do jogo Magic: The Gathering. Possui atributos como nome, custo de [Mana](#l14-mana), cor, [Edição](#l11-edicao), [Raridade](#), tipo e texto de [Habilidade](#).
+  Unidade fundamental do jogo Magic: The Gathering. Possui atributos como nome, custo de [Mana](#l14-mana), cor, [Edição](#l11-edicao), [Raridade], tipo e texto de [Habilidade].
 - **Impacto:**
   - Pode ser pesquisada através da [Busca Avançada](#l05-pesquisar-carta).
   - Pode ser adicionada por um [Membro](#l01-membro) a uma [Coleção de Cartas](#l10-colecao-de-cartas).
   - É o componente principal de um [Deck](#l09-deck).
   - Pode ser comprada, vendida ou leiloada por [Membros](#l01-membro).
   - Seu preço é exibido e acompanhado pelo sistema.
+
+**Fonte:** Samuel, 2025.
 
 #### L09 - Deck {#l09-deck}
 
@@ -128,6 +144,8 @@ Cada léxico possui:
   - Pode ser analisado pelo sistema para verificar sua legalidade em um [Formato](#l12-formato) específico.
   - [Decks](#l09-deck) criados por [Membros](#l01-membro) podem ser públicos ou privados.
 
+**Fonte:** Thiago, 2025.
+
 #### L10 - Coleção de Cartas {#l10-colecao-de-cartas}
 
 - **Noção:**
@@ -136,6 +154,8 @@ Cada léxico possui:
   - Facilita o gerenciamento da coleção pessoal do [Membro](#l01-membro).
   - Auxilia na montagem de [Decks](#l09-deck) ao mostrar as [Cartas](#l08-carta) disponíveis para o [Membro](#l01-membro).
   - Permite ao [Membro](#l01-membro) identificar [Cartas](#l08-carta) para venda ou troca.
+
+**Fonte:** Vera, 2025.
 
 #### L11 - Edição {#l11-edicao}
 
@@ -147,6 +167,8 @@ Cada léxico possui:
   - Ajuda o [Membro](#l01-membro) a organizar sua [Coleção de Cartas](#l10-colecao-de-cartas).
   - O preço de uma [Carta](#l08-carta) pode variar significativamente dependendo da sua [Edição](#l11-edicao).
 
+**Fonte:** Angélica, 2025.
+
 #### L12 - Formato {#l12-formato}
 
 - **Noção:**
@@ -155,6 +177,8 @@ Cada léxico possui:
   - Restringe as [Cartas](#l08-carta) que um [Membro](#l01-membro) pode incluir ao criar um [Deck](#l09-deck).
   - O sistema pode validar um [Deck](#l09-deck) para verificar se ele é legal em um determinado [Formato](#l12-formato).
   - É um critério de busca para encontrar [Decks](#l09-deck) públicos e artigos estratégicos.
+
+**Fonte:** Raissa, 2025.
 
 #### L13 - Fórum {#l13-forum}
 
@@ -165,6 +189,8 @@ Cada léxico possui:
   - Um [Membro](#l01-membro) pode criar, responder e seguir tópicos.
   - O conteúdo do [Fórum](#l13-forum) é moderado para garantir o cumprimento das regras da comunidade.
 
+**Fonte:** Angélica, 2025.
+
 #### L14 - Mana {#l14-mana}
 
 - **Noção:**
@@ -174,6 +200,8 @@ Cada léxico possui:
   - É um critério essencial para a construção de um [Deck](#l09-deck) por um [Membro](#l01-membro).
   - É utilizado como filtro na [Pesquisa de Carta](#l05-pesquisar-carta).
 
+**Fonte:** Marcelo, 2025.
+
 ---
 
 ### ESTADO
@@ -181,11 +209,13 @@ Cada léxico possui:
 #### L15 - Leilão Ativo {#l15-leilao-ativo}
 
 - **Noção:**
-  - Período em que um [Leilão](#l15-leilao-ativo) está aberto para receber lances dos [Membros](#l01-membro). Inicia-se quando o [Vendedor](#) cadastra a [Carta](#l08-carta) para leiloar e termina quando o tempo definido expira.
+  - Período em que um [Leilão](#l15-leilao-ativo) está aberto para receber lances dos [Membros](#l01-membro). Inicia-se quando o [Vendedor] cadastra a [Carta](#l08-carta) para leiloar e termina quando o tempo definido expira.
 - **Impacto:**
   - [Membros](#l01-membro) podem submeter lances de valor superior ao lance atual.
   - O sistema exibe o tempo restante e o maior lance publicamente.
   - Ao final do tempo, transita para o estado [Leilão Encerrado](#l16-leilao-encerrado).
+
+**Fonte:** Marcelo, 2025.
 
 #### L16 - Leilão Encerrado {#l16-leilao-encerrado}
 
@@ -196,50 +226,62 @@ Cada léxico possui:
   - O [Membro](#l01-membro) com o maior lance é declarado o vencedor.
   - Inicia o processo de transação, movendo a compra para o estado [Pagamento Aprovado](#l17-pagamento-aprovado).
 
+**Fonte:** Raissa, 2025.
+
 #### L17 - Pagamento Aprovado {#l17-pagamento-aprovado}
 
 - **Noção:**
   - Situação de uma transação após a confirmação do pagamento pela instituição financeira.
 - **Impacto:**
-  - O [Vendedor](#) recebe uma notificação oficial para preparar e enviar o pedido.
-  - A transação é confirmada no histórico de compras do [Comprador](#) e de vendas do [Vendedor](#).
+  - O [Vendedor] recebe uma notificação oficial para preparar e enviar o pedido.
+  - A transação é confirmada no histórico de compras do [Comprador] e de vendas do [Vendedor].
   - Libera a próxima etapa do fluxo, que levará ao estado [Pedido Enviado](#l18-pedido-enviado).
+
+**Fonte:** Samuel, 2025.
 
 #### L18 - Pedido Enviado {#l18-pedido-enviado}
 
 - **Noção:**
-  - Situação de uma compra após o [Vendedor](#) despachar o produto e registrar o envio na plataforma.
+  - Situação de uma compra após o [Vendedor] despachar o produto e registrar o envio na plataforma.
 - **Impacto:**
-  - O [Comprador](#) é notificado de que seu pedido está a caminho.
-  - O código de rastreamento, se aplicável, é disponibilizado para o [Comprador](#).
-  - Habilita a ação de [Avaliar Transação](#) para o [Comprador](#) após o recebimento.
+  - O [Comprador] é notificado de que seu pedido está a caminho.
+  - O código de rastreamento, se aplicável, é disponibilizado para o [Comprador].
+  - Habilita a ação de [Avaliar Transação] para o [Comprador] após o recebimento.
+
+**Fonte:** Thiago, 2025.
 
 #### L19 - Pedido Entregue {#l19-pedido-entregue}
 
 - **Noção:**
-  - Situação final de uma transação, que ocorre quando o [Comprador](#) confirma o recebimento do produto em bom estado.
+  - Situação final de uma transação, que ocorre quando o [Comprador] confirma o recebimento do produto em bom estado.
 - **Impacto:**
   - O ciclo da transação é formalmente encerrado.
-  - Libera o pagamento para o [Vendedor](#), caso esteja retido pelo sistema.
-  - Permite que tanto o [Comprador](#) quanto o [Vendedor](#) realizem a [Avaliar Transação](#).
+  - Libera o pagamento para o [Vendedor], caso esteja retido pelo sistema.
+  - Permite que tanto o [Comprador] quanto o [Vendedor] realizem a [Avaliar Transação].
+
+**Fonte:** Vera, 2025.
 
 #### L20 - Pedido Cancelado {#l20-pedido-cancelado}
 
 - **Noção:**
-  - Situação de uma transação que foi interrompida e anulada antes de ser concluída. O cancelamento pode ocorrer por falta de pagamento, a pedido do [Comprador](#) ou por impossibilidade de envio pelo [Vendedor](#).
+  - Situação de uma transação que foi interrompida e anulada antes de ser concluída. O cancelamento pode ocorrer por falta de pagamento, a pedido do [Comprador] ou por impossibilidade de envio pelo [Vendedor].
 - **Impacto:**
   - A transação é registrada como inválida no histórico de ambos os [Membros](#l01-membro).
-  - As [Cartas](#l08-carta) do pedido retornam ao estoque do [Vendedor](#) e ficam disponíveis para venda novamente.
-  - Dispara o envio de notificações para [Comprador](#) e [Vendedor](#) informando sobre o cancelamento.
+  - As [Cartas](#l08-carta) do pedido retornam ao estoque do [Vendedor] e ficam disponíveis para venda novamente.
+  - Dispara o envio de notificações para [Comprador] e [Vendedor] informando sobre o cancelamento.
+
+**Fonte:** Angélica, 2025.
 
 #### L21 - Carrinho Ativo {#l21-carrinho-ativo}
 
 - **Noção:**
   - Situação em que o [Carrinho de Compras](#l21-carrinho-ativo) de um [Membro](#l01-membro) contém um ou mais itens selecionados, mas a compra ainda não foi finalizada.
 - **Impacto:**
-  - Os itens no carrinho não ficam reservados no estoque do [Vendedor](#) e podem ser adquiridos por outro [Comprador](#).
+  - Os itens no carrinho não ficam reservados no estoque do [Vendedor] e podem ser adquiridos por outro [Comprador].
   - Permite ao [Membro](#l01-membro) adicionar mais itens, remover existentes ou alterar quantidades.
   - Ao finalizar a compra, transita para o estado [Pagamento Aprovado](#l17-pagamento-aprovado). Se esvaziado, retorna ao estado "Carrinho Vazio".
+
+**Fonte:** Angélica, 2025.
 
 ---
 
@@ -269,6 +311,10 @@ Para realizar a validação dos requisitos fizemos uma consulta com um Jogador d
 | Raissa   |      16.67%       |
 | Marcelo  |      16.67%       |
 
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de Versão
 
 | Versão |    Data    | Descrição                                      |                  Autor(es)                  | Revisor |
@@ -277,3 +323,4 @@ Para realizar a validação dos requisitos fizemos uma consulta com um Jogador d
 |  1.1   | 11/10/2025 | Adicionando Video de Validação                 |                   Raissa                    | Thiago  |
 |  1.2   | 11/10/2025 | Adicionando Video de Validação dos integrantes |                   Thiago                    | Raissa  |
 |  1.3   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos     | [Samuel](https://github.com/samuelncaetano) | Thiago  |
+|  1.4   | 27/10/2025 | Adicionando Agradecimentos                     |                  Angélica                   | Samuel  |
