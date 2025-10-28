@@ -40,6 +40,10 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | 26 {#v26} | A matriz de rastreabilidade contém informações de rastreabilidade entre requisitos e artefatos anteriores e posteriores do processo de desenvolvimento? | POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. 2. ed. Rocky Nook, 2015. p. 126.  |[Img - Item26](../../00_assets/images/elos/item26elos.png)      |Angélica|
 | 27 {#v27} | A rastreabilidade entre requisitos mapeia dependências entre requisitos?  | POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. 2. ed. Rocky Nook, 2015. p. 124.  |[Img - Item27](../../00_assets/images/elos/item27elos.png)      |Angélica|
 | 28 {#v28} | As informações de rastreabilidade são representadas de forma adequada (referências textuais, hiperlinks, matrizes)?  | POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. 2. ed. Rocky Nook, 2015. p. 124.  |[Img - Item28](../../00_assets/images/elos/item28elos.png)      |Angélica|
+| 29 | O registro segue as condições estabelecidas na definição do modelo? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
+| 30 | Foram definidas as entidades a serem rastreadas? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34  | [Img -Item29](../../00_assets/images/elos/item29elos.png) | Marcelo |
+| 31 | Os elos foram atualizados conforme surgiram modificações nas entidades e nos relacionamentos? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
+| 32 | O registro foi feito de forma explícita? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
 
 ## Referências
 
@@ -53,6 +57,7 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 |  Thiago    |                   |
 |  Vera      |                   |
 |  Angélica  |                   |
+|  Marcelo   |                   |               
 
 ## Histórico de versão
 
@@ -62,3 +67,4 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 |        |            |                                             |           |         |
 |  1.3   | 26/10/2025 | Adição de descrição, objetivo e metodologia | Vera      | Thiago  |
 |  1.4   | 27/10/2025 | Adição de um item de verficação             | Angélica  | Vera    |
+|  1.5  | 28/10/2025 | Adição de items de verficação 29-32           | Marcelo  | Vera    |
