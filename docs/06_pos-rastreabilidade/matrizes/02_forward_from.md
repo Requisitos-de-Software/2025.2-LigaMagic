@@ -23,7 +23,7 @@ Para realizar a análise de rastreabilidade forward-from, foram considerados os 
 
 ## Conteúdo
 
-
+### Requisitos Funcionais
 | ID  | Requisito e Descrição | Implementado | Cenário | Caso de Uso | Épico | Elos | História de Usuário |
 |:---:|:---|:---:|:---|:---|:---|:---:|:---|
 | **RF01** | **Permitir cadastro de usuário**<br>O sistema deve permitir que um novo usuário crie uma nova conta através do [cadastro](../../05_modelagem/02_lexicos/lexicos.md#l03-cadastrar), podendo ser [ membro](../../05_modelagem/02_lexicos/lexicos.md#l01-membro) ou [ visitante](../../05_modelagem/02_lexicos/lexicos.md#l02-visitante) | Sim | - | - | [Épico 3.1](../../05_modelagem/05_Agil/02_backlogs.md#bus09) | - | [US09](../../05_modelagem/05_Agil/01_historias_de_usuario.md#us09) |
