@@ -128,3 +128,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.1   | 24/10/2025 | Edição inicial do documento                               |  Thiago   |  Samuel  |
 |  1.2   | 28/10/2025 | Edição inicial dos hyperlinks na descrição dos requisitos | Angélica  |   Vera   |
 |  1.3   | 28/10/2025 | Adição de  agradecimento                                  |   Vera    | Angélica |
+|  1.4   | 28/10/2025 | Revisão de conteúdo                                 |   Raissa    | Angélica |

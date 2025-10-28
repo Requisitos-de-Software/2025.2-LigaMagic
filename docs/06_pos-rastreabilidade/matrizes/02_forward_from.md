@@ -122,3 +122,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.3   | 26/10/2025 | Adição dos hyperlinks (Cenário, Léxico, Caso de Uso, Épico e História de Usuário) |  Samuel   |  Thiago  |
 |  1.4   | 28/10/2025 | Adição dos hyperlinks e descrição na tabela de Requisitos Funcionais              | Angélica  |  Thiago  |
 |  1.5   | 28/10/2025 | Adição do Agradecimento                                                           |   Vera    | Angélica |
+|  1.6   | 28/10/2025 | Revisão de conteúdo                                                         |   Raissa    | Vera |
