@@ -98,7 +98,8 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 ### Requisitos Funcionais
 
-#### RF01 – Cadastro de usuário
+#### RF01 – Cadastro de usuário {#elo01}
+
 | Item                                      | Descrição|
 | ----------------------------------------- | -------------------|
 | Descrição do requisito                    | [RF01 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01)|
@@ -435,6 +436,64 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 **Fonte:** Thiago, 2025.
 
 
+#### RF39 – Os usuários devem ser capazes de visualizar decks
+
+| Item                                      | Descrição                                                                                                                                                                                                                              |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF25 – Os usuários devem ser capazes de visualizar decks publicados, com lista de cartas](../03_elicitacao/artefatos/requisitos_elicitados.md#rf25)                                                                                |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                            |
+| Origem do requisito                       | [OBS06](../03_elicitacao/observação)                                                                                                                                                                                   |
+| Elementos                                 | Cenário: [CE08](../05_modelagem/01_cenarios/cenarios.md#ce08); <br>Caso de Uso: [UC07](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc07); <br>História de Usuário: [US30](../05_modelagem/05_Agil/01_historias_de_usuario.md#us30) |
+| Elos Backward-from (tipo e justificativa) | Fonte — A estrutura de níveis de informação (Ambiental, Organizacional, Gerencial, Desenvolvimento) serve como base conceitual para a organização e visualização dos decks, estabelecendo a fundamentação teórica.                                                                            |
+| Elos Forward-from (tipo e justificativa)  | Representação — A visualização de decks materializa a estrutura conceitual em interface prática, permitindo aos usuários navegar e compreender as informações conforme os níveis estabelecidos.          |
+
+**Fonte:** Raissa, 2025.
+
+
+
+#### RF40 – Os usuários devem ser capazes de responder no fórum
+
+| Item                                      | Descrição                                                                                                                                                                                                                              |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF26 – Os usuários devem ser capazes de visualizar decks publicados, com lista de cartas](../03_elicitacao/artefatos/requisitos_elicitados.md#rf26)                                                                                |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                            |
+| Origem do requisito                       | [OBS07](../03_elicitacao/observação)                                                                                                                                                                                   |
+| Elementos                                 | Cenário: [CE11](../05_modelagem/01_cenarios/cenarios.md#ce11); <br>Caso de Uso: [UC09](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc09); <br>História de Usuário: [US27](../05_modelagem/05_Agil/01_historias_de_usuario.md#us27) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação evidencia a necessidade de um espaço colaborativo para discussão e troca de informações entre os usuários do sistema.                                                                           |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem definem como as funcionalidades do fórum devem operar, incluindo criação de tópicos, respostas e moderação, modelando o comportamento esperado.          |
+
+**Fonte:** Raissa, 2025.
+
+
+
+#### RF41 – Os usuários devem ser capazes de reportar problemas 
+
+| Item                                      | Descrição                                                                                                                                                                                                                              |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF37 – Os usuários devem ser capazes de reportar problemas relacionados à carta](../03_elicitacao/artefatos/requisitos_elicitados.md#rf37)                                                                                |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                            |
+| Origem do requisito                       | [OBS18](../03_elicitacao/observação)                                                                                                                                                                                   |
+| Elementos                                 | Cenário: [CE05](../05_modelagem/01_cenarios/cenarios.md#ce05); <br>Caso de Uso: [UC04](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc04); <br>História de Usuário: [US28](../05_modelagem/05_Agil/01_historias_de_usuario.md#us28) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação demonstra a necessidade de um canal estruturado para coleta e tratamento de problemas reportados pelos usuários.                                                                       |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem especificam o fluxo de reporte de problemas, incluindo categorização, priorização e acompanhamento, modelando o comportamento esperado do sistema.         |
+
+**Fonte:** Raissa, 2025.
+
+
+#### RF42 – Os usuários devem ser capazes de permitir controle de cookies
+
+| Item                                      | Descrição                                                                                                                                                                                                                              |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF38 – O sistema deve permitir que o usuário configure seu navegador para aceitar ou bloquear cookies](../03_elicitacao/artefatos/requisitos_elicitados.md#rf18)                                                                                |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                            |
+| Origem do requisito                       | [AD17](../03_elicitacao/observação)                                                                                                                                                                                   |
+| Elementos                                 | Cenário: [--](../05_modelagem/01_cenarios/cenarios.md#ce05); <br>Caso de Uso: [--](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc04); <br>História de Usuário: [US25](../05_modelagem/05_Agil/01_historias_de_usuario.md#us25) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD18) comprova a necessidade de conformidade com leis de proteção de dados e privacidade, exigindo controle explícito de cookies.                                                                      |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem definem a interface e fluxos para gerenciamento de cookies, modelando as interações do usuário com as configurações de privacidade.         |
+
+**Fonte:** Raissa, 2025.
+
+
 ### Requisitos Não Funcionais
 
 #### RNF05 – Exigir consentimento e concordância explícita		
@@ -533,3 +592,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.2   | 26/10/2025 | Adição dos elos (RF06, RF23, RF31, RF33, RF34, RF37 E RNF09)   |      Vera      | Angélica |
 |  1.3   | 26/10/2025 | Adição dos elos (RF04, RF21.2, RF27, RF30, RF32 E RNF07)   |      Marcelo    | Thiago |
 |  1.4   | 27/10/2025 | Adição dos elos (RF01, RF03, RF19, RF24, RNF05 E RNF14)    |      Angélica | Samuel |
+|  1.5   | 28/10/2025 | Adição dos elos 39 a 41    |     Raissa | Vera |
