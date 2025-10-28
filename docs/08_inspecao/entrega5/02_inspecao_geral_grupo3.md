@@ -1,14 +1,14 @@
-# Pós-Rastreabilidade - Grupo 2
+# Pós-Rastreabilidade - Grupo 3
 
 ## Descrição
 
-Documento baseado na lista de verificação feita para a entrega 5 do nosso grupo. Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a Entrega 5 do nosso grupo.
+Documento baseado na lista de verificação feita para a entrega 5 do nosso grupo. Esta lista de inspeção visa avaliar, por meio de perguntas objetivas, a completude e a qualidade dos itens exigidos para a Entrega 5 do grupo 3.
 
 ## Avaliação - GitHub Pages
 | ID  | Questão (O GitHub Pages possui)| Resposta (Conforme / Não Conforme / Incompleto/ Não se Aplica) | Versão, data e hora da avaliação |
 | :-: | :--------- | :-------------------------------: | :------------------------------: |
-| 01 | [A rastreabilidade cobre tanto requisitos funcionais quanto não-funcionais?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo2.md#v01)                |  ||
-| 02 | [A rastreabilidade identificou dependências críticas que impactam a evolução do sistema?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo2.md#v02)                |  ||
+| 01 | [A rastreabilidade cobre tanto requisitos funcionais quanto não-funcionais?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v01)                |  ||
+| 02 | [A rastreabilidade identificou dependências críticas que impactam a evolução do sistema?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v02)                |  ||
 
 
 ## Nível de Contribuição dos Integrantes

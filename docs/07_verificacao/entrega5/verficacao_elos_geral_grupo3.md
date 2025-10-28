@@ -1,4 +1,4 @@
-# Lista de Verificação Geral grupo 2
+# Lista de Verificação Geral grupo 3
 
 ## Descrição
 
@@ -26,4 +26,4 @@
 
 | Versão | Data       | Descrição                                   | Autor(es) | Revisor |
 |:------:|------------|:--------------------------------------------|:----------|:--------|
-|  1.1   | 28/10/2025 | Criação do documento e Adição de itens de verficação             | Angélica  | Vera    |
+|  1.1   | 28/10/2025 | Criação do documento e Adição de itens de verficação               | Angélica  | Vera    |
