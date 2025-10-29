@@ -150,6 +150,19 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Marcelo. 2025.
 
+#### RF05 – O sistema deve verificar veracidade de dados cadastrados
+
+| Item                                      | Descrição                                                                                                                                                                                                                           |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF05 – O sistema deve implementar mecanismos de validação de informações fornecidas pelos usuários.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf5)                                                               |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
+| Origem do requisito                       | [AD05](../03_elicitacao/tecnicas/analise_documentos.md#ad05)                                                                                                                                                                                |
+| Elementos                                 | História de Usuário: [US37](../05_modelagem/05_Agil/01_historias_de_usuario.md#us37--verificação-de-dados-cadastrados-us37) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD05) fornece a evidência necessária para a formulação do requisito, identificando inconsistências nos dados inseridos pelos usuários. Caracteriza-se como dependência de recurso, pois a necessidade foi inferida a partir do comportamento observado no sistema.        |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem e casos de uso descrevem como o sistema deve validar as informações inseridas, representando o comportamento de verificação de veracidade de dados. Opta-se por Representação, pois o requisito é modelado e não apenas satisfeito.                                                     |
+
+**Fonte:** Guilherme. 2025.
+
 #### RF06 – Inclusão de textos, descrição e fotos nos anúncios {#elo06}
 
 | Item                                          | Descrição                                                                                                                                                                                                                    |
@@ -162,6 +175,19 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 | Elos Forward-from</br>(tipo e justificativa)  | Representação — A história de usuário representa o comportamento de inclusão de textos, descrição e fotos nos anúncios. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.    |
 
 **Fonte:** Vera. 2025.
+
+#### RF09 – O sistema deve permitir troca de mensagens privadas
+
+| Item                                      | Descrição                                                                                                                                                                                                                           |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF09 – O sistema deve permitir que usuários troquem mensagens privadas de forma segura.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                               |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
+| Origem do requisito                       | [AD09](../03_elicitacao/tecnicas/analise_documentos.md#ad09)                                                                                                                                                                                |
+| Elementos                                 | História de Usuário: [US38](../05_modelagem/05_Agil/01_historias_de_usuario.md#us38--troca-de-mensagens-privadas-us38) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD09) fornece a evidência necessária para a formulação do requisito, identificando a necessidade de comunicação direta e reservada entre usuários. Configura uma dependência de recurso, pois o requisito foi derivado a partir de especificações e funcionalidades identificadas em sistemas semelhantes.       |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem e diagramas de interação representam o comportamento esperado da troca de mensagens privadas, incluindo a segurança e a privacidade na comunicação. Escolhe-se Representação, pois o requisito é modelado nos diagramas e fluxos de comunicação.                                                     |
+
+**Fonte:** Guilherme. 2025.
 
 #### RF10 – Deve permitir criação de páginas pessoais {#elo10}
 
@@ -202,6 +228,32 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
+#### RF13 – O sistema deve utilizar cookies para personalização
+
+| Item                                      | Descrição                                                                                                                                                                                                                           |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF13 – O sistema deve usar os dados pessoais para identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                               |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
+| Origem do requisito                       | [AD13](../03_elicitacao/tecnicas/analise_documentos.md#ad17)                                                                                                                                                                                |
+| Elementos                                 | História de Usuário: [US41](../05_modelagem/05_Agil/01_historias_de_usuario.md#us41--utilização-de-dados-para-finalidades-específicas-us41) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD13) fornece a evidência necessária para a formulação do requisito, identificando a necessidade de definir claramente as finalidades do uso de dados pessoais conforme princípios da LGPD. Trata-se de uma dependência de recurso, pois a origem documental sustenta a obrigatoriedade de uso limitado e transparente dos dados.     |
+| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos artefatos de modelagem e fluxos de gestão de serviços, descrevendo como os dados pessoais são utilizados de forma controlada e rastreável. Opta-se por Representação, pois o requisito é modelado como parte dos processos de gerenciamento de dados e comunicação.                                        |
+
+**Fonte:** Guilherme. 2025.
+
+#### RF15 – O sistema deve garantir os direitos dos titulares de dados
+
+| Item                                      | Descrição                                                                                                                                                                                                                           |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF15 – O sistema deve permitir que o usuário solicite acesso, correção, exclusão ou anonimização de seus dados pessoais.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                               |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
+| Origem do requisito                       | [AD15](../03_elicitacao/tecnicas/analise_documentos.md#ad09)                                                                                                                                                                                |
+| Elementos                                 | História de Usuário: [US39](../05_modelagem/05_Agil/01_historias_de_usuario.md#us39--verificação-de-dados-cadastrados-us39) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD15) fornece a evidência necessária para a formulação do requisito, ao identificar a obrigatoriedade de atender aos direitos dos titulares conforme a LGPD. Trata-se de uma dependência de recurso, pois a origem documental (legislação e políticas de privacidade) sustenta a necessidade do requisito.     |
+| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos diagramas de casos de uso e nos fluxos de gerenciamento de dados de usuários, descrevendo as ações de solicitação e tratamento de dados pessoais. Opta-se por Representação, pois o requisito é modelado como parte das funcionalidades de controle de privacidade.                                                     |
+
+**Fonte:** Guilherme. 2025.
+
 #### RF16 – Oferecer canal de contato para solicitações {#elo16}
 
 | Item                                      | Descrição                                                                                                                                                                                                     |
@@ -214,6 +266,20 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 | Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário representa como o canal de contato deve ser disponibilizado. Opta-se por Representação pois formaliza o requisito legal sem atestar implementação.                      |
 
 **Fonte:** Thiago, 2025.
+
+#### RF17 – O sistema deve utilizar cookies para personalização
+
+| Item                                      | Descrição                                                                                                                                                                                                                           |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF17 – O sistema deve utilizar cookies para facilitar o login e personalizar a experiência de navegação.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                               |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
+| Origem do requisito                       | [AD17](../03_elicitacao/tecnicas/analise_documentos.md#ad17)                                                                                                                                                                                |
+| Elementos                                 | História de Usuário: [US40](../05_modelagem/05_Agil/01_historias_de_usuario.md#us40--utilizar-cookies-para-personalização-us40) |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD17) fornece a evidência necessária para a formulação do requisito, ao identificar práticas comuns de personalização de experiência de usuário baseadas em cookies. Trata-se de uma dependência de recurso, pois a análise dos documentos de design e requisitos funcionais evidencia a necessidade de retenção de preferências e autenticação simplificada.     |
+| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos diagramas de casos de uso e nas especificações de interface, que descrevem como os cookies armazenam preferências e dados de sessão. Escolhe-se Representação, pois o comportamento de personalização é modelado como parte da navegação do sistema.                                                    |
+
+**Fonte:** Guilherme. 2025.
+
 
 #### RF19 – Solicitar atualização de dados pessoais {#elo19}
 
@@ -490,6 +556,19 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 ### Requisitos Não Funcionais
 
+#### RNF01 – Deve cumprir legislações aplicáveis		
+
+| Item| Descrição|
+|-------------------------------------------|----------------------|
+| Descrição do requisito                    | [RNF01 – O sistema deve cumprir a LGPD (Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis.](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf01)            |
+| Categoria                                 | Legal e Regulatório		|
+| Origem do requisito                       | [AD20](../03_elicitacao/tecnicas/analise_documentos.md#ad20)|
+| Elementos                                 | NFR Framework: [NFR04](../05_modelagem/05_Agil/03_nfr_framework.md#nfr04)     |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD20) fornece a evidência necessária para a formulação do requisito, identificando obrigações legais que o sistema deve atender. Configura dependência de recurso, pois a origem documental define explicitamente os requisitos normativos.|
+| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos artefatos de modelagem de segurança, privacidade e processos administrativos, descrevendo como o sistema atenderá às legislações. Opta-se por Representação, pois o requisito é modelado e não apenas satisfeito diretamente.|
+
+**Fonte:** Guilherme, 2025.
+
 #### RNF05 – Exigir consentimento e concordância explícita {#elon05}
 
 | Item                                      | Descrição                                                                                                                                                                                                                          |
@@ -574,6 +653,7 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | Vera     |       16,67       |
 | Marcelo  |       16,67       |
 | Raissa   |       16,67       |
+|Guilherme| |
 
 ## Histórico de versão
 
@@ -587,3 +667,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.3   | 26/10/2025 | Adição dos elos (RF04, RF21.2, RF27, RF30, RF32 E RNF07)       |    Marcelo     |  Thiago  |
 |  1.4   | 27/10/2025 | Adição dos elos (RF01, RF03, RF19, RF24, RNF05 E RNF14)        |    Angélica    |  Samuel  |
 |  1.5   | 28/10/2025 | Adição dos elos 39 a 41                                        |     Raissa     |   Vera   |
+|  1.6   | 28/10/2025 | Adição dos elos (RF05, RF09,  RF13, RF15, RF17 E RNF01)        |     Guilherme  |   Vera  |
