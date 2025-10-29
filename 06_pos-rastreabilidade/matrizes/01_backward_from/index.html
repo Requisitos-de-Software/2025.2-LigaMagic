@@ -4528,48 +4528,299 @@
 <li>RNFNIx - Requisitos Não Funcionais Não Implementados</li>
 </ul>
 <h3 id="requisitos-funcionais">Requisitos Funcionais<a class="headerlink" href="#requisitos-funcionais" title="Permanent link">&para;</a></h3>
-<p>|      ID      | Requisito                                      |          Categoria          | Descrição                                                                                                                                                                                                                                                                                                                                             | Fonte                                                           |
-| :----------: | :--------------------------------------------- | :-------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | --- | --- | ------------------------------------------------------------ | --------------------------------------------------------------- |
-|     RF01     | Permitir cadastro de usuário                   |  Gerenciamento de Usuários  | O sistema deve permitir que um novo usuário crie uma nova conta através do <a href="../../../05_modelagem/02_lexicos/lexicos/#l03-cadastrar">cadastro</a>, podendo ser <a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro"> membro</a> ou <a href="../../../05_modelagem/02_lexicos/lexicos/#l02-visitante"> visitante</a>                                                     | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad01">AD01</a> |
-|     RF02     | Verificar duplicação de cadastros              |  Gerenciamento de Usuários  | O sistema deve verificar se já existe um <a href="../../../05_modelagem/02_lexicos/lexicos/#l03-cadastrar">cadastro</a> para o usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) que está tentando fazer cadastro                                                                                                                           | Sim                                                             | -   | -   | <a href="../../../05_modelagem/05_Agil/02_backlogs/#bus03">Épico 3.1</a> | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad02">AD02</a> |
-|     RF03     | Permitir acesso via login e senha              |  Autenticação e Segurança   | O sistema deve permitir que usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) acesse sua conta utilizando o <a href="../../../05_modelagem/02_lexicos/lexicos/#l04-login">login</a> e senha cadastrados                                                                                                                                     | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad03">AD03</a> |
-|     RF04     | Restringir anúncios a produtos de Magic        | Gestão de Produtos/Serviços | sistema deve restringir anúncios a produtos e serviços relacionados ao jogo Magic: The Gathering, especificamente <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a>                                                                                                                                                                        | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad04">AD04</a> |
-|     RF05     | Verificar veracidade de dados cadastrados      |  Autenticação e Segurança   | O sistema deve implementar mecanismos de validação de informações fornecidas pelos usuários durante o <a href="../../../05_modelagem/02_lexicos/lexicos/#l03-cadastrar"> cadastro</a> de usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>)                                                                                                  | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad05">AD05</a> |
-|     RF06     | Incluir textos, descrição e fotos nos anúncios |     Gestão de Anúncios      | O sistema deve permitir que usuários insiram descrições detalhadas e imagens em seus anúncios                                                                                                                                                                                                                                                         | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad06">AD06</a> |
-|     RF07     | Facilitar contato direto com usuário           |         Comunicação         | O sistema deve disponibilizar meios de contato direto (chat ou mensagens) entre usuários                                                                                                                                                                                                                                                              | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad07">AD07</a> |
-|     RF08     | Implementar cobrança de anúncios e venda       |      Gestão Financeira      | O sistema deve permitir a cobrança de taxas sobre anúncios ou vendas realizadas pela plataforma                                                                                                                                                                                                                                                       | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad08">AD08</a> |
-|     RF09     | Permitir troca de mensagens privadas           |         Comunicação         | O sistema deve permitir que usuários troquem mensagens privadas de forma segura                                                                                                                                                                                                                                                                       | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad09">AD09</a> |
-|     RF10     | Permitir criação de páginas pessoais           |  Gerenciamento de Usuários  | O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional                                                                                                                                                                                                                                                       | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad10">AD10</a> |
-|     RF11     | Enviar e responder mensagens no fórum          |   Comunicação Comunitária   | O sistema deve possibilitar a participação dos usuários em fóruns de discussão (postagem e resposta)                                                                                                                                                                                                                                                  | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad11">AD11</a> |
-|     RF12     | Registrar dados pessoais do usuário            |  Gerenciamento de Usuários  | O sistema deve permitir o registro de dados como Nome, RG, CPF, Telefone, E-mail, Data de Nascimento e Endereço                                                                                                                                                                                                                                       | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad12">AD12</a> |
-|     RF13     | Utilizar dados para finalidades específicas    |     Gestão de Serviços      | O sistema deve usar os dados pessoais para identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações                                                                                                                                                                                                                    | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad13">AD13</a> |
-|     RF14     | Compartilhar dados com parceiros               |     Gestão de Serviços      | O sistema deve possibilitar o compartilhamento de dados pessoais com parceiros, respeitando finalidades declaradas                                                                                                                                                                                                                                    | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad14">AD14</a> |
-|     RF15     | Garantir direitos de titulares                 |  Gerenciamento de Usuários  | O sistema deve permitir que o usuário solicite acesso, correção, exclusão ou anonimização de seus dados pessoais                                                                                                                                                                                                                                      | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad15">AD15</a> |
-|     RF16     | Oferecer canal de contato para solicitações    |    Suporte e Atendimento    | O sistema deve disponibilizar canal (e-mail ou link) para o exercício dos direitos do titular                                                                                                                                                                                                                                                         | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad16">AD16</a> |
-|     RF17     | Utilizar cookies para personalização           |       Personalização        | O sistema deve utilizar cookies para facilitar login e personalizar a experiência de navegação                                                                                                                                                                                                                                                        | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad17">AD17</a> |
-|     RF18     | Permitir controle de cookies                   |       Personalização        | O sistema deve permitir que o usuário configure seu navegador para aceitar ou bloquear cookies                                                                                                                                                                                                                                                        | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad18">AD18</a> |
-|     RF19     | Solicitar atualização de dados pessoais        |  Gerenciamento de Usuários  | O sistema deve permitir que o usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) atualize seus dados pessoais e comunique alterações                                                                                                                                                                                             | <a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad19">AD19</a> |
-|     RF20     | Pesquisar cartas pelo nome                     |    Pesquisa e Filtragem     | Permitir que o usuário realize <a href="../../../05_modelagem/02_lexicos/lexicos/#l05-pesquisar-carta"> pesquisa de carta</a> pelo nome da <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a>                                                                                                                                                            | <a href="../../../03_elicitacao/tecnicas/observacao/#obs01">OBS01</a>       |
-|    RF21.1    | Filtrar cartas                                 |    Pesquisa e Filtragem     | Permitir que o usuário filtre <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a> por preço                                                                                                                                                                                                                                                  | <a href="../../../03_elicitacao/tecnicas/observacao/#obs02">OBS02</a>       |
-|    RF21.2    | Filtrar cartas                                 |    Pesquisa e Filtragem     | Permitir que o usuário filtre <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a> por condição                                                                                                                                                                                                                                               | <a href="../../../03_elicitacao/tecnicas/observacao/#obs02">OBS02</a>       |
-|    RF21.3    | Filtrar cartas                                 |    Pesquisa e Filtragem     | Permitir que o usuário filtre <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a> por idioma                                                                                                                                                                                                                                                 | <a href="../../../03_elicitacao/tecnicas/observacao/#obs02">OBS02</a>       |
-|     RF22     | Exibir resultados da pesquisa                  |    Pesquisa e Filtragem     | Mostrar preço, condição, idioma e reputação do vendedor ao <a href="../../../05_modelagem/02_lexicos/lexicos/#l05-pesquisar-carta"> pesquisar</a> uma <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a>                                                                                                                                                 | Sim                                                             | -   | -   | <a href="../../../05_modelagem/05_Agil/02_backlogs/#bus06">Épico 4.1</a> | <a href="../../../03_elicitacao/tecnicas/observacao/#obs03">OBS03</a>       |
-|     RF23     | Realizar compra                                |      Compra de Cartas       | Permitir que o usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) realize <a href="../../../05_modelagem/02_lexicos/lexicos/#l06-comprar-carta">comprar de carta</a> cadastradas, incluindo dados pessoais e endereço de entrega no <a href="../../../05_modelagem/02_lexicos/lexicos/#l21-carrinho-ativo">carrinho ativo</a>                            | <a href="../../../03_elicitacao/tecnicas/observacao/#obs04">OBS04</a>       |
-|     RF24     | Histórico de compras                           |  Gerenciamento de Usuários  | Permitir que o usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) acesse seu histórico de <a href="../../../05_modelagem/02_lexicos/lexicos/#l06-comprar-carta">comprar de carta</a> com informações detalhadas                                                                                                                              | <a href="../../../03_elicitacao/tecnicas/observacao/#obs05">OBS05</a>       |
-|     RF25     | Visualizar decks                               |    Interação com Cartas     | Permitir que o usuário visualize <a href="../../../05_modelagem/02_lexicos/lexicos/#l09-deck">decks</a> publicados, com lista de cartas                                                                                                                                                                                                                           | <a href="../../../03_elicitacao/tecnicas/observacao/#obs06">OBS06</a>       |
-|     RF26     | Fórum                                          |   Interação com Usuários    | Permitir que o usuário busque tópicos, leia, responda e crie postagens no <a href="../../../05_modelagem/02_lexicos/lexicos/#l13-forum">fórum</a>                                                                                                                                                                                                                 | <a href="../../../03_elicitacao/tecnicas/observacao/#obs07">OBS07</a>       |
-|     RF27     | Detalhar carta                                 |    Interação com Cartas     | Permitir que o usuário visualize detalhes de uma <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> ao clicar no resultado da pesquisa, incluindo <a href="../../../05_modelagem/02_lexicos/lexicos/#l11-edicao">edição</a>, <a href="../../../05_modelagem/02_lexicos/lexicos/#l12-formato">formato</a> e <a href="../../../05_modelagem/02_lexicos/lexicos/#l14-mana">mana</a> | <a href="../../../03_elicitacao/tecnicas/observacao/#obs08">OBS08</a>       |
-|     RF28     | Adicionar a listas                             |  Gerenciamento de Usuários  | Permitir que o usuário adicione cartas à <a href="../../../05_modelagem/02_lexicos/lexicos/#l10-colecao-de-cartas">coleção de cartas</a>, <a href="../../../05_modelagem/02_lexicos/lexicos/#l09-deck">deck</a> ou lista de desejos                                                                                                                                           | <a href="../../../03_elicitacao/tecnicas/observacao/#obs09">OBS09</a>       |
-|     RF29     | Avaliar ou dar feedback                        |   Interação com Usuários    | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                                                                                                                                                                                                                                                                | <a href="../../../03_elicitacao/tecnicas/observacao/#obs10">OBS10</a>       |
-|     RF30     | Mostrar informações detalhadas da carta        |    Interação com Cartas     | Mostrar <a href="../../../05_modelagem/02_lexicos/lexicos/#l11-edicao">edição</a>, idioma, condição e preço médio de cada <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a>, incluindo informações de <a href="../../../05_modelagem/02_lexicos/lexicos/#l14-mana">mana</a>                                                                                         | <a href="../../../03_elicitacao/tecnicas/observacao/#obs11">OBS11</a>       |
-|     RF31     | Definir alerta de preço                        |    Relatórios e Alertas     | Permitir que o usuário defina um alerta de preço para a <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> selecionada por <a href="../../../05_modelagem/02_lexicos/lexicos/#l11-edicao">edição</a>                                                                                                                                                     | <a href="../../../03_elicitacao/tecnicas/observacao/#obs12">OBS12</a>       |
-|     RF32     | Buscar decks relacionados                      |    Interação com Cartas     | Permitir que o usuário busque <a href="../../../05_modelagem/02_lexicos/lexicos/#l09-deck">decks</a> que utilizam a carta selecionada por <a href="../../../05_modelagem/02_lexicos/lexicos/#l12-formato">formato</a>                                                                                                                                                         | <a href="../../../03_elicitacao/tecnicas/observacao/#obs13">OBS13</a>       |
-|     RF33     | Visualizar preço médio por edição              |    Relatórios e Alertas     | Permitir que o usuário visualize o preço médio da <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> em diferentes <a href="../../../05_modelagem/02_lexicos/lexicos/#l11-edicao">edição</a> e condições                                                                                                                                                 | <a href="../../../03_elicitacao/tecnicas/observacao/#obs14">OBS14</a>       |
-|     RF34     | Acessar histórico de preços                    |    Relatórios e Alertas     | Permitir que o usuário acesse o histórico de preços da <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> em formato gráfico                                                                                                                                                                                                                 | <a href="../../../03_elicitacao/tecnicas/observacao/#obs15">OBS15</a>       |
-|     RF35     | Adicionar a diferentes listas                  |  Gerenciamento de Usuários  | Permitir que o usuário adicione a carta a diferentes listas (<a href="../../../05_modelagem/02_lexicos/lexicos/#l10-colecao-de-cartas">coleção de cartas</a>, <a href="../../../05_modelagem/02_lexicos/lexicos/#l09-deck">deck</a>, lista de desejos, carrinho)                                                                                                              | <a href="../../../03_elicitacao/tecnicas/observacao/#obs16">OBS16</a>       |
-|     RF36     | Compartilhar carta                             |   Interação com Usuários    | Permitir que o usuário compartilhe informações da <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> em redes sociais ou por link direto                                                                                                                                                                                                     | <a href="../../../03_elicitacao/tecnicas/observacao/#obs17">OBS17</a>       |
-|     RF37     | Reportar problemas                             |   Interação com Usuários    | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)                                                                                                                                                                                                                                         | <a href="../../../03_elicitacao/tecnicas/observacao/#obs18">OBS18</a>       |
-| RF38 {#rf38} | Gerenciar e Catalogar cartas                   |    Interação com Cartas     | s usuários devem ser capazes de catalogar e gerenciar sua <a href="../../../05_modelagem/02_lexicos/lexicos/#l10-colecao-de-cartas">coleção de cartas</a> pessoal de <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a>                                                                                                                                 | <a href="../tecnicas/entrevista.md#en01">EN01</a>                          |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th style="text-align: left;">Requisito</th>
+<th style="text-align: center;">Categoria</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: left;">Fonte</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">RF01</td>
+<td style="text-align: left;">Permitir cadastro de usuário</td>
+<td style="text-align: center;">Gerenciamento de Usuários</td>
+<td style="text-align: left;">O sistema deve permitir que um novo usuário crie uma nova conta através do <a href="../../../05_modelagem/02_lexicos/lexicos/#l03-cadastrar">cadastro</a>, podendo ser <a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a> ou <a href="../../../05_modelagem/02_lexicos/lexicos/#l02-visitante">visitante</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad01">AD01</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF02</td>
+<td style="text-align: left;">Verificar duplicação de cadastros</td>
+<td style="text-align: center;">Gerenciamento de Usuários</td>
+<td style="text-align: left;">O sistema deve verificar se já existe um <a href="../../../05_modelagem/02_lexicos/lexicos/#l03-cadastrar">cadastro</a> para o usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) que está tentando fazer cadastro</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad02">AD02</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF03</td>
+<td style="text-align: left;">Permitir acesso via login e senha</td>
+<td style="text-align: center;">Autenticação e Segurança</td>
+<td style="text-align: left;">O sistema deve permitir que usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) acesse sua conta utilizando o <a href="../../../05_modelagem/02_lexicos/lexicos/#l04-login">login</a> e senha cadastrados</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad03">AD03</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF04</td>
+<td style="text-align: left;">Restringir anúncios a produtos de Magic</td>
+<td style="text-align: center;">Gestão de Produtos/Serviços</td>
+<td style="text-align: left;">sistema deve restringir anúncios a produtos e serviços relacionados ao jogo Magic: The Gathering, especificamente <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad04">AD04</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF05</td>
+<td style="text-align: left;">Verificar veracidade de dados cadastrados</td>
+<td style="text-align: center;">Autenticação e Segurança</td>
+<td style="text-align: left;">O sistema deve implementar mecanismos de validação de informações fornecidas pelos usuários durante o <a href="../../../05_modelagem/02_lexicos/lexicos/#l03-cadastrar">cadastro</a> de usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>)</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad05">AD05</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF06</td>
+<td style="text-align: left;">Incluir textos, descrição e fotos nos anúncios</td>
+<td style="text-align: center;">Gestão de Anúncios</td>
+<td style="text-align: left;">O sistema deve permitir que usuários insiram descrições detalhadas e imagens em seus anúncios</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad06">AD06</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF07</td>
+<td style="text-align: left;">Facilitar contato direto com usuário</td>
+<td style="text-align: center;">Comunicação</td>
+<td style="text-align: left;">O sistema deve disponibilizar meios de contato direto (chat ou mensagens) entre usuários</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad07">AD07</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF08</td>
+<td style="text-align: left;">Implementar cobrança de anúncios e venda</td>
+<td style="text-align: center;">Gestão Financeira</td>
+<td style="text-align: left;">O sistema deve permitir a cobrança de taxas sobre anúncios ou vendas realizadas pela plataforma</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad08">AD08</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF09</td>
+<td style="text-align: left;">Permitir troca de mensagens privadas</td>
+<td style="text-align: center;">Comunicação</td>
+<td style="text-align: left;">O sistema deve permitir que usuários troquem mensagens privadas de forma segura</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad09">AD09</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF10</td>
+<td style="text-align: left;">Permitir criação de páginas pessoais</td>
+<td style="text-align: center;">Gerenciamento de Usuários</td>
+<td style="text-align: left;">O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad10">AD10</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF11</td>
+<td style="text-align: left;">Enviar e responder mensagens no fórum</td>
+<td style="text-align: center;">Comunicação Comunitária</td>
+<td style="text-align: left;">O sistema deve possibilitar a participação dos usuários em fóruns de discussão (postagem e resposta)</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad11">AD11</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF12</td>
+<td style="text-align: left;">Registrar dados pessoais do usuário</td>
+<td style="text-align: center;">Gerenciamento de Usuários</td>
+<td style="text-align: left;">O sistema deve permitir o registro de dados como Nome, RG, CPF, Telefone, E-mail, Data de Nascimento e Endereço</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad12">AD12</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF13</td>
+<td style="text-align: left;">Utilizar dados para finalidades específicas</td>
+<td style="text-align: center;">Gestão de Serviços</td>
+<td style="text-align: left;">O sistema deve usar os dados pessoais para identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad13">AD13</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF14</td>
+<td style="text-align: left;">Compartilhar dados com parceiros</td>
+<td style="text-align: center;">Gestão de Serviços</td>
+<td style="text-align: left;">O sistema deve possibilitar o compartilhamento de dados pessoais com parceiros, respeitando finalidades declaradas</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad14">AD14</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF15</td>
+<td style="text-align: left;">Garantir direitos de titulares</td>
+<td style="text-align: center;">Gerenciamento de Usuários</td>
+<td style="text-align: left;">O sistema deve permitir que o usuário solicite acesso, correção, exclusão ou anonimização de seus dados pessoais</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad15">AD15</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF16</td>
+<td style="text-align: left;">Oferecer canal de contato para solicitações</td>
+<td style="text-align: center;">Suporte e Atendimento</td>
+<td style="text-align: left;">O sistema deve disponibilizar canal (e-mail ou link) para o exercício dos direitos do titular</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad16">AD16</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF17</td>
+<td style="text-align: left;">Utilizar cookies para personalização</td>
+<td style="text-align: center;">Personalização</td>
+<td style="text-align: left;">O sistema deve utilizar cookies para facilitar login e personalizar a experiência de navegação</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad17">AD17</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF18</td>
+<td style="text-align: left;">Permitir controle de cookies</td>
+<td style="text-align: center;">Personalização</td>
+<td style="text-align: left;">O sistema deve permitir que o usuário configure seu navegador para aceitar ou bloquear cookies</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad18">AD18</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF19</td>
+<td style="text-align: left;">Solicitar atualização de dados pessoais</td>
+<td style="text-align: center;">Gerenciamento de Usuários</td>
+<td style="text-align: left;">O sistema deve permitir que o usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) atualize seus dados pessoais e comunique alterações</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/analise_documentos/#ad19">AD19</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF20</td>
+<td style="text-align: left;">Pesquisar cartas pelo nome</td>
+<td style="text-align: center;">Pesquisa e Filtragem</td>
+<td style="text-align: left;">Permitir que o usuário realize <a href="../../../05_modelagem/02_lexicos/lexicos/#l05-pesquisar-carta">pesquisa de carta</a> pelo nome da <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs01">OBS01</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF21.1</td>
+<td style="text-align: left;">Filtrar cartas</td>
+<td style="text-align: center;">Pesquisa e Filtragem</td>
+<td style="text-align: left;">Permitir que o usuário filtre <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a> por preço</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs02">OBS02</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF21.2</td>
+<td style="text-align: left;">Filtrar cartas</td>
+<td style="text-align: center;">Pesquisa e Filtragem</td>
+<td style="text-align: left;">Permitir que o usuário filtre <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a> por condição</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs02">OBS02</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF21.3</td>
+<td style="text-align: left;">Filtrar cartas</td>
+<td style="text-align: center;">Pesquisa e Filtragem</td>
+<td style="text-align: left;">Permitir que o usuário filtre <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a> por idioma</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs02">OBS02</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF22</td>
+<td style="text-align: left;">Exibir resultados da pesquisa</td>
+<td style="text-align: center;">Pesquisa e Filtragem</td>
+<td style="text-align: left;">Mostrar preço, condição, idioma e reputação do vendedor ao <a href="../../../05_modelagem/02_lexicos/lexicos/#l05-pesquisar-carta">pesquisar</a> uma <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs03">OBS03</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF23</td>
+<td style="text-align: left;">Realizar compra</td>
+<td style="text-align: center;">Compra de Cartas</td>
+<td style="text-align: left;">Permitir que o usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) realize <a href="../../../05_modelagem/02_lexicos/lexicos/#l06-comprar-carta">comprar de carta</a> cadastradas, incluindo dados pessoais e endereço de entrega no <a href="../../../05_modelagem/02_lexicos/lexicos/#l21-carrinho-ativo">carrinho ativo</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs04">OBS04</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF24</td>
+<td style="text-align: left;">Histórico de compras</td>
+<td style="text-align: center;">Gerenciamento de Usuários</td>
+<td style="text-align: left;">Permitir que o usuario (<a href="../../../05_modelagem/02_lexicos/lexicos/#l01-membro">membro</a>) acesse seu histórico de <a href="../../../05_modelagem/02_lexicos/lexicos/#l06-comprar-carta">comprar de carta</a> com informações detalhadas</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs05">OBS05</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF25</td>
+<td style="text-align: left;">Visualizar decks</td>
+<td style="text-align: center;">Interação com Cartas</td>
+<td style="text-align: left;">Permitir que o usuário visualize <a href="../../../05_modelagem/02_lexicos/lexicos/#l09-deck">decks</a> publicados, com lista de cartas</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs06">OBS06</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF26</td>
+<td style="text-align: left;">Fórum</td>
+<td style="text-align: center;">Interação com Usuários</td>
+<td style="text-align: left;">Permitir que o usuário busque tópicos, leia, responda e crie postagens no <a href="../../../05_modelagem/02_lexicos/lexicos/#l13-forum">fórum</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs07">OBS07</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF27</td>
+<td style="text-align: left;">Detalhar carta</td>
+<td style="text-align: center;">Interação com Cartas</td>
+<td style="text-align: left;">Permitir que o usuário visualize detalhes de uma <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> ao clicar no resultado da pesquisa, incluindo <a href="../../../05_modelagem/02_lexicos/lexicos/#l11-edicao">edição</a>, <a href="../../../05_modelagem/02_lexicos/lexicos/#l12-formato">formato</a> e <a href="../../../05_modelagem/02_lexicos/lexicos/#l14-mana">mana</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs08">OBS08</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF28</td>
+<td style="text-align: left;">Adicionar a listas</td>
+<td style="text-align: center;">Gerenciamento de Usuários</td>
+<td style="text-align: left;">Permitir que o usuário adicione cartas à <a href="../../../05_modelagem/02_lexicos/lexicos/#l10-colecao-de-cartas">coleção de cartas</a>, <a href="../../../05_modelagem/02_lexicos/lexicos/#l09-deck">deck</a> ou lista de desejos</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs09">OBS09</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF29</td>
+<td style="text-align: left;">Avaliar ou dar feedback</td>
+<td style="text-align: center;">Interação com Usuários</td>
+<td style="text-align: left;">Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs10">OBS10</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF30</td>
+<td style="text-align: left;">Mostrar informações detalhadas da carta</td>
+<td style="text-align: center;">Interação com Cartas</td>
+<td style="text-align: left;">Mostrar <a href="../../../05_modelagem/02_lexicos/lexicos/#l11-edicao">edição</a>, idioma, condição e preço médio de cada <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a>, incluindo informações de <a href="../../../05_modelagem/02_lexicos/lexicos/#l14-mana">mana</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs11">OBS11</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF31</td>
+<td style="text-align: left;">Definir alerta de preço</td>
+<td style="text-align: center;">Relatórios e Alertas</td>
+<td style="text-align: left;">Permitir que o usuário defina um alerta de preço para a <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> selecionada por <a href="../../../05_modelagem/02_lexicos/lexicos/#l11-edicao">edição</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs12">OBS12</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF32</td>
+<td style="text-align: left;">Buscar decks relacionados</td>
+<td style="text-align: center;">Interação com Cartas</td>
+<td style="text-align: left;">Permitir que o usuário busque <a href="../../../05_modelagem/02_lexicos/lexicos/#l09-deck">decks</a> que utilizam a carta selecionada por <a href="../../../05_modelagem/02_lexicos/lexicos/#l12-formato">formato</a></td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs13">OBS13</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF33</td>
+<td style="text-align: left;">Visualizar preço médio por edição</td>
+<td style="text-align: center;">Relatórios e Alertas</td>
+<td style="text-align: left;">Permitir que o usuário visualize o preço médio da <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> em diferentes <a href="../../../05_modelagem/02_lexicos/lexicos/#l11-edicao">edição</a> e condições</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs14">OBS14</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF34</td>
+<td style="text-align: left;">Acessar histórico de preços</td>
+<td style="text-align: center;">Relatórios e Alertas</td>
+<td style="text-align: left;">Permitir que o usuário acesse o histórico de preços da <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> em formato gráfico</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs15">OBS15</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF35</td>
+<td style="text-align: left;">Adicionar a diferentes listas</td>
+<td style="text-align: center;">Gerenciamento de Usuários</td>
+<td style="text-align: left;">Permitir que o usuário adicione a carta a diferentes listas (<a href="../../../05_modelagem/02_lexicos/lexicos/#l10-colecao-de-cartas">coleção de cartas</a>, <a href="../../../05_modelagem/02_lexicos/lexicos/#l09-deck">deck</a>, lista de desejos, carrinho)</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs16">OBS16</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF36</td>
+<td style="text-align: left;">Compartilhar carta</td>
+<td style="text-align: center;">Interação com Usuários</td>
+<td style="text-align: left;">Permitir que o usuário compartilhe informações da <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">carta</a> em redes sociais ou por link direto</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs17">OBS17</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">RF37</td>
+<td style="text-align: left;">Reportar problemas</td>
+<td style="text-align: center;">Interação com Usuários</td>
+<td style="text-align: left;">Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)</td>
+<td style="text-align: left;"><a href="../../../03_elicitacao/tecnicas/observacao/#obs18">OBS18</a></td>
+</tr>
+<tr>
+<td id="rf38" style="text-align: center;">RF38</td>
+<td style="text-align: left;">Gerenciar e Catalogar cartas</td>
+<td style="text-align: center;">Interação com Cartas</td>
+<td style="text-align: left;">s usuários devem ser capazes de catalogar e gerenciar sua <a href="../../../05_modelagem/02_lexicos/lexicos/#l10-colecao-de-cartas">coleção de cartas</a> pessoal de <a href="../../../05_modelagem/02_lexicos/lexicos/#l08-carta">cartas</a></td>
+<td style="text-align: left;"><a href="../tecnicas/entrevista.md#en01">EN01</a></td>
+</tr>
+</tbody>
+</table>
 <p><strong>Fonte:</strong> Samuel, 2025</p>
 <h3 id="requisitos-nao-funcionais">Requisitos Não Funcionais<a class="headerlink" href="#requisitos-nao-funcionais" title="Permanent link">&para;</a></h3>
 <table>
@@ -4750,6 +5001,10 @@
 </tr>
 <tr>
 <td style="text-align: left;">Marcelo</td>
+<td style="text-align: center;">16,67</td>
+</tr>
+<tr>
+<td style="text-align: left;">Raissa</td>
 <td style="text-align: center;">16,67</td>
 </tr>
 </tbody>
