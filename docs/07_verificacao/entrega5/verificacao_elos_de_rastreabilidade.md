@@ -58,14 +58,14 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome | % de Contribuição |
-| ---- | ----------------- |
-|  Samuel    |                   |
-|  Thiago    |                   |
-|  Vera      |                   |
-|  Angélica  |                   |
-|  Marcelo   |                   |  
-Raissa  |                   |               
+| Nome     | % de Contribuição  |
+|----------|--------------------|
+| Samuel   |                    |
+| Thiago   |                    |
+| Vera     |                    |
+| Angélica |                    |
+| Marcelo  |                    |  
+|  Raissa  |                    |               
 
 ## Histórico de versão
 
