@@ -61,13 +61,13 @@ Fonte: Thiago, 2025
 
 | Nome | % de Contribuição |
 | :--- | :---------------: |
-|   Angélica    ||
-|   Thiago    ||
-|   Marcelo    ||
-|   Guilherme    ||
-|   Samuel    ||
-|   Raissa    ||
-|   Vera    ||
+|   Angélica    |14,28%|
+|   Thiago    |14,28%|
+|   Marcelo    |14,28%|
+|   Guilherme    |14,28%|
+|   Samuel    |14,28%|
+|   Raissa    |14,28%|
+|   Vera    |14,28%|
 
 ## Video de inspeção 
 
