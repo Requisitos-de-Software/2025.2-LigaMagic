@@ -150,7 +150,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Marcelo. 2025.
 
-#### RF05 – O sistema deve verificar veracidade de dados cadastrados
+#### RF05 – O sistema deve verificar veracidade de dados cadastrados {#elo05}
 
 | Item                                      | Descrição                                                                                                                                                                                                                           |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -176,7 +176,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Vera. 2025.
 
-#### RF09 – O sistema deve permitir troca de mensagens privadas
+#### RF09 – O sistema deve permitir troca de mensagens privadas {#elo09}
 
 | Item                                      | Descrição                                                                                                                                                                                                                           |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -228,7 +228,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
-#### RF13 – O sistema deve utilizar cookies para personalização
+#### RF13 – O sistema deve utilizar cookies para personalização {#elo13}
 
 | Item                                      | Descrição                                                                                                                                                                                                                           |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -241,7 +241,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Guilherme. 2025.
 
-#### RF15 – O sistema deve garantir os direitos dos titulares de dados
+#### RF15 – O sistema deve garantir os direitos dos titulares de dados {#elo15}
 
 | Item                                      | Descrição                                                                                                                                                                                                                           |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -267,7 +267,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 **Fonte:** Thiago, 2025.
 
-#### RF17 – O sistema deve utilizar cookies para personalização
+#### RF17 – O sistema deve utilizar cookies para personalização {#elo17}
 
 | Item                                      | Descrição                                                                                                                                                                                                                           |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -556,16 +556,16 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 ### Requisitos Não Funcionais
 
-#### RNF01 – Deve cumprir legislações aplicáveis		
+#### RNF01 – Deve cumprir legislações aplicáveis {#elon01}		
 
-| Item| Descrição|
-|-------------------------------------------|----------------------|
-| Descrição do requisito                    | [RNF01 – O sistema deve cumprir a LGPD (Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis.](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf01)            |
-| Categoria                                 | Legal e Regulatório		|
-| Origem do requisito                       | [AD20](../03_elicitacao/tecnicas/analise_documentos.md#ad20)|
-| Elementos                                 | NFR Framework: [NFR04](../05_modelagem/05_Agil/03_nfr_framework.md#nfr04)     |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD20) fornece a evidência necessária para a formulação do requisito, identificando obrigações legais que o sistema deve atender. Configura dependência de recurso, pois a origem documental define explicitamente os requisitos normativos.|
-| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos artefatos de modelagem de segurança, privacidade e processos administrativos, descrevendo como o sistema atenderá às legislações. Opta-se por Representação, pois o requisito é modelado e não apenas satisfeito diretamente.|
+| Item                                      | Descrição                                                                                                                                                                                                                                                                      |
+|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Descrição do requisito                    | [RNF01 – O sistema deve cumprir a LGPD (Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis.](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf01)                                                                                     |
+| Categoria                                 | Legal e Regulatório		                                                                                                                                                                                                                                                          |
+| Origem do requisito                       | [AD20](../03_elicitacao/tecnicas/analise_documentos.md#ad20)                                                                                                                                                                                                                   |
+| Elementos                                 | NFR Framework: [NFR04](../05_modelagem/05_Agil/03_nfr_framework.md#nfr04)                                                                                                                                                                                                      |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD20) fornece a evidência necessária para a formulação do requisito, identificando obrigações legais que o sistema deve atender. Configura dependência de recurso, pois a origem documental define explicitamente os requisitos normativos. |
+| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos artefatos de modelagem de segurança, privacidade e processos administrativos, descrevendo como o sistema atenderá às legislações. Opta-se por Representação, pois o requisito é modelado e não apenas satisfeito diretamente.   |
 
 **Fonte:** Guilherme, 2025.
 
@@ -645,15 +645,15 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Nível de Contribuição dos Integrantes
 
-| Nome     | % de Contribuição |
-| :------- | :---------------: |
-| Samuel   |       16,67       |
-| Thiago   |       16,67       |
-| Angélica |       16,67       |
-| Vera     |       16,67       |
-| Marcelo  |       16,67       |
-| Raissa   |       16,67       |
-|Guilherme| |
+| Nome      | % de Contribuição |
+|:----------|:-----------------:|
+| Samuel    |       14,28       |
+| Thiago    |       14,28       |
+| Angélica  |       14,28       |
+| Vera      |       14,28       |
+| Marcelo   |       14,28       |
+| Raissa    |       14,28       |
+| Guilherme |      14,28        |
 
 ## Histórico de versão
 
