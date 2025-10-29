@@ -40,16 +40,16 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | 26 {#v26} | A matriz de rastreabilidade contém informações de rastreabilidade entre requisitos e artefatos anteriores e posteriores do processo de desenvolvimento? | POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. 2. ed. Rocky Nook, 2015. p. 126.  |[Img - Item26](../../00_assets/images/elos/item26elos.png)      |Angélica|
 | 27 {#v27} | A rastreabilidade entre requisitos mapeia dependências entre requisitos?  | POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. 2. ed. Rocky Nook, 2015. p. 124.  |[Img - Item27](../../00_assets/images/elos/item27elos.png)      |Angélica|
 | 28 {#v28} | As informações de rastreabilidade são representadas de forma adequada (referências textuais, hiperlinks, matrizes)?  | POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamentals: A Study Guide for the Certified Professional for Requirements Engineering Exam - Foundation Level - IREB compliant. 2. ed. Rocky Nook, 2015. p. 124.  |[Img - Item28](../../00_assets/images/elos/item28elos.png)      |Angélica|
-| 29 | O registro segue as condições estabelecidas na definição do modelo? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
-| 30 | Foram definidas as entidades a serem rastreadas? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34  | [Img -Item29](../../00_assets/images/elos/item29elos.png) | Marcelo |
-| 31 | Os elos foram atualizados conforme surgiram modificações nas entidades e nos relacionamentos? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
-| 32 | O registro foi feito de forma explícita? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item32](../../00_assets/images/elos/item29elos.png)| Marcelo |
+| 29 {#v29}| O registro segue as condições estabelecidas na definição do modelo? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
+| 30 {#v30}| Foram definidas as entidades a serem rastreadas? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34  | [Img -Item29](../../00_assets/images/elos/item29elos.png) | Marcelo |
+| 31 {#v31}| Os elos foram atualizados conforme surgiram modificações nas entidades e nos relacionamentos? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item29](../../00_assets/images/elos/item29elos.png)| Marcelo |
+| 32 {#v32}| O registro foi feito de forma explícita? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 26, p.34 | [Img -Item32](../../00_assets/images/elos/item29elos.png)| Marcelo |
 | 33 {#v33} | No meta-modelo estão identificados os seguintes tipos de elos: satisfação, recurso, responsabilidade, representação, alocado e agregação? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item32](../../00_assets/images/elos/elo29.png) | Raissa |
-| 33 {#v30} | Na proposta de Toranzo para rastreabilidade foram utilizadas quatro estratégias? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item33](../../00_assets/images/elos/elo30.png) | Raissa |
-| 34 {#v31} | As informações foram classificadas em quatro níveis? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item34](../../00_assets/images/elos/elo31.png) | Raissa |
-| 35 {#v32} | Os requisitos estão devidamente alocados a subsistemas? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item35](../../00_assets/images/elos/elo32.png) | Raissa |
-| 36 {#v33} | Há registro de dependência de recurso entre requisitos? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item36](../../00_assets/images/elos/elo33.png) | Raissa |
-| 37 {#v34} | Tem elos de satisfação que estão vinculados com requisitos a artefatos de projeto? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item37](../../00_assets/images/elos/elo34.png) | Raissa |
+| 34 {#v34} | Na proposta de Toranzo para rastreabilidade foram utilizadas quatro estratégias? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item33](../../00_assets/images/elos/elo30.png) | Raissa |
+| 35 {#v35} | As informações foram classificadas em quatro níveis? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item34](../../00_assets/images/elos/elo31.png) | Raissa |
+| 36 {#v36} | Os requisitos estão devidamente alocados a subsistemas? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item35](../../00_assets/images/elos/elo32.png) | Raissa |
+| 37 {#v37} | Há registro de dependência de recurso entre requisitos? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item36](../../00_assets/images/elos/elo33.png) | Raissa |
+| 38 {#v38} | Tem elos de satisfação que estão vinculados com requisitos a artefatos de projeto? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item37](../../00_assets/images/elos/elo34.png) | Raissa |
 
 
 ## Referências

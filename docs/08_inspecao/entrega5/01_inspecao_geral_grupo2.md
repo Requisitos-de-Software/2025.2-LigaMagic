@@ -11,6 +11,8 @@ Documento baseado na lista de verificação feita para a entrega 5 do nosso grup
 | 02  | [A rastreabilidade identificou dependências críticas que impactam a evolução do sistema?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo2.md#v02)                                     |                                                                  |                                  |
 | 03  | [Possui um tópico de agradecimento informando o uso de Inteligência Artificial (IA) Generativa no documento Backward-From  ?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo2.md#v03) |                                                                  |                                  |
 | 04  | [Possui um tópico de agradecimento informando o uso de Inteligência Artificial (IA) Generativa no documento Forward-From  ?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo2.md#v04)  |                                                                  |                                  |
+| 05  | [A rastreabilidade estabelecida garante que cada requisito está ligado a um ou mais casos de teste que o verificam?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo2.md#v05)           |                                                                  |                                  |
+| 06  | [A rastreabilidade permite identificar requisitos que não possuem um vínculo rastreável de volta à sua fonte ou origem (ex: um objetivo de negócio, uma fonte, um stakeholder)?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo2.md#v06) |                                                                  |                                  |
 
 
 ## Nível de Contribuição dos Integrantes
@@ -34,4 +36,5 @@ Documento baseado na lista de verificação feita para a entrega 5 do nosso grup
 |:------:|:----------:|:-----------------------------|:---------:|:-----------:|
 |  1.0   | 25/10/2025 | Criação inicial do Documento |  Thiago   |   Samuel    |
 |  1.1   | 28/10/2025 | Adição de dois itens         | Angélica  |   Samuel    |
-|  1.3   | 28/10/2025 | Adição dos itens 03 e 04     |   Vera    |  Angélica   |
+|  1.2   | 28/10/2025 | Adição dos itens 03 e 04     |   Vera    |  Angélica   |
+|  1.3   | 29/10/2025 | Adição dos itens 05 e 06     |   Thiago    |  Angélica   |
