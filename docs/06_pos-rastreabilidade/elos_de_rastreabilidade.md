@@ -567,15 +567,13 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 ## Nível de Contribuição dos Integrantes
 
 | Nome     | % de Contribuição |
-
-|:---------|:-----------------:|
+| :------- | :---------------: |
 | Samuel   |       16,67       |
 | Thiago   |       16,67       |
 | Angélica |       16,67       |
-| Vera     |       16,67       |      
+| Vera     |       16,67       |
 | Marcelo  |       16,67       |
-
-
+| Raissa   |       16,67       |
 
 ## Histórico de versão
 

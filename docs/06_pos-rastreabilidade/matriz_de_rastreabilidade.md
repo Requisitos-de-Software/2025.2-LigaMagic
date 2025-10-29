@@ -113,6 +113,7 @@ Fonte: Vera, 2025
 | Angélica |       16,67       |
 | Vera     |       16,67       |
 | Marcelo  |       16,67       |
+| Raissa   |       16,67       |
 
 ## Agradecimento
 
