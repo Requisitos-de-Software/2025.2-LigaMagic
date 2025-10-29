@@ -11,8 +11,8 @@ Documento baseado na lista de verificação feita para a entrega 5 do nosso grup
 | 02 | [A rastreabilidade identificou dependências críticas que impactam a evolução do sistema?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v02)                |  ||
 | 03  | [Possui um tópico de agradecimento informando o uso de Inteligência Artificial (IA) Generativa no documento Backward-From  ?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v03) |                                                                  |                                  |
 | 04  | [Possui um tópico de agradecimento informando o uso de Inteligência Artificial (IA) Generativa no documento Forward-From  ?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v04)  |                                                                  |                                  |
-| 05  | [A rastreabilidade estabelecida garante que cada requisito está ligado a um ou mais casos de teste que o verificam?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v05)           |                                                                  |                                  |
-| 06  | [A rastreabilidade permite identificar requisitos que não possuem um vínculo rastreável de volta à sua fonte ou origem (ex: um objetivo de negócio, uma fonte, um stakeholder)?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v06) |                                                                  |                                  |
+| 05  | [A rastreabilidade estabelecida garante que cada requisito está ligado a um ou mais casos de teste que o verificam?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v05)           |                            Não se Aplica                                      |      1.0, 29/10/2025 22:00                            |
+| 06  | [A rastreabilidade permite identificar requisitos que não possuem um vínculo rastreável de volta à sua fonte ou origem (ex: um objetivo de negócio, uma fonte, um stakeholder)?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v06) |                            Conforme                                      |      1.0, 29/10/2025 22:00                            |
 | 07  | [Cada documento (requisito, cenário, caso de uso, épico etc.) está interligado via hiperlinks bidirecionais (backward e forward)?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v07) |                                                                  |                                  |
 | 08  | [Há uma seção introdutória explicando o Meta-Modelo de Toranzo e como ele foi aplicado no projeto?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v08) |                                                                  |                                  |
 | 09  | [Foram implementados elos Backward-from, ligando cada elemento à sua origem (ex.: requisito <---> técnica de elicitação)?](../../07_verificacao/entrega5/verficacao_elos_geral_grupo3.md#v09) |                                                                  |                                  |
@@ -35,6 +35,7 @@ Documento baseado na lista de verificação feita para a entrega 5 do nosso grup
 
 ## Video de inspeção 
 
+[Vídeo Inspeção Geral Grupo 3 por Thiago](https://youtu.be/ERXv9Rgjb9M)
 
 ## Histórico de versão
 
@@ -44,3 +45,4 @@ Documento baseado na lista de verificação feita para a entrega 5 do nosso grup
 |1.1       |  28/10/2025          |      Adição de dois itens                          |  Angélica         |                Samuel                                    |
 |1.2       |  29/10/2025          |      Adição dos itens 3 até   6                       |  Thiago         |                Samuel                                    |
 |1.3       |  29/10/2025          |      Adição dos itens do Samuel                       |  Thiago         |                Samuel                                    |
+|1.4       |  29/10/2025          |      Adição do Vídeo Inspeção Thiago                       |  Thiago         |                Samuel                                    |
