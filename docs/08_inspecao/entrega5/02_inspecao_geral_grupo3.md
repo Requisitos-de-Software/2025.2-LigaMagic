@@ -34,6 +34,7 @@ Documento baseado na lista de verificação feita para a entrega 5 do nosso grup
 |   Vera    |  14,28%    |
 
 ## Video de inspeção 
+[Vídeo Inspeção Geral Grupo 3 ](https://youtu.be/YGClBwdBMqA )
 
 [Vídeo Inspeção Geral Grupo 3 por Thiago](https://youtu.be/ERXv9Rgjb9M)
 
