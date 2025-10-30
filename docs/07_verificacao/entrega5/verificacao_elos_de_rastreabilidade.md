@@ -50,6 +50,12 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | 36 {#v36} | Os requisitos estão devidamente alocados a subsistemas? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item36](../../00_assets/images/elos/elo36.png) | Raissa |
 | 37 {#v37} | Há registro de dependência de recurso entre requisitos? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item37](../../00_assets/images/elos/elo37.png) | Raissa |
 | 38 {#v38} | Tem elos de satisfação que estão vinculados com requisitos a artefatos de projeto? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item38](../../00_assets/images/elos/elo38.png) | Raissa |
+| 39 {#v38} | Existem entidades/artefatos explicitamente listados para serem rastreados no projeto? | (SAYÃO; LEITE, 2005, p. 15) | [Img - Item39](../../00_assets/images/elos/elo39.png) | Guilherme |
+| 40 {#v38} | Há um procedimento/arquivo onde os elos são registrados explicitamente (matriz, hiperlink, ferramenta)? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item40](../../00_assets/images/elos/elo40.png) | Guilherme|
+| 41 {#v38} | Existe um mecanismo para recuperar/consultar rapidamente os artefatos associados a um requisito? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item41](../../00_assets/images/elos/elo41.png) | Guilherme |
+| 42 {#v38} | Há procedimento para atualizar os elos quando um artefato ou requisito muda? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item42](../../00_assets/images/elos/elo42.png) | Guilherme|
+| 43 {#v38} | Foram identificadas e documentadas as ferramentas que suportam rastreabilidade (equipe sabe onde registrar/extrair elos)? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item43](../../00_assets/images/elos/elo43.png) | Guilherme|
+| 44 {#v38} | Existe rotina durante o desenvolvimento para verificar se os elos estão sendo efetivamente registrados pela equipe? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item44](../../00_assets/images/elos/elo44.png) | Guilherme|
 
 ## Referências
 
@@ -64,7 +70,8 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | Vera     |                    |
 | Angélica |                    |
 | Marcelo  |                    |  
-|  Raissa  |                    |               
+|  Raissa  |                    |      
+|  Guilherme |                    |             
 
 ## Histórico de versão
 
@@ -77,4 +84,5 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 |  1.5  | 28/10/2025 | Adição de items de verficação 29-32           | Marcelo  | Vera    |
 |  1.6  | 28/10/2025 | Adição de items de verficação 33-37           | Raissa  | Vera    |
 |  1.7  | 29/10/2025 | Arrumando imagens dos itens          | Raissa  | Angélica    |
+|  1.8  | 29/10/2025 | Adição de items de verficação 39-44               | Guilherme | Angélica    |
 
