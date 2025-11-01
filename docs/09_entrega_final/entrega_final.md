@@ -31,22 +31,22 @@ Para a realização desta entrega, as seguintes etapas foram seguidas:
 ### Verificação
 Abaixo estão os links para as listas de verificação revisadas:
 
-| Documento                 | Itens Verificados | Link para as listas     |
-| ------------------------- | ----------------- | ----------------------- |
-| Rich Picture              |                  | [Link para evidência](#) |
-| Perfil do Usuário         |                  | [Link para evidência](#) |
-| Elicitação de Requisitos  |                  | [Link para evidência](#) |
-| Priorização de Requisitos |                  | [Link para evidência](#) |
-| Cenários                  |                  | [Link para evidência](#) |
-| Léxicos                   |                  | [Link para evidência](#) |
-| Casos de Uso              |                  | [Link para evidência](#) |
-| Especificação Suplementar |                  | [Link para evidência](#) |
-| Histórias de Usuário      |                  | [Link para evidência](#) |
-| Backlog                   |                  | [Link para evidência](#) |
-| NFR Framework             |                  | [Link para evidência](#) |
-| Matriz de Rastreabilidade |                  | [Link para evidência](#) |
-| Elos                      |                  | [Link para evidência](#) |
-| Rastreabilidade           |                  | [Link para evidência](#) |
+| Documento                 | Itens Verificados | Link para as listas     |Autores    |Revisores  |
+| ------------------------- | ----------------- | ----------------------- |---------- |---------- |
+| Rich Picture              |                  | [Link para evidência](#) | | |
+| Perfil do Usuário         |                  | [Link para evidência](#) | | |
+| Elicitação de Requisitos  |                  | [Link para evidência](#) | | |
+| Priorização de Requisitos |                  | [Link para evidência](#) | | |
+| Cenários                  |                  | [Link para evidência](#) | | |
+| Léxicos                   |                  | [Link para evidência](#) | | |
+| Casos de Uso              |                  | [Link para evidência](#) | | |
+| Especificação Suplementar |                  | [Link para evidência](#) | | |
+| Histórias de Usuário      |                  | [Link para evidência](#) | | |
+| Backlog                   |                  | [Link para evidência](#) | | |
+| NFR Framework             |                  | [Link para evidência](#) | | |
+| Matriz de Rastreabilidade |                  | [Link para evidência](#) | | |
+| Elos                      |                  | [Link para evidência](#) | | |
+| Rastreabilidade           |                  | [Link para evidência](#) | | |
 
 ### Protótipos desenvolvidos
 Foram desenvolvidos protótipos para os seguintes requisitos funcionais não implementados:
