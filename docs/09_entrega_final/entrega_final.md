@@ -28,7 +28,11 @@ Para a realização desta entrega, as seguintes etapas foram seguidas:
     - Os protótipos foram apresentados aos usuários para coleta de feedback, com gravação do processo de validação e registro dos resultados.
 
 ## Conteúdo
-### Verificação
+### Organização da Verificação
+#### Verificação das Listas de Verificação
+A verificação consiste em revisar os artefatos produzidos nas etapas anteriores, avaliando se estão corretos, completos e em conformidade com o padrão definido pelo grupo.
+Também foram verificadas as listas de verificação associadas a cada artefato, assegurando rastreabilidade e coerência entre documentos.
+
 Abaixo estão os links para as listas de verificação revisadas:
 
 | Documento                 | Itens Verificados | Link para as listas     |Autores    |Revisores  |
@@ -47,6 +51,67 @@ Abaixo estão os links para as listas de verificação revisadas:
 | Matriz de Rastreabilidade |                  | [Link para evidência](#) | | |
 | Elos                      |                  | [Link para evidência](#) | | |
 | Rastreabilidade           |                  | [Link para evidência](#) | | |
+
+#### Verificação dos Artefatos das etapas anteriores
+Aqui vocês verificam os próprios documentos (Rich Pictures, Léxicos, Backlog, etc.): 
+
+##### Etapa 1
+| Artefato                  |  Link para as listas     |Autores    |Revisores  |
+| ------------------------- |  ----------------------- |---------- |---------- |
+| Planejamento do Projeto   | [Link para evidência](#) | | |
+| Equipe   | [Link para evidência](#) | | |
+| Heatmap de disponibilidade dos integrantes   | [Link para evidência](#) | | |
+| Lista de Apps avaliados  | [Link para evidência](#) | | |
+| App selecionado para o projeto  | [Link para evidência](#) | | |
+| Cópia do Termo de Uso do aplicativo  | [Link para evidência](#) | | |
+| Ferramentas do projeto  | [Link para evidência](#) | | |
+| Cronograma detalhado das atividades  | [Link para evidência](#) | | |
+| Rich Picture              | [Link para evidência](#) | | |
+| Tabela de contribuição dos integrantes  | [Link para evidência](#) | | |
+
+
+##### Etapa 2
+| Artefatos                  |  Link para as listas     |Autores    |Revisores  |
+| ------------------------- |  ----------------------- |---------- |---------- |
+| Perfil do Usuário         | [Link para evidência](#) | | |
+| Glossário | [Link para evidência](#) | | |
+
+| Técnicas de Elicitação de Requisitos|  Link para as listas     |Autores    |Revisores  |
+| ------------------------- |  ----------------------- |---------- |---------- |
+| Análise de Documentos | [Link para evidência](#) | | |
+| Entrevista | [Link para evidência](#) | | |
+| Observação | [Link para evidência](#) | | |
+
+| Técnicas de Priorização de Requisitos|  Link para as listas     |Autores    |Revisores  |
+| ------------------------- |  ----------------------- |---------- |---------- |
+| In or Out | [Link para evidência](#) | | |
+| MoSCoW | [Link para evidência](#) | | |
+| Pairwise Comparison | [Link para evidência](#) | | |
+| Three Level Scale | [Link para evidência](#) | | |
+
+##### Etapa 3
+| Artefatos                  |  Link para as listas     |Autores    |Revisores  |
+| ------------------------- |  ----------------------- |---------- |---------- |
+| Cenários                  | [Link para evidência](#) | | |
+| Léxicos                   | [Link para evidência](#) | | |
+| Casos de Uso              | [Link para evidência](#) | | |
+| Especificação Suplementar | [Link para evidência](#) | | |
+
+##### Etapa 4
+
+| Artefatos                  |  Link para as listas     |Autores    |Revisores  |
+| ------------------------- |  ----------------------- |---------- |---------- |
+| Histórias de Usuário      | [Link para evidência](#) | | |
+| Backlog                   | [Link para evidência](#) | | |
+| NFR Framework             | [Link para evidência](#) | | |
+
+##### Etapa 5
+| Artefatos                  |  Link para as listas     |Autores    |Revisores  |
+| ------------------------- |  ----------------------- |---------- |---------- |
+| Matriz de Rastreabilidade | [Link para evidência](#) | | |
+| Elos                      | [Link para evidência](#) | | |
+| Rastreabilidade           | [Link para evidência](#) | | |
+
 
 ### Protótipos desenvolvidos
 Foram desenvolvidos protótipos para os seguintes requisitos funcionais não implementados:
