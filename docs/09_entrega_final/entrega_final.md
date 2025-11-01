@@ -53,8 +53,9 @@ Foram desenvolvidos protótipos para os seguintes requisitos funcionais não imp
 
 | ID     | Descrição                                                                                | Técnica de Elicitação | Requisito Original | Protótipos      |
 | ------ | -----------------------------------------------------------------------------------------| --------------------- | ------------------ | -------------- |
-| RFNI16 | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores | AD12  | RF42 | [Protótipo](#) |
-
+| RFNI14 {#rfni14} | Permitir que o usuário salve cartas para compra futura (wishlist)                                             |    [OBS09](../tecnicas/observacao.md#obs09)    | [RF28](./requisitos_elicitados.md#rf28) |[Protótipação](#) |
+| RFNI16 {#rfni16} | O sistema deve permitir que o usuário compare cartas lado a lado (atributos, valores e edições).                                                       |    [OBS13](../tecnicas/observacao.md#obs13)    | [RF20](./requisitos_elicitados.md#rf32) |[Protótipação](#) |
+| RFNI17 {#rfni17} | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores.                                                       |    [AD17](../tecnicas/observacao.md#ad17)    | [RF17](./requisitos_elicitados.md#rf17) |[Protótipação](#) |
 
 ## Referências
 
