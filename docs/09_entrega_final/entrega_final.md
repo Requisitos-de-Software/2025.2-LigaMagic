@@ -66,29 +66,30 @@ Aqui vocês verificam os próprios documentos (Rich Pictures, Léxicos, Backlog,
 
 | Artefato                                   | Link para as listas      | Autores | Revisores |
 | ------------------------------------------ | ------------------------ | ------- | --------- |
-| Planejamento do Projeto                    | [Link para evidência](#) |         |           |
-| Equipe                                     | [Link para evidência](#) |         |           |
-| Heatmap de disponibilidade dos integrantes | [Link para evidência](#) |         |           |
-| Lista de Apps avaliados                    | [Link para evidência](#) |         |           |
-| App selecionado para o projeto             | [Link para evidência](#) |         |           |
-| Cópia do Termo de Uso do aplicativo        | [Link para evidência](#) |         |           |
-| Ferramentas do projeto                     | [Link para evidência](#) |         |           |
-| Cronograma detalhado das atividades        | [Link para evidência](#) |         |           |
-| Rich Picture                               | [Link para evidência](#) |         |           |
-| Tabela de contribuição dos integrantes     | [Link para evidência](#) |         |           |
+| Planejamento do Projeto                    | [Link para evidência](../01_planejamento/cronograma.md) |  Vera, Angélica, Raissa	       |    Angélica, Raissa, Vera       |
+| Equipe                                     | [Link para evidência](../index.md)                   |       Angélica, Samuel, Guilherme   |    Angélica, Raissa       |
+| Heatmap de disponibilidade dos integrantes | [Link para evidência](../01_planejamento/heatmap.md) |       Angélica  |    Thiago       |
+| Lista de Apps avaliados                    | [Link para evidência](../01_planejamento/aplicativo_escolhido.md) |    Angélica     |   Vera        |
+| App selecionado para o projeto             | [Link para evidência](../01_planejamento/aplicativo_escolhido.md) |     Angélica    |    Vera       |
+| Cópia do Termo de Uso do aplicativo        | [Link para evidência](../01_planejamento/aplicativo_escolhido.md) |      Angélica    |    Vera          |
+| Ferramentas do projeto                     | [Link para evidência](../01_planejamento/ferramentas.md)            |     Thiago, Samuel, Raissa    |     Raissa, Samuel      |
+| Cronograma detalhado das atividades        | [Link para evidência](../01_planejamento/cronograma_executado.md) |    Vera e Raissa     |    Vera e Raissa       |
+| Guia de contribuição                       | [Link para evidência](../01_planejamento/guias/contribuicao.md) |   Angélica      |  Samuel         |
+| Ata Padrão                                 | [Link para evidência](../01_planejamento/guias/ata_padrao.md)   |   Angélica      |     Raissa      |
+| Rich Picture                               | [Link para evidência](../02_pre-rastreabilidade/rich_picture.md) |     Marcelo    |      Guilherme     |
 
 ##### Etapa 2
 
 | Artefatos         | Link para as listas      | Autores | Revisores |
 | ----------------- | ------------------------ | ------- | --------- |
-| Perfil do Usuário | [Link para evidência](#) |         |           |
-| Glossário         | [Link para evidência](#) |         |           |
+| Perfil do Usuário | [Link para evidência](../03_elicitacao/artefatos/perfil_usuario.md) |   Raissa, Marcelo	       |     Samuel      |
+| Glossário         | [Link para evidência](../03_elicitacao/artefatos/glossario.md) |      Samuel, Thiago       |     Thiago         |
 
 | Técnicas de Elicitação de Requisitos | Link para as listas      | Autores | Revisores |
 | ------------------------------------ | ------------------------ | ------- | --------- |
-| Análise de Documentos                | [Link para evidência](#) |         |           |
-| Entrevista                           | [Link para evidência](#) |         |           |
-| Observação                           | [Link para evidência](#) |         |           |
+| Análise de Documentos                | [Link para evidência](../03_elicitacao/tecnicas/analise_documentos.md) |      Angélica e Vera   |   Angélica e Vera        |
+| Entrevista                           | [Link para evidência](../03_elicitacao/tecnicas/entrevista.md) |   Samuel, Thiago, Samuel, Thiago        |   Samuel, Thiago         |
+| Observação                           | [Link para evidência](../03_elicitacao/tecnicas/observacao.md) |      Guilherme e Vera  |      Guilherme e Vera      |
 
 | Técnicas de Priorização de Requisitos | Link para as listas      | Autores | Revisores |
 | ------------------------------------- | ------------------------ | ------- | --------- |
