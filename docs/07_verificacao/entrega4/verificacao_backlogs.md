@@ -39,8 +39,10 @@ A metodologia adotada baseia-se na criação de listas de verificação elaborad
 
 | Nome     | % de Contribuição |
 | :------- | :---------------: |
-| Angélica |                   |
-| Samuel   |                   |
+| Angélica |       25%             |
+| Samuel   |        25%           |
+| Thiago   |        25%           |
+| Marcelo   |       25%            |
 
 ## Histórico de versão
 
@@ -49,3 +51,4 @@ A metodologia adotada baseia-se na criação de listas de verificação elaborad
 |  1.1   | 15/10/2025 | Adição da tabela de verificação           | Angélica  | Guilherme |
 |  1.2   | 20/10/2025 | Adição dos links da tabela de verificação | Angélica  | Guilherme |
 |  1.3   | 22/10/2025 | Adição dos itens de 11-16                 |  Samuel   |   Vera    |
+|  1.4   | 07/11/2025 |  Corrigindo Nível de Contribuição         |  Angélica   |   Samuel    |

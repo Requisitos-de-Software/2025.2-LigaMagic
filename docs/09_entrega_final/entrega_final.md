@@ -38,25 +38,25 @@ Abaixo estão os links para as listas de verificação revisadas:
 
 | Documento                 | Itens Verificados | Link para as listas      | Autores                                                     | Revisores |
 | ------------------------- | ----------------- | ------------------------ | ----------------------------------------------------------- | --------- |
-| Rich Picture              |                   | [Link para evidência](#) | Samuel e Angélica                                           | Samuel e Angélica  |
-| Glossário                 |                   | [Link para evidência](#) | Samuel, Thiago                                              |           |
-| Perfil do Usuário         |                   | [Link para evidência](#) | Samuel, Thiago                                              |           |
-| Análise de Documentos     |                   | [Link para evidência](#) | Angélica                                                    | Angélica e Vera  |
-| Brainstorming             |                   | [Link para evidência](#) | Thiago                                                      |           |
-| Entrevista                |                   | [Link para evidência](#) |                                                             |           |
-| Observação                |                   | [Link para evidência](#) | Vera Lucia e Guilherme                                      |           |
-| In or Out                 |                   | [Link para evidência](#) |                                                             |           |
-| MoSCoW                    |                   | [Link para evidência](#) | Samuel                                                      |           |
-| Pairwise Comparison       |                   | [Link para evidência](#) | Angélica                                                    | Angélica e Vera |
-| Three Level Scale         |                   | [Link para evidência](#) | Vera Lucia e Guilherme                                      |           |
-| Cenários                  |                   | [Link para evidência](#) |                                                             |           |
+| Rich Picture              |         21        | [Link para evidência](#) | Samuel e Angélica                                          | Thiago, Samuel e Angélica|
+| Glossário                 |                   | [Link para evidência](#) | Samuel, Thiago                                              | Angélica e Thiago|
+| Perfil do Usuário         |                   | [Link para evidência](#) | Samuel, Marcelo                                             | Thiago e Samuel|
+| Análise de Documentos     |                   | [Link para evidência](#) | Angélica                                                    | Vera      |
+| Brainstorming             |                   | [Link para evidência](#) | Thiago                                                      | Marcelo e Samuel|
+| Entrevista                |                   | [Link para evidência](#) | PAGINA VAZIA                                                |           |
+| Observação                |                   | [Link para evidência](#) | Vera Lucia, Samuel e Guilherme                              |  Vera Lucia e Guilherme|
+| In or Out                 |                   | [Link para evidência](#) | Raissa                                                      | Angélica|
+| MoSCoW                    |                   | [Link para evidência](#) | Samuel                                                      |    Thiago|
+| Pairwise Comparison       |                   | [Link para evidência](#) | Angélica                                                    | Vera      |
+| Three Level Scale         |                   | [Link para evidência](#) | Vera Lucia e Guilherme                                      |  Vera Lucia e Guilherme|
+| Cenários                  |                   | [Link para evidência](#) | Marcelo                                                     |   Thiago|
 | Léxicos                   |                   | [Link para evidência](#) | Samuel                                                      |           |
-| Casos de Uso              |                   | [Link para evidência](#) | Angélica e Guilherme                                        | Angélica e Guilherme   |
-| Especificação Suplementar |                   | [Link para evidência](#) | Vera Lucia e Raissa                                         |           |
-| Histórias de Usuário      |                   | [Link para evidência](#) | Samuel, Marcelo, Thiago, Guilherme, Vera e Angélica         | Guilherme, Raissa, Angélica, Vera e Thiago   |
-| Backlog                   |                   | [Link para evidência](#) | Samuel, Marcelo, Thiago, Guilherme e Angélica               | Angélica  |
-| NFR Framework             |                   | [Link para evidência](#) | Samuel, Raissa, Thiago, Guilherme, Vera e Angélica          | Angélica, Vera, Raissa, Guilherme    |
-| Elos de Rastreabilidade   |                   | [Link para evidência](#) | Samuel, Raissa, Marcelo, Thiago, Guilherme, Vera e Angélica | Angélica  |
+| Casos de Uso              |                   | [Link para evidência](#) | Angélica e Guilherme                                        | Guilherme|
+| Especificação Suplementar |                   | [Link para evidência](#) | Vera Lucia e Raissa                                         |Vera Lucia e Raissa|
+| Histórias de Usuário      |       30            | [Link para evidência](#) | Samuel, Marcelo, Thiago, Guilherme, Vera e Angélica         | Guilherme, Raissa, Angélica, Vera e Thiago   |
+| Backlog                   |                   | [Link para evidência](#) | Samuel, Marcelo, Thiago, Guilherme e Angélica               | Samuel, Guilherme, Vera  |
+| NFR Framework             |        32           | [Link para evidência](#) | Samuel, Raissa, Thiago, Guilherme, Vera e Angélica        | Angélica, Vera, Raissa, Guilherme    |
+| Elos de Rastreabilidade   |         44          | [Link para evidência](#) | Samuel, Raissa, Marcelo, Thiago, Guilherme, Vera e Angélica | Angélica, Vera, Raissa, Thiago    |
 
 #### Verificação dos Artefatos das etapas anteriores
 

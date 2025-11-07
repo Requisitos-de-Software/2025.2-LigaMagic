@@ -57,21 +57,18 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 | 43 {#v38} | Foram identificadas e documentadas as ferramentas que suportam rastreabilidade (equipe sabe onde registrar/extrair elos)? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item43](../../00_assets/images/elos/elo43.png) | Guilherme|
 | 44 {#v38} | Existe rotina durante o desenvolvimento para verificar se os elos estão sendo efetivamente registrados pela equipe? | (SAYÃO; LEITE, 2005, p. 9-10) | [Img - Item44](../../00_assets/images/elos/elo44.png) | Guilherme|
 
-## Referências
-
-- Ordem Alfabetica
 
 ## Nível de Contribuição dos Integrantes
 
 | Nome     | % de Contribuição  |
 |----------|--------------------|
-| Samuel   |                    |
-| Thiago   |                    |
-| Vera     |                    |
-| Angélica |                    |
-| Marcelo  |                    |  
-|  Raissa  |                    |      
-|  Guilherme |                    |             
+| Samuel   |        14,29%            |
+| Thiago   |        14,29%            |
+| Vera     |        14,29%            |
+| Angélica |        14,29%            |
+| Marcelo  |        14,29%            |  
+|  Raissa  |        14,29%             |      
+|  Guilherme |        14,29%            |             
 
 ## Histórico de versão
 
@@ -85,4 +82,5 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 |  1.6  | 28/10/2025 | Adição de items de verficação 33-37           | Raissa  | Vera    |
 |  1.7  | 29/10/2025 | Arrumando imagens dos itens          | Raissa  | Angélica    |
 |  1.8  | 29/10/2025 | Adição de items de verficação 39-44               | Guilherme | Angélica    |
+|  1.9   | 07/11/2025 |  Corrigindo Nível de Contribuição         |  Angélica   |   Raissa    |
 
