@@ -38,7 +38,7 @@ Abaixo estão os links para as listas de verificação revisadas:
 
 | Documento                 | Itens Verificados | Link para as listas      | Autores                                                     | Revisores |
 | ------------------------- | ----------------- | ------------------------ | ----------------------------------------------------------- | --------- |
-| Rich Picture              |                   | [Link para evidência](#) | Samuel e Angélica                                           | Angélica  |
+| Rich Picture              |                   | [Link para evidência](#) | Samuel e Angélica                                           | Samuel e Angélica  |
 | Glossário                 |                   | [Link para evidência](#) | Samuel, Thiago                                              |           |
 | Perfil do Usuário         |                   | [Link para evidência](#) | Samuel, Thiago                                              |           |
 | Análise de Documentos     |                   | [Link para evidência](#) | Angélica                                                    | Angélica e Vera  |
@@ -47,11 +47,11 @@ Abaixo estão os links para as listas de verificação revisadas:
 | Observação                |                   | [Link para evidência](#) | Vera Lucia e Guilherme                                      |           |
 | In or Out                 |                   | [Link para evidência](#) |                                                             |           |
 | MoSCoW                    |                   | [Link para evidência](#) | Samuel                                                      |           |
-| Pairwise Comparison       |                   | [Link para evidência](#) | Angélica                                                    | Angélica  |
+| Pairwise Comparison       |                   | [Link para evidência](#) | Angélica                                                    | Angélica e Vera |
 | Three Level Scale         |                   | [Link para evidência](#) | Vera Lucia e Guilherme                                      |           |
 | Cenários                  |                   | [Link para evidência](#) |                                                             |           |
 | Léxicos                   |                   | [Link para evidência](#) | Samuel                                                      |           |
-| Casos de Uso              |                   | [Link para evidência](#) | Angélica e Guilherme                                        | Angélica  |
+| Casos de Uso              |                   | [Link para evidência](#) | Angélica e Guilherme                                        | Angélica e Guilherme   |
 | Especificação Suplementar |                   | [Link para evidência](#) | Vera Lucia e Raissa                                         |           |
 | Histórias de Usuário      |                   | [Link para evidência](#) | Samuel, Marcelo, Thiago, Guilherme, Vera e Angélica         | Angélica  |
 | Backlog                   |                   | [Link para evidência](#) | Samuel, Marcelo, Thiago, Guilherme e Angélica               | Angélica  |
