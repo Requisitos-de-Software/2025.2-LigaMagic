@@ -53,9 +53,9 @@ Abaixo estão os links para as listas de verificação revisadas:
 | Léxicos                   |                   | [Link para evidência](#) | Samuel                                                      |           |
 | Casos de Uso              |                   | [Link para evidência](#) | Angélica e Guilherme                                        | Angélica e Guilherme   |
 | Especificação Suplementar |                   | [Link para evidência](#) | Vera Lucia e Raissa                                         |           |
-| Histórias de Usuário      |                   | [Link para evidência](#) | Samuel, Marcelo, Thiago, Guilherme, Vera e Angélica         | Angélica  |
+| Histórias de Usuário      |                   | [Link para evidência](#) | Samuel, Marcelo, Thiago, Guilherme, Vera e Angélica         | Guilherme, Raissa, Angélica, Vera e Thiago   |
 | Backlog                   |                   | [Link para evidência](#) | Samuel, Marcelo, Thiago, Guilherme e Angélica               | Angélica  |
-| NFR Framework             |                   | [Link para evidência](#) | Samuel, Raissa, Thiago, Guilherme, Vera e Angélica          | Angélica  |
+| NFR Framework             |                   | [Link para evidência](#) | Samuel, Raissa, Thiago, Guilherme, Vera e Angélica          | Angélica, Vera, Raissa, Guilherme    |
 | Elos de Rastreabilidade   |                   | [Link para evidência](#) | Samuel, Raissa, Marcelo, Thiago, Guilherme, Vera e Angélica | Angélica  |
 
 #### Verificação dos Artefatos das etapas anteriores

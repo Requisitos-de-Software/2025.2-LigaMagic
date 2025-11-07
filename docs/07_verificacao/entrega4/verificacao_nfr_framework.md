@@ -50,12 +50,12 @@ A metodologia adotada baseia-se na criação de listas de verificação elaborad
 
 | Nome      | % de Contribuição |
 | :-------- | :---------------: |
-| Angélica  |         16,7          |
-| Vera      |         16,7          |
-| Guilherme |         16,7          |
-| Raissa    |         16,7          |
-| Samuel    |         16,7          |
-| Thiago    |         16,7          |
+| Angélica  |         16,7%          |
+| Vera      |         16,7%          |
+| Guilherme |         16,7%          |
+| Raissa    |         16,7%          |
+| Samuel    |         16,7%          |
+| Thiago    |         16,7%          |
 
 ## Histórico de versão
 

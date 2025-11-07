@@ -49,12 +49,12 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 
 | Nome      | % de Contribuição |
 | :-------- | :---------------: |
-| Angélica  |        14,28%           |
-| Vera      |        14,28%             |
-| Guilherme |        14,28%             |
-| Marcelo   |         14,28%            |
-| Samuel    |        14,28%             |
-| Thiago    |        14,28%             |
+| Angélica  |        16,7%           |
+| Vera      |        16,7%             |
+| Guilherme |        16,7%             |
+| Marcelo   |        16,7%            |
+| Samuel    |        16,7%             |
+| Thiago    |        16,7%             |
 
 ## Histórico de versão
 
@@ -65,3 +65,4 @@ A metodologia adotada baseia-se na elaboração de listas de verificação (chec
 |  1.3   | 20/10/2025 | Adição dos itens 5-8                      |   Vera    |  Raissa   |
 |  1.4   | 20/10/2025 | Adição dos itens 9-12                     | Guilherme | Angélica  |
 |  1.5   | 22/10/2025 | Adição dos itens de 23-30                 |  Samuel   |   Vera    |
+|  1.6   | 07/11/2025 | Corrigindo Nível de Contribuição                |  Angélica   |   Thiago    |
