@@ -45,20 +45,17 @@ A metodologia adotada baseia-se na criação de listas de verificação elaborad
 | 31 - Os símbolos para os tipos de impacto (Make, Help, Hurt, Break, etc.) estão padronizados conforme a notação?                                                                                                   | (SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 17. Pág.13)                                                                                                                                                                                                                   | [Referência completa](../../00_assets/pdfs/verificacao/Lista%20de%20verificação%20–%20NFR%20Framework%20–%20Samuel.pdf) | Samuel    |
 | 32 - Os rótulos de avaliação (Satisficed, Denied, Weakly Satisficed, etc.) utilizam a simbologia correta?                                                                                                          | (SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 17. Pág.13)                                                                                                                                                                                                                   | [Referência completa](../../00_assets/pdfs/verificacao/Lista%20de%20verificação%20–%20NFR%20Framework%20–%20Samuel.pdf) | Samuel    |
 
-## Bibliografia
-
-> JAELSON, Castro. Requisitos Não-Funcionais. Slide 12. Acessado em: 13 out. 2025. <br>
-> SILVA, Reinaldo A. da. _NFR4ES: Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados._ Dissertação (Mestrado em Ciência da Computação) – UFPE, Recife, 2019. Acessado em 15 out. 2025.
 
 ## Nível de Contribuição dos Integrantes
 
 | Nome      | % de Contribuição |
 | :-------- | :---------------: |
-| Angélica  |                   |
-| Vera      |                   |
-| Guilherme |                   |
-| Raissa    |                   |
-| Samuel    |                   |
+| Angélica  |         16,7          |
+| Vera      |         16,7          |
+| Guilherme |         16,7          |
+| Raissa    |         16,7          |
+| Samuel    |         16,7          |
+| Thiago    |         16,7          |
 
 ## Histórico de versão
 
@@ -70,3 +67,4 @@ A metodologia adotada baseia-se na criação de listas de verificação elaborad
 |  1.4   | 20/10/2025 | Adição dos itens de 9-11                  | Guilherme | Angélica  |
 |  1.5   | 21/10/2025 | Adição dos itens de 12- 16                |  Raissa   |   Vera    |
 |  1.6   | 22/10/2025 | Adição dos itens de 20-32                 |  Samuel   |   Vera    |
+|  1.7   | 07/11/2025 | Corrigindo Nível de Contribuição               |  Angélica   |   Raissa    |
