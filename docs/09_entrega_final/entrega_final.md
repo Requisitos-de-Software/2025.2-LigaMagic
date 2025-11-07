@@ -41,7 +41,7 @@ Abaixo estão os links para as listas de verificação revisadas:
 | Rich Picture              |                   | [Link para evidência](#) | Samuel e Angélica                                           | Angélica  |
 | Glossário                 |                   | [Link para evidência](#) | Samuel, Thiago                                              |           |
 | Perfil do Usuário         |                   | [Link para evidência](#) | Samuel, Thiago                                              |           |
-| Análise de Documentos     |                   | [Link para evidência](#) | Angélica                                                    | Angélica  |
+| Análise de Documentos     |                   | [Link para evidência](#) | Angélica                                                    | Angélica e Vera  |
 | Brainstorming             |                   | [Link para evidência](#) | Thiago                                                      |           |
 | Entrevista                |                   | [Link para evidência](#) |                                                             |           |
 | Observação                |                   | [Link para evidência](#) | Vera Lucia e Guilherme                                      |           |

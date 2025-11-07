@@ -14,28 +14,23 @@ A lista de verificação foi desenvolvida com base na literatura especializada e
 ## Conteúdo
 ### Tabela de Verificação
 
-| ID  | Item de Verificação                                                                                                |  Autor   |
-| :-: | :----------------------------------------------------------------------------------------------------------------- | :------: |
-| 01  | Foi avaliado os requisitos comparando-os em pares?                                                                 | Angélica |
-| 02  | Apos a comparação em pares foi determinado qual tem maior prioridade de dentro da categoria?                       | Angélica |
-| 03  | Apos a comparação em pares dentro de cada categoria foi determinado qual tem maior prioridade entre as categorias? | Angélica |
-| 04  | Foi usado uma planilha ou ferramenta semelhante para organizar as comparações?                                     | Angélica |
-| 05  | A técnica foi aplicada em listas com até 12 requisitos?                                                            | Angélica |
-| 06  | Os requisitos foram agrupados em lotes, como categorias ou funcionalidades?                                        | Angélica |
-| 07  | Os requisitos agrupados tem prioridade semelhante?                                                                 | Angélica |
-| 08  | A técnica foi aplicada de forma exagerada avaliando priorizá-los todos em sequência única?                         | Angélica |
-| 09  | Foi verificado se alguns requisitos precisam ser implementados juntos obrigatoriamente?                            | Angélica |
-| 10  | Os resultados da comparação em pares e da priorização final foram registrados?                                     | Angélica |
-
-#### **Fonte:** Angélica Campos, 2025.
-
-Lista de verificação – Técnica de elicitação – Pairwise Comparison com as referencias completas disponível em PDF [aqui.](../../../00_assets/pdfs/verificacao/tecnica_de_priorizacao/lista_de_verificacao_tecnica_de_priorizacao_pairwise_comparison.pdf)
+| ID | Perguntas | Fontes | Fotos | Autor |
+|:--:|:----------|:------:|:-----:|:-----:|
+| 01 {#v01} | Foi avaliado os requisitos comparando-os em pares? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 1](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem1.png) | Angélica |
+| 02 {#v02} | Apos a comparação em pares foi determinado qual tem maior prioridade de dentro da categoria? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 2](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem2.png) | Angélica |
+| 03 {#v03} | Apos a comparação em pares dentro de cada categoria foi determinado qual tem maior prioridade entre as categorias? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 3](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem3.png) | Angélica |
+| 04 {#v04} | Foi usado uma planilha ou ferramenta semelhante para organizar as comparações? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 4](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem4.png) | Angélica |
+| 05 {#v05} | A técnica foi aplicada em listas com até 12 requisitos? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 5](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem5.png) | Angélica |
+| 06 {#v06} | Os requisitos foram agrupados em lotes, como categorias ou funcionalidades? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 6](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem6.png) | Angélica |
+| 07 {#v07} | Os requisitos agrupados tem prioridade semelhante? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 7](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem17.png) | Angélica |
+| 08 {#v08} | A técnica foi aplicada de forma exagerada avaliando priorizá-los todos em sequência única? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 8](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem8.png) | Angélica |
+| 09 {#v09} | Foi verificado se alguns requisitos precisam ser implementados juntos obrigatoriamente? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 9](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem9.png) | Angélica |
+| 10 {#v10} | Os resultados da comparação em pares e da priorização final foram registrados? | WIEGERS, Karl; BEATTY, Joy. Software Requirements. 3. ed. Redmond: Microsoft Press, 2013. P.318. | [Img - Item 10](../../../00_assets/images/Pairwise_Comparison/PairwiseComparisonItem10.png) | Angélica |
 
 
-## Referências
+## Agradecimentos
 
-> **WIEGERS, Karl; BEATTY, Joy.** *Software Requirements. *3. ed. Redmond: Microsoft Press, 2013. p638.
-
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -49,3 +44,4 @@ Lista de verificação – Técnica de elicitação – Pairwise Comparison com 
 | :----: | :--------: | :-----------------------------------: | :-------: | :---------: |
 |  1.0   | 29/09/2025 |  Elaboração da lista de verificação   | Angélica  |   Raissa    |
 |  1.1   | 07/10/2025 |  Correções   | Angélica  |   Samuel    |
+|  1.2   | 07/11/2025 | Adição das imagens dos itens       | Angélica  |    Vera     |
