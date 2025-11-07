@@ -38,8 +38,8 @@ Abaixo estão os links para as listas de verificação revisadas:
 
 | Documento                 | Itens Verificados | Link para as listas      | Autores                                                     | Revisores |
 | ------------------------- | ----------------- | ------------------------ | ----------------------------------------------------------- | --------- |
-| Rich Picture              |         21        | [Link para evidência](#) | Samuel e Angélica                                          | Thiago, Samuel e Angélica|
-| Glossário                 |                   | [Link para evidência](#) | Samuel, Thiago                                              | Angélica e Thiago|
+| Rich Picture              |         21        | [Link para evidência](#) | Samuel e Angélica                                           | Thiago, Samuel e Angélica|
+| Glossário                 |         20        | [Link para evidência](#) | Samuel, Thiago                                              | Angélica e Thiago|
 | Perfil do Usuário         |                   | [Link para evidência](#) | Samuel, Marcelo                                             | Thiago e Samuel|
 | Análise de Documentos     |                   | [Link para evidência](#) | Angélica                                                    | Vera      |
 | Brainstorming             |                   | [Link para evidência](#) | Thiago                                                      | Marcelo e Samuel|
