@@ -4,66 +4,38 @@
 
 Este documento apresenta uma lista de verificação estruturada para avaliar a qualidade e completude dos léxicos desenvolvidos no projeto. O checklist abrange aspectos de estrutura, padronização, clareza, completude e consistência, considerando as especificidades de cada tipo de símbolo (verbo, objeto, estado e sujeito) conforme o Léxico Ampliado da Linguagem (LAL).
 
+## Objetivo
+Busca-se assegurar que os símbolos (termos do domínio) estejam adequadamente definidos, classificados e estruturados, servindo como uma ferramenta eficaz para capturar e comunicar o vocabulário específico do domínio da aplicação entre todos os stakeholders envolvidos no projeto.
+
+## Metodologia
+Cada um dos 18 critérios foi analisado considerando a aderência às especificações do LAL, com foco especial na correta definição dos campos "Noção" e "Impacto", na classificação precisa dos símbolos e na consistência da notação utilizada em todo o léxico.
+
 ## Conteúdo
+### Tabela de Verificação
+| ID | Perguntas | Fontes | Fotos | Autor |
+|:--:|:----------|:------:|:-----:|:-----:|
+| 01 {#v01} | Cada entrada (símbolo) do léxico possui os campos "Noção" e "Impacto" preenchidos? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 02 {#v02} | Cada símbolo foi classificado em um, e somente um, tipo (ex: sujeito, verbo, objeto, estado)? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 03 {#v03} | A notação utilizada é consistente com o Léxico Ampliado da Linguagem (LAL)? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 04 {#v04} | Sinônimos, quando aplicáveis, estão corretamente associados a um símbolo principal? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 05 {#v05} | Os termos (símbolos) representam palavras ou frases peculiares ao domínio da aplicação? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 06 {#v06} | A descrição da "Noção" é clara, objetiva e se assemelha a uma definição de dicionário? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 07 {#v07} | A descrição do "Impacto" é de fácil entendimento ao explicar o efeito ou uso do símbolo? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 08 {#v08} | O léxico contempla todos os termos essenciais para a compreensão do universo da aplicação? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 09 {#v09} | Cada símbolo possui ao menos uma "Noção" descrita? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 10 {#v10} | Cada símbolo possui ao menos um "Impacto" descrito? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 11 {#v11} | A "Noção" esclarece quem executa a ação, quando ela ocorre e quais os procedimentos? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 12 {#v12} | O "Impacto" detalha os reflexos da ação no ambiente e os novos estados que dela decorrem? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 13 {#v13} | A "Noção" define o objeto e identifica outros objetos com os quais se relaciona? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 14 {#v14} | O "Impacto" especifica as ações que podem ser aplicadas sobre ele? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 15 {#v15} | A "Noção" explica o que o estado significa e quais ações o originaram? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 16 {#v16} | O "Impacto" identifica outros estados ou ações que podem ocorrer a partir dele? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 17 {#v17} | A "Noção" responde claramente à pergunta "Quem é o sujeito?"? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
+| 18 {#v18} | O "Impacto" responde claramente à pergunta "Quais ações ele executa?"? | SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10. | - | Samuel |
 
-### Estrutura e Padronização
+## Agradecimentos
 
-| ID  | Item de Verificação                                                                           | Autor  |
-| :-: | :-------------------------------------------------------------------------------------------- | :----: |
-|  1  | Cada entrada (símbolo) do léxico possui os campos "Noção" e "Impacto" preenchidos?            | Samuel |
-|  2  | Cada símbolo foi classificado em um, e somente um, tipo (ex: sujeito, verbo, objeto, estado)? | Samuel |
-|  3  | A notação utilizada é consistente com o Léxico Ampliado da Linguagem (LAL)?                   | Samuel |
-|  4  | Sinônimos, quando aplicáveis, estão corretamente associados a um símbolo principal?           | Samuel |
-|  5  | Os termos (símbolos) representam palavras ou frases peculiares ao domínio da aplicação?       | Samuel |
-
-### Clareza e Legibilidade
-
-| ID  | Item de Verificação                                                                      | Autor  |
-| :-: | :--------------------------------------------------------------------------------------- | :----: |
-|  6  | A descrição da "Noção" é clara, objetiva e se assemelha a uma definição de dicionário?   | Samuel |
-|  7  | A descrição do "Impacto" é de fácil entendimento ao explicar o efeito ou uso do símbolo? | Samuel |
-
-### Completude
-
-| ID  | Item de Verificação                                                                        | Autor  |
-| :-: | :----------------------------------------------------------------------------------------- | :----: |
-|  8  | O léxico contempla todos os termos essenciais para a compreensão do universo da aplicação? | Samuel |
-|  9  | Cada símbolo possui ao menos uma "Noção" descrita?                                         | Samuel |
-| 10  | Cada símbolo possui ao menos um "Impacto" descrito?                                        | Samuel |
-
-### Consistência e Regras por Tipo
-
-#### VERBO
-
-| ID  | Item de Verificação                                                                       | Autor  |
-| :-: | :---------------------------------------------------------------------------------------- | :----: |
-| 11  | A "Noção" esclarece quem executa a ação, quando ela ocorre e quais os procedimentos?      | Samuel |
-| 12  | O "Impacto" detalha os reflexos da ação no ambiente e os novos estados que dela decorrem? | Samuel |
-
-#### OBJETO
-
-| ID  | Item de Verificação                                                              | Autor  |
-| :-: | :------------------------------------------------------------------------------- | :----: |
-| 13  | A "Noção" define o objeto e identifica outros objetos com os quais se relaciona? | Samuel |
-| 14  | O "Impacto" especifica as ações que podem ser aplicadas sobre ele?               | Samuel |
-
-#### ESTADO
-
-| ID  | Item de Verificação                                                             | Autor  |
-| :-: | :------------------------------------------------------------------------------ | :----: |
-| 15  | A "Noção" explica o que o estado significa e quais ações o originaram?          | Samuel |
-| 16  | O "Impacto" identifica outros estados ou ações que podem ocorrer a partir dele? | Samuel |
-
-#### SUJEITO
-
-| ID  | Item de Verificação                                                    | Autor  |
-| :-: | :--------------------------------------------------------------------- | :----: |
-| 17  | A "Noção" responde claramente à pergunta "Quem é o sujeito?"?          | Samuel |
-| 18  | O "Impacto" responde claramente à pergunta "Quais ações ele executa?"? | Samuel |
-
-## Bibliografia
-
-> **SERRANO, Milene; SERRANO, Maurício.** _Requisitos – Aula 10_.
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -75,4 +47,5 @@ Este documento apresenta uma lista de verificação estruturada para avaliar a q
 
 | Versão |    Data    | Descrição                                   | Autor(es) | Revisor |
 | :----: | :--------: | :------------------------------------------ | :-------: | :-----: |
-|  1.0   | 07/10/2025 | Criação da lista de verificação dos léxicos |  Samuel   |    -    |
+|  1.0   | 07/10/2025 | Criação da lista de verificação dos léxicos |  Samuel   |    Angélica    |
+|  1.2   | 07/11/2025 | Formatando a organização do documento e adição das fontes|  Angélica   |      Samuel     |
