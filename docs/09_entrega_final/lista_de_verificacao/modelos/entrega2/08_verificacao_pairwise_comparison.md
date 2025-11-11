@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Pairwise Comparison
+# Calendário de Avaliação — Lista de Verificação — Pairwise Comparison
 
 ## Metadados
 

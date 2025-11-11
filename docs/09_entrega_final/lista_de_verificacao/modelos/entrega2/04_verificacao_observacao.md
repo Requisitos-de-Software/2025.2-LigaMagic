@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Observação
+# Calendário de Avaliação — Lista de Verificação — Observação
 
 ## Metadados
 

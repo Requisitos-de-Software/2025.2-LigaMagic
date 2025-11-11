@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Histórias de Usuário
+# Calendário de Avaliação — Lista de Verificação — Histórias de Usuário
 
 ## Metadados
 

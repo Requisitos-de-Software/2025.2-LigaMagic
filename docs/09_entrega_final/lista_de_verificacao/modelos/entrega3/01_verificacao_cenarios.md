@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Cenários
+# Calendário de Avaliação — Lista de Verificação — Cenários
 
 ## Metadados
 

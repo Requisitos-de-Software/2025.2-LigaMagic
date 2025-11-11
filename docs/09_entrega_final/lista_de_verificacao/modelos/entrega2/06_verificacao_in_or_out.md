@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — In or Out
+# Calendário de Avaliação — Lista de Verificação — In or Out
 
 ## Metadados
 

@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Casos de Uso
+# Calendário de Avaliação — Lista de Verificação — Casos de Uso
 
 ## Metadados
 

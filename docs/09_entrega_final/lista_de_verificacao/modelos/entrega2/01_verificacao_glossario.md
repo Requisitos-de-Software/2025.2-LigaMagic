@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Glossário
+# Calendário de Avaliação — Lista de Verificação — Glossário
 
 ## Metadados
 

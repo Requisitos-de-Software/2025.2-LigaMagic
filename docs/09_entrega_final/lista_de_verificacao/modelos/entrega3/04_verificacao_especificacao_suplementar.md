@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Especificação Suplementar
+# Calendário de Avaliação — Lista de Verificação — Especificação Suplementar
 
 ## Metadados
 

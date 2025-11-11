@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — MoSCoW
+# Calendário de Avaliação — Lista de Verificação — MoSCoW
 
 ## Metadados
 

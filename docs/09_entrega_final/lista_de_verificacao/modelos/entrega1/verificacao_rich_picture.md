@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Rich Picture
+# Calendário de Avaliação — Lista de Verificação — Rich Picture
 
 ## Metadados
 

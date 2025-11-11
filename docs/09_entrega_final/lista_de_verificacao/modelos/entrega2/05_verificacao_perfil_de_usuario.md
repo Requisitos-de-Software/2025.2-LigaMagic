@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Perfil de usuário
+# Calendário de Avaliação — Lista de Verificação — Perfil de usuário
 
 ## Metadados
 

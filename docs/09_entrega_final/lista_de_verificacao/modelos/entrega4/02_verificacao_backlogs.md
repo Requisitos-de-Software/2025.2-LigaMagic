@@ -1,4 +1,4 @@
-# Modelo de Avaliação — Lista de Verificação — Backlogs
+# Calendário de Avaliação — Lista de Verificação — Backlogs
 
 ## Metadados
 
