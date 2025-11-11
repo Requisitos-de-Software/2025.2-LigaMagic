@@ -158,6 +158,18 @@ nav:
       - Lista de Verificação:
           - Lista de Verificação de Requisitos: 09_entrega_final/lista_de_verificacao/conformidade_dos_artefatos.md
           - Modelo de Avaliação:
+              - Entrega 1:
+                    - Rich Picture: 09_entrega_final/lista_de_verificacao/modelos/entrega1/verificacao_rich_picture.md
+              - Entrega 2:
+                    - Glossário: 09_entrega_final/lista_de_verificacao/modelos/entrega2/01_verificacao_glossario.md
+                    - Análise de Documentos: 09_entrega_final/lista_de_verificacao/modelos/entrega2/02_verificacao_analise_de_documentos.md
+                    - Entrevista: 09_entrega_final/lista_de_verificacao/modelos/entrega2/03_verificacao_entrevista.md
+                    - Observação: 09_entrega_final/lista_de_verificacao/modelos/entrega2/04_verificacao_observacao.md
+                    - Perfil de usuário: 09_entrega_final/lista_de_verificacao/modelos/entrega2/05_verificacao_perfil_de_usuario.md
+                    - In or Out: 09_entrega_final/lista_de_verificacao/modelos/entrega2/06_verificacao_in_or_out.md
+                    - MoSCoW: 09_entrega_final/lista_de_verificacao/modelos/entrega2/07_verificacao_moscow.md
+                    - Pairwise Comparison: 09_entrega_final/lista_de_verificacao/modelos/entrega2/08_verificacao_pairwise_comparison.md
+                    - Three Level Scale: 09_entrega_final/lista_de_verificacao/modelos/entrega2/09_verificacao_three_level_scale.md
               - Entrega 3:
                   - Cenários: 09_entrega_final/lista_de_verificacao/modelos/entrega3/01_verificacao_cenarios.md
                   - Léxicos: 09_entrega_final/lista_de_verificacao/modelos/entrega3/02_verificacao_lexicos.md
