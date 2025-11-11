@@ -96,6 +96,22 @@ A metodologia seguiu as seguintes etapas:
 <img src="../../00_assets/images/prototipos/recomendacoes/recomendacoes_automaticas.png" alt="Recomendações Automáticas" width="500px" style="margin: 10px;">
 </div>
 
+### Protótipo 06: Lista de Decks (RFNI09) 
+
+<div align="center">
+<img src="../../00_assets/images/prototipos/link/listadedecks.png" alt="Lista de Decks" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Raissa, 2025.
+
+### Protótipo 07: Comprar por lista (RFNI11)
+
+<div align="center">
+<img src="../../00_assets/images/prototipos/link/comprarporlista.png" alt="Comprar por Lista" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Raissa, 2025.
+
 ### Validação dos Protótipos
 
 Os protótipos foram validados através de sessões com usuários do LigaMagic, onde foi coletado feedback sobre a usabilidade e adequação das interfaces propostas. As gravações das validações estão disponíveis para consulta e análise.
@@ -121,3 +137,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor  |
 | :----: | :--------: | :----------------------------------------- | :-------: | :------: |
 |  1.0   | 07/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Angélica |
+|  1.1   | 10/11/2025 | Adicionando Prótotipo 06 e 07 |  Raissa   | Vera |
