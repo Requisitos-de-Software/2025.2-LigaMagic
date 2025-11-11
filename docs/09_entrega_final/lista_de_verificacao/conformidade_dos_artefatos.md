@@ -25,6 +25,16 @@ Preencha uma linha por lista de verificação:
 
 | Lista                       | Itens | Aplicáveis (C+NC) |  C  | NC  | NA  | % Conformidade | Link                                                                                     |
 | :-------------------------- | :---: | :---------------: | :-: | :-: | :-: | :------------: | :--------------------------------------------------------------------------------------- |
+| Rich Picture                |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| Glossário                   |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| Análise de Documentos       |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| Entrevista                  |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| Observação                  |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| Perfil de usuário           |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| In or Out                   |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| MoSCoW                      |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| Pairwise Comparison         |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| Three Level Scale           |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
 | Cenários                    |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
 | Léxicos                     |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
 | Casos de Uso                |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
@@ -35,6 +45,46 @@ Preencha uma linha por lista de verificação:
 | Elos de Pós-Rastreabilidade |  38   |        28         | 16  | 12  | 10  |      57,2      | [Ver detalhes](../../08_inspecao/entrega5/03_inspecao_elos_de_rastreabilidade_grupo2.md) |
 
 ## Gráficos
+
+### Rich Picture
+
+### Glossário
+
+### Análise de Documentos
+
+### Entrevista
+
+### Observação
+
+### Perfil de usuário
+
+### In or Out
+
+### MoSCoW
+
+### Pairwise Comparison
+
+### Three Level Scale
+
+### Cenários
+
+### Léxicos
+
+### Casos de Uso
+
+### Especificação Suplementar
+
+### Histórias de Usuário
+
+### Backlogs
+
+### NFR Framework
+
+### Elos de Rastreabilidade
+
+<div align="center">
+<img src="../../../00_assets/images/graficos/elos_de_rastreabilidade.png" alt="" width="700px" style="margin: 10px;">
+</div>
 
 ## Histórico de versão
 
