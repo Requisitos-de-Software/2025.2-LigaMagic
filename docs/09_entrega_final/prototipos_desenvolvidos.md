@@ -32,6 +32,8 @@ A metodologia seguiu as seguintes etapas:
 | [04](#prototipo04) |           RFNI16           | O sistema deve permitir que o usuário compare cartas lado a lado (atributos, valores e edições)                               | [OBS13](../03_elicitacao/tecnicas/observacao.md#obs13) | [RF20](../03_elicitacao/artefatos/requisitos_elicitados.md#rf32) |  Angélica   |
 | [05](#prototipo05) |           RFNI17           | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores |  [AD17](../03_elicitacao/tecnicas/observacao.md#ad17)  | [RF17](../03_elicitacao/artefatos/requisitos_elicitados.md#rf17) |  Angélica   |
 | [06](#prototipo06) |           RFNI08 e RFNI14         | O sistema deve fornecer um módulo completo de leilões e permitir que o usuário salve cartas para compra futura (wishlist) | [OBS09](../03_elicitacao/tecnicas/observacao.md#obs09)  | [RF28](../03_elicitacao/artefatos/requisitos_elicitados.md#rf28) |  Guilherme   |
+| [07](#prototipo07) |           RFNI04           | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                                        | [OBS10](../03_elicitacao/tecnicas/observacao.md#obs10) | [RF29](../03_elicitacao/artefatos/requisitos_elicitados.md#rf29) |  Thiago   |
+| [08](#prototipo08) |           RFNI10           | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas                                         | [EN01](../03_elicitacao/tecnicas/entrevista.md#en01)   | [RF38](../03_elicitacao/artefatos/requisitos_elicitados.md#rf38) |  Thiago   |
 
 
 <div align="center"><strong>Tabela 1:</strong> Protótipos desenvolvidos por requisito</div>
@@ -102,6 +104,46 @@ A metodologia seguiu as seguintes etapas:
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/ETld5LmfnNpxRtooYAO3Ie/Ligamagic?node-id=7-91&starting-point-node-id=1%3A2&embed-host=share" allowfullscreen></iframe>
 
+### Protótipo 07: Avaliação de vendedores (RFNI04) {#prototipo07}
+
+<div align="center">
+<img src="../../00_assets/images/prototipos/RFNI04/Meus Pedidos.png" alt="Meus Pedidos" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025.
+
+<div align="center">
+<img src="../../00_assets/images/prototipos/RFNI04/Avaliação.png" alt="Avaliação" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025.
+
+### Protótipo 08: Catalogar coleção pessoal de cartas (RFNI10) {#prototipo08}
+
+<div align="center">
+<img src="../../00_assets/images/prototipos/RFNI10/Minha Coleção.png" alt="Minha Coleção" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025.
+
+<div align="center">
+<img src="../../00_assets/images/prototipos/RFNI10/Pesquisar Nova Carta.png" alt="Pesquisar Nova Carta" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025.
+
+<div align="center">
+<img src="../../00_assets/images/prototipos/RFNI10/Adicionar Carta.png" alt="Adicionar Carta" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025.
+
+<div align="center">
+<img src="../../00_assets/images/prototipos/RFNI10/Detalhes da Carta.png" alt="Detalhes da Carta" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025.
+
 ### Validação dos Protótipos
 
 Os protótipos foram validados através de sessões com usuários do LigaMagic, onde foi coletado feedback sobre a usabilidade e adequação das interfaces propostas. As gravações das validações estão disponíveis para consulta e análise.
@@ -128,3 +170,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | :----: | :--------: | :----------------------------------------- | :-------: | :------: |
 |  1.0   | 07/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Angélica |
 |  1.1   | 10/11/2025 | Protótipo 06|  Guilherme  | Vera |
+|  1.2   | 10/11/2025 | Protótipo 07 e 08|  Thiago  | Samuel |
