@@ -31,6 +31,8 @@ A metodologia seguiu as seguintes etapas:
 | [03](#prototipo03) |           RFNI14           | Permitir que o usuário salve cartas para compra futura (wishlist)                                                             | [OBS09](../03_elicitacao/tecnicas/observacao.md#obs09) | [RF28](../03_elicitacao/artefatos/requisitos_elicitados.md#rf28) |  Angélica   |
 | [04](#prototipo04) |           RFNI16           | O sistema deve permitir que o usuário compare cartas lado a lado (atributos, valores e edições)                               | [OBS13](../03_elicitacao/tecnicas/observacao.md#obs13) | [RF20](../03_elicitacao/artefatos/requisitos_elicitados.md#rf32) |  Angélica   |
 | [05](#prototipo05) |           RFNI17           | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores |  [AD17](../03_elicitacao/tecnicas/observacao.md#ad17)  | [RF17](../03_elicitacao/artefatos/requisitos_elicitados.md#rf17) |  Angélica   |
+| [06](#prototipo06) |           RFNI08 e RFNI14         | O sistema deve fornecer um módulo completo de leilões e permitir que o usuário salve cartas para compra futura (wishlist) | [OBS09](../03_elicitacao/tecnicas/observacao.md#obs09)  | [RF28](../03_elicitacao/artefatos/requisitos_elicitados.md#rf28) |  Guilherme   |
+
 
 <div align="center"><strong>Tabela 1:</strong> Protótipos desenvolvidos por requisito</div>
 
@@ -96,6 +98,10 @@ A metodologia seguiu as seguintes etapas:
 <img src="../../00_assets/images/prototipos/recomendacoes/recomendacoes_automaticas.png" alt="Recomendações Automáticas" width="500px" style="margin: 10px;">
 </div>
 
+### Protótipo 06: 
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/ETld5LmfnNpxRtooYAO3Ie/Ligamagic?node-id=7-91&starting-point-node-id=1%3A2&embed-host=share" allowfullscreen></iframe>
+
 ### Validação dos Protótipos
 
 Os protótipos foram validados através de sessões com usuários do LigaMagic, onde foi coletado feedback sobre a usabilidade e adequação das interfaces propostas. As gravações das validações estão disponíveis para consulta e análise.
@@ -121,3 +127,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor  |
 | :----: | :--------: | :----------------------------------------- | :-------: | :------: |
 |  1.0   | 07/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Angélica |
+|  1.1   | 10/11/2025 | Protótipo 06|  Guilherme  | Vera |
