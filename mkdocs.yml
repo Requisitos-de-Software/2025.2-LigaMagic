@@ -77,11 +77,11 @@ nav:
           - NFR Framework: 05_modelagem/05_Agil/03_nfr_framework.md
 
   - Pós-rastreabilidade:
-        - Matrizes:
-            - Backward-from: 06_pos-rastreabilidade/matrizes/01_backward_from.md
-            - Forward-from: 06_pos-rastreabilidade/matrizes/02_forward_from.md
-        - Elos de Pós-Rastreabilidade: 06_pos-rastreabilidade/elos_de_rastreabilidade.md
-        - Matriz de Pós-Rastreabilidade: 06_pos-rastreabilidade/matriz_de_rastreabilidade.md
+      - Matrizes:
+          - Backward-from: 06_pos-rastreabilidade/matrizes/01_backward_from.md
+          - Forward-from: 06_pos-rastreabilidade/matrizes/02_forward_from.md
+      - Elos de Pós-Rastreabilidade: 06_pos-rastreabilidade/elos_de_rastreabilidade.md
+      - Matriz de Pós-Rastreabilidade: 06_pos-rastreabilidade/matriz_de_rastreabilidade.md
 
   - Verificação:
       - Entrega 1:
@@ -154,6 +154,25 @@ nav:
           - Inspeção Elos de Rastreabilidade Grupo 2: 08_inspecao/entrega5/03_inspecao_elos_de_rastreabilidade_grupo2.md
           - Inspeção Elos de Rastreabilidade Grupo +1: 08_inspecao/entrega5/04_inspecao_elos_de_rastreabilidade_grupo3.md
 
+  - Entrega Final:
+      - Lista de Verificação:
+          - Lista de Verificação de Requisitos: 09_entrega_final/lista_de_verificacao/conformidade_dos_artefatos.md
+          - Modelo de Avaliação:
+              - Entrega 3:
+                  - Cenários: 09_entrega_final/lista_de_verificacao/modelos/entrega3/01_verificacao_cenarios.md
+                  - Léxicos: 09_entrega_final/lista_de_verificacao/modelos/entrega3/02_verificacao_lexicos.md
+                  - Casos de Uso: 09_entrega_final/lista_de_verificacao/modelos/entrega3/03_verificacao_casos_de_uso.md
+                  - Especificação Suplementar: 09_entrega_final/lista_de_verificacao/modelos/entrega3/04_verificacao_especificacao_suplementar.md
+              - Entrega 4:
+                  - Histórias de Usuário: 09_entrega_final/lista_de_verificacao/modelos/entrega4/01_verificacao_historias_de_usuario.md
+                  - Backlogs: 09_entrega_final/lista_de_verificacao/modelos/entrega4/02_verificacao_backlogs.md
+                  - NFR Framework: 09_entrega_final/lista_de_verificacao/modelos/entrega4/03_verificacao_nfr_framework.md
+              - Entrega 5:
+                  - Elos de Rastreabilidade: 09_entrega_final/lista_de_verificacao/modelos/entrega5/verificacao_elos_de_rastreabilidade.md
+      - Protótipos:
+          - Protótipos Desenvolvidos: 09_entrega_final/prototipos/prototipos_desenvolvidos.md
+          - Entrega final: 09_entrega_final/prototipos/entrega_final.md
+
   - Apresentações:
       - Apresentação 1: apresentacao/apresentacao1.md
       - Apresentação 2: apresentacao/apresentacao2.md
@@ -165,7 +184,3 @@ nav:
           - Ata 1: atas/ata1.md
           - Ata 2: atas/ata2.md
           - Ata 3: atas/ata3.md
-
-  - Entrega Final:
-        - Protótipos Desenvolvidos: 09_entrega_final/prototipos_desenvolvidos.md
-        - Entrega final: 09_entrega_final/entrega_final.md
