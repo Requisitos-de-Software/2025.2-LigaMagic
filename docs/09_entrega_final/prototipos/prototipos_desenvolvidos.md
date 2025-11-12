@@ -36,6 +36,8 @@ A metodologia seguiu as seguintes etapas:
 | [08](#prototipo08) |           RFNI10           | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas                                          |  [EN01](../03_elicitacao/tecnicas/entrevista.md#en01)  | [RF38](../03_elicitacao/artefatos/requisitos_elicitados.md#rf38) |                                                                                                                                                                                                                                                                     |  Thiago   |
 | [09](#prototipo09) |           RFNI05           | Permitir que o usuário defina um alerta de preço para a carta selecionada                                                     |     [OBS12](../03_elicitacao/observacao.md#obs12)      |             [RF31](./requisitos_elicitados.md#rf31)              | [PDF](../../../00_assets/pdfs/prototipo/PrototipoVera.pdf)<br/>[Figma](https://www.figma.com/proto/UTTZOad6C9ctSx5MVubLzW/Sem-t%C3%ADtulo?node-id=2-2&p=f&t=LDfQntxofExZ0W4M-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2) |   Vera    |
 | [10](#prototipo10) |           RFNI07           | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)                 |     [OBS18](../03_elicitacao/observacao.md#obs18)      |             [RF37](./requisitos_elicitados.md#rf37)              |                                                                                                                                                                                                                                                                     |   Vera    |
+ [10](#prototipo10) |           RFNI01          | permitir que cada usuário personalize e mantenha sua página pessoal/profissional                                                |     [AD10](../03_elicitacao/tecnicas/observacao.md#ad10)      |             [RF10](./requisitos_elicitados.md#rf10)              | [PDF](../../../00_assets/pdfs/prototipo/prototipaçãodepersonalizaçãodeperfildeusuário.pdf)<br/>[Figma](https://www.figma.com/design/uPVQ3qelnG2LbQjussehuw/prototipa%C3%A7%C3%A3o-personalizar-perfil-de-usu%C3%A1rio?node-id=0-1&p=f&t=ouk8UWAqesbXmO8y-0) |   Marcelo |
+ [11](#prototipo11) |           RFNI03         | permitir que cada usuário personalize e mantenha sua página pessoal/profissional                                                |     [OBS02](../03_elicitacao/observacao.md#obs02)     |             [RF21.2](./requisitos_elicitados.md#rf21.2)              | [PDF](../../../00_assets/pdfs/prototipo/prototipaçãodefiltragemporqualidadacondição.pdf)<br/>[Figma](https://www.figma.com/design/BOpz8yQkgiupHVaMkERla2/prototipa%C3%A7%C3%A3o-de-filtragem-por-qualidada-condi%C3%A7%C3%A3o?node-id=0-1&p=f&t=RanOX0VkhUqlfIkx-0) |   Marcelo |
 
 <div align="center"><strong>Tabela 1:</strong> Protótipos desenvolvidos por requisito</div>
 
@@ -171,6 +173,18 @@ A metodologia seguiu as seguintes etapas:
 
 **Fonte:** Vera, 2025
 
+### Protótipo 11: personalizar perfil de usuário
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/uPVQ3qelnG2LbQjussehuw/prototipa%C3%A7%C3%A3o-personalizar-perfil-de-usu%C3%A1rio?node-id=19-12&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=19%3A12&embed-host=share" allowfullscreen></iframe>
+
+**Fonte:** Marcelo, 2025
+
+### Protótipo 12: Filtrar carta por qualidade/condição
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/BOpz8yQkgiupHVaMkERla2/prototipa%C3%A7%C3%A3o-de-filtragem-por-qualidada-condi%C3%A7%C3%A3o?node-id=4-730&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A730&embed-host=share" allowfullscreen></iframe>
+
+**Fonte:** Marcelo, 2025
+
 ### Validação dos Protótipos
 
 Os protótipos foram validados através de sessões com usuários do LigaMagic, onde foi coletado feedback sobre a usabilidade e adequação das interfaces propostas. As gravações das validações estão disponíveis para consulta e análise.
@@ -200,3 +214,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.2   | 10/11/2025 | Protótipo 07 e 08                          |  Thiago   |  Samuel  |
 |  1.3   | 11/11/2025 | Protótipo 9 e 10                           |   Vera    |  Samuel  |
 |  1.4   | 12/11/2025 | Arrumando as imagens                       |  Thiago   |  Samuel  |
+|  1.5 | 11/11/2025 | Protótipo 11 e 12                          |   Vera    |  Samuel  |
