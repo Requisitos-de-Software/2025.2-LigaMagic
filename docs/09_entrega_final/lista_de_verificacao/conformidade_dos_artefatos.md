@@ -73,7 +73,7 @@ Preencha uma linha por lista de verificação:
 ### Observação
 
 <div align="center">
-<img src="../../../00_assets/images/graficos/observacao.png" alt="" width="700px" style="margin: 10px;">
+<img src="../../../00_assets/images/graficos/observacao.png" alt="Gráfico de conformidade da Observação" width="700px" style="margin: 10px;">
 </div>
 
 ### Perfil de usuário
