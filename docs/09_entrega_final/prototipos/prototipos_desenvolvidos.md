@@ -24,16 +24,18 @@ A metodologia seguiu as seguintes etapas:
 
 ### Protótipos por Requisito
 
-|         ID         | Requisito não implementado | Descrição do Requisito                                                                                                        |                 Técnica de Elicitação                  |                        Requisito Original                        | Autor    |
-|:------------------:|:--------------------------:|:----------------------------------------------------------------------------------------------------------------------------- |:------------------------------------------------------:|:----------------------------------------------------------------:|:---:|
-| [01](#prototipo01) |           RFNI02           | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)                            |     [AD11](../tecnicas/analise_documentos.md#ad11)     |             [RF11](./requisitos_elicitados.md#rf11)              |  Samuel   |
-| [02](#prototipo02) |           RFNI06           | Permitir que o usuário compartilhe informações da carta por link direto                                                       |        [OBS17](../tecnicas/observacao.md#obs17)        |             [RF36](./requisitos_elicitados.md#rf36)              | Samuel    |
-| [03](#prototipo03) |           RFNI14           | Permitir que o usuário salve cartas para compra futura (wishlist)                                                             | [OBS09](../03_elicitacao/tecnicas/observacao.md#obs09) | [RF28](../03_elicitacao/artefatos/requisitos_elicitados.md#rf28) |  Angélica   |
-| [04](#prototipo04) |           RFNI16           | O sistema deve permitir que o usuário compare cartas lado a lado (atributos, valores e edições)                               | [OBS13](../03_elicitacao/tecnicas/observacao.md#obs13) | [RF20](../03_elicitacao/artefatos/requisitos_elicitados.md#rf32) |  Angélica   |
-| [05](#prototipo05) |           RFNI17           | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores |  [AD17](../03_elicitacao/tecnicas/observacao.md#ad17)  | [RF17](../03_elicitacao/artefatos/requisitos_elicitados.md#rf17) |  Angélica   |
-| [06](#prototipo06) |           RFNI08 e RFNI14         | O sistema deve fornecer um módulo completo de leilões e permitir que o usuário salve cartas para compra futura (wishlist) | [OBS09](../03_elicitacao/tecnicas/observacao.md#obs09)  | [RF28](../03_elicitacao/artefatos/requisitos_elicitados.md#rf28) |  Guilherme   |
-| [07](#prototipo07) |           RFNI04           | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                                        | [OBS10](../03_elicitacao/tecnicas/observacao.md#obs10) | [RF29](../03_elicitacao/artefatos/requisitos_elicitados.md#rf29) |  Thiago   |
-| [08](#prototipo08) |           RFNI10           | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas                                         | [EN01](../03_elicitacao/tecnicas/entrevista.md#en01)   | [RF38](../03_elicitacao/artefatos/requisitos_elicitados.md#rf38) |  Thiago   |
+|         ID         | Requisito não implementado | Descrição do Requisito                                                                                                        |                        Técnica de Elicitação                        |                        Requisito Original                        | PDF/Figma                                                                |   Autor   |
+|:------------------:|:--------------------------:|:------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------:|:----------------------------------------------------------------:|--------------------------------------------------------------------------|:---------:|
+| [01](#prototipo01) |           RFNI02           | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)                            |           [AD11](../tecnicas/analise_documentos.md#ad11)            |             [RF11](./requisitos_elicitados.md#rf11)              |                                                                          |  Samuel   |
+| [02](#prototipo02) |           RFNI06           | Permitir que o usuário compartilhe informações da carta por link direto                                                       |              [OBS17](../tecnicas/observacao.md#obs17)               |             [RF36](./requisitos_elicitados.md#rf36)              |                                                                          |  Samuel   |
+| [03](#prototipo03) |           RFNI14           | Permitir que o usuário salve cartas para compra futura (wishlist)                                                             |       [OBS09](../03_elicitacao/tecnicas/observacao.md#obs09)        | [RF28](../03_elicitacao/artefatos/requisitos_elicitados.md#rf28) |                                                                          | Angélica  |
+| [04](#prototipo04) |           RFNI16           | O sistema deve permitir que o usuário compare cartas lado a lado (atributos, valores e edições)                               |       [OBS13](../03_elicitacao/tecnicas/observacao.md#obs13)        | [RF20](../03_elicitacao/artefatos/requisitos_elicitados.md#rf32) |                                                                          | Angélica  |
+| [05](#prototipo05) |           RFNI17           | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores |        [AD17](../03_elicitacao/tecnicas/observacao.md#ad17)         | [RF17](../03_elicitacao/artefatos/requisitos_elicitados.md#rf17) |                                                                          | Angélica  |
+| [06](#prototipo06) |      RFNI08 e RFNI14       | O sistema deve fornecer um módulo completo de leilões e permitir que o usuário salve cartas para compra futura (wishlist)     |       [OBS09](../03_elicitacao/tecnicas/observacao.md#obs09)        | [RF28](../03_elicitacao/artefatos/requisitos_elicitados.md#rf28) |                                                                          | Guilherme |
+| [07](#prototipo07) |           RFNI04           | Permitir que o usuário avalie ou dê feedback sobre vendedores ou decks                                                        |       [OBS10](../03_elicitacao/tecnicas/observacao.md#obs10)        | [RF29](../03_elicitacao/artefatos/requisitos_elicitados.md#rf29) |                                                                          |  Thiago   |
+| [08](#prototipo08) |           RFNI10           | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas                                          |        [EN01](../03_elicitacao/tecnicas/entrevista.md#en01)         | [RF38](../03_elicitacao/artefatos/requisitos_elicitados.md#rf38) |                                                                          |  Thiago   |
+| [09](#prototipo09) |           RFNI05           | Permitir que o usuário defina um alerta de preço para a carta selecionada                                                     |            [OBS12](../03_elicitacao/observacao.md#obs12)            |             [RF31](./requisitos_elicitados.md#rf31)              | [PDF](../../../00_assets/pdfs/prototipo/PrototipoVera.pdf)<br/>[Figma](https://www.figma.com/proto/UTTZOad6C9ctSx5MVubLzW/Sem-t%C3%ADtulo?node-id=2-2&p=f&t=LDfQntxofExZ0W4M-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2) |   Vera    |
+| [10](#prototipo10) |          RFNI07            | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)                 | [OBS18](../03_elicitacao/observacao.md#obs18)                       |             [RF37](./requisitos_elicitados.md#rf37)              |                                                                          |   Vera    |
 
 
 <div align="center"><strong>Tabela 1:</strong> Protótipos desenvolvidos por requisito</div>
@@ -143,6 +145,35 @@ A metodologia seguiu as seguintes etapas:
 </div>
 
 **Fonte:** Thiago, 2025.
+
+
+### Protótipo 09: Alerta de preço para uma carta selecionada (RFNI05) {#prototipo09}
+
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="../../00_assets/images/prototipos/RFNI05/telaCarta.png" alt="Detalhes da Carta 1" width="250px">
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="../../00_assets/images/prototipos/RFNI05/telaPreço.png" alt="Detalhes da Carta 2" width="250px">
+  </div>
+</div>
+
+**Fonte:** Vera, 2025
+
+
+### Protótipo 09: Reportar problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)(RFNI07) {#prototipo10}
+
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img src="../../00_assets/images/prototipos/RFNI07/telaCarta2.png" alt="Detalhes da Carta 1" width="250px">
+  </div>
+  <div style="display: inline-block; margin: 10px;">
+    <img src="../../00_assets/images/prototipos/RFNI07/telaReporte.png" alt="Detalhes da Carta 2" width="250px">
+  </div>
+</div>
+
+
+
 
 ### Validação dos Protótipos
 
