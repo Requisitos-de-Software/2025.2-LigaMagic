@@ -26,10 +26,10 @@ Preencha uma linha por lista de verificação:
 | Lista                       | Itens | Aplicáveis (C+NC) |  C  | NC  | NA  | % Conformidade | Link                                                                                     |
 | :-------------------------- | :---: | :---------------: | :-: | :-: | :-: | :------------: | :--------------------------------------------------------------------------------------- |
 | Rich Picture                |  21   |        20         | 19  |  1  |  1  |      95,0      | [Ver detalhes](../../08_inspecao/entrega1/inspecao_rich_picture.md)                      |
-| Glossário                   |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| Glossário                   |  29   |        22         | 18  |  4  |  7  |      81,8      | [Ver detalhes](../../08_inspecao/entrega2/01_elicitacao/artefatos/inspecao_glossario.md) |
 | Análise de Documentos       |  10   |         9         |  9  |  0  |  1  |     100,0      | [Ver detalhes](../../08_inspecao/entrega2/inspecao_analise_documentos.md)                |
 | Entrevista                  |   9   |         9         |  9  |  0  |  0  |     100,0      | [Ver detalhes](../../08_inspecao/entrega2/inspecao_entrevista.md)                        |
-| Observação                  |   0   |         0         |  0  |  0  |  0  |       —        | [Ver detalhes]()                                                                         |
+| Observação                  |  18   |        18         | 16  |  2  |  0  |      88,9      | [Ver detalhes](../../08_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_observacao.md) |
 | Perfil de usuário           |  10   |        10         | 10  |  0  |  0  |     100,0      | [Ver detalhes](../../08_inspecao/entrega2/inspecao_perfil_usuario.md)                    |
 | In or Out                   |   9   |         8         |  7  |  1  |  1  |      87,5      | [Ver detalhes](../../08_inspecao/entrega2/inspecao_in_or_out.md)                         |
 | MoSCoW                      |  12   |        10         | 10  |  0  |  2  |     100,0      | [Ver detalhes](../../08_inspecao/entrega2/inspecao_moscow.md)                            |
@@ -54,6 +54,10 @@ Preencha uma linha por lista de verificação:
 
 ### Glossário
 
+<div align="center">
+<img src="../../../00_assets/images/graficos/glossario.png" alt="" width="700px" style="margin: 10px;">
+</div>
+
 ### Análise de Documentos
 
 <div align="center">
@@ -67,6 +71,10 @@ Preencha uma linha por lista de verificação:
 </div>
 
 ### Observação
+
+<div align="center">
+<img src="../../../00_assets/images/graficos/observacao.png" alt="" width="700px" style="margin: 10px;">
+</div>
 
 ### Perfil de usuário
 
