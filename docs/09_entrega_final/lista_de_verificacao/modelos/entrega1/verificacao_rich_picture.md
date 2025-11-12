@@ -3,40 +3,42 @@
 ## Metadados
 
 - Lista: Rich Picture
-- Versão/Referência: [Ver detalhes]()
-- Data da Avaliação Final: [DD-MM-AAAA]
-- Avaliadores: [Nomes/Equipes]
+- Versão/Referência: [Ver detalhes](../../../../08_inspecao/entrega1/inspecao_rich_picture.md)
+- Data da Avaliação Final: 12-11-2025
+- Avaliadores: Grupo 2
 - Artefatos Avaliados: [Rich Picture](../../../../02_pre-rastreabilidade/rich_picture.md)
 
 ## Legenda
 
-- Resultado: C (Conforme), NC (Não Conforme)
+- Resultado: C (Conforme), NC (Não Conforme), NA (Não Aplicável)
 - % Conformidade = (C / (C + NC)) × 100
 
 ## Checklist
 
-Preencha uma linha por critério da lista.
+Principais Não Conformidades:
 
-| ID  | Descrição   | Resultado (C/NC/NA) | Ação Corretiva | Responsável   | Prazo        | Status       |
-| :-: | :---------- | :-----------------: | -------------- | ------------- | ------------ | :----------- |
-| 01  | [Descrição] |          C          | —              | —             | —            | Concluído    |
-| 02  | [Descrição] |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
+- [20] — O Rich Picture foi desenhado à mão livre ou utilizando software?
+
+| ID  | Resultado (C/NC/NA) | Ação Corretiva | Responsável   | Prazo        | Status       |
+| :-: | :-----------------: | :-------------- | :------------ | :----------- | :----------- |
+| 20  |         NC          | —              | —             | —            | Conforme (digital é aceitável) |
 
 ## Resumo da Lista
 
-- Total de itens: [N]
-- Aplicáveis (C+NC): [N_aplicaveis]
-- C: [N_C]
-- NC: [N_NC]
-- % Conformidade: [N_C / (N_C + N_NC) × 100]%
+- Total de itens: 21
+- Aplicáveis (C+NC): 20
+- C: 19
+- NC: 1
+- NA: 1
+- % Conformidade: 95,0%
 
 Principais Não Conformidades:
 
-- [ID] — [Resumo]
-- [ID] — [Resumo]
+- [20] — O Rich Picture foi desenvolvido digitalmente, porém a não conformidade é considerada positiva pois o resultado digital é de alta qualidade e profissional
 
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
 | :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
+|  1.1   | 12/11/2025 | Adição das não conformidades |  Thiago   | Samuel  |
