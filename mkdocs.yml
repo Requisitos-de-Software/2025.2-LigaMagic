@@ -115,72 +115,82 @@ nav:
           - Elos de Rastreabilidade Inspeção Geral grupo 2: 07_verificacao/entrega5/verficacao_elos_geral_grupo2.md
           - Elos de Rastreabilidade Inspeção Geral grupo 3: 07_verificacao/entrega5/verficacao_elos_geral_grupo3.md
 
+      - Entrega 6:
+          - Verificação: 07_verificacao/entrega6/verificacaoGeral.md
+
+
   - Inspeção:
       - Entrega 1:
-          - Inspeção Geral: 08_inspecao/entrega1/inspecao_grupo_mais_um.md
-          - Rich Picture: 08_inspecao/entrega1/inspecao_richpicture.md
+          - Inspeção Geral Grupo +1: 08_inspecao/entrega1/inspecao_grupo_mais_um.md
+          - Rich Picture Grupo +1: 08_inspecao/entrega1/inspecao_richpicture.md
       - Entrega 2:
           - Elicitação:
               - Artefatos:
-                  - Glossário: 08_inspecao/entrega2/01_elicitacao/artefatos/inspecao_glossario.md
-                  - Perfil de usuário: 08_inspecao/entrega2/01_elicitacao/artefatos/inspecao_perfil_de_usuario.md
+                  - Glossário Grupo +1: 08_inspecao/entrega2/01_elicitacao/artefatos/inspecao_glossario.md
+                  - Perfil de usuário Grupo +1: 08_inspecao/entrega2/01_elicitacao/artefatos/inspecao_perfil_de_usuario.md
               - Técnicas:
-                  - Análise de Documentos: 08_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_analise_de_documentos.md
-                  - Brainstorming: 08_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_brainstorming.md
-                  - Entrevista: 08_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_entrevista.md
-                  - Observação: 08_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_observacao.md
+                  - Análise de Documentos Grupo +1: 08_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_analise_de_documentos.md
+                  - Brainstorming Grupo +1: 08_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_brainstorming.md
+                  - Entrevista Grupo +1: 08_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_entrevista.md
+                  - Observação Grupo +1: 08_inspecao/entrega2/01_elicitacao/tecnicas/inspecao_observacao.md
           - Priorização:
-              - In or Out: 08_inspecao/entrega2/02_priorizacao/inspecao_in_or_out.md
-              - MoSCoW: 08_inspecao/entrega2/02_priorizacao/inspecao_MoSCoW.md
-              - Pairwise Comparison: 08_inspecao/entrega2/02_priorizacao/inspecao_pairwise_comparison.md
-              - Three Level Scale: 08_inspecao/entrega2/02_priorizacao/inspecao_three_level_scale.md
-          - Inspeção Geral: 08_inspecao/entrega2/inspecao_geral.md
+              - In or Out Grupo +1: 08_inspecao/entrega2/02_priorizacao/inspecao_in_or_out.md
+              - MoSCoW Grupo +1: 08_inspecao/entrega2/02_priorizacao/inspecao_MoSCoW.md
+              - Pairwise Comparison Grupo +1: 08_inspecao/entrega2/02_priorizacao/inspecao_pairwise_comparison.md
+              - Three Level Scale Grupo +1: 08_inspecao/entrega2/02_priorizacao/inspecao_three_level_scale.md
+          - Inspeção Geral Grupo +1: 08_inspecao/entrega2/inspecao_geral.md
       - Entrega 3:
-          - Inspeção Geral: 08_inspecao/entrega3/inspecao_geral.md
+          - Inspeção Geral Grupo +1: 08_inspecao/entrega3/inspecao_geral.md
           - Inspeção Geral Grupo 2: 08_inspecao/entrega3/inspecao_geral_grupo2.md
-          - Inspeção Cenários: 08_inspecao/entrega3/inspecao_cenarios.md
-          - Inspeção Léxicos: 08_inspecao/entrega3/inspecao_lexicos.md
-          - Inspeção Casos de Uso: 08_inspecao/entrega3/inspecao_casos_de_uso.md
-          - Inspeção Especificação Suplementar: 08_inspecao/entrega3/inspecao_especificacao_suplementar.md
+          - Inspeção Cenários Grupo +1: 08_inspecao/entrega3/inspecao_cenarios.md
+          - Inspeção Léxicos Grupo +1: 08_inspecao/entrega3/inspecao_lexicos.md
+          - Inspeção Casos de Uso Grupo +1: 08_inspecao/entrega3/inspecao_casos_de_uso.md
+          - Inspeção Especificação Suplementar Grupo +1: 08_inspecao/entrega3/inspecao_especificacao_suplementar.md
       - Entrega 4:
-          - Inspeção Geral Grupo 2: 08_inspecao/entrega4/01_inspecao_geral_grupo2.md
           - Inspeção Geral Grupo +1: 08_inspecao/entrega4/02_inspecao_geral_grupo3.md
-          - Inspeção Histórias de Usuário: 08_inspecao/entrega4/03_inspecao_historia_de_usuarios.md
-          - Inspeção Backlogs: 08_inspecao/entrega4/04_inspecao_backlogs.md
-          - Inspeção NFR Framework: 08_inspecao/entrega4/05_inspecao_nfr.md
+          - Inspeção Geral Grupo 2: 08_inspecao/entrega4/01_inspecao_geral_grupo2.md
+          - Inspeção Histórias de Usuário Grupo +1: 08_inspecao/entrega4/03_inspecao_historia_de_usuarios.md
+          - Inspeção Histórias de Usuário Grupo 2: 08_inspecao/entrega4/06_inspecao_historia_de_usuarios_grupo_2.md
+          - Inspeção Backlogs Grupo +1: 08_inspecao/entrega4/04_inspecao_backlogs.md
+          - Inspeção Backlogs Grupo 2: 08_inspecao/entrega4/07_inspecao_backlogs_grupo_2.md
+          - Inspeção NFR Framework Grupo +1: 08_inspecao/entrega4/05_inspecao_nfr.md
+          - Inspeção NFR Framework Grupo 2: 08_inspecao/entrega4/08_inspecao_nfr_grupo_2.md
       - Entrega 5:
-          - Inspeção Geral Grupo 2: 08_inspecao/entrega5/01_inspecao_geral_grupo2.md
           - Inspeção Geral Grupo +1: 08_inspecao/entrega5/02_inspecao_geral_grupo3.md
-          - Inspeção Elos de Rastreabilidade Grupo 2: 08_inspecao/entrega5/03_inspecao_elos_de_rastreabilidade_grupo2.md
+          - Inspeção Geral Grupo 2: 08_inspecao/entrega5/01_inspecao_geral_grupo2.md
           - Inspeção Elos de Rastreabilidade Grupo +1: 08_inspecao/entrega5/04_inspecao_elos_de_rastreabilidade_grupo3.md
+          - Inspeção Elos de Rastreabilidade Grupo 2: 08_inspecao/entrega5/03_inspecao_elos_de_rastreabilidade_grupo2.md
+      - Entrega 6:
+            - Inspeção Grupo 2: 08_inspecao/Entrega6/01_inspecao_grupo2.md
+            - Inspeção Grupo 6: 08_inspecao/Entrega6/02_inspecao_grupo6.md
 
   - Entrega Final:
       - Lista de Verificação:
           - Lista de Verificação de Requisitos: 09_entrega_final/lista_de_verificacao/conformidade_dos_artefatos.md
           - Calendário de Avaliação:
               - Entrega 1:
-                  - Rich Picture: 09_entrega_final/lista_de_verificacao/modelos/entrega1/verificacao_rich_picture.md
+                  - Rich Picture: 09_entrega_final/lista_de_verificacao/calendario/entrega1/verificacao_rich_picture.md
               - Entrega 2:
-                  - Glossário: 09_entrega_final/lista_de_verificacao/modelos/entrega2/01_verificacao_glossario.md
-                  - Análise de Documentos: 09_entrega_final/lista_de_verificacao/modelos/entrega2/02_verificacao_analise_de_documentos.md
-                  - Entrevista: 09_entrega_final/lista_de_verificacao/modelos/entrega2/03_verificacao_entrevista.md
-                  - Observação: 09_entrega_final/lista_de_verificacao/modelos/entrega2/04_verificacao_observacao.md
-                  - Perfil de usuário: 09_entrega_final/lista_de_verificacao/modelos/entrega2/05_verificacao_perfil_de_usuario.md
-                  - In or Out: 09_entrega_final/lista_de_verificacao/modelos/entrega2/06_verificacao_in_or_out.md
-                  - MoSCoW: 09_entrega_final/lista_de_verificacao/modelos/entrega2/07_verificacao_moscow.md
-                  - Pairwise Comparison: 09_entrega_final/lista_de_verificacao/modelos/entrega2/08_verificacao_pairwise_comparison.md
-                  - Three Level Scale: 09_entrega_final/lista_de_verificacao/modelos/entrega2/09_verificacao_three_level_scale.md
+                  - Glossário: 09_entrega_final/lista_de_verificacao/calendario/entrega2/01_verificacao_glossario.md
+                  - Análise de Documentos: 09_entrega_final/lista_de_verificacao/calendario/entrega2/02_verificacao_analise_de_documentos.md
+                  - Entrevista: 09_entrega_final/lista_de_verificacao/calendario/entrega2/03_verificacao_entrevista.md
+                  - Observação: 09_entrega_final/lista_de_verificacao/calendario/entrega2/04_verificacao_observacao.md
+                  - Perfil de usuário: 09_entrega_final/lista_de_verificacao/calendario/entrega2/05_verificacao_perfil_de_usuario.md
+                  - In or Out: 09_entrega_final/lista_de_verificacao/calendario/entrega2/06_verificacao_in_or_out.md
+                  - MoSCoW: 09_entrega_final/lista_de_verificacao/calendario/entrega2/07_verificacao_moscow.md
+                  - Pairwise Comparison: 09_entrega_final/lista_de_verificacao/calendario/entrega2/08_verificacao_pairwise_comparison.md
+                  - Three Level Scale: 09_entrega_final/lista_de_verificacao/calendario/entrega2/09_verificacao_three_level_scale.md
               - Entrega 3:
-                  - Cenários: 09_entrega_final/lista_de_verificacao/modelos/entrega3/01_verificacao_cenarios.md
-                  - Léxicos: 09_entrega_final/lista_de_verificacao/modelos/entrega3/02_verificacao_lexicos.md
-                  - Casos de Uso: 09_entrega_final/lista_de_verificacao/modelos/entrega3/03_verificacao_casos_de_uso.md
-                  - Especificação Suplementar: 09_entrega_final/lista_de_verificacao/modelos/entrega3/04_verificacao_especificacao_suplementar.md
+                  - Cenários: 09_entrega_final/lista_de_verificacao/calendario/entrega3/01_verificacao_cenarios.md
+                  - Léxicos: 09_entrega_final/lista_de_verificacao/calendario/entrega3/02_verificacao_lexicos.md
+                  - Casos de Uso: 09_entrega_final/lista_de_verificacao/calendario/entrega3/03_verificacao_casos_de_uso.md
+                  - Especificação Suplementar: 09_entrega_final/lista_de_verificacao/calendario/entrega3/04_verificacao_especificacao_suplementar.md
               - Entrega 4:
-                  - Histórias de Usuário: 09_entrega_final/lista_de_verificacao/modelos/entrega4/01_verificacao_historias_de_usuario.md
-                  - Backlogs: 09_entrega_final/lista_de_verificacao/modelos/entrega4/02_verificacao_backlogs.md
-                  - NFR Framework: 09_entrega_final/lista_de_verificacao/modelos/entrega4/03_verificacao_nfr_framework.md
+                  - Histórias de Usuário: 09_entrega_final/lista_de_verificacao/calendario/entrega4/01_verificacao_historias_de_usuario.md
+                  - Backlogs: 09_entrega_final/lista_de_verificacao/calendario/entrega4/02_verificacao_backlogs.md
+                  - NFR Framework: 09_entrega_final/lista_de_verificacao/calendario/entrega4/03_verificacao_nfr_framework.md
               - Entrega 5:
-                  - Elos de Rastreabilidade: 09_entrega_final/lista_de_verificacao/modelos/entrega5/verificacao_elos_de_rastreabilidade.md
+                  - Elos de Rastreabilidade: 09_entrega_final/lista_de_verificacao/calendario/entrega5/verificacao_elos_de_rastreabilidade.md
       - Protótipos:
           - Protótipos Desenvolvidos: 09_entrega_final/prototipos/prototipos_desenvolvidos.md
           - Entrega final: 09_entrega_final/prototipos/entrega_final.md
