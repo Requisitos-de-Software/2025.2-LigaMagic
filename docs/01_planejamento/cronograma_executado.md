@@ -90,9 +90,9 @@ Fonte: Raissa, 2025
 
 | Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
 | :-------- | :------------------------: | :---- | :-------- | :------ |
-| Histórias de Usuários |     -     | - | - | - |
-| Backlogs |     -     | - | - | - |
-| NFR  Framework |     -     | - | - | - |
+| Histórias de Usuários |     16/10 a 19/10      |  Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera| Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | - |
+| Backlogs |     16/10 a 19/10     | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | - |
+| NFR  Framework |     16/10 a 19/10     | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | - |
 
 Fonte: Raissa, 2025
 
@@ -102,9 +102,9 @@ Fonte: Raissa, 2025
 
 | Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
 | :-------- | :------------------------: | :---- | :-------- | :------ |
-| Histórias de Usuários |     -     | - | - | - |
-| Backlogs |     -     | - | - | - |
-| NFR  Framework |     -     | - | - | - |
+| Histórias de Usuários |     20/10     | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | - |
+| Backlogs |     20/10     | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | - |
+| NFR  Framework |     20/10     | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | - |
 
 Fonte: Raissa, 2025
 
@@ -138,10 +138,10 @@ Fonte: Raissa, 2025
 
 | Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
 | :-------- | :------------------------: | :---- | :-------- | :------ |
-| -  |     -     | - | - | - |
-| -  |     -     | - | - | - |
-| -  |     -     | - | - | - |
-| -  |     -     | - | - | - |
+| Backward-From  |     23/10 a 28/10    | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera | - |
+| Forward-From  |     23/10 a 28/10     | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera | - |
+| Elos de Pós-Rastreabilidade  |     23/10 a 28/10     | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera | - |
+| Matriz de Pós-Rastreabilidade  |     23/10 a 28/10     | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera | - |
 
 
 Fonte: Raissa, 2025
@@ -153,17 +153,17 @@ Fonte: Raissa, 2025
 
 | Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
 | :-------- | :------------------------: | :---- | :-------- | :------ |
-| -  |     -     | - | - | - |
-| -  |     -     | - | - | - |
-| -  |     -     | - | - | - |
-| -  |     -     | - | - | - |
+| Backward-From  |     28/10 - 29/10     | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera, Guilherme | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera, Guilherme  | - |
+| Forward-From  |     28/10 - 29/10      | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera, Guilherme  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera, Guilherme  | - |
+| Elos de Pós-Rastreabilidade  |     28/10 - 29/10     | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera, Guilherme  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera, Guilherme  | - |
+| Matriz de Pós-Rastreabilidade  |     28/10 - 29/10     | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera, Guilherme  | Angélica, Marcelo, Raissa, Samuel, Thiago e Vera, Guilherme  | - |
 
 
 Fonte: Raissa, 2025
 
 ## Etapa 7 -  Projeto Final
  
-    Tabela com as atividades executadas da etapa 6:
+    Tabela com as atividades executadas da etapa 7:
 
 | Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
 | :-------- | :------------------------: | :---- | :-------- | :------ |
@@ -189,3 +189,4 @@ Fonte: Raissa, 2025
 |  1.1   | 09/09/2025 | Grupo + 1                             |                     [Raissa](https://github.com/RaissaAndradeS)                      |                                                                                      |
 |  1.2   | 02/09/2025 | Formatação e organização do documento | Samuel |  Raissa  |
 |  1.3   | 12/10/2025 | Adicionando etapas 2, 3, 4, 5, 6, 7 | Raissa |  -  |
+|  1.4   | 10/11/2025 | Preenchendo etapa 4 e 6  | Raissa |  -  |
