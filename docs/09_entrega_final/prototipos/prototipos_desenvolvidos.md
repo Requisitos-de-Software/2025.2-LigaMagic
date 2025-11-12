@@ -27,8 +27,8 @@ A metodologia seguiu as seguintes etapas:
 
 |    ID              | Requisito não implementado  | Descrição do Requisito                                                                                                        |           Técnica de Elicitação                        |                     Requisito Original                           | PDF/Figma                                                                                                                                                                                                                                                              |   Autor   |
 |:------------------:|:---------------------------:|:------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------:|:----------------------------------------------------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------:|
-| [01](#prototipo01) |           RFNI02            | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)                            |     [AD11](../tecnicas/analise_documentos.md#ad11)     |             [RF11](./requisitos_elicitados.md#rf11)              |                                                                                                                                                                                                                                                                        |  Samuel   |
-| [02](#prototipo02) |           RFNI06            | Permitir que o usuário compartilhe informações da carta por link direto                                                       |        [OBS17](../tecnicas/observacao.md#obs17)        |             [RF36](./requisitos_elicitados.md#rf36)              |                                                                                                                                                                                                                                                                        |  Samuel   |
+| [01](#prototipo01) |           RFNI02           | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)                            |     [AD11](../tecnicas/analise_documentos.md#ad11)     |             [RF11](./requisitos_elicitados.md#rf11)              |                                                                                                                                                                                                                                                     [PDF](../../00_assets/pdfs/prototipo/figma_mensagens_no_forum.pdf)<br>[Figma](https://www.figma.com/design/8FgbjaBilslE53fXCJpUfO/RS---F%C3%B3rum?node-id=0-1&t=Q1BS2TESh2QyVHNb-1)                |  Samuel   |
+| [02](#prototipo02) |           RFNI06           | Permitir que o usuário compartilhe informações da carta por link direto                                                       |        [OBS17](../tecnicas/observacao.md#obs17)        |             [RF36](./requisitos_elicitados.md#rf36)              |                                                                                                                                                                                                                                                          [PDF](../../00_assets/pdfs/prototipo/figma_compartilhar_carta.pdf)<br>[Figma](https://www.figma.com/design/u4Y4vt2gc6v10iv7uORAL7/RS---LINK?t=DEG9MJrItPpocFnt-1)           |  Samuel   |
 | [03](#prototipo03) |           RFNI14            | Permitir que o usuário salve cartas para compra futura (wishlist)                                                             | [OBS09](../03_elicitacao/tecnicas/observacao.md#obs09) | [RF28](../03_elicitacao/artefatos/requisitos_elicitados.md#rf28) |                                                                                                                                                                                                                                                                        | Angélica  |
 | [04](#prototipo04) |           RFNI16            | O sistema deve permitir que o usuário compare cartas lado a lado (atributos, valores e edições)                               | [OBS13](../03_elicitacao/tecnicas/observacao.md#obs13) | [RF20](../03_elicitacao/artefatos/requisitos_elicitados.md#rf32) |                                                                                                                                                                                                                                                                        | Angélica  |
 | [05](#prototipo05) |           RFNI17            | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores |  [AD17](../03_elicitacao/tecnicas/observacao.md#ad17)  | [RF17](../03_elicitacao/artefatos/requisitos_elicitados.md#rf17) |                                                                                                                                                                                                                                                                        | Angélica  |
@@ -92,22 +92,28 @@ A metodologia seguiu as seguintes etapas:
 #### Protótipo 03: Wishlist de Cartas (RFNI14) {#prototipo03}
 
 <div align="center">
-<img src="../../00_assets/images/prototipos/wishlist/wishlist_cartas.png" alt="Wishlist de Cartas" width="500px" style="margin: 10px;">
+<img src="../../../00_assets/images/prototipos/angelica/Frame5.png" alt="Wishlist de Cartas" width="700px" style="margin: 5px;">
 </div>
+
+**Fonte:** Angélica, 2025.
 
 #### Protótipo 04: Comparação de Cartas (RFNI16) {#prototipo04}
 
 <div align="center">
-<img src="../../00_assets/images/prototipos/comparacao/comparacao_cartas.png" alt="Comparação de Cartas" width="500px" style="margin: 10px;">
+<img src="../../../00_assets/images/prototipos/angelica/Frame6.png" alt="Comparação de Cartas" width="700px" style="margin: 5px;">
 </div>
+
+**Fonte:** Angélica, 2025.
 
 #### Protótipo 05: Recomendações Automáticas (RFNI17) {#prototipo05}
 
 <div align="center">
-<img src="../../00_assets/images/prototipos/recomendacoes/recomendacoes_automaticas.png" alt="Recomendações Automáticas" width="500px" style="margin: 10px;">
+<img src="../../../00_assets/images/prototipos/angelica/Frame7.png" alt="Recomendações Automáticas" width="700px" style="margin: 5px;">
 </div>
 
-#### Protótipo 06:
+**Fonte:** Angélica, 2025.
+
+### Protótipo 06: 
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/ETld5LmfnNpxRtooYAO3Ie/Ligamagic?node-id=7-91&starting-point-node-id=1%3A2&embed-host=share" allowfullscreen></iframe>
 
@@ -216,6 +222,7 @@ Os protótipos foram validados através de sessões com usuários do LigaMagic, 
 
 5. - [Validação feita por Samuel](https://www.youtube.com/watch?v=MnGi65vXbv4)
 
+- [Assista ao vídeo no YouTube a validação do prototipo dos requisitos RFNI14, RFNI16 e RFNI17](https://youtu.be/5QJS0GAnPRo). Este video foi produzido pela aluna Angélica Campos. 
 
 ## Agradecimentos
 
@@ -244,3 +251,5 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.4   | 12/11/2025 | Arrumando as imagens                       |  Thiago   |  Samuel  |
 |  1.5 | 11/11/2025 | Protótipo 11 e 12                          |   Vera    |  Samuel  |
 |  1.6 | 12/11/2025 | Protótipo 13 e 14                          |   Raissa   |  Vera  |
+|  1.5   | 11/11/2025 | Protótipo 11 e 12                          |   Vera    |  Samuel  |
+|  1.3   | 11/11/2025 | Protótipo 14, 16 e 17                 |  Angélica  | Raissa |
