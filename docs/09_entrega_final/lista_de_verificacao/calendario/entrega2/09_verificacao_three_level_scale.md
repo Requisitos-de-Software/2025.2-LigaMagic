@@ -19,9 +19,9 @@ Principais Não Conformidades:
 
 - [11] — Há registro da data e horário da realização da priorização?
 
-| ID  | Resultado (C/NC/NA) | Ação Corretiva | Responsável   | Prazo        | Status       |
-| :-: | :-----------------: | :-------------- | :------------ | :----------- | :----------- |
-| 11  |         NC          | Adicionar registro de data e horário da priorização | Grupo 2 | — | Em planejamento |
+| ID  | Resultado (C/NC/NA) | Ação Corretiva                                      | Responsável | Prazo | Status          |
+| :-: | :-----------------: | :-------------------------------------------------- | :---------- | :---- | :-------------- |
+| 11  |         NC          | Adicionar registro de data e horário da priorização | Grupo 2     | —     | Em planejamento |
 
 ## Resumo da Lista
 
@@ -36,9 +36,13 @@ Principais Não Conformidades:
 
 - [11] — Não há registro explícito da data e horário em que a técnica de priorização foi aplicada com os participantes
 
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
 | :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
-|  1.1   | 12/11/2025 | Adição das não conformidades |  Thiago   | Samuel  |
+|  1.1   | 12/11/2025 | Adição das não conformidades               |  Thiago   | Samuel  |

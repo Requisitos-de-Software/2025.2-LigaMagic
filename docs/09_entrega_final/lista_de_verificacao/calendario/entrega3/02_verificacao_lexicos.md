@@ -20,10 +20,10 @@ Principais Não Conformidades:
 - **ID 17** — A categoria SUJEITO não possui definição clara de "Noção" conforme estrutura LAL
 - **ID 18** — A categoria SUJEITO não possui definição clara de "Impacto" conforme estrutura LAL
 
-| ID  | Resultado | Ação Corretiva                                                                 | Responsável | Prazo | Status        |
-| :-: | :-------: | :----------------------------------------------------------------------------- | :---------: | :---: | :------------ |
-| 17  |    NC     | Adicionar explicação clara de "Noção" para categoria SUJEITO no padrão LAL    |    Grupo 2    |   —   | A fazer       |
-| 18  |    NC     | Adicionar explicação clara de "Impacto" para categoria SUJEITO no padrão LAL  |    Grupo 2    |   —   | A fazer       |
+| ID  | Resultado | Ação Corretiva                                                               | Responsável | Prazo | Status  |
+| :-: | :-------: | :--------------------------------------------------------------------------- | :---------: | :---: | :------ |
+| 17  |    NC     | Adicionar explicação clara de "Noção" para categoria SUJEITO no padrão LAL   |   Grupo 2   |   —   | A fazer |
+| 18  |    NC     | Adicionar explicação clara de "Impacto" para categoria SUJEITO no padrão LAL |   Grupo 2   |   —   | A fazer |
 
 ## Resumo da Lista
 
@@ -39,9 +39,13 @@ Principais Não Conformidades:
 - **ID 17** — A categoria SUJEITO não apresenta definição adequada de "Noção" seguindo o padrão da Linguagem de Aplicação Léxica (LAL). É necessário especificar claramente quem é o sujeito e quais ações ele realiza.
 - **ID 18** — A categoria SUJEITO não apresenta definição adequada de "Impacto" seguindo o padrão LAL. É necessário descrever os efeitos das ações realizadas pelo sujeito no ambiente ou sistema.
 
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
 | :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
-|  1.1   | 12/11/2025 | Adição das não conformidades |  Thiago   | Samuel  |
+|  1.1   | 12/11/2025 | Adição das não conformidades               |  Thiago   | Samuel  |

@@ -15,21 +15,6 @@
 
 ## Checklist
 
-Principais Não Conformidades:
-
-- [04] — [O elo de Recurso foi utilizado para indicar que um artefato (origem) depende de um recurso provido por outro artefato (destino)?]
-- [05] — [O recurso provido pelo artefato de destino é essencial para a elaboração ou existência do artefato de origem?]
-- [11] — [O elo de Alocado foi utilizado para designar um requisito ou artefato a um subsistema, componente ou pacote de trabalho específico?]
-- [12] — [O local (destino) para onde o artefato (origem) foi alocado está claramente identificado?]
-- [13] — [O elo de Agregação foi empregado para representar uma relação de composição (“parte-todo”) entre artefatos?]
-- [14] — [O artefato de origem (o “todo”) é claramente composto pelos artefatos de destino (as “partes”)?]
-- [15] — [A decomposição do artefato de origem nos artefatos de destino está completa e sem ambiguidades?]
-- [18] — [O elo de Recurso faz ligação entre, um artefato que consome, e um artefato que provê (Por exemplo: Backlog da Sprint ao Backlog do Produto)?]
-- [22] — [Existe uma classificação composta por quatro níveis de informação — ambiental, organizacional, gerencial e de desenvolvimento]
-- [27] — [A rastreabilidade entre requisitos mapeia dependências entre requisitos?]
-- [34] — [Na proposta de Toranzo para rastreabilidade foram utilizadas quatro estratégias?]
-- [37] — [Há registro de dependência de recurso entre requisitos?]
-
 | ID  | Resultado (C/NC/) | Ação Corretiva |  Responsável  |    Prazo     | Status       |
 | :-: | :---------------: | :------------- | :-----------: | :----------: | :----------- |
 | 04  |        NC         | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
@@ -45,13 +30,32 @@ Principais Não Conformidades:
 | 34  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
 | 37  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
 
+## Principais Não Conformidades:
+
+- [04] — [O elo de Recurso foi utilizado para indicar que um artefato (origem) depende de um recurso provido por outro artefato (destino)?]
+- [05] — [O recurso provido pelo artefato de destino é essencial para a elaboração ou existência do artefato de origem?]
+- [11] — [O elo de Alocado foi utilizado para designar um requisito ou artefato a um subsistema, componente ou pacote de trabalho específico?]
+- [12] — [O local (destino) para onde o artefato (origem) foi alocado está claramente identificado?]
+- [13] — [O elo de Agregação foi empregado para representar uma relação de composição (“parte-todo”) entre artefatos?]
+- [14] — [O artefato de origem (o “todo”) é claramente composto pelos artefatos de destino (as “partes”)?]
+- [15] — [A decomposição do artefato de origem nos artefatos de destino está completa e sem ambiguidades?]
+- [18] — [O elo de Recurso faz ligação entre, um artefato que consome, e um artefato que provê (Por exemplo: Backlog da Sprint ao Backlog do Produto)?]
+- [22] — [Existe uma classificação composta por quatro níveis de informação — ambiental, organizacional, gerencial e de desenvolvimento]
+- [27] — [A rastreabilidade entre requisitos mapeia dependências entre requisitos?]
+- [34] — [Na proposta de Toranzo para rastreabilidade foram utilizadas quatro estratégias?]
+- [37] — [Há registro de dependência de recurso entre requisitos?]
+
 ## Resumo da Lista
 
-- Total de itens: [N]
-- Aplicáveis (C+NC): [N_aplicaveis]
-- C: [N_C]
-- NC: [N_NC]
-- % Conformidade: [N_C / (N_C + N_NC) × 100]%
+- Total de itens: 38
+- Aplicáveis (C+NC): 28
+- C: 16
+- NC: 12
+- % Conformidade: 57,2%
+
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
 
 ## Histórico de versão
 

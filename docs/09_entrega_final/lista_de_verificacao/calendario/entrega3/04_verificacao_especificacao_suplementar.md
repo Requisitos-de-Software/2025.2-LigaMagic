@@ -23,9 +23,9 @@ Principais Não Conformidades:
 
 | ID  | Resultado | Ação Corretiva                                                                                  | Responsável | Prazo | Status  |
 | :-: | :-------: | :---------------------------------------------------------------------------------------------- | :---------: | :---: | :------ |
-| 04  |    NC     | Preencher seção de Desempenho com requisitos de tempo de resposta, throughput e MTBF           |   Grupo 2   |   —   | A fazer |
+| 04  |    NC     | Preencher seção de Desempenho com requisitos de tempo de resposta, throughput e MTBF            |   Grupo 2   |   —   | A fazer |
 | 08  |    NC     | Especificar tempo de resposta para operações críticas do sistema (ex: busca, login, transações) |   Grupo 2   |   —   | A fazer |
-| 09  |    NC     | Definir taxa de throughput ou número de transações que o sistema deve suportar                 |   Grupo 2   |   —   | A fazer |
+| 09  |    NC     | Definir taxa de throughput ou número de transações que o sistema deve suportar                  |   Grupo 2   |   —   | A fazer |
 
 ## Resumo da Lista
 
@@ -42,9 +42,13 @@ Principais Não Conformidades:
 - **ID 08** — Não há especificação de tempo de resposta para operações do sistema. É fundamental definir tempos máximos de resposta para operações críticas como buscas, autenticação e transações para garantir boa experiência do usuário.
 - **ID 09** — Não há especificação de throughput ou taxa de transações que o sistema deve suportar. É necessário definir quantas operações simultâneas ou requisições por segundo o sistema deve ser capaz de processar.
 
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
 | :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
-|  1.1   | 12/11/2025 | Adição das não conformidades |  Thiago   | Samuel  |
+|  1.1   | 12/11/2025 | Adição das não conformidades               |  Thiago   | Samuel  |

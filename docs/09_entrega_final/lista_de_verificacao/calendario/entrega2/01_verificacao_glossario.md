@@ -22,12 +22,12 @@ Principais Não Conformidades:
 - [22] — Ao elaborar o glossário, foram identificados e registrados os sinônimos e antônimos dos termos para esclarecer as relações entre eles?
 - [28] — O glossário utiliza remissivas (como "ver" e "ver também") para correlacionar termos relacionados e facilitar a consulta?
 
-| ID  | Resultado (C/NC/NA) | Ação Corretiva | Responsável   | Prazo        | Status       |
-| :-: | :-----------------: | :-------------- | :------------ | :----------- | :----------- |
-| 08  |         NC          | Adicionar siglas relevantes ao domínio (ex: MTG, TCG) | Grupo 2 | — | A fazer |
-| 12  |         NC          | Reorganizar glossário em ordem alfabética | Grupo 2 | — | A fazer |
-| 22  |         NC          | Adicionar sinônimos e antônimos dos termos | Grupo 2 | — | A fazer |
-| 28  |         NC          | Incluir remissivas ("ver" e "ver também") entre termos relacionados | Grupo 2 | — | A fazer |
+| ID  | Resultado (C/NC/NA) | Ação Corretiva                                                      | Responsável | Prazo | Status  |
+| :-: | :-----------------: | :------------------------------------------------------------------ | :---------- | :---- | :------ |
+| 08  |         NC          | Adicionar siglas relevantes ao domínio (ex: MTG, TCG)               | Grupo 2     | —     | A fazer |
+| 12  |         NC          | Reorganizar glossário em ordem alfabética                           | Grupo 2     | —     | A fazer |
+| 22  |         NC          | Adicionar sinônimos e antônimos dos termos                          | Grupo 2     | —     | A fazer |
+| 28  |         NC          | Incluir remissivas ("ver" e "ver também") entre termos relacionados | Grupo 2     | —     | A fazer |
 
 ## Resumo da Lista
 
@@ -45,9 +45,13 @@ Principais Não Conformidades:
 - [22] — Não foram identificados e registrados sinônimos e antônimos dos termos, o que ajudaria a esclarecer as relações entre conceitos
 - [28] — O glossário não utiliza remissivas (como "ver" e "ver também") para correlacionar termos relacionados, perdendo oportunidade de enriquecer a navegação entre conceitos
 
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
 | :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
-|  1.1   | 12/11/2025 | Adição das não conformidades |  Thiago   | Samuel  |
+|  1.1   | 12/11/2025 | Adição das não conformidades               |  Thiago   | Samuel  |

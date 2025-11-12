@@ -19,9 +19,9 @@ Principais Não Conformidades:
 
 - [04] — A priorização foi validada com as partes interessadas (stakeholders)?
 
-| ID  | Resultado (C/NC/NA) | Ação Corretiva | Responsável   | Prazo        | Status       |
-| :-: | :-----------------: | :-------------- | :------------ | :----------- | :----------- |
-| 04  |         I           | Adicionar validação formal com stakeholders | Grupo 2 | —    | Incompleto |
+| ID  | Resultado (C/NC/NA) | Ação Corretiva                              | Responsável | Prazo | Status     |
+| :-: | :-----------------: | :------------------------------------------ | :---------- | :---- | :--------- |
+| 04  |          I          | Adicionar validação formal com stakeholders | Grupo 2     | —     | Incompleto |
 
 ## Resumo da Lista
 
@@ -36,9 +36,13 @@ Principais Não Conformidades:
 
 - [04] — A priorização possui evidências de validação com usuários através de vídeo, mas não há documentação formal de validação com stakeholders do projeto
 
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
 | :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
-|  1.1   | 12/11/2025 | Adição das não conformidades |  Thiago   | Samuel  |
+|  1.1   | 12/11/2025 | Adição das não conformidades               |  Thiago   | Samuel  |
