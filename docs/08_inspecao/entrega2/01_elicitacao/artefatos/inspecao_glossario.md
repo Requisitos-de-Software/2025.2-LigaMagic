@@ -55,7 +55,7 @@ Fonte: Thiago, 2025
 |   Thiago    |50%|
 |   Samuel    |50%|
 
-## Video de inspeção 
+## Vídeo de inspeção 
 
 [Vídeo de Inspeção - Glossário](https://youtu.be/3EbsaRfX9Tk)
 
