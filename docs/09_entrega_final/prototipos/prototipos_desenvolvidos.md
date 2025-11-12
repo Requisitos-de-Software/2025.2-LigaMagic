@@ -90,25 +90,24 @@ A metodologia seguiu as seguintes etapas:
 #### Protótipo 03: Wishlist de Cartas (RFNI14) {#prototipo03}
 
 <div align="center">
-<img src="../../00_assets/images/prototipos/angelica/Frame 5.png" alt="Wishlist de Cartas" width="500px" style="margin: 10px;">
+<img src="../../../00_assets/images/prototipos/angelica/Frame5.png" alt="Wishlist de Cartas" width="700px" style="margin: 5px;">
 </div>
 
 **Fonte:** Angélica, 2025.
 
-### Protótipo 04: Comparação de Cartas (RFNI16) {#prototipo04}
+#### Protótipo 04: Comparação de Cartas (RFNI16) {#prototipo04}
 
 <div align="center">
-<img src="../../00_assets/images/prototipos/angelica/Frame 6.png" alt="Comparação de Cartas" width="500px" style="margin: 10px;">
+<img src="../../../00_assets/images/prototipos/angelica/Frame6.png" alt="Comparação de Cartas" width="700px" style="margin: 5px;">
 </div>
 
 **Fonte:** Angélica, 2025.
 
-### Protótipo 05: Recomendações Automáticas (RFNI17) {#prototipo05}
+#### Protótipo 05: Recomendações Automáticas (RFNI17) {#prototipo05}
 
 <div align="center">
-<img src="../../00_assets/images/prototipos/angelica/Frame 7.png" alt="Recomendações Automáticas" width="500px" style="margin: 10px;">
+<img src="../../../00_assets/images/prototipos/angelica/Frame7.png" alt="Recomendações Automáticas" width="700px" style="margin: 5px;">
 </div>
-
 
 **Fonte:** Angélica, 2025.
 
