@@ -90,22 +90,29 @@ A metodologia seguiu as seguintes etapas:
 #### Protótipo 03: Wishlist de Cartas (RFNI14) {#prototipo03}
 
 <div align="center">
-<img src="../../00_assets/images/prototipos/wishlist/wishlist_cartas.png" alt="Wishlist de Cartas" width="500px" style="margin: 10px;">
+<img src="../../00_assets/images/prototipos/angelica/Frame 5.png" alt="Wishlist de Cartas" width="500px" style="margin: 10px;">
 </div>
 
-#### Protótipo 04: Comparação de Cartas (RFNI16) {#prototipo04}
+**Fonte:** Angélica, 2025.
+
+### Protótipo 04: Comparação de Cartas (RFNI16) {#prototipo04}
 
 <div align="center">
-<img src="../../00_assets/images/prototipos/comparacao/comparacao_cartas.png" alt="Comparação de Cartas" width="500px" style="margin: 10px;">
+<img src="../../00_assets/images/prototipos/angelica/Frame 6.png" alt="Comparação de Cartas" width="500px" style="margin: 10px;">
 </div>
 
-#### Protótipo 05: Recomendações Automáticas (RFNI17) {#prototipo05}
+**Fonte:** Angélica, 2025.
+
+### Protótipo 05: Recomendações Automáticas (RFNI17) {#prototipo05}
 
 <div align="center">
-<img src="../../00_assets/images/prototipos/recomendacoes/recomendacoes_automaticas.png" alt="Recomendações Automáticas" width="500px" style="margin: 10px;">
+<img src="../../00_assets/images/prototipos/angelica/Frame 7.png" alt="Recomendações Automáticas" width="500px" style="margin: 10px;">
 </div>
 
-#### Protótipo 06:
+
+**Fonte:** Angélica, 2025.
+
+### Protótipo 06: 
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/ETld5LmfnNpxRtooYAO3Ie/Ligamagic?node-id=7-91&starting-point-node-id=1%3A2&embed-host=share" allowfullscreen></iframe>
 
@@ -191,6 +198,8 @@ A metodologia seguiu as seguintes etapas:
 
 Os protótipos foram validados através de sessões com usuários do LigaMagic, onde foi coletado feedback sobre a usabilidade e adequação das interfaces propostas. As gravações das validações estão disponíveis para consulta e análise.
 
+- [Assista ao vídeo no YouTube a validação do prototipo dos requisitos RFNI14, RFNI16 e RFNI17](https://youtu.be/5QJS0GAnPRo). Este video foi produzido pela aluna Angélica Campos. 
+
 ## Agradecimentos
 
 O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
@@ -216,4 +225,5 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.2   | 10/11/2025 | Protótipo 07 e 08                          |  Thiago   |  Samuel  |
 |  1.3   | 11/11/2025 | Protótipo 9 e 10                           |   Vera    |  Samuel  |
 |  1.4   | 12/11/2025 | Arrumando as imagens                       |  Thiago   |  Samuel  |
-|  1.5 | 11/11/2025 | Protótipo 11 e 12                          |   Vera    |  Samuel  |
+|  1.5   | 11/11/2025 | Protótipo 11 e 12                          |   Vera    |  Samuel  |
+|  1.3   | 11/11/2025 | Protótipo 14, 16 e 17                 |  Angélica  | Raissa |
