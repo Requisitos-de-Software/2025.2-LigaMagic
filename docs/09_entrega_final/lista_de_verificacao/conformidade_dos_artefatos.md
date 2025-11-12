@@ -55,7 +55,7 @@ Preencha uma linha por lista de verificação:
 ### Glossário
 
 <div align="center">
-<img src="../../../00_assets/images/graficos/glossario.png" alt="" width="700px" style="margin: 10px;">
+<img src="../../../00_assets/images/graficos/glossario.png" alt="Gráfico de conformidade do Glossário" width="700px" style="margin: 10px;">
 </div>
 
 ### Análise de Documentos
