@@ -85,9 +85,13 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | Raissa    |      14,29%       |
 | Guilherme |      14,29%       |
 
+## Video de inspeção 
+[Vídeo Inspeção Geral Grupo 6 ](https://youtu.be/LkLauwb84l8)
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                       | Autor(es) | Revisor |
 |:------:|:----------:|:--------------------------------|:----------|:-------:|
 |  1.0   | 11/11/2025 | Criação da página               | Vera      | Thiago  |
 |  1.2   | 11/11/2025 | Adição dos itens de verificação | Vera      | Samuel  |
+|  1.3   | 12/11/2025 | Adição do video de verificação | Angélica      | Raissa  |
