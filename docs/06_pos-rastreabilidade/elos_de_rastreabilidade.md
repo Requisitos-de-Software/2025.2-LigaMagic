@@ -13,6 +13,47 @@ A metodologia foca em dois tipos principais de rastreabilidade:
 - **_Pós-Rastreabilidade (Implementação dos Requisitos):_**
   - **_Forward-from:_** Estabelece o vínculo de cada requisito aos artefatos produzidos durante o desenvolvimento — como [Cenários](../05_modelagem/01_cenarios/cenarios.md), [Léxicos](../05_modelagem/02_lexicos/lexicos.md), [Casos de Uso](../05_modelagem/03_casos_de_uso/casos_de_uso.md), [Especificação Suplementar](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md), [Histórias de Usuário](../05_modelagem/05_Agil/01_historias_de_usuario.md), [Backlog](../05_modelagem/05_Agil/02_backlogs.md) e [NFR Framework](../05_modelagem/05_Agil/03_nfr_framework.md) — permitindo verificar cobertura de implementação, validar consistência entre artefatos e identificar lacunas ou impactos de mudança.
 
+## Classificação por Níveis de Informação (Meta-modelo de Toranzo)
+
+Conforme o Meta-modelo de Toranzo, os requisitos são classificados em quatro níveis de informação:
+
+### Nível Ambiental
+
+- **Contexto:** Mercado de Magic: The Gathering e comunidade de jogadores
+- **Regulamentações:** LGPD (Lei nº 13.709/2018), Código de Defesa do Consumidor
+- **Padrões de segurança:** Diretrizes do Banco Central do Brasil
+- **Aspectos sociais:** Necessidades da comunidade de colecionadores e jogadores
+
+### Nível Organizacional
+
+- **Políticas internas:** Política de Proteção de Dados Pessoais da LigaMagic
+- **Estrutura de negócios:** Modelo de marketplace e comércio eletrônico
+- **Objetivos estratégicos:** Facilitação de transações e construção de comunidade
+- **Relacionamento com parceiros:** Compartilhamento de dados e integração de serviços
+
+### Nível Gerencial
+
+- **Gestão de projeto:** Controle de desenvolvimento e implementação
+- **Controle de qualidade:** Testes e validação de requisitos
+- **Cronogramas:** Marcos de entrega e planejamento
+- **Monitoramento:** Acompanhamento de métricas e performance
+
+### Nível de Desenvolvimento
+
+- **Requisitos funcionais e não funcionais:** Especificações técnicas detalhadas
+- **Artefatos de modelagem:** Casos de uso, cenários, histórias de usuário
+- **Especificações técnicas:** Implementação de funcionalidades
+- **Testes:** Validação e verificação de componentes
+
+## Estratégias de Toranzo Aplicadas
+
+O Meta-modelo de Toranzo utiliza quatro estratégias principais:
+
+1. **Classificação por Níveis**: Estruturação em Ambiental, Organizacional, Gerencial e Desenvolvimento
+2. **Tipos de Elo**: Satisfação, Recurso, Responsabilidade, Representação, Alocado, Agregação
+3. **Direcionamento**: Backward-from (origem) e Forward-from (destino)
+4. **Perspectiva de Informação**: Estruturação hierárquica das informações de rastreabilidade
+
 ## Objetivo
 
 O objetivo deste documento é estruturar e gerenciar os requisitos do sistema **LigaMagic** utilizando o Meta-modelo de Toranzo. Esta abordagem visa garantir que todos os requisitos sejam claramente ligados às suas fontes (elos _backward-from_) e aos artefatos criados durante o projeto (elos _forward-from_).
@@ -94,46 +135,89 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 <p style="text-align: left">Fonte: (<b>Sayão e Leite.</b> <em>Rastreabilidade de Requisitos</em>); (<b>Milene Serrano e Maurício Serrano.</b> <em>Requisitos – Aula 26</em>).</p>
 
+## Dependências entre Requisitos
+
+A rastreabilidade entre requisitos mapeia dependências importantes para o sistema:
+
+| **Requisito Origem** | **Requisito Destino** | **Tipo de Dependência** | **Justificativa**                                                             |
+| -------------------- | --------------------- | ----------------------- | ----------------------------------------------------------------------------- |
+| RF01 (Cadastro)      | RF03 (Login)          | Recurso                 | Login depende de dados de cadastro existentes para autenticação               |
+| RF02 (Verificação)   | RF01 (Cadastro)       | Recurso                 | Verificação precisa da base de usuários cadastrados para detectar duplicações |
+| RF13 (Uso de dados)  | RF12 (Dados pessoais) | Recurso                 | Utilização de dados depende da coleta prévia de informações pessoais          |
+| RF17 (Cookies)       | RF03 (Login)          | Recurso                 | Personalização via cookies depende do sistema de autenticação                 |
+| RF23 (Compra)        | RF20 (Pesquisa)       | Recurso                 | Processo de compra depende da funcionalidade de pesquisa de cartas            |
+| RF24 (Histórico)     | RF23 (Compra)         | Recurso                 | Histórico de compras depende de transações realizadas                         |
+| RF31 (Alerta preço)  | RF20 (Pesquisa)       | Recurso                 | Alertas dependem da identificação prévia de cartas via pesquisa               |
+
 ## Conteúdo
+
+### Sistemas Agregados
+
+#### Sistema de Gerenciamento de Usuário {#elo_agregacao_usuario}
+
+| Item                                     | Descrição                                                                                                                                                                                                                                                 |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição                                | Agregação de requisitos de gerenciamento de usuário                                                                                                                                                                                                       |
+| Categoria                                | Desenvolvimento                                                                                                                                                                                                                                           |
+| Elementos (partes)                       | RF01 (Cadastro), RF02 (Verificação duplicação), RF03 (Login), RF12 (Dados pessoais), RF15 (Direitos), RF19 (Atualização)                                                                                                                                  |
+| Elos de Agregação (tipo e justificativa) | Agregação — O sistema completo de gerenciamento de usuário é composto pelos requisitos individuais de cadastro, verificação, autenticação, gestão de dados e direitos. Cada parte é essencial para o funcionamento do todo, formando um subsistema coeso. |
+
+#### Sistema de Busca e Interação com Cartas {#elo_agregacao_cartas}
+
+| Item                                     | Descrição                                                                                                                                                                                                                                                           |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição                                | Agregação de requisitos de busca e interação com cartas                                                                                                                                                                                                             |
+| Categoria                                | Desenvolvimento                                                                                                                                                                                                                                                     |
+| Elementos (partes)                       | RF20 (Pesquisa), RF21.1-21.3 (Filtros), RF27 (Detalhes), RF30 (Informações), RF32 (Busca decks), RF36 (Compartilhar)                                                                                                                                                |
+| Elos de Agregação (tipo e justificativa) | Agregação — O sistema de interação com cartas é decomposto em funcionalidades específicas: pesquisa básica, filtragem avançada, visualização detalhada e compartilhamento. A união dessas partes forma a experiência completa de descoberta e interação com cartas. |
+
+#### Sistema de E-commerce {#elo_agregacao_ecommerce}
+
+| Item                                     | Descrição                                                                                                                                                                                                                            |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Descrição                                | Agregação de requisitos de comércio eletrônico                                                                                                                                                                                       |
+| Categoria                                | Desenvolvimento                                                                                                                                                                                                                      |
+| Elementos (partes)                       | RF23 (Compra), RF24 (Histórico), RF31 (Alerta preço), RF33 (Preço médio), RF34 (Histórico preços), RF35 (Listas)                                                                                                                     |
+| Elos de Agregação (tipo e justificativa) | Agregação — O sistema de e-commerce é composto por funcionalidades de transação, acompanhamento de preços, histórico de compras e gestão de listas. Cada componente contribui para a experiência completa de comércio na plataforma. |
 
 ### Requisitos Funcionais
 
 #### RF01 – Cadastro de usuário {#elo01}
 
-| Item                                      | Descrição                                                                                                                                       |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF01 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01)                                                          |
-| Categoria                                 | Gerenciamento de Usuários                                                                                                                       |
-| Origem do requisito                       | [AD01](../03_elicitacao/tecnicas/analise_documentos.md#ad01)                                                                                    |
-| Elementos                                 | História de Usuário: [US09](../05_modelagem/05_Agil/01_historias_de_usuario.md#us09)                                                            |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD01) demonstra a necessidade do cadastro como requisito básico de acesso, servindo como fonte de evidência. |
-| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela o comportamento esperado para o processo de cadastro, descrevendo etapas e validações necessárias. |
+| Item                                      | Descrição                                                                                                                                                                                                                               |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF01 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01)                                                                                                                                                  |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                         |
+| Origem do requisito                       | [AD01](../03_elicitacao/tecnicas/analise_documentos.md#ad01)                                                                                                                                                                            |
+| Elementos                                 | História de Usuário: [US09](../05_modelagem/05_Agil/01_historias_de_usuario.md#us09)                                                                                                                                                    |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD01) demonstra a necessidade do cadastro como requisito básico de acesso, servindo como fonte de evidência.                                                                                         |
+| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela o comportamento esperado para o processo de cadastro, descrevendo etapas e validações necessárias. <br>Alocado — Requisito alocado ao subsistema de Gerenciamento de Usuário da aplicação. |
 
 **Fonte:** Angélica, 2025.
 
 #### RF02 – Deve verificar duplicação de cadastros {#elo02}
 
-| Item                                      | Descrição                                                                                                                                                                                                       |
-| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF02 – Deve verificar duplicação de cadastros](../03_elicitacao/artefatos/requisitos_elicitados.md#rf02)                                                                                                       |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                 |
-| Origem do requisito                       | [AD02](../03_elicitacao/tecnicas/analise_documentos.md#ad02)                                                                                                                                                    |
-| Elementos                                 | História de Usuário: [US03](../05_modelagem/05_Agil/01_historias_de_usuario.md#us03)                                                                                                                            |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD02) fornece a evidência necessária para a formulação do requisito, caracterizando dependência de recurso. Não é Representação (não modela) nem Satisfação (não é solução). |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como a verificar de cadastros deve operar. Opta-se por Representação em vez de Satisfação, pois a modelagem descreve o comportamento esperado.              |
+| Item                                      | Descrição                                                                                                                                                                                                                                 |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF02 – Deve verificar duplicação de cadastros](../03_elicitacao/artefatos/requisitos_elicitados.md#rf02)                                                                                                                                 |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                           |
+| Origem do requisito                       | [AD02](../03_elicitacao/tecnicas/analise_documentos.md#ad02)                                                                                                                                                                              |
+| Elementos                                 | História de Usuário: [US03](../05_modelagem/05_Agil/01_historias_de_usuario.md#us03)                                                                                                                                                      |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD02) fornece a evidência necessária para a formulação do requisito, caracterizando dependência de recurso. Depende do banco de dados de usuários existentes para verificar duplicações.               |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como a verificar de cadastros deve operar. <br>Recurso — Fornece dados validados para o sistema de autenticação (RF03), que consome essas informações para permitir ou negar acessos. |
 
 **Fonte:** Samuel, 2025.
 
 #### RF03 – Permitir acesso via login e senha {#elo03}
 
-| Item                                      | Descrição                                                                                                                                                               |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF03 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf03)                                                                                  |
-| Categoria                                 | Autenticação e Segurança                                                                                                                                                |
-| Origem do requisito                       | [AD03](../03_elicitacao/tecnicas/analise_documentos.md#ad03)                                                                                                            |
-| Elementos                                 | História de Usuário: [US10](../05_modelagem/05_Agil/01_historias_de_usuario.md#us10)                                                                                    |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD03) evidencia que apenas usuários autenticados podem acessar áreas privadas do sistema.                                            |
-| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela o comportamento esperado para o processo de autenticação, garantindo acesso seguro às funcionalidades privadas do sistema. |
+| Item                                      | Descrição                                                                                                                                                                                                                                             |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF03 – Cadastro de usuário](../03_elicitacao/artefatos/requisitos_elicitados.md#rf03)                                                                                                                                                                |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                       |
+| Origem do requisito                       | [AD03](../03_elicitacao/tecnicas/analise_documentos.md#ad03)                                                                                                                                                                                          |
+| Elementos                                 | História de Usuário: [US10](../05_modelagem/05_Agil/01_historias_de_usuario.md#us10)                                                                                                                                                                  |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD03) evidencia que apenas usuários autenticados podem acessar áreas privadas do sistema.                                                                                                                          |
+| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela o comportamento esperado para o processo de autenticação, garantindo acesso seguro às funcionalidades privadas do sistema. <br>Alocado — Alocado ao subsistema de Autenticação e Segurança da aplicação. |
 
 **Fonte:** Angélica, 2025.
 
@@ -152,14 +236,14 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 #### RF05 – O sistema deve verificar veracidade de dados cadastrados {#elo05}
 
-| Item                                      | Descrição                                                                                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF05 – O sistema deve implementar mecanismos de validação de informações fornecidas pelos usuários.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf5)                                                               |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
-| Origem do requisito                       | [AD05](../03_elicitacao/tecnicas/analise_documentos.md#ad05)                                                                                                                                                                                |
-| Elementos                                 | História de Usuário: [US37](../05_modelagem/05_Agil/01_historias_de_usuario.md#us37--verificação-de-dados-cadastrados-us37) |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD05) fornece a evidência necessária para a formulação do requisito, identificando inconsistências nos dados inseridos pelos usuários. Caracteriza-se como dependência de recurso, pois a necessidade foi inferida a partir do comportamento observado no sistema.        |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem e casos de uso descrevem como o sistema deve validar as informações inseridas, representando o comportamento de verificação de veracidade de dados. Opta-se por Representação, pois o requisito é modelado e não apenas satisfeito.                                                     |
+| Item                                      | Descrição                                                                                                                                                                                                                                                                                             |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF05 – O sistema deve implementar mecanismos de validação de informações fornecidas pelos usuários.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf5)                                                                                                                                        |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                                                       |
+| Origem do requisito                       | [AD05](../03_elicitacao/tecnicas/analise_documentos.md#ad05)                                                                                                                                                                                                                                          |
+| Elementos                                 | História de Usuário: [US37](../05_modelagem/05_Agil/01_historias_de_usuario.md#us37--verificação-de-dados-cadastrados-us37)                                                                                                                                                                           |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD05) fornece a evidência necessária para a formulação do requisito, identificando inconsistências nos dados inseridos pelos usuários. Caracteriza-se como dependência de recurso, pois a necessidade foi inferida a partir do comportamento observado no sistema. |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem e casos de uso descrevem como o sistema deve validar as informações inseridas, representando o comportamento de verificação de veracidade de dados. Opta-se por Representação, pois o requisito é modelado e não apenas satisfeito.                         |
 
 **Fonte:** Guilherme. 2025.
 
@@ -178,14 +262,14 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 #### RF09 – O sistema deve permitir troca de mensagens privadas {#elo09}
 
-| Item                                      | Descrição                                                                                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF09 – O sistema deve permitir que usuários troquem mensagens privadas de forma segura.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                               |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
-| Origem do requisito                       | [AD09](../03_elicitacao/tecnicas/analise_documentos.md#ad09)                                                                                                                                                                                |
-| Elementos                                 | História de Usuário: [US38](../05_modelagem/05_Agil/01_historias_de_usuario.md#us38--troca-de-mensagens-privadas-us38) |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD09) fornece a evidência necessária para a formulação do requisito, identificando a necessidade de comunicação direta e reservada entre usuários. Configura uma dependência de recurso, pois o requisito foi derivado a partir de especificações e funcionalidades identificadas em sistemas semelhantes.       |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem e diagramas de interação representam o comportamento esperado da troca de mensagens privadas, incluindo a segurança e a privacidade na comunicação. Escolhe-se Representação, pois o requisito é modelado nos diagramas e fluxos de comunicação.                                                     |
+| Item                                      | Descrição                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF09 – O sistema deve permitir que usuários troquem mensagens privadas de forma segura.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                                                                                                                |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                                                                                               |
+| Origem do requisito                       | [AD09](../03_elicitacao/tecnicas/analise_documentos.md#ad09)                                                                                                                                                                                                                                                                                  |
+| Elementos                                 | História de Usuário: [US38](../05_modelagem/05_Agil/01_historias_de_usuario.md#us38--troca-de-mensagens-privadas-us38)                                                                                                                                                                                                                        |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD09) fornece a evidência necessária para a formulação do requisito, identificando a necessidade de comunicação direta e reservada entre usuários. Configura uma dependência de recurso, pois o requisito foi derivado a partir de especificações e funcionalidades identificadas em sistemas semelhantes. |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem e diagramas de interação representam o comportamento esperado da troca de mensagens privadas, incluindo a segurança e a privacidade na comunicação. Escolhe-se Representação, pois o requisito é modelado nos diagramas e fluxos de comunicação.                                                    |
 
 **Fonte:** Guilherme. 2025.
 
@@ -230,27 +314,27 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 #### RF13 – O sistema deve utilizar cookies para personalização {#elo13}
 
-| Item                                      | Descrição                                                                                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF13 – O sistema deve usar os dados pessoais para identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                               |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
-| Origem do requisito                       | [AD13](../03_elicitacao/tecnicas/analise_documentos.md#ad17)                                                                                                                                                                                |
-| Elementos                                 | História de Usuário: [US41](../05_modelagem/05_Agil/01_historias_de_usuario.md#us41--utilização-de-dados-para-finalidades-específicas-us41) |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD13) fornece a evidência necessária para a formulação do requisito, identificando a necessidade de definir claramente as finalidades do uso de dados pessoais conforme princípios da LGPD. Trata-se de uma dependência de recurso, pois a origem documental sustenta a obrigatoriedade de uso limitado e transparente dos dados.     |
-| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos artefatos de modelagem e fluxos de gestão de serviços, descrevendo como os dados pessoais são utilizados de forma controlada e rastreável. Opta-se por Representação, pois o requisito é modelado como parte dos processos de gerenciamento de dados e comunicação.                                        |
+| Item                                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF13 – O sistema deve usar os dados pessoais para identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                                                                                                                                       |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Origem do requisito                       | [AD13](../03_elicitacao/tecnicas/analise_documentos.md#ad17)                                                                                                                                                                                                                                                                                                                                                            |
+| Elementos                                 | História de Usuário: [US41](../05_modelagem/05_Agil/01_historias_de_usuario.md#us41--utilização-de-dados-para-finalidades-específicas-us41)                                                                                                                                                                                                                                                                             |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD13) fornece a evidência necessária para a formulação do requisito, identificando a necessidade de definir claramente as finalidades do uso de dados pessoais conforme princípios da LGPD. Trata-se de uma dependência de recurso, pois a análise dos documentos de design e requisitos funcionais evidencia a necessidade de retenção de preferências e autenticação simplificada. |
+| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos artefatos de modelagem e fluxos de gestão de serviços, descrevendo como os dados pessoais são utilizados de forma controlada e rastreável. Opta-se por Representação, pois o requisito é modelado como parte dos processos de gerenciamento de dados e comunicação.                                                                                                      |
 
 **Fonte:** Guilherme. 2025.
 
 #### RF15 – O sistema deve garantir os direitos dos titulares de dados {#elo15}
 
-| Item                                      | Descrição                                                                                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF15 – O sistema deve permitir que o usuário solicite acesso, correção, exclusão ou anonimização de seus dados pessoais.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                               |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
-| Origem do requisito                       | [AD15](../03_elicitacao/tecnicas/analise_documentos.md#ad09)                                                                                                                                                                                |
-| Elementos                                 | História de Usuário: [US39](../05_modelagem/05_Agil/01_historias_de_usuario.md#us39--verificação-de-dados-cadastrados-us39) |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD15) fornece a evidência necessária para a formulação do requisito, ao identificar a obrigatoriedade de atender aos direitos dos titulares conforme a LGPD. Trata-se de uma dependência de recurso, pois a origem documental (legislação e políticas de privacidade) sustenta a necessidade do requisito.     |
-| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos diagramas de casos de uso e nos fluxos de gerenciamento de dados de usuários, descrevendo as ações de solicitação e tratamento de dados pessoais. Opta-se por Representação, pois o requisito é modelado como parte das funcionalidades de controle de privacidade.                                                     |
+| Item                                      | Descrição                                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF15 – O sistema deve permitir que o usuário solicite acesso, correção, exclusão ou anonimização de seus dados pessoais.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                                                                               |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                                                                                               |
+| Origem do requisito                       | [AD15](../03_elicitacao/tecnicas/analise_documentos.md#ad09)                                                                                                                                                                                                                                                                                  |
+| Elementos                                 | História de Usuário: [US39](../05_modelagem/05_Agil/01_historias_de_usuario.md#us39--verificação-de-dados-cadastrados-us39)                                                                                                                                                                                                                   |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD15) fornece a evidência necessária para a formulação do requisito, ao identificar a obrigatoriedade de atender aos direitos dos titulares conforme a LGPD. Trata-se de uma dependência de recurso, pois a origem documental (legislação e políticas de privacidade) sustenta a necessidade do requisito. |
+| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos diagramas de casos de uso e nos fluxos de gerenciamento de dados de usuários, descrevendo as ações de solicitação e tratamento de dados pessoais. Opta-se por Representação, pois o requisito é modelado como parte das funcionalidades de controle de privacidade.                            |
 
 **Fonte:** Guilherme. 2025.
 
@@ -269,17 +353,16 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 #### RF17 – O sistema deve utilizar cookies para personalização {#elo17}
 
-| Item                                      | Descrição                                                                                                                                                                                                                           |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RF17 – O sistema deve utilizar cookies para facilitar o login e personalizar a experiência de navegação.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                               |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                     |
-| Origem do requisito                       | [AD17](../03_elicitacao/tecnicas/analise_documentos.md#ad17)                                                                                                                                                                                |
-| Elementos                                 | História de Usuário: [US40](../05_modelagem/05_Agil/01_historias_de_usuario.md#us40--utilizar-cookies-para-personalização-us40) |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD17) fornece a evidência necessária para a formulação do requisito, ao identificar práticas comuns de personalização de experiência de usuário baseadas em cookies. Trata-se de uma dependência de recurso, pois a análise dos documentos de design e requisitos funcionais evidencia a necessidade de retenção de preferências e autenticação simplificada.     |
-| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos diagramas de casos de uso e nas especificações de interface, que descrevem como os cookies armazenam preferências e dados de sessão. Escolhe-se Representação, pois o comportamento de personalização é modelado como parte da navegação do sistema.                                                    |
+| Item                                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Descrição do requisito                    | [RF17 – O sistema deve utilizar cookies para facilitar o login e personalizar a experiência de navegação.](../03_elicitacao/artefatos/requisitos_elicitados.md#rf01---rf19-requisitos-da-análise-de-documentos)                                                                                                                                                                                  |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                                                                                                                                                                  |
+| Origem do requisito                       | [AD17](../03_elicitacao/tecnicas/analise_documentos.md#ad17)                                                                                                                                                                                                                                                                                                                                     |
+| Elementos                                 | História de Usuário: [US40](../05_modelagem/05_Agil/01_historias_de_usuario.md#us40--utilizar-cookies-para-personalização-us40)                                                                                                                                                                                                                                                                  |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD17) fornece a evidência necessária para a formulação do requisito, ao identificar práticas comuns de personalização de experiência de usuário baseadas em cookies. Trata-se de uma dependência de recurso, pois a análise dos documentos de design e requisitos funcionais evidencia a necessidade de retenção de preferências e autenticação simplificada. |
+| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos diagramas de casos de uso e nas especificações de interface, que descrevem como os cookies armazenam preferências e dados de sessão. Escolhe-se Representação, pois o comportamento de personalização é modelado como parte da navegação do sistema.                                                                                              |
 
 **Fonte:** Guilherme. 2025.
-
 
 #### RF19 – Solicitar atualização de dados pessoais {#elo19}
 
@@ -303,7 +386,7 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 | Origem do requisito                       | [OBS01](../03_elicitacao/tecnicas/observacao.md#obs01)                                                                                                                                                                                                                                                   |
 | Elementos                                 | Cenário: [CE03](../05_modelagem/01_cenarios/cenarios.md#ce03); <br>Caso de Uso: [UC02](../05_modelagem/03_casos_de_uso/casos_de_uso.md#uc02); <br>Histórias de Usuário: [US04](../05_modelagem/05_Agil/01_historias_de_usuario.md#us04), [US08](../05_modelagem/05_Agil/01_historias_de_usuario.md#us08) |
 | Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS01) provê evidência do contexto de uso e necessidade do usuário.                                                                                                                                                                                                              |
-| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como a busca deve operar. Não é Satisfação, pois não demonstra implementação/teste; é a formalização do comportamento requerido.                                                                                                                     |
+| Elos Forward-from (tipo e justificativa)  | Representação — Os artefatos de modelagem descrevem como a busca deve operar. <br>Alocado — Requisito alocado ao subsistema de Busca e Filtragem da plataforma web. <br>Recurso — Fornece dados de cartas para o processo de compra (RF23) e alertas de preço (RF31).                                    |
 
 **Fonte:** Samuel, 2025.
 
@@ -335,27 +418,27 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 #### RF23 – Realizar compra de cartas {#elo23}
 
-| Item                                          | Descrição                                                                                                                                                                                                                                                           |
-| :-------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Descrição do Requisito                        | [RF23 – Realizar compra de cartas: Deve permitir que o usuário compre cartas cadastradas, incluindo dados pessoais e endereço de entrega](../03_elicitacao/artefatos/requisitos_elicitados.md#rf23)                                                                 |
-| Categoria                                     | Desenvolvimento                                                                                                                                                                                                                                                     |
-| Origem do Requisito                           | [OBS27](../03_elicitacao/tecnicas/observacao.md#obs27)                                                                                                                                                                                                              |
-| Elementos                                     | História de Usuário: [US31](../05_modelagem/05_Agil/01_historias_de_usuario.md#us31)                                                                                                                                                                                |
-| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de serviços de autenticação do usuário, do banco de dados de produtos e do sistema de pagamento para que a compra seja processada corretamente. Esses elementos são fundamentais para permitir a execução completa da funcionalidade. |
-| Elos Forward-from</br>(tipo e justificativa)  | Representação — A história de usuário representa o comportamento de realização de compra de cartas. Opta-se por Representação pois descreve a interação esperada sem comprovar implementação técnica.                                                               |
+| Item                                          | Descrição                                                                                                                                                                                                                                                                                                        |
+| :-------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do Requisito                        | [RF23 – Realizar compra de cartas: Deve permitir que o usuário compre cartas cadastradas, incluindo dados pessoais e endereço de entrega](../03_elicitacao/artefatos/requisitos_elicitados.md#rf23)                                                                                                              |
+| Categoria                                     | Desenvolvimento                                                                                                                                                                                                                                                                                                  |
+| Origem do Requisito                           | [OBS04](../03_elicitacao/tecnicas/observacao.md#obs04)                                                                                                                                                                                                                                                           |
+| Elementos                                     | História de Usuário: [US31](../05_modelagem/05_Agil/01_historias_de_usuario.md#us31)                                                                                                                                                                                                                             |
+| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de serviços de autenticação do usuário, do banco de dados de produtos e do sistema de pagamento para que a compra seja processada corretamente. Esses elementos são fundamentais para permitir a execução completa da funcionalidade.                                              |
+| Elos Forward-from</br>(tipo e justificativa)  | Representação — A história de usuário representa o comportamento de realização de compra de cartas. <br>Alocado — Alocado ao subsistema de E-commerce, especificamente aos módulos de pagamento e gestão de pedidos da plataforma. <br>Recurso — Fornece dados de transações para o histórico de compras (RF24). |
 
-**Fonte:** Vera. 2025.
+**Fonte:** Vera, 2025.
 
 #### RF24 – Histórico de compras {#elo24}
 
-| Item                                      | Descrição                                                                                                                                              |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Descrição do requisito                    | [RF24 – Histórico de compras](../03_elicitacao/artefatos/requisitos_elicitados.md#rf24)                                                                |
-| Categoria                                 | Gerenciamento de Usuários                                                                                                                              |
-| Origem do requisito                       | [OBS05](../03_elicitacao/tecnicas/observacao.md#obs05)                                                                                                 |
-| Elementos                                 | História de Usuário: [US12](../05_modelagem/05_Agil/01_historias_de_usuario.md#us12)                                                                   |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS05) evidenciou o padrão de comportamento dos usuários que consultam compras anteriores para acompanhar transações e gastos. |
-| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela a funcionalidade necessária para exibição e detalhe das compras realizadas, representando o requisito.    |
+| Item                                      | Descrição                                                                                                                                                                                                                                            |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RF24 – Histórico de compras](../03_elicitacao/artefatos/requisitos_elicitados.md#rf24)                                                                                                                                                              |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                      |
+| Origem do requisito                       | [OBS05](../03_elicitacao/tecnicas/observacao.md#obs05)                                                                                                                                                                                               |
+| Elementos                                 | História de Usuário: [US12](../05_modelagem/05_Agil/01_historias_de_usuario.md#us12)                                                                                                                                                                 |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS05) evidenciou o padrão de comportamento dos usuários que consultam compras anteriores para acompanhar transações e gastos. <br>Recurso — Depende dos dados de transações gerados pelo sistema de compras (RF23).         |
+| Elos Forward-from (tipo e justificativa)  | Representação — A história de usuário modela a funcionalidade necessária para exibição e detalhe das compras realizadas, representando o requisito. <br>Alocado — Alocado ao subsistema de Gerenciamento de Usuário para controle de dados pessoais. |
 
 **Fonte:** Angélica, 2025.
 
@@ -556,16 +639,16 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 ### Requisitos Não Funcionais
 
-#### RNF01 – Deve cumprir legislações aplicáveis {#elon01}		
+#### RNF01 – Deve cumprir legislações aplicáveis {#elon01}
 
-| Item                                      | Descrição                                                                                                                                                                                                                                                                      |
-|-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Descrição do requisito                    | [RNF01 – O sistema deve cumprir a LGPD (Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis.](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf01)                                                                                     |
-| Categoria                                 | Legal e Regulatório		                                                                                                                                                                                                                                                          |
-| Origem do requisito                       | [AD20](../03_elicitacao/tecnicas/analise_documentos.md#ad20)                                                                                                                                                                                                                   |
-| Elementos                                 | NFR Framework: [NFR04](../05_modelagem/05_Agil/03_nfr_framework.md#nfr04)                                                                                                                                                                                                      |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD20) fornece a evidência necessária para a formulação do requisito, identificando obrigações legais que o sistema deve atender. Configura dependência de recurso, pois a origem documental define explicitamente os requisitos normativos. |
-| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos artefatos de modelagem de segurança, privacidade e processos administrativos, descrevendo como o sistema atenderá às legislações. Opta-se por Representação, pois o requisito é modelado e não apenas satisfeito diretamente.   |
+| Item                                      | Descrição                                                                                                                                                                                                                                                                                                 |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                    | [RNF01 – O sistema deve cumprir a LGPD (Lei nº 13.709/2018), o Código de Defesa do Consumidor e demais legislações aplicáveis.](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf01)                                                                                                                |
+| Categoria                                 | Ambiental                                                                                                                                                                                                                                                                                                 |
+| Origem do requisito                       | [AD20](../03_elicitacao/tecnicas/analise_documentos.md#ad20)                                                                                                                                                                                                                                              |
+| Elementos                                 | NFR Framework: [NFR04](../05_modelagem/05_Agil/03_nfr_framework.md#nfr04)                                                                                                                                                                                                                                 |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Análise de Documentos (AD20) fornece a evidência necessária para a formulação do requisito, identificando obrigações legais que o sistema deve atender. Configura dependência de recurso, pois a origem documental define explicitamente os requisitos normativos.                            |
+| Elos Forward-from (tipo e justificativa)  | Representação — O requisito é representado nos artefatos de modelagem de segurança, privacidade e processos administrativos, descrevendo como o sistema atenderá às legislações. <br>Alocado — Requisito distribuído entre todos os subsistemas da aplicação para garantir conformidade legal abrangente. |
 
 **Fonte:** Guilherme, 2025.
 
@@ -597,27 +680,27 @@ As tabelas a seguir detalham os identificadores e relacionamentos utilizados nes
 
 #### RNF08 – Responsividade: O site deve ser totalmente responsivo {#elon08}
 
-| Item                                      | Descrição                                                                                                                                                                                                              |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                    | [RNF08 – Responsividade: O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)            |
-| Categoria                                 | Desenvolvimento                                                                                                                                                                                                        |
-| Origem do requisito                       | [OBS19](../03_elicitacao/tecnicas/observacao.md#obs19)                                                                                                                                                                 |
-| Elementos                                 | Especificação Suplementar: [US03](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability); <br>NFR Framework: [NFR07](../05_modelagem/05_Agil/03_nfr_framework.md#nfr07)      |
-| Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS19) fornece evidência do comportamento dos usuários em diferentes dispositivos e a necessidade de adaptação responsiva da interface.                                                        |
-| Elos Forward-from (tipo e justificativa)  | Representação — A especificação suplementar e o NFR Framework descrevem os requisitos de usabilidade relacionados à responsividade. Prefere-se Representação pois formaliza as características esperadas da interface. |
+| Item                                      | Descrição                                                                                                                                                                                                                                                    |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Descrição do requisito                    | [RNF08 – Responsividade: O site deve ser totalmente responsivo, garantindo boa visualização e funcionalidade em computador, tablet e smartphone](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)                                                  |
+| Categoria                                 | Desenvolvimento                                                                                                                                                                                                                                              |
+| Origem do requisito                       | [OBS19](../03_elicitacao/tecnicas/observacao.md#obs19)                                                                                                                                                                                                       |
+| Elementos                                 | Especificação Suplementar: [US03](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability); <br>NFR Framework: [NFR07](../05_modelagem/05_Agil/03_nfr_framework.md#nfr07)                                            |
+| Elos Backward-from (tipo e justificativa) | Recurso — A Observação (OBS19) fornece evidência do comportamento dos usuários em diferentes dispositivos e a necessidade de adaptação responsiva da interface.                                                                                              |
+| Elos Forward-from (tipo e justificativa)  | Representação — A especificação suplementar e o NFR Framework descrevem os requisitos de usabilidade relacionados à responsividade. <br>Alocado — Requisito alocado ao subsistema de Interface de Usuário para implementação em todas as telas da aplicação. |
 
 **Fonte:** Thiago, 2025.
 
 #### RNF09 – Organização visual {#elon09}
 
-| Item                                          | Descrição                                                                                                                                                                                                                                                    |
-| :-------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Descrição do requisito                        | [RNF09 – Organização visual: As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)            |
-| Categoria                                     | Usabilidade                                                                                                                                                                                                                                                  |
-| Origem do requisito                           | [OBS20](../03_elicitacao/tecnicas/observacao.md#obs20)                                                                                                                                                                                                       |
-| Elementos                                     | Especificação Suplementar: [US01](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability); <br>NFR Framework: [NFR05](../05_modelagem/05_Agil/03_nfr_framework.md#nfr05)                                            |
-| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de diretrizes de design de interface, padrões de espaçamento e organização visual, identificados na Observação (OBS20). Esses recursos garantem clareza e legibilidade durante a navegação do usuário.                         |
-| Elos Forward-from</br>(tipo e justificativa)  | Representação — A especificação suplementar e o NFR Framework representam o comportamento esperado de organização visual das informações. Opta-se por Representação pois descrevem a interação e a disposição esperadas sem comprovar implementação técnica. |
+| Item                                          | Descrição                                                                                                                                                                                                                                                                |
+| :-------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Descrição do requisito                        | [RNF09 – Organização visual: As informações sobre cartas, anúncios e decks devem ser organizadas de forma clara, com boa legibilidade e espaçamento adequado, facilitando a navegação](../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)                        |
+| Categoria                                     | Desenvolvimento                                                                                                                                                                                                                                                          |
+| Origem do requisito                           | [OBS20](../03_elicitacao/tecnicas/observacao.md#obs20)                                                                                                                                                                                                                   |
+| Elementos                                     | Especificação Suplementar: [US01](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md#usabilidade-usability); <br>NFR Framework: [NFR05](../05_modelagem/05_Agil/03_nfr_framework.md#nfr05)                                                        |
+| Elos Backward-from</br>(tipo e justificativa) | Recurso — O requisito depende de diretrizes de design de interface, padrões de espaçamento e organização visual, identificados na Observação (OBS20). Esses recursos garantem clareza e legibilidade durante a navegação do usuário.                                     |
+| Elos Forward-from</br>(tipo e justificativa)  | Representação — A especificação suplementar e o NFR Framework representam o comportamento esperado de organização visual das informações. <br>Alocado — Requisito alocado ao subsistema de Interface de Usuário, implementado em todos os módulos visuais da plataforma. |
 
 **Fonte:** Vera, 2025.
 
@@ -646,14 +729,14 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 ## Nível de Contribuição dos Integrantes
 
 | Nome      | % de Contribuição |
-|:----------|:-----------------:|
+| :-------- | :---------------: |
 | Samuel    |       14,28       |
 | Thiago    |       14,28       |
 | Angélica  |       14,28       |
 | Vera      |       14,28       |
 | Marcelo   |       14,28       |
 | Raissa    |       14,28       |
-| Guilherme |      14,28        |
+| Guilherme |       14,28       |
 
 ## Histórico de versão
 
@@ -667,4 +750,5 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.3   | 26/10/2025 | Adição dos elos (RF04, RF21.2, RF27, RF30, RF32 E RNF07)       |    Marcelo     |  Thiago  |
 |  1.4   | 27/10/2025 | Adição dos elos (RF01, RF03, RF19, RF24, RNF05 E RNF14)        |    Angélica    |  Samuel  |
 |  1.5   | 28/10/2025 | Adição dos elos 39 a 41                                        |     Raissa     |   Vera   |
-|  1.6   | 28/10/2025 | Adição dos elos (RF05, RF09,  RF13, RF15, RF17 E RNF01)        |     Guilherme  |   Vera  |
+|  1.6   | 28/10/2025 | Adição dos elos (RF05, RF09, RF13, RF15, RF17 E RNF01)         |   Guilherme    |   Vera   |
+|  1.7   | 18/11/2025 | Implementação das correções                                    |     Samuel     |  Thiago  |

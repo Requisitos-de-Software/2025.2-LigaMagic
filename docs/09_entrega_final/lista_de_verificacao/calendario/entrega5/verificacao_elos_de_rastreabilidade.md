@@ -15,20 +15,20 @@
 
 ## Checklist
 
-| ID  | Resultado (C/NC/) | Ação Corretiva |  Responsável  |    Prazo     | Status       |
-| :-: | :---------------: | :------------- | :-----------: | :----------: | :----------- |
-| 04  |        NC         | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 05  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 11  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 12  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 13  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 14  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 15  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 18  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 22  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 27  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 34  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
-| 37  |        NC         |                |               | [DD-MM-AAAA] | Em andamento |
+| ID  | Resultado (C/NC/) | Ação Corretiva                                                                                                                                                         | Responsável |   Prazo    |  Status   |
+| :-: | :---------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------: | :--------: | :-------: |
+| 04  |         C         | Adicionados elos de Recurso demonstrando dependências entre artefatos                                                                                                  |   Samuel    | 18/11/2025 | Concluído |
+| 05  |         C         | Justificativas dos elos de Recurso explicam claramente por que o recurso é essencial (ex: verificação de cadastro depende da base de usuários existentes)              |   Samuel    | 18/11/2025 | Concluído |
+| 11  |         C         | Implementados elos de Alocado designando requisitos a subsistemas específicos (RF01→Gerenciamento Usuário, RF23→E-commerce)                                            |   Samuel    | 18/11/2025 | Concluído |
+| 12  |         C         | Subsistemas de destino claramente identificados: Gerenciamento de Usuário, Busca e Filtragem, E-commerce                                                               |   Samuel    | 18/11/2025 | Concluído |
+| 13  |         C         | Criados sistemas agregados representando relação "parte-todo": Sistema de Gerenciamento de Usuário, Sistema de Busca e Interação com Cartas, Sistema de E-commerce     |   Samuel    | 18/11/2025 | Concluído |
+| 14  |         C         | Cada sistema agregado lista claramente suas partes constituintes (ex: Sistema Usuário composto por RF01, RF02, RF03, RF12, RF15, RF19)                                 |   Samuel    | 18/11/2025 | Concluído |
+| 15  |         C         | Decomposição completa e sem ambiguidades, com justificativas detalhadas para cada agregação                                                                            |   Samuel    | 18/11/2025 | Concluído |
+| 18  |         C         | Elos de Recurso implementados entre artefatos que consomem e provêm recursos (ex: RF24 consome dados de RF23, RF31 consome dados de RF20)                              |   Samuel    | 18/11/2025 | Concluído |
+| 22  |         C         | Adicionada seção "Classificação por Níveis de Informação" detalhando os quatro níveis: Ambiental, Organizacional, Gerencial e Desenvolvimento                          |   Samuel    | 18/11/2025 | Concluído |
+| 27  |         C         | Criada tabela específica "Dependências entre Requisitos" mapeando dependências com tipos e justificativas                                                              |   Samuel    | 18/11/2025 | Concluído |
+| 34  |         C         | Adicionada seção "Estratégias de Toranzo Aplicadas" listando as quatro estratégias: Classificação por Níveis, Tipos de Elo, Direcionamento e Perspectiva de Informação |   Samuel    | 18/11/2025 | Concluído |
+| 37  |         C         | Registros de dependência de recurso incluídos na tabela de dependências e nos elos individuais dos requisitos                                                          |   Samuel    | 18/11/2025 | Concluído |
 
 ## Principais Não Conformidades:
 
@@ -49,9 +49,9 @@
 
 - Total de itens: 38
 - Aplicáveis (C+NC): 28
-- C: 16
-- NC: 12
-- % Conformidade: 57,2%
+- C: 28
+- NC: 0
+- % Conformidade: 100%
 
 ## Agradecimentos
 
