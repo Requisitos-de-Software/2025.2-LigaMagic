@@ -59,6 +59,7 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
-| :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
-|  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
+| Versão |    Data    | Descrição                                                                             | Autor(es) | Revisor |
+| :----: | :--------: | :------------------------------------------------------------------------------------ | :-------: | :-----: |
+|  1.0   | 11/11/2025 | Criação inicial do documento de protótipos                                            |  Samuel   | Thiago  |
+|  1.1   | 18/11/2025 | Preenchimento da tabela com adequação às novas conformidades dos artefatos corrigidos |  Samuel   | Thiago  |

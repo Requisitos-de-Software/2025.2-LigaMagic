@@ -30,25 +30,31 @@ Cada léxico possui:
 #### L01 - Membro {#l01-membro}
 
 - **Noção:**
-  Pessoa que realizou o [Cadastro](#l03-cadastrar) e possui uma [Conta] ativa no site **LigaMagic**, diferenciando-se de um [Visitante](#l02-visitante), que não possui cadastro.
+  Usuário registrado no sistema LigaMagic que realizou o [Cadastro](#l03-cadastrar) e possui uma conta ativa. É o principal ator do sistema, diferenciando-se do [Visitante](#l02-visitante) por ter acesso a funcionalidades completas da plataforma.
 - **Impacto:**
-  - Executa [Login](#l04-login) para acessar funcionalidades restritas.
-  - Pode [Comprar](#l06-comprar-carta) e vender [Cartas](#l08-carta), atuando como [Comprador] ou [Vendedor].
-  - Gerencia sua [Coleção de Cartas](#l10-colecao-de-cartas).
-  - Cria e gerencia [Decks](#l09-deck), atuando como [Jogador].
-  - Participa ativamente do [Fórum](#l13-forum).
+  - Pode executar [Login](#l04-login) para autenticar-se no sistema.
+  - Pode [Pesquisar Carta](#l05-pesquisar-carta) com filtros avançados.
+  - Pode [Comprar Carta](#l06-comprar-carta) e realizar transações comerciais.
+  - Pode vender cartas e [Leiloar Carta](#l07-leiloar-carta) para outros membros.
+  - Pode gerenciar sua [Coleção de Cartas](#l10-colecao-de-cartas) pessoal.
+  - Pode criar, editar e compartilhar [Decks](#l09-deck).
+  - Pode participar ativamente do [Fórum](#l13-forum) criando tópicos e postando respostas.
+  - Suas ações geram estados como [Pagamento Aprovado](#l17-pagamento-aprovado), [Pedido Enviado](#l18-pedido-enviado) e [Carrinho Ativo](#l21-carrinho-ativo).
 
 **Fonte:** Samuel, 2025.
 
 #### L02 - Visitante {#l02-visitante}
 
 - **Noção:**
-  Pessoa que navega pelo site **LigaMagic** sem ter realizado [Login](#l04-login) em uma [Conta]. Possui acesso limitado às funcionalidades públicas da plataforma.
+  Usuário não registrado no sistema LigaMagic que navega pela plataforma sem realizar [Login](#l04-login). É um ator com acesso limitado às funcionalidades públicas do sistema.
 - **Impacto:**
-  - Pode [Pesquisar](#l05-pesquisar-carta) por [Cartas](#l08-carta) e visualizar seus detalhes.
-  - Consegue visualizar [Decks](#l09-deck) públicos criados pela comunidade.
-  - Pode ler os tópicos e mensagens do [Fórum](#l13-forum).
-  - É impedido de realizar ações restritas, como [Comprar Carta](#l06-comprar-carta), [Leiloar Carta](#l07-leiloar-carta), criar [Decks](#l09-deck), gerenciar uma [Coleção de Cartas](#l10-colecao-de-cartas) ou publicar no [Fórum](#l13-forum).
+  - Pode [Pesquisar Carta](#l05-pesquisar-carta) com funcionalidades básicas de busca.
+  - Pode visualizar detalhes de [Cartas](#l08-carta) disponíveis publicamente.
+  - Pode consultar [Decks](#l09-deck) públicos criados pela comunidade.
+  - Pode ler conteúdo do [Fórum](#l13-forum) mas não pode interagir.
+  - Não pode [Comprar Carta](#l06-comprar-carta) nem [Leiloar Carta](#l07-leiloar-carta).
+  - Não pode gerenciar [Coleção de Cartas](#l10-colecao-de-cartas) nem criar [Decks](#l09-deck).
+  - Não pode participar ativamente do [Fórum](#l13-forum) ou realizar transações.
   - Pode iniciar o processo de [Cadastro](#l03-cadastrar) para se tornar um [Membro](#l01-membro).
 
 **Fonte:** Thiago, 2025.
@@ -324,3 +330,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.2   | 11/10/2025 | Adicionando Video de Validação dos integrantes |                   Thiago                    | Raissa  |
 |  1.3   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos     | [Samuel](https://github.com/samuelncaetano) | Thiago  |
 |  1.4   | 27/10/2025 | Adicionando Agradecimentos                     |                  Angélica                   | Samuel  |
+|  1.5   | 18/11/2025 | Implementação das correções                    |                   Samuel                    | Thiago  |

@@ -20,19 +20,19 @@ Principais Não Conformidades:
 - **ID 17** — A categoria SUJEITO não possui definição clara de "Noção" conforme estrutura LAL
 - **ID 18** — A categoria SUJEITO não possui definição clara de "Impacto" conforme estrutura LAL
 
-| ID  | Resultado | Ação Corretiva                                                               | Responsável | Prazo | Status  |
-| :-: | :-------: | :--------------------------------------------------------------------------- | :---------: | :---: | :------ |
-| 17  |    NC     | Adicionar explicação clara de "Noção" para categoria SUJEITO no padrão LAL   |   Grupo 2   |   —   | A fazer |
-| 18  |    NC     | Adicionar explicação clara de "Impacto" para categoria SUJEITO no padrão LAL |   Grupo 2   |   —   | A fazer |
+| ID  | Resultado | Ação Corretiva                                                                                                                                                                        | Responsável |   Prazo    | Status    |
+| :-: | :-------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------: | :--------: | :-------- |
+| 17  |     C     | Corrigida a definição de "Noção" para L01-Membro e L02-Visitante seguindo padrão LAL: especificado claramente quem é o sujeito, suas características distintivas e posição no sistema |   Samuel    | 18/11/2025 | Concluído |
+| 18  |     C     | Corrigida a definição de "Impacto" para L01-Membro e L02-Visitante seguindo padrão LAL: detalhadas todas as ações executáveis, limitações de cada usuário e efeitos no sistema        |   Samuel    | 18/11/2025 | Concluído |
 
 ## Resumo da Lista
 
 - Total de itens: 13 (IDs 6-18)
 - Aplicáveis (C+NC): 13
-- C: 11
-- NC: 2
+- C: 13
+- NC: 0
 - NA: 0
-- % Conformidade: 84,6%
+- % Conformidade: 100%
 
 Principais Não Conformidades:
 
@@ -45,7 +45,8 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
-| :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
-|  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
-|  1.1   | 12/11/2025 | Adição das não conformidades               |  Thiago   | Samuel  |
+| Versão |    Data    | Descrição                                                                             | Autor(es) | Revisor |
+| :----: | :--------: | :------------------------------------------------------------------------------------ | :-------: | :-----: |
+|  1.0   | 11/11/2025 | Criação inicial do documento de protótipos                                            |  Samuel   | Thiago  |
+|  1.1   | 12/11/2025 | Adição das não conformidades                                                          |  Thiago   | Samuel  |
+|  1.2   | 18/11/2025 | Preenchimento da tabela com adequação às novas conformidades dos artefatos corrigidos |  Samuel   | Thiago  |
