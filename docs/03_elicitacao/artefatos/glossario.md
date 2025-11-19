@@ -1,8 +1,20 @@
 # Glossário do Projeto: Magic: The Gathering
 
-Este documento apresenta um glossário detalhado dos principais termos e funcionalidades relacionados ao projeto desenvolvido sobre Magic: The Gathering. O objetivo é facilitar o entendimento dos conceitos utilizados, tanto no contexto do jogo quanto nas ferramentas e recursos oferecidos pela plataforma abordada.
+## Descrição
 
-## Termos Gerais e de Jogo
+O glossário é um artefato de elicitação de requisitos que documenta e define os principais termos técnicos, conceitos específicos do domínio e funcionalidades relacionados ao projeto. Este documento organiza alfabeticamente os termos utilizados tanto no contexto do jogo Magic: The Gathering quanto nas ferramentas e recursos oferecidos pela plataforma LigaMagic, estabelecendo um vocabulário comum para toda a equipe e stakeholders. A metodologia e os conceitos aplicados neste documento foram baseados nas práticas descritas por Wiegers e Beatty (2013) na obra *Software Requirements*, adaptados para o contexto específico do projeto LigaMagic.
+
+## Objetivo
+
+O objetivo deste glossário é facilitar o entendimento e a comunicação entre os membros da equipe de desenvolvimento, usuários e demais partes interessadas, eliminando ambiguidades na interpretação de termos específicos. Ao consolidar definições claras, sinônimos, antônimos e remissivas entre conceitos relacionados, busca-se garantir que todos compartilhem uma compreensão uniforme dos requisitos e funcionalidades do sistema.
+
+## Metodologia
+
+A elaboração deste glossário foi realizada através da identificação e catalogação de termos relevantes durante as atividades de elicitação de requisitos. Cada termo foi definido com base no contexto do jogo Magic: The Gathering e da plataforma LigaMagic, incluindo sinônimos, antônimos quando aplicável, e remissivas cruzadas para facilitar a navegação entre conceitos relacionados. Os termos foram organizados em duas categorias principais: "Termos Gerais e de Jogo" e "Funcionalidades do Site", mantendo ordenação alfabética para facilitar a consulta.
+
+## Conteúdo
+
+### Termos Gerais e de Jogo
 
 |  ID | Termo                            | Definição Revisada                                                                    | Sinônimos / Antônimos                                         | Remissivas                                              |  Autor |
 | :-: | :------------------------------- | :------------------------------------------------------------------------------------ | :------------------------------------------------------------ | :------------------------------------------------------ | :----: |
@@ -26,7 +38,7 @@ Este documento apresenta um glossário detalhado dos principais termos e funcion
   <strong>Autoria de <a href="https://github.com/samuelncaetano">Samuel Nogueira Caetano</a> e de <a href="https://github.com/Acciolyy">Thiago Accioly</a></strong>
 </div>
 
-## Funcionalidades do Site
+### Funcionalidades do Site
 
 |  ID | Termo                             | Definição Revisada                                                                           | Sinônimos / Antônimos                                    | Remissivas              | URL                                                                                                                                          |  Autor |
 | :-: | :-------------------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------- | :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------- | :----: |
@@ -51,6 +63,15 @@ Este documento apresenta um glossário detalhado dos principais termos e funcion
 ## Vídeo de Validação
 
 [Link do Vídeo de Validação](https://youtu.be/3EbsaRfX9Tk)
+
+## Referências
+- **WIEGERS, Karl; BEATTY, Joy.** *Software Requirements. *3. ed. Redmond: Microsoft Press, 2013.
+
+## Nível de Contribuição dos Integrantes
+| Nome | % de Contribuição |
+| ---- | ----------------- |
+|  Samuel    |  50%                 |
+|    Thiago  |        50%           |
 
 ## Histórico de versão
 
