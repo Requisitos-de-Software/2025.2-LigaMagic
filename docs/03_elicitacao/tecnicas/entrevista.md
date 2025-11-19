@@ -137,6 +137,19 @@ Declaro que fui informado(a) sobre os objetivos da entrevista e concordo em part
 | :----------: | :----------------------------------------------------------------------------------- | :-------------------------------------------------- |
 | EN01 {#en01} | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas | [Vídeo da Entrevista](https://youtu.be/9ub37ijhOb4) |
 
+## Perguntas e Respostas do EN01
+
+| Nº | Pergunta | Resposta |
+|----|----------|----------|
+| 1 | Você tem alguma dificuldade em catalogar ou gerenciar sua coleção pessoal de cartas dentro do aplicativo do Liga Magic? | Sim, tenho um pouco de dificuldade. O sistema não é muito intuitivo, mas consigo me virar. |
+| 2 | Como é feito o processo hoje para catalogar e gerenciar sua coleção pessoal dentro do site/aplicativo? | Uso o sistema de busca por nome, mas ele não diferencia bem versões da mesma carta. Algumas cartas têm mais de 10 versões, e só aparece o nome. A imagem só aparece ao passar o mouse, dificultando a identificação. |
+| 3 | Essa dificuldade torna o sistema inutilizável? | Não, não chega a ser inutilizável. Só não é intuitivo. Precisei de uns 30 minutos para entender como funcionava na primeira vez. |
+| 4 | Isso acontece no site ou no aplicativo? | Acontece no site. Não usei o aplicativo da Liga Magic. |
+| 5 | O que poderia melhorar nesse processo? | A busca para adicionar cartas à coleção poderia funcionar igual à busca geral do site, ou permitir visualizar as cartas em uma grade com imagens, não só em lista com nomes. |
+| 6 | Esse requisito faz sentido? “Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas.” | Sim, esse requisito deveria ser validado. |
+| 7 | Por que esse requisito é importante? | Porque o site envolve venda, troca e gerenciamento de coleções. Os usuários montam decks, calculam valores e planejam compras. O sistema também atualiza automaticamente os preços através do banco de dados. |
+| 8 | Deseja adicionar algo ao final da entrevista? | Não, nada a adicionar desta vez. |
+
 Fonte: Thiago, 2025
 
 ## Bibliografia
@@ -150,6 +163,11 @@ Fonte: Thiago, 2025
 | [Raissa](https://github.com/RaissaAndradeS) |        50%        |
 | [Marcelo](https:/github.com/MatielloAL)     |        50%        |
 
+
+## Agradecimentos
+
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                               |                  Autor(es)                  | Revisor |
@@ -157,3 +175,4 @@ Fonte: Thiago, 2025
 |  1.0   | 24/09/2025 | Criação e preenchimento das entrevistas | [Raissa](https://github.com/RaissaAndradeS) |    -    |
 |  1.1   | 02/09/2025 | Formatação e organização do documento   |                   Samuel                    |    -    |
 |  1.2   | 25/10/2025 | Arrumando o requisito RFNI10            |    [Thiago](https://github.com/Acciolyy)    | Samuel  |
+|  1.2   | 25/10/2025 | Adicionado tabela das perguntas e respostas do requsito EN01           |    Marcelo   | Samuel  |
