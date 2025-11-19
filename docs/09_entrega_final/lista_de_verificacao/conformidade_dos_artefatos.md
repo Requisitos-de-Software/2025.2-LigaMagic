@@ -67,7 +67,7 @@ Preencha uma linha por lista de verificação:
 ### Entrevista
 
 <div align="center">
-<img src="../../../00_assets/images/graficos/entrevista.png" alt="" width="450px" style="margin: 10px;">
+<img src="../../../00_assets/images/graficos/entrevista.png" alt="" width="700px" style="margin: 10px;">
 </div>
 
 ### Observação
@@ -79,7 +79,7 @@ Preencha uma linha por lista de verificação:
 ### Perfil de usuário
 
 <div align="center">
-<img src="../../../00_assets/images/graficos/perfil_de_usuario.png" alt="" width="450px" style="margin: 10px;">
+<img src="../../../00_assets/images/graficos/perfil_de_usuario.png" alt="" width="700px" style="margin: 10px;">
 </div>
 
 ### In or Out
@@ -109,19 +109,19 @@ Preencha uma linha por lista de verificação:
 ### Cenários
 
 <div align="center">
-<img src="../../../00_assets/images/graficos/cenarios.png" alt="" width="450px" style="margin: 10px;">
+<img src="../../../00_assets/images/graficos/cenarios.png" alt="" width="700px" style="margin: 10px;">
 </div>
 
 ### Léxicos
 
 <div align="center">
-<img src="../../../00_assets/images/graficos/lexicos.png" alt="" width="450px" style="margin: 10px;">
+<img src="../../../00_assets/images/graficos/lexicos.png" alt="" width="700px" style="margin: 10px;">
 </div>
 
 ### Casos de Uso
 
 <div align="center">
-<img src="../../../00_assets/images/graficos/casos_de_uso.png" alt="" width="450px" style="margin: 10px;">
+<img src="../../../00_assets/images/graficos/casos_de_uso.png" alt="" width="700px" style="margin: 10px;">
 </div>
 
 ### Especificação Suplementar
@@ -158,6 +158,9 @@ Preencha uma linha por lista de verificação:
 
 O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
 
+## Vídeo no Youtube
+- [Assista ao vídeo no YouTube](https://youtu.be/7IXuy75DZDI?t=1) Este vídeo foi produzido pelo grupo todo, serve como apresentação, entre os minutos 00:00 e 3:39 apresentamos as conformidades do nosso grupo com as nossas listas de verificação.
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                              | Autor(es) | Revisor |
@@ -165,3 +168,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos             |  Samuel   | Thiago  |
 |  1.1   | 12/11/2025 | Adição dos resultados e gráficos das entregas 1, 2 e 3 |  Thiago   | Samuel  |
 |  1.1   | 12/11/2025 | Adição dos resultados e gráficos das entregas 4 e 5    |  Samuel   | Thiago  |
+|  1.2   | 19/11/2025 | Arrumando os Gráficos incorretos e adição do vídeo do youtube    |  Thiago   | Samuel  |
