@@ -1,15 +1,24 @@
 # Rich Picture
 
-## O que é um Rich Picture?
+## Descrição
 
 Um **Rich Picture** é uma ferramenta de brainstorming visual, utilizada para explorar, entender e definir situações problemáticas complexas e "bagunçadas", especialmente aquelas que envolvem pessoas, processos e tecnologia. Ele não é um diagrama técnico com regras rígidas, mas sim um desenho livre, quase como uma charge ou um mapa mental, que busca capturar a essência da situação.
 
-Ao criar um Rich Picture, o objetivo é representar visualmente todos os elementos importantes de um problema e suas interconexões. Isso ajuda a identificar pontos de vista diferentes e a revelar questões que poderiam passar despercebidas em uma análise puramente textual. Um bom Rich Picture ajuda a identificar:
+## Objetivo 
 
-1.  **A Estrutura e os Processos:** Quais são as principais atividades de negócio, fluxos de trabalho e os dados essenciais que eles utilizam.
-2.  **Os Atores e Stakeholders:** Quem são as pessoas, grupos ou sistemas envolvidos (clientes, funcionários, gerentes) e quais são seus papéis e responsabilidades.
-3.  **As Relações e Conexões:** Como os diferentes processos, atores e dados se conectam e interagem entre si.
-4.  **Os "Problemas" e Conflitos:** Quais são as tensões, problemas, preocupações, conflitos e possíveis pontos de melhoria na situação. É comum usar símbolos como "nuvens de tempestade" para representar conflitos ou "lâmpadas" para ideias.
+O objetivo principal deste artefato é representar visualmente todos os elementos importantes do problema e suas interconexões. Ele visa identificar pontos de vista distintos e revelar questões que poderiam passar despercebidas em uma análise puramente textual. Especificamente, busca identificar:
+
+A Estrutura e os Processos: As principais atividades de negócio, fluxos de trabalho e dados essenciais utilizados.
+
+Os Atores e Stakeholders: Pessoas, grupos ou sistemas envolvidos (clientes, funcionários, gerentes) e seus respectivos papéis.
+
+As Relações e Conexões: Como os diferentes processos, atores e dados interagem entre si.
+
+Os "Problemas" e Conflitos: Tensões, preocupações e pontos de melhoria, geralmente representados por metáforas visuais (como "nuvens de tempestade" para conflitos ou "lâmpadas" para ideias).
+
+
+## Metodologia
+A metodologia aplicada para a construção deste artefato baseou-se na criação de uma representação visual livre e não técnica. O processo focou na identificação e desenho dos fluxos e interações do sistema LigaMagic, utilizando símbolos visuais para denotar conflitos e ideias.
 
 ## Rich Picture do projeto
 
@@ -33,9 +42,19 @@ Componentes do Rich Picture.
   <strong>Figura 2:  Legenda do Rich Picture ligamagic (Fonte: Autor, 2025)</strong>
 </p>
 
-## Referências
+## Bibliografia
 
-> Introducing Rich Pictures - Rich Picture Drawing Guidelines (Diretrizes para desenhar Rich Pictures). Aprender3. Disponível em: <https://aprender3.unb.br/pluginfile.php/3210571/mod_resource/content/2/1_5145791542719414573.pdf>. Acesso em: 27 set. 2025.
+INTRODUCING Rich Pictures: Rich Picture Drawing Guidelines. [S.l.: s.n.], [s.d.].
+
+
+## Nível de Contribuição dos Integrantes
+
+| Nome     | % de Contribuição |
+| :------- | :---------------: |
+| Marcelo  |     100%          |
+
+## Agradecimentos
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
 
 ## Histórico de versão
 
@@ -43,3 +62,4 @@ Componentes do Rich Picture.
 | :----: | :--------: | :------------------------------------ | :-------: | :---------: |
 |  1.0   | 09/09/2025 | Rich Picture ligamagic                |  Marcelo  |  Guilherme  |
 |  1.2   | 02/09/2025 | Formatação e organização do documento |  Samuel   |      -      |
+|  1.3   | 19/11/2025 | Formatação do documento para um artefato padrão |  Marcelo  |      Samuel    |

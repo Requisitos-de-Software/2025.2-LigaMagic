@@ -24,23 +24,23 @@ Principais Não Conformidades:
 
 | ID  | Resultado (C/NC/NA) | Ação Corretiva                                                      | Responsável | Prazo | Status  |
 | :-: | :-----------------: | :------------------------------------------------------------------ | :---------- | :---- | :------ |
-| 08  |         NC          | Adicionar siglas relevantes ao domínio (ex: MTG, TCG)               | Grupo 2     | —     | A fazer |
-| 12  |         NC          | Reorganizar glossário em ordem alfabética                           | Grupo 2     | —     | A fazer |
-| 22  |         NC          | Adicionar sinônimos e antônimos dos termos                          | Grupo 2     | —     | A fazer |
-| 28  |         NC          | Incluir remissivas ("ver" e "ver também") entre termos relacionados | Grupo 2     | —     | A fazer |
+| 8  |         C          | Houve um erro de avaliação, esse item já estava Conforme                           | Thiago      | 18/11/2025     | Concluído |
+| 12  |         C          | Reorganizei o Glossário em Ordem Alfabética                           | Thiago      | 18/11/2025     | Concluído |
+| 22  |         C          | Adicionei os sinônimos e antônimos dos termos                          | Thiago     | 18/11/2025     | Concluído |
+| 28  |         C          | Inclui as remissivas ("ver" e "ver também") entre termos relacionados | Thiago     | 18/11/2025     | Concluído |
 
 ## Resumo da Lista
 
 - Total de itens: 29
 - Aplicáveis (C+NC): 22
-- C: 18
-- NC: 4
+- C: 22
+- NC: 0
 - NA: 7
-- % Conformidade: 81,8%
+- % Conformidade: 100%
 
 Principais Não Conformidades:
 
-- [08] — Não há siglas listadas no glossário (como "MTG" para Magic: The Gathering, "TCG" para Trading Card Game), que são comuns no domínio e poderiam facilitar o entendimento
+- [08] — As siglas e termos técnicos que poderiam gerar dificuldade de entendimento foram listados?
 - [12] — O glossário está organizado por categorias ("Termos Gerais e de Jogo" e "Funcionalidades do Site") ao invés de ordem alfabética, dificultando a consulta rápida
 - [22] — Não foram identificados e registrados sinônimos e antônimos dos termos, o que ajudaria a esclarecer as relações entre conceitos
 - [28] — O glossário não utiliza remissivas (como "ver" e "ver também") para correlacionar termos relacionados, perdendo oportunidade de enriquecer a navegação entre conceitos
@@ -55,3 +55,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
 |  1.1   | 12/11/2025 | Adição das não conformidades               |  Thiago   | Samuel  |
+|  2.0   | 18/11/2025 | Atualização das Conformidades              |  Thiago   | Samuel  |

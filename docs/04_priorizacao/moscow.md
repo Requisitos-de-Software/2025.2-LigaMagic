@@ -1,10 +1,14 @@
 # MoSCoW
 
-## **1. Introdução**
+## **Descrição**
 
-O objetivo deste documento é definir e priorizar os requisitos funcionais para o desenvolvimento do site LigaMagic, uma plataforma online para a comunidade de jogadores de Magic: The Gathering. A técnica de priorização utilizada é a MoSCoW, que classifica os requisitos em quatro categorias para garantir que os esforços de desenvolvimento se concentrem nos recursos de maior valor e impacto para o sucesso do projeto. A elaboração deste documento seguiu os princípios e boas práticas delineados na lista de verificação sobre a técnica MoSCoW.
+O método MoSCoW é uma técnica de priorização de requisitos amplamente utilizada em projetos de software que permite classificar funcionalidades em diferentes níveis de importância. Esta abordagem estruturada facilita a tomada de decisões estratégicas sobre o desenvolvimento do produto, auxilia no gerenciamento de expectativas das partes interessadas e permite uma alocação mais eficiente de recursos, garantindo que os esforços da equipe sejam direcionados aos itens de maior valor para o negócio. A metodologia e os conceitos aplicados neste documento foram baseados nas práticas descritas por Wiegers e Beatty (2013) na obra *Software Requirements*, adaptados para o contexto específico do projeto LigaMagic.
 
-## **2. Metodologia de Priorização**
+## **Objetivo**
+
+Este documento tem como objetivo aplicar o método MoSCoW para priorizar os requisitos funcionais do site LigaMagic, uma plataforma online para a comunidade de jogadores de Magic: The Gathering. Através dessa priorização, busca-se estabelecer um roteiro claro de desenvolvimento que concentre os esforços da equipe nos recursos de maior valor estratégico, garantindo entregas incrementais e alinhadas às necessidades dos usuários e aos objetivos de negócio do projeto.
+
+## **Metodologia**
 
 Para garantir um entendimento comum entre todas as partes interessadas, as definições de cada categoria MoSCoW são estabelecidas da seguinte forma:
 
@@ -13,11 +17,12 @@ Para garantir um entendimento comum entre todas as partes interessadas, as defin
 - **Could (Poderia Ter):** É uma capacidade desejável, mas que pode ser adiada ou eliminada. Será implementada apenas se o tempo e os recursos permitirem.
 - **Won't (Não Terá):** Indica um requisito que não será implementado desta vez, mas pode ser incluído em uma versão futura. Para este projeto, a classificação "Won't" significa explicitamente "não será implementado na próxima versão", e não "não será implementado nunca", esclarecendo a ambiguidade potencial da categoria.
 
-## **3. Requisitos Priorizados**
+## Conteúdo
+### **Requisitos Priorizados**
 
 A seguir, os requisitos são apresentados agrupados por sua prioridade.
 
-### **3.1. Requisitos _Must Have_ (Essenciais)**
+### **Requisitos _Must Have_ (Essenciais)**
 
 Esses requisitos são fundamentais para a funcionalidade básica do site. O lançamento do produto não é viável sem a implementação completa destes itens.
 
@@ -30,7 +35,9 @@ Esses requisitos são fundamentais para a funcionalidade básica do site. O lan�
 | **RF18** | Permitir controle de cookies                | O sistema deve permitir que o usuário configure seu navegador para aceitar ou bloquear cookies.    |
 | **RF19** | Solicitar atualização de dados pessoais     | O sistema deve permitir que o usuário atualize seus dados pessoais e comunicar alterações.         |
 
-### **3.2. Requisitos _Should Have_ (Importantes)**
+**Fonte:** Samuel e Thiago, 2025
+
+### **Requisitos _Should Have_ (Importantes)**
 
 Estes requisitos são importantes e agregam valor significativo ao usuário, mas o site pode ser lançado sem eles em uma primeira versão.
 
@@ -41,7 +48,9 @@ Estes requisitos são importantes e agregam valor significativo ao usuário, mas
 | **RF11** | Deve permitir envio e respostas a mensagens no fórum | O sistema deve possibilitar a participação dos usuários em fóruns de discussão (postagem e resposta).             |
 | **RF15** | Garantir direitos de titulares                       | O sistema deve permitir que o usuário solicite acesso, correção, exclusão ou anonimização de seus dados pessoais. |
 
-### **3.3. Requisitos _Could Have_ (Desejáveis)**
+**Fonte:** Samuel e Thiago, 2025
+
+### **Requisitos _Could Have_ (Desejáveis)**
 
 Estes requisitos são considerados melhorias ou funcionalidades adicionais que serão implementadas se houver tempo e recursos disponíveis após a conclusão dos requisitos _Must_ e _Should_.
 
@@ -55,7 +64,9 @@ Estes requisitos são considerados melhorias ou funcionalidades adicionais que s
 | **RF13** | Utilizar dados para finalidades específicas                      | O sistema deve usar os dados pessoais para identificação, contato, gestão contratual, melhoria de serviços e envio de comunicações. |
 | **RF17** | Utilizar cookies para personalização                             | O sistema deve utilizar cookies para facilitar login e personalizar a experiência de navegação.                                     |
 
-### **3.4. Requisitos _Won't Have_ (Não Incluídos Nesta Versão)**
+**Fonte:** Samuel e Thiago, 2025
+
+### **Requisitos _Won't Have_ (Não Incluídos Nesta Versão)**
 
 Os requisitos a seguir foram explicitamente deixados de fora do escopo desta versão do projeto para garantir a entrega dos itens de maior prioridade. Eles poderão ser reavaliados e priorizados em futuras versões.
 
@@ -64,7 +75,9 @@ Os requisitos a seguir foram explicitamente deixados de fora do escopo desta ver
 | **RF8**  | Deve implementar cobrança de anúncios e venda | O sistema deve permitir a cobrança de taxas sobre anúncios ou vendas realizadas pela plataforma.                    |
 | **RF14** | Compartilhar dados com parceiros              | O sistema deve possibilitar o compartilhamento de dados pessoais com parceiros, respeitando finalidades declaradas. |
 
-## **4. Análise e Justificativa da Priorização**
+**Fonte:** Samuel e Thiago, 2025
+
+## **Análise e Justificativa da Priorização**
 
 Esta seção aborda como os princípios da lista de verificação foram aplicados para garantir uma priorização eficaz.
 
@@ -77,6 +90,15 @@ Esta seção aborda como os princípios da lista de verificação foram aplicado
 
 [Link do Vídeo de Validação com Usuário](https://youtu.be/lmzToU_Psmc):
 
+## Referências
+- **WIEGERS, Karl; BEATTY, Joy.** *Software Requirements. *3. ed. Redmond: Microsoft Press, 2013. p638.
+
+## Nível de Contribuição dos Integrantes
+| Nome | % de Contribuição |
+| ---- | ----------------- |
+|  Samuel    |  50%                 |
+|    Thiago  |        50%           |
+
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                             | Autor(es) | Revisor(es) |
@@ -84,3 +106,4 @@ Esta seção aborda como os princípios da lista de verificação foram aplicado
 |  1.0   | 30/09/2025 | Criação da página de documentação     |  Samuel   |   Thiago    |
 |  1.1   | 02/09/2025 | Formatação e organização do documento |  Samuel   |      -      |
 |  1.2   | 24/10/2025 | Adicionando o Vídeo de Validação |  Thiago   |      -      |
+|  2.0   | 19/11/2025 | Corrigindo erros |  Thiago   |      Samuel      |
