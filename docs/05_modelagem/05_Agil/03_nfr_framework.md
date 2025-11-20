@@ -247,7 +247,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Samuel, 2025
 
-#### NFR02 - Informações Legais e Tributárias {#nfr02}
+### **NFR02 - Informações Legais e Tributárias** {#nfr02}
 
 | **Item**                  | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -267,7 +267,15 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Marcelo, 2025
 
-#### NFR03 - Padronização de mensagens {#nfr03}
+#### SIG Performance com/sem propagação de Impactos (Requisito  [RNF07](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf07)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/sigmarcelo.jpeg" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Marcelo, 2025
+
+
+### **NFR03 - Padronização de mensagens** {#nfr03}
 
 | Item                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -307,7 +315,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Guilherme, 2025
 
-#### NRF05 - Organização visual {#nfr05}
+### **NRF05 - Organização visual** {#nfr05}
 
 | Item                  | Descrição                                                                                                                                                                                                                                                                                                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -326,11 +334,25 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 <div align="center"><strong>Tabela 7: Organização visual </strong> </div>
 
 **Fonte:** Vera, 2025
+ 
+#### SIG Usabilidade Sem propagação de Impactos (Requisito  [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-RNF09-Vera.png" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Vera, 2025
+
+#### SIG Usabilidade Com propagação de Impactos (Requisito  [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-PropagaçãoVera.png" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Vera, 2025
 
 #### NRF06 - Exigir consentimento e concordância explícita {#nfr06}
 
 | Item                  | Descrição                                                                                                                                                                                                                                                                                                                                                                                                         |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                    | RNF05                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Requisito             | [RNF05](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf05)                                                                                                                                                                                                                                                                                           |
 | Classificação         | Legal e Regulatório > Conformidade                                                                                                                                                                                                                                                                                                                                                                                |
@@ -340,14 +362,14 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | Critério de Aceitação | - O sistema deve exibir um termo de consentimento antes do primeiro uso de qualquer funcionalidade restrita. <br/>- O usuário só pode prosseguir após marcar explicitamente a opção “Li e concordo”. <br/> - O sistema deve armazenar a confirmação de consentimento (data, hora e IP). <br/> - Caso a política seja atualizada, o sistema deve solicitar novo consentimento ao usuário antes de continuar o uso. |
 | Dependências          | [RNF04](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf0)                                                                                                                                                                                                                                                                                            |
 | Prioridade            | 10                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Conflitos             | - **Usabilidade (𝒲-):**: Exigir consentimento pode tornar a primeira interação mais demorada, impactando ligeiramente a experiência do usuário.                                                                                                                                                                                                                                                                   |
+| Conflitos             | - **Usabilidade (𝒲-):**: Exigir consentimento pode tornar a primeira interação mais demorada, impactando ligeiramente a experiência do usuário.                                                                                                                                                                                                                                                                  |
 | História              | Criado em 19/10/2025                                                                                                                                                                                                                                                                                                                                                                                              |
 
 <div align="center"><strong>Tabela 8: Exigir consentimento e concordância explícita </strong> </div>
 
 **Fonte:** Angélica, 2025
 
-#### NFR07 - Adaptabilidade a Dispositivos Móveis {#nfr07}
+### **NFR07 - Adaptabilidade a Dispositivos Móveis** {#nfr07}
 
 | Item                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -366,6 +388,22 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 <div align="center"><strong>Tabela 3:</strong> Adaptabilidade a Dispositivos Móveis </div>
 
 **Fonte:** Thiago, 2025
+
+
+#### SIG Usabilidade Sem propagação de Impactos (Requisito   [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-Thiago.jpeg" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025
+
+#### SIG Usabilidade Com propagação de Impactos (Requisito  [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-Impacto-Thiago.jpeg" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025
+
 
 ## Gravações das Validações
 
@@ -401,7 +439,7 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                                                         | Autor(es) |                 Revisor                  |
-| :----: | :--------: | :-------------------------------------------------------------------------------- | :-------: | :--------------------------------------: |
+|:------:|:----------:|:----------------------------------------------------------------------------------|:---------:|:----------------------------------------:|
 |  1.1   | 15/10/2025 | Adição da tabela                                                                  | Angélica  |                Guilherme                 |
 |  1.2   | 17/10/2025 | Adição da introdução                                                              |   Vera    |                  Raissa                  |
 |  1.3   | 18/10/2025 | Adição da tabela de contribuição, do modelo do cartão de especificação e do NFR01 |  Samuel   |                   Vera                   |
@@ -413,3 +451,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.9   | 19/10/2025 | Adição do cartão de epecificação                                                  |   Vera    |                  Samuel                  |
 |  1.10  | 19/10/2025 | Adição do cartão de epecificação                                                  | Angélica  | Samuel, Guilherme, Raissa, Marcelo, Vera |
 |  1.11  | 20/10/2025 | Adição do cartão de epecificação                                                  |  Thiago   |                  Samuel                  |
+|  2.0   | 20/11/2025 | Adição dos diagramas softgoals                                                    |   Vera    |                  Thiago                  |

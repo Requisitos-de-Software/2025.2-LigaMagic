@@ -22,13 +22,14 @@ A elaboração desta Especificação Suplementar organizar e detalhar os requisi
 ## Distribuição de especificaçoes por integrante
 
 | Integrante | Especificação   |
-| :--------- | :-------------- |
+|:-----------|:----------------|
 | Angélica   | Usabilidade     |
 | Vera       | Usabilidade     |
 | Thiago     | Usabilidade     |
 | Samuel     | Compatibilidade |
 | Raissa     | Suportabilidade |
 | Marcelo    | Confiabilidade  |
+| Vera       | Desempenho      |
 
 ## Definições, Acrônimos e Abreviações
 
@@ -37,6 +38,7 @@ A elaboração desta Especificação Suplementar organizar e detalhar os requisi
 - COM - Compatibilidade
 - CON - Confiabilidade
 - SUP - Suportabilidade
+- DES - Desempenho
 
 ## Funcionalidades
 
@@ -63,6 +65,12 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), [Angélica](https://github.
 ## Desempenho (Performance)
 
 Esta seção avalia os requisitos de desempenho do software, podendo usar como medida diversos aspectos, entre eles o tempo de resposta às solicitações, o consumo de memória, a utilização da CPU e a capacidade de carga do sistema.
+
+|  ID   | Descrição                                                                                                                                                                                                                                                                                                            | Rastreabilidade                                                       | Autor |
+|:-----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|:-----:|
+| DES01 | O sistema deve retornar resultados de busca em no máximo 3 segundos                                                                                                                                                                                                                                                  | [RNF10](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf10) | Vera  |
+| DES02 | O sistema deve suportar um aumento de 50% no número de usuários simultâneos sem degradação significativa de performance                                                                                                                                                                                              | [RNF16](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf16) | Vera  |
+
 
 ## Confiabilidade
 
@@ -132,7 +140,7 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                            |                  Autor(es)                   |                   Revisor                   |
-| :----: | :--------: | :--------------------------------------------------- | :------------------------------------------: | :-----------------------------------------: |
+|:------:|:----------:|:-----------------------------------------------------|:--------------------------------------------:|:-------------------------------------------:|
 |  1.0   | 08/10/2025 | Adicionando conteudo                                 | [Vera Lucia](https://github.com/verabelucia) | [Raissa](https://github.com/RaissaAndradeS) |
 |  1.1   | 09/10/2025 | Adicionado conteúdo em confiabilidade                |                   Marcelo                    |                   Thiago                    |
 |  1.2   | 10/10/2025 | Adicionado conteúdo em compatibilidade e usabilidade |                Samuel, Thiago                |                    Vera                     |
@@ -141,4 +149,5 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.5   | 11/10/2025 | Adição do vídeo de validação                         |                   Marcelo                    |                   Thiago                    |
 | 1.5.1  | 11/10/2025 | Adição do vídeo de validação dos integrantes         |                    Thiago                    |                   Marcelo                   |
 |  1.6   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos           | [Samuel](https://github.com/samuelncaetano)  |                   Thiago                    |
-|  1.7   | 27/10/2025 | Adicionando Agradecimentos |                   Angélica                    | Samuel  |
+|  1.7   | 27/10/2025 | Adicionando Agradecimentos                           |                   Angélica                   |                   Samuel                    |
+|  2.0   | 19/11/2025 | Adicinando conteudo em Desempenho                    |                    Vera                      |                   Raissa                    |
