@@ -17,7 +17,7 @@ A elaboração desta Especificação Suplementar organizar e detalhar os requisi
 - Confiabilidade: segurança dos dados, disponibilidade e tolerância a falhas.
 - Desempenho: tempos de resposta, capacidade de atendimento em horários de pico e escalabilidade da aplicação.
 - Suporte: manutenção, documentação e compatibilidade com múltiplas plataformas (Web, Android e iOS).
-- Outros (“+”): restrições legais, padrões de identidade digital e integração com sistemas externos ou governamentais.
+- Outros (“+”): restrições legais, padrões de identidade digital e integração com sistemas externos ou governamentais.[¹](#refs1)
 
 ## Distribuição de especificaçoes por integrante
 
@@ -52,7 +52,7 @@ Os requisitos que foram elicitados com essas técnicas estão no artefato [Requi
 
 ## Usabilidade (Usability)
 
-A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva e consistente para o consumidor deve seguir padrões visuais e de navegação conhecidos.
+A usabilidade do sistema deve garantir uma experiência de uso fluida, intuitiva e consistente para o consumidor deve seguir padrões visuais e de navegação conhecidos.[¹](#refs1)
 
 |  ID  | Descrição                                                                                                                                                 | Rastreabilidade                                                       | Autor    |
 | :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- | :------- |
@@ -64,7 +64,7 @@ Fonte: [Vera Lucia](https://github.com/verabelucia), [Angélica](https://github.
 
 ## Desempenho (Performance)
 
-Esta seção avalia os requisitos de desempenho do software, podendo usar como medida diversos aspectos, entre eles o tempo de resposta às solicitações, o consumo de memória, a utilização da CPU e a capacidade de carga do sistema.
+Esta seção avalia os requisitos de desempenho do software, podendo usar como medida diversos aspectos, entre eles o tempo de resposta às solicitações, o consumo de memória, a utilização da CPU e a capacidade de carga do sistema.[¹](#refs1)
 
 |  ID   | Descrição                                                                                                                                                                                                                                                                                                            | Rastreabilidade                                                       | Autor |
 |:-----:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|:-----:|
@@ -74,7 +74,7 @@ Esta seção avalia os requisitos de desempenho do software, podendo usar como m
 
 ## Confiabilidade
 
-A confiabilidade do software está relacionado à sua integridade e conformidade, analisando a capacidade do sistema de funcionar corretamente mesmo diante de falhas.
+A confiabilidade do software está relacionado à sua integridade e conformidade, analisando a capacidade do sistema de funcionar corretamente mesmo diante de falhas.[¹](#refs1)
 
 |  ID   | Descrição                                                                                                                                                                                                                                                    | Rastreabilidade                                                       |  Autor  |
 | :---: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- | :-----: |
@@ -85,7 +85,7 @@ A confiabilidade do software está relacionado à sua integridade e conformidade
 
 ## Suportabilidade
 
-Os requisitos de suportabilidade se referem às características que tornam o software mais fácil de usar, manter e adaptar. Entre essas características estão a testabilidade, adaptabilidade, manutenibilidade, compatibilidade, configurabilidade, instalabilidade, escalabilidade, localizabilidade, entre outras.
+Os requisitos de suportabilidade se referem às características que tornam o software mais fácil de usar, manter e adaptar. Entre essas características estão a testabilidade, adaptabilidade, manutenibilidade, compatibilidade, configurabilidade, instalabilidade, escalabilidade, localizabilidade, entre outras.[¹](#refs1)
 
 |  ID   | Descrição                                                                                                          | Rastreabilidade                                                       |
 | :---: | :----------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------- |
@@ -96,15 +96,15 @@ Fonte: [Raissa](https://github.com/RaissaAndradeS), 2025
 
 ## Requisitos de Design
 
-Os requisitos de design, também conhecidos como restrições de projeto, definem limitações ou diretrizes que devem ser seguidas durante o desenvolvimento do sistema. Esses requisitos estabelecem parâmetros que influenciam a estrutura e o comportamento do software, como a linguagem de programação utilizada, o processo de desenvolvimento adotado, as ferramentas de apoio empregadas e o uso de bibliotecas ou frameworks específicos.
+Os requisitos de design, também conhecidos como restrições de projeto, definem limitações ou diretrizes que devem ser seguidas durante o desenvolvimento do sistema. Esses requisitos estabelecem parâmetros que influenciam a estrutura e o comportamento do software, como a linguagem de programação utilizada, o processo de desenvolvimento adotado, as ferramentas de apoio empregadas e o uso de bibliotecas ou frameworks específicos.[¹](#refs1)
 
 ## Requisitos de Implementação
 
-Os requisitos de implementação determinam condições técnicas ou restrições relacionadas ao desenvolvimento do código e à construção do sistema. Eles orientam como o software deve ser implementado, especificando aspectos como padrões obrigatórios de programação, linguagens de desenvolvimento permitidas, políticas de integridade e segurança do banco de dados, além de limitações de recursos e ambientes operacionais compatíveis.
+Os requisitos de implementação determinam condições técnicas ou restrições relacionadas ao desenvolvimento do código e à construção do sistema. Eles orientam como o software deve ser implementado, especificando aspectos como padrões obrigatórios de programação, linguagens de desenvolvimento permitidas, políticas de integridade e segurança do banco de dados, além de limitações de recursos e ambientes operacionais compatíveis.[¹](#refs1)
 
 ## Requisitos de Interface
 
-Os requisitos de interface definem ou limitam as funcionalidades e interações entre o sistema e o jogador. Eles estabelecem como os elementos da interface devem se comportar e se apresentar, garantindo consistência visual, clareza nas informações exibidas e facilidade de uso durante a navegação no sistema.
+Os requisitos de interface definem ou limitam as funcionalidades e interações entre o sistema e o jogador. Eles estabelecem como os elementos da interface devem se comportar e se apresentar, garantindo consistência visual, clareza nas informações exibidas e facilidade de uso durante a navegação no sistema.[¹](#refs1)
 
 ## Video de validação feita com um jogador
 
@@ -119,8 +119,7 @@ Para a validação da Especificação Suplementar, cada integrante do grupo fico
 
 ## Bibliografia
 
-> 1.FURPS+. QualidadeBR, 10 jul. 2008. Disponível em: https://qualidadebr.wordpress.com/2008/07/10/furps/
-> . Acesso em: 9 out. 2025.
+> <p><a id="refs1"></a> 1.FURPS+. QualidadeBR, 10 jul. 2008. Disponível em: https://qualidadebr.wordpress.com/2008/07/10/furps. Acesso em: 9 out. 2025.</p>
 
 ## Nível de Contribuição dos Integrantes
 

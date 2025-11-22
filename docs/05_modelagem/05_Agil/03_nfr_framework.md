@@ -2,11 +2,11 @@
 
 ## Descrição
 
-O NFR Framework é uma abordagem proposta por Chung et al.[¹]() para representar e analisar requisitos não funcionais em sistemas de software. Ele é importante porque esses requisitos — como desempenho, segurança e usabilidade — influenciam diretamente na qualidade do sistema, mas muitas vezes não são claramente definidos durante o desenvolvimento. Para aplicar o framework, é necessário compreender os softgoals, que representam objetivos de qualidade, e o grafo de interdependência (SIG), usado para mostrar como os requisitos se relacionam e se afetam. Dessa forma, o NFR Framework ajuda a visualizar e equilibrar as decisões de projeto, contribuindo para sistemas mais consistentes e de melhor qualidade.
+O NFR Framework é uma abordagem proposta por Chung et al.[¹](#refs1) para representar e analisar requisitos não funcionais em sistemas de software. Ele é importante porque esses requisitos — como desempenho, segurança e usabilidade — influenciam diretamente na qualidade do sistema, mas muitas vezes não são claramente definidos durante o desenvolvimento. Para aplicar o framework, é necessário compreender os softgoals, que representam objetivos de qualidade, e o grafo de interdependência (SIG), usado para mostrar como os requisitos se relacionam e se afetam. Dessa forma, o NFR Framework ajuda a visualizar e equilibrar as decisões de projeto, contribuindo para sistemas mais consistentes e de melhor qualidade.[¹](#refs1)
 
 ### SIG - Softgoal Interdependency Graph
 
-No NFR Framework, o funcionamento do modelo é representado por meio do Softgoal Interdependency Graph (SIG), um gráfico que ilustra a relação e a interdependência entre os softgoals (requisitos não funcionais). O SIG atua como um registro visual das decisões tomadas durante o processo de desenvolvimento, mostrando como cada requisito, alternativa e justificativa se conectam dentro do sistema. Esse gráfico permite uma análise incremental e iterativa das decisões, facilitando a revisão e a rastreabilidade dos impactos entre os softgoals. Além disso, o SIG possibilita a execução de procedimentos de avaliação para verificar se os requisitos de nível superior foram satisfeitos, contribuindo para uma visão clara e estruturada da lógica e das prioridades do projeto[¹]().
+No NFR Framework, o funcionamento do modelo é representado por meio do Softgoal Interdependency Graph (SIG), um gráfico que ilustra a relação e a interdependência entre os softgoals (requisitos não funcionais). O SIG atua como um registro visual das decisões tomadas durante o processo de desenvolvimento, mostrando como cada requisito, alternativa e justificativa se conectam dentro do sistema. Esse gráfico permite uma análise incremental e iterativa das decisões, facilitando a revisão e a rastreabilidade dos impactos entre os softgoals. Além disso, o SIG possibilita a execução de procedimentos de avaliação para verificar se os requisitos de nível superior foram satisfeitos, contribuindo para uma visão clara e estruturada da lógica e das prioridades do projeto[¹](#refs1).
 
 ### Tipos de Softgoals
 
@@ -14,7 +14,7 @@ No NFR Framework, existem três tipos principais de softgoals:
 
 - **Softgoals NFR**: representam os requisitos não funcionais, organizados de forma hierárquica e inter-relacionada.
 - **Softgoals de Operacionalização**: correspondem às soluções práticas para satisfazer os softgoals NFR, incluindo processos, dados e restrições do sistema.
-- **Softgoals de Afirmação**: refletem características do domínio e justificam decisões de priorização e refinamento dos softgoals, fortalecendo a rastreabilidade do projeto[¹]().
+- **Softgoals de Afirmação**: refletem características do domínio e justificam decisões de priorização e refinamento dos softgoals, fortalecendo a rastreabilidade do projeto[¹](#refs1).
 
 A forma como os softgoals são representados pode ser observada na Figura 1, que ilustra graficamente sua estrutura.
 
@@ -27,12 +27,12 @@ A forma como os softgoals são representados pode ser observada na Figura 1, que
 ### Interdependências
 
 As interdependências definem as relações entre os softgoals. No NFR Framework, essas relações são representadas por dois tipos principais de interdependência: os refinamentos e as contribuições.
-Essas interdependências permitem visualizar como os softgoals se influenciam mutuamente dentro do sistema, revelando dependências hierárquicas e impactos entre diferentes requisitos de qualidade.
+Essas interdependências permitem visualizar como os softgoals se influenciam mutuamente dentro do sistema, revelando dependências hierárquicas e impactos entre diferentes requisitos de qualidade.[¹](#refs1)
 
 #### Decomposições (Refinamentos)
 
 Os refinamentos representam o tipo de interdependência que ocorre de forma hierárquica (top-down), quando um softgoal ascendente (pai) gera um ou mais softgoals descendentes (filhos), que se relacionam com o objetivo principal.
-Os refinamentos podem ocorrer por meio de decomposição, operacionalização e afirmação, permitindo detalhar gradualmente os requisitos não funcionais até níveis mais específicos e aplicáveis ao projeto (CHUNG et al., 2000).
+Os refinamentos podem ocorrer por meio de decomposição, operacionalização e afirmação, permitindo detalhar gradualmente os requisitos não funcionais até níveis mais específicos e aplicáveis ao projeto (CHUNG et al., 2000).[¹](#refs1)
 
 Os quatro tipos de decomposição utilizados pelo NFR Framework são:
 
@@ -41,7 +41,7 @@ Os quatro tipos de decomposição utilizados pelo NFR Framework são:
 - **Decomposição de Afirmação (Claims)**: refina softgoals de afirmação, úteis para apoiar ou negar justificativas de projeto.
 - **Priorização**: tipo especial de decomposição que refina um softgoal com o mesmo tipo, mas associado a diferentes níveis de prioridade.
 
-Essas decomposições permitem representar, dentro do grafo SIG, a estrutura de refinamento dos requisitos não funcionais, auxiliando na rastreabilidade e na clareza das decisões de projeto.
+Essas decomposições permitem representar, dentro do grafo SIG, a estrutura de refinamento dos requisitos não funcionais, auxiliando na rastreabilidade e na clareza das decisões de projeto.[¹](#refs1)
 
 <p align="center"><strong>Figura 2 – Tipos de decomposição</strong></p>
 
@@ -52,7 +52,7 @@ Essas decomposições permitem representar, dentro do grafo SIG, a estrutura de 
 ### Contribuições
 
 Durante o refinamento dos softgoals, cada elemento descendente pode contribuir total ou parcialmente, e de forma positiva ou negativa, para a satisfação do softgoal ascendente (CHUNG et al., 2000).
-Essas contribuições permitem analisar o equilíbrio entre diferentes requisitos não funcionais — por exemplo, como melhorar o desempenho pode prejudicar a segurança, ou como aumentar a usabilidade pode impactar na eficiência.
+Essas contribuições permitem analisar o equilíbrio entre diferentes requisitos não funcionais — por exemplo, como melhorar o desempenho pode prejudicar a segurança, ou como aumentar a usabilidade pode impactar na eficiência.[¹](#refs1)
 
 Os principais tipos de contribuições do NFR Framework incluem:
 
@@ -82,7 +82,7 @@ Sistemas Embarcados/ Reinaldo Antônio da Silva – 2019.</em></p>
 - **EQUALS**: o softgoal descendente só será satisfeito se o ascendente também for.
 - **SOME** (+/-): contribuição com sinal conhecido (positivo ou negativo), mas intensidade incerta.
 
-Essas relações permitem que o analista compreenda como os softgoals se reforçam ou se contradizem dentro do sistema, servindo como base para o processo de propagação de impactos.
+Essas relações permitem que o analista compreenda como os softgoals se reforçam ou se contradizem dentro do sistema, servindo como base para o processo de propagação de impactos.[¹](#refs1)
 
 <p align="center"><strong>Figura 5 – Exemplos de contribuições"SOME", UNKNOWN e EQUALS</strong></p>
 
@@ -95,7 +95,7 @@ Sistemas Embarcados/ Reinaldo Antônio da Silva – 2019.</em></p>
 ### Propagação de Impactos (Procedimento de Avaliação)
 
 O procedimento de avaliação tem como objetivo determinar o grau de satisfação dos requisitos não funcionais a partir de um conjunto de decisões do projeto.
-Durante esse processo, cada softgoal do SIG é rotulado de acordo com o nível de satisfação alcançado, permitindo avaliar se os objetivos de qualidade foram atingidos.
+Durante esse processo, cada softgoal do SIG é rotulado de acordo com o nível de satisfação alcançado, permitindo avaliar se os objetivos de qualidade foram atingidos.[¹](#refs1)
 
 Os principais rótulos utilizados são:
 
@@ -113,11 +113,11 @@ Os principais rótulos utilizados são:
 <p align="center"><em>Fonte: CHUNG et al., 2000.</em></p>
 
 Esses rótulos são aplicados de forma iterativa, começando pelos softgoals de nível mais baixo na hierarquia e propagando os resultados até os softgoals de nível superior.
-Esse procedimento permite compreender o impacto cumulativo das decisões sobre a qualidade do sistema, facilitando ajustes e priorizações ao longo do desenvolvimento.
+Esse procedimento permite compreender o impacto cumulativo das decisões sobre a qualidade do sistema, facilitando ajustes e priorizações ao longo do desenvolvimento.[¹](#refs1)
 
 ### Cartões de Especificação
 
-Os cartões de especificação servem para registrar de forma detalhada cada requisito não funcional (softgoal) que identificamos. Eles oferecem um formato padronizado, o que torna mais fácil entender, analisar e acompanhar esses requisitos ao longo do projeto.
+Os cartões de especificação servem para registrar de forma detalhada cada requisito não funcional (softgoal) que identificamos. Eles oferecem um formato padronizado, o que torna mais fácil entender, analisar e acompanhar esses requisitos ao longo do projeto.[¹](#refs1)
 
 Abaixo está o modelo padrão para os cartões de especificação:
 
@@ -227,7 +227,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 ### NFRs
 
-#### NFR01 - Responsividade da plataforma {#nfr01}
+### **NFR01 - Responsividade da plataforma** {#nfr01}
 
 | Item                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -246,6 +246,16 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 <div align="center"><strong>Tabela 3:</strong> Responsividade da plataforma</div>
 
 **Fonte:** Samuel, 2025
+
+#### SIG Performance com/sem propagação de Impactos (Requisito  [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12)       )
+
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-Samuel.jpeg" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Samuel, 2025
+
+
 
 ### **NFR02 - Informações Legais e Tributárias** {#nfr02}
 
@@ -419,7 +429,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 ## Bibliografia
 
-> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 19/10/2025.
+> <p><a id="refs1"></a> 1. SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 19/10/2025.</p>
 
 ## Nível de Contribuição dos Integrantes
 

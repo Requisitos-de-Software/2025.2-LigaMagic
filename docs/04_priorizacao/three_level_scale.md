@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Priorização é fundamental para organizar projetos e facilitar decisões em desenvolvimento de software. No processo de elicitação de requisitos, a técnica **Tree Level** permite organizar os requisitos em níveis de importância.
+Priorização é fundamental para organizar projetos e facilitar decisões em desenvolvimento de software. No processo de elicitação de requisitos, a técnica **Tree Level** permite organizar os requisitos em níveis de importância.[¹](#refs1)
 
 ## Metodologia
 
@@ -10,7 +10,7 @@ Para realizar a priorização dos requisitos, utilizou-se como base os requisito
 
 1. Alta: requisitos essenciais que devem ser implementados obrigatoriamente no produto final
 2. Média: requisitos importantes, mas cuja implementação pode ser adiada sem comprometer a funcionalidade principal
-3. Baixa: requisitos desejáveis, que agregam valor ao produto, mas não são críticos para o seu funcionamento inicial
+3. Baixa: requisitos desejáveis, que agregam valor ao produto, mas não são críticos para o seu funcionamento inicial[¹](#refs1)
 
 A decisão sobre o nível de prioridade de cada requisito considerou o contexto as necessidades identificadas durante a observação de usuários. Essa abordagem possibilitou uma priorização consistente.
 
@@ -68,7 +68,7 @@ Este vídeo apresenta a aplicação da técnica Three Level Scale para prioriza�
 
 ## Bibliografia
 
-> 1. **VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira.** _Engenharia de requisitos: software orientado ao negócio_. Disponível em: [Aprender3](https://aprender3.unb.br/pluginfile.php/3210603/mod_resource/content/4/Elicitacao%20de%20Req%202.pdf)
+> <p><a id="refs1"></a> 1. **VAZQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira.** _Engenharia de requisitos: software orientado ao negócio_. Disponível em: [Aprender3](https://aprender3.unb.br/pluginfile.php/3210603/mod_resource/content/4/Elicitacao%20de%20Req%202.pdf) </p>
 
 ## Agradecimentos
 
