@@ -6,6 +6,13 @@ A análise de documento é uma técnica de elicitação de requisitos que consis
 
 Documentos analisados: [Termos e Condições Gerais de Uso](https://www.ligamagic.com.br/?view=contrato) e [Política de Proteção de Dados Pessoais](https://www.ligamagic.com.br/?view=privacidade).
 
+Como parte do processo de verificação e rastreabilidade dos requisitos identificados por meio da análise de documentos, disponibilizamos um arquivo contendo todas as evidências utilizadas, incluindo:
+
+- Capturas de tela dos Termos de Uso e da Política de Privacidade;
+- Marcações visuais destacando os trechos analisados; 
+
+Essas evidências sustentam a derivação dos requisitos funcionais e não funcionais obtidos a partir dos documentos oficiais do aplicativo. [Evidências da análise da Política de Proteção de Dados Pessoais (PDF, produzido pela aluna Angélica)](../../00_assets/pdfs/PolIticadeProteCAodeDadosPessoais-LIGAMAGIC.pdf) e do [Termos e Condições Gerais de Uso (PDF, produzido pela aluna Vera)](../../00_assets/pdfs/TermoseCondicoesGerais-Requisitos.pdf)
+
 ---
 
 ## Questões que orientaram a Análise dos Documentos
@@ -119,10 +126,8 @@ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github
 
 ---
 
-## Bibliografias
-
-> 1. LIGAMAGIC. _Política de proteção de dados pessoais_. Disponível em: [https://www.ligamagic.com.br/?view=privacidade](https://www.ligamagic.com.br/?view=privacidade). Acesso em: 25 set. 2025.
-> 2. LIGAMAGIC. _Termos e condições gerais de uso_. Disponível em: [https://www.ligamagic.com.br/?view=contrato](https://www.ligamagic.com.br/?view=contrato). Acesso em: 24/09/2025.
+## Agradecimento
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
 
 ## Histórico de versão
 
@@ -131,4 +136,5 @@ Fonte: [Vera Lucia](https://github.com/verabelucia) e [Angélica](https://github
 |  1.0   | 24/09/2025 | Criação da estrutura da página de Analise de Documentos   |  [Vera Lucia](https://github.com/verabelucia)  | [Angélica](https://github.com/angelicaccampos) |
 |  1.1   | 24/09/2025 | Criação dos Requisitos Funcionais                         |  [Vera Lucia](https://github.com/verabelucia)  | [Angélica](https://github.com/angelicaccampos) |
 |  1.2   | 26/09/2025 | Criação dos Requisitos não Funcionais e não implementados | [Angélica](https://github.com/angelicaccampos) |  [Vera Lucia](https://github.com/verabelucia)  |
-|  1.3   | 02/09/2025 | Formatação e organização do documento                     |                     Samuel                     |                       -                        |
+|  1.3   | 02/09/2025 | Formatação e organização do documento                     |                     Samuel                     |                       Angélica                        |
+|  1.4   | 21/11/2025 | incluir arquivo de evidências da análise de documentos  |                     Angélica                     |                      Vera                        |
