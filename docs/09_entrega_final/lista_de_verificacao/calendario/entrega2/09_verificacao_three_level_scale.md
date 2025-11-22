@@ -19,18 +19,18 @@ Principais Não Conformidades:
 
 - [11] — Há registro da data e horário da realização da priorização?
 
-| ID  | Resultado (C/NC/NA)  | Ação Corretiva                                      | Responsável  | Prazo    | Status    |
-|:---:|:--------------------:|:----------------------------------------------------|:-------------|:---------|:----------|
-| 11  |          C           | Adicionar registro de data e horário da priorização | Grupo 2      | 11/11/25 | Concluido |
+| ID  | Resultado (C/NC/NA)  | Ação Corretiva                                      | Responsável | Prazo    | Status     |
+|:---:|:--------------------:|:----------------------------------------------------|:------------|:---------|:-----------|
+| 11  |          C           | Adicionar registro de data e horário da priorização | Vera        | 19/11/25 | ;;;;;;;;;; |
 
 ## Resumo da Lista
 
 - Total de itens: 13
 - Aplicáveis (C+NC): 11
 - C: 10
-- NC: 1
+- NC: 0
 - NA: 2
-- % Conformidade: 90,9%
+- % Conformidade: 100%
 
 Principais Não Conformidades:
 
