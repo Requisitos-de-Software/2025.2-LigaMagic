@@ -17,36 +17,36 @@
 
 Preencha uma linha por critério da lista.
 
-| ID  | Resultado (C/NC/NA) | Ação Corretiva | Responsável   | Prazo        | Status       |
-| :-: | :-----------------: | -------------- | ------------- | ------------ | :----------- |
-|  9  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 10  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 11  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 12  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 13  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 14  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 16  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 18  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 20  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 21  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 22  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 23  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 24  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 25  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 26  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 27  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 29  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 30  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 31  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
-| 32  |         NC          | [O que fazer]  | [Pessoa/Time] | [DD-MM-AAAA] | Em andamento |
+| ID  | Resultado | Ação Corretiva                                                     | Responsável | Prazo        | Status     |
+|:---:|:---------:|--------------------------------------------------------------------|-------------|--------------|------------|
+|  9  |     C     | Ajustar nuvens para o padrão de softgoals NFR.                     | Vera        | 19/11/2025   | Concluído  |
+| 10  |     C     | Aplicar contorno grosso nos softgoals de operacionalização.        | Vera        | 19/11/2025   | Concluído  |
+| 11  |     C     | Usar linhas tracejadas nos softgoals de afirmação.                 | Vera        | 19/11/2025   | Concluído  |
+| 12  |     C     | Reorganizar refinamentos no fluxo top-down.                        | Vera        | 19/11/2025   | Concluído  |
+| 13  |     C     | Inserir softgoals de afirmação referentes ao domínio.              | Vera        | 19/11/2025   | Concluído  |
+| 14  |     C     | Completar operacionalizações com processos e dados necessários.    | Vera        | 19/11/2025   | Concluído  |
+| 16  |     C     | Revisar o SIG para mostrar toda a lógica e decisões.               | Vera        | 19/11/2025   | Concluído  |
+| 18  |     C     | Adicionar claims escritos em linguagem natural.                    | Vera        | 19/11/2025   | Concluído  |
+| 20  |     C     | Destacar claramente os NFRs como softgoals principais.             | Vera        | 19/11/2025   | Concluído  |
+| 21  |     C     | Detalhar operacionalizações como funcionalidades concretas.        | Vera        | 19/11/2025   | Concluído  |
+| 22  |     C     | Reescrever claims para melhorar a clareza.                         | Vera        | 19/11/2025   | Concluído  |
+| 23  |     C     | Ajustar softgoals para manter um atributo por item.                | Vera        | 19/11/2025   | Concluído  |
+| 24  |     C     | Decompor softgoals de alto nível em sub-softgoals.                 | Vera        | 19/11/2025   | Concluído  |
+| 25  |     C     | Inserir contribuições entre todos os softgoals relacionados.       | Vera        | 19/11/2025   | Concluído  |
+| 26  |     C     | Adicionar labels de satisfação aos softgoals avaliados.            | Vera        | 19/11/2025   | Concluído  |
+| 27  |     C     | Corrigir contribuições conforme o impacto real entre os softgoals. | Vera        | 19/11/2025   | Concluído  |
+| 29  |     C     | Padronizar notação gráfica conforme o NFR Framework.               | Vera        | 19/11/2025   | Concluído  |
+| 30  |     C     | Verificar uso correto de AND, OR e EQUAL no diagrama.              | Vera        | 19/11/2025   | Concluído  |
+| 31  |     C     | Uniformizar símbolos de impacto Make/Help/Hurt/Break.              | Vera        | 19/11/2025   | Concluído  |
+| 32  |     C     | Aplicar corretamente os rótulos de avaliação do NFR.               | Vera        | 19/11/2025   | Concluído  |
 
 ## Resumo da Lista
 
 - Total de itens: 32
 - Aplicáveis (C+NC): 32
-- C: 12
-- NC: 20
-- % Conformidade: 37,5%
+- C: 32
+- NC: 0
+- % Conformidade: 100%
 
 ## Principais Não Conformidades:
 
@@ -78,5 +78,6 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
-| :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
+|:------:|:----------:|:-------------------------------------------|:---------:|:-------:|
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
+|  1.2   | 20/11/2025 | Atualizando itens para Conforme            |   Vera    | Samuel  |

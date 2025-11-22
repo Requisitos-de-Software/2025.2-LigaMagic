@@ -2,11 +2,11 @@
 
 ## Descrição
 
-O NFR Framework é uma abordagem proposta por Chung et al.[¹]() para representar e analisar requisitos não funcionais em sistemas de software. Ele é importante porque esses requisitos — como desempenho, segurança e usabilidade — influenciam diretamente na qualidade do sistema, mas muitas vezes não são claramente definidos durante o desenvolvimento. Para aplicar o framework, é necessário compreender os softgoals, que representam objetivos de qualidade, e o grafo de interdependência (SIG), usado para mostrar como os requisitos se relacionam e se afetam. Dessa forma, o NFR Framework ajuda a visualizar e equilibrar as decisões de projeto, contribuindo para sistemas mais consistentes e de melhor qualidade.
+O NFR Framework é uma abordagem proposta por Chung et al.[¹](#refs1) para representar e analisar requisitos não funcionais em sistemas de software. Ele é importante porque esses requisitos — como desempenho, segurança e usabilidade — influenciam diretamente na qualidade do sistema, mas muitas vezes não são claramente definidos durante o desenvolvimento. Para aplicar o framework, é necessário compreender os softgoals, que representam objetivos de qualidade, e o grafo de interdependência (SIG), usado para mostrar como os requisitos se relacionam e se afetam. Dessa forma, o NFR Framework ajuda a visualizar e equilibrar as decisões de projeto, contribuindo para sistemas mais consistentes e de melhor qualidade.[¹](#refs1)
 
 ### SIG - Softgoal Interdependency Graph
 
-No NFR Framework, o funcionamento do modelo é representado por meio do Softgoal Interdependency Graph (SIG), um gráfico que ilustra a relação e a interdependência entre os softgoals (requisitos não funcionais). O SIG atua como um registro visual das decisões tomadas durante o processo de desenvolvimento, mostrando como cada requisito, alternativa e justificativa se conectam dentro do sistema. Esse gráfico permite uma análise incremental e iterativa das decisões, facilitando a revisão e a rastreabilidade dos impactos entre os softgoals. Além disso, o SIG possibilita a execução de procedimentos de avaliação para verificar se os requisitos de nível superior foram satisfeitos, contribuindo para uma visão clara e estruturada da lógica e das prioridades do projeto[¹]().
+No NFR Framework, o funcionamento do modelo é representado por meio do Softgoal Interdependency Graph (SIG), um gráfico que ilustra a relação e a interdependência entre os softgoals (requisitos não funcionais). O SIG atua como um registro visual das decisões tomadas durante o processo de desenvolvimento, mostrando como cada requisito, alternativa e justificativa se conectam dentro do sistema. Esse gráfico permite uma análise incremental e iterativa das decisões, facilitando a revisão e a rastreabilidade dos impactos entre os softgoals. Além disso, o SIG possibilita a execução de procedimentos de avaliação para verificar se os requisitos de nível superior foram satisfeitos, contribuindo para uma visão clara e estruturada da lógica e das prioridades do projeto[¹](#refs1).
 
 ### Tipos de Softgoals
 
@@ -14,7 +14,7 @@ No NFR Framework, existem três tipos principais de softgoals:
 
 - **Softgoals NFR**: representam os requisitos não funcionais, organizados de forma hierárquica e inter-relacionada.
 - **Softgoals de Operacionalização**: correspondem às soluções práticas para satisfazer os softgoals NFR, incluindo processos, dados e restrições do sistema.
-- **Softgoals de Afirmação**: refletem características do domínio e justificam decisões de priorização e refinamento dos softgoals, fortalecendo a rastreabilidade do projeto[¹]().
+- **Softgoals de Afirmação**: refletem características do domínio e justificam decisões de priorização e refinamento dos softgoals, fortalecendo a rastreabilidade do projeto[¹](#refs1).
 
 A forma como os softgoals são representados pode ser observada na Figura 1, que ilustra graficamente sua estrutura.
 
@@ -27,12 +27,12 @@ A forma como os softgoals são representados pode ser observada na Figura 1, que
 ### Interdependências
 
 As interdependências definem as relações entre os softgoals. No NFR Framework, essas relações são representadas por dois tipos principais de interdependência: os refinamentos e as contribuições.
-Essas interdependências permitem visualizar como os softgoals se influenciam mutuamente dentro do sistema, revelando dependências hierárquicas e impactos entre diferentes requisitos de qualidade.
+Essas interdependências permitem visualizar como os softgoals se influenciam mutuamente dentro do sistema, revelando dependências hierárquicas e impactos entre diferentes requisitos de qualidade.[¹](#refs1)
 
 #### Decomposições (Refinamentos)
 
 Os refinamentos representam o tipo de interdependência que ocorre de forma hierárquica (top-down), quando um softgoal ascendente (pai) gera um ou mais softgoals descendentes (filhos), que se relacionam com o objetivo principal.
-Os refinamentos podem ocorrer por meio de decomposição, operacionalização e afirmação, permitindo detalhar gradualmente os requisitos não funcionais até níveis mais específicos e aplicáveis ao projeto (CHUNG et al., 2000).
+Os refinamentos podem ocorrer por meio de decomposição, operacionalização e afirmação, permitindo detalhar gradualmente os requisitos não funcionais até níveis mais específicos e aplicáveis ao projeto (CHUNG et al., 2000).[¹](#refs1)
 
 Os quatro tipos de decomposição utilizados pelo NFR Framework são:
 
@@ -41,7 +41,7 @@ Os quatro tipos de decomposição utilizados pelo NFR Framework são:
 - **Decomposição de Afirmação (Claims)**: refina softgoals de afirmação, úteis para apoiar ou negar justificativas de projeto.
 - **Priorização**: tipo especial de decomposição que refina um softgoal com o mesmo tipo, mas associado a diferentes níveis de prioridade.
 
-Essas decomposições permitem representar, dentro do grafo SIG, a estrutura de refinamento dos requisitos não funcionais, auxiliando na rastreabilidade e na clareza das decisões de projeto.
+Essas decomposições permitem representar, dentro do grafo SIG, a estrutura de refinamento dos requisitos não funcionais, auxiliando na rastreabilidade e na clareza das decisões de projeto.[¹](#refs1)
 
 <p align="center"><strong>Figura 2 – Tipos de decomposição</strong></p>
 
@@ -52,7 +52,7 @@ Essas decomposições permitem representar, dentro do grafo SIG, a estrutura de 
 ### Contribuições
 
 Durante o refinamento dos softgoals, cada elemento descendente pode contribuir total ou parcialmente, e de forma positiva ou negativa, para a satisfação do softgoal ascendente (CHUNG et al., 2000).
-Essas contribuições permitem analisar o equilíbrio entre diferentes requisitos não funcionais — por exemplo, como melhorar o desempenho pode prejudicar a segurança, ou como aumentar a usabilidade pode impactar na eficiência.
+Essas contribuições permitem analisar o equilíbrio entre diferentes requisitos não funcionais — por exemplo, como melhorar o desempenho pode prejudicar a segurança, ou como aumentar a usabilidade pode impactar na eficiência.[¹](#refs1)
 
 Os principais tipos de contribuições do NFR Framework incluem:
 
@@ -82,7 +82,7 @@ Sistemas Embarcados/ Reinaldo Antônio da Silva – 2019.</em></p>
 - **EQUALS**: o softgoal descendente só será satisfeito se o ascendente também for.
 - **SOME** (+/-): contribuição com sinal conhecido (positivo ou negativo), mas intensidade incerta.
 
-Essas relações permitem que o analista compreenda como os softgoals se reforçam ou se contradizem dentro do sistema, servindo como base para o processo de propagação de impactos.
+Essas relações permitem que o analista compreenda como os softgoals se reforçam ou se contradizem dentro do sistema, servindo como base para o processo de propagação de impactos.[¹](#refs1)
 
 <p align="center"><strong>Figura 5 – Exemplos de contribuições"SOME", UNKNOWN e EQUALS</strong></p>
 
@@ -95,7 +95,7 @@ Sistemas Embarcados/ Reinaldo Antônio da Silva – 2019.</em></p>
 ### Propagação de Impactos (Procedimento de Avaliação)
 
 O procedimento de avaliação tem como objetivo determinar o grau de satisfação dos requisitos não funcionais a partir de um conjunto de decisões do projeto.
-Durante esse processo, cada softgoal do SIG é rotulado de acordo com o nível de satisfação alcançado, permitindo avaliar se os objetivos de qualidade foram atingidos.
+Durante esse processo, cada softgoal do SIG é rotulado de acordo com o nível de satisfação alcançado, permitindo avaliar se os objetivos de qualidade foram atingidos.[¹](#refs1)
 
 Os principais rótulos utilizados são:
 
@@ -113,11 +113,11 @@ Os principais rótulos utilizados são:
 <p align="center"><em>Fonte: CHUNG et al., 2000.</em></p>
 
 Esses rótulos são aplicados de forma iterativa, começando pelos softgoals de nível mais baixo na hierarquia e propagando os resultados até os softgoals de nível superior.
-Esse procedimento permite compreender o impacto cumulativo das decisões sobre a qualidade do sistema, facilitando ajustes e priorizações ao longo do desenvolvimento.
+Esse procedimento permite compreender o impacto cumulativo das decisões sobre a qualidade do sistema, facilitando ajustes e priorizações ao longo do desenvolvimento.[¹](#refs1)
 
 ### Cartões de Especificação
 
-Os cartões de especificação servem para registrar de forma detalhada cada requisito não funcional (softgoal) que identificamos. Eles oferecem um formato padronizado, o que torna mais fácil entender, analisar e acompanhar esses requisitos ao longo do projeto.
+Os cartões de especificação servem para registrar de forma detalhada cada requisito não funcional (softgoal) que identificamos. Eles oferecem um formato padronizado, o que torna mais fácil entender, analisar e acompanhar esses requisitos ao longo do projeto.[¹](#refs1)
 
 Abaixo está o modelo padrão para os cartões de especificação:
 
@@ -227,7 +227,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 ### NFRs
 
-#### NFR01 - Responsividade da plataforma {#nfr01}
+### **NFR01 - Responsividade da plataforma** {#nfr01}
 
 | Item                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -247,7 +247,17 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Samuel, 2025
 
-#### NFR02 - Informações Legais e Tributárias {#nfr02}
+#### SIG Performance com/sem propagação de Impactos (Requisito  [RNF12](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf12)       )
+
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-Samuel.jpeg" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Samuel, 2025
+
+
+
+### **NFR02 - Informações Legais e Tributárias** {#nfr02}
 
 | **Item**                  | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -267,7 +277,15 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Marcelo, 2025
 
-#### NFR03 - Padronização de mensagens {#nfr03}
+#### SIG Performance com/sem propagação de Impactos (Requisito  [RNF07](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf07)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/sigmarcelo.jpeg" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Marcelo, 2025
+
+
+### **NFR03 - Padronização de mensagens** {#nfr03}
 
 | Item                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -307,7 +325,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Guilherme, 2025
 
-#### NRF05 - Organização visual {#nfr05}
+### **NRF05 - Organização visual** {#nfr05}
 
 | Item                  | Descrição                                                                                                                                                                                                                                                                                                                                                                |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -326,11 +344,25 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 <div align="center"><strong>Tabela 7: Organização visual </strong> </div>
 
 **Fonte:** Vera, 2025
+ 
+#### SIG Usabilidade Sem propagação de Impactos (Requisito  [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-RNF09-Vera.png" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Vera, 2025
+
+#### SIG Usabilidade Com propagação de Impactos (Requisito  [RNF09](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf09)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-PropagaçãoVera.png" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Vera, 2025
 
 #### NRF06 - Exigir consentimento e concordância explícita {#nfr06}
 
 | Item                  | Descrição                                                                                                                                                                                                                                                                                                                                                                                                         |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID                    | RNF05                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Requisito             | [RNF05](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf05)                                                                                                                                                                                                                                                                                           |
 | Classificação         | Legal e Regulatório > Conformidade                                                                                                                                                                                                                                                                                                                                                                                |
@@ -340,14 +372,14 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 | Critério de Aceitação | - O sistema deve exibir um termo de consentimento antes do primeiro uso de qualquer funcionalidade restrita. <br/>- O usuário só pode prosseguir após marcar explicitamente a opção “Li e concordo”. <br/> - O sistema deve armazenar a confirmação de consentimento (data, hora e IP). <br/> - Caso a política seja atualizada, o sistema deve solicitar novo consentimento ao usuário antes de continuar o uso. |
 | Dependências          | [RNF04](https://requisitos-de-software.github.io/2025.2-LigaMagic/03_elicitacao/artefatos/requisitos_elicitados/#rnf0)                                                                                                                                                                                                                                                                                            |
 | Prioridade            | 10                                                                                                                                                                                                                                                                                                                                                                                                                |
-| Conflitos             | - **Usabilidade (𝒲-):**: Exigir consentimento pode tornar a primeira interação mais demorada, impactando ligeiramente a experiência do usuário.                                                                                                                                                                                                                                                                   |
+| Conflitos             | - **Usabilidade (𝒲-):**: Exigir consentimento pode tornar a primeira interação mais demorada, impactando ligeiramente a experiência do usuário.                                                                                                                                                                                                                                                                  |
 | História              | Criado em 19/10/2025                                                                                                                                                                                                                                                                                                                                                                                              |
 
 <div align="center"><strong>Tabela 8: Exigir consentimento e concordância explícita </strong> </div>
 
 **Fonte:** Angélica, 2025
 
-#### NFR07 - Adaptabilidade a Dispositivos Móveis {#nfr07}
+### **NFR07 - Adaptabilidade a Dispositivos Móveis** {#nfr07}
 
 | Item                      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -367,6 +399,22 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Thiago, 2025
 
+
+#### SIG Usabilidade Sem propagação de Impactos (Requisito   [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-Thiago.jpeg" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025
+
+#### SIG Usabilidade Com propagação de Impactos (Requisito  [RNF08](../../03_elicitacao/artefatos/requisitos_elicitados.md#rnf08)      )
+<div align="center">
+<img src="../../../00_assets/images/nfr_framework/Sig-Impacto-Thiago.jpeg" alt="Sig- Usabilidade" width="500px" style="margin: 10px;">
+</div>
+
+**Fonte:** Thiago, 2025
+
+
 ## Gravações das Validações
 
 | Requisito                  | Gravação                                           | Autor |
@@ -381,7 +429,7 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 ## Bibliografia
 
-> SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 19/10/2025.
+> <p><a id="refs1"></a> 1. SILVA, Reinaldo Antônio. NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Centro de Informática UFPE, Recife, 2019. Disponível em: https://repositorio.ufpe.br/handle/123456789/34150. Acesso em: 19/10/2025.</p>
 
 ## Nível de Contribuição dos Integrantes
 
@@ -401,7 +449,7 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                                                         | Autor(es) |                 Revisor                  |
-| :----: | :--------: | :-------------------------------------------------------------------------------- | :-------: | :--------------------------------------: |
+|:------:|:----------:|:----------------------------------------------------------------------------------|:---------:|:----------------------------------------:|
 |  1.1   | 15/10/2025 | Adição da tabela                                                                  | Angélica  |                Guilherme                 |
 |  1.2   | 17/10/2025 | Adição da introdução                                                              |   Vera    |                  Raissa                  |
 |  1.3   | 18/10/2025 | Adição da tabela de contribuição, do modelo do cartão de especificação e do NFR01 |  Samuel   |                   Vera                   |
@@ -413,3 +461,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.9   | 19/10/2025 | Adição do cartão de epecificação                                                  |   Vera    |                  Samuel                  |
 |  1.10  | 19/10/2025 | Adição do cartão de epecificação                                                  | Angélica  | Samuel, Guilherme, Raissa, Marcelo, Vera |
 |  1.11  | 20/10/2025 | Adição do cartão de epecificação                                                  |  Thiago   |                  Samuel                  |
+|  2.0   | 20/11/2025 | Adição dos diagramas softgoals                                                    |   Vera    |                  Thiago                  |

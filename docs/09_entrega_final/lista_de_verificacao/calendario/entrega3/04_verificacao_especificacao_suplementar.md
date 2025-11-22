@@ -21,20 +21,20 @@ Principais Não Conformidades:
 - **ID 08** — Não há especificação de tempo de resposta para operações do sistema
 - **ID 09** — Não há especificação de throughput ou taxa de transações do sistema
 
-| ID  | Resultado | Ação Corretiva                                                                                  | Responsável | Prazo | Status  |
-| :-: | :-------: | :---------------------------------------------------------------------------------------------- | :---------: | :---: | :------ |
-| 04  |    NC     | Preencher seção de Desempenho com requisitos de tempo de resposta, throughput e MTBF            |   Grupo 2   |   —   | A fazer |
-| 08  |    NC     | Especificar tempo de resposta para operações críticas do sistema (ex: busca, login, transações) |   Grupo 2   |   —   | A fazer |
-| 09  |    NC     | Definir taxa de throughput ou número de transações que o sistema deve suportar                  |   Grupo 2   |   —   | A fazer |
+| ID   | Resultado   | Ação Corretiva                                                                                  | Responsável |   Prazo    | Status    |
+|:----:|:-----------:|:------------------------------------------------------------------------------------------------|:-----------:|:----------:|:----------|
+|  04  |      C      | Preencher seção de Desempenho com requisitos de tempo de resposta, throughput e MTBF            |    Vera     | 19/11/2025 | Concluido |
+|  08  |      C      | Especificar tempo de resposta para operações críticas do sistema (ex: busca, login, transações) |    Vera     | 19/11/2025 | Concluido |
+|  09  |      C      | Definir taxa de throughput ou número de transações que o sistema deve suportar                  |    Vera     | 19/11/2025 | Concluido |
 
 ## Resumo da Lista
 
 - Total de itens: 12
 - Aplicáveis (C+NC): 7
-- C: 4
-- NC: 3
+- C: 7
+- NC: 0
 - NA: 5
-- % Conformidade: 57,1%
+- % Conformidade: 100%
 
 Principais Não Conformidades:
 
