@@ -35,8 +35,10 @@ A técnica foi aplicada seguindo os seguintes passos:
 | **Gerenciamento de Usuários**   | RF2  | Deve verificar duplicação de cadastros                           | O sistema deve verificar se já existe um cadastro para o usuário que está tentando fazer cadastro               |
 | **Gerenciamento de Usuários**   | RF10 | Deve permitir criação de páginas pessoais                        | O sistema deve permitir que cada usuário personalize e mantenha sua página pessoal/profissional                 |
 | **Gerenciamento de Usuários**   | RF12 | Registrar dados pessoais do usuário                              | O sistema deve permitir o registro de dados como Nome, RG, CPF, Telefone, E-mail, Data de Nascimento e Endereço |
-#### **Fonte:** Angélica Campos, 2025.
----
+
+ **Fonte:** Angélica Campos, 2025.
+
+
 
 ### Resultados da Priorização
 
@@ -50,6 +52,7 @@ A técnica foi aplicada seguindo os seguintes passos:
 | **RF2**  | 🔴    | ---- | 🔴   | 0        |
 | **RF12** | 🔵    | 🔵   | ---  | 2        |
 
+**Fonte:** Angélica Campos, 2025.
 
 ##### Matriz de Comparação dentro da categoria: Autenticação e Segurança (implementar juntos obrigatoriamente)
 
@@ -58,6 +61,7 @@ A técnica foi aplicada seguindo os seguintes passos:
 | **RF3** | ---- | 🔵   | 1        |
 | **RF5** | 🔴   | ---- | 0        |
 
+**Fonte:** Angélica Campos, 2025.
 
 ##### Matriz de Comparação dentro da categoria: Comunicação
 
@@ -66,6 +70,8 @@ A técnica foi aplicada seguindo os seguintes passos:
 | **RF9**  | ----- | 🔴   | 🔵   | 1        |
 | **RF7**  | 🔵    | ---- | 🔵   | 2        |
 | **RF11** | 🔴    | 🔴   | ---- | 0        |
+
+**Fonte:** Angélica Campos, 2025.
 
 ---
 
@@ -148,3 +154,4 @@ Para realizar a priorização dos requisitos fizemos uma consulta com um usuario
 |  1.1   | 30/09/2025 | Adição do ranking                     | Angélica | Marcelo |
 |  1.2   | 30/09/2025 | Adição do video                       | Angélica | Marcelo |
 |  1.3   | 07/09/2025 | Reorganizar no padrão solicitado     |  Angélica  |    Samuel    |
+|  1.4   | 23/11/2025 | Adicionando fontes das tabelas     |  Raissa  |       |
