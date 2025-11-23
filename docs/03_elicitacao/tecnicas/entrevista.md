@@ -62,6 +62,8 @@ Declaro que fui informado(a) sobre os objetivos da entrevista e concordo em part
 |  15  | Você está disposto a investir tempo aprendendo a utilizar um novo produto?                                                                                    |           Sim            |
 |  16  | Alguma consideração?                                                                                                                                          |           Não            |
 
+Fonte: Marcelo e Raissa, 2025 
+
 ## Participante 2
 
 [![Vídeo 2](https://img.youtube.com/vi/ows4wjo3sCU/0.jpg)](https://youtu.be/ows4wjo3sCU)
@@ -84,6 +86,8 @@ Declaro que fui informado(a) sobre os objetivos da entrevista e concordo em part
 |  14  | Quais formatos você mais joga? Standard (Padrão), Modern, Pioneer, ​Pauper, Commander / EDH, ​Legacy, ​Vintage, ​Limited (Draft/Selado) ​Outro(s) |                                                                       Commander                                                                        |
 |  15  | Você está disposto a investir tempo aprendendo a utilizar um novo produto?                                                                        |                                                                          Sim                                                                           |
 |  16  | Alguma consideração?                                                                                                                              | A plataforma liga Magic é muito boa e te oferece um boa base de preço nas várias edições de carta e de variadade de lojas para vê como montar um deck. |
+
+Fonte: Marcelo e Raissa, 2025
 
 ## Participante 3
 
@@ -108,6 +112,8 @@ Declaro que fui informado(a) sobre os objetivos da entrevista e concordo em part
 |  15  | Você está disposto a investir tempo aprendendo a utilizar um novo produto?                                                                                    |                                             Sim                                             |
 |  16  | Alguma consideração?                                                                                                                                          | Eu gosto muito de Magic, só não muito saudável quando você perde as amizades com os amigos. |
 
+Fonte: Marcelo e Raissa, 2025
+
 ## Participante 4
 
 [![Vídeo 4](https://img.youtube.com/vi/eLoWIUMWtPg/0.jpg)](https://youtu.be/eLoWIUMWtPg)
@@ -130,6 +136,9 @@ Declaro que fui informado(a) sobre os objetivos da entrevista e concordo em part
 |  14  | Quais formatos você mais joga? (standard, Standard (Padrão), Modern, Pioneer, ​Pauper, Commander / EDH, ​Legacy, ​Vintage, ​Limited (Draft/Selado) ​Outro(s)) |                                  Commander/Conquest/Standard                                   |
 |  15  | Você está disposto a investir tempo aprendendo a utilizar um novo produto?                                                                                    |                                         Está disposto                                          |
 |  16  | Alguma consideração?                                                                                                                                          |                                              Não                                               |
+<br>
+
+Fonte: Marcelo e Raissa, 2025 
 
 ## Requisitos da Técnica Entrevista
 
@@ -175,4 +184,6 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.0   | 24/09/2025 | Criação e preenchimento das entrevistas | [Raissa](https://github.com/RaissaAndradeS) |    -    |
 |  1.1   | 02/09/2025 | Formatação e organização do documento   |                   Samuel                    |    -    |
 |  1.2   | 25/10/2025 | Arrumando o requisito RFNI10            |    [Thiago](https://github.com/Acciolyy)    | Samuel  |
-|  1.2   | 25/10/2025 | Adicionado tabela das perguntas e respostas do requsito EN01           |    Marcelo   | Samuel  |
+|  1.3   | 25/10/2025 | Adicionado tabela das perguntas e respostas do requsito EN01           |    Marcelo   | Samuel  |
+|  1.4   | 25/10/2025 | Arrumando o requisito RFNI10            |    [Thiago](https://github.com/Acciolyy)    | Samuel  |
+|  1.5   | 23/11/2025 | Adicionando fonte das tabelas e correção do histórico           |    Raissa  | -  |
