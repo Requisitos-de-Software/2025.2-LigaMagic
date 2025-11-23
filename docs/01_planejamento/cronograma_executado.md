@@ -115,20 +115,20 @@ Fonte: Raissa, 2025
 
 | Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
 | :-------- | :------------------------: | :---- | :-------- | :------ |
-| Verificação  |     -     | - | - | - |
-| Validação |     -     | - | - | - |
+| Verificação  |     12/11 e 13/11     | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera | - | - |
+| Validação |     12/11 e 13/11      | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera  | - | - |
 
 Fonte: Raissa, 2025
 
 
-## Etapa 5-  Análise de Requisitos: Verificação e Validação Grupo + 1 
+## Etapa 5-  Análise de Requisitos: Verificação e Validação Grupo 6 
  
     Tabela com as atividades executadas da etapa 5:
 
 | Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
 | :-------- | :------------------------: | :---- | :-------- | :------ |
-| Verificação  |     -     | - | - | - |
-| Validação |     -     | - | - | - |
+| Verificação  |     12/11 e 13/11      | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera  | Não se aplica  | Não se aplica  |
+| Validação |     12/11 e 13/11     | Angélica, Marcelo, Guilherme, Raissa, Samuel, Thiago e Vera  | Não se aplica  | Não se aplica  |
 
 Fonte: Raissa, 2025
 
@@ -167,10 +167,10 @@ Fonte: Raissa, 2025
 
 | Atividade | Período de Desenvolvimento | Autor | Revisores | Revisão |
 | :-------- | :------------------------: | :---- | :-------- | :------ |
-| -  |     -     | - | - | - |
-| -  |     -     | - | - | - |
-| -  |     -     | - | - | - |
-| -  |     -     | - | - | - |
+| Correções das etapas 1, 2, 3, 4, 5 e 6  |     13/11 a 23/11     | Angélica, Vera, Guilherme, Marcelo, Thiago, Samuel e Raissa  | Angélica, Vera, Guilherme, Marcelo, Thiago, Samuel e Raissa | - |
+| Cronograma executado x Cronograma executado  |     23/11 a 24/11      | Angélica, Vera, Guilherme, Marcelo, Thiago, Samuel e Raissa | Angélica, Vera, Guilherme, Marcelo, Thiago, Samuel e Raissa | - |
+| Resultado do projeto final  |     24/11     | Angélica, Vera, Guilherme, Marcelo, Thiago, Samuel e Raissa  | Angélica, Vera, Guilherme, Marcelo, Thiago, Samuel e Raissa  | - |
+| Gravação da apresentação final   |     24/11     | Angélica, Vera, Guilherme, Marcelo, Thiago, Samuel e Raissa  | Angélica, Vera, Guilherme, Marcelo, Thiago, Samuel e Raissa  | - |
 
 
 Fonte: Raissa, 2025
@@ -190,3 +190,4 @@ Fonte: Raissa, 2025
 |  1.2   | 02/09/2025 | Formatação e organização do documento | Samuel |  Raissa  |
 |  1.3   | 12/10/2025 | Adicionando etapas 2, 3, 4, 5, 6, 7 | Raissa |  -  |
 |  1.4   | 10/11/2025 | Preenchendo etapa 4 e 6  | Raissa |  -  |
+|  1.5   | 23/11/2025 | Preenchendo etapa 7   | Raissa |  -  |
