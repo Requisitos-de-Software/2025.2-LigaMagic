@@ -345,7 +345,7 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.6   | 11/10/2025 | Adição da tabela de autoria                                                |                   Samuel                    |                Thiago                 |
 |  1.7   | 11/10/2025 | Adição do vídeo de validação                                               |                    Vera                     |               Angélica                |
 |  1.8   | 11/10/2025 | Adição do vídeo de validação 01 e 02                                       |                   Marcelo                   |                 Vera                  |
-| 1.8.1  | 11/10/2025 | Adição do vídeo de validação dos integrantes e corrigindo nomes de tabelas |                   Thiago                    |                Marcelo                |
-|  1.9   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos                                 | [Samuel](https://github.com/samuelncaetano) |                Thiago                 |
-|  1.10  | 13/10/2025 | Correção da orem dos cenarios                                              |                  Angélica                   | Thiago, Marcelo, Vera, Raissa, Samuel |
-|  1.4   | 27/10/2025 | Adicionando Agradecimentos |                   Angélica                    | Samuel  |
+| 1.9  | 11/10/2025 | Adição do vídeo de validação dos integrantes e corrigindo nomes de tabelas |                   Thiago                    |                Marcelo                |
+|  2.0   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos                                 | [Samuel](https://github.com/samuelncaetano) |                Thiago                 |
+|  2.1  | 13/10/2025 | Correção da ordem dos cenarios                                              |                  Angélica                   | Thiago, Marcelo, Vera, Raissa, Samuel |
+|  2.2   | 27/10/2025 | Adicionando Agradecimentos |                   Angélica                    | Samuel  |
