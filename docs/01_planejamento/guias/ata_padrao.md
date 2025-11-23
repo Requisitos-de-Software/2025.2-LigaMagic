@@ -89,7 +89,7 @@ Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGI
 
 ## Modelo de Artefato Padrão
 
-[Modelo de Página padrão](<../../../../../OneDrive/Área de Trabalho/ANAC/Curso Udemy - Reddy/artefato_padrao.md>) 
+[Modelo de Página padrão](../../00_assets/pdfs/artefato_padrao.md)
 
 ## Histórico de versão
 
