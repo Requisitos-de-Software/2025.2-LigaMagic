@@ -27,7 +27,7 @@ A metodologia aplicada para a construção deste artefato baseou-se na criação
 </p>
 
 <p align="center">
-  <strong>Figura 1: Rich Picture ligamagic (Fonte: Autor, 2025)</strong>
+  <strong>Figura 1: Rich Picture ligamagic (Fonte: Marcelo, 2025)</strong>
 </p>
 
 ## Legenda
@@ -39,7 +39,7 @@ Componentes do Rich Picture.
 </p>
 
 <p align="center">
-  <strong>Figura 2:  Legenda do Rich Picture ligamagic (Fonte: Autor, 2025)</strong>
+  <strong>Figura 2:  Legenda do Rich Picture ligamagic (Fonte: Marcelo, 2025)</strong>
 </p>
 
 ## Bibliografia
@@ -63,3 +63,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.0   | 09/09/2025 | Rich Picture ligamagic                |  Marcelo  |  Guilherme  |
 |  1.2   | 02/09/2025 | Formatação e organização do documento |  Samuel   |      -      |
 |  1.3   | 19/11/2025 | Formatação do documento para um artefato padrão |  Marcelo  |      Samuel    |
+|  1.4   | 23/11/2025 | Arrumando fonte da figura |  Raissa  |      -    |
