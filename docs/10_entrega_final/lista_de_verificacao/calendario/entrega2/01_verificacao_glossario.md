@@ -22,12 +22,12 @@ Principais Não Conformidades:
 - [22] — Ao elaborar o glossário, foram identificados e registrados os sinônimos e antônimos dos termos para esclarecer as relações entre eles?
 - [28] — O glossário utiliza remissivas (como "ver" e "ver também") para correlacionar termos relacionados e facilitar a consulta?
 
-| ID  | Resultado (C/NC/NA) | Ação Corretiva                                                      | Responsável | Prazo | Status  |
-| :-: | :-----------------: | :------------------------------------------------------------------ | :---------- | :---- | :------ |
-| 8  |         C          | Houve um erro de avaliação, esse item já estava Conforme                           | Thiago      | 18/11/2025     | Concluído |
-| 12  |         C          | Reorganizei o Glossário em Ordem Alfabética                           | Thiago      | 18/11/2025     | Concluído |
-| 22  |         C          | Adicionei os sinônimos e antônimos dos termos                          | Thiago     | 18/11/2025     | Concluído |
-| 28  |         C          | Inclui as remissivas ("ver" e "ver também") entre termos relacionados | Thiago     | 18/11/2025     | Concluído |
+| ID  | Resultado (C/NC/NA) | Ação Corretiva                                                        | Responsável | Prazo      | Status    |
+| :-: | :-----------------: | :-------------------------------------------------------------------- | :---------- | :--------- | :-------- |
+|  8  |          C          | Houve um erro de avaliação, esse item já estava Conforme              | Thiago      | 18/11/2025 | Concluído |
+| 12  |          C          | Reorganizei o Glossário em Ordem Alfabética                           | Thiago      | 18/11/2025 | Concluído |
+| 22  |          C          | Adicionei os sinônimos e antônimos dos termos                         | Thiago      | 18/11/2025 | Concluído |
+| 28  |          C          | Inclui as remissivas ("ver" e "ver também") entre termos relacionados | Thiago      | 18/11/2025 | Concluído |
 
 ## Resumo da Lista
 

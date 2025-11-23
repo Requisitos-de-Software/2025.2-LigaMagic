@@ -1,20 +1,24 @@
 # Lista de Verificação
 
 ## Descrição
+
 Durante o desenvolvimento da disciplina de Requisitos de Software, diversos artefatos foram produzidos com o objetivo de representar, modelar e documentar o entendimento do sistema estudado. Para assegurar a qualidade desses artefatos, ao longo do processo foram elaboradas listas de verificação específicas para cada técnica empregada (como Rich Picture, Léxicos, Histórias de Usuário, Casos de Uso, etc.), possibilitando avaliar a consistência, clareza e completude dos documentos.
 Nesta etapa, optou-se por reunir todos os itens de verificação construídos ao longo do semestre em uma única tabela consolidada. Essa centralização facilita a análise global do projeto, permitindo tanto a revisão do próprio grupo quanto a inspeção por outro grupo, conforme previsto na metodologia da disciplina. Assim, o presente documento organiza e apresenta o conjunto completo de itens de verificação utilizados para avaliar a qualidade dos artefatos desenvolvidos.
 
 ## Objetivo
+
 O objetivo desta página é consolidar e apresentar, de forma unificada, todas as listas de verificação elaboradas para os artefatos produzidos durante a disciplina. Essa consolidação visa, Facilitar a reavaliação dos artefatos pelo próprio grupo e Proporcionar maior rastreabilidade e transparência na verificação dos requisitos
 
 ## Metodologia
+
 A metodologia adotada consiste na integração das listas de verificação previamente criadas durante o desenvolvimento do projeto. Cada técnica estudada na disciplina resultou em um conjunto próprio de critérios de inspeção, elaborados com base em boas práticas e referências teóricas.
 
 ## Conteúdo
 
 ### Tabela de Verificação
+
 | ID        | Categoria                 | Item                                                                                                                                                                                                                                                                                        | Responsável |
-|-----------|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| --------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | 01 {#v01} | Rich Picture              | [A Rich Picture ajuda a identificar os processos de negócio e seus requisitos de dados?](../../07_verificacao/entrega1/verificacao_rich_picture.md#v01)                                                                                                                                     | Samuel      |
 | 02 {#v02} | Rich Picture              | [A Rich Picture identifica os atores envolvidos nos processos e suas responsabilidades?](../../07_verificacao/entrega1/verificacao_rich_picture.md#v02)                                                                                                                                     | Samuel      |
 | 03 {#v03} | Rich Picture              | [A Rich Picture mostra as relações entre processos e atores?](../../07_verificacao/entrega1/verificacao_rich_picture.md#v03)                                                                                                                                                                | Samuel      |
@@ -66,11 +70,9 @@ A metodologia adotada consiste na integração das listas de verificação previ
 | 49 {#v49} | Elos                      | [A rastreabilidade estabelecida garante que cada requisito está ligado a um ou mais casos de teste que o verificam?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v#05)                                                                                             | Thiago      |
 | 50 {#v50} | Elos                      | [Cada documento (requisito, cenário, caso de uso, épico etc.) está interligado via hiperlinks bidirecionais (backward e forward)?](../../07_verificacao/entrega5/verificacao_elos_de_rastreabilidade.md#v#07)                                                                               | Samuel      |
 
+## Agradecimentos
 
-
-Agradecimentos¶
 O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
-
 
 ## Nível de Contribuição dos Integrantes
 
@@ -87,6 +89,6 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                       | Autor(es) | Revisor |
-|:------:|:----------:|:--------------------------------|:----------|:-------:|
+| :----: | :--------: | :------------------------------ | :-------- | :-----: |
 |  1.0   | 11/11/2025 | Criação da página               | Samuel    |  Vera   |
 |  1.2   | 11/11/2025 | Adição dos itens de verificação | Vera      | Samuel  |

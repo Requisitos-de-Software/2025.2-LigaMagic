@@ -20,17 +20,17 @@ Principais Não Conformidades:
 - [20] — O Rich Picture foi desenhado à mão livre ou utilizando software?
 
 | ID  | Resultado (C/NC/NA) | Ação Corretiva | Responsável | Prazo | Status                         |
-| :-: | :-----------------: | :------------- | :---------- | :---- | :----------------------------- |
-| 20  |         NC          | —              | —           | —     | Conforme (digital é aceitável) |
+| :-: | :-----------------: | :------------: | :---------: | :---: | :----------------------------- |
+| 20  |          C          |       —        |      —      |   —   | Conforme (digital é aceitável) |
 
 ## Resumo da Lista
 
 - Total de itens: 21
 - Aplicáveis (C+NC): 20
-- C: 19
-- NC: 1
+- C: 20
+- NC: 0
 - NA: 1
-- % Conformidade: 95,0%
+- % Conformidade: 100%
 
 Principais Não Conformidades:
 

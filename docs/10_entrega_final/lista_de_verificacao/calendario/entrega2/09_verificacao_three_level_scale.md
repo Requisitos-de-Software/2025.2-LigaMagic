@@ -19,9 +19,9 @@ Principais Não Conformidades:
 
 - [11] — Há registro da data e horário da realização da priorização?
 
-| ID  | Resultado (C/NC/NA)  | Ação Corretiva                                      | Responsável | Prazo    | Status     |
-|:---:|:--------------------:|:----------------------------------------------------|:------------|:---------|:-----------|
-| 11  |          C           | Adicionar registro de data e horário da priorização | Vera        | 19/11/25 | ;;;;;;;;;; |
+| ID  | Resultado (C/NC/NA) | Ação Corretiva                                      | Responsável | Prazo    | Status    |
+| :-: | :-----------------: | :-------------------------------------------------- | :---------- | :------- | :-------- |
+| 11  |          C          | Adicionar registro de data e horário da priorização | Vera        | 19/11/25 | Concluído |
 
 ## Resumo da Lista
 
@@ -43,7 +43,7 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 ## Histórico de versão
 
 | Versão |    Data    | Descrição                                  | Autor(es) | Revisor |
-|:------:|:----------:|:-------------------------------------------|:---------:|:-------:|
+| :----: | :--------: | :----------------------------------------- | :-------: | :-----: |
 |  1.0   | 11/11/2025 | Criação inicial do documento de protótipos |  Samuel   | Thiago  |
 |  1.1   | 12/11/2025 | Adição das não conformidades               |  Thiago   | Samuel  |
 |  1.2   | 19/11/2025 | Correção do item de verificação fizalizado |   Vera    | Samuel  |
