@@ -118,7 +118,6 @@ nav:
       - Entrega 6:
           - Verificação: 07_verificacao/entrega6/verificacaoGeral.md
 
-
   - Inspeção:
       - Entrega 1:
           - Inspeção Geral Grupo +1: 08_inspecao/entrega1/inspecao_grupo_mais_um.md
@@ -161,38 +160,40 @@ nav:
           - Inspeção Elos de Rastreabilidade Grupo +1: 08_inspecao/entrega5/04_inspecao_elos_de_rastreabilidade_grupo3.md
           - Inspeção Elos de Rastreabilidade Grupo 2: 08_inspecao/entrega5/03_inspecao_elos_de_rastreabilidade_grupo2.md
       - Entrega 6:
-            - Inspeção Grupo 6: 08_inspecao/Entrega6/02_inspecao_grupo6.md
+          - Inspeção Grupo 6: 08_inspecao/Entrega6/02_inspecao_grupo6.md
+
+  - Protótipos:
+      - Protótipos Desenvolvidos: 09_prototipos/prototipos_desenvolvidos.md
+      
 
   - Entrega Final:
+      - Entrega final: 10_entrega_final/entrega_final.md
       - Lista de Verificação:
-          - Lista de Verificação de Requisitos: 09_entrega_final/lista_de_verificacao/conformidade_dos_artefatos.md
+          - Lista de Verificação de Requisitos: 10_entrega_final/lista_de_verificacao/conformidade_dos_artefatos.md
           - Calendário de Avaliação:
               - Entrega 1:
-                  - Rich Picture: 09_entrega_final/lista_de_verificacao/calendario/entrega1/verificacao_rich_picture.md
+                  - Rich Picture: 10_entrega_final/lista_de_verificacao/calendario/entrega1/verificacao_rich_picture.md
               - Entrega 2:
-                  - Glossário: 09_entrega_final/lista_de_verificacao/calendario/entrega2/01_verificacao_glossario.md
-                  - Análise de Documentos: 09_entrega_final/lista_de_verificacao/calendario/entrega2/02_verificacao_analise_de_documentos.md
-                  - Entrevista: 09_entrega_final/lista_de_verificacao/calendario/entrega2/03_verificacao_entrevista.md
-                  - Observação: 09_entrega_final/lista_de_verificacao/calendario/entrega2/04_verificacao_observacao.md
-                  - Perfil de usuário: 09_entrega_final/lista_de_verificacao/calendario/entrega2/05_verificacao_perfil_de_usuario.md
-                  - In or Out: 09_entrega_final/lista_de_verificacao/calendario/entrega2/06_verificacao_in_or_out.md
-                  - MoSCoW: 09_entrega_final/lista_de_verificacao/calendario/entrega2/07_verificacao_moscow.md
-                  - Pairwise Comparison: 09_entrega_final/lista_de_verificacao/calendario/entrega2/08_verificacao_pairwise_comparison.md
-                  - Three Level Scale: 09_entrega_final/lista_de_verificacao/calendario/entrega2/09_verificacao_three_level_scale.md
+                  - Glossário: 10_entrega_final/lista_de_verificacao/calendario/entrega2/01_verificacao_glossario.md
+                  - Análise de Documentos: 10_entrega_final/lista_de_verificacao/calendario/entrega2/02_verificacao_analise_de_documentos.md
+                  - Entrevista: 10_entrega_final/lista_de_verificacao/calendario/entrega2/03_verificacao_entrevista.md
+                  - Observação: 10_entrega_final/lista_de_verificacao/calendario/entrega2/04_verificacao_observacao.md
+                  - Perfil de usuário: 10_entrega_final/lista_de_verificacao/calendario/entrega2/05_verificacao_perfil_de_usuario.md
+                  - In or Out: 10_entrega_final/lista_de_verificacao/calendario/entrega2/06_verificacao_in_or_out.md
+                  - MoSCoW: 10_entrega_final/lista_de_verificacao/calendario/entrega2/07_verificacao_moscow.md
+                  - Pairwise Comparison: 10_entrega_final/lista_de_verificacao/calendario/entrega2/08_verificacao_pairwise_comparison.md
+                  - Three Level Scale: 10_entrega_final/lista_de_verificacao/calendario/entrega2/09_verificacao_three_level_scale.md
               - Entrega 3:
-                  - Cenários: 09_entrega_final/lista_de_verificacao/calendario/entrega3/01_verificacao_cenarios.md
-                  - Léxicos: 09_entrega_final/lista_de_verificacao/calendario/entrega3/02_verificacao_lexicos.md
-                  - Casos de Uso: 09_entrega_final/lista_de_verificacao/calendario/entrega3/03_verificacao_casos_de_uso.md
-                  - Especificação Suplementar: 09_entrega_final/lista_de_verificacao/calendario/entrega3/04_verificacao_especificacao_suplementar.md
+                  - Cenários: 10_entrega_final/lista_de_verificacao/calendario/entrega3/01_verificacao_cenarios.md
+                  - Léxicos: 10_entrega_final/lista_de_verificacao/calendario/entrega3/02_verificacao_lexicos.md
+                  - Casos de Uso: 10_entrega_final/lista_de_verificacao/calendario/entrega3/03_verificacao_casos_de_uso.md
+                  - Especificação Suplementar: 10_entrega_final/lista_de_verificacao/calendario/entrega3/04_verificacao_especificacao_suplementar.md
               - Entrega 4:
-                  - Histórias de Usuário: 09_entrega_final/lista_de_verificacao/calendario/entrega4/01_verificacao_historias_de_usuario.md
-                  - Backlogs: 09_entrega_final/lista_de_verificacao/calendario/entrega4/02_verificacao_backlogs.md
-                  - NFR Framework: 09_entrega_final/lista_de_verificacao/calendario/entrega4/03_verificacao_nfr_framework.md
+                  - Histórias de Usuário: 10_entrega_final/lista_de_verificacao/calendario/entrega4/01_verificacao_historias_de_usuario.md
+                  - Backlogs: 10_entrega_final/lista_de_verificacao/calendario/entrega4/02_verificacao_backlogs.md
+                  - NFR Framework: 10_entrega_final/lista_de_verificacao/calendario/entrega4/03_verificacao_nfr_framework.md
               - Entrega 5:
-                  - Elos de Rastreabilidade: 09_entrega_final/lista_de_verificacao/calendario/entrega5/verificacao_elos_de_rastreabilidade.md
-      - Protótipos:
-          - Protótipos Desenvolvidos: 09_entrega_final/prototipos/prototipos_desenvolvidos.md
-          - Entrega final: 09_entrega_final/prototipos/entrega_final.md
+                  - Elos de Rastreabilidade: 10_entrega_final/lista_de_verificacao/calendario/entrega5/verificacao_elos_de_rastreabilidade.md
 
   - Apresentações:
       - Apresentação 1: apresentacao/apresentacao1.md
