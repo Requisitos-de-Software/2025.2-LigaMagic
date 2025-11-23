@@ -41,12 +41,16 @@ Os requisitos não implementados foram identificados através de:
 | RFNI16 {#rfni16} | O sistema deve permitir que o usuário compare cartas lado a lado (atributos, valores e edições).                                                       |    [OBS13](../tecnicas/observacao.md#obs13)    | [RF20](./requisitos_elicitados.md#rf32) |
 | RFNI17 {#rfni17} | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores.                                                       |    [AD17](../tecnicas/observacao.md#ad17)    | [RF17](./requisitos_elicitados.md#rf17) |
 
+Fonte: Samuel, 2025
+
 ### Requisitos Não Funcionais Não Implementados
 
 |       **ID**       | **Descrição**                                                                                                              |           **Técnica de Elicitação**            |         **Requisito Original**          |
 | :----------------: | :------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------: | :-------------------------------------: |
 | RNFNI12 {#rnfni12} | O documento não informa por quanto tempo os dados pessoais serão armazenados nem os critérios para definição desse prazo   | [AD27](../tecnicas/analise_documentos.md#ad27) | [NI01](./requisitos_elicitados.md#ni01) |
 | RNFNI13 {#rnfni13} | O documento não prevê ou detalha os procedimentos a serem adotados em caso de incidente de segurança ou vazamento de dados | [AD28](../tecnicas/analise_documentos.md#ad28) | [NI02](./requisitos_elicitados.md#ni02) |
+
+Fonte: Samuel, 2025
 
 ## Distribuição por Técnica de Elicitação
 
@@ -76,7 +80,7 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | Vera      |       14,28       |
 | Marcelo   |       14,28       |
 | Raissa    |       14,28       |
-| Guilherme |      14,28        |
+| Guilherme |       14,28       |
 
 ## Histórico de Versão
 
@@ -86,3 +90,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.1   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos           | [Samuel](https://github.com/samuelncaetano) | Thiago  |
 |  1.2   | 25/10/2025 | Arrumando o requisito RFNI10                         |    [Thiago](https://github.com/Acciolyy)    | Samuel  |
 |  1.3   | 01/11/2025 | Adição do requisito RFNI16 e RFNI17, Agradecimentos e tabela com Nível de Contribuição dos Integrantes                  |    Angélica   | Samuel  |
+|  1.4   | 23/11/2025 | Adicionando fontes das tabelas |    Raissa   |   |
