@@ -63,9 +63,9 @@ A figura 1 demonstra o diagrama de casos de uso.
 
 [Diagrama de caso de uso: Reportar Erro em Carta ou Anúncio (PDF)](../../00_assets/pdfs/Diagrama.pdf)
 
-[Diagrama de caso de uso: Personalizar Perfil de Jogador (PDF)](../../00_assets/pdfs/PersonalizarPerfildeJogador.pdf)
+[Diagrama de caso de uso: Personalizar Perfil de Jogador (PDF)](../../00_assets/pdfs/PersonalizarPerfildeJogador1.pdf)
 
-[Diagrama de caso de uso: Filtrar Busca por Condição (PDF)](../../00_assets/pdfs/FiltrarBuscaporCondição.pdf)
+[Diagrama de caso de uso: Filtrar Busca por Condição (PDF)](../../00_assets/pdfs/FiltrarBuscaporCondição1.pdf)
 
 ### Especialização dos casos de uso
 
@@ -330,3 +330,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 | 1.8.1  | 11/10/2025 | Adição do vídeo de validação e de casos de uso dos integrantes                             |                        Thiago                         |        Marcelo        |
 |  1.9   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos                                                 |      [Samuel](https://github.com/samuelncaetano)      |        Thiago         |
 |  1.10   | 27/10/2025 | Adicionando Agradecimentos |                   Angélica                    | Samuel  |
+|  1.11   | 24/11/2025 | Mudança nos meus diagramas de caso de uso para o padrão|                   Marcelo                  | Samuel  |
