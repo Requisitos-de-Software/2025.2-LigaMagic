@@ -42,6 +42,9 @@ Componentes do Rich Picture.
   <strong>Figura 2:  Legenda do Rich Picture ligamagic (Fonte: Marcelo, 2025)</strong>
 </p>
 
+[Validação do Rich picture](https://youtu.be/_VWOGCswDVI)
+
+
 ## Bibliografia
 
 INTRODUCING Rich Pictures: Rich Picture Drawing Guidelines. [S.l.: s.n.], [s.d.].
@@ -64,3 +67,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.2   | 02/09/2025 | Formatação e organização do documento |  Samuel   |      -      |
 |  1.3   | 19/11/2025 | Formatação do documento para um artefato padrão |  Marcelo  |      Samuel    |
 |  1.4   | 23/11/2025 | Arrumando fonte da figura |  Raissa  |      -    |
+|  1.5  | 24/11/2025 | Adição da validação |  Marcelo  |     Raissa   |
