@@ -28,7 +28,7 @@ Presente: Marcar somente as pessoas que participaram da reunião
 | :-------------------------: | :----------------: | :------------------------------------: |
 |  ANGELICA DA COSTA CAMPOS   |        Sim         |    angelicadacostacampos@gmail.com     |
 |     GUILHERME OLIVEIRA      |        Sim         | guilhermeoliveira.carreira@hotmail.com |
-|   MARCELO DE ARAUJO LOPES   |        Sim         |                                        |
+|   MARCELO DE ARAUJO LOPES   |        Sim         |        matielloaraujolopes@gmail.com                                |
 |   RAISSA ANDRADE SILVEIRA   |        Sim         |        raissaandrade8@gmail.com        |
 |   SAMUEL NOGUEIRA CAETANO   |        Sim         |      samueln.caetano42@gmail.com       |
 |   THIAGO VIRIATO ACCIOLY    |        Sim         |        thiagoacciolyv@gmail.com        |

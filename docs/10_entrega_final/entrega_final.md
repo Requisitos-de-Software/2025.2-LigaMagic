@@ -123,9 +123,9 @@ Aqui vocês verificam os próprios documentos (Rich Pictures, Léxicos, Backlog,
 
 | Artefatos                 | Link para as listas                                                           | Autores | Revisores |
 | :------------------------ | :---------------------------------------------------------------------------- | :-----: | :-------: |
-| Backward-from             | [Link para evidência](../06_pos-rastreabilidade/matrizes/01_backward_from.md) |         |           |
-| Forward-from              | [Link para evidência](../06_pos-rastreabilidade/matrizes/02_forward_from.md)  | Samuel  |           |
-| Elos                      | [Link para evidência](../06_pos-rastreabilidade/elos_de_rastreabilidade.md)   | Samuel  |           |
+| Backward-from             | [Link para evidência](../06_pos-rastreabilidade/matrizes/01_backward_from.md) |      Samuel  Thiago   |           |
+| Forward-from              | [Link para evidência](../06_pos-rastreabilidade/matrizes/02_forward_from.md)  | Samuel  Thiago|           |
+| Elos                      | [Link para evidência](../06_pos-rastreabilidade/elos_de_rastreabilidade.md)   | Samuel  Thiago |           |
 | Matriz de Rastreabilidade | [Link para evidência](../06_pos-rastreabilidade/matriz_de_rastreabilidade.md) |         |           |
 
 ## Conformidade dos artefatos
@@ -166,16 +166,12 @@ Foram desenvolvidos protótipos para os seguintes requisitos funcionais não imp
 | RFNI17 {#rfni17}  | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores. |     [AD17](../tecnicas/observacao.md#ad17)     | [RF17](./requisitos_elicitados.md#rf17) | [Protótipação](https://www.figma.com/proto/43AR1jmt1Z9liJ3zm74USA/Ligamagic--media-fidelidade?node-id=4434-1604&p=f&t=WIYEdIIikMijLdzS-1&scaling=min-zoom&content-scaling=fixed&page-id=4402%3A2&starting-point-node-id=4434%3A1604&show-proto-sidebar=1) |
 
 
-## Referências
+[tabela excel do Professor](https://docs.google.com/spreadsheets/d/1VnKsVrqgj-MNr50zFDjSlUZ93pnd1kMtefTx707HrTs/edit?gid=0#gid=0)
+
 
 ## Agradecimentos
 
-## Nível de Contribuição dos Integrantes
-
-| Nome     | % de Contribuição |
-| :------- | :---------------: |
-| Angélica |                   |
-| Samuel   |                   |
+O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generativa — ChatGPT e Google Gemini — na revisão e padronização de nossos artefatos. Essas tecnologias foram utilizadas para auxiliar na organização do repositório. Todo o conteúdo, incluindo a precisão técnica e as ideias apresentadas, é de responsabilidade dos autores.
 
 ## Histórico de versão
 
