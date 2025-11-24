@@ -95,29 +95,29 @@ Aqui vocês verificam os próprios documentos (Rich Pictures, Léxicos, Backlog,
 
 ---
 
-| Técnicas de Priorização de Requisitos | Link para as listas                                             |    Autores     |   Revisores    |
-| :------------------------------------ | :-------------------------------------------------------------- | :------------: | :------------: |
-| In or Out                             | [Link para evidência](../04_priorizacao/in_or_out.md)           |                |                |
-| MoSCoW                                | [Link para evidência](../04_priorizacao/moscow.md)              | Samuel, Thiago | Samuel, Thiago |
-| Pairwise Comparison                   | [Link para evidência](../04_priorizacao/pairwise_comparison.md) |                |                |
-| Three Level Scale                     | [Link para evidência](../04_priorizacao/three_level_scale.md)   |                |                |
+| Técnicas de Priorização de Requisitos | Link para as listas                                             |     Autores      |    Revisores    |
+| :------------------------------------ | :-------------------------------------------------------------- |:----------------:|:---------------:|
+| In or Out                             | [Link para evidência](../04_priorizacao/in_or_out.md)           |                  |                 |
+| MoSCoW                                | [Link para evidência](../04_priorizacao/moscow.md)              |  Samuel, Thiago  | Samuel, Thiago  |
+| Pairwise Comparison                   | [Link para evidência](../04_priorizacao/pairwise_comparison.md) |                  |                 |
+| Three Level Scale                     | [Link para evidência](../04_priorizacao/three_level_scale.md)   | Vera e Guilherme | Vera, Guilherme |
 
 ##### Etapa 3
 
 | Artefatos                 | Link para as listas                                                                              |    Autores     |   Revisores    |
-| :------------------------ | :----------------------------------------------------------------------------------------------- | :------------: | :------------: |
+| :------------------------ | :----------------------------------------------------------------------------------------------- |:--------------:|:--------------:|
 | Cenários                  | [Link para evidência](../05_modelagem/01_cenarios/cenarios.md)                                   |                |                |
 | Léxicos                   | [Link para evidência](../05_modelagem/02_lexicos/lexicos.md)                                     | Samuel, Thiago | Samuel, Thiago |
 | Casos de Uso              | [Link para evidência](../05_modelagem/03_casos_de_uso/casos_de_uso.md)                           |                |                |
-| Especificação Suplementar | [Link para evidência](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md) |                |                |
+| Especificação Suplementar | [Link para evidência](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md) | Vera e Raissa  | Vera e Raissa  |
 
 ##### Etapa 4
 
-| Artefatos            | Link para as listas                                                       |    Autores     |   Revisores    |
-| :------------------- | :------------------------------------------------------------------------ | :------------: | :------------: |
-| Histórias de Usuário | [Link para evidência](../05_modelagem/05_Agil/01_historias_de_usuario.md) | Samuel, Thiago | Samuel, Thiago |
-| Backlog              | [Link para evidência](../05_modelagem/05_Agil/02_backlogs.md)             |                |     Samuel     |
-| NFR Framework        | [Link para evidência](../05_modelagem/05_Agil/03_nfr_framework.md)        |                |     Samuel     |
+| Artefatos            | Link para as listas                                                       |         Autores          |   Revisores    |
+| :------------------- | :------------------------------------------------------------------------ |:------------------------:| :------------: |
+| Histórias de Usuário | [Link para evidência](../05_modelagem/05_Agil/01_historias_de_usuario.md) |      Samuel, Thiago      | Samuel, Thiago |
+| Backlog              | [Link para evidência](../05_modelagem/05_Agil/02_backlogs.md)             |                          |     Samuel     |
+| NFR Framework        | [Link para evidência](../05_modelagem/05_Agil/03_nfr_framework.md)        | Vera, Raissa e Guilherme |     Samuel     |
 
 ##### Etapa 5
 
@@ -155,13 +155,16 @@ Aqui vocês verificam os próprios documentos (Rich Pictures, Léxicos, Backlog,
 
 Foram desenvolvidos protótipos para os seguintes requisitos funcionais não implementados:
 
-|        ID        | Descrição                                                                                                                      |             Técnica de Elicitação              |           Requisito Original            |                                                                                                                        Protótipos                                                                                                                         |
-| :--------------: | :----------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------: | :-------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| RFNI02 {#rfni02} | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)                             | [AD11](../tecnicas/analise_documentos.md#ad11) | [RF11](./requisitos_elicitados.md#rf11) |                                                                   [Protótipação](https://www.figma.com/design/8FgbjaBilslE53fXCJpUfO/RS---F%C3%B3rum?node-id=0-1&t=aDwoQEP8rjfHVe5y-1)                                                                    |
-| RFNI06 {#rfni06} | Permitir que o usuário compartilhe informações da carta por link direto                                                        |    [OBS17](../tecnicas/observacao.md#obs17)    | [RF36](./requisitos_elicitados.md#rf36) |                                                                            [Protótipação](https://www.figma.com/design/u4Y4vt2gc6v10iv7uORAL7/RS---LINK?t=WKuj58Q5Q218Gx9x-1)                                                                             |
-| RFNI14 {#rfni14} | Permitir que o usuário salve cartas para compra futura (wishlist)                                                              |    [OBS09](../tecnicas/observacao.md#obs09)    | [RF28](./requisitos_elicitados.md#rf28) |  [Protótipação](https://www.figma.com/proto/43AR1jmt1Z9liJ3zm74USA/Ligamagic--media-fidelidade?node-id=4414-739&p=f&t=WIYEdIIikMijLdzS-1&scaling=min-zoom&content-scaling=fixed&page-id=4402%3A2&starting-point-node-id=4414%3A739&show-proto-sidebar=1)  |
-| RFNI16 {#rfni16} | O sistema deve permitir que o usuário compare cartas lado a lado (atributos, valores e edições).                               |    [OBS13](../tecnicas/observacao.md#obs13)    | [RF20](./requisitos_elicitados.md#rf32) | [Protótipação](https://www.figma.com/proto/43AR1jmt1Z9liJ3zm74USA/Ligamagic--media-fidelidade?node-id=4421-1314&p=f&t=WIYEdIIikMijLdzS-1&scaling=min-zoom&content-scaling=fixed&page-id=4402%3A2&starting-point-node-id=4421%3A1314&show-proto-sidebar=1) |
-| RFNI17 {#rfni17} | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores. |     [AD17](../tecnicas/observacao.md#ad17)     | [RF17](./requisitos_elicitados.md#rf17) | [Protótipação](https://www.figma.com/proto/43AR1jmt1Z9liJ3zm74USA/Ligamagic--media-fidelidade?node-id=4434-1604&p=f&t=WIYEdIIikMijLdzS-1&scaling=min-zoom&content-scaling=fixed&page-id=4402%3A2&starting-point-node-id=4434%3A1604&show-proto-sidebar=1) |
+|        ID         | Descrição                                                                                                                      |             Técnica de Elicitação              |           Requisito Original            |                                                                                                                        Protótipos                                                                                                                         |
+|:-----------------:|:-------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------:|:---------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| RFNI02 {#rfni02}  | O sistema deve possibilitar participação dos usuários em fóruns de discussão (postagem e resposta)                             | [AD11](../tecnicas/analise_documentos.md#ad11) | [RF11](./requisitos_elicitados.md#rf11) |                                                                   [Protótipação](https://www.figma.com/design/8FgbjaBilslE53fXCJpUfO/RS---F%C3%B3rum?node-id=0-1&t=aDwoQEP8rjfHVe5y-1)                                                                    |
+| RFNI05 {#rfni05}  | Permitir que o usuário defina um alerta de preço para a carta selecionada                                                      |     [AD17](../tecnicas/observacao.md#ad17)     | [RF17](./requisitos_elicitados.md#rf17) |                       [Protótipação](https://www.figma.com/proto/UTTZOad6C9ctSx5MVubLzW/Sem-t%C3%ADtulo?node-id=2-2&p=f&t=LDfQntxofExZ0W4M-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2 )                        |
+| RFNI06 {#rfni06}  | Permitir que o usuário compartilhe informações da carta por link direto                                                        |    [OBS17](../tecnicas/observacao.md#obs17)    | [RF36](./requisitos_elicitados.md#rf36) |                                                                            [Protótipação](https://www.figma.com/design/u4Y4vt2gc6v10iv7uORAL7/RS---LINK?t=WKuj58Q5Q218Gx9x-1)                                                                             |
+| RFNI07  {#rfni07} | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)                  | [OBS18](../03_elicitacao/observacao.md#obs18)  | [RF37](./requisitos_elicitados.md#rf37) |                      [Protótipação](https://www.figma.com/proto/UTTZOad6C9ctSx5MVubLzW/Sem-t%C3%ADtulo?node-id=2-2&p=f&t=LDfQntxofExZ0W4M-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2 )                         |
+| RFNI14 {#rfni14}  | Permitir que o usuário salve cartas para compra futura (wishlist)                                                              |    [OBS09](../tecnicas/observacao.md#obs09)    | [RF28](./requisitos_elicitados.md#rf28) |  [Protótipação](https://www.figma.com/proto/43AR1jmt1Z9liJ3zm74USA/Ligamagic--media-fidelidade?node-id=4414-739&p=f&t=WIYEdIIikMijLdzS-1&scaling=min-zoom&content-scaling=fixed&page-id=4402%3A2&starting-point-node-id=4414%3A739&show-proto-sidebar=1)  |
+| RFNI16 {#rfni16}  | O sistema deve permitir que o usuário compare cartas lado a lado (atributos, valores e edições).                               |    [OBS13](../tecnicas/observacao.md#obs13)    | [RF20](./requisitos_elicitados.md#rf32) | [Protótipação](https://www.figma.com/proto/43AR1jmt1Z9liJ3zm74USA/Ligamagic--media-fidelidade?node-id=4421-1314&p=f&t=WIYEdIIikMijLdzS-1&scaling=min-zoom&content-scaling=fixed&page-id=4402%3A2&starting-point-node-id=4421%3A1314&show-proto-sidebar=1) |
+| RFNI17 {#rfni17}  | O sistema deve permitir que o usuário receba recomendações automáticas de cartas com base em suas buscas e compras anteriores. |     [AD17](../tecnicas/observacao.md#ad17)     | [RF17](./requisitos_elicitados.md#rf17) | [Protótipação](https://www.figma.com/proto/43AR1jmt1Z9liJ3zm74USA/Ligamagic--media-fidelidade?node-id=4434-1604&p=f&t=WIYEdIIikMijLdzS-1&scaling=min-zoom&content-scaling=fixed&page-id=4402%3A2&starting-point-node-id=4434%3A1604&show-proto-sidebar=1) |
+
 
 ## Referências
 
