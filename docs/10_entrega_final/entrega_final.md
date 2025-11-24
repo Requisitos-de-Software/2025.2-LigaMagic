@@ -35,6 +35,7 @@ Para a realização desta entrega, as seguintes etapas foram seguidas:
 A verificação consiste em verificadas as listas de verificação associadas a cada artefato, assegurando rastreabilidade e coerência entre documentos com foto da fonte do item.
 
 Abaixo estão os links para as listas de verificação revisadas:
+
 | Documento                 | Itens Verificados | Link para as listas                                                         |                           Autores                           |                 Revisores                  |
 | :------------------------ | :---------------: | :-------------------------------------------------------------------------- | :---------------------------------------------------------: | :----------------------------------------: |
 | Rich Picture              |        21         | [Link para evidência](../07_verificacao/entrega1/verificacao_rich_picture.md)            |                      Samuel e Angélica                      |         Thiago, Samuel e Angélica          |
@@ -129,7 +130,7 @@ Aqui vocês verificam os próprios documentos (Rich Pictures, Léxicos, Backlog,
 
 ## Conformidade dos artefatos
 
-| Lista                     | Itens | Aplicáveis (C+NC) |  C  | NC  | NA  | % Conformidade | Link                                                                                                                |
+| Lista                     | Itens | Aplicáveis (C+NC) |  C  | NC  | NA  | % Conformidade | Link|
 | :------------------------ | :---: | :---------------: | :-: | :-: | :-: | :------------: | :------------------------------------------------------------------------------------------------------------------ |
 | Rich Picture              |  21   |        20         | 20  |  0  |  1  |     100,0      | [Ver detalhes](../07_verificacao/entrega1/verificacao_rich_picture.md)                                              |
 | Glossário                 |  29   |        22         | 22  |  0  |  7  |     100,0      | [Ver detalhes](../07_verificacao/entrega2/01_elicitacao/artefatos/01_verificacao_glossario.md)                      |
