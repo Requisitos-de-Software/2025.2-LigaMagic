@@ -72,7 +72,7 @@ Os principais tipos de contribuições do NFR Framework incluem:
 
 <p align="center"><strong>Figura 4 – Exemplos de contribuições ” MAKE", ”BREAK ", ”HELP" e ”HURT"</strong></p>
 
-![Tipos de Decomposicao](../../00_assets/images/nfr_framework/contribuicaoAndOr.png)
+![Tipos de Decomposicao](../../00_assets/images/nfr_framework/contribuicaoMake.png)
 
 <p align="center"><em>Fonte: Silva, Reinaldo Antônio da 
 NFR4ES: um Catálogo de Requisitos Não-Funcionais para
@@ -86,7 +86,7 @@ Essas relações permitem que o analista compreenda como os softgoals se reforç
 
 <p align="center"><strong>Figura 5 – Exemplos de contribuições"SOME", UNKNOWN e EQUALS</strong></p>
 
-![Tipos de Decomposicao](../../00_assets/images/nfr_framework/contribuicaoAndOr.png)
+![Tipos de Decomposicao](../../00_assets/images/nfr_framework/contribuicoesSome.png)
 
 <p align="center"><em>Fonte: Silva, Reinaldo Antônio da 
 NFR4ES: um Catálogo de Requisitos Não-Funcionais para

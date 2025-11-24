@@ -25,24 +25,36 @@ O entendimento e o desenvolvimento dessa matéria é completamente necessário p
 
 Durante o começo eu não havia entendido muito bem as primeiras etapas, comecei a pegar o conteúdo e o avanço do meio para o final. A parte que facilitou foi que o grupo em sí sempre foi muito aberto para dúvidas. Além das primeiras etapas, uma dificuldade geral foi as validações com usuários, principalmente por conta de horários.
 
+---
+
 ### Marcelo
 
 A matéria tem seu valor no currículo de Engenharia de Software. As técnicas que aprendemos para elicitar os requisitos, bem como para priorizá-los e modelá-los, são de extrema importância para nós, engenheiros de software.
 
 Acho que a maior dificuldade foi o NFR Framework, pois não o entendi muito bem de primeira. Além disso, algumas entregas tiveram prazos bem curtos, o que dificultou conciliá-las com outras matérias. No mais, eu diria que no começo você estranha um pouco a metodologia, mas aos poucos se acostuma e pega o ritmo.
 
+---
+
+### Vera
+
+A disciplina foi desafiadora e exigiu bastante organização, mas o aprendizado compensou o esforço. O projeto permitiu aplicar na prática os conceitos estudados, deixando mais claro como funciona o processo de requisitos de software. O trabalho em grupo também foi essencial para superar as etapas e manter tudo alinhado. Termino a matéria com uma compreensão mais sólida sobre requisitos e com conhecimentos que certamente levarei para futuros projetos.
+
+---
+
 ## Nível de Contribuição dos Integrantes
 
-| Nome   | % de Contribuição |
-| :----- | :---------------: |
-| Samuel |       14,28%        |
-| Thiago |       14,28%        |
-| Marcelo |       14,28%        |
+| Nome    | % de Contribuição |
+|:--------|:-----------------:|
+| Samuel  |      14,28%       |
+| Thiago  |      14,28%       |
+| Marcelo |      14,28%       |
+| Vera    |      14,28%       |
 
 ## Histórico de versão
 
-| Versão |    Data    | Descrição            | Autor(es) | Revisor |
-| :----: | :--------: | :------------------- | :-------: | :-----: |
-|  1.0   | 23/11/2025 | Criação do documento |  Samuel   | Thiago  |
+| Versão |    Data    | Descrição               | Autor(es) | Revisor |
+|:------:|:----------:|:------------------------|:---------:|:-------:|
+|  1.0   | 23/11/2025 | Criação do documento    |  Samuel   | Thiago  |
 |  1.1   | 23/11/2025 | Adição do meu relatório |  Thiago   | Samuel  |
-|  1.2  | 23/11/2025 | Adição do meu relatório |  Marcelo  | Vera |
+|  1.2   | 23/11/2025 | Adição do meu relatório |  Marcelo  |  Vera   |
+|  1.3   | 23/11/2025 | Adição do relatório     |   Vera    | Raissa  |

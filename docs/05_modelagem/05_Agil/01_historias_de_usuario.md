@@ -657,6 +657,8 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Rastreabilidade**        | [RF37](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf37) - [RFNI07](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni07)                                                                                                                   |
 | **Validação**              | [Vídeo de Validação](https://www.youtube.com/watch?v=74y8JAVW3sE&t=429)                                                                                                                                                                                                |
 
+**Fonte:** Vera, 2025
+
 #### [US36] – Definir alerta de preço para carta {#us36}
 
 <div align="center"><strong>Tabela 37:</strong> O sistema deve permitir que o usuário defina um alerta de preço para uma carta específica</div>
@@ -671,6 +673,8 @@ A validação dessas histórias será feita por meio de revisões com usuários 
 | **Status**                 | Validada                                                                                                                                                                                                                                                                                                       |
 | **Rastreabilidade**        | [RF31](../../03_elicitacao/artefatos/requisitos_elicitados.md#rf31) - [RFNI05](../../03_elicitacao/artefatos/requisitos_nao_implementados.md#rfni05)                                                                                                                                                           |
 | **Validação**              | [Vídeo de Validação](https://www.youtube.com/watch?v=74y8JAVW3sE&t=489)                                                                                                                                                                                                                                        |
+
+**Fonte:** Vera, 2025
 
 #### [US37] – Verificação de Dados Cadastrados {#us37}
 
