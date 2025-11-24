@@ -41,6 +41,14 @@ A disciplina foi desafiadora e exigiu bastante organização, mas o aprendizado 
 
 ---
 
+### Raissa 
+
+Gosto bastante da parte de documentação do projeto. A disciplina tem muito a acrescentar e acredito que nos oferece diversas oportunidades de aprendizado — seja interagindo com o professor, estudando individualmente ou trabalhando em grupo. Embora seja uma matéria relativamente trabalhosa, ela nos proporciona um grande crescimento, não só em relação ao conteúdo, mas também no desenvolvimento de habilidades de colaboração e trabalho em equipe.
+
+---
+
+
+
 ## Nível de Contribuição dos Integrantes
 
 | Nome    | % de Contribuição |
@@ -58,3 +66,4 @@ A disciplina foi desafiadora e exigiu bastante organização, mas o aprendizado 
 |  1.1   | 23/11/2025 | Adição do meu relatório |  Thiago   | Samuel  |
 |  1.2   | 23/11/2025 | Adição do meu relatório |  Marcelo  |  Vera   |
 |  1.3   | 23/11/2025 | Adição do relatório     |   Vera    | Raissa  |
+|  1.4   | 24/11/2025 | Adição do relatório     |   Raissa    | Thiago  |

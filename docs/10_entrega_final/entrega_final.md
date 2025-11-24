@@ -40,10 +40,10 @@ Abaixo estão os links para as listas de verificação revisadas:
 | :------------------------ | :---------------: | :-------------------------------------------------------------------------- | :---------------------------------------------------------: | :----------------------------------------: |
 | Rich Picture              |        21         | [Link para evidência](../02_pre-rastreabilidade/rich_picture.md)            |                      Samuel e Angélica                      |         Thiago, Samuel e Angélica          |
 | Glossário                 |        20         | [Link para evidência](../03_elicitacao/artefatos/glossario.md)              |                       Samuel, Thiago                        |             Angélica e Thiago              |
-| Perfil do Usuário         |                   | [Link para evidência](../03_elicitacao/artefatos/perfil_usuario.md)         |                       Samuel, Marcelo                       |              Thiago e Samuel               |
+| Perfil do Usuário         |                   | [Link para evidência](../03_elicitacao/artefatos/perfil_usuario.md)         |                       Samuel, Marcelo  e Raissa                     |              Thiago e Samuel               |
 | Análise de Documentos     |                   | [Link para evidência](../03_elicitacao/tecnicas/analise_documentos.md)      |                          Angélica                           |                    Vera                    |
 | Brainstorming             |                   | [Link para evidência](#)                                                    |                           Thiago                            |              Marcelo e Samuel              |
-| Entrevista                |        00         | [Link para evidência](../03_elicitacao/tecnicas/entrevista.md)              |                      **PAGINA VAZIA**                       |                                            |
+| Entrevista                |        00         | [Link para evidência](../03_elicitacao/tecnicas/entrevista.md)              |                      Raissa e Marcelo                       |                                            |
 | Observação                |                   | [Link para evidência](../03_elicitacao/tecnicas/observacao.md)              |               Vera Lucia, Samuel e Guilherme                |           Vera Lucia e Guilherme           |
 | In or Out                 |        09         | [Link para evidência](../04_priorizacao/in_or_out.md)                       |                           Raissa                            |              Angélica, Raissa              |
 | MoSCoW                    |                   | [Link para evidência](../04_priorizacao/moscow.md)                          |                           Samuel                            |                   Thiago                   |
@@ -53,7 +53,7 @@ Abaixo estão os links para as listas de verificação revisadas:
 | Léxicos                   |        18         | [Link para evidência](../05_modelagem/02_lexicos/)                          |                           Samuel                            |             Angélica e Samuel              |
 | Casos de Uso              |                   | [Link para evidência](../05_modelagem/03_casos_de_uso/)                     |                    Angélica e Guilherme                     |                 Guilherme                  |
 | Especificação Suplementar |                   | [Link para evidência](../05_modelagem/04_especificacao_suplementar/)        |                     Vera Lucia e Raissa                     |            Vera Lucia e Raissa             |
-| Histórias de Usuário      |        30         | [Link para evidência](../05_modelagem/05_Agil/01_historias_de_usuario.md)   |     Samuel, Marcelo, Thiago, Guilherme, Vera e Angélica     | Guilherme, Raissa, Angélica, Vera e Thiago |
+| Histórias de Usuário      |        30         | [Link para evidência](../05_modelagem/05_Agil/01_historias_de_usuario.md)   |     Samuel, Marcelo, Thiago, Guilherme, Vera, Angélica e Raissa     | Guilherme, Raissa, Angélica, Vera e Thiago |
 | Backlog                   |                   | [Link para evidência](../05_modelagem/05_Agil/02_backlogs.md)               |        Samuel, Marcelo, Thiago, Guilherme e Angélica        |          Samuel, Guilherme, Vera           |
 | NFR Framework             |        32         | [Link para evidência](../05_modelagem/05_Agil/03_nfr_framework.md)          |     Samuel, Raissa, Thiago, Guilherme, Vera e Angélica      |     Angélica, Vera, Raissa, Guilherme      |
 | Elos de Rastreabilidade   |        44         | [Link para evidência](../06_pos-rastreabilidade/elos_de_rastreabilidade.md) | Samuel, Raissa, Marcelo, Thiago, Guilherme, Vera e Angélica |       Angélica, Vera, Raissa, Thiago       |
@@ -90,14 +90,14 @@ Aqui vocês verificam os próprios documentos (Rich Pictures, Léxicos, Backlog,
 | Técnicas de Elicitação de Requisitos | Link para as listas                                                    |     Autores      |    Revisores     |
 | :----------------------------------- | :--------------------------------------------------------------------- | :--------------: | :--------------: |
 | Análise de Documentos                | [Link para evidência](../03_elicitacao/tecnicas/analise_documentos.md) | Angélica e Vera  | Angélica e Vera  |
-| Entrevista                           | [Link para evidência](../03_elicitacao/tecnicas/entrevista.md)         |  Samuel, Thiago  |  Samuel, Thiago  |
+| Entrevista                           | [Link para evidência](../03_elicitacao/tecnicas/entrevista.md)         |  Samuel, Thiago e Raissa |  Samuel, Thiago  |
 | Observação                           | [Link para evidência](../03_elicitacao/tecnicas/observacao.md)         | Guilherme e Vera | Guilherme e Vera |
 
 ---
 
 | Técnicas de Priorização de Requisitos | Link para as listas                                             |     Autores      |    Revisores    |
 | :------------------------------------ | :-------------------------------------------------------------- |:----------------:|:---------------:|
-| In or Out                             | [Link para evidência](../04_priorizacao/in_or_out.md)           |                  |                 |
+| In or Out                             | [Link para evidência](../04_priorizacao/in_or_out.md)           |    Raissa               |                 |
 | MoSCoW                                | [Link para evidência](../04_priorizacao/moscow.md)              |  Samuel, Thiago  | Samuel, Thiago  |
 | Pairwise Comparison                   | [Link para evidência](../04_priorizacao/pairwise_comparison.md) |                  |                 |
 | Three Level Scale                     | [Link para evidência](../04_priorizacao/three_level_scale.md)   | Vera e Guilherme | Vera, Guilherme |
@@ -106,7 +106,7 @@ Aqui vocês verificam os próprios documentos (Rich Pictures, Léxicos, Backlog,
 
 | Artefatos                 | Link para as listas                                                                              |    Autores     |   Revisores    |
 | :------------------------ | :----------------------------------------------------------------------------------------------- |:--------------:|:--------------:|
-| Cenários                  | [Link para evidência](../05_modelagem/01_cenarios/cenarios.md)                                   |                |                |
+| Cenários                  | [Link para evidência](../05_modelagem/01_cenarios/cenarios.md)                                   |             Raissa   |                |
 | Léxicos                   | [Link para evidência](../05_modelagem/02_lexicos/lexicos.md)                                     | Samuel, Thiago | Samuel, Thiago |
 | Casos de Uso              | [Link para evidência](../05_modelagem/03_casos_de_uso/casos_de_uso.md)                           |                |                |
 | Especificação Suplementar | [Link para evidência](../05_modelagem/04_especificacao_suplementar/especificacao_suplementar.md) | Vera e Raissa  | Vera e Raissa  |
