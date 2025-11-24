@@ -53,6 +53,12 @@ A disciplina foi um grande desafio, mas abriu muito meus olhos, já que eu não 
 
 ---
 
+### Angélica
+
+A disciplina mostrou-se bastante trabalhosa durante o semestre. Embora os tópicos estudados tenham sido interessantes e valiosos - especialmente a oportunidade de estudar a fundo conteúdos que já havia trabalhado anteriormente, a forma como foram abordados poderia ter sido mais dinâmica. A falta de monitoria foi um ponto que dificultou o andamento, tornando o processo mais desgastante. Apesar disso, reconheço o valor do conhecimento adquirido ao longo do projeto.
+
+---
+
 ## Nível de Contribuição dos Integrantes
 
 | Nome    | % de Contribuição |
@@ -62,6 +68,7 @@ A disciplina foi um grande desafio, mas abriu muito meus olhos, já que eu não 
 | Marcelo |      14,28%       |
 | Vera    |      14,28%       |
 | Guilherme    |      14,28%       |
+| Angélica    |      14,28%       |
 
 
 ## Histórico de versão
@@ -74,3 +81,4 @@ A disciplina foi um grande desafio, mas abriu muito meus olhos, já que eu não 
 |  1.3   | 23/11/2025 | Adição do relatório     |   Vera    | Raissa  |
 |  1.4   | 24/11/2025 | Adição do relatório     |   Raissa    | Thiago  |
 |  1.4   | 24/11/2025 | Adição do relatório     |   Guilherme    | Thiago  |
+|  1.5   | 24/11/2025 | Adição do relatório     |   Angélica    | Thiago  |
