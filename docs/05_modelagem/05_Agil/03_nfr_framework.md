@@ -414,6 +414,12 @@ Os principais procedimentos metodológicos utilizados e documentados na estrutur
 
 **Fonte:** Thiago, 2025
 
+### NFR03 - Padronização de mensagens 
+
+![alt text](../../00_assets/images/nfr_framework/nfr03.png)
+
+Fonte: Raissa, 2025 
+
 
 ## Gravações das Validações
 
@@ -462,3 +468,4 @@ O Grupo 02 agradece o apoio das ferramentas de Inteligência Artificial Generati
 |  1.10  | 19/10/2025 | Adição do cartão de epecificação                                                  | Angélica  | Samuel, Guilherme, Raissa, Marcelo, Vera |
 |  1.11  | 20/10/2025 | Adição do cartão de epecificação                                                  |  Thiago   |                  Samuel                  |
 |  2.0   | 20/11/2025 | Adição dos diagramas softgoals                                                    |   Vera    |                  Thiago                  |
+|  2.1   | 23/11/2025 | Adição dos diagramas softgoals                                                    |   Raissa   |                                   |

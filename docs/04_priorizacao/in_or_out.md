@@ -10,10 +10,10 @@ Junto com os usuários finais, validamos quais requisitos devem ser considerados
 
 ## Metodologia
 
-Na metodologia, começão com a:
+Na metodologia, começa com a:
 
 ```
-1. Preparação: reunir os requisitos levantados previamente durante a análise e elicitação.
+1. Preparação: reunir os requisitos elicitados previamente durante a análise e elicitação.
 
 2. Apresentação: A entrevistadora começa lendo o termo de consentimento e logo apresenta cada requisito aos usuários finais.
 
@@ -89,3 +89,4 @@ Assim, concluímos que há um alinhamento consistente entre os documentos analis
 | :----: | :--------: | :------------------------------------ | :-----------------------------------------: | :-----: |
 |  1.0   | 30/09/2025 | Criação e preenchimento do documento  | [Raissa](https://github.com/RaissaAndradeS) |  Vera   |
 |  1.1   | 02/09/2025 | Formatação e organização do documento |                   Samuel                    |    -    |
+|  1.2   | 23/11/2025 | Correção de erros ortográficos |  Raissa     |    -    |

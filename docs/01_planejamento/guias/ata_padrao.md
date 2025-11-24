@@ -82,42 +82,14 @@ Presente: Marcar somente as pessoas que participaram da reunião
 
 Este modelo segue o padrão estabelecido pelo MINISTÉRIO DA CIÊNCIA, TECNOLOGIA, INOVAÇÕES E COMUNICAÇÕES. Secretaria-Executiva. Diretoria de Tecnologia da Informação. Coordenação Geral de Sistemas. Ata de Reunião. Autor: MCTIC - CGSI. [Link para o PDF](<SiglaProjeto_AtaReuniao_AAAAMMDD_XX(1).pdf>).
 
-## Artefato Padrão
-
-# Nome
-
-## Descrição
-
-## Objetivo
-
-## Metodologia
-
-## Conteúdo
-
-Se tiver tabela, colocar fonte da tabela
-
-Ex: Fulano de tal, 2025.
-
-## Referências
-
-- Ordem Alfabetica
-
-## Nível de Contribuição dos Integrantes
-
-| Nome | % de Contribuição |
-| ---- | ----------------- |
-|      |                   |
-|      |                   |
-
-## Histórico de versão
-
-| Versão | Data | Descrição | Autor(es) | Revisor |
-| :----: | ---- | :-------- | :-------- | :------ |
-|        |      |           |           |         |
 
 | Nº  | Compromissos | Responsável | Data |
 | :-: | :----------: | :---------: | :--: |
 |     |              |             |      |
+
+## Modelo de Artefato Padrão
+
+[Modelo de Página padrão](../../00_assets/pdfs/artefato_padrao.md)
 
 ## Histórico de versão
 
@@ -126,4 +98,5 @@ Ex: Fulano de tal, 2025.
 |  1.0   | 04/09/2025 | Criação da Documentação                                     | Angélica  |   Raissa    |
 |  1.1   | 08/09/2025 | Adiciona a fonte da ata padrão em PDF, introdução da pagina | Angélica  |   Raissa    |
 |  1.2   | 29/09/2025 | Adicionando modelo de Artefato Padrão                       |  Raissa   |             |
-|  1.3   | 02/09/2025 | Formatação e organização do documento                       |  Samuel   |      -      |
+|  1.3   | 02/09/2025 | Formatação e organização do documento                       |  Samuel   |      Raissa      |
+|  1.4   | 23/11/2025 | Organizando documento "Modelo de artefato Padrão"                     |  Raissa   |      -      |

@@ -39,6 +39,8 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 | RF18 {#rf18} | Permitir controle de cookies                                     |       Personalização        | O sistema deve permitir que o usuário configure seu navegador para aceitar ou bloquear cookies.                                     | [AD18](../tecnicas/analise_documentos.md#ad18) |
 | RF19 {#rf19} | Solicitar atualização de dados pessoais                          |  Gerenciamento de Usuários  | O sistema deve permitir que o usuário atualize seus dados pessoais e comunicar alterações.                                          | [AD19](../tecnicas/analise_documentos.md#ad19) |
 
+Fonte: Samuel, 2025
+
 ### RF20 - RF37: Requisitos da Observação
 
 |        ID        | Requisitos                      |        Categoria         | Descrição                                                                                                     |                  Fonte                   |
@@ -64,11 +66,15 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 |   RF36 {#rf36}   | Compartilhar carta              |  Interação com Usuários  | Permitir que o usuário compartilhe informações da carta em redes sociais ou por link direto                   | [OBS17](../tecnicas/observacao.md#obs17) |
 |   RF37 {#rf37}   | Reportar problemas              |  Interação com Usuários  | Permitir que o usuário reporte problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.) | [OBS18](../tecnicas/observacao.md#obs18) |
 
+Fonte: Samuel, 2025
+
 ### RF38: Requisitos da Entrevista
 
 |      ID      | Requisitos | Categoria | Descrição                                                                            |                 Fonte                  |
 | :----------: | :--------- | :-------: | :----------------------------------------------------------------------------------- | :------------------------------------: |
 | RF38 {#rf38} | Gerenciar e Catalogar cartas           | Interação com Cartas          | Os usuários devem ser capazes de catalogar e gerenciar sua coleção pessoal de cartas | [EN01](../tecnicas/entrevista.md#en01) |
+
+Fonte: Samuel, 2025
 
 ## Requisitos Não Funcionais Consolidados
 
@@ -84,6 +90,8 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 | RNF06 {#rnf06} | Atualização do Sistema                             |     Disponibilidade     | O sistema deve suportar alterações na configuração ou apresentação sem interromper o uso                              | [AD25](../tecnicas/analise_documentos.md#ad25) |
 | RNF07 {#rnf07} | Informações Legais e Tributárias                   |     Confiabilidade      | Garantir que anúncios incluam informações fiscais corretas                                                            | [AD26](../tecnicas/analise_documentos.md#ad26) |
 
+Fonte: Samuel, 2025 
+
 ### RNF08 - RNF16: Requisitos da Observação
 
 |       ID       | Requisitos                      |        Categoria        | Descrição                                                                                                                                                                                                                | Fonte                                    |
@@ -98,6 +106,8 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 | RNF15 {#rnf15} | Backup de dados                 |     Confiabilidade      | O sistema deve realizar backup automático dos dados a cada 24 horas                                                                                                                                                      | [OBS26](../tecnicas/observacao.md#obs26) |
 | RNF16 {#rnf16} | Escalabilidade                  |       Performance       | O sistema deve suportar um aumento de 50% no número de usuários simultâneos sem degradação significativa de performance                                                                                                  | [OBS27](../tecnicas/observacao.md#obs27) |
 
+Fonte: Samuel, 2025 
+
 ## Requisitos Não Funcionais Não Implementados
 
 |      ID      | Requisitos                   |          Categoria           | Descrição                                                                                                                                                                                    | Fonte                                          |
@@ -106,12 +116,16 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 | NI02 {#ni02} | Procedimento para Incidentes | Procedimento para Incidentes | O documento não prevê ou detalha os procedimentos a serem adotados em caso de incidente de segurança ou vazamento de dados.                                                                  | [AD28](../tecnicas/analise_documentos.md#ad28) |
 | NI03 {#ni03} | Base Legal Específica        |  Parcialmente Implementado   | O documento afirma o cumprimento da LGPD, mas não explica claramente a base legal específica (ex: consentimento, contrato, legítimo interesse) para cada finalidade de tratamento declarada. | [AD29](../tecnicas/analise_documentos.md#ad29) |
 
+Fonte: Samuel, 2025 
+
 ## Matriz de Rastreabilidade
 
 | Técnica de Elicitação                                      | Requisitos Funcionais | Requisitos Não Funcionais | Requisitos Não Funcionais Não Implementados |
 | :--------------------------------------------------------- | :-------------------: | :-----------------------: | :-----------------------------------------: |
 | [Análise de Documentos](../tecnicas/analise_documentos.md) |      RF01 - RF19      |       RNF01 - RNF07       |                 NI01 - NI03                 |
 | [Observação](../tecnicas/observacao.md)                    |      RF20 - RF37      |       RNF08 - RNF16       |                      -                      |
+
+Fonte: Samuel, 2025 
 
 ## Resumo Quantitativo
 
@@ -134,3 +148,5 @@ As seguintes técnicas de elicitação foram aplicadas para identificar os requi
 | :----: | :--------: | :--------------------------------------------- | :-----------------------------------------: | :------------------------------------------: |
 |  1.0   | 04/10/2025 | Criação do documento consolidado de requisitos | [Samuel](https://github.com/samuelncaetano) | [Vera Lucia](https://github.com/verabelucia) |
 |  1.1   | 12/10/2025 | Melhorada a rastreabilidade dos requisitos     | [Samuel](https://github.com/samuelncaetano) | [Vera Lucia](https://github.com/verabelucia) |
+|  1.2   | 23/11/2025 | Adicionando fontes das tabelas    | Raissa  |  |
+
