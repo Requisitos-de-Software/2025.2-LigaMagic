@@ -47,7 +47,11 @@ Gosto bastante da parte de documentação do projeto. A disciplina tem muito a a
 
 ---
 
+### Guilherme
 
+A disciplina foi um grande desafio, mas abriu muito meus olhos, já que eu não conhecia boa parte do que existe por trás do desenvolvimento de um projeto real. Entender como dar o primeiro passo, quais etapas existem e como tudo se conecta foi essencial para minha formação. Realizar cada entrega foi importante para meu aprendizado e para enxergar o processo de requisitos com mais maturidade. Apesar de achar algumas partes mais abstratas um pouco complexas, a matéria como um todo trouxe um crescimento enorme e será muito útil para meu futuro profissional.
+
+---
 
 ## Nível de Contribuição dos Integrantes
 
@@ -57,6 +61,8 @@ Gosto bastante da parte de documentação do projeto. A disciplina tem muito a a
 | Thiago  |      14,28%       |
 | Marcelo |      14,28%       |
 | Vera    |      14,28%       |
+| Guilherme    |      14,28%       |
+
 
 ## Histórico de versão
 
@@ -67,3 +73,4 @@ Gosto bastante da parte de documentação do projeto. A disciplina tem muito a a
 |  1.2   | 23/11/2025 | Adição do meu relatório |  Marcelo  |  Vera   |
 |  1.3   | 23/11/2025 | Adição do relatório     |   Vera    | Raissa  |
 |  1.4   | 24/11/2025 | Adição do relatório     |   Raissa    | Thiago  |
+|  1.4   | 24/11/2025 | Adição do relatório     |   Guilherme    | Thiago  |
