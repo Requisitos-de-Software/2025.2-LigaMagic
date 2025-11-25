@@ -51,65 +51,50 @@ A metodologia seguiu as seguintes etapas:
 
 #### Protótipo 01: Deve permitir envio e respostas a mensagens no fórum (RFNI02) {#prototipo01}
 
-<div align="center">
-<img src="../00_assets/images/prototipos/forum/mensagens_no_forum_pag_1.png" alt="Mensagens no fórum - Pág. 1" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/forum/mensagens_no_forum_pag_1.png)
 
 **Fonte:** Samuel, 2025.
 
-<div align="center">
-<img src="../00_assets/images/prototipos/forum/mensagens_no_forum_pag_2.png" alt="Mensagens no fórum - Pág. 2" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/forum/mensagens_no_forum_pag_2.png)
 
 **Fonte:** Samuel, 2025.
 
-<div align="center">
-<img src="../00_assets/images/prototipos/forum/mensagens_no_forum_pag_3.png" alt="Mensagens no fórum - Pág. 3" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/forum/mensagens_no_forum_pag_3.png)
 
 **Fonte:** Samuel, 2025.
 
 #### Protótipo 02: Compartilhar carta (RFNI06) {#prototipo02}
 
-<div align="center">
-<img src="../00_assets/images/prototipos/link/compartilhar_carta_pag_1.png" alt="Compartilhar carta - Pág. 1" width="500px" style="margin: 10px;">
-</div>
+
+
+![alt text](../00_assets/images/prototipos/link/compartilhar_carta_pag_1.png)
 
 **Fonte:** Samuel, 2025.
 
-<div align="center">
-<img src="../00_assets/images/prototipos/link/compartilhar_carta_pag_2.png" alt="Compartilhar carta - Pág. 2" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/link/compartilhar_carta_pag_2.png)
 
 **Fonte:** Samuel, 2025.
 
-<div align="center">
-<img src="../00_assets/images/prototipos/link/compartilhar_carta_pag_3.png" alt="Compartilhar carta - Pág. 3" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/link/compartilhar_carta_pag_3.png)
 
 **Fonte:** Samuel, 2025.
 
 #### Protótipo 03: Wishlist de Cartas (RFNI14) {#prototipo03}
 
-<div align="center">
-<img src="../00_assets/images/prototipos/angelica/Frame5.png" alt="Wishlist de Cartas" width="700px" style="margin: 5px;">
-</div>
+![alt text](../00_assets/images/prototipos/angelica/Frame5.png)
 
 **Fonte:** Angélica, 2025.
 
 #### Protótipo 04: Comparação de Cartas (RFNI16) {#prototipo04}
 
-<div align="center">
-<img src="../00_assets/images/prototipos/angelica/Frame6.png" alt="Comparação de Cartas" width="700px" style="margin: 5px;">
-</div>
+![alt text](../00_assets/images/prototipos/angelica/Frame6.png)
+
 
 **Fonte:** Angélica, 2025.
 
 #### Protótipo 05: Recomendações Automáticas (RFNI17) {#prototipo05}
 
-<div align="center">
-<img src="../00_assets/images/prototipos/angelica/Frame7.png" alt="Recomendações Automáticas" width="700px" style="margin: 5px;">
-</div>
+![alt text](../00_assets/images/prototipos/angelica/Frame7.png)
 
 **Fonte:** Angélica, 2025.
 
@@ -119,67 +104,47 @@ A metodologia seguiu as seguintes etapas:
 
 #### Protótipo 07: Avaliação de vendedores (RFNI04) {#prototipo07}
 
-<div align="center">
-<img src="../00_assets/images/prototipos/RFNI04/Meus Pedidos.png" alt="Meus Pedidos" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/RFNI04/MeusPedidos.png)
 
 **Fonte:** Thiago, 2025.
 
-<div align="center">
-<img src="../00_assets/images/prototipos/RFNI04/Avaliação.png" alt="Avaliação" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/RFNI04/Avaliação.png)
 
 **Fonte:** Thiago, 2025.
 
 #### Protótipo 08: Catalogar coleção pessoal de cartas (RFNI10) {#prototipo08}
 
-<div align="center">
-<img src="../00_assets/images/prototipos/RFNI10/Minha Coleção.png" alt="Minha Coleção" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/RFNI10/MinhaColeção.png)
 
 **Fonte:** Thiago, 2025.
 
-<div align="center">
-<img src="../00_assets/images/prototipos/RFNI10/Pesquisar Nova Carta.png" alt="Pesquisar Nova Carta" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/RFNI10/PesquisarNovaCarta.png)
 
 **Fonte:** Thiago, 2025.
 
-<div align="center">
-<img src="../00_assets/images/prototipos/RFNI10/Adicionar Carta.png" alt="Adicionar Carta" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/RFNI10/AdicionarCarta.png)
 
 **Fonte:** Thiago, 2025.
 
-<div align="center">
-<img src="../00_assets/images/prototipos/RFNI10/Detalhes da Carta.png" alt="Detalhes da Carta" width="500px" style="margin: 10px;">
-</div>
+![alt text](../00_assets/images/prototipos/RFNI10/DetalhesdaCarta.png)
 
 **Fonte:** Thiago, 2025.
 
 #### Protótipo 09: Alerta de preço para uma carta selecionada (RFNI05) {#prototipo09}
 
-<div align="center">
-  <div style="display: inline-block; margin: 10px;">
-    <img src="../00_assets/images/prototipos/RFNI05/telaCarta.png" alt="Detalhes da Carta 1" width="250px">
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="../00_assets/images/prototipos/RFNI05/telaPreço.png" alt="Detalhes da Carta 2" width="250px">
-  </div>
-</div>
+
+![alt text](../00_assets/images/prototipos/RFNI05/telaCarta.png)
+
+![alt text](../00_assets/images/prototipos/RFNI05/telaPreço.png)
 
 **Fonte:** Vera, 2025
 
 #### Protótipo 10: Reportar problemas relacionados à carta (erros de informação, anúncios suspeitos, etc.)(RFNI07) {#prototipo10}
 
-<div align="center">
-  <div style="display: inline-block; margin: 10px;">
-    <img src="../00_assets/images/prototipos/RFNI07/telaCarta2.png" alt="Detalhes da Carta 1" width="250px">
-  </div>
-  <div style="display: inline-block; margin: 10px;">
-    <img src="../00_assets/images/prototipos/RFNI07/telaReporte.png" alt="Detalhes da Carta 2" width="250px">
-  </div>
-</div>
+
+![alt text](../00_assets/images/prototipos/RFNI07/telaCarta2.png)
+
+![alt text](../00_assets/images/prototipos/RFNI07/telaReporte.png)
 
 **Fonte:** Vera, 2025
 

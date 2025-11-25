@@ -4,7 +4,7 @@
 
 Esta seção reúne a apresentação referente à sexta entrega do projeto. O objetivo é a apresentação final do trabalho.
 
-## Video da apresentação 5
+## Video da apresentação 6
 
 [Assista ao vídeo no YouTube](https://youtu.be/1qjfZtVbQhg)
 
